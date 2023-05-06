@@ -5,26 +5,109 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: node_🇨🇳_CN, server: 223.167.41.202, port: 63078, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}}
-  - {name: node_🇸🇬_SG, server: sg2.hneko.online, port: 51117, type: trojan, password: a1b5ee2e-1e69-451c-b5dd-7c6c577a4bcc, skip-cert-verify: true}
-  - {name: node_🇨🇳_CN 2, server: sw.tbstbstbstbs666.com, port: 18807, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}}
-  - {name: node_🇰🇷_KR, server: kr-2.vuex.eu.org, port: 9898, type: vmess, uuid: 48dcd875-e987-4a41-9591-d55ab5ee7921, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr-2.vuex.eu.org}}}
-  - {name: node_🇩🇪_DE, server: bozbozghandi.foriran.nl, port: 443, type: trojan, password: 1c991ee6-6b47-475a-9a94-c2073bb7c43d, sni: bozbozghandi.foriran.nl, skip-cert-verify: true}
-  - {name: node_🇺🇸_US, server: usa6.hneko.online, port: 41113, type: trojan, password: a1b5ee2e-1e69-451c-b5dd-7c6c577a4bcc, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 2, server: usa3.hneko.online, port: 54444, type: trojan, password: a1b5ee2e-1e69-451c-b5dd-7c6c577a4bcc, skip-cert-verify: true}
-  - {name: node_🇨🇳_CN 3, server: t.cccao.cyou, port: 16627, type: vmess, uuid: ad3f9bf7-d8d1-47df-a6bd-77ff50037339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}}
-  - {name: node_🇭🇰_HK, server: ua.mjt001.com, port: 443, type: trojan, password: ad3f9bf7-d8d1-47df-a6bd-77ff50037339, sni: ua.mjt001.com, skip-cert-verify: true}
-  - {name: node_🇰🇷_KR 2, server: 146.56.129.52, port: 9898, type: vmess, uuid: 8f8f0cbc-9673-42c5-af85-76326fdab59e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: node_🇺🇸_US 3, server: usa6.hneko.online, port: 42111, type: trojan, password: a1b5ee2e-1e69-451c-b5dd-7c6c577a4bcc, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 4, server: usa2.hneko.online, port: 41144, type: trojan, password: a1b5ee2e-1e69-451c-b5dd-7c6c577a4bcc, skip-cert-verify: true}
-  - {name: node_🇯🇵_JP, server: jp11.hneko.online, port: 56334, type: trojan, password: a1b5ee2e-1e69-451c-b5dd-7c6c577a4bcc, skip-cert-verify: true}
-  - {name: node_🇨🇳_CN 4, server: t.cccao.cyou, port: 16616, type: vmess, uuid: ad3f9bf7-d8d1-47df-a6bd-77ff50037339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}}
-  - {name: node_🇨🇳_CN 5, server: yes.iamagoodman.net, port: 16617, type: vmess, uuid: ad3f9bf7-d8d1-47df-a6bd-77ff50037339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}}
-  - {name: node_🇭🇰_HK 2, server: hk3.microsoftjs.top, port: 80, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
-  - {name: node_🇭🇰_HK 3, server: hk1.microsoftjs.top, port: 80, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
-  - {name: node_🇭🇰_HK 4, server: hk2.microsoftjs.top, port: 80, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
-  - {name: node_🇸🇬_SG 2, server: sg12.microsoftjs.top, port: 80, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
-  - {name: node_🇨🇳_CN 6, server: gdcm.v-too.cloud, port: 38405, type: ss, cipher: chacha20-ietf-poly1305, password: 96a1e46a-f13c-4b5c-8547-5fcdbe6eb902}
+  - {name: node_🇮🇳_IN, server: awsin2-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇮🇳_IN 2, server: awsin1-tg-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP, server: awsjp18-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇺🇸_US, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}}
+  - {name: node_🇯🇵_JP 2, server: awsjp4-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 3, server: awsjp19-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG, server: awssg20-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇮🇳_IN 3, server: awsin3-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN, server: sw.tbstbstbstbs666.com, port: 18807, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}}
+  - {name: node_🇱🇺_LU, server: 107.189.5.112, port: 7341, type: vmess, uuid: 2c7eb798-b8ce-41d9-8ca0-e649e99716e3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1kgn7K, headers: {Host: gbdfesed.uk}}}
+  - {name: node_🇭🇰_HK, server: hk8.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 2, server: hk14.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 3, server: hk2.microsoftjs.top, port: 80, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇮🇹_IT, server: 18.102.72.200, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 4, server: awshk19-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 2, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: node_🇯🇵_JP 4, server: awsjp13-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 5, server: awshk2-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 2, server: hk13.microsoftjs.top, port: 80, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 2, server: awssg15-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 3, server: atal.foriran.nl, port: 443, type: vmess, uuid: 1c991ee6-6b47-475a-9a94-c2073bb7c43d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /oxumf16QGlH2RNNWZFr, headers: {Host: atal.foriran.nl}}}
+  - {name: node_🇯🇵_JP 5, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 6, server: awshk20-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 7, server: hk19.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 6, server: awsjp20-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 8, server: hk9.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 9, server: hk11.microsoftjs.top, port: 80, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 3, server: awshk18-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 10, server: hk5.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 4, server: awshk14-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇰🇷_KR, server: awskr4-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 7, server: agroup.node1.t.nodelist-gfwairport1.download, port: 50001, type: trojan, password: ca76834c-3e07-4c44-8347-ec19c26087cb, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 4, server: 172.67.147.152, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cutino, headers: {Host: chat.samrg.buzz}}}
+  - {name: node_🇯🇵_JP 8, server: awsjp2-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 5, server: sw.tbstbstbstbs666.com, port: 18807, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}}
+  - {name: node_🇨🇳_CN 6, server: awshk16-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 5, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}}
+  - {name: node_🇺🇸_US 6, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}}
+  - {name: node_🇺🇸_US 7, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}}
+  - {name: node_🇩🇪_DE, server: 45.128.153.168, port: 33411, type: vmess, uuid: e748f5b1-5b7a-4398-fa1a-20a0cc1b2ec4, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: node_🇸🇬_SG 3, server: awssg14-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇹🇼_TW, server: tw1.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇸🇪_SE, server: cn.mlldxes.cloudns.nz, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.ilovescp.com}}}
+  - {name: node_🇸🇬_SG 4, server: awssg19-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 11, server: awshk17-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: node_🇯🇵_JP 9, server: awsjp11-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 10, server: awsjp3-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 9, server: 172.67.72.168, port: 8080, type: vmess, uuid: ca5a4e02-ce91-4e05-8ee9-ec45a288f742, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg:@hkaa0, headers: {Host: sg56.wyhkaa0.cf}}}
+  - {name: node_🇭🇰_HK 12, server: hk10.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 11, server: awsjp15-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 5, server: tw2.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 7, server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false}
+  - {name: node_🇮🇹_IT 2, server: 18.102.68.105, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 13, server: hk6.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: fr.sharecentrepro.org}}}
+  - {name: node_🇹🇼_TW 2, server: tw3.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 14, server: awshk5-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 8, server: awshk12-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 12, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: PT09JS%�, obfs-param: PT09JS%�}
+  - {name: node_🇨🇳_CN 9, server: 120.232.179.161, port: 63078, type: vmess, uuid: 55329786-3769-3d15-a552-ba42e4d8bae6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}}
+  - {name: node_🇭🇰_HK 15, server: awshk4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 13, server: awsjp17-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 16, server: hk3.microsoftjs.top, port: 80, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 6, server: awssg18-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 17, server: awshk15-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 14, server: awsjp1-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 7, server: awssg12-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 15, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: PT09PQ======, obfs-param: PT09PQ======}
+  - {name: node_🇭🇰_HK 18, server: hk12.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 10, server: 14.116.151.100, port: 63091, type: vmess, uuid: 55329786-3769-3d15-a552-ba42e4d8bae6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uk01-cdn.airport-v2.com}}}
+  - {name: node_🇸🇬_SG 8, server: awssg16-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 11, server: awshk1-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 12, server: udpn.10086.network, port: 1024, type: ss, cipher: chacha20-ietf-poly1305, password: 44dcf059-d913-4f7b-b6e1-eec803df02dd}
+  - {name: node_🇨🇳_CN 13, server: 120.232.179.161, port: 63021, type: vmess, uuid: 55329786-3769-3d15-a552-ba42e4d8bae6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uk01-cdn.airport-v2.com}}}
+  - {name: node_🇺🇸_US 11, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
+  - {name: node_🇯🇵_JP 16, server: awsjp12-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 12, server: 172.67.68.168, port: 8080, type: vmess, uuid: ca5a4e02-ce91-4e05-8ee9-ec45a288f742, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg:@hkaa0, headers: {Host: sg56.wyhkaa0.cf}}}
+  - {name: node_🇭🇰_HK 19, server: awshk11-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 17, server: 43.206.138.232, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 18, server: awsjp16-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 9, server: awssg5-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: node_🇰🇷_KR 2, server: awskr2-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 10, server: awssg13-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: node_🇫🇷_FR, server: 173.245.49.150, port: 8080, type: vmess, uuid: ca5a4e02-ce91-4e05-8ee9-ec45a288f742, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg:@hkaa0, headers: {Host: sg56.wyhkaa0.cf}}}
+  - {name: node_🇭🇰_HK 20, server: hk7.microsoftjs.top, port: 80, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 14, server: 120.232.179.161, port: 63084, type: vmess, uuid: 55329786-3769-3d15-a552-ba42e4d8bae6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de01-cdn.airport-v2.com}}}
+  - {name: node_🇸🇬_SG 11, server: awssg11-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 15, server: 120.226.50.76, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: node_🇭🇰_HK 21, server: hk4.microsoftjs.top, port: 443, type: trojan, password: 615c81cb-8dac-412b-9231-52629f960d73, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 12, server: 13.215.140.145, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 19, server: awsjp5-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 13, server: azsg2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: node_🇭🇰_HK 22, server: hkt4.amazonwebservicess.com, port: 80, type: vmess, uuid: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aws-china-media/Y699Gjx2rNw.mp4, headers: {Host: media.amazonwebservices.com}}}
+  - {name: node_🇨🇳_CN 16, server: ahcm.v-too.cloud, port: 10259, type: ss, cipher: chacha20-ietf-poly1305, password: 93db748f-faba-4b98-a4a7-6568e09f264c}
+  - {name: node_🇨🇦_CA, server: 199.212.90.14, port: 443, type: vmess, uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: node_🇸🇬_SG 14, server: awssg1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 15, server: awssg17-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 16, server: awssg4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 17, server: awssg3-data.amazon-azure.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 18, server: 13.215.194.103, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: node_🇸🇬_SG 19, server: awssg2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: node_🇯🇵_JP 20, server: 43.206.255.205, port: 443, type: trojan, password: 931a1b95-437c-4c39-b9d0-6b1f40bdcba4, sni: data.amazon-azure.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -36,102 +119,434 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - node_🇨🇳_CN
-      - node_🇸🇬_SG
-      - node_🇨🇳_CN 2
-      - node_🇰🇷_KR
-      - node_🇩🇪_DE
-      - node_🇺🇸_US
-      - node_🇺🇸_US 2
-      - node_🇨🇳_CN 3
-      - node_🇭🇰_HK
-      - node_🇰🇷_KR 2
-      - node_🇺🇸_US 3
-      - node_🇺🇸_US 4
+      - node_🇮🇳_IN
+      - node_🇮🇳_IN 2
       - node_🇯🇵_JP
-      - node_🇨🇳_CN 4
-      - node_🇨🇳_CN 5
+      - node_🇺🇸_US
+      - node_🇯🇵_JP 2
+      - node_🇯🇵_JP 3
+      - node_🇸🇬_SG
+      - node_🇮🇳_IN 3
+      - node_🇨🇳_CN
+      - node_🇱🇺_LU
+      - node_🇭🇰_HK
       - node_🇭🇰_HK 2
       - node_🇭🇰_HK 3
+      - node_🇮🇹_IT
       - node_🇭🇰_HK 4
+      - node_🇺🇸_US 2
+      - node_🇯🇵_JP 4
+      - node_🇭🇰_HK 5
+      - node_🇨🇳_CN 2
       - node_🇸🇬_SG 2
+      - node_🇺🇸_US 3
+      - node_🇯🇵_JP 5
+      - node_🇭🇰_HK 6
+      - node_🇭🇰_HK 7
+      - node_🇯🇵_JP 6
+      - node_🇭🇰_HK 8
+      - node_🇭🇰_HK 9
+      - node_🇨🇳_CN 3
+      - node_🇭🇰_HK 10
+      - node_🇨🇳_CN 4
+      - node_🇰🇷_KR
+      - node_🇯🇵_JP 7
+      - node_🇺🇸_US 4
+      - node_🇯🇵_JP 8
+      - node_🇨🇳_CN 5
       - node_🇨🇳_CN 6
+      - node_🇺🇸_US 5
+      - node_🇺🇸_US 6
+      - node_🇺🇸_US 7
+      - node_🇩🇪_DE
+      - node_🇸🇬_SG 3
+      - node_🇹🇼_TW
+      - node_🇸🇪_SE
+      - node_🇸🇬_SG 4
+      - node_🇭🇰_HK 11
+      - node_🇺🇸_US 8
+      - node_🇯🇵_JP 9
+      - node_🇯🇵_JP 10
+      - node_🇺🇸_US 9
+      - node_🇭🇰_HK 12
+      - node_🇯🇵_JP 11
+      - node_🇸🇬_SG 5
+      - node_🇨🇳_CN 7
+      - node_🇮🇹_IT 2
+      - node_🇭🇰_HK 13
+      - node_🇺🇸_US 10
+      - node_🇹🇼_TW 2
+      - node_🇭🇰_HK 14
+      - node_🇨🇳_CN 8
+      - node_🇯🇵_JP 12
+      - node_🇨🇳_CN 9
+      - node_🇭🇰_HK 15
+      - node_🇯🇵_JP 13
+      - node_🇭🇰_HK 16
+      - node_🇸🇬_SG 6
+      - node_🇭🇰_HK 17
+      - node_🇯🇵_JP 14
+      - node_🇸🇬_SG 7
+      - node_🇯🇵_JP 15
+      - node_🇭🇰_HK 18
+      - node_🇨🇳_CN 10
+      - node_🇸🇬_SG 8
+      - node_🇨🇳_CN 11
+      - node_🇨🇳_CN 12
+      - node_🇨🇳_CN 13
+      - node_🇺🇸_US 11
+      - node_🇯🇵_JP 16
+      - node_🇺🇸_US 12
+      - node_🇭🇰_HK 19
+      - node_🇯🇵_JP 17
+      - node_🇯🇵_JP 18
+      - node_🇸🇬_SG 9
+      - node_🇰🇷_KR 2
+      - node_🇸🇬_SG 10
+      - node_🇫🇷_FR
+      - node_🇭🇰_HK 20
+      - node_🇨🇳_CN 14
+      - node_🇸🇬_SG 11
+      - node_🇨🇳_CN 15
+      - node_🇭🇰_HK 21
+      - node_🇸🇬_SG 12
+      - node_🇯🇵_JP 19
+      - node_🇸🇬_SG 13
+      - node_🇭🇰_HK 22
+      - node_🇨🇳_CN 16
+      - node_🇨🇦_CA
+      - node_🇸🇬_SG 14
+      - node_🇸🇬_SG 15
+      - node_🇸🇬_SG 16
+      - node_🇸🇬_SG 17
+      - node_🇸🇬_SG 18
+      - node_🇸🇬_SG 19
+      - node_🇯🇵_JP 20
   - name: 🐟 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - node_🇨🇳_CN
-      - node_🇸🇬_SG
-      - node_🇨🇳_CN 2
-      - node_🇰🇷_KR
-      - node_🇩🇪_DE
-      - node_🇺🇸_US
-      - node_🇺🇸_US 2
-      - node_🇨🇳_CN 3
-      - node_🇭🇰_HK
-      - node_🇰🇷_KR 2
-      - node_🇺🇸_US 3
-      - node_🇺🇸_US 4
+      - node_🇮🇳_IN
+      - node_🇮🇳_IN 2
       - node_🇯🇵_JP
-      - node_🇨🇳_CN 4
-      - node_🇨🇳_CN 5
+      - node_🇺🇸_US
+      - node_🇯🇵_JP 2
+      - node_🇯🇵_JP 3
+      - node_🇸🇬_SG
+      - node_🇮🇳_IN 3
+      - node_🇨🇳_CN
+      - node_🇱🇺_LU
+      - node_🇭🇰_HK
       - node_🇭🇰_HK 2
       - node_🇭🇰_HK 3
+      - node_🇮🇹_IT
       - node_🇭🇰_HK 4
+      - node_🇺🇸_US 2
+      - node_🇯🇵_JP 4
+      - node_🇭🇰_HK 5
+      - node_🇨🇳_CN 2
       - node_🇸🇬_SG 2
+      - node_🇺🇸_US 3
+      - node_🇯🇵_JP 5
+      - node_🇭🇰_HK 6
+      - node_🇭🇰_HK 7
+      - node_🇯🇵_JP 6
+      - node_🇭🇰_HK 8
+      - node_🇭🇰_HK 9
+      - node_🇨🇳_CN 3
+      - node_🇭🇰_HK 10
+      - node_🇨🇳_CN 4
+      - node_🇰🇷_KR
+      - node_🇯🇵_JP 7
+      - node_🇺🇸_US 4
+      - node_🇯🇵_JP 8
+      - node_🇨🇳_CN 5
       - node_🇨🇳_CN 6
+      - node_🇺🇸_US 5
+      - node_🇺🇸_US 6
+      - node_🇺🇸_US 7
+      - node_🇩🇪_DE
+      - node_🇸🇬_SG 3
+      - node_🇹🇼_TW
+      - node_🇸🇪_SE
+      - node_🇸🇬_SG 4
+      - node_🇭🇰_HK 11
+      - node_🇺🇸_US 8
+      - node_🇯🇵_JP 9
+      - node_🇯🇵_JP 10
+      - node_🇺🇸_US 9
+      - node_🇭🇰_HK 12
+      - node_🇯🇵_JP 11
+      - node_🇸🇬_SG 5
+      - node_🇨🇳_CN 7
+      - node_🇮🇹_IT 2
+      - node_🇭🇰_HK 13
+      - node_🇺🇸_US 10
+      - node_🇹🇼_TW 2
+      - node_🇭🇰_HK 14
+      - node_🇨🇳_CN 8
+      - node_🇯🇵_JP 12
+      - node_🇨🇳_CN 9
+      - node_🇭🇰_HK 15
+      - node_🇯🇵_JP 13
+      - node_🇭🇰_HK 16
+      - node_🇸🇬_SG 6
+      - node_🇭🇰_HK 17
+      - node_🇯🇵_JP 14
+      - node_🇸🇬_SG 7
+      - node_🇯🇵_JP 15
+      - node_🇭🇰_HK 18
+      - node_🇨🇳_CN 10
+      - node_🇸🇬_SG 8
+      - node_🇨🇳_CN 11
+      - node_🇨🇳_CN 12
+      - node_🇨🇳_CN 13
+      - node_🇺🇸_US 11
+      - node_🇯🇵_JP 16
+      - node_🇺🇸_US 12
+      - node_🇭🇰_HK 19
+      - node_🇯🇵_JP 17
+      - node_🇯🇵_JP 18
+      - node_🇸🇬_SG 9
+      - node_🇰🇷_KR 2
+      - node_🇸🇬_SG 10
+      - node_🇫🇷_FR
+      - node_🇭🇰_HK 20
+      - node_🇨🇳_CN 14
+      - node_🇸🇬_SG 11
+      - node_🇨🇳_CN 15
+      - node_🇭🇰_HK 21
+      - node_🇸🇬_SG 12
+      - node_🇯🇵_JP 19
+      - node_🇸🇬_SG 13
+      - node_🇭🇰_HK 22
+      - node_🇨🇳_CN 16
+      - node_🇨🇦_CA
+      - node_🇸🇬_SG 14
+      - node_🇸🇬_SG 15
+      - node_🇸🇬_SG 16
+      - node_🇸🇬_SG 17
+      - node_🇸🇬_SG 18
+      - node_🇸🇬_SG 19
+      - node_🇯🇵_JP 20
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - node_🇨🇳_CN
-      - node_🇸🇬_SG
-      - node_🇨🇳_CN 2
-      - node_🇰🇷_KR
-      - node_🇩🇪_DE
-      - node_🇺🇸_US
-      - node_🇺🇸_US 2
-      - node_🇨🇳_CN 3
-      - node_🇭🇰_HK
-      - node_🇰🇷_KR 2
-      - node_🇺🇸_US 3
-      - node_🇺🇸_US 4
+      - node_🇮🇳_IN
+      - node_🇮🇳_IN 2
       - node_🇯🇵_JP
-      - node_🇨🇳_CN 4
-      - node_🇨🇳_CN 5
+      - node_🇺🇸_US
+      - node_🇯🇵_JP 2
+      - node_🇯🇵_JP 3
+      - node_🇸🇬_SG
+      - node_🇮🇳_IN 3
+      - node_🇨🇳_CN
+      - node_🇱🇺_LU
+      - node_🇭🇰_HK
       - node_🇭🇰_HK 2
       - node_🇭🇰_HK 3
+      - node_🇮🇹_IT
       - node_🇭🇰_HK 4
+      - node_🇺🇸_US 2
+      - node_🇯🇵_JP 4
+      - node_🇭🇰_HK 5
+      - node_🇨🇳_CN 2
       - node_🇸🇬_SG 2
+      - node_🇺🇸_US 3
+      - node_🇯🇵_JP 5
+      - node_🇭🇰_HK 6
+      - node_🇭🇰_HK 7
+      - node_🇯🇵_JP 6
+      - node_🇭🇰_HK 8
+      - node_🇭🇰_HK 9
+      - node_🇨🇳_CN 3
+      - node_🇭🇰_HK 10
+      - node_🇨🇳_CN 4
+      - node_🇰🇷_KR
+      - node_🇯🇵_JP 7
+      - node_🇺🇸_US 4
+      - node_🇯🇵_JP 8
+      - node_🇨🇳_CN 5
       - node_🇨🇳_CN 6
+      - node_🇺🇸_US 5
+      - node_🇺🇸_US 6
+      - node_🇺🇸_US 7
+      - node_🇩🇪_DE
+      - node_🇸🇬_SG 3
+      - node_🇹🇼_TW
+      - node_🇸🇪_SE
+      - node_🇸🇬_SG 4
+      - node_🇭🇰_HK 11
+      - node_🇺🇸_US 8
+      - node_🇯🇵_JP 9
+      - node_🇯🇵_JP 10
+      - node_🇺🇸_US 9
+      - node_🇭🇰_HK 12
+      - node_🇯🇵_JP 11
+      - node_🇸🇬_SG 5
+      - node_🇨🇳_CN 7
+      - node_🇮🇹_IT 2
+      - node_🇭🇰_HK 13
+      - node_🇺🇸_US 10
+      - node_🇹🇼_TW 2
+      - node_🇭🇰_HK 14
+      - node_🇨🇳_CN 8
+      - node_🇯🇵_JP 12
+      - node_🇨🇳_CN 9
+      - node_🇭🇰_HK 15
+      - node_🇯🇵_JP 13
+      - node_🇭🇰_HK 16
+      - node_🇸🇬_SG 6
+      - node_🇭🇰_HK 17
+      - node_🇯🇵_JP 14
+      - node_🇸🇬_SG 7
+      - node_🇯🇵_JP 15
+      - node_🇭🇰_HK 18
+      - node_🇨🇳_CN 10
+      - node_🇸🇬_SG 8
+      - node_🇨🇳_CN 11
+      - node_🇨🇳_CN 12
+      - node_🇨🇳_CN 13
+      - node_🇺🇸_US 11
+      - node_🇯🇵_JP 16
+      - node_🇺🇸_US 12
+      - node_🇭🇰_HK 19
+      - node_🇯🇵_JP 17
+      - node_🇯🇵_JP 18
+      - node_🇸🇬_SG 9
+      - node_🇰🇷_KR 2
+      - node_🇸🇬_SG 10
+      - node_🇫🇷_FR
+      - node_🇭🇰_HK 20
+      - node_🇨🇳_CN 14
+      - node_🇸🇬_SG 11
+      - node_🇨🇳_CN 15
+      - node_🇭🇰_HK 21
+      - node_🇸🇬_SG 12
+      - node_🇯🇵_JP 19
+      - node_🇸🇬_SG 13
+      - node_🇭🇰_HK 22
+      - node_🇨🇳_CN 16
+      - node_🇨🇦_CA
+      - node_🇸🇬_SG 14
+      - node_🇸🇬_SG 15
+      - node_🇸🇬_SG 16
+      - node_🇸🇬_SG 17
+      - node_🇸🇬_SG 18
+      - node_🇸🇬_SG 19
+      - node_🇯🇵_JP 20
   - name: 🎯 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - node_🇨🇳_CN
-      - node_🇸🇬_SG
-      - node_🇨🇳_CN 2
-      - node_🇰🇷_KR
-      - node_🇩🇪_DE
-      - node_🇺🇸_US
-      - node_🇺🇸_US 2
-      - node_🇨🇳_CN 3
-      - node_🇭🇰_HK
-      - node_🇰🇷_KR 2
-      - node_🇺🇸_US 3
-      - node_🇺🇸_US 4
+      - node_🇮🇳_IN
+      - node_🇮🇳_IN 2
       - node_🇯🇵_JP
-      - node_🇨🇳_CN 4
-      - node_🇨🇳_CN 5
+      - node_🇺🇸_US
+      - node_🇯🇵_JP 2
+      - node_🇯🇵_JP 3
+      - node_🇸🇬_SG
+      - node_🇮🇳_IN 3
+      - node_🇨🇳_CN
+      - node_🇱🇺_LU
+      - node_🇭🇰_HK
       - node_🇭🇰_HK 2
       - node_🇭🇰_HK 3
+      - node_🇮🇹_IT
       - node_🇭🇰_HK 4
+      - node_🇺🇸_US 2
+      - node_🇯🇵_JP 4
+      - node_🇭🇰_HK 5
+      - node_🇨🇳_CN 2
       - node_🇸🇬_SG 2
+      - node_🇺🇸_US 3
+      - node_🇯🇵_JP 5
+      - node_🇭🇰_HK 6
+      - node_🇭🇰_HK 7
+      - node_🇯🇵_JP 6
+      - node_🇭🇰_HK 8
+      - node_🇭🇰_HK 9
+      - node_🇨🇳_CN 3
+      - node_🇭🇰_HK 10
+      - node_🇨🇳_CN 4
+      - node_🇰🇷_KR
+      - node_🇯🇵_JP 7
+      - node_🇺🇸_US 4
+      - node_🇯🇵_JP 8
+      - node_🇨🇳_CN 5
       - node_🇨🇳_CN 6
+      - node_🇺🇸_US 5
+      - node_🇺🇸_US 6
+      - node_🇺🇸_US 7
+      - node_🇩🇪_DE
+      - node_🇸🇬_SG 3
+      - node_🇹🇼_TW
+      - node_🇸🇪_SE
+      - node_🇸🇬_SG 4
+      - node_🇭🇰_HK 11
+      - node_🇺🇸_US 8
+      - node_🇯🇵_JP 9
+      - node_🇯🇵_JP 10
+      - node_🇺🇸_US 9
+      - node_🇭🇰_HK 12
+      - node_🇯🇵_JP 11
+      - node_🇸🇬_SG 5
+      - node_🇨🇳_CN 7
+      - node_🇮🇹_IT 2
+      - node_🇭🇰_HK 13
+      - node_🇺🇸_US 10
+      - node_🇹🇼_TW 2
+      - node_🇭🇰_HK 14
+      - node_🇨🇳_CN 8
+      - node_🇯🇵_JP 12
+      - node_🇨🇳_CN 9
+      - node_🇭🇰_HK 15
+      - node_🇯🇵_JP 13
+      - node_🇭🇰_HK 16
+      - node_🇸🇬_SG 6
+      - node_🇭🇰_HK 17
+      - node_🇯🇵_JP 14
+      - node_🇸🇬_SG 7
+      - node_🇯🇵_JP 15
+      - node_🇭🇰_HK 18
+      - node_🇨🇳_CN 10
+      - node_🇸🇬_SG 8
+      - node_🇨🇳_CN 11
+      - node_🇨🇳_CN 12
+      - node_🇨🇳_CN 13
+      - node_🇺🇸_US 11
+      - node_🇯🇵_JP 16
+      - node_🇺🇸_US 12
+      - node_🇭🇰_HK 19
+      - node_🇯🇵_JP 17
+      - node_🇯🇵_JP 18
+      - node_🇸🇬_SG 9
+      - node_🇰🇷_KR 2
+      - node_🇸🇬_SG 10
+      - node_🇫🇷_FR
+      - node_🇭🇰_HK 20
+      - node_🇨🇳_CN 14
+      - node_🇸🇬_SG 11
+      - node_🇨🇳_CN 15
+      - node_🇭🇰_HK 21
+      - node_🇸🇬_SG 12
+      - node_🇯🇵_JP 19
+      - node_🇸🇬_SG 13
+      - node_🇭🇰_HK 22
+      - node_🇨🇳_CN 16
+      - node_🇨🇦_CA
+      - node_🇸🇬_SG 14
+      - node_🇸🇬_SG 15
+      - node_🇸🇬_SG 16
+      - node_🇸🇬_SG 17
+      - node_🇸🇬_SG 18
+      - node_🇸🇬_SG 19
+      - node_🇯🇵_JP 20
   - name: 🛑 禁止代理
     type: select
     proxies:
