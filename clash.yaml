@@ -5,92 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: node_🇺🇸_US, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
-  - {name: node_🇸🇬_SG, server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 87283fe7-08e5-403b-a0aa-add7cd68a23e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3.twittei.me}}}
-  - {name: node_🇺🇸_US 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
-  - {name: node_🇸🇬_SG 2, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: node_🇺🇸_US 3, server: 135.148.149.209, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true}
-  - {name: node_🇸🇬_SG 3, server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 87283fe7-08e5-403b-a0aa-add7cd68a23e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ikun, headers: {Host: eu3.twittei.me}}}
-  - {name: node_🇷🇺_RU, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇺🇸_US 4, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}}
-  - {name: node_🇺🇸_US 5, server: 172.67.134.123, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: en.foriran.live}}}
-  - {name: node_🇯🇵_JP, server: 45.88.43.136, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇺🇸_US 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: jp.scproxy.top}}}
-  - {name: node_🇮🇳_IN, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 7, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}}
-  - {name: node_🇹🇼_TW, server: bgptw2.cnamazon.sbs, port: 443, type: trojan, password: a7d5f659-6ad2-4288-b63a-3d42bdf5b122, sni: bgptw2.cnamazon.sbs, skip-cert-verify: true}
-  - {name: node_🇹🇼_TW 2, server: stw8-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 8, server: 107.148.242.216, port: 54082, type: vmess, uuid: dcca1294-7097-44b7-bd49-5f51c73f532f, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇺🇸_US 9, server: 198.2.203.146, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇺🇸_US 10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
-  - {name: node_🇺🇸_US 11, server: 103.21.244.146, port: 443, type: vmess, uuid: 39304f36-8a9c-4692-9b31-d2997532f567, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}}
-  - {name: node_🇯🇵_JP 2, server: jp04-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 0, cipher: auto, tls: false}
-  - {name: node_🇺🇸_US 12, server: 23.224.110.246, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684230882527, headers: {Host: www.77039717.xyz}}}
-  - {name: node_🇹🇼_TW 3, server: stw10-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 13, server: 198.2.206.39, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684063265777, headers: {Host: www.14787414.com}}}
-  - {name: node_🇺🇸_US 14, server: 172.67.72.194, port: 80, type: vmess, uuid: 074c70d1-7479-4781-cf6d-e76515d4b0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vc.scyu.app}}}
-  - {name: node_🇺🇸_US 15, server: 192.74.229.220, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇺🇸_US 16, server: zslbs.vtcss.top, port: 80, type: vmess, uuid: c5c9844d-050e-44f1-cb6d-ec5166772631, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}}
-  - {name: node_🇺🇸_US 17, server: hendostan.foriran.nl, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: hendostan.foriran.nl}}}
-  - {name: node_🇺🇸_US 18, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d1fca18b-00ce-4024-8cc8-4b49a4dd5e52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: node_🇺🇸_US 19, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}}
-  - {name: node_🇹🇼_TW 4, server: stw5-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: node_🇸🇬_SG 4, server: stw6-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazonwebservicess.com, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 20, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}}
-  - {name: node_🇺🇸_US 21, server: 104.24.16.109, port: 80, type: vmess, uuid: c5c9844d-050e-44f1-cb6d-ec5166772631, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}}
-  - {name: node_🇹🇼_TW 5, server: scloudtw2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 4aeda200-44c9-4168-8f2a-a00a72176d35, sni: data.amazonwebservicess.com, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 22, server: 198.2.205.75, port: 30406, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇹🇼_TW 6, server: stw3-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 23, server: www.gov.tw, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: node_🇹🇼_TW 7, server: scloudtw2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 24, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: node_🇺🇸_US 25, server: en.foriran.live, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: en.foriran.live}}}
-  - {name: node_🇺🇸_US 26, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
-  - {name: node_🇺🇸_US 27, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
-  - {name: node_🇺🇸_US 28, server: HKG.MIFJUN.ORG, port: 80, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: HKG.MIFJUN.ORG}}}
-  - {name: node_🇺🇸_US 29, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: node_🇺🇸_US 30, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.kotick.site}}}
-  - {name: node_🇺🇸_US 31, server: 38.26.135.2, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇺🇸_US 32, server: 173.245.58.66, port: 443, type: vmess, uuid: 39304f36-8a9c-4692-9b31-d2997532f567, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}}
-  - {name: node_🇯🇵_JP 3, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: PT09PQ======, obfs-param: PT09PQ======}
-  - {name: node_🇺🇸_US 33, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true}
-  - {name: node_🇸🇬_SG 5, server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 87283fe7-08e5-403b-a0aa-add7cd68a23e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ikun, headers: {Host: lo.twittei.me}}}
-  - {name: node_🇺🇸_US 34, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}}
-  - {name: node_🇹🇷_TR, server: 185.40.86.195, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇹🇼_TW 8, server: scloudtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 35, server: 192.203.230.65, port: 443, type: vmess, uuid: cf53bffc-d018-46a2-94ee-257e2d33326a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: jp1.hnokkdf.top}}}
-  - {name: node_🇺🇸_US 36, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
-  - {name: node_🇺🇸_US 37, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: node_🇺🇸_US 38, server: cu.wfitech.net, port: 443, type: vmess, uuid: 030ae75a-1a4a-45cc-88f1-f1b7d9fe15f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /KS4XxcnoWPTpuA9VAxnFIAPLD, headers: {Host: cu.wfitech.net}}}
-  - {name: node_🇸🇬_SG 6, server: sg.stablize.top, port: 443, type: trojan, password: 586bfdcb-4a88-48a1-8377-d7f8de4b8cf5, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 39, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
-  - {name: node_🇹🇼_TW 9, server: stw7-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 40, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: node_🇸🇬_SG 7, server: stw4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 41, server: 172.67.31.105, port: 443, type: vmess, uuid: 39304f36-8a9c-4692-9b31-d2997532f567, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}}
-  - {name: node_🇺🇸_US 42, server: zslbs.vtcss.top, port: 80, type: vmess, uuid: c5c9844d-050e-44f1-cb6d-ec5166772631, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}}
-  - {name: node_🇺🇸_US 43, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: node_🇭🇰_HK, server: 45.94.41.52, port: 56890, type: ss, cipher: aes-256-gcm, password: huKTAYDOrq}
-  - {name: node_🇺🇸_US 44, server: 172.67.199.34, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}}
-  - {name: node_🇺🇸_US 45, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
-  - {name: node_🇺🇸_US 46, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}}
-  - {name: node_🇺🇸_US 47, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: node_🇺🇸_US 48, server: 148.59.74.143, port: 443, type: trojan, password: 3e49b072-4746-4e46-a256-233c3c7b52bf, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: node_🇹🇼_TW 10, server: bgptw1.cnamazon.sbs, port: 443, type: trojan, password: a5117e42-e7e2-4de1-aea8-c41e2b3bc545, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 49, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
-  - {name: node_🇺🇸_US 50, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇸🇬_SG 8, server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 87283fe7-08e5-403b-a0aa-add7cd68a23e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ikun, headers: {Host: eu4.twittei.me}}}
-  - {name: node_🇺🇸_US 51, server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇹🇼_TW 11, server: bgptw2.cnamazon.sbs, port: 443, type: trojan, password: fe455c1d-33ab-439d-acdb-449bba167fb1, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 52, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: node_🇺🇸_US 53, server: 103.21.244.71, port: 443, type: vmess, uuid: 39304f36-8a9c-4692-9b31-d2997532f567, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: zslbs.vtcss.top}}}
-  - {name: node_🇺🇸_US 54, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}}
-  - {name: node_🇹🇼_TW 12, server: bgptw5.cnamazon.sbs, port: 443, type: trojan, password: 4658738d-c3f1-4ebf-ad7a-ee603e3f9690, sni: tlsdata.cnamazon.sbs, skip-cert-verify: true}
-  - {name: node_🇺🇸_US 55, server: baic.vtcss.top, port: 80, type: vmess, uuid: 56dbd414-0a3c-40dc-cbbc-48afc94272a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hongk, headers: {Host: baic.vtcss.top}}}
-  - {name: node_🇯🇵_JP 4, server: cdncf.scyu.app, port: 80, type: vmess, uuid: 074c70d1-7479-4781-cf6d-e76515d4b0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vc.scyu.app}}}
-  - {name: node_🇹🇼_TW 13, server: stw6-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: node_🇹🇼_TW 14, server: bgptw1.cnamazon.sbs, port: 443, type: trojan, password: a7d5f659-6ad2-4288-b63a-3d42bdf5b122, sni: bgptw1.cnamazon.sbs, skip-cert-verify: true}
-  - {name: node_🇨🇾_CY, server: CSGO.COM, port: 2086, type: vmess, uuid: ef1f6e7e-3d54-43b0-b39e-3af459fea090, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu1.hug1013.me}}}
+  - {name: node_🇨🇳_CN, server: 116.163.45.179, port: 50038, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 2, server: 116.163.29.150, port: 50020, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 3, server: 116.163.29.150, port: 50022, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 4, server: 116.163.29.150, port: 50038, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 5, server: 116.163.45.179, port: 50040, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 6, server: gonggao02.xingyunwu.top, port: 50002, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: gonggao02.xingyunwu.top, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 7, server: 116.163.29.150, port: 50032, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 8, server: 116.163.45.179, port: 50036, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 9, server: 116.163.29.150, port: 50066, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, skip-cert-verify: true}
+  - {name: node_🇺🇸_US, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 951a393a-b557-4590-88b6-30948e1e0b8d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn.net}}}
+  - {name: node_🇨🇳_CN 10, server: p-h01.xingyunwu.top, port: 50068, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: p-h01.xingyunwu.top, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 2, server: 137.175.15.199, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684230882527, headers: {Host: www.83524650.xyz}}}
+  - {name: node_🇨🇳_CN 11, server: t-h01.xingyunwu.top, port: 50064, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: t-h01.xingyunwu.top, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 12, server: h-k01.xingyunwu.top, port: 50012, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: h-k01.xingyunwu.top, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 13, server: s-g02.xingyunwu.top, port: 50038, type: trojan, password: be3f4300-d75d-4585-9b94-d1bff193f583, sni: s-g02.xingyunwu.top, skip-cert-verify: true}
+  - {name: node_🇨🇳_CN 14, server: gb-1.fireflysolutions.top, port: 45405, type: ss, cipher: chacha20-ietf-poly1305, password: 77a4e2ab-bf32-4c47-a5a1-43ef1526ad65}
+  - {name: node_🇺🇸_US 3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}}
+  - {name: node_🇨🇳_CN 15, server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}}
+  - {name: node_🇺🇸_US 4, server: 198.2.218.200, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684316790433, headers: {Host: www.78280643.xyz}}}
+  - {name: node_🇺🇸_US 5, server: 198.2.208.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1683543024453, headers: {Host: www.62317155.xyz}}}
+  - {name: node_🇨🇳_CN 16, server: ctkr1.createmofa.xyz, port: 32999, type: ss, cipher: chacha20-ietf-poly1305, password: 5a5ee4d3-6763-4c77-babf-816b376543f5}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -102,366 +37,106 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
+      - node_🇨🇳_CN
+      - node_🇨🇳_CN 2
+      - node_🇨🇳_CN 3
+      - node_🇨🇳_CN 4
+      - node_🇨🇳_CN 5
+      - node_🇨🇳_CN 6
+      - node_🇨🇳_CN 7
+      - node_🇨🇳_CN 8
+      - node_🇨🇳_CN 9
       - node_🇺🇸_US
-      - node_🇸🇬_SG
+      - node_🇨🇳_CN 10
       - node_🇺🇸_US 2
-      - node_🇸🇬_SG 2
+      - node_🇨🇳_CN 11
+      - node_🇨🇳_CN 12
+      - node_🇨🇳_CN 13
+      - node_🇨🇳_CN 14
       - node_🇺🇸_US 3
-      - node_🇸🇬_SG 3
-      - node_🇷🇺_RU
+      - node_🇨🇳_CN 15
       - node_🇺🇸_US 4
       - node_🇺🇸_US 5
-      - node_🇯🇵_JP
-      - node_🇺🇸_US 6
-      - node_🇮🇳_IN
-      - node_🇺🇸_US 7
-      - node_🇹🇼_TW
-      - node_🇹🇼_TW 2
-      - node_🇺🇸_US 8
-      - node_🇺🇸_US 9
-      - node_🇺🇸_US 10
-      - node_🇺🇸_US 11
-      - node_🇯🇵_JP 2
-      - node_🇺🇸_US 12
-      - node_🇹🇼_TW 3
-      - node_🇺🇸_US 13
-      - node_🇺🇸_US 14
-      - node_🇺🇸_US 15
-      - node_🇺🇸_US 16
-      - node_🇺🇸_US 17
-      - node_🇺🇸_US 18
-      - node_🇺🇸_US 19
-      - node_🇹🇼_TW 4
-      - node_🇸🇬_SG 4
-      - node_🇺🇸_US 20
-      - node_🇺🇸_US 21
-      - node_🇹🇼_TW 5
-      - node_🇺🇸_US 22
-      - node_🇹🇼_TW 6
-      - node_🇺🇸_US 23
-      - node_🇹🇼_TW 7
-      - node_🇺🇸_US 24
-      - node_🇺🇸_US 25
-      - node_🇺🇸_US 26
-      - node_🇺🇸_US 27
-      - node_🇺🇸_US 28
-      - node_🇺🇸_US 29
-      - node_🇺🇸_US 30
-      - node_🇺🇸_US 31
-      - node_🇺🇸_US 32
-      - node_🇯🇵_JP 3
-      - node_🇺🇸_US 33
-      - node_🇸🇬_SG 5
-      - node_🇺🇸_US 34
-      - node_🇹🇷_TR
-      - node_🇹🇼_TW 8
-      - node_🇺🇸_US 35
-      - node_🇺🇸_US 36
-      - node_🇺🇸_US 37
-      - node_🇺🇸_US 38
-      - node_🇸🇬_SG 6
-      - node_🇺🇸_US 39
-      - node_🇹🇼_TW 9
-      - node_🇺🇸_US 40
-      - node_🇸🇬_SG 7
-      - node_🇺🇸_US 41
-      - node_🇺🇸_US 42
-      - node_🇺🇸_US 43
-      - node_🇭🇰_HK
-      - node_🇺🇸_US 44
-      - node_🇺🇸_US 45
-      - node_🇺🇸_US 46
-      - node_🇺🇸_US 47
-      - node_🇺🇸_US 48
-      - node_🇹🇼_TW 10
-      - node_🇺🇸_US 49
-      - node_🇺🇸_US 50
-      - node_🇸🇬_SG 8
-      - node_🇺🇸_US 51
-      - node_🇹🇼_TW 11
-      - node_🇺🇸_US 52
-      - node_🇺🇸_US 53
-      - node_🇺🇸_US 54
-      - node_🇹🇼_TW 12
-      - node_🇺🇸_US 55
-      - node_🇯🇵_JP 4
-      - node_🇹🇼_TW 13
-      - node_🇹🇼_TW 14
-      - node_🇨🇾_CY
+      - node_🇨🇳_CN 16
   - name: 🐟 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
+      - node_🇨🇳_CN
+      - node_🇨🇳_CN 2
+      - node_🇨🇳_CN 3
+      - node_🇨🇳_CN 4
+      - node_🇨🇳_CN 5
+      - node_🇨🇳_CN 6
+      - node_🇨🇳_CN 7
+      - node_🇨🇳_CN 8
+      - node_🇨🇳_CN 9
       - node_🇺🇸_US
-      - node_🇸🇬_SG
+      - node_🇨🇳_CN 10
       - node_🇺🇸_US 2
-      - node_🇸🇬_SG 2
+      - node_🇨🇳_CN 11
+      - node_🇨🇳_CN 12
+      - node_🇨🇳_CN 13
+      - node_🇨🇳_CN 14
       - node_🇺🇸_US 3
-      - node_🇸🇬_SG 3
-      - node_🇷🇺_RU
+      - node_🇨🇳_CN 15
       - node_🇺🇸_US 4
       - node_🇺🇸_US 5
-      - node_🇯🇵_JP
-      - node_🇺🇸_US 6
-      - node_🇮🇳_IN
-      - node_🇺🇸_US 7
-      - node_🇹🇼_TW
-      - node_🇹🇼_TW 2
-      - node_🇺🇸_US 8
-      - node_🇺🇸_US 9
-      - node_🇺🇸_US 10
-      - node_🇺🇸_US 11
-      - node_🇯🇵_JP 2
-      - node_🇺🇸_US 12
-      - node_🇹🇼_TW 3
-      - node_🇺🇸_US 13
-      - node_🇺🇸_US 14
-      - node_🇺🇸_US 15
-      - node_🇺🇸_US 16
-      - node_🇺🇸_US 17
-      - node_🇺🇸_US 18
-      - node_🇺🇸_US 19
-      - node_🇹🇼_TW 4
-      - node_🇸🇬_SG 4
-      - node_🇺🇸_US 20
-      - node_🇺🇸_US 21
-      - node_🇹🇼_TW 5
-      - node_🇺🇸_US 22
-      - node_🇹🇼_TW 6
-      - node_🇺🇸_US 23
-      - node_🇹🇼_TW 7
-      - node_🇺🇸_US 24
-      - node_🇺🇸_US 25
-      - node_🇺🇸_US 26
-      - node_🇺🇸_US 27
-      - node_🇺🇸_US 28
-      - node_🇺🇸_US 29
-      - node_🇺🇸_US 30
-      - node_🇺🇸_US 31
-      - node_🇺🇸_US 32
-      - node_🇯🇵_JP 3
-      - node_🇺🇸_US 33
-      - node_🇸🇬_SG 5
-      - node_🇺🇸_US 34
-      - node_🇹🇷_TR
-      - node_🇹🇼_TW 8
-      - node_🇺🇸_US 35
-      - node_🇺🇸_US 36
-      - node_🇺🇸_US 37
-      - node_🇺🇸_US 38
-      - node_🇸🇬_SG 6
-      - node_🇺🇸_US 39
-      - node_🇹🇼_TW 9
-      - node_🇺🇸_US 40
-      - node_🇸🇬_SG 7
-      - node_🇺🇸_US 41
-      - node_🇺🇸_US 42
-      - node_🇺🇸_US 43
-      - node_🇭🇰_HK
-      - node_🇺🇸_US 44
-      - node_🇺🇸_US 45
-      - node_🇺🇸_US 46
-      - node_🇺🇸_US 47
-      - node_🇺🇸_US 48
-      - node_🇹🇼_TW 10
-      - node_🇺🇸_US 49
-      - node_🇺🇸_US 50
-      - node_🇸🇬_SG 8
-      - node_🇺🇸_US 51
-      - node_🇹🇼_TW 11
-      - node_🇺🇸_US 52
-      - node_🇺🇸_US 53
-      - node_🇺🇸_US 54
-      - node_🇹🇼_TW 12
-      - node_🇺🇸_US 55
-      - node_🇯🇵_JP 4
-      - node_🇹🇼_TW 13
-      - node_🇹🇼_TW 14
-      - node_🇨🇾_CY
+      - node_🇨🇳_CN 16
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
+      - node_🇨🇳_CN
+      - node_🇨🇳_CN 2
+      - node_🇨🇳_CN 3
+      - node_🇨🇳_CN 4
+      - node_🇨🇳_CN 5
+      - node_🇨🇳_CN 6
+      - node_🇨🇳_CN 7
+      - node_🇨🇳_CN 8
+      - node_🇨🇳_CN 9
       - node_🇺🇸_US
-      - node_🇸🇬_SG
+      - node_🇨🇳_CN 10
       - node_🇺🇸_US 2
-      - node_🇸🇬_SG 2
+      - node_🇨🇳_CN 11
+      - node_🇨🇳_CN 12
+      - node_🇨🇳_CN 13
+      - node_🇨🇳_CN 14
       - node_🇺🇸_US 3
-      - node_🇸🇬_SG 3
-      - node_🇷🇺_RU
+      - node_🇨🇳_CN 15
       - node_🇺🇸_US 4
       - node_🇺🇸_US 5
-      - node_🇯🇵_JP
-      - node_🇺🇸_US 6
-      - node_🇮🇳_IN
-      - node_🇺🇸_US 7
-      - node_🇹🇼_TW
-      - node_🇹🇼_TW 2
-      - node_🇺🇸_US 8
-      - node_🇺🇸_US 9
-      - node_🇺🇸_US 10
-      - node_🇺🇸_US 11
-      - node_🇯🇵_JP 2
-      - node_🇺🇸_US 12
-      - node_🇹🇼_TW 3
-      - node_🇺🇸_US 13
-      - node_🇺🇸_US 14
-      - node_🇺🇸_US 15
-      - node_🇺🇸_US 16
-      - node_🇺🇸_US 17
-      - node_🇺🇸_US 18
-      - node_🇺🇸_US 19
-      - node_🇹🇼_TW 4
-      - node_🇸🇬_SG 4
-      - node_🇺🇸_US 20
-      - node_🇺🇸_US 21
-      - node_🇹🇼_TW 5
-      - node_🇺🇸_US 22
-      - node_🇹🇼_TW 6
-      - node_🇺🇸_US 23
-      - node_🇹🇼_TW 7
-      - node_🇺🇸_US 24
-      - node_🇺🇸_US 25
-      - node_🇺🇸_US 26
-      - node_🇺🇸_US 27
-      - node_🇺🇸_US 28
-      - node_🇺🇸_US 29
-      - node_🇺🇸_US 30
-      - node_🇺🇸_US 31
-      - node_🇺🇸_US 32
-      - node_🇯🇵_JP 3
-      - node_🇺🇸_US 33
-      - node_🇸🇬_SG 5
-      - node_🇺🇸_US 34
-      - node_🇹🇷_TR
-      - node_🇹🇼_TW 8
-      - node_🇺🇸_US 35
-      - node_🇺🇸_US 36
-      - node_🇺🇸_US 37
-      - node_🇺🇸_US 38
-      - node_🇸🇬_SG 6
-      - node_🇺🇸_US 39
-      - node_🇹🇼_TW 9
-      - node_🇺🇸_US 40
-      - node_🇸🇬_SG 7
-      - node_🇺🇸_US 41
-      - node_🇺🇸_US 42
-      - node_🇺🇸_US 43
-      - node_🇭🇰_HK
-      - node_🇺🇸_US 44
-      - node_🇺🇸_US 45
-      - node_🇺🇸_US 46
-      - node_🇺🇸_US 47
-      - node_🇺🇸_US 48
-      - node_🇹🇼_TW 10
-      - node_🇺🇸_US 49
-      - node_🇺🇸_US 50
-      - node_🇸🇬_SG 8
-      - node_🇺🇸_US 51
-      - node_🇹🇼_TW 11
-      - node_🇺🇸_US 52
-      - node_🇺🇸_US 53
-      - node_🇺🇸_US 54
-      - node_🇹🇼_TW 12
-      - node_🇺🇸_US 55
-      - node_🇯🇵_JP 4
-      - node_🇹🇼_TW 13
-      - node_🇹🇼_TW 14
-      - node_🇨🇾_CY
+      - node_🇨🇳_CN 16
   - name: 🎯 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
+      - node_🇨🇳_CN
+      - node_🇨🇳_CN 2
+      - node_🇨🇳_CN 3
+      - node_🇨🇳_CN 4
+      - node_🇨🇳_CN 5
+      - node_🇨🇳_CN 6
+      - node_🇨🇳_CN 7
+      - node_🇨🇳_CN 8
+      - node_🇨🇳_CN 9
       - node_🇺🇸_US
-      - node_🇸🇬_SG
+      - node_🇨🇳_CN 10
       - node_🇺🇸_US 2
-      - node_🇸🇬_SG 2
+      - node_🇨🇳_CN 11
+      - node_🇨🇳_CN 12
+      - node_🇨🇳_CN 13
+      - node_🇨🇳_CN 14
       - node_🇺🇸_US 3
-      - node_🇸🇬_SG 3
-      - node_🇷🇺_RU
+      - node_🇨🇳_CN 15
       - node_🇺🇸_US 4
       - node_🇺🇸_US 5
-      - node_🇯🇵_JP
-      - node_🇺🇸_US 6
-      - node_🇮🇳_IN
-      - node_🇺🇸_US 7
-      - node_🇹🇼_TW
-      - node_🇹🇼_TW 2
-      - node_🇺🇸_US 8
-      - node_🇺🇸_US 9
-      - node_🇺🇸_US 10
-      - node_🇺🇸_US 11
-      - node_🇯🇵_JP 2
-      - node_🇺🇸_US 12
-      - node_🇹🇼_TW 3
-      - node_🇺🇸_US 13
-      - node_🇺🇸_US 14
-      - node_🇺🇸_US 15
-      - node_🇺🇸_US 16
-      - node_🇺🇸_US 17
-      - node_🇺🇸_US 18
-      - node_🇺🇸_US 19
-      - node_🇹🇼_TW 4
-      - node_🇸🇬_SG 4
-      - node_🇺🇸_US 20
-      - node_🇺🇸_US 21
-      - node_🇹🇼_TW 5
-      - node_🇺🇸_US 22
-      - node_🇹🇼_TW 6
-      - node_🇺🇸_US 23
-      - node_🇹🇼_TW 7
-      - node_🇺🇸_US 24
-      - node_🇺🇸_US 25
-      - node_🇺🇸_US 26
-      - node_🇺🇸_US 27
-      - node_🇺🇸_US 28
-      - node_🇺🇸_US 29
-      - node_🇺🇸_US 30
-      - node_🇺🇸_US 31
-      - node_🇺🇸_US 32
-      - node_🇯🇵_JP 3
-      - node_🇺🇸_US 33
-      - node_🇸🇬_SG 5
-      - node_🇺🇸_US 34
-      - node_🇹🇷_TR
-      - node_🇹🇼_TW 8
-      - node_🇺🇸_US 35
-      - node_🇺🇸_US 36
-      - node_🇺🇸_US 37
-      - node_🇺🇸_US 38
-      - node_🇸🇬_SG 6
-      - node_🇺🇸_US 39
-      - node_🇹🇼_TW 9
-      - node_🇺🇸_US 40
-      - node_🇸🇬_SG 7
-      - node_🇺🇸_US 41
-      - node_🇺🇸_US 42
-      - node_🇺🇸_US 43
-      - node_🇭🇰_HK
-      - node_🇺🇸_US 44
-      - node_🇺🇸_US 45
-      - node_🇺🇸_US 46
-      - node_🇺🇸_US 47
-      - node_🇺🇸_US 48
-      - node_🇹🇼_TW 10
-      - node_🇺🇸_US 49
-      - node_🇺🇸_US 50
-      - node_🇸🇬_SG 8
-      - node_🇺🇸_US 51
-      - node_🇹🇼_TW 11
-      - node_🇺🇸_US 52
-      - node_🇺🇸_US 53
-      - node_🇺🇸_US 54
-      - node_🇹🇼_TW 12
-      - node_🇺🇸_US 55
-      - node_🇯🇵_JP 4
-      - node_🇹🇼_TW 13
-      - node_🇹🇼_TW 14
-      - node_🇨🇾_CY
+      - node_🇨🇳_CN 16
   - name: 🛑 禁止代理
     type: select
     proxies:
