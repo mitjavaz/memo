@@ -5,77 +5,142 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _电报频道 @shendu666 24, server: chanel.vpnshop.top, port: 29530, type: vmess, uuid: b0298d06-3790-4807-a7b1-ebba8d167cd2, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [chanel.vpnshop.top]}}}
-  - {name: 🇯🇵 日本-GC182-VM, server: 104.19.2.35, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: jpgc182.wvpn.top}}}
-  - {name: HK_youtube@资源分享师_149, server: sg.stablize.top, port: 443, type: trojan, password: 254a29d6-51ff-4c89-8bef-03ca2de19abe, sni: sg.stablize.top, skip-cert-verify: true}
-  - {name: 🇸🇬 SG新加坡(youtube阿伟科技2)_10, server: 208.73.40.77, port: 8890, type: ss, cipher: aes-128-gcm, password: 8BrC5KuJwDpijLRo}
-  - {name: _电报频道 @shendu666 22, server: chanel.vpnshop.top, port: 34038, type: vmess, uuid: e79a18cf-94d9-44ba-8aff-a179c1fb9cb1, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [chanel.vpnshop.top]}}}
-  - {name: 🇺🇸 美国-GC58-VM, server: 104.18.81.150, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: usgc58.wvpn.top}}}
-  - {name: 🇫🇷 FR法国(youtube阿伟科技)_2, server: chanel.vpnshop.top, port: 46521, type: vmess, uuid: 6e462630-f424-4a5e-ad9f-311f143bd82b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [ponisha.ir]}}}
-  - {name: 🇺🇸 美国凤凰城2 | 0.1x, server: downloadvip.cfd, port: 443, type: vmess, uuid: 70eaf50f-8505-4bb0-bbfc-1354fa111320, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /jsjc/us2, headers: {Host: us2.jsjc.sbs}}}
-  - {name: 🇩🇪 德国 | 0.1x, server: downloadvip.cfd, port: 443, type: vmess, uuid: 70eaf50f-8505-4bb0-bbfc-1354fa111320, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /jsjc/de1, headers: {Host: de1.jsjc.sbs}}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技2)_34, server: chanel.vpnshop.top, port: 29530, type: vmess, uuid: b0298d06-3790-4807-a7b1-ebba8d167cd2, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [telewebion.com]}}}
-  - {name: 🇸🇬 新加坡 05 | 定制专线, server: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 8443, type: trojan, password: 47d8b086-6c2c-4ab4-8334-1d7ec08aa198, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true}
-  - {name: _电报频道 @shendu666 74, server: germany.newv2rayfree1.shop, port: 51957, type: vmess, uuid: b9f90971-af0b-4cde-b057-b1577a3e5f13, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [germany.newv2rayfree1.shop]}}}
-  - {name: 🇷🇺 西伯利亚-100-VM, server: 162.159.195.185, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: xbly100.wsvpn.xyz}}}
+  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国, server: 148.59.74.52, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: CN_youtube@资源分享师_221, server: ahcm.v-too.cloud, port: 38142, type: ss, cipher: chacha20-ietf-poly1305, password: 0afcc41c-8a1a-4229-82d9-c483b48d5389}
+  - {name: US_youtube@资源分享师_27, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
   - {name: 全球 01 | 通用专线, server: w1.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 47d8b086-6c2c-4ab4-8334-1d7ec08aa198, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-HD236-VM, server: 162.159.192.133, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: ushd236.wvpn.top}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 |27.03Mb, server: 137.175.52.18, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_youtube@资源分享师_130, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
+  - {name: node_🇺🇸_US, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技2)_3, server: 8.217.90.73, port: 51752, type: ssr, cipher: dummy, password: 873475uy5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: CN_youtube@资源分享师_207, server: ahcm.v-too.cloud, port: 10259, type: ss, cipher: chacha20-ietf-poly1305, password: 75c9c41d-5287-4b13-abe4-c66a8c0ab9f4}
+  - {name: JP_youtube@资源分享师_140, server: sg.stablize.top, port: 443, type: trojan, password: 1c00f871-d73a-4620-bfad-26273cf68245, sni: sg.stablize.top, skip-cert-verify: true}
   - {name: 🇺🇸 美国 03 | 解锁专线, server: us3.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 12025, type: trojan, password: 47d8b086-6c2c-4ab4-8334-1d7ec08aa198, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true}
-  - {name: 🇺🇸 美国凤凰城3 | 0.1x, server: downloadvip.cfd, port: 443, type: vmess, uuid: 70eaf50f-8505-4bb0-bbfc-1354fa111320, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /jsjc/us3, headers: {Host: us3.jsjc.sbs}}}
-  - {name: 🇩🇪 DE德国(youtube阿伟科技2)_8, server: germany.newv2rayfree1.shop, port: 51957, type: vmess, uuid: b9f90971-af0b-4cde-b057-b1577a3e5f13, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [snapp.ir]}}}
-  - {name: 🇺🇸 美国-RN121-VM, server: 104.17.112.162, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: usrn121.wvpn.top}}}
-  - {name: 🇭🇰 香港-AL179-VM, server: 104.16.250.231, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: alhk179.wvpn.top}}}
-  - {name: 🇫🇷 FR法国(youtube阿伟科技)_1, server: chanel.vpnshop.top, port: 34038, type: vmess, uuid: e79a18cf-94d9-44ba-8aff-a179c1fb9cb1, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}}
-  - {name: HK_youtube@资源分享师_146, server: sg.stablize.top, port: 443, type: trojan, password: 5b51e0af-08af-4208-b834-6d6ac5721837, sni: sg.stablize.top, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 190.93.245.10, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇸 美国-HD35-VM, server: 162.159.195.107, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: ushd35.wvpn.top}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_199 |29.26Mb, server: 74.217.179.188, port: 40042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: _电报频道 @shendu666, server: germany.newv2rayfree1.shop, port: 51957, type: vmess, uuid: b9f90971-af0b-4cde-b057-b1577a3e5f13, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [germany.newv2rayfree1.shop]}}}
-  - {name: _电报频道 @shendu666 2, server: chanel.vpnshop.top, port: 46521, type: vmess, uuid: 6e462630-f424-4a5e-ad9f-311f143bd82b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [chanel.vpnshop.top]}}}
-  - {name: 🇺🇸 美国 049, server: 140.99.57.38, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡 05 | 定制专线, server: sg2.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 8443, type: trojan, password: 47d8b086-6c2c-4ab4-8334-1d7ec08aa198, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true}
+  - {name: 🇭🇰 HK香港(youtube阿伟科技2)_6, server: 173.82.186.25, port: 50006, type: ssr, cipher: dummy, password: IOSwgAYTREask(&1UHYTiq'&%12igsasamafSSR, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: node_🇺🇸_US 2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
+  - {name: node_🇺🇸_US 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
   - {name: _电报频道 @shendu666 17, server: chanel.vpnshop.top, port: 46521, type: vmess, uuid: 6e462630-f424-4a5e-ad9f-311f143bd82b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [chanel.vpnshop.top]}}}
-  - {name: 🇺🇸 美国凤凰城1 | 0.1x, server: downloadvip.cfd, port: 443, type: vmess, uuid: 70eaf50f-8505-4bb0-bbfc-1354fa111320, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /jsjc/us1, headers: {Host: us1.jsjc.sbs}}}
-  - {name: JP_youtube@资源分享师_216, server: ap.stablize.top, port: 443, type: trojan, password: bb60dbfe-39c6-4f98-a8ba-258fd3059bad, sni: ap.stablize.top, skip-cert-verify: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_153 | 9.69Mb, server: 137.175.54.211, port: 50502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国凤凰城4 | 0.1x, server: downloadvip.cfd, port: 443, type: vmess, uuid: 70eaf50f-8505-4bb0-bbfc-1354fa111320, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /jsjc/us4, headers: {Host: us4.jsjc.sbs}}}
-  - {name: CN_youtube@资源分享师_86, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_youtube@资源分享师_168, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: TG频道@kxswa | https://t.me/kxswa, server: 149.50.83.42, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: JP_youtube@资源分享师_176, server: uk.stablize.top, port: 443, type: trojan, password: 6f96d269-31bb-4914-b2c9-629e117265ed, sni: uk.stablize.top, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
+  - {name: HK_youtube@资源分享师_146, server: sg.stablize.top, port: 443, type: trojan, password: 5b51e0af-08af-4208-b834-6d6ac5721837, sni: sg.stablize.top, skip-cert-verify: true}
+  - {name: 免费梯子https://t.me/mftizi, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}}
+  - {name: US_youtube@资源分享师_149, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}}
+  - {name: 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚, server: 149.50.83.49, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 5, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=7, server: 43.200.1.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇮🇱 TG频道:@hkaa0 |以色列_2, server: 149.50.71.124, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: JP_youtube@资源分享师_138, server: usa.stablize.top, port: 443, type: trojan, password: 6f96d269-31bb-4914-b2c9-629e117265ed, sni: usa.stablize.top, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=1, server: 3.0.183.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: node_🇺🇸_US 6, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
+  - {name: US_youtube@资源分享师_230, server: 103.21.244.147, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
+  - {name: FR_youtube@资源分享师_89, server: 173.245.49.77, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: eEnUb1xKB.janbaroon.com}}}
+  - {name: 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇰🇷 五叶节点分享频道 @hkaa0 |韩国, server: 43.202.64.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.31.16.45, port: 80, type: vmess, uuid: 2fcc2939-7dcf-4741-aa03-825bc40e23fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /CZfczvtieCZXdOlgWhgDLX, headers: {Host: de3.irteh.fun}}}
+  - {name: 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}}
   - {name: TG频道@kxswa+|+https://t.me/kxswa, server: 216.52.183.243, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: CN_youtube@资源分享师_165, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: _电报频道 @shendu666 3, server: chanel.vpnshop.top, port: 34038, type: vmess, uuid: e79a18cf-94d9-44ba-8aff-a179c1fb9cb1, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [chanel.vpnshop.top]}}}
-  - {name: _电报频道 @shendu666 61, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: _电报频道 @shendu666 34, server: 51.195.35.151, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG频道@kxswa | https://t.me/kxswa, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 061, server: 74.217.179.188, port: 40042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: _电报频道 @shendu666 80, server: 199.180.103.156, port: 59322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 044, server: 140.99.57.38, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_79, server: 192.74.234.82, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国-GC136-VM, server: 104.19.2.35, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: usgc136.wvpn.top}}}
-  - {name: TG频道@kxswa | https://t.me/kxswa 2, server: 140.99.57.38, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇻🇳 越南-GC148-VM, server: 104.17.112.162, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: yngc148.wvpn.top}}}
-  - {name: US_youtube@资源分享师_167, server: 192.74.234.82, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国-DP65-VM, server: 162.159.195.144, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: usdp65.wsvpn.xyz}}}
-  - {name: CN_youtube@资源分享师_168 2, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本东京, server: downloadvip.cfd, port: 443, type: vmess, uuid: 70eaf50f-8505-4bb0-bbfc-1354fa111320, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /jsjc/jp1, headers: {Host: jp1.jsjc.sbs}}}
-  - {name: US_youtube@资源分享师_195, server: 192.74.234.82, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_236 |31.44Mb, server: 142.4.112.26, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG频道@kxswa | https://t.me/kxswa 3, server: 38.26.135.5, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TW_youtube@资源分享师_159, server: 61.220.198.100, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_24, server: 192.74.234.87, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: _电报频道 @shendu666 123, server: 61.220.198.100, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_175, server: 192.74.234.87, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_youtube@资源分享师_160, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: _电报频道 @shendu666 31, server: 137.175.41.200, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇨🇳 五叶节点分享: @hkaa0 |台湾_1", server: 61.220.198.100, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: _电报频道 @shendu666 78, server: 120.226.50.84, port: 34214, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Az-美国凤凰城1号 | 0.1x, server: azjp1.downloadvip.cfd, port: 443, type: trojan, password: 70eaf50f-8505-4bb0-bbfc-1354fa111320, sni: us1.xn--mes358acgm99l.com, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国-AZ246-VM, server: 104.18.81.150, port: 443, type: vmess, uuid: 553f509e-56c1-4eaf-be67-b9b20c780bff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws1341380505, headers: {Host: koaz246.wsxx.bio}}}
-  - {name: CN_youtube@资源分享师_179, server: 183.237.20.147, port: 41242, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 FR法国(youtube阿伟科技)_3, server: chanel.vpnshop.top, port: 37421, type: vmess, uuid: f8257079-b5fc-4d84-9889-708a7e52e26f, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [chanel.vpnshop.top]}}}
-  - {name: 🇺🇸 美国 Datability, server: 140.99.57.38, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG频道@kxswa | https://t.me/kxswa 4, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 03 | 解锁专线, server: sg3.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 12025, type: trojan, password: 47d8b086-6c2c-4ab4-8334-1d7ec08aa198, sni: 13-231-155-134.NHOST.00CDN.COM, skip-cert-verify: true}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技2)_1, server: 8.217.46.174, port: 48239, type: ssr, cipher: dummy, password: 4534543f4, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=3, server: 52.78.217.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_youtube@资源分享师_176, server: 141.101.113.64, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
+  - {name: 🇯🇵 JP日本(youtube阿伟科技2)_4, server: 29.kccic2pa.xyz, port: 50029, type: vmess, uuid: 62f3a8dd-9fca-4868-8a70-1746eb4c9393, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技2)_2, server: 8.217.99.62, port: 47807, type: ssr, cipher: dummy, password: 344fg4344, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: ":\x17\x19\x1e@.(\"%.:?˫", obfs-param: ""}
+  - {name: 🇭🇰 HK香港(youtube阿伟科技2)_15, server: 02.kccic2pa.xyz, port: 50002, type: vmess, uuid: 62f3a8dd-9fca-4868-8a70-1746eb4c9393, alterId: 0, cipher: auto, tls: false}
+  - {name: node_🇺🇸_US 7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}}
+  - {name: CN_youtube@资源分享师_116, server: 202.108.15.135, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}}
+  - {name: 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚 2, server: 149.50.70.76, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: 🇹🇷 TUR土耳其(youtube阿伟科技), server: iranhosting.subnext.ir, port: 15405, type: vmess, uuid: fdd6c06c-04b5-45cb-a0ac-5541828b71c5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [speedtest.net]}}}
+  - {name: 🇺🇸 美国_YouTube@欢迎订阅大飞分享_72, server: 45.58.154.135, port: 51409, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=4, server: 13.229.124.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=4 2, server: 52.221.180.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_youtube@资源分享师_11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: US_youtube@资源分享师_218, server: 141.101.123.18, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
+  - {name: 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5, server: 45.130.146.86, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
+  - {name: 🇫🇷 FR法国(youtube阿伟科技2)_2, server: 94.131.9.155, port: 14340, type: vmess, uuid: 27f2cb5a-6499-487e-cd19-6c3b6f739895, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.telewebion.com]}}}
+  - {name: US_youtube@资源分享师_42, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: _电报频道 @shendu666, server: chanel.vpnshop.top, port: 46521, type: vmess, uuid: 6e462630-f424-4a5e-ad9f-311f143bd82b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [chanel.vpnshop.top]}}}
+  - {name: JP_youtube@资源分享师_219, server: ukjs.stablize.top, port: 443, type: trojan, password: b3ca2e8a-42d5-448c-a445-639870ccc20e, sni: ukjs.stablize.top, skip-cert-verify: true}
+  - {name: _电报频道 @bdpd8 112, server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 0dd19d20-ec86-3680-b256-87237bafa89e, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇫🇷 FR法国(youtube阿伟科技2)_3, server: chanel.vpnshop.top, port: 24549, type: vmess, uuid: f092a19d-b59c-4583-beba-e40b4d1e085d, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [telewebion.com]}}}
+  - {name: US_youtube@资源分享师_139, server: 104.20.171.133, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡 2, server: 54.179.240.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_4, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: JP_youtube@资源分享师_119, server: 47.91.29.16, port: 80, type: vmess, uuid: ff2b46a0-3805-4e6d-df3f-3aaa70f8cbd0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@heroku666, headers: {Host: us.herofree66.tk}}}
+  - {name: US_youtube@资源分享师_124, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
+  - {name: US_youtube@资源分享师_241, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: op.yxjnode.com}}}
+  - {name: US_youtube@资源分享师_86, server: 107.148.194.238, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技2)_2 2, server: 8.217.89.229, port: 58008, type: ssr, cipher: dummy, password: 8973475u345, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: ",:'##\"\"'\x07#{{\x0e{\x03\x13\x03#\"", obfs-param: ""}
+  - {name: US_youtube@资源分享师_165, server: 104.24.215.167, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: SG_youtube@资源分享师_172, server: sgp.669990.xyz, port: 80, type: vmess, uuid: 92a408b4-1863-427f-8a75-537fd33ec516, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/DFZmOHcf96zoGKj2Z], headers: {Host: [sgp.669990.xyz]}}}
+  - {name: 🇭🇰 HK香港(youtube阿伟科技2)_5, server: 8.210.129.250, port: 54074, type: ssr, cipher: dummy, password: !<str> 34536745634, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇸🇬 长期更新节点@mftizi, server: 29.kccic2pa.xyz, port: 50029, type: vmess, uuid: 62f3a8dd-9fca-4868-8a70-1746eb4c9393, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 031, server: 156.251.135.14, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CN_youtube@资源分享师_216, server: 15037.kuaiyincdn.uk, port: 15037, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇱 TG频道:@hkaa0 |以色列_1, server: 149.50.70.83, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: US_youtube@资源分享师_116, server: 104.19.136.40, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: 🇫🇷 FR法国(youtube阿伟科技2)_2 2, server: chanel.vpnshop.top, port: 14340, type: vmess, uuid: 27f2cb5a-6499-487e-cd19-6c3b6f739895, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.telewebion.com]}}}
+  - {name: 🇫🇷 法国_YouTube@欢迎订阅大飞分享_111, server: uk2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: 2076df30-81e3-4312-840b-3e1462c0b85e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: uk2-vmess.greenssh.xyz}}}
+  - {name: US_youtube@资源分享师_71, server: 104.20.202.81, port: 2052, type: vmess, uuid: 243240f9-9f5b-4f98-dd5c-e19784d19631, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
+  - {name: TG频道@kxswa | https://t.me/kxswa 2, server: 172.67.81.238, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: US_youtube@资源分享师_112, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_8, server: 142.4.112.27, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本=tg频道:@bpjzx2=8, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs19.bolab.net, skip-cert-verify: true}
+  - {name: US_youtube@资源分享师_95, server: 104.19.13.22, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技2)_4, server: 8.218.67.54, port: 46950, type: ssr, cipher: dummy, password: 2345345f34, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: US_youtube@资源分享师_75, server: 141.101.120.118, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
+  - {name: US_youtube@资源分享师_153, server: 104.24.55.214, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: node_🇺🇸_US 8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
+  - {name: US_youtube@资源分享师_64, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: 🇭🇰 HK香港(youtube阿伟科技2)_4, server: iplc-xiang.mielink-dns2.com, port: 668, type: ssr, cipher: rc4-md5, password: miejump.com, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 105860:2020931d-1126-3ea1-b931-b750f3ca563d, obfs-param: ajax.microsoft.com}
+  - {name: US_youtube@资源分享师_76, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: d16c31a2-93a3-4f1a-954c-e383b14a4d26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
+  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2, server: usa1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
+  - {name: HK_youtube@资源分享师_208, server: kr.stablize.top, port: 443, type: trojan, password: c8ad75e9-b071-446e-b2e3-ea93b8dd0324, sni: kr.stablize.top, skip-cert-verify: true}
+  - {name: US_youtube@资源分享师_20, server: 141.101.123.158, port: 2082, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技2)_1 2, server: 8.218.187.113, port: 51444, type: ssr, cipher: dummy, password: 983456u5, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: US_youtube@资源分享师_37, server: speed.76898102.xyz, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}}
+  - {name: US_youtube@资源分享师_115, server: 104.19.8.35, port: 2082, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: US_youtube@资源分享师_88, server: 198.41.203.205, port: 2083, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
+  - {name: node_🇮🇩_ID, server: 103.169.7.11, port: 80, type: trojan, password: c0d9da22-2569-4bed-a395-607d9e7ae687, sni: sciencedirect.com, skip-cert-verify: true}
+  - {name: US_youtube@资源分享师_84, server: 198.41.193.42, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: US_youtube@资源分享师_233, server: 107.148.194.238, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: node_🇺🇸_US 9, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}}
+  - {name: node_🇸🇬_SG, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=8, server: 43.202.52.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_300 |29.46Mb, server: 64.32.4.39, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_19, server: us-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 858cc418-def7-450f-dbec-88bf3f0dbffc, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [media-exp1.licdn.com]}}}
+  - {name: US_youtube@资源分享师_190, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: US_youtube@资源分享师_114, server: 173.245.59.31, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=6, server: en.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
+  - {name: 🇬🇧 GB英国(youtube阿伟科技)_7, server: uk-v2ray.freevmess.com, port: 8442, type: vmess, uuid: cbad0fdd-e5be-46c9-b8e7-d8c44fd94a36, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [uk-v2ray.freevmess.com]}}}
+  - {name: US_youtube@资源分享师_98, server: 198.41.222.69, port: 2082, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: US_youtube@资源分享师_3, server: 162.159.152.95, port: 443, type: vmess, uuid: dddd0b29-1576-4003-9990-d7cea34264db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /835757, headers: {Host: dedi2.1808.cf}}}
+  - {name: 关注电报https://t.me/aifenxiang2020, server: 172.67.156.138, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
+  - {name: 🇳🇱 荷兰 005, server: 45.58.154.135, port: 51409, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_34, server: tou.vtcss.top, port: 2086, type: vmess, uuid: 4d2ca583-7e2a-4ef4-ba15-ffc7d9147a32, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ylks0, headers: {Host: tou.vtcss.top}}}
+  - {name: US_youtube@资源分享师_102, server: 104.17.212.163, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: _电报频道 @bdpd8, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}}
+  - {name: JP_youtube@资源分享师_175, server: jp.stablize.top, port: 443, type: trojan, password: 6f96d269-31bb-4914-b2c9-629e117265ed, sni: jp.stablize.top, skip-cert-verify: true}
+  - {name: _电报频道 @bdpd8 2, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: US_youtube@资源分享师_161, server: 45.58.154.135, port: 51409, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: _电报频道 @bdpd8 3, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}}
+  - {name: 🇫🇷 FR法国(youtube阿伟科技)_2, server: chanel.vpnshop.top, port: 46521, type: vmess, uuid: 6e462630-f424-4a5e-ad9f-311f143bd82b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [ponisha.ir]}}}
+  - {name: US_youtube@资源分享师_89, server: 104.20.69.8, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
+  - {name: 🇭🇰 HK香港(youtube阿伟科技2)_12, server: 43.154.117.178, port: 58602, type: vmess, uuid: 697d24eb-b7f6-45ca-bc20-af78e79c0b0d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 CA加拿大(youtube阿伟科技)_2, server: ca-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 3a453358-67e9-4e43-a119-47eb5495872a, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [pmsc.pubgmobile.com]}}}
+  - {name: JP_youtube@资源分享师_91, server: ap.stablize.top, port: 443, type: trojan, password: 4d23cf0e-5ceb-43e7-90d3-63982bfa6940, sni: ap.stablize.top, skip-cert-verify: true}
+  - {name: US_youtube@资源分享师_73, server: 198.41.193.39, port: 8880, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi, headers: {Host: uyaa.vtcss.top}}}
+  - {name: CN_youtube@资源分享师_22, server: a2jphkzxwmzjylmt.bacida745.me, port: 7511, type: ss, cipher: aes-128-gcm, password: tR8Ke1TBw4q5FIvj}
+  - {name: SG_youtube@资源分享师_240, server: ap.stablize.top, port: 443, type: trojan, password: 2b2d6a27-6e72-4090-bb53-26f45558a0bc, sni: ap.stablize.top, skip-cert-verify: true}
+  - {name: node_🇺🇸_US 10, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}}
+  - {name: 🇺🇸 美国_YouTube@欢迎订阅大飞分享_33, server: dubawtgfnewi.76898102.xyz, port: 2052, type: vmess, uuid: 285bfc27-2341-3c7a-be0e-360cedd5e209, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /flkfhzz, headers: {Host: dubawtgfnewi.76898102.xyz}}}
+  - {name: JP_youtube@资源分享师_121, server: ap.stablize.top, port: 443, type: trojan, password: 6f96d269-31bb-4914-b2c9-629e117265ed, sni: ap.stablize.top, skip-cert-verify: true}
+  - {name: node_🇮🇳_IN, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
+  - {name: CR_youtube@资源分享师_77, server: 190.93.245.241, port: 2082, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: US_youtube@资源分享师_66, server: 172.67.52.106, port: 80, type: vmess, uuid: a67679a6-a186-4d62-f84e-f3f00dc7745e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /youlingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: CA_youtube@资源分享师_21, server: sdttkza.76898102.xyz, port: 2082, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: sdttkz.76898102.xyz}}}
+  - {name: CR_youtube@资源分享师_48, server: 190.93.247.97, port: 2082, type: vmess, uuid: 19c6ec1b-2230-41d4-ff1c-c8449dc1ed5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yulingkaishi01, headers: {Host: tou.vtcss.top}}}
+  - {name: 🇯🇵 JP日本(youtube阿伟科技2)_1, server: 38.47.98.66, port: 443, type: vmess, uuid: 04b38baf-5b78-4937-b27a-83057b08b776, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_YouTube@欢迎订阅大飞分享_90, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -87,306 +152,566 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - _电报频道 @shendu666 24
-      - 🇯🇵 日本-GC182-VM
-      - HK_youtube@资源分享师_149
-      - 🇸🇬 SG新加坡(youtube阿伟科技2)_10
-      - _电报频道 @shendu666 22
-      - 🇺🇸 美国-GC58-VM
-      - 🇫🇷 FR法国(youtube阿伟科技)_2
-      - 🇺🇸 美国凤凰城2 | 0.1x
-      - 🇩🇪 德国 | 0.1x
-      - 🇺🇸 US美国(youtube阿伟科技2)_34
-      - 🇸🇬 新加坡 05 | 定制专线
-      - _电报频道 @shendu666 74
-      - 🇷🇺 西伯利亚-100-VM
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - CN_youtube@资源分享师_221
+      - US_youtube@资源分享师_27
       - 全球 01 | 通用专线
-      - 🇺🇸 美国-HD236-VM
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 |27.03Mb
+      - US_youtube@资源分享师_130
+      - node_🇺🇸_US
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_3
+      - CN_youtube@资源分享师_207
+      - JP_youtube@资源分享师_140
       - 🇺🇸 美国 03 | 解锁专线
-      - 🇺🇸 美国凤凰城3 | 0.1x
-      - 🇩🇪 DE德国(youtube阿伟科技2)_8
-      - 🇺🇸 美国-RN121-VM
-      - 🇭🇰 香港-AL179-VM
-      - 🇫🇷 FR法国(youtube阿伟科技)_1
-      - HK_youtube@资源分享师_146
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国-HD35-VM
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_199 |29.26Mb
-      - _电报频道 @shendu666
-      - _电报频道 @shendu666 2
-      - 🇺🇸 美国 049
+      - 🇸🇬 新加坡 05 | 定制专线
+      - 🇭🇰 HK香港(youtube阿伟科技2)_6
+      - node_🇺🇸_US 2
+      - node_🇺🇸_US 3
       - _电报频道 @shendu666 17
-      - 🇺🇸 美国凤凰城1 | 0.1x
-      - JP_youtube@资源分享师_216
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_153 | 9.69Mb
-      - 🇺🇸 美国凤凰城4 | 0.1x
-      - CN_youtube@资源分享师_86
-      - CN_youtube@资源分享师_168
-      - TG频道@kxswa+|+https://t.me/kxswa
-      - CN_youtube@资源分享师_165
-      - _电报频道 @shendu666 3
-      - _电报频道 @shendu666 61
-      - _电报频道 @shendu666 34
       - TG频道@kxswa | https://t.me/kxswa
-      - 🇺🇸 美国 061
-      - _电报频道 @shendu666 80
-      - 🇺🇸 美国 044
-      - US_youtube@资源分享师_79
-      - 🇺🇸 美国-GC136-VM
+      - JP_youtube@资源分享师_176
+      - node_🇺🇸_US 4
+      - HK_youtube@资源分享师_146
+      - 免费梯子https://t.me/mftizi
+      - US_youtube@资源分享师_149
+      - 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚
+      - node_🇺🇸_US 5
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7
+      - 🇮🇱 TG频道:@hkaa0 |以色列_2
+      - JP_youtube@资源分享师_138
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=1
+      - node_🇺🇸_US 6
+      - US_youtube@资源分享师_230
+      - FR_youtube@资源分享师_89
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
+      - 🇰🇷 五叶节点分享频道 @hkaa0 |韩国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3
+      - TG频道@kxswa+|+https://t.me/kxswa
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_1
+      - 🇰🇷 韩国=tg频道:@bpjzx2=3
+      - US_youtube@资源分享师_176
+      - 🇯🇵 JP日本(youtube阿伟科技2)_4
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_2
+      - 🇭🇰 HK香港(youtube阿伟科技2)_15
+      - node_🇺🇸_US 7
+      - CN_youtube@资源分享师_116
+      - 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚 2
+      - 🇹🇷 TUR土耳其(youtube阿伟科技)
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_72
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=4
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=4 2
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_218
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5
+      - 🇫🇷 FR法国(youtube阿伟科技2)_2
+      - US_youtube@资源分享师_42
+      - _电报频道 @shendu666
+      - JP_youtube@资源分享师_219
+      - _电报频道 @bdpd8 112
+      - 🇫🇷 FR法国(youtube阿伟科技2)_3
+      - US_youtube@资源分享师_139
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡 2
+      - 🇺🇸 US美国(youtube阿伟科技2)_4
+      - JP_youtube@资源分享师_119
+      - US_youtube@资源分享师_124
+      - US_youtube@资源分享师_241
+      - US_youtube@资源分享师_86
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_2 2
+      - US_youtube@资源分享师_165
+      - SG_youtube@资源分享师_172
+      - 🇭🇰 HK香港(youtube阿伟科技2)_5
+      - 🇸🇬 长期更新节点@mftizi
+      - 🇺🇸 美国 031
+      - CN_youtube@资源分享师_216
+      - 🇮🇱 TG频道:@hkaa0 |以色列_1
+      - US_youtube@资源分享师_116
+      - 🇫🇷 FR法国(youtube阿伟科技2)_2 2
+      - 🇫🇷 法国_YouTube@欢迎订阅大飞分享_111
+      - US_youtube@资源分享师_71
       - TG频道@kxswa | https://t.me/kxswa 2
-      - 🇻🇳 越南-GC148-VM
-      - US_youtube@资源分享师_167
-      - 🇺🇸 美国-DP65-VM
-      - CN_youtube@资源分享师_168 2
-      - 🇯🇵 日本东京
-      - US_youtube@资源分享师_195
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_236 |31.44Mb
-      - TG频道@kxswa | https://t.me/kxswa 3
-      - TW_youtube@资源分享师_159
-      - US_youtube@资源分享师_24
-      - _电报频道 @shendu666 123
-      - US_youtube@资源分享师_175
-      - CN_youtube@资源分享师_160
-      - _电报频道 @shendu666 31
-      - "🇨🇳 五叶节点分享: @hkaa0 |台湾_1"
-      - _电报频道 @shendu666 78
-      - 🇺🇸 Az-美国凤凰城1号 | 0.1x
-      - 🇰🇷 韩国-AZ246-VM
-      - CN_youtube@资源分享师_179
-      - 🇫🇷 FR法国(youtube阿伟科技)_3
-      - 🇺🇸 美国 Datability
-      - TG频道@kxswa | https://t.me/kxswa 4
-      - 🇸🇬 新加坡 03 | 解锁专线
+      - US_youtube@资源分享师_112
+      - 🇺🇸 US美国(youtube阿伟科技2)_8
+      - 🇯🇵 日本=tg频道:@bpjzx2=8
+      - US_youtube@资源分享师_95
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_4
+      - US_youtube@资源分享师_75
+      - US_youtube@资源分享师_153
+      - node_🇺🇸_US 8
+      - US_youtube@资源分享师_64
+      - 🇭🇰 HK香港(youtube阿伟科技2)_4
+      - US_youtube@资源分享师_76
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
+      - HK_youtube@资源分享师_208
+      - US_youtube@资源分享师_20
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_1 2
+      - US_youtube@资源分享师_37
+      - US_youtube@资源分享师_115
+      - US_youtube@资源分享师_88
+      - node_🇮🇩_ID
+      - US_youtube@资源分享师_84
+      - US_youtube@资源分享师_233
+      - node_🇺🇸_US 9
+      - node_🇸🇬_SG
+      - 🇰🇷 韩国=tg频道:@bpjzx2=8
+      - US_300 |29.46Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_19
+      - US_youtube@资源分享师_190
+      - US_youtube@资源分享师_114
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=6
+      - 🇬🇧 GB英国(youtube阿伟科技)_7
+      - US_youtube@资源分享师_98
+      - US_youtube@资源分享师_3
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇳🇱 荷兰 005
+      - 🇺🇸 US美国(youtube阿伟科技2)_34
+      - US_youtube@资源分享师_102
+      - _电报频道 @bdpd8
+      - JP_youtube@资源分享师_175
+      - _电报频道 @bdpd8 2
+      - US_youtube@资源分享师_161
+      - _电报频道 @bdpd8 3
+      - 🇫🇷 FR法国(youtube阿伟科技)_2
+      - US_youtube@资源分享师_89
+      - 🇭🇰 HK香港(youtube阿伟科技2)_12
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
+      - JP_youtube@资源分享师_91
+      - US_youtube@资源分享师_73
+      - CN_youtube@资源分享师_22
+      - SG_youtube@资源分享师_240
+      - node_🇺🇸_US 10
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_33
+      - JP_youtube@资源分享师_121
+      - node_🇮🇳_IN
+      - CR_youtube@资源分享师_77
+      - US_youtube@资源分享师_66
+      - CA_youtube@资源分享师_21
+      - CR_youtube@资源分享师_48
+      - 🇯🇵 JP日本(youtube阿伟科技2)_1
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_90
   - name: 🐟 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - _电报频道 @shendu666 24
-      - 🇯🇵 日本-GC182-VM
-      - HK_youtube@资源分享师_149
-      - 🇸🇬 SG新加坡(youtube阿伟科技2)_10
-      - _电报频道 @shendu666 22
-      - 🇺🇸 美国-GC58-VM
-      - 🇫🇷 FR法国(youtube阿伟科技)_2
-      - 🇺🇸 美国凤凰城2 | 0.1x
-      - 🇩🇪 德国 | 0.1x
-      - 🇺🇸 US美国(youtube阿伟科技2)_34
-      - 🇸🇬 新加坡 05 | 定制专线
-      - _电报频道 @shendu666 74
-      - 🇷🇺 西伯利亚-100-VM
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - CN_youtube@资源分享师_221
+      - US_youtube@资源分享师_27
       - 全球 01 | 通用专线
-      - 🇺🇸 美国-HD236-VM
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 |27.03Mb
+      - US_youtube@资源分享师_130
+      - node_🇺🇸_US
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_3
+      - CN_youtube@资源分享师_207
+      - JP_youtube@资源分享师_140
       - 🇺🇸 美国 03 | 解锁专线
-      - 🇺🇸 美国凤凰城3 | 0.1x
-      - 🇩🇪 DE德国(youtube阿伟科技2)_8
-      - 🇺🇸 美国-RN121-VM
-      - 🇭🇰 香港-AL179-VM
-      - 🇫🇷 FR法国(youtube阿伟科技)_1
-      - HK_youtube@资源分享师_146
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国-HD35-VM
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_199 |29.26Mb
-      - _电报频道 @shendu666
-      - _电报频道 @shendu666 2
-      - 🇺🇸 美国 049
+      - 🇸🇬 新加坡 05 | 定制专线
+      - 🇭🇰 HK香港(youtube阿伟科技2)_6
+      - node_🇺🇸_US 2
+      - node_🇺🇸_US 3
       - _电报频道 @shendu666 17
-      - 🇺🇸 美国凤凰城1 | 0.1x
-      - JP_youtube@资源分享师_216
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_153 | 9.69Mb
-      - 🇺🇸 美国凤凰城4 | 0.1x
-      - CN_youtube@资源分享师_86
-      - CN_youtube@资源分享师_168
-      - TG频道@kxswa+|+https://t.me/kxswa
-      - CN_youtube@资源分享师_165
-      - _电报频道 @shendu666 3
-      - _电报频道 @shendu666 61
-      - _电报频道 @shendu666 34
       - TG频道@kxswa | https://t.me/kxswa
-      - 🇺🇸 美国 061
-      - _电报频道 @shendu666 80
-      - 🇺🇸 美国 044
-      - US_youtube@资源分享师_79
-      - 🇺🇸 美国-GC136-VM
+      - JP_youtube@资源分享师_176
+      - node_🇺🇸_US 4
+      - HK_youtube@资源分享师_146
+      - 免费梯子https://t.me/mftizi
+      - US_youtube@资源分享师_149
+      - 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚
+      - node_🇺🇸_US 5
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7
+      - 🇮🇱 TG频道:@hkaa0 |以色列_2
+      - JP_youtube@资源分享师_138
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=1
+      - node_🇺🇸_US 6
+      - US_youtube@资源分享师_230
+      - FR_youtube@资源分享师_89
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
+      - 🇰🇷 五叶节点分享频道 @hkaa0 |韩国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3
+      - TG频道@kxswa+|+https://t.me/kxswa
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_1
+      - 🇰🇷 韩国=tg频道:@bpjzx2=3
+      - US_youtube@资源分享师_176
+      - 🇯🇵 JP日本(youtube阿伟科技2)_4
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_2
+      - 🇭🇰 HK香港(youtube阿伟科技2)_15
+      - node_🇺🇸_US 7
+      - CN_youtube@资源分享师_116
+      - 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚 2
+      - 🇹🇷 TUR土耳其(youtube阿伟科技)
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_72
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=4
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=4 2
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_218
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5
+      - 🇫🇷 FR法国(youtube阿伟科技2)_2
+      - US_youtube@资源分享师_42
+      - _电报频道 @shendu666
+      - JP_youtube@资源分享师_219
+      - _电报频道 @bdpd8 112
+      - 🇫🇷 FR法国(youtube阿伟科技2)_3
+      - US_youtube@资源分享师_139
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡 2
+      - 🇺🇸 US美国(youtube阿伟科技2)_4
+      - JP_youtube@资源分享师_119
+      - US_youtube@资源分享师_124
+      - US_youtube@资源分享师_241
+      - US_youtube@资源分享师_86
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_2 2
+      - US_youtube@资源分享师_165
+      - SG_youtube@资源分享师_172
+      - 🇭🇰 HK香港(youtube阿伟科技2)_5
+      - 🇸🇬 长期更新节点@mftizi
+      - 🇺🇸 美国 031
+      - CN_youtube@资源分享师_216
+      - 🇮🇱 TG频道:@hkaa0 |以色列_1
+      - US_youtube@资源分享师_116
+      - 🇫🇷 FR法国(youtube阿伟科技2)_2 2
+      - 🇫🇷 法国_YouTube@欢迎订阅大飞分享_111
+      - US_youtube@资源分享师_71
       - TG频道@kxswa | https://t.me/kxswa 2
-      - 🇻🇳 越南-GC148-VM
-      - US_youtube@资源分享师_167
-      - 🇺🇸 美国-DP65-VM
-      - CN_youtube@资源分享师_168 2
-      - 🇯🇵 日本东京
-      - US_youtube@资源分享师_195
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_236 |31.44Mb
-      - TG频道@kxswa | https://t.me/kxswa 3
-      - TW_youtube@资源分享师_159
-      - US_youtube@资源分享师_24
-      - _电报频道 @shendu666 123
-      - US_youtube@资源分享师_175
-      - CN_youtube@资源分享师_160
-      - _电报频道 @shendu666 31
-      - "🇨🇳 五叶节点分享: @hkaa0 |台湾_1"
-      - _电报频道 @shendu666 78
-      - 🇺🇸 Az-美国凤凰城1号 | 0.1x
-      - 🇰🇷 韩国-AZ246-VM
-      - CN_youtube@资源分享师_179
-      - 🇫🇷 FR法国(youtube阿伟科技)_3
-      - 🇺🇸 美国 Datability
-      - TG频道@kxswa | https://t.me/kxswa 4
-      - 🇸🇬 新加坡 03 | 解锁专线
+      - US_youtube@资源分享师_112
+      - 🇺🇸 US美国(youtube阿伟科技2)_8
+      - 🇯🇵 日本=tg频道:@bpjzx2=8
+      - US_youtube@资源分享师_95
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_4
+      - US_youtube@资源分享师_75
+      - US_youtube@资源分享师_153
+      - node_🇺🇸_US 8
+      - US_youtube@资源分享师_64
+      - 🇭🇰 HK香港(youtube阿伟科技2)_4
+      - US_youtube@资源分享师_76
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
+      - HK_youtube@资源分享师_208
+      - US_youtube@资源分享师_20
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_1 2
+      - US_youtube@资源分享师_37
+      - US_youtube@资源分享师_115
+      - US_youtube@资源分享师_88
+      - node_🇮🇩_ID
+      - US_youtube@资源分享师_84
+      - US_youtube@资源分享师_233
+      - node_🇺🇸_US 9
+      - node_🇸🇬_SG
+      - 🇰🇷 韩国=tg频道:@bpjzx2=8
+      - US_300 |29.46Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_19
+      - US_youtube@资源分享师_190
+      - US_youtube@资源分享师_114
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=6
+      - 🇬🇧 GB英国(youtube阿伟科技)_7
+      - US_youtube@资源分享师_98
+      - US_youtube@资源分享师_3
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇳🇱 荷兰 005
+      - 🇺🇸 US美国(youtube阿伟科技2)_34
+      - US_youtube@资源分享师_102
+      - _电报频道 @bdpd8
+      - JP_youtube@资源分享师_175
+      - _电报频道 @bdpd8 2
+      - US_youtube@资源分享师_161
+      - _电报频道 @bdpd8 3
+      - 🇫🇷 FR法国(youtube阿伟科技)_2
+      - US_youtube@资源分享师_89
+      - 🇭🇰 HK香港(youtube阿伟科技2)_12
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
+      - JP_youtube@资源分享师_91
+      - US_youtube@资源分享师_73
+      - CN_youtube@资源分享师_22
+      - SG_youtube@资源分享师_240
+      - node_🇺🇸_US 10
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_33
+      - JP_youtube@资源分享师_121
+      - node_🇮🇳_IN
+      - CR_youtube@资源分享师_77
+      - US_youtube@资源分享师_66
+      - CA_youtube@资源分享师_21
+      - CR_youtube@资源分享师_48
+      - 🇯🇵 JP日本(youtube阿伟科技2)_1
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_90
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - _电报频道 @shendu666 24
-      - 🇯🇵 日本-GC182-VM
-      - HK_youtube@资源分享师_149
-      - 🇸🇬 SG新加坡(youtube阿伟科技2)_10
-      - _电报频道 @shendu666 22
-      - 🇺🇸 美国-GC58-VM
-      - 🇫🇷 FR法国(youtube阿伟科技)_2
-      - 🇺🇸 美国凤凰城2 | 0.1x
-      - 🇩🇪 德国 | 0.1x
-      - 🇺🇸 US美国(youtube阿伟科技2)_34
-      - 🇸🇬 新加坡 05 | 定制专线
-      - _电报频道 @shendu666 74
-      - 🇷🇺 西伯利亚-100-VM
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - CN_youtube@资源分享师_221
+      - US_youtube@资源分享师_27
       - 全球 01 | 通用专线
-      - 🇺🇸 美国-HD236-VM
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 |27.03Mb
+      - US_youtube@资源分享师_130
+      - node_🇺🇸_US
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_3
+      - CN_youtube@资源分享师_207
+      - JP_youtube@资源分享师_140
       - 🇺🇸 美国 03 | 解锁专线
-      - 🇺🇸 美国凤凰城3 | 0.1x
-      - 🇩🇪 DE德国(youtube阿伟科技2)_8
-      - 🇺🇸 美国-RN121-VM
-      - 🇭🇰 香港-AL179-VM
-      - 🇫🇷 FR法国(youtube阿伟科技)_1
-      - HK_youtube@资源分享师_146
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国-HD35-VM
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_199 |29.26Mb
-      - _电报频道 @shendu666
-      - _电报频道 @shendu666 2
-      - 🇺🇸 美国 049
+      - 🇸🇬 新加坡 05 | 定制专线
+      - 🇭🇰 HK香港(youtube阿伟科技2)_6
+      - node_🇺🇸_US 2
+      - node_🇺🇸_US 3
       - _电报频道 @shendu666 17
-      - 🇺🇸 美国凤凰城1 | 0.1x
-      - JP_youtube@资源分享师_216
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_153 | 9.69Mb
-      - 🇺🇸 美国凤凰城4 | 0.1x
-      - CN_youtube@资源分享师_86
-      - CN_youtube@资源分享师_168
-      - TG频道@kxswa+|+https://t.me/kxswa
-      - CN_youtube@资源分享师_165
-      - _电报频道 @shendu666 3
-      - _电报频道 @shendu666 61
-      - _电报频道 @shendu666 34
       - TG频道@kxswa | https://t.me/kxswa
-      - 🇺🇸 美国 061
-      - _电报频道 @shendu666 80
-      - 🇺🇸 美国 044
-      - US_youtube@资源分享师_79
-      - 🇺🇸 美国-GC136-VM
+      - JP_youtube@资源分享师_176
+      - node_🇺🇸_US 4
+      - HK_youtube@资源分享师_146
+      - 免费梯子https://t.me/mftizi
+      - US_youtube@资源分享师_149
+      - 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚
+      - node_🇺🇸_US 5
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7
+      - 🇮🇱 TG频道:@hkaa0 |以色列_2
+      - JP_youtube@资源分享师_138
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=1
+      - node_🇺🇸_US 6
+      - US_youtube@资源分享师_230
+      - FR_youtube@资源分享师_89
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
+      - 🇰🇷 五叶节点分享频道 @hkaa0 |韩国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3
+      - TG频道@kxswa+|+https://t.me/kxswa
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_1
+      - 🇰🇷 韩国=tg频道:@bpjzx2=3
+      - US_youtube@资源分享师_176
+      - 🇯🇵 JP日本(youtube阿伟科技2)_4
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_2
+      - 🇭🇰 HK香港(youtube阿伟科技2)_15
+      - node_🇺🇸_US 7
+      - CN_youtube@资源分享师_116
+      - 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚 2
+      - 🇹🇷 TUR土耳其(youtube阿伟科技)
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_72
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=4
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=4 2
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_218
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5
+      - 🇫🇷 FR法国(youtube阿伟科技2)_2
+      - US_youtube@资源分享师_42
+      - _电报频道 @shendu666
+      - JP_youtube@资源分享师_219
+      - _电报频道 @bdpd8 112
+      - 🇫🇷 FR法国(youtube阿伟科技2)_3
+      - US_youtube@资源分享师_139
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡 2
+      - 🇺🇸 US美国(youtube阿伟科技2)_4
+      - JP_youtube@资源分享师_119
+      - US_youtube@资源分享师_124
+      - US_youtube@资源分享师_241
+      - US_youtube@资源分享师_86
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_2 2
+      - US_youtube@资源分享师_165
+      - SG_youtube@资源分享师_172
+      - 🇭🇰 HK香港(youtube阿伟科技2)_5
+      - 🇸🇬 长期更新节点@mftizi
+      - 🇺🇸 美国 031
+      - CN_youtube@资源分享师_216
+      - 🇮🇱 TG频道:@hkaa0 |以色列_1
+      - US_youtube@资源分享师_116
+      - 🇫🇷 FR法国(youtube阿伟科技2)_2 2
+      - 🇫🇷 法国_YouTube@欢迎订阅大飞分享_111
+      - US_youtube@资源分享师_71
       - TG频道@kxswa | https://t.me/kxswa 2
-      - 🇻🇳 越南-GC148-VM
-      - US_youtube@资源分享师_167
-      - 🇺🇸 美国-DP65-VM
-      - CN_youtube@资源分享师_168 2
-      - 🇯🇵 日本东京
-      - US_youtube@资源分享师_195
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_236 |31.44Mb
-      - TG频道@kxswa | https://t.me/kxswa 3
-      - TW_youtube@资源分享师_159
-      - US_youtube@资源分享师_24
-      - _电报频道 @shendu666 123
-      - US_youtube@资源分享师_175
-      - CN_youtube@资源分享师_160
-      - _电报频道 @shendu666 31
-      - "🇨🇳 五叶节点分享: @hkaa0 |台湾_1"
-      - _电报频道 @shendu666 78
-      - 🇺🇸 Az-美国凤凰城1号 | 0.1x
-      - 🇰🇷 韩国-AZ246-VM
-      - CN_youtube@资源分享师_179
-      - 🇫🇷 FR法国(youtube阿伟科技)_3
-      - 🇺🇸 美国 Datability
-      - TG频道@kxswa | https://t.me/kxswa 4
-      - 🇸🇬 新加坡 03 | 解锁专线
+      - US_youtube@资源分享师_112
+      - 🇺🇸 US美国(youtube阿伟科技2)_8
+      - 🇯🇵 日本=tg频道:@bpjzx2=8
+      - US_youtube@资源分享师_95
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_4
+      - US_youtube@资源分享师_75
+      - US_youtube@资源分享师_153
+      - node_🇺🇸_US 8
+      - US_youtube@资源分享师_64
+      - 🇭🇰 HK香港(youtube阿伟科技2)_4
+      - US_youtube@资源分享师_76
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
+      - HK_youtube@资源分享师_208
+      - US_youtube@资源分享师_20
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_1 2
+      - US_youtube@资源分享师_37
+      - US_youtube@资源分享师_115
+      - US_youtube@资源分享师_88
+      - node_🇮🇩_ID
+      - US_youtube@资源分享师_84
+      - US_youtube@资源分享师_233
+      - node_🇺🇸_US 9
+      - node_🇸🇬_SG
+      - 🇰🇷 韩国=tg频道:@bpjzx2=8
+      - US_300 |29.46Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_19
+      - US_youtube@资源分享师_190
+      - US_youtube@资源分享师_114
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=6
+      - 🇬🇧 GB英国(youtube阿伟科技)_7
+      - US_youtube@资源分享师_98
+      - US_youtube@资源分享师_3
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇳🇱 荷兰 005
+      - 🇺🇸 US美国(youtube阿伟科技2)_34
+      - US_youtube@资源分享师_102
+      - _电报频道 @bdpd8
+      - JP_youtube@资源分享师_175
+      - _电报频道 @bdpd8 2
+      - US_youtube@资源分享师_161
+      - _电报频道 @bdpd8 3
+      - 🇫🇷 FR法国(youtube阿伟科技)_2
+      - US_youtube@资源分享师_89
+      - 🇭🇰 HK香港(youtube阿伟科技2)_12
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
+      - JP_youtube@资源分享师_91
+      - US_youtube@资源分享师_73
+      - CN_youtube@资源分享师_22
+      - SG_youtube@资源分享师_240
+      - node_🇺🇸_US 10
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_33
+      - JP_youtube@资源分享师_121
+      - node_🇮🇳_IN
+      - CR_youtube@资源分享师_77
+      - US_youtube@资源分享师_66
+      - CA_youtube@资源分享师_21
+      - CR_youtube@资源分享师_48
+      - 🇯🇵 JP日本(youtube阿伟科技2)_1
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_90
   - name: 🎯 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - _电报频道 @shendu666 24
-      - 🇯🇵 日本-GC182-VM
-      - HK_youtube@资源分享师_149
-      - 🇸🇬 SG新加坡(youtube阿伟科技2)_10
-      - _电报频道 @shendu666 22
-      - 🇺🇸 美国-GC58-VM
-      - 🇫🇷 FR法国(youtube阿伟科技)_2
-      - 🇺🇸 美国凤凰城2 | 0.1x
-      - 🇩🇪 德国 | 0.1x
-      - 🇺🇸 US美国(youtube阿伟科技2)_34
-      - 🇸🇬 新加坡 05 | 定制专线
-      - _电报频道 @shendu666 74
-      - 🇷🇺 西伯利亚-100-VM
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - CN_youtube@资源分享师_221
+      - US_youtube@资源分享师_27
       - 全球 01 | 通用专线
-      - 🇺🇸 美国-HD236-VM
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 |27.03Mb
+      - US_youtube@资源分享师_130
+      - node_🇺🇸_US
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_3
+      - CN_youtube@资源分享师_207
+      - JP_youtube@资源分享师_140
       - 🇺🇸 美国 03 | 解锁专线
-      - 🇺🇸 美国凤凰城3 | 0.1x
-      - 🇩🇪 DE德国(youtube阿伟科技2)_8
-      - 🇺🇸 美国-RN121-VM
-      - 🇭🇰 香港-AL179-VM
-      - 🇫🇷 FR法国(youtube阿伟科技)_1
-      - HK_youtube@资源分享师_146
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国-HD35-VM
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_199 |29.26Mb
-      - _电报频道 @shendu666
-      - _电报频道 @shendu666 2
-      - 🇺🇸 美国 049
+      - 🇸🇬 新加坡 05 | 定制专线
+      - 🇭🇰 HK香港(youtube阿伟科技2)_6
+      - node_🇺🇸_US 2
+      - node_🇺🇸_US 3
       - _电报频道 @shendu666 17
-      - 🇺🇸 美国凤凰城1 | 0.1x
-      - JP_youtube@资源分享师_216
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_153 | 9.69Mb
-      - 🇺🇸 美国凤凰城4 | 0.1x
-      - CN_youtube@资源分享师_86
-      - CN_youtube@资源分享师_168
-      - TG频道@kxswa+|+https://t.me/kxswa
-      - CN_youtube@资源分享师_165
-      - _电报频道 @shendu666 3
-      - _电报频道 @shendu666 61
-      - _电报频道 @shendu666 34
       - TG频道@kxswa | https://t.me/kxswa
-      - 🇺🇸 美国 061
-      - _电报频道 @shendu666 80
-      - 🇺🇸 美国 044
-      - US_youtube@资源分享师_79
-      - 🇺🇸 美国-GC136-VM
+      - JP_youtube@资源分享师_176
+      - node_🇺🇸_US 4
+      - HK_youtube@资源分享师_146
+      - 免费梯子https://t.me/mftizi
+      - US_youtube@资源分享师_149
+      - 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚
+      - node_🇺🇸_US 5
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7
+      - 🇮🇱 TG频道:@hkaa0 |以色列_2
+      - JP_youtube@资源分享师_138
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=1
+      - node_🇺🇸_US 6
+      - US_youtube@资源分享师_230
+      - FR_youtube@资源分享师_89
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
+      - 🇰🇷 五叶节点分享频道 @hkaa0 |韩国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3
+      - TG频道@kxswa+|+https://t.me/kxswa
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_1
+      - 🇰🇷 韩国=tg频道:@bpjzx2=3
+      - US_youtube@资源分享师_176
+      - 🇯🇵 JP日本(youtube阿伟科技2)_4
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_2
+      - 🇭🇰 HK香港(youtube阿伟科技2)_15
+      - node_🇺🇸_US 7
+      - CN_youtube@资源分享师_116
+      - 🇦🇺 五叶节点分享频道 @hkaa0 |澳大利亚 2
+      - 🇹🇷 TUR土耳其(youtube阿伟科技)
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_72
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=4
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=4 2
+      - US_youtube@资源分享师_11
+      - US_youtube@资源分享师_218
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5
+      - 🇫🇷 FR法国(youtube阿伟科技2)_2
+      - US_youtube@资源分享师_42
+      - _电报频道 @shendu666
+      - JP_youtube@资源分享师_219
+      - _电报频道 @bdpd8 112
+      - 🇫🇷 FR法国(youtube阿伟科技2)_3
+      - US_youtube@资源分享师_139
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡 2
+      - 🇺🇸 US美国(youtube阿伟科技2)_4
+      - JP_youtube@资源分享师_119
+      - US_youtube@资源分享师_124
+      - US_youtube@资源分享师_241
+      - US_youtube@资源分享师_86
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_2 2
+      - US_youtube@资源分享师_165
+      - SG_youtube@资源分享师_172
+      - 🇭🇰 HK香港(youtube阿伟科技2)_5
+      - 🇸🇬 长期更新节点@mftizi
+      - 🇺🇸 美国 031
+      - CN_youtube@资源分享师_216
+      - 🇮🇱 TG频道:@hkaa0 |以色列_1
+      - US_youtube@资源分享师_116
+      - 🇫🇷 FR法国(youtube阿伟科技2)_2 2
+      - 🇫🇷 法国_YouTube@欢迎订阅大飞分享_111
+      - US_youtube@资源分享师_71
       - TG频道@kxswa | https://t.me/kxswa 2
-      - 🇻🇳 越南-GC148-VM
-      - US_youtube@资源分享师_167
-      - 🇺🇸 美国-DP65-VM
-      - CN_youtube@资源分享师_168 2
-      - 🇯🇵 日本东京
-      - US_youtube@资源分享师_195
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_236 |31.44Mb
-      - TG频道@kxswa | https://t.me/kxswa 3
-      - TW_youtube@资源分享师_159
-      - US_youtube@资源分享师_24
-      - _电报频道 @shendu666 123
-      - US_youtube@资源分享师_175
-      - CN_youtube@资源分享师_160
-      - _电报频道 @shendu666 31
-      - "🇨🇳 五叶节点分享: @hkaa0 |台湾_1"
-      - _电报频道 @shendu666 78
-      - 🇺🇸 Az-美国凤凰城1号 | 0.1x
-      - 🇰🇷 韩国-AZ246-VM
-      - CN_youtube@资源分享师_179
-      - 🇫🇷 FR法国(youtube阿伟科技)_3
-      - 🇺🇸 美国 Datability
-      - TG频道@kxswa | https://t.me/kxswa 4
-      - 🇸🇬 新加坡 03 | 解锁专线
+      - US_youtube@资源分享师_112
+      - 🇺🇸 US美国(youtube阿伟科技2)_8
+      - 🇯🇵 日本=tg频道:@bpjzx2=8
+      - US_youtube@资源分享师_95
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_4
+      - US_youtube@资源分享师_75
+      - US_youtube@资源分享师_153
+      - node_🇺🇸_US 8
+      - US_youtube@资源分享师_64
+      - 🇭🇰 HK香港(youtube阿伟科技2)_4
+      - US_youtube@资源分享师_76
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
+      - HK_youtube@资源分享师_208
+      - US_youtube@资源分享师_20
+      - 🇸🇬 SG新加坡(youtube阿伟科技2)_1 2
+      - US_youtube@资源分享师_37
+      - US_youtube@资源分享师_115
+      - US_youtube@资源分享师_88
+      - node_🇮🇩_ID
+      - US_youtube@资源分享师_84
+      - US_youtube@资源分享师_233
+      - node_🇺🇸_US 9
+      - node_🇸🇬_SG
+      - 🇰🇷 韩国=tg频道:@bpjzx2=8
+      - US_300 |29.46Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_19
+      - US_youtube@资源分享师_190
+      - US_youtube@资源分享师_114
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=6
+      - 🇬🇧 GB英国(youtube阿伟科技)_7
+      - US_youtube@资源分享师_98
+      - US_youtube@资源分享师_3
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇳🇱 荷兰 005
+      - 🇺🇸 US美国(youtube阿伟科技2)_34
+      - US_youtube@资源分享师_102
+      - _电报频道 @bdpd8
+      - JP_youtube@资源分享师_175
+      - _电报频道 @bdpd8 2
+      - US_youtube@资源分享师_161
+      - _电报频道 @bdpd8 3
+      - 🇫🇷 FR法国(youtube阿伟科技)_2
+      - US_youtube@资源分享师_89
+      - 🇭🇰 HK香港(youtube阿伟科技2)_12
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
+      - JP_youtube@资源分享师_91
+      - US_youtube@资源分享师_73
+      - CN_youtube@资源分享师_22
+      - SG_youtube@资源分享师_240
+      - node_🇺🇸_US 10
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_33
+      - JP_youtube@资源分享师_121
+      - node_🇮🇳_IN
+      - CR_youtube@资源分享师_77
+      - US_youtube@资源分享师_66
+      - CA_youtube@资源分享师_21
+      - CR_youtube@资源分享师_48
+      - 🇯🇵 JP日本(youtube阿伟科技2)_1
+      - 🇺🇸 美国_YouTube@欢迎订阅大飞分享_90
   - name: 🛑 禁止代理
     type: select
     proxies:
