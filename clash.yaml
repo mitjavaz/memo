@@ -5,51 +5,37 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TG@GEEKSAHRE_16, server: zf.678889.xyz, port: 20017, type: ss, cipher: chacha20-ietf-poly1305, password: f5caf864-d3e4-435a-9e26-06af13c23419}
-  - {name: 🇭🇰 香港=tg频道:@bpjzx2=11, server: shcuzxhk.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51649:231456575, obfs-param: t.me/vpnhat}
-  - {name: TG@GEEKSAHRE_8, server: zf.678889.xyz, port: 44005, type: ss, cipher: chacha20-ietf-poly1305, password: f5caf864-d3e4-435a-9e26-06af13c23419}
-  - {name: TG@GEEKSAHRE_18, server: zf.678889.xyz, port: 44002, type: ss, cipher: chacha20-ietf-poly1305, password: f5caf864-d3e4-435a-9e26-06af13c23419}
-  - {name: 🇭🇰 香港=tg频道:@bpjzx2=1, server: cmrefhk1.labtechs.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51649:231456575, obfs-param: t.me/vpnhat}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=25, server: 163.123.192.57, port: 443, type: trojan, password: 3d4af38c-6406-4e5c-a09b-fe49f8d5357e, skip-cert-verify: true}
-  - {name: 🇭🇰 香港=tg频道:@bpjzx2=2, server: cmrefhk1.labtechs.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51649:231456575, obfs-param: t.me/vpnhat}
-  - {name: 关注电报https://t.me/aifenxiang2020, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}}
-  - {name: 关注电报https://t.me/aifenxiang2020 2, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
-  - {name: 关注电报https://t.me/aifenxiang2020 3, server: 64.32.4.6, port: 50005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 关注电报https://t.me/mftizi, server: 47.kccic2pa.xyz, port: 50047, type: vmess, uuid: 204cdd48-9a27-4915-9b0a-0aff9a7bab8b, alterId: 0, cipher: auto, tls: false}
-  - {name: 免费梯子https://t.me/mftizi, server: 142.4.104.193, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 长期更新节点@mftizi, server: rochinet.fullaccesstointernet.cn.eu.org, port: 443, type: vmess, uuid: 65864938-ab50-4efa-bc6a-084f42a8de63, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /freedom, headers: {Host: rochinet.fullaccesstointernet.cn.eu.org}}}
-  - {name: 🇯🇵 日本=tg频道:@bpjzx2=9, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=12, server: 108.162.194.182, port: 2086, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}}
-  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=23, server: 3.38.211.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 「SCP」SG-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
-  - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
-  - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
-  - {name: 🇺🇸 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
-  - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_74 |33.37Mb, server: 45.92.160.21, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_76 |18.27Mb, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_91 | 3.27Mb, server: 140.99.57.19, port: 41212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_94 |32.99Mb, server: 107.148.194.238, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_95 |35.26Mb, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_101 |33.74Mb, server: 198.2.204.241, port: 46902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_104 |26.99Mb, server: 23.225.33.171, port: 56662, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Pool_🇺🇸US_107 |22.81Mb, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 |114.28Mb, server: 45.58.154.135, port: 51409, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb, server: 154.85.1.83, port: 47721, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_🇿🇦ZA-🇳🇱NL_130 |291.93Mb, server: 156.225.67.20, port: 45044, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_176 |34.97Mb, server: 140.99.57.42, port: 54402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb, server: 23.225.211.20, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_274 |26.84Mb, server: 192.74.243.60, port: 43246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb, server: 51.195.125.16, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb, server: 198.2.196.10, port: 43389, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb, server: 137.175.9.201, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_268 |31.02Mb, server: 142.4.110.27, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_285 |30.16Mb, server: 192.74.231.186, port: 49255, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Pool_🇺🇸US_306 | 9.93Mb, server: 192.74.242.138, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Pool_🇺🇸US_312 | 9.23Mb, server: 142.0.138.131, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 港区 中转 06, server: wqfuinwqffq.dfcloud.xyz, port: 52275, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc1dd22-08b7-473b-b36a-76f6fda03b1e}
+  - {name: 🇺🇸 TG:@hkaa0 |美国_19, server: 216.52.59.50, port: 20458, type: trojan, password: m8krTirthj, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 中转, server: wqfuinwqffq.dfcloud.xyz, port: 47654, type: ss, cipher: chacha20-ietf-poly1305, password: 9c92458b-7da9-48f5-9456-c5e152cc3306}
+  - {name: 🇸🇬 TG:@hkaa0 |新加坡_4, server: 13.213.31.141, port: 27323, type: trojan, password: 2ASNg4PSz7, skip-cert-verify: true}
+  - {name: 🇸🇬 狮城 中转 02, server: gzcm.xn--8sq835h.net, port: 42860, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc1dd22-08b7-473b-b36a-76f6fda03b1e}
+  - {name: 🇭🇰 TG:@hkaa0 |香港, server: hk7.yihaobao.xyz, port: 443, type: trojan, password: bb72bd02-b929-405c-b274-e0ff95141df4, skip-cert-verify: true}
+  - {name: 🇸🇬 TG:@hkaa0 |新加坡_3, server: 3.1.203.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 港区 中转 02, server: 14.116.214.42, port: 31803, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc1dd22-08b7-473b-b36a-76f6fda03b1e}
+  - {name: 🇺🇸 TG:@hkaa0 |美国_9, server: 18.191.139.90, port: 20903, type: trojan, password: DulxM7ae07, skip-cert-verify: true}
+  - {name: 🇯🇵 TG:@hkaa0 |日本_6, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: 🇨🇳 TG:@hkaa0 |中国_4, server: zf.heigouyunzf.xyz, port: 38805, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, skip-cert-verify: true}
+  - {name: 🇯🇵 TG:@hkaa0 |日本_2, server: 15.152.45.154, port: 38584, type: trojan, password: vrEapjAokI, skip-cert-verify: true}
+  - {name: 🇸🇬 狮城 中转 06, server: wqfuinwqffq.dfcloud.xyz, port: 17019, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc1dd22-08b7-473b-b36a-76f6fda03b1e}
+  - {name: 🇯🇵 TG:@hkaa0 |日本_5, server: ap.stablize.top, port: 443, type: trojan, password: 1e8db890-68da-4dff-8a16-ded8fabcb3c3, skip-cert-verify: true}
+  - {name: 🇺🇸 TG:@hkaa0 |美国_37, server: 38.54.126.42, port: 443, type: trojan, password: YWePoB69GG, skip-cert-verify: true}
+  - {name: 🇻🇳 越南 V2CROSS.COM, server: 202.158.244.220, port: 443, type: trojan, password: 19537db7-b002-4a60-8f91-59461bf56c3b, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 中转 05, server: dansoifnioq.dfcloud.xyz, port: 30436, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc1dd22-08b7-473b-b36a-76f6fda03b1e}
+  - {name: 🇨🇳 台湾 中转, server: boqonqncuiq.fufucat.xyz, port: 53643, type: ss, cipher: chacha20-ietf-poly1305, password: 9c92458b-7da9-48f5-9456-c5e152cc3306}
+  - {name: 🇭🇰 香港 中转, server: wqfuinwqffq.dfcloud.xyz, port: 24993, type: ss, cipher: chacha20-ietf-poly1305, password: 9c92458b-7da9-48f5-9456-c5e152cc3306}
+  - {name: 🇺🇸 TG:@hkaa0 |美国_10, server: 23.94.122.66, port: 38505, type: trojan, password: dTjHHw2kDE, skip-cert-verify: true}
+  - {name: 🇸🇬 狮城 中转, server: wqfuinwqffq.dfcloud.xyz, port: 56522, type: ss, cipher: chacha20-ietf-poly1305, password: 9c92458b-7da9-48f5-9456-c5e152cc3306}
+  - {name: 🇺🇸 TG:@hkaa0 |美国_34, server: 64.64.225.221, port: 38712, type: trojan, password: lyfOBMxydA, skip-cert-verify: true}
+  - {name: 🇯🇵 日本=tg频道:@bpjzx2=36, server: 43.207.74.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 TG:@hkaa0 |韩国_5, server: 3.38.178.191, port: 11525, type: trojan, password: 75WJZnNuyW, skip-cert-verify: true}
+  - {name: 港区 中转 04, server: zf.sh.cu.edu.kg, port: 25272, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc1dd22-08b7-473b-b36a-76f6fda03b1e}
+  - {name: 🇺🇸 TG:@hkaa0 |美国_45, server: 52.53.190.55, port: 10574, type: trojan, password: FHbcin2ORB, skip-cert-verify: true}
+  - {name: 🇯🇵 日本=tg频道:@bpjzx2=38, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs19.bolab.net, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国 中转, server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 9c92458b-7da9-48f5-9456-c5e152cc3306}
+  - {name: 🇯🇵 日本 中转 04, server: shct.xn--8sq835h.net, port: 43745, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc1dd22-08b7-473b-b36a-76f6fda03b1e}
+  - {name: 🇯🇵 日本 中转 03, server: zf.gz.cu.edu.kg, port: 57175, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc1dd22-08b7-473b-b36a-76f6fda03b1e}
+  - {name: 港区 中转 01, server: 14.116.214.42, port: 20409, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc1dd22-08b7-473b-b36a-76f6fda03b1e}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -61,202 +47,146 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - TG@GEEKSAHRE_16
-      - 🇭🇰 香港=tg频道:@bpjzx2=11
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_18
-      - 🇭🇰 香港=tg频道:@bpjzx2=1
-      - 🇺🇸 美国=tg频道:@bpjzx2=25
-      - 🇭🇰 香港=tg频道:@bpjzx2=2
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/aifenxiang2020 2
-      - 关注电报https://t.me/aifenxiang2020 3
-      - 关注电报https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - 🇸🇬 长期更新节点@mftizi
-      - 🇯🇵 日本=tg频道:@bpjzx2=9
-      - 🇺🇸 美国=tg频道:@bpjzx2=12
-      - 🇰🇷 韩国=tg频道:@bpjzx2=23
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_74 |33.37Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_76 |18.27Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_91 | 3.27Mb
-      - US_94 |32.99Mb
-      - US_95 |35.26Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_101 |33.74Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_104 |26.99Mb
-      - Pool_🇺🇸US_107 |22.81Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 |114.28Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb
-      - 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb
-      - Relay_🇿🇦ZA-🇳🇱NL_130 |291.93Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_176 |34.97Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_274 |26.84Mb
-      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb
-      - US_268 |31.02Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_285 |30.16Mb
-      - Pool_🇺🇸US_306 | 9.93Mb
-      - Pool_🇺🇸US_312 | 9.23Mb
+      - 港区 中转 06
+      - 🇺🇸 TG:@hkaa0 |美国_19
+      - 🇯🇵 日本 中转
+      - 🇸🇬 TG:@hkaa0 |新加坡_4
+      - 🇸🇬 狮城 中转 02
+      - 🇭🇰 TG:@hkaa0 |香港
+      - 🇸🇬 TG:@hkaa0 |新加坡_3
+      - 港区 中转 02
+      - 🇺🇸 TG:@hkaa0 |美国_9
+      - 🇯🇵 TG:@hkaa0 |日本_6
+      - 🇨🇳 TG:@hkaa0 |中国_4
+      - 🇯🇵 TG:@hkaa0 |日本_2
+      - 🇸🇬 狮城 中转 06
+      - 🇯🇵 TG:@hkaa0 |日本_5
+      - 🇺🇸 TG:@hkaa0 |美国_37
+      - 🇻🇳 越南 V2CROSS.COM
+      - 🇯🇵 日本 中转 05
+      - 🇨🇳 台湾 中转
+      - 🇭🇰 香港 中转
+      - 🇺🇸 TG:@hkaa0 |美国_10
+      - 🇸🇬 狮城 中转
+      - 🇺🇸 TG:@hkaa0 |美国_34
+      - 🇯🇵 日本=tg频道:@bpjzx2=36
+      - 🇰🇷 TG:@hkaa0 |韩国_5
+      - 港区 中转 04
+      - 🇺🇸 TG:@hkaa0 |美国_45
+      - 🇯🇵 日本=tg频道:@bpjzx2=38
+      - 🇰🇷 韩国 中转
+      - 🇯🇵 日本 中转 04
+      - 🇯🇵 日本 中转 03
+      - 港区 中转 01
   - name: 🐟 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - TG@GEEKSAHRE_16
-      - 🇭🇰 香港=tg频道:@bpjzx2=11
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_18
-      - 🇭🇰 香港=tg频道:@bpjzx2=1
-      - 🇺🇸 美国=tg频道:@bpjzx2=25
-      - 🇭🇰 香港=tg频道:@bpjzx2=2
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/aifenxiang2020 2
-      - 关注电报https://t.me/aifenxiang2020 3
-      - 关注电报https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - 🇸🇬 长期更新节点@mftizi
-      - 🇯🇵 日本=tg频道:@bpjzx2=9
-      - 🇺🇸 美国=tg频道:@bpjzx2=12
-      - 🇰🇷 韩国=tg频道:@bpjzx2=23
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_74 |33.37Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_76 |18.27Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_91 | 3.27Mb
-      - US_94 |32.99Mb
-      - US_95 |35.26Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_101 |33.74Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_104 |26.99Mb
-      - Pool_🇺🇸US_107 |22.81Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 |114.28Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb
-      - 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb
-      - Relay_🇿🇦ZA-🇳🇱NL_130 |291.93Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_176 |34.97Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_274 |26.84Mb
-      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb
-      - US_268 |31.02Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_285 |30.16Mb
-      - Pool_🇺🇸US_306 | 9.93Mb
-      - Pool_🇺🇸US_312 | 9.23Mb
+      - 港区 中转 06
+      - 🇺🇸 TG:@hkaa0 |美国_19
+      - 🇯🇵 日本 中转
+      - 🇸🇬 TG:@hkaa0 |新加坡_4
+      - 🇸🇬 狮城 中转 02
+      - 🇭🇰 TG:@hkaa0 |香港
+      - 🇸🇬 TG:@hkaa0 |新加坡_3
+      - 港区 中转 02
+      - 🇺🇸 TG:@hkaa0 |美国_9
+      - 🇯🇵 TG:@hkaa0 |日本_6
+      - 🇨🇳 TG:@hkaa0 |中国_4
+      - 🇯🇵 TG:@hkaa0 |日本_2
+      - 🇸🇬 狮城 中转 06
+      - 🇯🇵 TG:@hkaa0 |日本_5
+      - 🇺🇸 TG:@hkaa0 |美国_37
+      - 🇻🇳 越南 V2CROSS.COM
+      - 🇯🇵 日本 中转 05
+      - 🇨🇳 台湾 中转
+      - 🇭🇰 香港 中转
+      - 🇺🇸 TG:@hkaa0 |美国_10
+      - 🇸🇬 狮城 中转
+      - 🇺🇸 TG:@hkaa0 |美国_34
+      - 🇯🇵 日本=tg频道:@bpjzx2=36
+      - 🇰🇷 TG:@hkaa0 |韩国_5
+      - 港区 中转 04
+      - 🇺🇸 TG:@hkaa0 |美国_45
+      - 🇯🇵 日本=tg频道:@bpjzx2=38
+      - 🇰🇷 韩国 中转
+      - 🇯🇵 日本 中转 04
+      - 🇯🇵 日本 中转 03
+      - 港区 中转 01
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - TG@GEEKSAHRE_16
-      - 🇭🇰 香港=tg频道:@bpjzx2=11
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_18
-      - 🇭🇰 香港=tg频道:@bpjzx2=1
-      - 🇺🇸 美国=tg频道:@bpjzx2=25
-      - 🇭🇰 香港=tg频道:@bpjzx2=2
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/aifenxiang2020 2
-      - 关注电报https://t.me/aifenxiang2020 3
-      - 关注电报https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - 🇸🇬 长期更新节点@mftizi
-      - 🇯🇵 日本=tg频道:@bpjzx2=9
-      - 🇺🇸 美国=tg频道:@bpjzx2=12
-      - 🇰🇷 韩国=tg频道:@bpjzx2=23
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_74 |33.37Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_76 |18.27Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_91 | 3.27Mb
-      - US_94 |32.99Mb
-      - US_95 |35.26Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_101 |33.74Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_104 |26.99Mb
-      - Pool_🇺🇸US_107 |22.81Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 |114.28Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb
-      - 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb
-      - Relay_🇿🇦ZA-🇳🇱NL_130 |291.93Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_176 |34.97Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_274 |26.84Mb
-      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb
-      - US_268 |31.02Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_285 |30.16Mb
-      - Pool_🇺🇸US_306 | 9.93Mb
-      - Pool_🇺🇸US_312 | 9.23Mb
+      - 港区 中转 06
+      - 🇺🇸 TG:@hkaa0 |美国_19
+      - 🇯🇵 日本 中转
+      - 🇸🇬 TG:@hkaa0 |新加坡_4
+      - 🇸🇬 狮城 中转 02
+      - 🇭🇰 TG:@hkaa0 |香港
+      - 🇸🇬 TG:@hkaa0 |新加坡_3
+      - 港区 中转 02
+      - 🇺🇸 TG:@hkaa0 |美国_9
+      - 🇯🇵 TG:@hkaa0 |日本_6
+      - 🇨🇳 TG:@hkaa0 |中国_4
+      - 🇯🇵 TG:@hkaa0 |日本_2
+      - 🇸🇬 狮城 中转 06
+      - 🇯🇵 TG:@hkaa0 |日本_5
+      - 🇺🇸 TG:@hkaa0 |美国_37
+      - 🇻🇳 越南 V2CROSS.COM
+      - 🇯🇵 日本 中转 05
+      - 🇨🇳 台湾 中转
+      - 🇭🇰 香港 中转
+      - 🇺🇸 TG:@hkaa0 |美国_10
+      - 🇸🇬 狮城 中转
+      - 🇺🇸 TG:@hkaa0 |美国_34
+      - 🇯🇵 日本=tg频道:@bpjzx2=36
+      - 🇰🇷 TG:@hkaa0 |韩国_5
+      - 港区 中转 04
+      - 🇺🇸 TG:@hkaa0 |美国_45
+      - 🇯🇵 日本=tg频道:@bpjzx2=38
+      - 🇰🇷 韩国 中转
+      - 🇯🇵 日本 中转 04
+      - 🇯🇵 日本 中转 03
+      - 港区 中转 01
   - name: 🎯 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - TG@GEEKSAHRE_16
-      - 🇭🇰 香港=tg频道:@bpjzx2=11
-      - TG@GEEKSAHRE_8
-      - TG@GEEKSAHRE_18
-      - 🇭🇰 香港=tg频道:@bpjzx2=1
-      - 🇺🇸 美国=tg频道:@bpjzx2=25
-      - 🇭🇰 香港=tg频道:@bpjzx2=2
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/aifenxiang2020 2
-      - 关注电报https://t.me/aifenxiang2020 3
-      - 关注电报https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - 🇸🇬 长期更新节点@mftizi
-      - 🇯🇵 日本=tg频道:@bpjzx2=9
-      - 🇺🇸 美国=tg频道:@bpjzx2=12
-      - 🇰🇷 韩国=tg频道:@bpjzx2=23
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_74 |33.37Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_76 |18.27Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_91 | 3.27Mb
-      - US_94 |32.99Mb
-      - US_95 |35.26Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_101 |33.74Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_104 |26.99Mb
-      - Pool_🇺🇸US_107 |22.81Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 |114.28Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb
-      - 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb
-      - Relay_🇿🇦ZA-🇳🇱NL_130 |291.93Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_176 |34.97Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_274 |26.84Mb
-      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb
-      - US_268 |31.02Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_285 |30.16Mb
-      - Pool_🇺🇸US_306 | 9.93Mb
-      - Pool_🇺🇸US_312 | 9.23Mb
+      - 港区 中转 06
+      - 🇺🇸 TG:@hkaa0 |美国_19
+      - 🇯🇵 日本 中转
+      - 🇸🇬 TG:@hkaa0 |新加坡_4
+      - 🇸🇬 狮城 中转 02
+      - 🇭🇰 TG:@hkaa0 |香港
+      - 🇸🇬 TG:@hkaa0 |新加坡_3
+      - 港区 中转 02
+      - 🇺🇸 TG:@hkaa0 |美国_9
+      - 🇯🇵 TG:@hkaa0 |日本_6
+      - 🇨🇳 TG:@hkaa0 |中国_4
+      - 🇯🇵 TG:@hkaa0 |日本_2
+      - 🇸🇬 狮城 中转 06
+      - 🇯🇵 TG:@hkaa0 |日本_5
+      - 🇺🇸 TG:@hkaa0 |美国_37
+      - 🇻🇳 越南 V2CROSS.COM
+      - 🇯🇵 日本 中转 05
+      - 🇨🇳 台湾 中转
+      - 🇭🇰 香港 中转
+      - 🇺🇸 TG:@hkaa0 |美国_10
+      - 🇸🇬 狮城 中转
+      - 🇺🇸 TG:@hkaa0 |美国_34
+      - 🇯🇵 日本=tg频道:@bpjzx2=36
+      - 🇰🇷 TG:@hkaa0 |韩国_5
+      - 港区 中转 04
+      - 🇺🇸 TG:@hkaa0 |美国_45
+      - 🇯🇵 日本=tg频道:@bpjzx2=38
+      - 🇰🇷 韩国 中转
+      - 🇯🇵 日本 中转 04
+      - 🇯🇵 日本 中转 03
+      - 港区 中转 01
   - name: 🛑 禁止代理
     type: select
     proxies:
