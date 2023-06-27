@@ -5,235 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇦🇪 迪拜01, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 35006, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 乌克兰01, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 35016, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国07, server: node04.pwvn2wx17wf6q7s01x94.catapi.management, port: 34007, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇨🇳 台湾03, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 35003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇮🇳 印度01, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 35008, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇹🇷 土耳其01, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 35014, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇫🇷 法国01, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 35011, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇦🇷 阿根廷01, server: node06.pwvn2wx17wf6q7s01x94.catapi.management, port: 35013, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇨🇳 台湾02, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 35002, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇷🇺 俄罗斯01, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 35015, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国01, server: node04.pwvn2wx17wf6q7s01x94.catapi.management, port: 34001, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇰🇷 韩国01, server: node04.pwvn2wx17wf6q7s01x94.catapi.management, port: 35007, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国02, server: node05.pwvn2wx17wf6q7s01x94.catapi.management, port: 34002, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 日本 专线 01, server: dansoifnioq.dfcloud.xyz, port: 29041, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇺🇸 美国06, server: node06.pwvn2wx17wf6q7s01x94.catapi.management, port: 34006, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 日本 专线 02, server: 101.89.141.40, port: 31734, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇺🇸 美国03, server: node06.pwvn2wx17wf6q7s01x94.catapi.management, port: 34003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 日本高速接入点-02, server: jp2.d4995a2eb9b4.sanfen004.me, port: 443, type: vmess, uuid: 3e309172-9f20-4e18-b42e-5c635ed4fa7c, alterId: 0, cipher: auto, tls: true, servername: jp1.sanfen004.me}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_50 |335.80Mb, server: 54.38.154.182, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=13, server: 104.16.183.101, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: pWghljmnknq.janbaroon.com}}}
-  - {name: "ZZ(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)", server: amstd.digires.shop, port: 443, type: vmess, uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /12796, headers: {Host: amstd.digires.shop}}}
-  - {name: 🇭🇰 HK-1|免费|1x, server: 18.sanfen001.top, port: 2082, type: vmess, uuid: 82a573e6-6ac2-448a-b36b-f996ccdeda23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.16.32.142, port: 443, type: vmess, uuid: 3de4ec27-74b4-43e3-bf23-18e726ac80bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /P6kpn5UKG40MNLK2, headers: {Host: QkGxa2MSvmu.janbaroon.com}}}
-  - {name: 港区 中转, server: ah.xcv2r.com, port: 11260, type: vmess, uuid: 0ce97565-1106-44e5-b04d-0e0374d7256d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 专线 02, server: 14.116.214.42, port: 10889, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇭🇰 香港=tg频道:@bpjzx2=30, server: a7d4813550c2.sanfen004.me, port: 29033, type: vmess, uuid: 3e309172-9f20-4e18-b42e-5c635ed4fa7c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 中转, server: gzcm.xn--8sq835h.net, port: 40996, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇯🇵 日本 中转, server: ah.xcv2r.com, port: 27903, type: vmess, uuid: 0ce97565-1106-44e5-b04d-0e0374d7256d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 专线 03, server: dansoifnioq.dfcloud.xyz, port: 55125, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇬🇧 英国01, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 35004, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇭🇰 5x-临时-香港-高级节点1, server: 2f36c18cfe76.sanfen004.me, port: 46518, type: vmess, uuid: 3e309172-9f20-4e18-b42e-5c635ed4fa7c, alterId: 0, cipher: auto, tls: false}
-  - {name: US_122 |21.41Mb, server: 142.4.110.25, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 009, server: 142.4.110.100, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 专线 04, server: 14.116.214.42, port: 36282, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=40, server: 185.22.154.70, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
-  - {name: 🇸🇬 SG-7|免费|1x, server: 7.sanfen001.top, port: 2095, type: vmess, uuid: 6a36efe0-e42e-4a77-bbbe-8642975a8d37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: "🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 5", server: 108.186.116.184, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾01, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 35001, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: "VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2", server: 103.81.85.238, port: 443, type: trojan, password: 99507239-7601-4c76-afda-18be311b0bec, skip-cert-verify: true}
-  - {name: 🇺🇸 美国04, server: node04.pwvn2wx17wf6q7s01x94.catapi.management, port: 34004, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇨🇳 台湾 中转, server: ah.xcv2r.com, port: 47242, type: vmess, uuid: 0ce97565-1106-44e5-b04d-0e0374d7256d, alterId: 0, cipher: auto, tls: false}
-  - {name: 2x-临时-台北-高级节点3, server: a7d4813550c2.sanfen004.me, port: 29033, type: vmess, uuid: 3e309172-9f20-4e18-b42e-5c635ed4fa7c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 专线 03, server: wqfuinwqffq.dfcloud.xyz, port: 52275, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇭🇰 香港 专线 04, server: zf.sh.cu.edu.kg, port: 25272, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇯🇵 JP-3|免费|1x, server: 10.sanfen001.top, port: 8080, type: vmess, uuid: 82a573e6-6ac2-448a-b36b-f996ccdeda23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpppp.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: US_237 |27.82Mb, server: 154.85.1.3, port: 48524, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本高速接入点-01, server: jp1.d4995a2eb9b4.sanfen004.me, port: 443, type: vmess, uuid: 3e309172-9f20-4e18-b42e-5c635ed4fa7c, alterId: 0, cipher: auto, tls: true, servername: jp1.sanfen004.me, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
-  - {name: 🇭🇰 香港=tg频道:@bpjzx2=26, server: hk2.yihaobao.xyz, port: 10022, type: trojan, password: bb72bd02-b929-405c-b274-e0ff95141df4, sni: hk2.yihaobao.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 US-4|免费|1x, server: 15.sanfen001.top, port: 8880, type: vmess, uuid: 6a36efe0-e42e-4a77-bbbe-8642975a8d37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: 🇺🇸 美国 CloudFlare, server: 162.159.25.51, port: 8080, type: vmess, uuid: d5382631-aae1-486d-842a-de48274dd0d7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
-  - {name: US_227 |30.53Mb, server: 142.4.110.24, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG-5|免费|1x, server: 5.sanfen001.top, port: 2082, type: vmess, uuid: 6a36efe0-e42e-4a77-bbbe-8642975a8d37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: 🇯🇵 JP-1|免费|1x, server: 8.sanfen001.top, port: 2095, type: vmess, uuid: 6a36efe0-e42e-4a77-bbbe-8642975a8d37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpppp.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: Pool_🇺🇸US_254 | 5.06Mb, server: 38.26.191.100, port: 49931, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_263 |32.46Mb, server: 140.99.140.170, port: 44932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11", server: 199.188.111.55, port: 35602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡-临时节点-30Mbps, server: 2f36c18cfe76.sanfen004.me, port: 14454, type: vmess, uuid: 3e309172-9f20-4e18-b42e-5c635ed4fa7c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 狮城 中转, server: ah.xcv2r.com, port: 52058, type: vmess, uuid: 0ce97565-1106-44e5-b04d-0e0374d7256d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 专线 05, server: gzcm.xn--8sq835h.net, port: 42860, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇺🇸 美国 016, server: 108.186.192.229, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国=tg频道:@bpjzx2=4, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_44, server: 142.4.126.44, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb, server: 198.2.196.10, port: 43389, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_255 |29.66Mb, server: 137.175.3.227, port: 53042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 015, server: 108.186.192.231, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国02, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 35005, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: "🇭🇰 HK(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3", server: 183.240.221.73, port: 38805, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, skip-cert-verify: true}
-  - {name: "VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)", server: 103.173.255.21, port: 443, type: trojan, password: 78b6f1a4-2064-4140-bbe6-a6340fdb35a3, skip-cert-verify: true}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=17, server: 142.4.112.27, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 专线 04, server: 14.116.214.42, port: 31803, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇺🇸 美国B1 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 13001, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 137.175.1.12, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US-2|免费|1x, server: 13.sanfen001.top, port: 8080, type: vmess, uuid: 82a573e6-6ac2-448a-b36b-f996ccdeda23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: 🇸🇬 新加坡, server: ah.xcv2r.com, port: 64973, type: vmess, uuid: 0ce97565-1106-44e5-b04d-0e0374d7256d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国=tg频道:@bpjzx2=63, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 002, server: 156.249.18.50, port: 49123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 专线 05, server: dansoifnioq.dfcloud.xyz, port: 30436, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_52, server: 140.99.140.170, port: 44932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_30, server: 142.4.110.100, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国08, server: node05.pwvn2wx17wf6q7s01x94.catapi.management, port: 34008, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国 012, server: 142.4.109.68, port: 46672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国B3 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 13003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 日本04, server: node04.pwvn2wx17wf6q7s01x94.catapi.management, port: 32004, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇸🇬 新加坡B5 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 12005, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: beta.durov.ir, port: 8880, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vnpt.iiio.wiki}}}
-  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=68, server: kr2.microsoft-orgwly.vip, port: 10014, type: trojan, password: e0db16b0-964e-4f14-8b67-cd0d627da872, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP-4|免费|1x, server: 11.sanfen001.top, port: 2082, type: vmess, uuid: 82a573e6-6ac2-448a-b36b-f996ccdeda23, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jpppp.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top}}}
-  - {name: "🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3", server: krcfahucnfd.76898102.xyz, port: 2082, type: vmess, uuid: 5936dbd5-670f-372c-87be-fa5a55dd2d0c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /awbufyuit, headers: {Host: krcfahucnfd.76898102.xyz}}}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_40, server: 142.4.109.68, port: 46672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_25, server: 192.74.243.60, port: 43246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.112.27, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=30, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_9, server: 18.191.139.90, port: 20903, type: trojan, password: DulxM7ae07, skip-cert-verify: true}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_45, server: 52.53.190.55, port: 10574, type: trojan, password: FHbcin2ORB, skip-cert-verify: true}
-  - {name: 🇭🇰 香港=tg频道:@bpjzx2=2, server: cmrefhk1.labtechs.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51649:231456575, obfs-param: t.me/vpnhat}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=42, server: 199.188.111.55, port: 35602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 长期更新节点@mftizi, server: 104.17.3.81, port: 80, type: vmess, uuid: 43b747e0-02bb-11ee-9b1d-1577c1651679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /files, headers: {Host: sg.xmbb.net}}}
-  - {name: 🇺🇸 美国 071, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG@GEEKSAHRE_2, server: 156.225.67.76, port: 49812, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_27, server: 142.4.110.24, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_41, server: 38.26.191.100, port: 49931, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Level3通信(DIA), server: sg.stablize.top, port: 443, type: trojan, password: 5b51e0af-08af-4208-b834-6d6ac5721837, skip-cert-verify: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=11, server: smt.ircf.space, port: 443, type: vmess, uuid: 3bcbd5cd-e791-4770-8bc7-7b1d941c9513, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /S4PSg9xqUClN2kJ4SOPKqC6, headers: {Host: wfi.sahnama.com}}}
-  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2, server: 142.4.109.68, port: 46672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=22, server: 45.15.166.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1687684544019, headers: {Host: www.52033619.xyz}}}
-  - {name: 🇺🇸 美国05, server: node05.pwvn2wx17wf6q7s01x94.catapi.management, port: 34005, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5, server: 141.98.234.8, port: 10000, type: vmess, uuid: ee42b426-130f-11ee-b249-bf3d55c0b53b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=23, server: 38.26.191.100, port: 49931, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本高速接入点-04, server: jp4.d4995a2eb9b4.sanfen004.me, port: 443, type: vmess, uuid: 3e309172-9f20-4e18-b42e-5c635ed4fa7c, alterId: 0, cipher: auto, tls: true, servername: jp1.sanfen004.me}
-  - {name: 🇸🇬 新加坡 专线 03, server: wqfuinwqffq.dfcloud.xyz, port: 17019, type: ss, cipher: chacha20-ietf-poly1305, password: 0b41cda8-4586-4c2a-a3c6-b56e9f805a41}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb, server: 137.175.9.201, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 TG:@hkaa0 |日本_5, server: ap.stablize.top, port: 443, type: trojan, password: 1e8db890-68da-4dff-8a16-ded8fabcb3c3, skip-cert-verify: true}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=59, server: 64.32.4.6, port: 50005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡03, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 33003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=82, server: 156.225.67.89, port: 48821, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=24, server: 108.186.116.182, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港B3 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇸🇬 新加坡B2 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 12002, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇳🇱 TG:@hkaa0 |荷兰_1, server: 154.85.1.3, port: 48524, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=10, server: 156.225.67.15, port: 49123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb, server: 154.85.1.83, port: 47721, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 061, server: 51.195.125.16, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国=tg频道:@bpjzx2=52, server: 54.38.154.182, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 3, server: 142.4.112.149, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=64, server: 108.186.192.231, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=65, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 4", server: 195.123.233.34, port: 10000, type: vmess, uuid: 38e3c52c-1312-11ee-b37d-6b3316927122, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇺🇸 美国 065, server: 23.225.211.20, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 072, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国=tg频道:@bpjzx2=25, server: 156.249.18.50, port: 49123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 010, server: 156.249.18.50, port: 49123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=14, server: 137.175.1.12, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG:@hkaa0 |新加坡_3, server: 3.1.203.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 TG:@hkaa0 |日本_6, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=34, server: 43.202.49.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=61, server: 192.74.243.61, port: 43246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=78, server: 198.2.196.10, port: 43389, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本06, server: node06.pwvn2wx17wf6q7s01x94.catapi.management, port: 32006, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国 075, server: 142.0.138.131, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本07, server: node04.pwvn2wx17wf6q7s01x94.catapi.management, port: 32007, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇸🇬 新加坡04, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 33004, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 日本=tg频道:@bpjzx2=38, server: trs19.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, sni: trs19.bolab.net, skip-cert-verify: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=46, server: 108.186.192.229, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 TG:@hkaa0 |韩国_4, server: 43.202.64.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_37, server: 38.54.126.42, port: 443, type: trojan, password: YWePoB69GG, skip-cert-verify: true}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=44, server: 198.2.203.59, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本B1 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国 073, server: 64.32.4.6, port: 50005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰=tg频道:@bpjzx2=13, server: 154.85.1.3, port: 48524, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本高速接入点-03, server: jp3.d4995a2eb9b4.sanfen004.me, port: 443, type: vmess, uuid: 3e309172-9f20-4e18-b42e-5c635ed4fa7c, alterId: 0, cipher: auto, tls: true, servername: jp1.sanfen004.me}
-  - {name: 🇺🇸 美国 070, server: 142.4.126.44, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 关注电报https://t.me/mftizi, server: 112.29.94.76, port: 47589, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=6, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 TG:@hkaa0 |香港, server: hk7.yihaobao.xyz, port: 443, type: trojan, password: bb72bd02-b929-405c-b274-e0ff95141df4, skip-cert-verify: true}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=53, server: 104.31.16.27, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme2.fun}}}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_16, server: 192.74.243.60, port: 43246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港B5 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇸🇬 TG:@hkaa0 |新加坡_1, server: 18.139.163.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港B2 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 日本B5 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_10, server: 23.94.122.66, port: 38505, type: trojan, password: dTjHHw2kDE, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡02, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 33002, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇸🇬 新加坡08, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 33008, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=36, server: 43.201.72.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡01, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 33001, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_11, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港02, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 日本03, server: node06.pwvn2wx17wf6q7s01x94.catapi.management, port: 32003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=23, server: 3.38.211.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=75, server: 142.4.110.24, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本05, server: node05.pwvn2wx17wf6q7s01x94.catapi.management, port: 32005, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: "🇬🇧 GB(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)", server: 13.40.5.71, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡B4 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 12004, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=58, server: 142.4.110.100, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=89, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: 🇰🇷 TG:@hkaa0 |韩国_5, server: 3.38.178.191, port: 11525, type: trojan, password: 75WJZnNuyW, skip-cert-verify: true}
-  - {name: 🇰🇿 哈萨克斯坦=tg频道:@bpjzx2=74, server: www.96110.store, port: 80, type: vmess, uuid: d366449d-d24c-4c24-9d8e-6252c6a556b7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.doinb.tk}}}
-  - {name: 🇭🇰 香港06, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 31006, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=16, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
-  - {name: 🇭🇰 香港03, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 31003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb, server: 23.225.211.20, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港04, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 31004, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇭🇰 香港08, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 31008, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国 滴滴盾CN2高防节点(dididun.com), server: 137.175.3.227, port: 53042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡B3 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 12003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 TG:@hkaa0 |日本_8, server: 3.112.73.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港B4 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_19, server: 216.52.59.50, port: 20458, type: trojan, password: m8krTirthj, skip-cert-verify: true}
-  - {name: 🇯🇵 日本B2 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国 074, server: 192.74.243.60, port: 43246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国=tg频道:@bpjzx2=31, server: 156.249.18.69, port: 54802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本08, server: node06.pwvn2wx17wf6q7s01x94.catapi.management, port: 32008, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=85, server: 198.2.204.241, port: 46902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港=tg频道:@bpjzx2=11, server: shcuzxhk.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51649:231456575, obfs-param: t.me/vpnhat}
-  - {name: 🇨🇳 TG:@hkaa0 |中国_4, server: zf.heigouyunzf.xyz, port: 38805, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡B1 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 12001, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 日本01, server: node04.pwvn2wx17wf6q7s01x94.catapi.management, port: 32001, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb, server: 51.195.125.16, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国B2 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 13002, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=4, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 美国 加利福尼亚州森尼韦尔市PEG TECH公司, server: 142.0.138.131, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰=tg频道:@bpjzx2=26, server: 154.85.1.83, port: 47721, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=15, server: 192.74.243.60, port: 43246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本02, server: node05.pwvn2wx17wf6q7s01x94.catapi.management, port: 32002, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 TG:@hkaa0 |美国_46, server: 108.186.192.231, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 076, server: 142.4.110.24, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本B3 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=83, server: 140.99.140.170, port: 44932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress, server: 198.2.196.10, port: 43389, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港=tg频道:@bpjzx2=1, server: cmrefhk1.labtechs.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51649:231456575, obfs-param: t.me/vpnhat}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=67, server: 23.225.9.198, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=49, server: 142.4.109.68, port: 46672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港01, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=54, server: 23.225.211.20, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡05, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 33005, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇭🇰 香港07, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 31007, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇯🇵 日本B4 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国B5 | 0.5x, server: node00.gde52px1vwf5q6301fxn.catapi.management, port: 13005, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=70, server: 137.175.9.201, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心, server: 23.225.9.198, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港05, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: 0e646c99-4d7d-41a4-8899-b21072966fa9}
-  - {name: 🇧🇷 巴西 001, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=57, server: digitalocean.com, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}}
-  - {name: 🇯🇵 日本=tg频道:@bpjzx2=1, server: ukjs.stablize.top, port: 443, type: trojan, password: b3ca2e8a-42d5-448c-a445-639870ccc20e, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=20, server: vm-sg1.fbi-warning.cfd, port: 80, type: vmess, uuid: 4b15f0cb-932f-426f-e80b-8b12d5871a98, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb, server: 107.148.192.155, port: 49924, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇦 CA加拿大(youtube阿伟科技)_1, server: 15.222.3.164, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇭🇰 香港D07 | 千兆专线|奈飞, server: 223.111.157.50, port: 50025, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港K01 | 五百兆|奈飞, server: 223.111.157.50, port: 50030, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 KR韩国(youtube阿伟科技)_2, server: kr4.jisuyun.co, port: 443, type: vmess, uuid: 28f57cb0-f336-46e6-b040-fcc138affb29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr4.jisuyun.co}}}
+  - {name: 🇭🇰 香港K02| 五百兆|奈飞, server: 223.111.157.50, port: 50019, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港D11 | 千兆专线|奈飞, server: 36.156.198.43, port: 50056, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: Pool_🇺🇸US_59 |11.09Mb, server: 142.4.110.125, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 NL荷兰(youtube阿伟科技2)_1, server: 45.199.138.4, port: 47793, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=14, server: 3.38.104.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港D06 | 千兆专线|奈飞, server: 223.111.157.50, port: 50039, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心, server: 156.249.18.69, port: 54802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港K00 | 五百兆|奈飞, server: 36.156.198.43, port: 50052, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇲🇾 MY马来西亚(youtube阿伟科技), server: 38.60.194.132, port: 8080, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false}
+  - {name: _11, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}}
+  - {name: 🇯🇵 日本03 |  中转线路, server: cdn.jike.cyou, port: 50012, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US DigitalOcean, server: do.us.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}}
+  - {name: 🇭🇰 香港D05 | 千兆专线|奈飞, server: 223.111.157.50, port: 50038, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: US_80 |29.91Mb, server: 45.58.186.85, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP xtom, server: 147.78.242.176, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}}
+  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=3, server: kr5.microsoft-orgwly.vip, port: 10023, type: trojan, password: 12070a37-7ad6-4e18-95ef-b9e54cd4365c, sni: kr5.microsoft-orgwly.vip, skip-cert-verify: true}
+  - {name: US_53 | 8.67Mb, server: 142.0.132.44, port: 51015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 网址 440300.xyz, server: hk1997.pro, port: 4000, type: trojan, password: 887c0298-2bab-4d4c-8cb0-b85b3ba9c4bb, sni: hk1997.pro, skip-cert-verify: true}
+  - {name: 🇨🇦 CA加拿大(youtube阿伟科技)_2, server: 192.53.121.147, port: 42211, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 8113051798}
+  - {name: 🇭🇰 香港D12 | 千兆专线|奈飞, server: 223.111.157.50, port: 50057, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 170.178.167.144, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 FR法国(youtube阿伟科技2)_1, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: None}
+  - {name: 🇫🇷 五叶节点分享频道 @hkaa0 |法国, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: None}
+  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国, server: 142.4.110.23, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇪🇸 ES西班牙(youtube阿伟科技2), server: free-v2ray-panel.devefun.ink, port: 1935, type: trojan, password: fWCdFcWBZ8, skip-cert-verify: true}
+  - {name: 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_26 |22.72Mb, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇭🇰 香港D13 | 千兆专线|奈飞, server: 223.111.157.50, port: 50058, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国=tg频道:@bpjzx2=4, server: 54.192.150.188, port: 443, type: vmess, uuid: b393a93b-ae0f-4b3a-b049-b1a81a3e490a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /share, headers: {Host: d2kzpvdyi8xw4u.cloudfront.net}}}
+  - {name: 🇯🇵 日本01 |  中转线路, server: cdn.jike.cyou, port: 50011, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2, server: 216.52.183.243, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇯🇵 JP xTom, server: v.ps.jp.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}}
+  - {name: 关注电报https://t.me/mftizi, server: 120.233.43.33, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机, server: fr2.microsoft-orgwly.vip, port: 444, type: trojan, password: 3e1ff3a0-c427-486f-95cf-9207721f570b, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true}
+  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_23 |246.52Mb, server: 51.195.125.16, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP VirMach, server: virmach.jp.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}}
+  - {name: 🇳🇱 NL荷兰(youtube阿伟科技2)_4, server: 45.153.203.89, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国 3, server: 192.74.234.185, port: 51322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 NL荷兰(youtube阿伟科技2)_3, server: 156.249.18.38, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: zfc.windowsupdate1.com, port: 80, type: vmess, uuid: 01925169-e2ff-483c-89f2-6e778dcdd450, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.127.19, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇹🇼TW_76 | 1.70Mb, server: akrab2.v-pn.my.id, port: 443, type: vmess, uuid: b07a349b-5e3c-4b17-aabe-d1dc63376ecf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: idc8.vpn-akcelluler.my.id}}}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2, server: 142.4.126.44, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=8, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国 4, server: 142.4.110.25, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 五叶节点分享频道 @hkaa0 |法国 2, server: 156.249.18.69, port: 54802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 NL荷兰(youtube阿伟科技2)_2, server: admin.movavi2v.top, port: 8443, type: vmess, uuid: 1804fc2c-38f7-48d1-849c-2a9f76cb1c93, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /78cXnwr4mfjCxUWcGFAHihFB5emtn, headers: {Host: admin.movavi2v.top}}}
+  - {name: 🇺🇸 美国 Datability, server: 140.99.77.57, port: 48901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾W01 | 五百兆|奈飞|GPT, server: 36.156.198.43, port: 50059, type: vmess, uuid: 9e7b2986-fabf-4711-9e35-de67ba13dbef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_46 |10.57Mb, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_35, server: 140.99.140.158, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_48 |11.71Mb, server: 137.175.9.201, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP日本(youtube阿伟科技2)_3, server: gd-cm.32jr.com, port: 51766, type: trojan, password: 2152a112-151a-384b-b58f-a885560709c6, sni: riben1.veepien.me, skip-cert-verify: true}
+  - {name: 免费梯子https://t.me/mftizi, server: 34.92.213.162, port: 65001, type: vmess, uuid: 88c6d12b-614f-485f-83fc-fb0cc57c4801, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_47 |10.12Mb, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_33, server: 137.175.9.204, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP GreenCloud, server: greencloud.jp.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_12, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_16, server: 142.4.100.43, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_31, server: 170.178.167.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_8, server: s1.2b2.top, port: 50503, type: vmess, uuid: b479ffd3-5809-40a1-b789-12652cc8084d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /poison, headers: {Host: s1.2b2.top}}}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_15, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_4, server: 54.158.240.98, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_7, server: 167.160.90.254, port: 11105, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_5, server: us2.microsoft-orgwly.vip, port: 444, type: trojan, password: 3e1ff3a0-c427-486f-95cf-9207721f570b, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_17, server: 198.2.203.156, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_10, server: 137.175.9.201, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_3, server: 154.9.204.116, port: 40010, type: ssr, cipher: dummy, password: xvzbdsnhsabgzbdwqjwqkor, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 US美国(youtube阿伟科技2)_6, server: cm1-nc.go001.buzz, port: 19561, type: ss, cipher: chacha20-ietf-poly1305, password: 1a564694-0452-4e9f-b44b-6f29c84cb0b3}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -245,938 +89,314 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇦🇪 迪拜01
-      - 乌克兰01
-      - 🇺🇸 美国07
-      - 🇨🇳 台湾03
-      - 🇮🇳 印度01
-      - 🇹🇷 土耳其01
-      - 🇫🇷 法国01
-      - 🇦🇷 阿根廷01
-      - 🇨🇳 台湾02
-      - 🇷🇺 俄罗斯01
-      - 🇺🇸 美国01
-      - 🇰🇷 韩国01
-      - 🇺🇸 美国02
-      - 🇯🇵 日本 专线 01
-      - 🇺🇸 美国06
-      - 🇯🇵 日本 专线 02
-      - 🇺🇸 美国03
-      - 🇯🇵 日本高速接入点-02
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_50 |335.80Mb
-      - 🇺🇸 美国=tg频道:@bpjzx2=13
-      - ZZ(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇭🇰 HK-1|免费|1x
-      - 🇺🇸 美国 CloudFlare节点
-      - 港区 中转
-      - 🇸🇬 新加坡 专线 02
-      - 🇭🇰 香港=tg频道:@bpjzx2=30
-      - 🇰🇷 韩国 中转
-      - 🇯🇵 日本 中转
-      - 🇭🇰 香港 专线 03
-      - 🇬🇧 英国01
-      - 🇭🇰 5x-临时-香港-高级节点1
-      - US_122 |21.41Mb
-      - 🇺🇸 美国 009
-      - 🇯🇵 日本 专线 04
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=40
-      - 🇸🇬 SG-7|免费|1x
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 5
-      - 🇨🇳 台湾01
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2
-      - 🇺🇸 美国04
-      - 🇨🇳 台湾 中转
-      - 2x-临时-台北-高级节点3
-      - 🇯🇵 日本 专线 03
-      - 🇭🇰 香港 专线 04
-      - 🇯🇵 JP-3|免费|1x
-      - US_237 |27.82Mb
-      - 🇯🇵 日本高速接入点-01
-      - 🇭🇰 香港=tg频道:@bpjzx2=26
-      - 🇺🇸 US-4|免费|1x
-      - 🇺🇸 美国 CloudFlare
-      - US_227 |30.53Mb
-      - 🇸🇬 SG-5|免费|1x
-      - 🇯🇵 JP-1|免费|1x
-      - Pool_🇺🇸US_254 | 5.06Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_263 |32.46Mb
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
-      - 🇸🇬 新加坡-临时节点-30Mbps
-      - 🇸🇬 狮城 中转
-      - 🇯🇵 日本 专线 05
-      - 🇺🇸 美国 016
-      - 🇫🇷 法国=tg频道:@bpjzx2=4
-      - 🇺🇸 TG:@hkaa0 |美国_44
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_255 |29.66Mb
-      - 🇺🇸 美国 015
-      - 🇬🇧 英国02
-      - 🇭🇰 HK(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇺🇸 美国=tg频道:@bpjzx2=17
-      - 🇸🇬 新加坡 专线 04
-      - 🇺🇸 美国B1 | 0.5x
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 US-2|免费|1x
-      - 🇸🇬 新加坡
-      - 🇫🇷 法国=tg频道:@bpjzx2=63
-      - 🇫🇷 法国 002
-      - 🇭🇰 香港 专线 05
-      - 🇺🇸 TG:@hkaa0 |美国_52
-      - 🇺🇸 TG:@hkaa0 |美国_30
-      - 🇺🇸 美国08
-      - 🇺🇸 美国 012
-      - 🇺🇸 美国B3 | 0.5x
-      - 🇯🇵 日本04
-      - 🇸🇬 新加坡B5 | 0.5x
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国=tg频道:@bpjzx2=68
-      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb
-      - 🇯🇵 JP-4|免费|1x
-      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - 🇺🇸 TG:@hkaa0 |美国_40
-      - 🇺🇸 TG:@hkaa0 |美国_25
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇸 美国=tg频道:@bpjzx2=30
-      - 🇺🇸 TG:@hkaa0 |美国_9
-      - 🇺🇸 TG:@hkaa0 |美国_45
-      - 🇭🇰 香港=tg频道:@bpjzx2=2
-      - 🇺🇸 美国=tg频道:@bpjzx2=42
-      - 🇸🇬 长期更新节点@mftizi
-      - 🇺🇸 美国 071
-      - TG@GEEKSAHRE_2
-      - 🇺🇸 TG:@hkaa0 |美国_27
-      - 🇺🇸 TG:@hkaa0 |美国_41
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Level3通信(DIA)
-      - 🇺🇸 美国=tg频道:@bpjzx2=11
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
-      - 🇺🇸 美国=tg频道:@bpjzx2=22
-      - 🇺🇸 美国05
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5
-      - 🇺🇸 美国=tg频道:@bpjzx2=23
-      - 🇯🇵 日本高速接入点-04
-      - 🇸🇬 新加坡 专线 03
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb
-      - 🇯🇵 TG:@hkaa0 |日本_5
-      - 🇺🇸 美国=tg频道:@bpjzx2=59
-      - 🇸🇬 新加坡03
-      - 🇺🇸 美国=tg频道:@bpjzx2=82
-      - 🇺🇸 美国=tg频道:@bpjzx2=24
-      - 🇭🇰 香港B3 | 0.5x
-      - 🇸🇬 新加坡B2 | 0.5x
-      - 🇳🇱 TG:@hkaa0 |荷兰_1
-      - 🇺🇸 美国=tg频道:@bpjzx2=10
-      - 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb
-      - 🇺🇸 美国 061
-      - 🇩🇪 德国=tg频道:@bpjzx2=52
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 3
-      - 🇺🇸 美国=tg频道:@bpjzx2=64
-      - 🇺🇸 美国=tg频道:@bpjzx2=65
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 4
-      - 🇺🇸 美国 065
-      - 🇺🇸 美国 072
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_1
+      - 🇭🇰 香港D07 | 千兆专线|奈飞
+      - 🇭🇰 香港K01 | 五百兆|奈飞
+      - 🇰🇷 KR韩国(youtube阿伟科技)_2
+      - 🇭🇰 香港K02| 五百兆|奈飞
+      - 🇭🇰 香港D11 | 千兆专线|奈飞
+      - Pool_🇺🇸US_59 |11.09Mb
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_1
+      - 🇰🇷 韩国=tg频道:@bpjzx2=14
+      - 🇭🇰 香港D06 | 千兆专线|奈飞
       - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
-      - 🇫🇷 法国=tg频道:@bpjzx2=25
-      - 🇫🇷 法国 010
-      - 🇺🇸 美国=tg频道:@bpjzx2=14
-      - 🇸🇬 TG:@hkaa0 |新加坡_3
-      - 🇯🇵 TG:@hkaa0 |日本_6
-      - 🇰🇷 韩国=tg频道:@bpjzx2=34
-      - 🇺🇸 美国=tg频道:@bpjzx2=61
-      - 🇺🇸 美国=tg频道:@bpjzx2=78
-      - 🇯🇵 日本06
-      - 🇺🇸 美国 075
-      - 🇯🇵 日本07
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本=tg频道:@bpjzx2=38
-      - 🇺🇸 美国=tg频道:@bpjzx2=46
-      - 🇰🇷 TG:@hkaa0 |韩国_4
-      - 🇺🇸 TG:@hkaa0 |美国_37
-      - 🇺🇸 美国=tg频道:@bpjzx2=44
-      - 🇯🇵 日本B1 | 0.5x
-      - 🇺🇸 美国 073
-      - 🇳🇱 荷兰=tg频道:@bpjzx2=13
-      - 🇯🇵 日本高速接入点-03
-      - 🇺🇸 美国 070
-      - 关注电报https://t.me/mftizi
-      - 🇺🇸 美国=tg频道:@bpjzx2=6
-      - 🇭🇰 TG:@hkaa0 |香港
-      - 🇺🇸 美国=tg频道:@bpjzx2=53
-      - 🇺🇸 TG:@hkaa0 |美国_16
-      - 🇭🇰 香港B5 | 0.5x
-      - 🇸🇬 TG:@hkaa0 |新加坡_1
-      - 🇭🇰 香港B2 | 0.5x
-      - 🇯🇵 日本B5 | 0.5x
-      - 🇺🇸 TG:@hkaa0 |美国_10
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡08
-      - 🇰🇷 韩国=tg频道:@bpjzx2=36
-      - 🇸🇬 新加坡01
-      - 🇺🇸 TG:@hkaa0 |美国_11
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇰🇷 韩国=tg频道:@bpjzx2=23
-      - 🇺🇸 美国=tg频道:@bpjzx2=75
-      - 🇯🇵 日本05
-      - 🇬🇧 GB(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇸🇬 新加坡B4 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=58
-      - 🇺🇸 美国=tg频道:@bpjzx2=89
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇰🇷 TG:@hkaa0 |韩国_5
-      - 🇰🇿 哈萨克斯坦=tg频道:@bpjzx2=74
-      - 🇭🇰 香港06
-      - 🇺🇸 美国=tg频道:@bpjzx2=16
-      - 🇭🇰 香港03
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb
-      - 🇭🇰 香港04
-      - 🇭🇰 香港08
-      - 🇺🇸 美国 滴滴盾CN2高防节点(dididun.com)
-      - 🇸🇬 新加坡B3 | 0.5x
-      - 🇯🇵 TG:@hkaa0 |日本_8
-      - 🇭🇰 香港B4 | 0.5x
-      - 🇺🇸 TG:@hkaa0 |美国_19
-      - 🇯🇵 日本B2 | 0.5x
-      - 🇺🇸 美国 074
-      - 🇫🇷 法国=tg频道:@bpjzx2=31
-      - 🇯🇵 日本08
-      - 🇺🇸 美国=tg频道:@bpjzx2=85
-      - 🇭🇰 香港=tg频道:@bpjzx2=11
-      - 🇨🇳 TG:@hkaa0 |中国_4
-      - 🇸🇬 新加坡B1 | 0.5x
-      - 🇯🇵 日本01
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb
-      - 🇺🇸 美国B2 | 0.5x
+      - 🇭🇰 香港K00 | 五百兆|奈飞
+      - 🇲🇾 MY马来西亚(youtube阿伟科技)
+      - _11
+      - 🇯🇵 日本03 |  中转线路
+      - 🇺🇸 US DigitalOcean
+      - 🇭🇰 香港D05 | 千兆专线|奈飞
+      - US_80 |29.91Mb
+      - 🇯🇵 JP xtom
+      - 🇰🇷 韩国=tg频道:@bpjzx2=3
+      - US_53 | 8.67Mb
+      - 网址 440300.xyz
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
+      - 🇭🇰 香港D12 | 千兆专线|奈飞
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 🇫🇷 FR法国(youtube阿伟科技2)_1
+      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - 🇪🇸 ES西班牙(youtube阿伟科技2)
+      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_26 |22.72Mb
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港D13 | 千兆专线|奈飞
       - 🇺🇸 美国=tg频道:@bpjzx2=4
-      - 🇺🇸 美国 加利福尼亚州森尼韦尔市PEG TECH公司
-      - 🇳🇱 荷兰=tg频道:@bpjzx2=26
-      - 🇺🇸 美国=tg频道:@bpjzx2=15
-      - 🇯🇵 日本02
-      - 🇺🇸 TG:@hkaa0 |美国_46
-      - 🇺🇸 美国 076
-      - 🇯🇵 日本B3 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=83
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇭🇰 香港=tg频道:@bpjzx2=1
-      - 🇺🇸 美国=tg频道:@bpjzx2=67
-      - 🇺🇸 美国=tg频道:@bpjzx2=49
-      - 🇭🇰 香港01
-      - 🇺🇸 美国=tg频道:@bpjzx2=54
-      - 🇸🇬 新加坡05
-      - 🇭🇰 香港07
-      - 🇯🇵 日本B4 | 0.5x
-      - 🇺🇸 美国B5 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=70
-      - 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇭🇰 香港05
-      - 🇧🇷 巴西 001
-      - 🇺🇸 美国=tg频道:@bpjzx2=57
-      - 🇯🇵 日本=tg频道:@bpjzx2=1
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=20
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb
+      - 🇯🇵 日本01 |  中转线路
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
+      - 🇯🇵 JP xTom
+      - 关注电报https://t.me/mftizi
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_23 |246.52Mb
+      - 🇯🇵 JP VirMach
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_4
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 3
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_3
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_76 | 1.70Mb
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=8
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 4
+      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国 2
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_2
+      - 🇺🇸 美国 Datability
+      - 🇨🇳 台湾W01 | 五百兆|奈飞|GPT
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_46 |10.57Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_35
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_48 |11.71Mb
+      - 🇯🇵 JP日本(youtube阿伟科技2)_3
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_47 |10.12Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_33
+      - 🇯🇵 JP GreenCloud
+      - 🇺🇸 US美国(youtube阿伟科技2)_12
+      - 🇺🇸 US美国(youtube阿伟科技2)_16
+      - 🇺🇸 US美国(youtube阿伟科技2)_31
+      - 🇺🇸 US美国(youtube阿伟科技2)_8
+      - 🇺🇸 US美国(youtube阿伟科技2)_15
+      - 🇺🇸 US美国(youtube阿伟科技2)_4
+      - 🇺🇸 US美国(youtube阿伟科技2)_7
+      - 🇺🇸 US美国(youtube阿伟科技2)_5
+      - 🇺🇸 US美国(youtube阿伟科技2)_17
+      - 🇺🇸 US美国(youtube阿伟科技2)_10
+      - 🇺🇸 US美国(youtube阿伟科技2)_3
+      - 🇺🇸 US美国(youtube阿伟科技2)_6
   - name: 🐟 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇪 迪拜01
-      - 乌克兰01
-      - 🇺🇸 美国07
-      - 🇨🇳 台湾03
-      - 🇮🇳 印度01
-      - 🇹🇷 土耳其01
-      - 🇫🇷 法国01
-      - 🇦🇷 阿根廷01
-      - 🇨🇳 台湾02
-      - 🇷🇺 俄罗斯01
-      - 🇺🇸 美国01
-      - 🇰🇷 韩国01
-      - 🇺🇸 美国02
-      - 🇯🇵 日本 专线 01
-      - 🇺🇸 美国06
-      - 🇯🇵 日本 专线 02
-      - 🇺🇸 美国03
-      - 🇯🇵 日本高速接入点-02
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_50 |335.80Mb
-      - 🇺🇸 美国=tg频道:@bpjzx2=13
-      - ZZ(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇭🇰 HK-1|免费|1x
-      - 🇺🇸 美国 CloudFlare节点
-      - 港区 中转
-      - 🇸🇬 新加坡 专线 02
-      - 🇭🇰 香港=tg频道:@bpjzx2=30
-      - 🇰🇷 韩国 中转
-      - 🇯🇵 日本 中转
-      - 🇭🇰 香港 专线 03
-      - 🇬🇧 英国01
-      - 🇭🇰 5x-临时-香港-高级节点1
-      - US_122 |21.41Mb
-      - 🇺🇸 美国 009
-      - 🇯🇵 日本 专线 04
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=40
-      - 🇸🇬 SG-7|免费|1x
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 5
-      - 🇨🇳 台湾01
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2
-      - 🇺🇸 美国04
-      - 🇨🇳 台湾 中转
-      - 2x-临时-台北-高级节点3
-      - 🇯🇵 日本 专线 03
-      - 🇭🇰 香港 专线 04
-      - 🇯🇵 JP-3|免费|1x
-      - US_237 |27.82Mb
-      - 🇯🇵 日本高速接入点-01
-      - 🇭🇰 香港=tg频道:@bpjzx2=26
-      - 🇺🇸 US-4|免费|1x
-      - 🇺🇸 美国 CloudFlare
-      - US_227 |30.53Mb
-      - 🇸🇬 SG-5|免费|1x
-      - 🇯🇵 JP-1|免费|1x
-      - Pool_🇺🇸US_254 | 5.06Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_263 |32.46Mb
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
-      - 🇸🇬 新加坡-临时节点-30Mbps
-      - 🇸🇬 狮城 中转
-      - 🇯🇵 日本 专线 05
-      - 🇺🇸 美国 016
-      - 🇫🇷 法国=tg频道:@bpjzx2=4
-      - 🇺🇸 TG:@hkaa0 |美国_44
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_255 |29.66Mb
-      - 🇺🇸 美国 015
-      - 🇬🇧 英国02
-      - 🇭🇰 HK(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇺🇸 美国=tg频道:@bpjzx2=17
-      - 🇸🇬 新加坡 专线 04
-      - 🇺🇸 美国B1 | 0.5x
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 US-2|免费|1x
-      - 🇸🇬 新加坡
-      - 🇫🇷 法国=tg频道:@bpjzx2=63
-      - 🇫🇷 法国 002
-      - 🇭🇰 香港 专线 05
-      - 🇺🇸 TG:@hkaa0 |美国_52
-      - 🇺🇸 TG:@hkaa0 |美国_30
-      - 🇺🇸 美国08
-      - 🇺🇸 美国 012
-      - 🇺🇸 美国B3 | 0.5x
-      - 🇯🇵 日本04
-      - 🇸🇬 新加坡B5 | 0.5x
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国=tg频道:@bpjzx2=68
-      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb
-      - 🇯🇵 JP-4|免费|1x
-      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - 🇺🇸 TG:@hkaa0 |美国_40
-      - 🇺🇸 TG:@hkaa0 |美国_25
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇸 美国=tg频道:@bpjzx2=30
-      - 🇺🇸 TG:@hkaa0 |美国_9
-      - 🇺🇸 TG:@hkaa0 |美国_45
-      - 🇭🇰 香港=tg频道:@bpjzx2=2
-      - 🇺🇸 美国=tg频道:@bpjzx2=42
-      - 🇸🇬 长期更新节点@mftizi
-      - 🇺🇸 美国 071
-      - TG@GEEKSAHRE_2
-      - 🇺🇸 TG:@hkaa0 |美国_27
-      - 🇺🇸 TG:@hkaa0 |美国_41
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Level3通信(DIA)
-      - 🇺🇸 美国=tg频道:@bpjzx2=11
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
-      - 🇺🇸 美国=tg频道:@bpjzx2=22
-      - 🇺🇸 美国05
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5
-      - 🇺🇸 美国=tg频道:@bpjzx2=23
-      - 🇯🇵 日本高速接入点-04
-      - 🇸🇬 新加坡 专线 03
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb
-      - 🇯🇵 TG:@hkaa0 |日本_5
-      - 🇺🇸 美国=tg频道:@bpjzx2=59
-      - 🇸🇬 新加坡03
-      - 🇺🇸 美国=tg频道:@bpjzx2=82
-      - 🇺🇸 美国=tg频道:@bpjzx2=24
-      - 🇭🇰 香港B3 | 0.5x
-      - 🇸🇬 新加坡B2 | 0.5x
-      - 🇳🇱 TG:@hkaa0 |荷兰_1
-      - 🇺🇸 美国=tg频道:@bpjzx2=10
-      - 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb
-      - 🇺🇸 美国 061
-      - 🇩🇪 德国=tg频道:@bpjzx2=52
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 3
-      - 🇺🇸 美国=tg频道:@bpjzx2=64
-      - 🇺🇸 美国=tg频道:@bpjzx2=65
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 4
-      - 🇺🇸 美国 065
-      - 🇺🇸 美国 072
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_1
+      - 🇭🇰 香港D07 | 千兆专线|奈飞
+      - 🇭🇰 香港K01 | 五百兆|奈飞
+      - 🇰🇷 KR韩国(youtube阿伟科技)_2
+      - 🇭🇰 香港K02| 五百兆|奈飞
+      - 🇭🇰 香港D11 | 千兆专线|奈飞
+      - Pool_🇺🇸US_59 |11.09Mb
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_1
+      - 🇰🇷 韩国=tg频道:@bpjzx2=14
+      - 🇭🇰 香港D06 | 千兆专线|奈飞
       - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
-      - 🇫🇷 法国=tg频道:@bpjzx2=25
-      - 🇫🇷 法国 010
-      - 🇺🇸 美国=tg频道:@bpjzx2=14
-      - 🇸🇬 TG:@hkaa0 |新加坡_3
-      - 🇯🇵 TG:@hkaa0 |日本_6
-      - 🇰🇷 韩国=tg频道:@bpjzx2=34
-      - 🇺🇸 美国=tg频道:@bpjzx2=61
-      - 🇺🇸 美国=tg频道:@bpjzx2=78
-      - 🇯🇵 日本06
-      - 🇺🇸 美国 075
-      - 🇯🇵 日本07
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本=tg频道:@bpjzx2=38
-      - 🇺🇸 美国=tg频道:@bpjzx2=46
-      - 🇰🇷 TG:@hkaa0 |韩国_4
-      - 🇺🇸 TG:@hkaa0 |美国_37
-      - 🇺🇸 美国=tg频道:@bpjzx2=44
-      - 🇯🇵 日本B1 | 0.5x
-      - 🇺🇸 美国 073
-      - 🇳🇱 荷兰=tg频道:@bpjzx2=13
-      - 🇯🇵 日本高速接入点-03
-      - 🇺🇸 美国 070
-      - 关注电报https://t.me/mftizi
-      - 🇺🇸 美国=tg频道:@bpjzx2=6
-      - 🇭🇰 TG:@hkaa0 |香港
-      - 🇺🇸 美国=tg频道:@bpjzx2=53
-      - 🇺🇸 TG:@hkaa0 |美国_16
-      - 🇭🇰 香港B5 | 0.5x
-      - 🇸🇬 TG:@hkaa0 |新加坡_1
-      - 🇭🇰 香港B2 | 0.5x
-      - 🇯🇵 日本B5 | 0.5x
-      - 🇺🇸 TG:@hkaa0 |美国_10
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡08
-      - 🇰🇷 韩国=tg频道:@bpjzx2=36
-      - 🇸🇬 新加坡01
-      - 🇺🇸 TG:@hkaa0 |美国_11
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇰🇷 韩国=tg频道:@bpjzx2=23
-      - 🇺🇸 美国=tg频道:@bpjzx2=75
-      - 🇯🇵 日本05
-      - 🇬🇧 GB(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇸🇬 新加坡B4 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=58
-      - 🇺🇸 美国=tg频道:@bpjzx2=89
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇰🇷 TG:@hkaa0 |韩国_5
-      - 🇰🇿 哈萨克斯坦=tg频道:@bpjzx2=74
-      - 🇭🇰 香港06
-      - 🇺🇸 美国=tg频道:@bpjzx2=16
-      - 🇭🇰 香港03
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb
-      - 🇭🇰 香港04
-      - 🇭🇰 香港08
-      - 🇺🇸 美国 滴滴盾CN2高防节点(dididun.com)
-      - 🇸🇬 新加坡B3 | 0.5x
-      - 🇯🇵 TG:@hkaa0 |日本_8
-      - 🇭🇰 香港B4 | 0.5x
-      - 🇺🇸 TG:@hkaa0 |美国_19
-      - 🇯🇵 日本B2 | 0.5x
-      - 🇺🇸 美国 074
-      - 🇫🇷 法国=tg频道:@bpjzx2=31
-      - 🇯🇵 日本08
-      - 🇺🇸 美国=tg频道:@bpjzx2=85
-      - 🇭🇰 香港=tg频道:@bpjzx2=11
-      - 🇨🇳 TG:@hkaa0 |中国_4
-      - 🇸🇬 新加坡B1 | 0.5x
-      - 🇯🇵 日本01
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb
-      - 🇺🇸 美国B2 | 0.5x
+      - 🇭🇰 香港K00 | 五百兆|奈飞
+      - 🇲🇾 MY马来西亚(youtube阿伟科技)
+      - _11
+      - 🇯🇵 日本03 |  中转线路
+      - 🇺🇸 US DigitalOcean
+      - 🇭🇰 香港D05 | 千兆专线|奈飞
+      - US_80 |29.91Mb
+      - 🇯🇵 JP xtom
+      - 🇰🇷 韩国=tg频道:@bpjzx2=3
+      - US_53 | 8.67Mb
+      - 网址 440300.xyz
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
+      - 🇭🇰 香港D12 | 千兆专线|奈飞
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 🇫🇷 FR法国(youtube阿伟科技2)_1
+      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - 🇪🇸 ES西班牙(youtube阿伟科技2)
+      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_26 |22.72Mb
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港D13 | 千兆专线|奈飞
       - 🇺🇸 美国=tg频道:@bpjzx2=4
-      - 🇺🇸 美国 加利福尼亚州森尼韦尔市PEG TECH公司
-      - 🇳🇱 荷兰=tg频道:@bpjzx2=26
-      - 🇺🇸 美国=tg频道:@bpjzx2=15
-      - 🇯🇵 日本02
-      - 🇺🇸 TG:@hkaa0 |美国_46
-      - 🇺🇸 美国 076
-      - 🇯🇵 日本B3 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=83
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇭🇰 香港=tg频道:@bpjzx2=1
-      - 🇺🇸 美国=tg频道:@bpjzx2=67
-      - 🇺🇸 美国=tg频道:@bpjzx2=49
-      - 🇭🇰 香港01
-      - 🇺🇸 美国=tg频道:@bpjzx2=54
-      - 🇸🇬 新加坡05
-      - 🇭🇰 香港07
-      - 🇯🇵 日本B4 | 0.5x
-      - 🇺🇸 美国B5 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=70
-      - 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇭🇰 香港05
-      - 🇧🇷 巴西 001
-      - 🇺🇸 美国=tg频道:@bpjzx2=57
-      - 🇯🇵 日本=tg频道:@bpjzx2=1
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=20
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb
+      - 🇯🇵 日本01 |  中转线路
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
+      - 🇯🇵 JP xTom
+      - 关注电报https://t.me/mftizi
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_23 |246.52Mb
+      - 🇯🇵 JP VirMach
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_4
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 3
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_3
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_76 | 1.70Mb
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=8
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 4
+      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国 2
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_2
+      - 🇺🇸 美国 Datability
+      - 🇨🇳 台湾W01 | 五百兆|奈飞|GPT
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_46 |10.57Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_35
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_48 |11.71Mb
+      - 🇯🇵 JP日本(youtube阿伟科技2)_3
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_47 |10.12Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_33
+      - 🇯🇵 JP GreenCloud
+      - 🇺🇸 US美国(youtube阿伟科技2)_12
+      - 🇺🇸 US美国(youtube阿伟科技2)_16
+      - 🇺🇸 US美国(youtube阿伟科技2)_31
+      - 🇺🇸 US美国(youtube阿伟科技2)_8
+      - 🇺🇸 US美国(youtube阿伟科技2)_15
+      - 🇺🇸 US美国(youtube阿伟科技2)_4
+      - 🇺🇸 US美国(youtube阿伟科技2)_7
+      - 🇺🇸 US美国(youtube阿伟科技2)_5
+      - 🇺🇸 US美国(youtube阿伟科技2)_17
+      - 🇺🇸 US美国(youtube阿伟科技2)_10
+      - 🇺🇸 US美国(youtube阿伟科技2)_3
+      - 🇺🇸 US美国(youtube阿伟科技2)_6
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇪 迪拜01
-      - 乌克兰01
-      - 🇺🇸 美国07
-      - 🇨🇳 台湾03
-      - 🇮🇳 印度01
-      - 🇹🇷 土耳其01
-      - 🇫🇷 法国01
-      - 🇦🇷 阿根廷01
-      - 🇨🇳 台湾02
-      - 🇷🇺 俄罗斯01
-      - 🇺🇸 美国01
-      - 🇰🇷 韩国01
-      - 🇺🇸 美国02
-      - 🇯🇵 日本 专线 01
-      - 🇺🇸 美国06
-      - 🇯🇵 日本 专线 02
-      - 🇺🇸 美国03
-      - 🇯🇵 日本高速接入点-02
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_50 |335.80Mb
-      - 🇺🇸 美国=tg频道:@bpjzx2=13
-      - ZZ(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇭🇰 HK-1|免费|1x
-      - 🇺🇸 美国 CloudFlare节点
-      - 港区 中转
-      - 🇸🇬 新加坡 专线 02
-      - 🇭🇰 香港=tg频道:@bpjzx2=30
-      - 🇰🇷 韩国 中转
-      - 🇯🇵 日本 中转
-      - 🇭🇰 香港 专线 03
-      - 🇬🇧 英国01
-      - 🇭🇰 5x-临时-香港-高级节点1
-      - US_122 |21.41Mb
-      - 🇺🇸 美国 009
-      - 🇯🇵 日本 专线 04
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=40
-      - 🇸🇬 SG-7|免费|1x
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 5
-      - 🇨🇳 台湾01
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2
-      - 🇺🇸 美国04
-      - 🇨🇳 台湾 中转
-      - 2x-临时-台北-高级节点3
-      - 🇯🇵 日本 专线 03
-      - 🇭🇰 香港 专线 04
-      - 🇯🇵 JP-3|免费|1x
-      - US_237 |27.82Mb
-      - 🇯🇵 日本高速接入点-01
-      - 🇭🇰 香港=tg频道:@bpjzx2=26
-      - 🇺🇸 US-4|免费|1x
-      - 🇺🇸 美国 CloudFlare
-      - US_227 |30.53Mb
-      - 🇸🇬 SG-5|免费|1x
-      - 🇯🇵 JP-1|免费|1x
-      - Pool_🇺🇸US_254 | 5.06Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_263 |32.46Mb
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
-      - 🇸🇬 新加坡-临时节点-30Mbps
-      - 🇸🇬 狮城 中转
-      - 🇯🇵 日本 专线 05
-      - 🇺🇸 美国 016
-      - 🇫🇷 法国=tg频道:@bpjzx2=4
-      - 🇺🇸 TG:@hkaa0 |美国_44
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_255 |29.66Mb
-      - 🇺🇸 美国 015
-      - 🇬🇧 英国02
-      - 🇭🇰 HK(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇺🇸 美国=tg频道:@bpjzx2=17
-      - 🇸🇬 新加坡 专线 04
-      - 🇺🇸 美国B1 | 0.5x
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 US-2|免费|1x
-      - 🇸🇬 新加坡
-      - 🇫🇷 法国=tg频道:@bpjzx2=63
-      - 🇫🇷 法国 002
-      - 🇭🇰 香港 专线 05
-      - 🇺🇸 TG:@hkaa0 |美国_52
-      - 🇺🇸 TG:@hkaa0 |美国_30
-      - 🇺🇸 美国08
-      - 🇺🇸 美国 012
-      - 🇺🇸 美国B3 | 0.5x
-      - 🇯🇵 日本04
-      - 🇸🇬 新加坡B5 | 0.5x
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国=tg频道:@bpjzx2=68
-      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb
-      - 🇯🇵 JP-4|免费|1x
-      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - 🇺🇸 TG:@hkaa0 |美国_40
-      - 🇺🇸 TG:@hkaa0 |美国_25
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇸 美国=tg频道:@bpjzx2=30
-      - 🇺🇸 TG:@hkaa0 |美国_9
-      - 🇺🇸 TG:@hkaa0 |美国_45
-      - 🇭🇰 香港=tg频道:@bpjzx2=2
-      - 🇺🇸 美国=tg频道:@bpjzx2=42
-      - 🇸🇬 长期更新节点@mftizi
-      - 🇺🇸 美国 071
-      - TG@GEEKSAHRE_2
-      - 🇺🇸 TG:@hkaa0 |美国_27
-      - 🇺🇸 TG:@hkaa0 |美国_41
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Level3通信(DIA)
-      - 🇺🇸 美国=tg频道:@bpjzx2=11
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
-      - 🇺🇸 美国=tg频道:@bpjzx2=22
-      - 🇺🇸 美国05
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5
-      - 🇺🇸 美国=tg频道:@bpjzx2=23
-      - 🇯🇵 日本高速接入点-04
-      - 🇸🇬 新加坡 专线 03
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb
-      - 🇯🇵 TG:@hkaa0 |日本_5
-      - 🇺🇸 美国=tg频道:@bpjzx2=59
-      - 🇸🇬 新加坡03
-      - 🇺🇸 美国=tg频道:@bpjzx2=82
-      - 🇺🇸 美国=tg频道:@bpjzx2=24
-      - 🇭🇰 香港B3 | 0.5x
-      - 🇸🇬 新加坡B2 | 0.5x
-      - 🇳🇱 TG:@hkaa0 |荷兰_1
-      - 🇺🇸 美国=tg频道:@bpjzx2=10
-      - 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb
-      - 🇺🇸 美国 061
-      - 🇩🇪 德国=tg频道:@bpjzx2=52
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 3
-      - 🇺🇸 美国=tg频道:@bpjzx2=64
-      - 🇺🇸 美国=tg频道:@bpjzx2=65
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 4
-      - 🇺🇸 美国 065
-      - 🇺🇸 美国 072
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_1
+      - 🇭🇰 香港D07 | 千兆专线|奈飞
+      - 🇭🇰 香港K01 | 五百兆|奈飞
+      - 🇰🇷 KR韩国(youtube阿伟科技)_2
+      - 🇭🇰 香港K02| 五百兆|奈飞
+      - 🇭🇰 香港D11 | 千兆专线|奈飞
+      - Pool_🇺🇸US_59 |11.09Mb
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_1
+      - 🇰🇷 韩国=tg频道:@bpjzx2=14
+      - 🇭🇰 香港D06 | 千兆专线|奈飞
       - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
-      - 🇫🇷 法国=tg频道:@bpjzx2=25
-      - 🇫🇷 法国 010
-      - 🇺🇸 美国=tg频道:@bpjzx2=14
-      - 🇸🇬 TG:@hkaa0 |新加坡_3
-      - 🇯🇵 TG:@hkaa0 |日本_6
-      - 🇰🇷 韩国=tg频道:@bpjzx2=34
-      - 🇺🇸 美国=tg频道:@bpjzx2=61
-      - 🇺🇸 美国=tg频道:@bpjzx2=78
-      - 🇯🇵 日本06
-      - 🇺🇸 美国 075
-      - 🇯🇵 日本07
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本=tg频道:@bpjzx2=38
-      - 🇺🇸 美国=tg频道:@bpjzx2=46
-      - 🇰🇷 TG:@hkaa0 |韩国_4
-      - 🇺🇸 TG:@hkaa0 |美国_37
-      - 🇺🇸 美国=tg频道:@bpjzx2=44
-      - 🇯🇵 日本B1 | 0.5x
-      - 🇺🇸 美国 073
-      - 🇳🇱 荷兰=tg频道:@bpjzx2=13
-      - 🇯🇵 日本高速接入点-03
-      - 🇺🇸 美国 070
-      - 关注电报https://t.me/mftizi
-      - 🇺🇸 美国=tg频道:@bpjzx2=6
-      - 🇭🇰 TG:@hkaa0 |香港
-      - 🇺🇸 美国=tg频道:@bpjzx2=53
-      - 🇺🇸 TG:@hkaa0 |美国_16
-      - 🇭🇰 香港B5 | 0.5x
-      - 🇸🇬 TG:@hkaa0 |新加坡_1
-      - 🇭🇰 香港B2 | 0.5x
-      - 🇯🇵 日本B5 | 0.5x
-      - 🇺🇸 TG:@hkaa0 |美国_10
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡08
-      - 🇰🇷 韩国=tg频道:@bpjzx2=36
-      - 🇸🇬 新加坡01
-      - 🇺🇸 TG:@hkaa0 |美国_11
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇰🇷 韩国=tg频道:@bpjzx2=23
-      - 🇺🇸 美国=tg频道:@bpjzx2=75
-      - 🇯🇵 日本05
-      - 🇬🇧 GB(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇸🇬 新加坡B4 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=58
-      - 🇺🇸 美国=tg频道:@bpjzx2=89
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇰🇷 TG:@hkaa0 |韩国_5
-      - 🇰🇿 哈萨克斯坦=tg频道:@bpjzx2=74
-      - 🇭🇰 香港06
-      - 🇺🇸 美国=tg频道:@bpjzx2=16
-      - 🇭🇰 香港03
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb
-      - 🇭🇰 香港04
-      - 🇭🇰 香港08
-      - 🇺🇸 美国 滴滴盾CN2高防节点(dididun.com)
-      - 🇸🇬 新加坡B3 | 0.5x
-      - 🇯🇵 TG:@hkaa0 |日本_8
-      - 🇭🇰 香港B4 | 0.5x
-      - 🇺🇸 TG:@hkaa0 |美国_19
-      - 🇯🇵 日本B2 | 0.5x
-      - 🇺🇸 美国 074
-      - 🇫🇷 法国=tg频道:@bpjzx2=31
-      - 🇯🇵 日本08
-      - 🇺🇸 美国=tg频道:@bpjzx2=85
-      - 🇭🇰 香港=tg频道:@bpjzx2=11
-      - 🇨🇳 TG:@hkaa0 |中国_4
-      - 🇸🇬 新加坡B1 | 0.5x
-      - 🇯🇵 日本01
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb
-      - 🇺🇸 美国B2 | 0.5x
+      - 🇭🇰 香港K00 | 五百兆|奈飞
+      - 🇲🇾 MY马来西亚(youtube阿伟科技)
+      - _11
+      - 🇯🇵 日本03 |  中转线路
+      - 🇺🇸 US DigitalOcean
+      - 🇭🇰 香港D05 | 千兆专线|奈飞
+      - US_80 |29.91Mb
+      - 🇯🇵 JP xtom
+      - 🇰🇷 韩国=tg频道:@bpjzx2=3
+      - US_53 | 8.67Mb
+      - 网址 440300.xyz
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
+      - 🇭🇰 香港D12 | 千兆专线|奈飞
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 🇫🇷 FR法国(youtube阿伟科技2)_1
+      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - 🇪🇸 ES西班牙(youtube阿伟科技2)
+      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_26 |22.72Mb
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港D13 | 千兆专线|奈飞
       - 🇺🇸 美国=tg频道:@bpjzx2=4
-      - 🇺🇸 美国 加利福尼亚州森尼韦尔市PEG TECH公司
-      - 🇳🇱 荷兰=tg频道:@bpjzx2=26
-      - 🇺🇸 美国=tg频道:@bpjzx2=15
-      - 🇯🇵 日本02
-      - 🇺🇸 TG:@hkaa0 |美国_46
-      - 🇺🇸 美国 076
-      - 🇯🇵 日本B3 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=83
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇭🇰 香港=tg频道:@bpjzx2=1
-      - 🇺🇸 美国=tg频道:@bpjzx2=67
-      - 🇺🇸 美国=tg频道:@bpjzx2=49
-      - 🇭🇰 香港01
-      - 🇺🇸 美国=tg频道:@bpjzx2=54
-      - 🇸🇬 新加坡05
-      - 🇭🇰 香港07
-      - 🇯🇵 日本B4 | 0.5x
-      - 🇺🇸 美国B5 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=70
-      - 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇭🇰 香港05
-      - 🇧🇷 巴西 001
-      - 🇺🇸 美国=tg频道:@bpjzx2=57
-      - 🇯🇵 日本=tg频道:@bpjzx2=1
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=20
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb
+      - 🇯🇵 日本01 |  中转线路
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
+      - 🇯🇵 JP xTom
+      - 关注电报https://t.me/mftizi
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_23 |246.52Mb
+      - 🇯🇵 JP VirMach
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_4
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 3
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_3
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_76 | 1.70Mb
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=8
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 4
+      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国 2
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_2
+      - 🇺🇸 美国 Datability
+      - 🇨🇳 台湾W01 | 五百兆|奈飞|GPT
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_46 |10.57Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_35
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_48 |11.71Mb
+      - 🇯🇵 JP日本(youtube阿伟科技2)_3
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_47 |10.12Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_33
+      - 🇯🇵 JP GreenCloud
+      - 🇺🇸 US美国(youtube阿伟科技2)_12
+      - 🇺🇸 US美国(youtube阿伟科技2)_16
+      - 🇺🇸 US美国(youtube阿伟科技2)_31
+      - 🇺🇸 US美国(youtube阿伟科技2)_8
+      - 🇺🇸 US美国(youtube阿伟科技2)_15
+      - 🇺🇸 US美国(youtube阿伟科技2)_4
+      - 🇺🇸 US美国(youtube阿伟科技2)_7
+      - 🇺🇸 US美国(youtube阿伟科技2)_5
+      - 🇺🇸 US美国(youtube阿伟科技2)_17
+      - 🇺🇸 US美国(youtube阿伟科技2)_10
+      - 🇺🇸 US美国(youtube阿伟科技2)_3
+      - 🇺🇸 US美国(youtube阿伟科技2)_6
   - name: 🎯 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇪 迪拜01
-      - 乌克兰01
-      - 🇺🇸 美国07
-      - 🇨🇳 台湾03
-      - 🇮🇳 印度01
-      - 🇹🇷 土耳其01
-      - 🇫🇷 法国01
-      - 🇦🇷 阿根廷01
-      - 🇨🇳 台湾02
-      - 🇷🇺 俄罗斯01
-      - 🇺🇸 美国01
-      - 🇰🇷 韩国01
-      - 🇺🇸 美国02
-      - 🇯🇵 日本 专线 01
-      - 🇺🇸 美国06
-      - 🇯🇵 日本 专线 02
-      - 🇺🇸 美国03
-      - 🇯🇵 日本高速接入点-02
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_50 |335.80Mb
-      - 🇺🇸 美国=tg频道:@bpjzx2=13
-      - ZZ(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇭🇰 HK-1|免费|1x
-      - 🇺🇸 美国 CloudFlare节点
-      - 港区 中转
-      - 🇸🇬 新加坡 专线 02
-      - 🇭🇰 香港=tg频道:@bpjzx2=30
-      - 🇰🇷 韩国 中转
-      - 🇯🇵 日本 中转
-      - 🇭🇰 香港 专线 03
-      - 🇬🇧 英国01
-      - 🇭🇰 5x-临时-香港-高级节点1
-      - US_122 |21.41Mb
-      - 🇺🇸 美国 009
-      - 🇯🇵 日本 专线 04
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=40
-      - 🇸🇬 SG-7|免费|1x
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 5
-      - 🇨🇳 台湾01
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2
-      - 🇺🇸 美国04
-      - 🇨🇳 台湾 中转
-      - 2x-临时-台北-高级节点3
-      - 🇯🇵 日本 专线 03
-      - 🇭🇰 香港 专线 04
-      - 🇯🇵 JP-3|免费|1x
-      - US_237 |27.82Mb
-      - 🇯🇵 日本高速接入点-01
-      - 🇭🇰 香港=tg频道:@bpjzx2=26
-      - 🇺🇸 US-4|免费|1x
-      - 🇺🇸 美国 CloudFlare
-      - US_227 |30.53Mb
-      - 🇸🇬 SG-5|免费|1x
-      - 🇯🇵 JP-1|免费|1x
-      - Pool_🇺🇸US_254 | 5.06Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_263 |32.46Mb
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
-      - 🇸🇬 新加坡-临时节点-30Mbps
-      - 🇸🇬 狮城 中转
-      - 🇯🇵 日本 专线 05
-      - 🇺🇸 美国 016
-      - 🇫🇷 法国=tg频道:@bpjzx2=4
-      - 🇺🇸 TG:@hkaa0 |美国_44
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 |31.13Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_255 |29.66Mb
-      - 🇺🇸 美国 015
-      - 🇬🇧 英国02
-      - 🇭🇰 HK(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇺🇸 美国=tg频道:@bpjzx2=17
-      - 🇸🇬 新加坡 专线 04
-      - 🇺🇸 美国B1 | 0.5x
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 US-2|免费|1x
-      - 🇸🇬 新加坡
-      - 🇫🇷 法国=tg频道:@bpjzx2=63
-      - 🇫🇷 法国 002
-      - 🇭🇰 香港 专线 05
-      - 🇺🇸 TG:@hkaa0 |美国_52
-      - 🇺🇸 TG:@hkaa0 |美国_30
-      - 🇺🇸 美国08
-      - 🇺🇸 美国 012
-      - 🇺🇸 美国B3 | 0.5x
-      - 🇯🇵 日本04
-      - 🇸🇬 新加坡B5 | 0.5x
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇰🇷 韩国=tg频道:@bpjzx2=68
-      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_60 |278.46Mb
-      - 🇯🇵 JP-4|免费|1x
-      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - 🇺🇸 TG:@hkaa0 |美国_40
-      - 🇺🇸 TG:@hkaa0 |美国_25
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
-      - 🇺🇸 美国=tg频道:@bpjzx2=30
-      - 🇺🇸 TG:@hkaa0 |美国_9
-      - 🇺🇸 TG:@hkaa0 |美国_45
-      - 🇭🇰 香港=tg频道:@bpjzx2=2
-      - 🇺🇸 美国=tg频道:@bpjzx2=42
-      - 🇸🇬 长期更新节点@mftizi
-      - 🇺🇸 美国 071
-      - TG@GEEKSAHRE_2
-      - 🇺🇸 TG:@hkaa0 |美国_27
-      - 🇺🇸 TG:@hkaa0 |美国_41
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Level3通信(DIA)
-      - 🇺🇸 美国=tg频道:@bpjzx2=11
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
-      - 🇺🇸 美国=tg频道:@bpjzx2=22
-      - 🇺🇸 美国05
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=5
-      - 🇺🇸 美国=tg频道:@bpjzx2=23
-      - 🇯🇵 日本高速接入点-04
-      - 🇸🇬 新加坡 专线 03
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_218 |30.87Mb
-      - 🇯🇵 TG:@hkaa0 |日本_5
-      - 🇺🇸 美国=tg频道:@bpjzx2=59
-      - 🇸🇬 新加坡03
-      - 🇺🇸 美国=tg频道:@bpjzx2=82
-      - 🇺🇸 美国=tg频道:@bpjzx2=24
-      - 🇭🇰 香港B3 | 0.5x
-      - 🇸🇬 新加坡B2 | 0.5x
-      - 🇳🇱 TG:@hkaa0 |荷兰_1
-      - 🇺🇸 美国=tg频道:@bpjzx2=10
-      - 🇺🇸 Relay_🇺🇸US-🇳🇱NL_121 |31.85Mb
-      - 🇺🇸 美国 061
-      - 🇩🇪 德国=tg频道:@bpjzx2=52
-      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 3
-      - 🇺🇸 美国=tg频道:@bpjzx2=64
-      - 🇺🇸 美国=tg频道:@bpjzx2=65
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 4
-      - 🇺🇸 美国 065
-      - 🇺🇸 美国 072
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_1
+      - 🇭🇰 香港D07 | 千兆专线|奈飞
+      - 🇭🇰 香港K01 | 五百兆|奈飞
+      - 🇰🇷 KR韩国(youtube阿伟科技)_2
+      - 🇭🇰 香港K02| 五百兆|奈飞
+      - 🇭🇰 香港D11 | 千兆专线|奈飞
+      - Pool_🇺🇸US_59 |11.09Mb
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_1
+      - 🇰🇷 韩国=tg频道:@bpjzx2=14
+      - 🇭🇰 香港D06 | 千兆专线|奈飞
       - 🇿🇦 南非豪登省约翰内斯堡 Cloudinnovation数据中心
-      - 🇫🇷 法国=tg频道:@bpjzx2=25
-      - 🇫🇷 法国 010
-      - 🇺🇸 美国=tg频道:@bpjzx2=14
-      - 🇸🇬 TG:@hkaa0 |新加坡_3
-      - 🇯🇵 TG:@hkaa0 |日本_6
-      - 🇰🇷 韩国=tg频道:@bpjzx2=34
-      - 🇺🇸 美国=tg频道:@bpjzx2=61
-      - 🇺🇸 美国=tg频道:@bpjzx2=78
-      - 🇯🇵 日本06
-      - 🇺🇸 美国 075
-      - 🇯🇵 日本07
-      - 🇸🇬 新加坡04
-      - 🇯🇵 日本=tg频道:@bpjzx2=38
-      - 🇺🇸 美国=tg频道:@bpjzx2=46
-      - 🇰🇷 TG:@hkaa0 |韩国_4
-      - 🇺🇸 TG:@hkaa0 |美国_37
-      - 🇺🇸 美国=tg频道:@bpjzx2=44
-      - 🇯🇵 日本B1 | 0.5x
-      - 🇺🇸 美国 073
-      - 🇳🇱 荷兰=tg频道:@bpjzx2=13
-      - 🇯🇵 日本高速接入点-03
-      - 🇺🇸 美国 070
-      - 关注电报https://t.me/mftizi
-      - 🇺🇸 美国=tg频道:@bpjzx2=6
-      - 🇭🇰 TG:@hkaa0 |香港
-      - 🇺🇸 美国=tg频道:@bpjzx2=53
-      - 🇺🇸 TG:@hkaa0 |美国_16
-      - 🇭🇰 香港B5 | 0.5x
-      - 🇸🇬 TG:@hkaa0 |新加坡_1
-      - 🇭🇰 香港B2 | 0.5x
-      - 🇯🇵 日本B5 | 0.5x
-      - 🇺🇸 TG:@hkaa0 |美国_10
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡08
-      - 🇰🇷 韩国=tg频道:@bpjzx2=36
-      - 🇸🇬 新加坡01
-      - 🇺🇸 TG:@hkaa0 |美国_11
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇰🇷 韩国=tg频道:@bpjzx2=23
-      - 🇺🇸 美国=tg频道:@bpjzx2=75
-      - 🇯🇵 日本05
-      - 🇬🇧 GB(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅)
-      - 🇸🇬 新加坡B4 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=58
-      - 🇺🇸 美国=tg频道:@bpjzx2=89
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇰🇷 TG:@hkaa0 |韩国_5
-      - 🇰🇿 哈萨克斯坦=tg频道:@bpjzx2=74
-      - 🇭🇰 香港06
-      - 🇺🇸 美国=tg频道:@bpjzx2=16
-      - 🇭🇰 香港03
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_249 |32.56Mb
-      - 🇭🇰 香港04
-      - 🇭🇰 香港08
-      - 🇺🇸 美国 滴滴盾CN2高防节点(dididun.com)
-      - 🇸🇬 新加坡B3 | 0.5x
-      - 🇯🇵 TG:@hkaa0 |日本_8
-      - 🇭🇰 香港B4 | 0.5x
-      - 🇺🇸 TG:@hkaa0 |美国_19
-      - 🇯🇵 日本B2 | 0.5x
-      - 🇺🇸 美国 074
-      - 🇫🇷 法国=tg频道:@bpjzx2=31
-      - 🇯🇵 日本08
-      - 🇺🇸 美国=tg频道:@bpjzx2=85
-      - 🇭🇰 香港=tg频道:@bpjzx2=11
-      - 🇨🇳 TG:@hkaa0 |中国_4
-      - 🇸🇬 新加坡B1 | 0.5x
-      - 🇯🇵 日本01
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_61 | 4.02Mb
-      - 🇺🇸 美国B2 | 0.5x
+      - 🇭🇰 香港K00 | 五百兆|奈飞
+      - 🇲🇾 MY马来西亚(youtube阿伟科技)
+      - _11
+      - 🇯🇵 日本03 |  中转线路
+      - 🇺🇸 US DigitalOcean
+      - 🇭🇰 香港D05 | 千兆专线|奈飞
+      - US_80 |29.91Mb
+      - 🇯🇵 JP xtom
+      - 🇰🇷 韩国=tg频道:@bpjzx2=3
+      - US_53 | 8.67Mb
+      - 网址 440300.xyz
+      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
+      - 🇭🇰 香港D12 | 千兆专线|奈飞
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
+      - 🇫🇷 FR法国(youtube阿伟科技2)_1
+      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - 🇪🇸 ES西班牙(youtube阿伟科技2)
+      - 🇫🇷 Relay_🇫🇷FR-🇳🇱NL_26 |22.72Mb
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇭🇰 香港D13 | 千兆专线|奈飞
       - 🇺🇸 美国=tg频道:@bpjzx2=4
-      - 🇺🇸 美国 加利福尼亚州森尼韦尔市PEG TECH公司
-      - 🇳🇱 荷兰=tg频道:@bpjzx2=26
-      - 🇺🇸 美国=tg频道:@bpjzx2=15
-      - 🇯🇵 日本02
-      - 🇺🇸 TG:@hkaa0 |美国_46
-      - 🇺🇸 美国 076
-      - 🇯🇵 日本B3 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=83
-      - 🇺🇸 美国加利福尼亚州洛杉矶 PetaExpress
-      - 🇭🇰 香港=tg频道:@bpjzx2=1
-      - 🇺🇸 美国=tg频道:@bpjzx2=67
-      - 🇺🇸 美国=tg频道:@bpjzx2=49
-      - 🇭🇰 香港01
-      - 🇺🇸 美国=tg频道:@bpjzx2=54
-      - 🇸🇬 新加坡05
-      - 🇭🇰 香港07
-      - 🇯🇵 日本B4 | 0.5x
-      - 🇺🇸 美国B5 | 0.5x
-      - 🇺🇸 美国=tg频道:@bpjzx2=70
-      - 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
-      - 🇭🇰 香港05
-      - 🇧🇷 巴西 001
-      - 🇺🇸 美国=tg频道:@bpjzx2=57
-      - 🇯🇵 日本=tg频道:@bpjzx2=1
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=20
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_112 |33.40Mb
+      - 🇯🇵 日本01 |  中转线路
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
+      - 🇯🇵 JP xTom
+      - 关注电报https://t.me/mftizi
+      - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_23 |246.52Mb
+      - 🇯🇵 JP VirMach
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_4
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 3
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_3
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_76 | 1.70Mb
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH 2
+      - 🇸🇬 新加坡=tg频道:@bpjzx2=8
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 4
+      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国 2
+      - 🇳🇱 NL荷兰(youtube阿伟科技2)_2
+      - 🇺🇸 美国 Datability
+      - 🇨🇳 台湾W01 | 五百兆|奈飞|GPT
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_46 |10.57Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_35
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_48 |11.71Mb
+      - 🇯🇵 JP日本(youtube阿伟科技2)_3
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_47 |10.12Mb
+      - 🇺🇸 US美国(youtube阿伟科技2)_33
+      - 🇯🇵 JP GreenCloud
+      - 🇺🇸 US美国(youtube阿伟科技2)_12
+      - 🇺🇸 US美国(youtube阿伟科技2)_16
+      - 🇺🇸 US美国(youtube阿伟科技2)_31
+      - 🇺🇸 US美国(youtube阿伟科技2)_8
+      - 🇺🇸 US美国(youtube阿伟科技2)_15
+      - 🇺🇸 US美国(youtube阿伟科技2)_4
+      - 🇺🇸 US美国(youtube阿伟科技2)_7
+      - 🇺🇸 US美国(youtube阿伟科技2)_5
+      - 🇺🇸 US美国(youtube阿伟科技2)_17
+      - 🇺🇸 US美国(youtube阿伟科技2)_10
+      - 🇺🇸 US美国(youtube阿伟科技2)_3
+      - 🇺🇸 US美国(youtube阿伟科技2)_6
   - name: 🛑 禁止代理
     type: select
     proxies:
