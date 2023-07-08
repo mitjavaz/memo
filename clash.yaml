@@ -5,129 +5,78 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 TG:@hkaa0 中国_2, server: 120.226.50.85, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_6, server: 45.92.160.134, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG@GEEKSAHRE_1, server: 41.kccic2pa.xyz, port: 50041, type: vmess, uuid: 906b5faf-87af-4ed5-8441-e645cda74df1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: da48c616-75b5-4b15-aa8c-62fb3001e352, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us5.sanfencdn1.com}}}
-  - {name: 🇹🇷 TG:@hkaa0 土耳其, server: 45.89.52.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
-  - {name: TG@GEEKSAHRE_15, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: 906b5faf-87af-4ed5-8441-e645cda74df1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡_5, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 TG:@hkaa0 美国_2, server: 107.167.16.101, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_3, server: 64.32.4.40, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_43 |141.82Mb, server: 51.195.35.147, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG@GEEKSAHRE_18, server: 156.225.67.105, port: 49101, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🏳️‍🌈 ️‍🌈 1块钱200G流量哦, server: eeee.ednovas.cloud, port: 21949, type: vmess, uuid: 806d9ffa-5f34-41df-8ef5-530d758ab2db, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡_3, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇺🇸 TG:@hkaa0 美国_5, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG@GEEKSAHRE_11, server: 156.225.67.144, port: 42300, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 广东省广州市移动 3, server: eeee.ednovas.cloud, port: 21949, type: vmess, uuid: 806d9ffa-5f34-41df-8ef5-530d758ab2db, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9, server: 104.18.1.196, port: 80, type: vmess, uuid: 0dfa89a7-fe08-454e-817b-374097be358f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-mlb.securev2ray.com}}}
-  - {name: 🇸🇬 新加坡=tg频道:@bpjzx2=6, server: 13.250.65.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.18.1.196, port: 80, type: vmess, uuid: 0425d010-19f6-11ee-8be4-1577c1651679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.xmbb.net}}}
-  - {name: 🇺🇸 TG:@hkaa0 美国_4, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 TG:@hkaa0 法国_5, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=26, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 美国 Datability, server: 140.99.148.53, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇺 TG:@hkaa0 匈牙利, server: 5.181.77.86, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇯🇵 日本=tg频道:@bpjzx2=27, server: 3.112.43.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 TG:@hkaa0 美国_13, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_33, server: 216.52.59.50, port: 20458, type: trojan, password: m8krTirthj, skip-cert-verify: true}
-  - {name: 🇰🇷 TG:@hkaa0 韩国_3, server: 43.202.55.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 TG:@hkaa0 美国_20, server: 140.99.128.114, port: 58455, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省广州市 移动, server: eeee.ednovas.cloud, port: 21935, type: vmess, uuid: 806d9ffa-5f34-41df-8ef5-530d758ab2db, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_24, server: 107.148.5.161, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 7, server: 104.18.1.196, port: 80, type: vmess, uuid: 0425d010-19f6-11ee-8be4-1577c1651679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.xmbb.net}}}
-  - {name: TG@GEEKSAHRE_2, server: 10.kccic2pa.xyz, port: 50010, type: vmess, uuid: 906b5faf-87af-4ed5-8441-e645cda74df1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_19, server: 45.92.160.22, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=30, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}}
-  - {name: FR_youtube@资源分享师_171, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_187, server: us52.encrypted.my.id, port: 443, type: vmess, uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /OFglbcWQ8P3dJUA7yf, headers: {Host: us52.encrypted.my.id}}}
-  - {name: TG:@hkaa0 中国, server: free.themars.top, port: 32101, type: ss, cipher: chacha20-ietf-poly1305, password: 22df79fb-1f27-45ad-a05e-37d940060d22}
-  - {name: 关注频道https://t.me/mftizi, server: eeee.ednovas.cloud, port: 21949, type: vmess, uuid: 806d9ffa-5f34-41df-8ef5-530d758ab2db, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_1, server: 54.190.212.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: TG:@hkaa0 中国 2, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 22df79fb-1f27-45ad-a05e-37d940060d22}
-  - {name: TG:@hkaa0 中国 3, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 208b0259-5a0f-41ca-adae-c0bf81a95b71}
-  - {name: TG:@hkaa0 中国 4, server: free.themars.top, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: 208b0259-5a0f-41ca-adae-c0bf81a95b71}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡, server: link3.kuaidog004.top, port: 36542, type: trojan, password: 33822aae-600a-4f7f-8fd3-29ed81d0a486, sni: link3.kuaidog004.top, skip-cert-verify: true}
-  - {name: 🇨🇳 TG:@hkaa0 台湾, server: tw.nfsq.me, port: 22251, type: vmess, uuid: b9684bbc-bbd5-4d37-9620-ed69c938b5ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nfsq, headers: {Host: tw.nfsq.me}}}
-  - {name: 鍚屾姘镐箙鍏嶈垂瀹氬埗璁㈤槄 @zedian888, server: v1.583182.xyz, port: 2096, type: vmess, uuid: 0136a009-3bd4-4f75-a39b-3b1df57086f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v1.583181.xyz}}}
-  - {name: US_youtube@资源分享师_132, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: a5756853-4a80-468a-af62-10565918f58f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
-  - {name: US_youtube@资源分享师_55, server: 172.66.43.240, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}}
-  - {name: 🇨🇳 TG:@hkaa0 中国_12, server: dx2.nfsq.me, port: 24262, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: CR_youtube@资源分享师_95, server: 190.93.246.37, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: US_youtube@资源分享师_185, server: 140.99.148.53, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG:@hkaa0 中国 5, server: free.themars.top, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: 22df79fb-1f27-45ad-a05e-37d940060d22}
-  - {name: 🇫🇷 五叶节点分享频道 @hkaa0 |法国, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: TG:@hkaa0 中国 6, server: free.themars.top, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 22df79fb-1f27-45ad-a05e-37d940060d22}
-  - {name: TG:@hkaa0 中国 7, server: free.themars.top, port: 32101, type: ss, cipher: chacha20-ietf-poly1305, password: 208b0259-5a0f-41ca-adae-c0bf81a95b71}
-  - {name: 🇨🇳 TG:@hkaa0 中国_8, server: gzyd.nfsq.me, port: 28826, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: 🇯🇵 TG:@hkaa0 日本, server: link2.kuaidog004.top, port: 36542, type: trojan, password: 33822aae-600a-4f7f-8fd3-29ed81d0a486, sni: link2.kuaidog004.top, skip-cert-verify: true}
-  - {name: TG:@hkaa0 中国 8, server: zjydhnuidqwdp.fucat.top, port: 43121, type: ss, cipher: chacha20-ietf-poly1305, password: 33822aae-600a-4f7f-8fd3-29ed81d0a486}
-  - {name: US_youtube@资源分享师_153, server: 142.4.126.67, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_177, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国, server: link5.kuaidog004.top, port: 36542, type: trojan, password: 33822aae-600a-4f7f-8fd3-29ed81d0a486, sni: link5.kuaidog004.top, skip-cert-verify: true}
-  - {name: US_youtube@资源分享师_169, server: 107.167.16.101, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_130, server: 137.175.1.12, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡 2, server: link4.kuaidog004.top, port: 36542, type: trojan, password: 33822aae-600a-4f7f-8fd3-29ed81d0a486, sni: link4.kuaidog004.top, skip-cert-verify: true}
-  - {name: NL_youtube@资源分享师_134, server: 188.114.96.227, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: 🇺🇸 TG:@hkaa0 美国 2, server: link6.kuaidog004.top, port: 36542, type: trojan, password: 33822aae-600a-4f7f-8fd3-29ed81d0a486, sni: link6.kuaidog004.top, skip-cert-verify: true}
-  - {name: US_youtube@资源分享师_184, server: 23.224.8.84, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_89, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 TG:@hkaa0 中国_13, server: gzyd.nfsq.me, port: 16002, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: 🇨🇳 TG:@hkaa0 中国_10, server: dx2.nfsq.me, port: 54332, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: "🇸🇬 [馃嚫馃嚞] 娉芥瀹氬埗-Singapore", server: v14.583182.xyz, port: 8443, type: vmess, uuid: 0136a009-3bd4-4f75-a39b-3b1df57086f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v14.583181.xyz}}}
-  - {name: "[馃嚭馃嚫] 娉芥瀹氬埗-Ameica", server: v13.583182.xyz, port: 2053, type: vmess, uuid: 0136a009-3bd4-4f75-a39b-3b1df57086f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v13.583181.xyz}}}
-  - {name: US_youtube@资源分享师_67, server: 103.21.244.28, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: 🇨🇳 TG:@hkaa0 中国_7, server: dx2.nfsq.me, port: 54368, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国, server: 23.224.8.84, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 TG:@hkaa0 日本 2, server: link1.kuaidog004.top, port: 36542, type: trojan, password: 33822aae-600a-4f7f-8fd3-29ed81d0a486, sni: link1.kuaidog004.top, skip-cert-verify: true}
-  - {name: TG:@hkaa0 中国 9, server: zjydhnuidqwdp.fucat.top, port: 35522, type: ss, cipher: chacha20-ietf-poly1305, password: 33822aae-600a-4f7f-8fd3-29ed81d0a486}
-  - {name: US_youtube@资源分享师_188, server: us52.encrypted.my.id, port: 80, type: vmess, uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /OFglbcWQ8P3dJUA7yf, headers: {Host: us52.encrypted.my.id}}}
-  - {name: 🇫🇷 法国=tg频道:@bpjzx2=22, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: CN_youtube@资源分享师_146, server: 120.226.50.85, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_youtube@资源分享师_125, server: 120.233.43.74, port: 41273, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_151, server: 156.225.67.17, port: 49901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_3 2, server: hkv6.nfsq.me, port: 80, type: vmess, uuid: b9684bbc-bbd5-4d37-9620-ed69c938b5ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkv6.nfsq.me}}}
-  - {name: FR_youtube@资源分享师_102, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_97, server: 103.21.244.147, port: 8080, type: vmess, uuid: 0a69988b-1c81-4c78-b6f2-5b291cb15493, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: bl.wang66.homes}}}
-  - {name: "🇨🇦 [馃嚚馃嚘] 銆怴IP銆戞辰娈垮畾鍒�-Canada", server: t5.583181.xyz, port: 1269, type: trojan, password: 0136a009-3bd4-4f75-a39b-3b1df57086f4, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: CN_youtube@资源分享师_172, server: eeee.ednovas.cloud, port: 21949, type: vmess, uuid: 806d9ffa-5f34-41df-8ef5-530d758ab2db, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TG:@hkaa0 中国_9, server: dx2.nfsq.me, port: 47768, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: TG@GEEKSAHRE_9, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 TG:@hkaa0 中国_6, server: gzyd.nfsq.me, port: 33791, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: US_youtube@资源分享师_190, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_104, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_180, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇧🇷 [馃嚠馃嚦] 娉芥瀹氬埗-Brazil", server: v15.583182.xyz, port: 2053, type: vmess, uuid: 0136a009-3bd4-4f75-a39b-3b1df57086f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v15.583181.xyz}}}
-  - {name: US_youtube@资源分享师_167, server: 140.99.59.229, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: FR_youtube@资源分享师_152, server: 51.195.35.147, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_168, server: 23.224.8.84, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 TG:@hkaa0 中国_3, server: dx2.nfsq.me, port: 19859, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: 🇰🇷 TG:@hkaa0 韩国_6, server: kr5.microsoft-orgwly.vip, port: 10023, type: trojan, password: 96205d7f-0722-4ac8-85cd-cac4f374085f, skip-cert-verify: true}
-  - {name: 🇨🇳 TG:@hkaa0 中国_2 2, server: dx2.nfsq.me, port: 43670, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: US_youtube@资源分享师_40, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: TG:@hkaa0 中国 10, server: free.themars.top, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 208b0259-5a0f-41ca-adae-c0bf81a95b71}
-  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_160, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
-  - {name: 🇯🇵 TG:@hkaa0 日本_11, server: 3.112.73.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 免费梯子https://t.me/mftizi, server: 18.kccic2pa.xyz, port: 50018, type: vmess, uuid: 906b5faf-87af-4ed5-8441-e645cda74df1, alterId: 0, cipher: auto, tls: false}
-  - {name: TG:@hkaa0 中国 11, server: zjydhnuidqwdp.fucat.top, port: 63945, type: ss, cipher: chacha20-ietf-poly1305, password: 33822aae-600a-4f7f-8fd3-29ed81d0a486}
-  - {name: 🇺🇸 TG:@hkaa0 美国_29, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 中国=tg频道:@bpjzx2=5, server: gzyd.nfsq.me, port: 35949, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: 🇺🇸 美国=tg频道:@bpjzx2=6, server: 156.225.67.17, port: 49901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: NL_youtube@资源分享师_84, server: 188.114.96.67, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: US_youtube@资源分享师_121, server: 45.92.160.134, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "|18.38Mb", server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
-  - {name: TG:@hkaa0 阿富汗, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 TG:@hkaa0 美国_68, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_65, server: 192.74.228.171, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_49, server: 156.225.67.17, port: 49901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_66, server: 170.178.167.144, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 TG:@hkaa0 中国_1, server: gzyd.nfsq.me, port: 11122, type: ss, cipher: aes-128-gcm, password: b9684bbc-bbd5-4d37-9620-ed69c938b5ca}
-  - {name: 🇺🇸 TG:@hkaa0 美国_38, server: 23.224.8.84, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇩🇪 [馃嚛馃嚜] 娉芥瀹氬埗-Germany", server: v16.583182.xyz, port: 8443, type: vmess, uuid: 0136a009-3bd4-4f75-a39b-3b1df57086f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583181.xyz}}}
-  - {name: FR_youtube@资源分享师_105, server: un1.09vpn.com, port: 80, type: vmess, uuid: 30dd6a6a-d11d-47c6-995f-32fb4408b577, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: YTB-AWKJ}}}
-  - {name: 🇺🇸 TG:@hkaa0 美国_69, server: 140.99.59.229, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 005, server: 142.4.100.42, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 001, server: 107.148.5.161, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国_79, server: 142.4.100.45, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 3, server: 142.4.99.91, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false}
+  - {name: TG@GEEKSAHRE_17, server: 08.kccic2pa.xyz, port: 50008, type: vmess, uuid: 906b5faf-87af-4ed5-8441-e645cda74df1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=7, server: 3.35.230.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 TG:@hkaa0 日本_3, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%�, obfs-param: ""}
+  - {name: 🇺🇸 TG:@hkaa0 美国_96, server: 137.175.1.12, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 45.136.235.11, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国 004, server: 137.175.18.90, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |31.18Mb, server: 107.167.16.101, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心, server: 107.167.16.34, port: 45592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 008, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🏳️‍🌈 ️‍🌈 1块钱200G流量额, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us2.pqjc.site, skip-cert-verify: false}
+  - {name: 🇨🇳 中国 006, server: 142.4.100.45, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国_81, server: 38.63.0.80, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国=tg频道:@bpjzx2=3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5, server: 45.199.138.121, port: 51204, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国=tg频道:@bpjzx2=2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
+  - {name: 🇭🇰 香港=tg频道:@bpjzx2=16, server: hk1.yihaobao.xyz, port: 10022, type: trojan, password: 508f3e96-f022-4bed-aa72-8bfd37af5c14, sni: hk1.yihaobao.xyz, skip-cert-verify: true}
+  - {name: 🇯🇵 TG:@hkaa0 日本_2, server: 43.207.74.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 4, server: 142.4.99.89, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cf.515188.xyz, port: 80, type: vmess, uuid: a5756853-4a80-468a-af62-10565918f58f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
+  - {name: 🇺🇸 美国 003, server: 142.4.112.28, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国_23, server: 142.4.112.28, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 github.com/freefq - 日本大阪Microsoft数据中心 12, server: uk.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_124 |34.38Mb, server: 140.99.57.22, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: TG@GEEKSAHRE_7, server: 38.kccic2pa.xyz, port: 50038, type: vmess, uuid: 906b5faf-87af-4ed5-8441-e645cda74df1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国_80, server: 142.4.126.43, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5 2, server: 45.199.138.121, port: 51204, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 github.com/freefq - 台湾省中华电信 6, server: hnm.xiaohouzi.club, port: 23330, type: trojan, password: c32c56fb-64d9-33c4-b42a-af81b7a33fe7, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_123 |23.62Mb, server: 45.153.203.87, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本=tg频道:@bpjzx2=9, server: 54.168.131.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇮🇳 印度=tg频道:@bpjzx2=20, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
+  - {name: 🇫🇷 法国 001, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国_86, server: 142.4.126.46, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: TG@GEEKSAHRE_10, server: 06.kccic2pa.xyz, port: 50006, type: vmess, uuid: 906b5faf-87af-4ed5-8441-e645cda74df1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=7 2, server: 43.202.63.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 中国 003, server: 142.4.112.19, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国_73, server: 137.175.18.65, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_162 |28.42Mb, server: 64.32.4.39, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国=tg频道:@bpjzx2=9, server: 120.226.50.85, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇿🇦 github.com/freefq - 南非  3, server: 156.225.67.105, port: 49101, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国_74, server: 140.99.59.228, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15, server: 104.18.1.196, port: 80, type: vmess, uuid: b3b3b680-19f5-11ee-bf9a-1577c1651679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /files, headers: {Host: 2.lowh.net}}}
+  - {name: 🇺🇸 TG:@hkaa0 美国_21, server: 192.74.228.189, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 TG:@hkaa0 法国_1, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 github.com/freefq - 美国Datability 8, server: 140.99.128.114, port: 58455, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
+  - {name: 🇺🇸 TG:@hkaa0 美国_90, server: 140.99.140.158, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_134 |30.83Mb, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 | 8.83Mb, server: 192.74.237.60, port: 30303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_145 |31.95Mb, server: 198.2.203.58, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇿🇦 南非 V2CROSS.COM, server: 156.225.67.105, port: 49101, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国CloudFlare节点 5, server: cf3.992688.xyz, port: 8080, type: vmess, uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hax.992688.xyz}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 4, server: 64.32.4.39, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国_87, server: 23.224.190.226, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 005, server: 142.4.112.29, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 10, server: ovotw.ovogreat.com, port: 443, type: trojan, password: 0e40fe8c-23d2-4dee-a9a4-25006da2d0bf, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 009, server: 38.63.0.80, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 TG:@hkaa0 韩国_5, server: 3.39.238.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 github.com/freefq - 美国Microsoft数据中心 22, server: esjs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.99.89, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国CloudFlare节点 1, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: a5756853-4a80-468a-af62-10565918f58f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
+  - {name: 🇺🇸 TG:@hkaa0 美国_76, server: 142.4.100.42, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 TG:@hkaa0 韩国_2, server: 43.201.19.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国=tg频道:@bpjzx2=16, server: 43.202.49.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 006, server: 142.4.112.26, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 104.18.1.196, port: 80, type: vmess, uuid: 0425d010-19f6-11ee-8be4-1577c1651679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /files, headers: {Host: sg.xmbb.net}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_122 |28.22Mb, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_118 | 5.18Mb, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -139,514 +88,310 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇨🇳 TG:@hkaa0 中国_2
-      - 🇺🇸 TG:@hkaa0 美国_6
-      - TG@GEEKSAHRE_1
+      - 🇨🇳 中国 005
+      - 🇯🇵 日本 001
+      - 🇺🇸 TG:@hkaa0 美国_79
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 3
+      - TG@GEEKSAHRE_17
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7
+      - 🇯🇵 TG:@hkaa0 日本_3
+      - 🇺🇸 TG:@hkaa0 美国_96
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇨🇳 中国 004
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |31.18Mb
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 🇺🇸 美国 008
+      - 🏳️‍🌈 ️‍🌈 1块钱200G流量额
+      - 🇨🇳 中国 006
+      - 🇺🇸 TG:@hkaa0 美国_81
+      - 🇺🇸 美国=tg频道:@bpjzx2=3
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5
+      - 🇺🇸 美国=tg频道:@bpjzx2=2
+      - 🇭🇰 香港=tg频道:@bpjzx2=16
+      - 🇯🇵 TG:@hkaa0 日本_2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 4
       - 🇺🇸 美国 CloudFlare节点
-      - 🇹🇷 TG:@hkaa0 土耳其
-      - TG@GEEKSAHRE_15
-      - 🇸🇬 TG:@hkaa0 新加坡_5
-      - 🇺🇸 TG:@hkaa0 美国_2
-      - 🇺🇸 TG:@hkaa0 美国_3
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_43 |141.82Mb
-      - TG@GEEKSAHRE_18
-      - 🏳️‍🌈 ️‍🌈 1块钱200G流量哦
-      - 🇸🇬 TG:@hkaa0 新加坡_3
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - TG@GEEKSAHRE_11
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 3
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=6
+      - 🇺🇸 美国 003
+      - 🇺🇸 TG:@hkaa0 美国_23
+      - 🇯🇵 github.com/freefq - 日本大阪Microsoft数据中心 12
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_124 |34.38Mb
+      - TG@GEEKSAHRE_7
+      - 🇺🇸 TG:@hkaa0 美国_80
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信 6
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_123 |23.62Mb
+      - 🇯🇵 日本=tg频道:@bpjzx2=9
+      - 🇮🇳 印度=tg频道:@bpjzx2=20
+      - 🇫🇷 法国 001
+      - 🇺🇸 TG:@hkaa0 美国_86
+      - TG@GEEKSAHRE_10
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7 2
+      - 🇨🇳 中国 003
+      - 🇺🇸 TG:@hkaa0 美国_73
+      - US_162 |28.42Mb
+      - 🇨🇳 中国=tg频道:@bpjzx2=9
+      - 🇿🇦 github.com/freefq - 南非  3
+      - 🇺🇸 TG:@hkaa0 美国_74
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 TG:@hkaa0 美国_21
+      - 🇫🇷 TG:@hkaa0 法国_1
+      - 🇺🇸 github.com/freefq - 美国Datability 8
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 TG:@hkaa0 美国_4
-      - 🇫🇷 TG:@hkaa0 法国_5
-      - 🇺🇸 美国=tg频道:@bpjzx2=26
-      - 🇺🇸 美国 Datability
-      - 🇭🇺 TG:@hkaa0 匈牙利
-      - 🇯🇵 日本=tg频道:@bpjzx2=27
-      - 🇺🇸 TG:@hkaa0 美国_13
-      - 🇺🇸 TG:@hkaa0 美国_33
-      - 🇰🇷 TG:@hkaa0 韩国_3
-      - 🇺🇸 TG:@hkaa0 美国_20
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 TG:@hkaa0 美国_24
-      - 🇺🇸 美国CloudFlare公司CDN节点 7
-      - TG@GEEKSAHRE_2
-      - 🇺🇸 TG:@hkaa0 美国_19
-      - 🇺🇸 美国=tg频道:@bpjzx2=30
-      - FR_youtube@资源分享师_171
-      - US_youtube@资源分享师_187
-      - TG:@hkaa0 中国
-      - 关注频道https://t.me/mftizi
-      - 🇺🇸 TG:@hkaa0 美国_1
-      - TG:@hkaa0 中国 2
-      - TG:@hkaa0 中国 3
-      - TG:@hkaa0 中国 4
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - 🇨🇳 TG:@hkaa0 台湾
-      - 鍚屾姘镐箙鍏嶈垂瀹氬埗璁㈤槄 @zedian888
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_55
-      - 🇨🇳 TG:@hkaa0 中国_12
-      - CR_youtube@资源分享师_95
-      - US_youtube@资源分享师_185
-      - TG:@hkaa0 中国 5
-      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国
-      - TG:@hkaa0 中国 6
-      - TG:@hkaa0 中国 7
-      - 🇨🇳 TG:@hkaa0 中国_8
-      - 🇯🇵 TG:@hkaa0 日本
-      - TG:@hkaa0 中国 8
-      - US_youtube@资源分享师_153
-      - US_youtube@资源分享师_177
-      - 🇺🇸 TG:@hkaa0 美国
-      - US_youtube@资源分享师_169
-      - US_youtube@资源分享师_130
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - NL_youtube@资源分享师_134
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - US_youtube@资源分享师_184
-      - US_youtube@资源分享师_89
-      - 🇨🇳 TG:@hkaa0 中国_13
-      - 🇨🇳 TG:@hkaa0 中国_10
-      - 🇸🇬 [馃嚫馃嚞] 娉芥瀹氬埗-Singapore
-      - "[馃嚭馃嚫] 娉芥瀹氬埗-Ameica"
-      - US_youtube@资源分享师_67
-      - 🇨🇳 TG:@hkaa0 中国_7
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
-      - 🇯🇵 TG:@hkaa0 日本 2
-      - TG:@hkaa0 中国 9
-      - US_youtube@资源分享师_188
-      - 🇫🇷 法国=tg频道:@bpjzx2=22
-      - CN_youtube@资源分享师_146
-      - CN_youtube@资源分享师_125
-      - US_youtube@资源分享师_151
-      - 🇺🇸 TG:@hkaa0 美国_3 2
-      - FR_youtube@资源分享师_102
-      - US_youtube@资源分享师_97
-      - 🇨🇦 [馃嚚馃嚘] 銆怴IP銆戞辰娈垮畾鍒�-Canada
-      - CN_youtube@资源分享师_172
-      - 🇨🇳 TG:@hkaa0 中国_9
-      - TG@GEEKSAHRE_9
-      - 🇨🇳 TG:@hkaa0 中国_6
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_104
-      - US_youtube@资源分享师_180
-      - 🇧🇷 [馃嚠馃嚦] 娉芥瀹氬埗-Brazil
-      - US_youtube@资源分享师_167
-      - FR_youtube@资源分享师_152
-      - US_youtube@资源分享师_168
-      - 🇨🇳 TG:@hkaa0 中国_3
-      - 🇰🇷 TG:@hkaa0 韩国_6
-      - 🇨🇳 TG:@hkaa0 中国_2 2
-      - US_youtube@资源分享师_40
-      - TG:@hkaa0 中国 10
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
-      - US_youtube@资源分享师_160
-      - 🇯🇵 TG:@hkaa0 日本_11
-      - 免费梯子https://t.me/mftizi
-      - TG:@hkaa0 中国 11
-      - 🇺🇸 TG:@hkaa0 美国_29
-      - 🇨🇳 中国=tg频道:@bpjzx2=5
-      - 🇺🇸 美国=tg频道:@bpjzx2=6
-      - NL_youtube@资源分享师_84
-      - US_youtube@资源分享师_121
-      - "|18.38Mb"
-      - TG:@hkaa0 阿富汗
-      - 🇺🇸 TG:@hkaa0 美国_68
-      - 🇺🇸 TG:@hkaa0 美国_65
-      - 🇺🇸 TG:@hkaa0 美国_49
-      - 🇺🇸 TG:@hkaa0 美国_66
-      - 🇨🇳 TG:@hkaa0 中国_1
-      - 🇺🇸 TG:@hkaa0 美国_38
-      - 🇩🇪 [馃嚛馃嚜] 娉芥瀹氬埗-Germany
-      - FR_youtube@资源分享师_105
-      - 🇺🇸 TG:@hkaa0 美国_69
+      - 🇺🇸 TG:@hkaa0 美国_90
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134 |30.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 | 8.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_145 |31.95Mb
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇺🇸 美国CloudFlare节点 5
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 4
+      - 🇺🇸 TG:@hkaa0 美国_87
+      - 🇺🇸 美国 005
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 10
+      - 🇺🇸 美国 009
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 22
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 美国CloudFlare节点 1
+      - 🇺🇸 TG:@hkaa0 美国_76
+      - 🇰🇷 TG:@hkaa0 韩国_2
+      - 🇰🇷 韩国=tg频道:@bpjzx2=16
+      - 🇺🇸 美国 006
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_122 |28.22Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_118 | 5.18Mb
   - name: 🐟 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 TG:@hkaa0 中国_2
-      - 🇺🇸 TG:@hkaa0 美国_6
-      - TG@GEEKSAHRE_1
+      - 🇨🇳 中国 005
+      - 🇯🇵 日本 001
+      - 🇺🇸 TG:@hkaa0 美国_79
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 3
+      - TG@GEEKSAHRE_17
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7
+      - 🇯🇵 TG:@hkaa0 日本_3
+      - 🇺🇸 TG:@hkaa0 美国_96
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇨🇳 中国 004
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |31.18Mb
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 🇺🇸 美国 008
+      - 🏳️‍🌈 ️‍🌈 1块钱200G流量额
+      - 🇨🇳 中国 006
+      - 🇺🇸 TG:@hkaa0 美国_81
+      - 🇺🇸 美国=tg频道:@bpjzx2=3
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5
+      - 🇺🇸 美国=tg频道:@bpjzx2=2
+      - 🇭🇰 香港=tg频道:@bpjzx2=16
+      - 🇯🇵 TG:@hkaa0 日本_2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 4
       - 🇺🇸 美国 CloudFlare节点
-      - 🇹🇷 TG:@hkaa0 土耳其
-      - TG@GEEKSAHRE_15
-      - 🇸🇬 TG:@hkaa0 新加坡_5
-      - 🇺🇸 TG:@hkaa0 美国_2
-      - 🇺🇸 TG:@hkaa0 美国_3
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_43 |141.82Mb
-      - TG@GEEKSAHRE_18
-      - 🏳️‍🌈 ️‍🌈 1块钱200G流量哦
-      - 🇸🇬 TG:@hkaa0 新加坡_3
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - TG@GEEKSAHRE_11
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 3
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=6
+      - 🇺🇸 美国 003
+      - 🇺🇸 TG:@hkaa0 美国_23
+      - 🇯🇵 github.com/freefq - 日本大阪Microsoft数据中心 12
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_124 |34.38Mb
+      - TG@GEEKSAHRE_7
+      - 🇺🇸 TG:@hkaa0 美国_80
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信 6
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_123 |23.62Mb
+      - 🇯🇵 日本=tg频道:@bpjzx2=9
+      - 🇮🇳 印度=tg频道:@bpjzx2=20
+      - 🇫🇷 法国 001
+      - 🇺🇸 TG:@hkaa0 美国_86
+      - TG@GEEKSAHRE_10
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7 2
+      - 🇨🇳 中国 003
+      - 🇺🇸 TG:@hkaa0 美国_73
+      - US_162 |28.42Mb
+      - 🇨🇳 中国=tg频道:@bpjzx2=9
+      - 🇿🇦 github.com/freefq - 南非  3
+      - 🇺🇸 TG:@hkaa0 美国_74
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 TG:@hkaa0 美国_21
+      - 🇫🇷 TG:@hkaa0 法国_1
+      - 🇺🇸 github.com/freefq - 美国Datability 8
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 TG:@hkaa0 美国_4
-      - 🇫🇷 TG:@hkaa0 法国_5
-      - 🇺🇸 美国=tg频道:@bpjzx2=26
-      - 🇺🇸 美国 Datability
-      - 🇭🇺 TG:@hkaa0 匈牙利
-      - 🇯🇵 日本=tg频道:@bpjzx2=27
-      - 🇺🇸 TG:@hkaa0 美国_13
-      - 🇺🇸 TG:@hkaa0 美国_33
-      - 🇰🇷 TG:@hkaa0 韩国_3
-      - 🇺🇸 TG:@hkaa0 美国_20
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 TG:@hkaa0 美国_24
-      - 🇺🇸 美国CloudFlare公司CDN节点 7
-      - TG@GEEKSAHRE_2
-      - 🇺🇸 TG:@hkaa0 美国_19
-      - 🇺🇸 美国=tg频道:@bpjzx2=30
-      - FR_youtube@资源分享师_171
-      - US_youtube@资源分享师_187
-      - TG:@hkaa0 中国
-      - 关注频道https://t.me/mftizi
-      - 🇺🇸 TG:@hkaa0 美国_1
-      - TG:@hkaa0 中国 2
-      - TG:@hkaa0 中国 3
-      - TG:@hkaa0 中国 4
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - 🇨🇳 TG:@hkaa0 台湾
-      - 鍚屾姘镐箙鍏嶈垂瀹氬埗璁㈤槄 @zedian888
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_55
-      - 🇨🇳 TG:@hkaa0 中国_12
-      - CR_youtube@资源分享师_95
-      - US_youtube@资源分享师_185
-      - TG:@hkaa0 中国 5
-      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国
-      - TG:@hkaa0 中国 6
-      - TG:@hkaa0 中国 7
-      - 🇨🇳 TG:@hkaa0 中国_8
-      - 🇯🇵 TG:@hkaa0 日本
-      - TG:@hkaa0 中国 8
-      - US_youtube@资源分享师_153
-      - US_youtube@资源分享师_177
-      - 🇺🇸 TG:@hkaa0 美国
-      - US_youtube@资源分享师_169
-      - US_youtube@资源分享师_130
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - NL_youtube@资源分享师_134
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - US_youtube@资源分享师_184
-      - US_youtube@资源分享师_89
-      - 🇨🇳 TG:@hkaa0 中国_13
-      - 🇨🇳 TG:@hkaa0 中国_10
-      - 🇸🇬 [馃嚫馃嚞] 娉芥瀹氬埗-Singapore
-      - "[馃嚭馃嚫] 娉芥瀹氬埗-Ameica"
-      - US_youtube@资源分享师_67
-      - 🇨🇳 TG:@hkaa0 中国_7
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
-      - 🇯🇵 TG:@hkaa0 日本 2
-      - TG:@hkaa0 中国 9
-      - US_youtube@资源分享师_188
-      - 🇫🇷 法国=tg频道:@bpjzx2=22
-      - CN_youtube@资源分享师_146
-      - CN_youtube@资源分享师_125
-      - US_youtube@资源分享师_151
-      - 🇺🇸 TG:@hkaa0 美国_3 2
-      - FR_youtube@资源分享师_102
-      - US_youtube@资源分享师_97
-      - 🇨🇦 [馃嚚馃嚘] 銆怴IP銆戞辰娈垮畾鍒�-Canada
-      - CN_youtube@资源分享师_172
-      - 🇨🇳 TG:@hkaa0 中国_9
-      - TG@GEEKSAHRE_9
-      - 🇨🇳 TG:@hkaa0 中国_6
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_104
-      - US_youtube@资源分享师_180
-      - 🇧🇷 [馃嚠馃嚦] 娉芥瀹氬埗-Brazil
-      - US_youtube@资源分享师_167
-      - FR_youtube@资源分享师_152
-      - US_youtube@资源分享师_168
-      - 🇨🇳 TG:@hkaa0 中国_3
-      - 🇰🇷 TG:@hkaa0 韩国_6
-      - 🇨🇳 TG:@hkaa0 中国_2 2
-      - US_youtube@资源分享师_40
-      - TG:@hkaa0 中国 10
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
-      - US_youtube@资源分享师_160
-      - 🇯🇵 TG:@hkaa0 日本_11
-      - 免费梯子https://t.me/mftizi
-      - TG:@hkaa0 中国 11
-      - 🇺🇸 TG:@hkaa0 美国_29
-      - 🇨🇳 中国=tg频道:@bpjzx2=5
-      - 🇺🇸 美国=tg频道:@bpjzx2=6
-      - NL_youtube@资源分享师_84
-      - US_youtube@资源分享师_121
-      - "|18.38Mb"
-      - TG:@hkaa0 阿富汗
-      - 🇺🇸 TG:@hkaa0 美国_68
-      - 🇺🇸 TG:@hkaa0 美国_65
-      - 🇺🇸 TG:@hkaa0 美国_49
-      - 🇺🇸 TG:@hkaa0 美国_66
-      - 🇨🇳 TG:@hkaa0 中国_1
-      - 🇺🇸 TG:@hkaa0 美国_38
-      - 🇩🇪 [馃嚛馃嚜] 娉芥瀹氬埗-Germany
-      - FR_youtube@资源分享师_105
-      - 🇺🇸 TG:@hkaa0 美国_69
+      - 🇺🇸 TG:@hkaa0 美国_90
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134 |30.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 | 8.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_145 |31.95Mb
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇺🇸 美国CloudFlare节点 5
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 4
+      - 🇺🇸 TG:@hkaa0 美国_87
+      - 🇺🇸 美国 005
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 10
+      - 🇺🇸 美国 009
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 22
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 美国CloudFlare节点 1
+      - 🇺🇸 TG:@hkaa0 美国_76
+      - 🇰🇷 TG:@hkaa0 韩国_2
+      - 🇰🇷 韩国=tg频道:@bpjzx2=16
+      - 🇺🇸 美国 006
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_122 |28.22Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_118 | 5.18Mb
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 TG:@hkaa0 中国_2
-      - 🇺🇸 TG:@hkaa0 美国_6
-      - TG@GEEKSAHRE_1
+      - 🇨🇳 中国 005
+      - 🇯🇵 日本 001
+      - 🇺🇸 TG:@hkaa0 美国_79
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 3
+      - TG@GEEKSAHRE_17
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7
+      - 🇯🇵 TG:@hkaa0 日本_3
+      - 🇺🇸 TG:@hkaa0 美国_96
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇨🇳 中国 004
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |31.18Mb
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 🇺🇸 美国 008
+      - 🏳️‍🌈 ️‍🌈 1块钱200G流量额
+      - 🇨🇳 中国 006
+      - 🇺🇸 TG:@hkaa0 美国_81
+      - 🇺🇸 美国=tg频道:@bpjzx2=3
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5
+      - 🇺🇸 美国=tg频道:@bpjzx2=2
+      - 🇭🇰 香港=tg频道:@bpjzx2=16
+      - 🇯🇵 TG:@hkaa0 日本_2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 4
       - 🇺🇸 美国 CloudFlare节点
-      - 🇹🇷 TG:@hkaa0 土耳其
-      - TG@GEEKSAHRE_15
-      - 🇸🇬 TG:@hkaa0 新加坡_5
-      - 🇺🇸 TG:@hkaa0 美国_2
-      - 🇺🇸 TG:@hkaa0 美国_3
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_43 |141.82Mb
-      - TG@GEEKSAHRE_18
-      - 🏳️‍🌈 ️‍🌈 1块钱200G流量哦
-      - 🇸🇬 TG:@hkaa0 新加坡_3
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - TG@GEEKSAHRE_11
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 3
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=6
+      - 🇺🇸 美国 003
+      - 🇺🇸 TG:@hkaa0 美国_23
+      - 🇯🇵 github.com/freefq - 日本大阪Microsoft数据中心 12
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_124 |34.38Mb
+      - TG@GEEKSAHRE_7
+      - 🇺🇸 TG:@hkaa0 美国_80
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信 6
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_123 |23.62Mb
+      - 🇯🇵 日本=tg频道:@bpjzx2=9
+      - 🇮🇳 印度=tg频道:@bpjzx2=20
+      - 🇫🇷 法国 001
+      - 🇺🇸 TG:@hkaa0 美国_86
+      - TG@GEEKSAHRE_10
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7 2
+      - 🇨🇳 中国 003
+      - 🇺🇸 TG:@hkaa0 美国_73
+      - US_162 |28.42Mb
+      - 🇨🇳 中国=tg频道:@bpjzx2=9
+      - 🇿🇦 github.com/freefq - 南非  3
+      - 🇺🇸 TG:@hkaa0 美国_74
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 TG:@hkaa0 美国_21
+      - 🇫🇷 TG:@hkaa0 法国_1
+      - 🇺🇸 github.com/freefq - 美国Datability 8
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 TG:@hkaa0 美国_4
-      - 🇫🇷 TG:@hkaa0 法国_5
-      - 🇺🇸 美国=tg频道:@bpjzx2=26
-      - 🇺🇸 美国 Datability
-      - 🇭🇺 TG:@hkaa0 匈牙利
-      - 🇯🇵 日本=tg频道:@bpjzx2=27
-      - 🇺🇸 TG:@hkaa0 美国_13
-      - 🇺🇸 TG:@hkaa0 美国_33
-      - 🇰🇷 TG:@hkaa0 韩国_3
-      - 🇺🇸 TG:@hkaa0 美国_20
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 TG:@hkaa0 美国_24
-      - 🇺🇸 美国CloudFlare公司CDN节点 7
-      - TG@GEEKSAHRE_2
-      - 🇺🇸 TG:@hkaa0 美国_19
-      - 🇺🇸 美国=tg频道:@bpjzx2=30
-      - FR_youtube@资源分享师_171
-      - US_youtube@资源分享师_187
-      - TG:@hkaa0 中国
-      - 关注频道https://t.me/mftizi
-      - 🇺🇸 TG:@hkaa0 美国_1
-      - TG:@hkaa0 中国 2
-      - TG:@hkaa0 中国 3
-      - TG:@hkaa0 中国 4
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - 🇨🇳 TG:@hkaa0 台湾
-      - 鍚屾姘镐箙鍏嶈垂瀹氬埗璁㈤槄 @zedian888
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_55
-      - 🇨🇳 TG:@hkaa0 中国_12
-      - CR_youtube@资源分享师_95
-      - US_youtube@资源分享师_185
-      - TG:@hkaa0 中国 5
-      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国
-      - TG:@hkaa0 中国 6
-      - TG:@hkaa0 中国 7
-      - 🇨🇳 TG:@hkaa0 中国_8
-      - 🇯🇵 TG:@hkaa0 日本
-      - TG:@hkaa0 中国 8
-      - US_youtube@资源分享师_153
-      - US_youtube@资源分享师_177
-      - 🇺🇸 TG:@hkaa0 美国
-      - US_youtube@资源分享师_169
-      - US_youtube@资源分享师_130
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - NL_youtube@资源分享师_134
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - US_youtube@资源分享师_184
-      - US_youtube@资源分享师_89
-      - 🇨🇳 TG:@hkaa0 中国_13
-      - 🇨🇳 TG:@hkaa0 中国_10
-      - 🇸🇬 [馃嚫馃嚞] 娉芥瀹氬埗-Singapore
-      - "[馃嚭馃嚫] 娉芥瀹氬埗-Ameica"
-      - US_youtube@资源分享师_67
-      - 🇨🇳 TG:@hkaa0 中国_7
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
-      - 🇯🇵 TG:@hkaa0 日本 2
-      - TG:@hkaa0 中国 9
-      - US_youtube@资源分享师_188
-      - 🇫🇷 法国=tg频道:@bpjzx2=22
-      - CN_youtube@资源分享师_146
-      - CN_youtube@资源分享师_125
-      - US_youtube@资源分享师_151
-      - 🇺🇸 TG:@hkaa0 美国_3 2
-      - FR_youtube@资源分享师_102
-      - US_youtube@资源分享师_97
-      - 🇨🇦 [馃嚚馃嚘] 銆怴IP銆戞辰娈垮畾鍒�-Canada
-      - CN_youtube@资源分享师_172
-      - 🇨🇳 TG:@hkaa0 中国_9
-      - TG@GEEKSAHRE_9
-      - 🇨🇳 TG:@hkaa0 中国_6
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_104
-      - US_youtube@资源分享师_180
-      - 🇧🇷 [馃嚠馃嚦] 娉芥瀹氬埗-Brazil
-      - US_youtube@资源分享师_167
-      - FR_youtube@资源分享师_152
-      - US_youtube@资源分享师_168
-      - 🇨🇳 TG:@hkaa0 中国_3
-      - 🇰🇷 TG:@hkaa0 韩国_6
-      - 🇨🇳 TG:@hkaa0 中国_2 2
-      - US_youtube@资源分享师_40
-      - TG:@hkaa0 中国 10
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
-      - US_youtube@资源分享师_160
-      - 🇯🇵 TG:@hkaa0 日本_11
-      - 免费梯子https://t.me/mftizi
-      - TG:@hkaa0 中国 11
-      - 🇺🇸 TG:@hkaa0 美国_29
-      - 🇨🇳 中国=tg频道:@bpjzx2=5
-      - 🇺🇸 美国=tg频道:@bpjzx2=6
-      - NL_youtube@资源分享师_84
-      - US_youtube@资源分享师_121
-      - "|18.38Mb"
-      - TG:@hkaa0 阿富汗
-      - 🇺🇸 TG:@hkaa0 美国_68
-      - 🇺🇸 TG:@hkaa0 美国_65
-      - 🇺🇸 TG:@hkaa0 美国_49
-      - 🇺🇸 TG:@hkaa0 美国_66
-      - 🇨🇳 TG:@hkaa0 中国_1
-      - 🇺🇸 TG:@hkaa0 美国_38
-      - 🇩🇪 [馃嚛馃嚜] 娉芥瀹氬埗-Germany
-      - FR_youtube@资源分享师_105
-      - 🇺🇸 TG:@hkaa0 美国_69
+      - 🇺🇸 TG:@hkaa0 美国_90
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134 |30.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 | 8.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_145 |31.95Mb
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇺🇸 美国CloudFlare节点 5
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 4
+      - 🇺🇸 TG:@hkaa0 美国_87
+      - 🇺🇸 美国 005
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 10
+      - 🇺🇸 美国 009
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 22
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 美国CloudFlare节点 1
+      - 🇺🇸 TG:@hkaa0 美国_76
+      - 🇰🇷 TG:@hkaa0 韩国_2
+      - 🇰🇷 韩国=tg频道:@bpjzx2=16
+      - 🇺🇸 美国 006
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_122 |28.22Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_118 | 5.18Mb
   - name: 🎯 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 TG:@hkaa0 中国_2
-      - 🇺🇸 TG:@hkaa0 美国_6
-      - TG@GEEKSAHRE_1
+      - 🇨🇳 中国 005
+      - 🇯🇵 日本 001
+      - 🇺🇸 TG:@hkaa0 美国_79
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 3
+      - TG@GEEKSAHRE_17
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7
+      - 🇯🇵 TG:@hkaa0 日本_3
+      - 🇺🇸 TG:@hkaa0 美国_96
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇨🇳 中国 004
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |31.18Mb
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - 🇺🇸 美国 008
+      - 🏳️‍🌈 ️‍🌈 1块钱200G流量额
+      - 🇨🇳 中国 006
+      - 🇺🇸 TG:@hkaa0 美国_81
+      - 🇺🇸 美国=tg频道:@bpjzx2=3
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5
+      - 🇺🇸 美国=tg频道:@bpjzx2=2
+      - 🇭🇰 香港=tg频道:@bpjzx2=16
+      - 🇯🇵 TG:@hkaa0 日本_2
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 4
       - 🇺🇸 美国 CloudFlare节点
-      - 🇹🇷 TG:@hkaa0 土耳其
-      - TG@GEEKSAHRE_15
-      - 🇸🇬 TG:@hkaa0 新加坡_5
-      - 🇺🇸 TG:@hkaa0 美国_2
-      - 🇺🇸 TG:@hkaa0 美国_3
-      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_43 |141.82Mb
-      - TG@GEEKSAHRE_18
-      - 🏳️‍🌈 ️‍🌈 1块钱200G流量哦
-      - 🇸🇬 TG:@hkaa0 新加坡_3
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - TG@GEEKSAHRE_11
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 3
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9
-      - 🇸🇬 新加坡=tg频道:@bpjzx2=6
+      - 🇺🇸 美国 003
+      - 🇺🇸 TG:@hkaa0 美国_23
+      - 🇯🇵 github.com/freefq - 日本大阪Microsoft数据中心 12
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_124 |34.38Mb
+      - TG@GEEKSAHRE_7
+      - 🇺🇸 TG:@hkaa0 美国_80
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5 2
+      - 🇨🇳 github.com/freefq - 台湾省中华电信 6
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_123 |23.62Mb
+      - 🇯🇵 日本=tg频道:@bpjzx2=9
+      - 🇮🇳 印度=tg频道:@bpjzx2=20
+      - 🇫🇷 法国 001
+      - 🇺🇸 TG:@hkaa0 美国_86
+      - TG@GEEKSAHRE_10
+      - 🇰🇷 韩国=tg频道:@bpjzx2=7 2
+      - 🇨🇳 中国 003
+      - 🇺🇸 TG:@hkaa0 美国_73
+      - US_162 |28.42Mb
+      - 🇨🇳 中国=tg频道:@bpjzx2=9
+      - 🇿🇦 github.com/freefq - 南非  3
+      - 🇺🇸 TG:@hkaa0 美国_74
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 TG:@hkaa0 美国_21
+      - 🇫🇷 TG:@hkaa0 法国_1
+      - 🇺🇸 github.com/freefq - 美国Datability 8
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 TG:@hkaa0 美国_4
-      - 🇫🇷 TG:@hkaa0 法国_5
-      - 🇺🇸 美国=tg频道:@bpjzx2=26
-      - 🇺🇸 美国 Datability
-      - 🇭🇺 TG:@hkaa0 匈牙利
-      - 🇯🇵 日本=tg频道:@bpjzx2=27
-      - 🇺🇸 TG:@hkaa0 美国_13
-      - 🇺🇸 TG:@hkaa0 美国_33
-      - 🇰🇷 TG:@hkaa0 韩国_3
-      - 🇺🇸 TG:@hkaa0 美国_20
-      - 🇨🇳 广东省广州市 移动
-      - 🇺🇸 TG:@hkaa0 美国_24
-      - 🇺🇸 美国CloudFlare公司CDN节点 7
-      - TG@GEEKSAHRE_2
-      - 🇺🇸 TG:@hkaa0 美国_19
-      - 🇺🇸 美国=tg频道:@bpjzx2=30
-      - FR_youtube@资源分享师_171
-      - US_youtube@资源分享师_187
-      - TG:@hkaa0 中国
-      - 关注频道https://t.me/mftizi
-      - 🇺🇸 TG:@hkaa0 美国_1
-      - TG:@hkaa0 中国 2
-      - TG:@hkaa0 中国 3
-      - TG:@hkaa0 中国 4
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - 🇨🇳 TG:@hkaa0 台湾
-      - 鍚屾姘镐箙鍏嶈垂瀹氬埗璁㈤槄 @zedian888
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_55
-      - 🇨🇳 TG:@hkaa0 中国_12
-      - CR_youtube@资源分享师_95
-      - US_youtube@资源分享师_185
-      - TG:@hkaa0 中国 5
-      - 🇫🇷 五叶节点分享频道 @hkaa0 |法国
-      - TG:@hkaa0 中国 6
-      - TG:@hkaa0 中国 7
-      - 🇨🇳 TG:@hkaa0 中国_8
-      - 🇯🇵 TG:@hkaa0 日本
-      - TG:@hkaa0 中国 8
-      - US_youtube@资源分享师_153
-      - US_youtube@资源分享师_177
-      - 🇺🇸 TG:@hkaa0 美国
-      - US_youtube@资源分享师_169
-      - US_youtube@资源分享师_130
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - NL_youtube@资源分享师_134
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - US_youtube@资源分享师_184
-      - US_youtube@资源分享师_89
-      - 🇨🇳 TG:@hkaa0 中国_13
-      - 🇨🇳 TG:@hkaa0 中国_10
-      - 🇸🇬 [馃嚫馃嚞] 娉芥瀹氬埗-Singapore
-      - "[馃嚭馃嚫] 娉芥瀹氬埗-Ameica"
-      - US_youtube@资源分享师_67
-      - 🇨🇳 TG:@hkaa0 中国_7
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
-      - 🇯🇵 TG:@hkaa0 日本 2
-      - TG:@hkaa0 中国 9
-      - US_youtube@资源分享师_188
-      - 🇫🇷 法国=tg频道:@bpjzx2=22
-      - CN_youtube@资源分享师_146
-      - CN_youtube@资源分享师_125
-      - US_youtube@资源分享师_151
-      - 🇺🇸 TG:@hkaa0 美国_3 2
-      - FR_youtube@资源分享师_102
-      - US_youtube@资源分享师_97
-      - 🇨🇦 [馃嚚馃嚘] 銆怴IP銆戞辰娈垮畾鍒�-Canada
-      - CN_youtube@资源分享师_172
-      - 🇨🇳 TG:@hkaa0 中国_9
-      - TG@GEEKSAHRE_9
-      - 🇨🇳 TG:@hkaa0 中国_6
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_104
-      - US_youtube@资源分享师_180
-      - 🇧🇷 [馃嚠馃嚦] 娉芥瀹氬埗-Brazil
-      - US_youtube@资源分享师_167
-      - FR_youtube@资源分享师_152
-      - US_youtube@资源分享师_168
-      - 🇨🇳 TG:@hkaa0 中国_3
-      - 🇰🇷 TG:@hkaa0 韩国_6
-      - 🇨🇳 TG:@hkaa0 中国_2 2
-      - US_youtube@资源分享师_40
-      - TG:@hkaa0 中国 10
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国 2
-      - US_youtube@资源分享师_160
-      - 🇯🇵 TG:@hkaa0 日本_11
-      - 免费梯子https://t.me/mftizi
-      - TG:@hkaa0 中国 11
-      - 🇺🇸 TG:@hkaa0 美国_29
-      - 🇨🇳 中国=tg频道:@bpjzx2=5
-      - 🇺🇸 美国=tg频道:@bpjzx2=6
-      - NL_youtube@资源分享师_84
-      - US_youtube@资源分享师_121
-      - "|18.38Mb"
-      - TG:@hkaa0 阿富汗
-      - 🇺🇸 TG:@hkaa0 美国_68
-      - 🇺🇸 TG:@hkaa0 美国_65
-      - 🇺🇸 TG:@hkaa0 美国_49
-      - 🇺🇸 TG:@hkaa0 美国_66
-      - 🇨🇳 TG:@hkaa0 中国_1
-      - 🇺🇸 TG:@hkaa0 美国_38
-      - 🇩🇪 [馃嚛馃嚜] 娉芥瀹氬埗-Germany
-      - FR_youtube@资源分享师_105
-      - 🇺🇸 TG:@hkaa0 美国_69
+      - 🇺🇸 TG:@hkaa0 美国_90
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134 |30.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 | 8.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_145 |31.95Mb
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇺🇸 美国CloudFlare节点 5
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 4
+      - 🇺🇸 TG:@hkaa0 美国_87
+      - 🇺🇸 美国 005
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 10
+      - 🇺🇸 美国 009
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇺🇸 github.com/freefq - 美国Microsoft数据中心 22
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇺🇸 美国CloudFlare节点 1
+      - 🇺🇸 TG:@hkaa0 美国_76
+      - 🇰🇷 TG:@hkaa0 韩国_2
+      - 🇰🇷 韩国=tg频道:@bpjzx2=16
+      - 🇺🇸 美国 006
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_122 |28.22Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_118 | 5.18Mb
   - name: 🛑 禁止代理
     type: select
     proxies:
