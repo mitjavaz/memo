@@ -5,838 +5,233 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: youtube@资源分享师_227, server: 104.18.1.196, port: 80, type: vmess, uuid: a5756853-4a80-468a-af62-10565918f58f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: d51f8335-4f7d-4d3a-acae-d65467b46502, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: youtube@资源分享师_108, server: 173.245.49.219, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_16, server: in05.my1188.org, port: 63099, type: vmess, uuid: 275b3528-54b5-3620-ab13-a079c7677df9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mugua-hk-a.weibo-cdn.best}}}
-  - {name: youtube@资源分享师_88, server: 172.247.148.88, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_28, server: 23.224.190.226, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_68, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_20, server: 104.18.1.196, port: 80, type: vmess, uuid: 0425d010-19f6-11ee-8be4-1577c1651679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.xmbb.net}}}
-  - {name: youtube@资源分享师_239, server: 45.153.203.85, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_215, server: 140.99.148.53, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_8, server: hk1.yihaobao.xyz, port: 10022, type: trojan, password: 508f3e96-f022-4bed-aa72-8bfd37af5c14, sni: hk1.yihaobao.xyz, skip-cert-verify: true}
-  - {name: youtube@资源分享师_51, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: youtube@资源分享师_27, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6f9d4a83-4682-48d5-a217-7938860b0070, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kbjc/us1, headers: {Host: us1.hnokkdf.top}}}
-  - {name: youtube@资源分享师_19, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
-  - {name: 🇯🇵 TG:@hkaa0 日本, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: d51f8335-4f7d-4d3a-acae-d65467b46502, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: youtube@资源分享师_9, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}}
-  - {name: 🇯🇵 TG:@hkaa0 日本 2, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: d51f8335-4f7d-4d3a-acae-d65467b46502, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇺🇸 TG:@hkaa0 美国_5, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡 2, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: d51f8335-4f7d-4d3a-acae-d65467b46502, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: youtube@资源分享师_95, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_98, server: 23.224.190.226, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_37, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: youtube@资源分享师_38, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6f9d4a83-4682-48d5-a217-7938860b0070, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kbjc/us3, headers: {Host: us3.hnokkdf.top}}}
-  - {name: youtube@资源分享师_188, server: 45.199.138.121, port: 51204, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_206, server: 120.226.50.85, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_12, server: 140.99.57.46, port: 59418, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_36, server: in05.my1188.org, port: 63098, type: vmess, uuid: 275b3528-54b5-3620-ab13-a079c7677df9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mugua-tw01.wechat-cdn.com}}}
-  - {name: youtube@资源分享师_54, server: 45.92.160.134, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_114, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
-  - {name: youtube@资源分享师_204, server: 104.17.166.94, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_121, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_175, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_187, server: 172.67.221.31, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer01, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_173, server: btbu996.icu, port: 443, type: vmess, uuid: 16702ec2-3808-46e6-a7b5-582c062be13d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: jpnat1.doinb.tk}}}
-  - {name: 🇮🇳 TG:@hkaa0 印度, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
-  - {name: youtube@资源分享师_56, server: 156.225.67.105, port: 49101, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_129, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_240, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 TG:@hkaa0 新加坡_1, server: 13.250.65.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: youtube@资源分享师_39, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: youtube@资源分享师_87, server: in06.my1188.org, port: 63098, type: vmess, uuid: 275b3528-54b5-3620-ab13-a079c7677df9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mugua-tw01.wechat-cdn.com}}}
-  - {name: youtube@资源分享师_179, server: 162.159.12.156, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_72, server: 156.225.67.103, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_224, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡_3, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇺🇸 TG:@hkaa0 美国_2, server: 107.167.16.101, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_103, server: 156.225.67.105, port: 49101, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_135, server: 172.67.61.231, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_219, server: 142.4.112.19, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_44, server: 173.245.59.81, port: 2082, type: vmess, uuid: 6a93d9f3-3439-473c-9d95-84d175ae0762, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: bl.wang66.homes}}}
-  - {name: 🇺🇸 美国 v2rayfree.eu.org, server: 45.153.203.83, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_160, server: 103.21.244.165, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_154, server: 103.21.244.172, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_198, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}}
-  - {name: youtube@资源分享师_57, server: 163.123.192.57, port: 443, type: trojan, password: a9f96f0c-8535-4bb0-9ec7-828e84ceec2f, skip-cert-verify: true}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 7, server: 104.18.1.196, port: 80, type: vmess, uuid: 0425d010-19f6-11ee-8be4-1577c1651679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.xmbb.net}}}
-  - {name: youtube@资源分享师_49, server: 156.225.67.152, port: 46314, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_67, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_161, server: 104.27.23.104, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: 🇺🇸 TG:@hkaa0 美国_69, server: 140.99.59.229, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_223, server: 156.225.67.144, port: 42300, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇿🇦 南非 v2rayfree.eu.org, server: 156.225.67.105, port: 49101, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_164, server: 162.159.141.110, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_233, server: 45.136.235.11, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_74, server: 140.99.57.22, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_147, server: 104.18.1.196, port: 80, type: vmess, uuid: b3b3b680-19f5-11ee-bf9a-1577c1651679, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /files, headers: {Host: 2.lowh.net}}}
-  - {name: youtube@资源分享师_234, server: 140.99.59.229, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡_5, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: youtube@资源分享师_111, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}}
-  - {name: 🇺🇸 TG:@hkaa0 美国_29, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_196, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_62, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_213, server: 156.249.18.138, port: 47393, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 TG:@hkaa0 中国_2, server: 120.226.50.85, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_125, server: frjs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: frjs.stablize.top, skip-cert-verify: true}
-  - {name: youtube@资源分享师_203, server: 192.74.228.187, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_19, server: 45.92.160.22, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_141, server: 172.67.56.76, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: 🏳️‍🌈 ️‍🌈 1块钱200G流量额, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us2.pqjc.site, skip-cert-verify: false}
-  - {name: 🇺🇸 美国加利福尼亚州圣何塞MULTACOM机房 3, server: 45.199.138.121, port: 51204, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_66, server: 104.18.168.73, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_210, server: 140.99.59.228, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_181, server: 172.67.4.12, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_218, server: 51.195.35.151, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_226, server: 192.74.232.228, port: 52312, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_258, server: 45.153.203.87, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_230, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 001, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_249, server: 107.167.16.34, port: 45592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_250, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国CloudFlare节点 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: a5756853-4a80-468a-af62-10565918f58f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: 🇺🇸 美国 009, server: 38.63.0.80, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_243, server: 156.225.67.103, port: 47792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心, server: 107.167.16.101, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 010, server: 192.74.234.88, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点, server: 173.245.49.91, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_82, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}}
-  - {name: youtube@资源分享师_244, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_29, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
-  - {name: youtube@资源分享师_10, server: s.steamdownload.top, port: 36613, type: trojan, password: 7aacd01a-7423-4313-91a3-439fc06c1b58, sni: s.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡_4, server: 13.229.98.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: youtube@资源分享师_55, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 TG:@hkaa0 美国_93, server: 216.52.59.50, port: 20458, type: trojan, password: m8krTirthj, skip-cert-verify: true}
-  - {name: youtube@资源分享师_94, server: 188.114.96.67, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_238, server: in06.my1188.org, port: 63014, type: vmess, uuid: 275b3528-54b5-3620-ab13-a079c7677df9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us01.wechat-cdn-us01.one}}}
-  - {name: 🇧🇷 巴西 001, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 TG:@hkaa0 法国_5, server: 156.249.18.69, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_169, server: 104.16.250.250, port: 443, type: vmess, uuid: 65864938-ab50-4efa-bc6a-084f42a8de63, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /freedom, headers: {Host: rochinet.fullaccesstointernet.cn.eu.org}}}
-  - {name: youtube@资源分享师_123, server: 104.19.129.220, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_184, server: ukjs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: ukjs.stablize.top, skip-cert-verify: true}
-  - {name: youtube@资源分享师_253, server: 45.136.235.10, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_84, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: a5756853-4a80-468a-af62-10565918f58f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
-  - {name: 湖南省 移动, server: 120.226.50.85, port: 45070, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_140, server: 104.16.32.56, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_100, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 TG:@hkaa0 日本_3, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%�, obfs-param: ""}
-  - {name: youtube@资源分享师_205, server: 190.93.246.37, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_127, server: 104.25.228.25, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_242, server: gzct.v-too.cloud, port: 41286, type: ss, cipher: chacha20-ietf-poly1305, password: 797a90c1-67e5-468a-a9ca-0c1850d4742f}
-  - {name: youtube@资源分享师_118, server: 172.247.148.88, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 TG:@hkaa0 韩国_5, server: 3.39.238.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国 012, server: 140.99.148.53, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 TG:@hkaa0 韩国_1, server: 43.202.49.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 TG:@hkaa0 美国_7, server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, skip-cert-verify: true}
-  - {name: youtube@资源分享师_47, server: hax.992688.xyz, port: 8080, type: vmess, uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hax.992688.xyz}}}
-  - {name: youtube@资源分享师_185, server: 188.114.96.110, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_91, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 TG:@hkaa0 法国_2, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: youtube@资源分享师_168, server: ca.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: ca.stablize.top, skip-cert-verify: true}
-  - {name: youtube@资源分享师_211, server: 45.92.160.138, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_149, server: 198.41.219.236, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_45, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_177, server: 173.245.58.130, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: 🇯🇵 TG:@hkaa0 日本_1, server: 43.207.83.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: youtube@资源分享师_153, server: 103.21.244.28, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_178, server: 188.114.96.227, port: 80, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_212, server: 140.99.57.22, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_76, server: 156.225.67.152, port: 46314, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_190, server: 104.20.141.148, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_260, server: 142.4.110.25, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_189, server: 172.67.72.162, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_257, server: 107.167.16.34, port: 45592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_85, server: 192.74.234.88, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_176, server: 104.26.11.118, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer01, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_193, server: 45.92.160.138, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心 2, server: 107.167.16.34, port: 45592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_58, server: 156.225.67.79, port: 40023, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_60, server: 45.199.138.121, port: 51204, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_83, server: 104.17.79.249, port: 2095, type: vmess, uuid: 49039962-1bcb-4a51-8138-0843aee1ea71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer00, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_162, server: 104.19.23.96, port: 2052, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}}
-  - {name: youtube@资源分享师_246, server: 137.175.11.145, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 64.32.4.47, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_13, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_63, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6f9d4a83-4682-48d5-a217-7938860b0070, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kbjc/us2, headers: {Host: us2.hnokkdf.top}}}
+  - {name: YV|@Zyw_Channel, server: hk2.yihaobao.xyz, port: 10022, type: trojan, password: dbd6f8e0-bb71-4a88-b31d-90711609c3de, skip-cert-verify: true}
   - {name: 🇭🇺 TG:@hkaa0 匈牙利, server: 5.181.77.86, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 美国 001, server: 45.92.160.134, port: 53602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 014, server: 142.4.99.89, port: 43379, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 001, server: 107.148.5.161, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_254, server: 107.167.16.101, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
-  - {name: youtube@资源分享师_78, server: 104.24.208.139, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer01, headers: {Host: txx.vtcss.top}}}
+  - {name: youtube@资源分享师_125, server: frjs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: frjs.stablize.top, skip-cert-verify: true}
+  - {name: YV|tg频道:@Zyw_Channel, server: jp4.yihaobao.xyz, port: 10049, type: trojan, password: 492c73ea-7080-4554-bc41-f027d825ae15, skip-cert-verify: true}
+  - {name: YV|tg频道:@Zyw_Channel 2, server: jp5.yihaobao.xyz, port: 10046, type: trojan, password: 492c73ea-7080-4554-bc41-f027d825ae15, skip-cert-verify: true}
+  - {name: CF|@Zyw_Channel, server: 43.202.63.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 TG:@hkaa0 新加坡_6, server: 3.1.203.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: youtube@资源分享师_10, server: s.steamdownload.top, port: 36613, type: trojan, password: 7aacd01a-7423-4313-91a3-439fc06c1b58, sni: s.steamdownload.top, skip-cert-verify: true}
+  - {name: YV|www.zyw.asia ZYW免费节点, server: sg1.yihaobao.xyz, port: 10046, type: trojan, password: 492c73ea-7080-4554-bc41-f027d825ae15, skip-cert-verify: true}
+  - {name: 🇹🇷 TG:@hkaa0 土耳其, server: 45.89.52.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: YD|tg频道:@Zyw_Channel, server: brjs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, skip-cert-verify: false}
+  - {name: YV|@Zyw_Channel 2, server: 18.169.162.49, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
   - {name: 🇩🇪 TG:@hkaa0 德国, server: 89.163.224.73, port: 443, type: trojan, password: d51f8335-4f7d-4d3a-acae-d65467b46502, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: YV|www.zyw.asia ZYW免费节点 2, server: sg6.yihaobao.xyz, port: 10045, type: trojan, password: 492c73ea-7080-4554-bc41-f027d825ae15, skip-cert-verify: true}
+  - {name: YD|tg频道:@Zyw_Channel 2, server: 163.123.192.146, port: 443, type: trojan, password: 6f9d4a83-4682-48d5-a217-7938860b0070, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国_38, server: 54.190.212.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 1块钱200G流量额, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us2.pqjc.site, skip-cert-verify: false}
+  - {name: 🇸🇬 TG:@hkaa0 新加坡_4, server: 13.229.98.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇪 德国 190, server: tr.mellivmess.com, port: 32950, type: trojan, password: AJCBkjTy9v, skip-cert-verify: true}
+  - {name: youtube@资源分享师_168, server: ca.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: ca.stablize.top, skip-cert-verify: true}
+  - {name: 🇯🇵 TG:@hkaa0 日本_1, server: 43.207.83.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 TG:@hkaa0 新加坡_3, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: YV|tg频道:@Zyw_Channel 3, server: ccarm.wasanbi.tk, port: 58678, type: trojan, password: z3NtLA8ocb, skip-cert-verify: true}
+  - {name: YV|www.zyw.asia ZYW免费节点 3, server: hk1t.yexiangye.top, port: 20001, type: trojan, password: 86634c44-8149-4d16-a590-0d680d6fd22e, skip-cert-verify: true}
+  - {name: YD|@Zyw_Channel, server: sajs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, skip-cert-verify: false}
+  - {name: 8DKJ|@Zyw_Channel, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇯🇵 TG:@hkaa0 日本_4, server: 54.168.131.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: TG:@hkaa0 阿富汗, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: youtube@资源分享师_184, server: ukjs.stablize.top, port: 443, type: trojan, password: 4565bf4a-951a-4981-9b60-4b1a496c9cbc, sni: ukjs.stablize.top, skip-cert-verify: true}
+  - {name: 🇰🇷 TG:@hkaa0 韩国_5, server: 3.39.238.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 TG:@hkaa0 新加坡_1 2, server: 13.215.252.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国特殊|@ripaojiedian, server: 34.221.232.27, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇫🇷 TG:@hkaa0 法国_2, server: 54.36.115.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: YV|www.zyw.asia ZYW免费节点 4, server: zh01lv3ru01.feiguayun.xyz, port: 50331, type: ss, cipher: aes-256-gcm, password: 48582160-481f-4bd4-a453-99a0087a2752}
+  - {name: JP_3.113.30.140_0707202382ff-934s%%�, server: hk5.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 16952:9bik8I, obfs-param: ""}
+  - {name: 🇯🇵 TG:@hkaa0 日本, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: d51f8335-4f7d-4d3a-acae-d65467b46502, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇮🇳 TG:@hkaa0 印度, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
+  - {name: 🇯🇵 TG:@hkaa0 日本 2, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: d51f8335-4f7d-4d3a-acae-d65467b46502, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
     proxies:
       - ✋ 手选模式
       - ♻️ 负载均衡
-      - 🎯 测速代理
-      - 🐟 回滚代理
+      - ♻️ 测速代理
+      - ♻️ 回滚代理
   - name: ✋ 手选模式
     type: select
     proxies:
-      - youtube@资源分享师_227
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - youtube@资源分享师_108
-      - youtube@资源分享师_16
-      - youtube@资源分享师_88
-      - youtube@资源分享师_28
-      - youtube@资源分享师_68
-      - youtube@资源分享师_20
-      - youtube@资源分享师_239
-      - youtube@资源分享师_215
-      - youtube@资源分享师_8
-      - youtube@资源分享师_51
-      - youtube@资源分享师_27
-      - youtube@资源分享师_19
-      - 🇯🇵 TG:@hkaa0 日本
-      - youtube@资源分享师_9
-      - 🇯🇵 TG:@hkaa0 日本 2
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - youtube@资源分享师_95
-      - youtube@资源分享师_98
-      - youtube@资源分享师_37
-      - youtube@资源分享师_38
-      - youtube@资源分享师_188
-      - youtube@资源分享师_206
-      - youtube@资源分享师_12
-      - youtube@资源分享师_36
-      - youtube@资源分享师_54
-      - youtube@资源分享师_114
-      - youtube@资源分享师_204
-      - youtube@资源分享师_121
-      - youtube@资源分享师_175
-      - youtube@资源分享师_187
-      - youtube@资源分享师_173
-      - 🇮🇳 TG:@hkaa0 印度
-      - youtube@资源分享师_56
-      - youtube@资源分享师_129
-      - youtube@资源分享师_240
       - 🇸🇬 TG:@hkaa0 新加坡_1
-      - youtube@资源分享师_39
-      - youtube@资源分享师_87
-      - youtube@资源分享师_179
-      - youtube@资源分享师_72
-      - youtube@资源分享师_224
-      - 🇸🇬 TG:@hkaa0 新加坡_3
-      - 🇺🇸 TG:@hkaa0 美国_2
-      - youtube@资源分享师_103
-      - youtube@资源分享师_135
-      - youtube@资源分享师_219
-      - youtube@资源分享师_44
-      - 🇺🇸 美国 v2rayfree.eu.org
-      - youtube@资源分享师_160
-      - youtube@资源分享师_154
-      - youtube@资源分享师_198
-      - youtube@资源分享师_57
-      - 🇺🇸 美国CloudFlare公司CDN节点 7
-      - youtube@资源分享师_49
-      - youtube@资源分享师_67
-      - youtube@资源分享师_161
-      - 🇺🇸 TG:@hkaa0 美国_69
-      - youtube@资源分享师_223
-      - 🇿🇦 南非 v2rayfree.eu.org
-      - youtube@资源分享师_164
-      - youtube@资源分享师_233
-      - youtube@资源分享师_74
-      - youtube@资源分享师_147
-      - youtube@资源分享师_234
-      - 🇸🇬 TG:@hkaa0 新加坡_5
-      - youtube@资源分享师_111
-      - 🇺🇸 TG:@hkaa0 美国_29
-      - youtube@资源分享师_196
-      - youtube@资源分享师_62
-      - youtube@资源分享师_213
-      - 🇨🇳 TG:@hkaa0 中国_2
-      - youtube@资源分享师_125
-      - youtube@资源分享师_203
-      - 🇺🇸 TG:@hkaa0 美国_19
-      - youtube@资源分享师_141
-      - 🏳️‍🌈 ️‍🌈 1块钱200G流量额
-      - 🇺🇸 美国加利福尼亚州圣何塞MULTACOM机房 3
-      - youtube@资源分享师_66
-      - youtube@资源分享师_210
-      - youtube@资源分享师_181
-      - youtube@资源分享师_218
-      - youtube@资源分享师_226
-      - youtube@资源分享师_258
-      - youtube@资源分享师_230
-      - 🇫🇷 法国 001
-      - youtube@资源分享师_249
-      - youtube@资源分享师_250
-      - 🇺🇸 美国CloudFlare节点 4
-      - 🇺🇸 美国 009
-      - youtube@资源分享师_243
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
-      - 🇺🇸 美国 010
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - youtube@资源分享师_82
-      - youtube@资源分享师_244
-      - youtube@资源分享师_29
-      - youtube@资源分享师_10
-      - 🇸🇬 TG:@hkaa0 新加坡_4
-      - youtube@资源分享师_55
       - 🇺🇸 TG:@hkaa0 美国_93
-      - youtube@资源分享师_94
-      - youtube@资源分享师_238
-      - 🇧🇷 巴西 001
-      - 🇫🇷 TG:@hkaa0 法国_5
-      - youtube@资源分享师_169
-      - youtube@资源分享师_123
-      - youtube@资源分享师_184
-      - youtube@资源分享师_253
-      - youtube@资源分享师_84
-      - 湖南省 移动
-      - youtube@资源分享师_140
-      - youtube@资源分享师_100
-      - 🇯🇵 TG:@hkaa0 日本_3
-      - youtube@资源分享师_205
-      - youtube@资源分享师_127
-      - youtube@资源分享师_242
-      - youtube@资源分享师_118
-      - 🇰🇷 TG:@hkaa0 韩国_5
-      - 🇺🇸 美国 012
-      - 🇰🇷 TG:@hkaa0 韩国_1
-      - 🇺🇸 TG:@hkaa0 美国_7
-      - youtube@资源分享师_47
-      - youtube@资源分享师_185
-      - youtube@资源分享师_91
-      - 🇫🇷 TG:@hkaa0 法国_2
-      - youtube@资源分享师_168
-      - youtube@资源分享师_211
-      - youtube@资源分享师_149
-      - youtube@资源分享师_45
-      - youtube@资源分享师_177
-      - 🇯🇵 TG:@hkaa0 日本_1
-      - youtube@资源分享师_153
-      - youtube@资源分享师_178
-      - youtube@资源分享师_212
-      - youtube@资源分享师_76
-      - youtube@资源分享师_190
-      - youtube@资源分享师_260
-      - youtube@资源分享师_189
-      - youtube@资源分享师_257
-      - youtube@资源分享师_85
-      - youtube@资源分享师_176
-      - youtube@资源分享师_193
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心 2
-      - youtube@资源分享师_58
-      - youtube@资源分享师_60
-      - youtube@资源分享师_83
-      - youtube@资源分享师_162
-      - youtube@资源分享师_246
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇺🇸 TG:@hkaa0 美国_13
-      - youtube@资源分享师_63
+      - YV|@Zyw_Channel
       - 🇭🇺 TG:@hkaa0 匈牙利
-      - 🇺🇸 美国 001
-      - 🇺🇸 美国 014
-      - 🇯🇵 日本 001
-      - youtube@资源分享师_254
-      - youtube@资源分享师_78
+      - youtube@资源分享师_125
+      - YV|tg频道:@Zyw_Channel
+      - YV|tg频道:@Zyw_Channel 2
+      - CF|@Zyw_Channel
+      - 🇸🇬 TG:@hkaa0 新加坡_6
+      - youtube@资源分享师_10
+      - YV|www.zyw.asia ZYW免费节点
+      - 🇹🇷 TG:@hkaa0 土耳其
+      - YD|tg频道:@Zyw_Channel
+      - YV|@Zyw_Channel 2
       - 🇩🇪 TG:@hkaa0 德国
-  - name: 🐟 回滚代理
-    type: fallback
-    url: https://www.youtube.com/generate_204
-    interval: 300
-    proxies:
-      - youtube@资源分享师_227
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - youtube@资源分享师_108
-      - youtube@资源分享师_16
-      - youtube@资源分享师_88
-      - youtube@资源分享师_28
-      - youtube@资源分享师_68
-      - youtube@资源分享师_20
-      - youtube@资源分享师_239
-      - youtube@资源分享师_215
-      - youtube@资源分享师_8
-      - youtube@资源分享师_51
-      - youtube@资源分享师_27
-      - youtube@资源分享师_19
+      - YV|www.zyw.asia ZYW免费节点 2
+      - YD|tg频道:@Zyw_Channel 2
+      - 🇺🇸 TG:@hkaa0 美国_38
+      - 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 1块钱200G流量额
+      - 🇸🇬 TG:@hkaa0 新加坡_4
+      - 🇩🇪 德国 190
+      - youtube@资源分享师_168
+      - 🇯🇵 TG:@hkaa0 日本_1
+      - 🇸🇬 TG:@hkaa0 新加坡_3
+      - YV|tg频道:@Zyw_Channel 3
+      - YV|www.zyw.asia ZYW免费节点 3
+      - YD|@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - 🇯🇵 TG:@hkaa0 日本_4
+      - TG:@hkaa0 阿富汗
+      - youtube@资源分享师_184
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇸🇬 TG:@hkaa0 新加坡_1 2
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇫🇷 TG:@hkaa0 法国_2
+      - YV|www.zyw.asia ZYW免费节点 4
+      - JP_3.113.30.140_0707202382ff-934s%%�
       - 🇯🇵 TG:@hkaa0 日本
-      - youtube@资源分享师_9
-      - 🇯🇵 TG:@hkaa0 日本 2
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - youtube@资源分享师_95
-      - youtube@资源分享师_98
-      - youtube@资源分享师_37
-      - youtube@资源分享师_38
-      - youtube@资源分享师_188
-      - youtube@资源分享师_206
-      - youtube@资源分享师_12
-      - youtube@资源分享师_36
-      - youtube@资源分享师_54
-      - youtube@资源分享师_114
-      - youtube@资源分享师_204
-      - youtube@资源分享师_121
-      - youtube@资源分享师_175
-      - youtube@资源分享师_187
-      - youtube@资源分享师_173
       - 🇮🇳 TG:@hkaa0 印度
-      - youtube@资源分享师_56
-      - youtube@资源分享师_129
-      - youtube@资源分享师_240
-      - 🇸🇬 TG:@hkaa0 新加坡_1
-      - youtube@资源分享师_39
-      - youtube@资源分享师_87
-      - youtube@资源分享师_179
-      - youtube@资源分享师_72
-      - youtube@资源分享师_224
-      - 🇸🇬 TG:@hkaa0 新加坡_3
-      - 🇺🇸 TG:@hkaa0 美国_2
-      - youtube@资源分享师_103
-      - youtube@资源分享师_135
-      - youtube@资源分享师_219
-      - youtube@资源分享师_44
-      - 🇺🇸 美国 v2rayfree.eu.org
-      - youtube@资源分享师_160
-      - youtube@资源分享师_154
-      - youtube@资源分享师_198
-      - youtube@资源分享师_57
-      - 🇺🇸 美国CloudFlare公司CDN节点 7
-      - youtube@资源分享师_49
-      - youtube@资源分享师_67
-      - youtube@资源分享师_161
-      - 🇺🇸 TG:@hkaa0 美国_69
-      - youtube@资源分享师_223
-      - 🇿🇦 南非 v2rayfree.eu.org
-      - youtube@资源分享师_164
-      - youtube@资源分享师_233
-      - youtube@资源分享师_74
-      - youtube@资源分享师_147
-      - youtube@资源分享师_234
-      - 🇸🇬 TG:@hkaa0 新加坡_5
-      - youtube@资源分享师_111
-      - 🇺🇸 TG:@hkaa0 美国_29
-      - youtube@资源分享师_196
-      - youtube@资源分享师_62
-      - youtube@资源分享师_213
-      - 🇨🇳 TG:@hkaa0 中国_2
-      - youtube@资源分享师_125
-      - youtube@资源分享师_203
-      - 🇺🇸 TG:@hkaa0 美国_19
-      - youtube@资源分享师_141
-      - 🏳️‍🌈 ️‍🌈 1块钱200G流量额
-      - 🇺🇸 美国加利福尼亚州圣何塞MULTACOM机房 3
-      - youtube@资源分享师_66
-      - youtube@资源分享师_210
-      - youtube@资源分享师_181
-      - youtube@资源分享师_218
-      - youtube@资源分享师_226
-      - youtube@资源分享师_258
-      - youtube@资源分享师_230
-      - 🇫🇷 法国 001
-      - youtube@资源分享师_249
-      - youtube@资源分享师_250
-      - 🇺🇸 美国CloudFlare节点 4
-      - 🇺🇸 美国 009
-      - youtube@资源分享师_243
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
-      - 🇺🇸 美国 010
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - youtube@资源分享师_82
-      - youtube@资源分享师_244
-      - youtube@资源分享师_29
-      - youtube@资源分享师_10
-      - 🇸🇬 TG:@hkaa0 新加坡_4
-      - youtube@资源分享师_55
-      - 🇺🇸 TG:@hkaa0 美国_93
-      - youtube@资源分享师_94
-      - youtube@资源分享师_238
-      - 🇧🇷 巴西 001
-      - 🇫🇷 TG:@hkaa0 法国_5
-      - youtube@资源分享师_169
-      - youtube@资源分享师_123
-      - youtube@资源分享师_184
-      - youtube@资源分享师_253
-      - youtube@资源分享师_84
-      - 湖南省 移动
-      - youtube@资源分享师_140
-      - youtube@资源分享师_100
-      - 🇯🇵 TG:@hkaa0 日本_3
-      - youtube@资源分享师_205
-      - youtube@资源分享师_127
-      - youtube@资源分享师_242
-      - youtube@资源分享师_118
-      - 🇰🇷 TG:@hkaa0 韩国_5
-      - 🇺🇸 美国 012
-      - 🇰🇷 TG:@hkaa0 韩国_1
-      - 🇺🇸 TG:@hkaa0 美国_7
-      - youtube@资源分享师_47
-      - youtube@资源分享师_185
-      - youtube@资源分享师_91
-      - 🇫🇷 TG:@hkaa0 法国_2
-      - youtube@资源分享师_168
-      - youtube@资源分享师_211
-      - youtube@资源分享师_149
-      - youtube@资源分享师_45
-      - youtube@资源分享师_177
-      - 🇯🇵 TG:@hkaa0 日本_1
-      - youtube@资源分享师_153
-      - youtube@资源分享师_178
-      - youtube@资源分享师_212
-      - youtube@资源分享师_76
-      - youtube@资源分享师_190
-      - youtube@资源分享师_260
-      - youtube@资源分享师_189
-      - youtube@资源分享师_257
-      - youtube@资源分享师_85
-      - youtube@资源分享师_176
-      - youtube@资源分享师_193
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心 2
-      - youtube@资源分享师_58
-      - youtube@资源分享师_60
-      - youtube@资源分享师_83
-      - youtube@资源分享师_162
-      - youtube@资源分享师_246
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇺🇸 TG:@hkaa0 美国_13
-      - youtube@资源分享师_63
-      - 🇭🇺 TG:@hkaa0 匈牙利
-      - 🇺🇸 美国 001
-      - 🇺🇸 美国 014
-      - 🇯🇵 日本 001
-      - youtube@资源分享师_254
-      - youtube@资源分享师_78
-      - 🇩🇪 TG:@hkaa0 德国
+      - 🇯🇵 TG:@hkaa0 日本 2
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - youtube@资源分享师_227
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - youtube@资源分享师_108
-      - youtube@资源分享师_16
-      - youtube@资源分享师_88
-      - youtube@资源分享师_28
-      - youtube@资源分享师_68
-      - youtube@资源分享师_20
-      - youtube@资源分享师_239
-      - youtube@资源分享师_215
-      - youtube@资源分享师_8
-      - youtube@资源分享师_51
-      - youtube@资源分享师_27
-      - youtube@资源分享师_19
-      - 🇯🇵 TG:@hkaa0 日本
-      - youtube@资源分享师_9
-      - 🇯🇵 TG:@hkaa0 日本 2
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - youtube@资源分享师_95
-      - youtube@资源分享师_98
-      - youtube@资源分享师_37
-      - youtube@资源分享师_38
-      - youtube@资源分享师_188
-      - youtube@资源分享师_206
-      - youtube@资源分享师_12
-      - youtube@资源分享师_36
-      - youtube@资源分享师_54
-      - youtube@资源分享师_114
-      - youtube@资源分享师_204
-      - youtube@资源分享师_121
-      - youtube@资源分享师_175
-      - youtube@资源分享师_187
-      - youtube@资源分享师_173
-      - 🇮🇳 TG:@hkaa0 印度
-      - youtube@资源分享师_56
-      - youtube@资源分享师_129
-      - youtube@资源分享师_240
       - 🇸🇬 TG:@hkaa0 新加坡_1
-      - youtube@资源分享师_39
-      - youtube@资源分享师_87
-      - youtube@资源分享师_179
-      - youtube@资源分享师_72
-      - youtube@资源分享师_224
-      - 🇸🇬 TG:@hkaa0 新加坡_3
-      - 🇺🇸 TG:@hkaa0 美国_2
-      - youtube@资源分享师_103
-      - youtube@资源分享师_135
-      - youtube@资源分享师_219
-      - youtube@资源分享师_44
-      - 🇺🇸 美国 v2rayfree.eu.org
-      - youtube@资源分享师_160
-      - youtube@资源分享师_154
-      - youtube@资源分享师_198
-      - youtube@资源分享师_57
-      - 🇺🇸 美国CloudFlare公司CDN节点 7
-      - youtube@资源分享师_49
-      - youtube@资源分享师_67
-      - youtube@资源分享师_161
-      - 🇺🇸 TG:@hkaa0 美国_69
-      - youtube@资源分享师_223
-      - 🇿🇦 南非 v2rayfree.eu.org
-      - youtube@资源分享师_164
-      - youtube@资源分享师_233
-      - youtube@资源分享师_74
-      - youtube@资源分享师_147
-      - youtube@资源分享师_234
-      - 🇸🇬 TG:@hkaa0 新加坡_5
-      - youtube@资源分享师_111
-      - 🇺🇸 TG:@hkaa0 美国_29
-      - youtube@资源分享师_196
-      - youtube@资源分享师_62
-      - youtube@资源分享师_213
-      - 🇨🇳 TG:@hkaa0 中国_2
-      - youtube@资源分享师_125
-      - youtube@资源分享师_203
-      - 🇺🇸 TG:@hkaa0 美国_19
-      - youtube@资源分享师_141
-      - 🏳️‍🌈 ️‍🌈 1块钱200G流量额
-      - 🇺🇸 美国加利福尼亚州圣何塞MULTACOM机房 3
-      - youtube@资源分享师_66
-      - youtube@资源分享师_210
-      - youtube@资源分享师_181
-      - youtube@资源分享师_218
-      - youtube@资源分享师_226
-      - youtube@资源分享师_258
-      - youtube@资源分享师_230
-      - 🇫🇷 法国 001
-      - youtube@资源分享师_249
-      - youtube@资源分享师_250
-      - 🇺🇸 美国CloudFlare节点 4
-      - 🇺🇸 美国 009
-      - youtube@资源分享师_243
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
-      - 🇺🇸 美国 010
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - youtube@资源分享师_82
-      - youtube@资源分享师_244
-      - youtube@资源分享师_29
-      - youtube@资源分享师_10
-      - 🇸🇬 TG:@hkaa0 新加坡_4
-      - youtube@资源分享师_55
       - 🇺🇸 TG:@hkaa0 美国_93
-      - youtube@资源分享师_94
-      - youtube@资源分享师_238
-      - 🇧🇷 巴西 001
-      - 🇫🇷 TG:@hkaa0 法国_5
-      - youtube@资源分享师_169
-      - youtube@资源分享师_123
-      - youtube@资源分享师_184
-      - youtube@资源分享师_253
-      - youtube@资源分享师_84
-      - 湖南省 移动
-      - youtube@资源分享师_140
-      - youtube@资源分享师_100
-      - 🇯🇵 TG:@hkaa0 日本_3
-      - youtube@资源分享师_205
-      - youtube@资源分享师_127
-      - youtube@资源分享师_242
-      - youtube@资源分享师_118
-      - 🇰🇷 TG:@hkaa0 韩国_5
-      - 🇺🇸 美国 012
-      - 🇰🇷 TG:@hkaa0 韩国_1
-      - 🇺🇸 TG:@hkaa0 美国_7
-      - youtube@资源分享师_47
-      - youtube@资源分享师_185
-      - youtube@资源分享师_91
-      - 🇫🇷 TG:@hkaa0 法国_2
-      - youtube@资源分享师_168
-      - youtube@资源分享师_211
-      - youtube@资源分享师_149
-      - youtube@资源分享师_45
-      - youtube@资源分享师_177
-      - 🇯🇵 TG:@hkaa0 日本_1
-      - youtube@资源分享师_153
-      - youtube@资源分享师_178
-      - youtube@资源分享师_212
-      - youtube@资源分享师_76
-      - youtube@资源分享师_190
-      - youtube@资源分享师_260
-      - youtube@资源分享师_189
-      - youtube@资源分享师_257
-      - youtube@资源分享师_85
-      - youtube@资源分享师_176
-      - youtube@资源分享师_193
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心 2
-      - youtube@资源分享师_58
-      - youtube@资源分享师_60
-      - youtube@资源分享师_83
-      - youtube@资源分享师_162
-      - youtube@资源分享师_246
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇺🇸 TG:@hkaa0 美国_13
-      - youtube@资源分享师_63
+      - YV|@Zyw_Channel
       - 🇭🇺 TG:@hkaa0 匈牙利
-      - 🇺🇸 美国 001
-      - 🇺🇸 美国 014
-      - 🇯🇵 日本 001
-      - youtube@资源分享师_254
-      - youtube@资源分享师_78
+      - youtube@资源分享师_125
+      - YV|tg频道:@Zyw_Channel
+      - YV|tg频道:@Zyw_Channel 2
+      - CF|@Zyw_Channel
+      - 🇸🇬 TG:@hkaa0 新加坡_6
+      - youtube@资源分享师_10
+      - YV|www.zyw.asia ZYW免费节点
+      - 🇹🇷 TG:@hkaa0 土耳其
+      - YD|tg频道:@Zyw_Channel
+      - YV|@Zyw_Channel 2
       - 🇩🇪 TG:@hkaa0 德国
-  - name: 🎯 测速代理
+      - YV|www.zyw.asia ZYW免费节点 2
+      - YD|tg频道:@Zyw_Channel 2
+      - 🇺🇸 TG:@hkaa0 美国_38
+      - 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 1块钱200G流量额
+      - 🇸🇬 TG:@hkaa0 新加坡_4
+      - 🇩🇪 德国 190
+      - youtube@资源分享师_168
+      - 🇯🇵 TG:@hkaa0 日本_1
+      - 🇸🇬 TG:@hkaa0 新加坡_3
+      - YV|tg频道:@Zyw_Channel 3
+      - YV|www.zyw.asia ZYW免费节点 3
+      - YD|@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - 🇯🇵 TG:@hkaa0 日本_4
+      - TG:@hkaa0 阿富汗
+      - youtube@资源分享师_184
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇸🇬 TG:@hkaa0 新加坡_1 2
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇫🇷 TG:@hkaa0 法国_2
+      - YV|www.zyw.asia ZYW免费节点 4
+      - JP_3.113.30.140_0707202382ff-934s%%�
+      - 🇯🇵 TG:@hkaa0 日本
+      - 🇮🇳 TG:@hkaa0 印度
+      - 🇯🇵 TG:@hkaa0 日本 2
+  - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - youtube@资源分享师_227
-      - 🇸🇬 TG:@hkaa0 新加坡
-      - youtube@资源分享师_108
-      - youtube@资源分享师_16
-      - youtube@资源分享师_88
-      - youtube@资源分享师_28
-      - youtube@资源分享师_68
-      - youtube@资源分享师_20
-      - youtube@资源分享师_239
-      - youtube@资源分享师_215
-      - youtube@资源分享师_8
-      - youtube@资源分享师_51
-      - youtube@资源分享师_27
-      - youtube@资源分享师_19
-      - 🇯🇵 TG:@hkaa0 日本
-      - youtube@资源分享师_9
-      - 🇯🇵 TG:@hkaa0 日本 2
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - 🇸🇬 TG:@hkaa0 新加坡 2
-      - youtube@资源分享师_95
-      - youtube@资源分享师_98
-      - youtube@资源分享师_37
-      - youtube@资源分享师_38
-      - youtube@资源分享师_188
-      - youtube@资源分享师_206
-      - youtube@资源分享师_12
-      - youtube@资源分享师_36
-      - youtube@资源分享师_54
-      - youtube@资源分享师_114
-      - youtube@资源分享师_204
-      - youtube@资源分享师_121
-      - youtube@资源分享师_175
-      - youtube@资源分享师_187
-      - youtube@资源分享师_173
-      - 🇮🇳 TG:@hkaa0 印度
-      - youtube@资源分享师_56
-      - youtube@资源分享师_129
-      - youtube@资源分享师_240
       - 🇸🇬 TG:@hkaa0 新加坡_1
-      - youtube@资源分享师_39
-      - youtube@资源分享师_87
-      - youtube@资源分享师_179
-      - youtube@资源分享师_72
-      - youtube@资源分享师_224
-      - 🇸🇬 TG:@hkaa0 新加坡_3
-      - 🇺🇸 TG:@hkaa0 美国_2
-      - youtube@资源分享师_103
-      - youtube@资源分享师_135
-      - youtube@资源分享师_219
-      - youtube@资源分享师_44
-      - 🇺🇸 美国 v2rayfree.eu.org
-      - youtube@资源分享师_160
-      - youtube@资源分享师_154
-      - youtube@资源分享师_198
-      - youtube@资源分享师_57
-      - 🇺🇸 美国CloudFlare公司CDN节点 7
-      - youtube@资源分享师_49
-      - youtube@资源分享师_67
-      - youtube@资源分享师_161
-      - 🇺🇸 TG:@hkaa0 美国_69
-      - youtube@资源分享师_223
-      - 🇿🇦 南非 v2rayfree.eu.org
-      - youtube@资源分享师_164
-      - youtube@资源分享师_233
-      - youtube@资源分享师_74
-      - youtube@资源分享师_147
-      - youtube@资源分享师_234
-      - 🇸🇬 TG:@hkaa0 新加坡_5
-      - youtube@资源分享师_111
-      - 🇺🇸 TG:@hkaa0 美国_29
-      - youtube@资源分享师_196
-      - youtube@资源分享师_62
-      - youtube@资源分享师_213
-      - 🇨🇳 TG:@hkaa0 中国_2
-      - youtube@资源分享师_125
-      - youtube@资源分享师_203
-      - 🇺🇸 TG:@hkaa0 美国_19
-      - youtube@资源分享师_141
-      - 🏳️‍🌈 ️‍🌈 1块钱200G流量额
-      - 🇺🇸 美国加利福尼亚州圣何塞MULTACOM机房 3
-      - youtube@资源分享师_66
-      - youtube@资源分享师_210
-      - youtube@资源分享师_181
-      - youtube@资源分享师_218
-      - youtube@资源分享师_226
-      - youtube@资源分享师_258
-      - youtube@资源分享师_230
-      - 🇫🇷 法国 001
-      - youtube@资源分享师_249
-      - youtube@资源分享师_250
-      - 🇺🇸 美国CloudFlare节点 4
-      - 🇺🇸 美国 009
-      - youtube@资源分享师_243
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
-      - 🇺🇸 美国 010
-      - 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点
-      - youtube@资源分享师_82
-      - youtube@资源分享师_244
-      - youtube@资源分享师_29
-      - youtube@资源分享师_10
-      - 🇸🇬 TG:@hkaa0 新加坡_4
-      - youtube@资源分享师_55
       - 🇺🇸 TG:@hkaa0 美国_93
-      - youtube@资源分享师_94
-      - youtube@资源分享师_238
-      - 🇧🇷 巴西 001
-      - 🇫🇷 TG:@hkaa0 法国_5
-      - youtube@资源分享师_169
-      - youtube@资源分享师_123
-      - youtube@资源分享师_184
-      - youtube@资源分享师_253
-      - youtube@资源分享师_84
-      - 湖南省 移动
-      - youtube@资源分享师_140
-      - youtube@资源分享师_100
-      - 🇯🇵 TG:@hkaa0 日本_3
-      - youtube@资源分享师_205
-      - youtube@资源分享师_127
-      - youtube@资源分享师_242
-      - youtube@资源分享师_118
-      - 🇰🇷 TG:@hkaa0 韩国_5
-      - 🇺🇸 美国 012
-      - 🇰🇷 TG:@hkaa0 韩国_1
-      - 🇺🇸 TG:@hkaa0 美国_7
-      - youtube@资源分享师_47
-      - youtube@资源分享师_185
-      - youtube@资源分享师_91
-      - 🇫🇷 TG:@hkaa0 法国_2
-      - youtube@资源分享师_168
-      - youtube@资源分享师_211
-      - youtube@资源分享师_149
-      - youtube@资源分享师_45
-      - youtube@资源分享师_177
-      - 🇯🇵 TG:@hkaa0 日本_1
-      - youtube@资源分享师_153
-      - youtube@资源分享师_178
-      - youtube@资源分享师_212
-      - youtube@资源分享师_76
-      - youtube@资源分享师_190
-      - youtube@资源分享师_260
-      - youtube@资源分享师_189
-      - youtube@资源分享师_257
-      - youtube@资源分享师_85
-      - youtube@资源分享师_176
-      - youtube@资源分享师_193
-      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心 2
-      - youtube@资源分享师_58
-      - youtube@资源分享师_60
-      - youtube@资源分享师_83
-      - youtube@资源分享师_162
-      - youtube@资源分享师_246
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇺🇸 TG:@hkaa0 美国_13
-      - youtube@资源分享师_63
+      - YV|@Zyw_Channel
       - 🇭🇺 TG:@hkaa0 匈牙利
-      - 🇺🇸 美国 001
-      - 🇺🇸 美国 014
-      - 🇯🇵 日本 001
-      - youtube@资源分享师_254
-      - youtube@资源分享师_78
+      - youtube@资源分享师_125
+      - YV|tg频道:@Zyw_Channel
+      - YV|tg频道:@Zyw_Channel 2
+      - CF|@Zyw_Channel
+      - 🇸🇬 TG:@hkaa0 新加坡_6
+      - youtube@资源分享师_10
+      - YV|www.zyw.asia ZYW免费节点
+      - 🇹🇷 TG:@hkaa0 土耳其
+      - YD|tg频道:@Zyw_Channel
+      - YV|@Zyw_Channel 2
       - 🇩🇪 TG:@hkaa0 德国
+      - YV|www.zyw.asia ZYW免费节点 2
+      - YD|tg频道:@Zyw_Channel 2
+      - 🇺🇸 TG:@hkaa0 美国_38
+      - 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 1块钱200G流量额
+      - 🇸🇬 TG:@hkaa0 新加坡_4
+      - 🇩🇪 德国 190
+      - youtube@资源分享师_168
+      - 🇯🇵 TG:@hkaa0 日本_1
+      - 🇸🇬 TG:@hkaa0 新加坡_3
+      - YV|tg频道:@Zyw_Channel 3
+      - YV|www.zyw.asia ZYW免费节点 3
+      - YD|@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - 🇯🇵 TG:@hkaa0 日本_4
+      - TG:@hkaa0 阿富汗
+      - youtube@资源分享师_184
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇸🇬 TG:@hkaa0 新加坡_1 2
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇫🇷 TG:@hkaa0 法国_2
+      - YV|www.zyw.asia ZYW免费节点 4
+      - JP_3.113.30.140_0707202382ff-934s%%�
+      - 🇯🇵 TG:@hkaa0 日本
+      - 🇮🇳 TG:@hkaa0 印度
+      - 🇯🇵 TG:@hkaa0 日本 2
+  - name: ♻️ 回滚代理
+    type: fallback
+    url: https://www.youtube.com/generate_204
+    interval: 300
+    proxies:
+      - 🇸🇬 TG:@hkaa0 新加坡_1
+      - 🇺🇸 TG:@hkaa0 美国_93
+      - YV|@Zyw_Channel
+      - 🇭🇺 TG:@hkaa0 匈牙利
+      - youtube@资源分享师_125
+      - YV|tg频道:@Zyw_Channel
+      - YV|tg频道:@Zyw_Channel 2
+      - CF|@Zyw_Channel
+      - 🇸🇬 TG:@hkaa0 新加坡_6
+      - youtube@资源分享师_10
+      - YV|www.zyw.asia ZYW免费节点
+      - 🇹🇷 TG:@hkaa0 土耳其
+      - YD|tg频道:@Zyw_Channel
+      - YV|@Zyw_Channel 2
+      - 🇩🇪 TG:@hkaa0 德国
+      - YV|www.zyw.asia ZYW免费节点 2
+      - YD|tg频道:@Zyw_Channel 2
+      - 🇺🇸 TG:@hkaa0 美国_38
+      - 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 1块钱200G流量额
+      - 🇸🇬 TG:@hkaa0 新加坡_4
+      - 🇩🇪 德国 190
+      - youtube@资源分享师_168
+      - 🇯🇵 TG:@hkaa0 日本_1
+      - 🇸🇬 TG:@hkaa0 新加坡_3
+      - YV|tg频道:@Zyw_Channel 3
+      - YV|www.zyw.asia ZYW免费节点 3
+      - YD|@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - 🇯🇵 TG:@hkaa0 日本_4
+      - TG:@hkaa0 阿富汗
+      - youtube@资源分享师_184
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇸🇬 TG:@hkaa0 新加坡_1 2
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇫🇷 TG:@hkaa0 法国_2
+      - YV|www.zyw.asia ZYW免费节点 4
+      - JP_3.113.30.140_0707202382ff-934s%%�
+      - 🇯🇵 TG:@hkaa0 日本
+      - 🇮🇳 TG:@hkaa0 印度
+      - 🇯🇵 TG:@hkaa0 日本 2
   - name: 🛑 禁止代理
     type: select
     proxies:
@@ -856,81 +251,81 @@ rules:
  - IP-CIDR6,fc00::/7,🛑 禁止代理,no-resolve
  - IP-CIDR6,fe80::/10,🛑 禁止代理,no-resolve
  - IP-CIDR6,fd00::/8,🛑 禁止代理,no-resolve
- - DOMAIN-KEYWORD,1drv,🛑 禁止代理
- - DOMAIN-KEYWORD,microsoft,🛑 禁止代理
- - DOMAIN-SUFFIX,aadrm.com,🛑 禁止代理
- - DOMAIN-SUFFIX,acompli.com,🛑 禁止代理
- - DOMAIN-SUFFIX,acompli.net,🛑 禁止代理
- - DOMAIN-SUFFIX,aka.ms,🛑 禁止代理
- - DOMAIN-SUFFIX,akadns.net,🛑 禁止代理
- - DOMAIN-SUFFIX,aspnetcdn.com,🛑 禁止代理
- - DOMAIN-SUFFIX,assets-yammer.com,🛑 禁止代理
- - DOMAIN-SUFFIX,azure.com,🛑 禁止代理
- - DOMAIN-SUFFIX,azure.net,🛑 禁止代理
- - DOMAIN-SUFFIX,azureedge.net,🛑 禁止代理
- - DOMAIN-SUFFIX,azurerms.com,🛑 禁止代理
- - DOMAIN-SUFFIX,bing.com,🛑 禁止代理
- - DOMAIN-SUFFIX,cloudapp.net,🛑 禁止代理
- - DOMAIN-SUFFIX,cloudappsecurity.com,🛑 禁止代理
- - DOMAIN-SUFFIX,edgesuite.net,🛑 禁止代理
- - DOMAIN-SUFFIX,gfx.ms,🛑 禁止代理
- - DOMAIN-SUFFIX,hotmail.com,🛑 禁止代理
- - DOMAIN-SUFFIX,live.com,🛑 禁止代理
- - DOMAIN-SUFFIX,live.net,🛑 禁止代理
- - DOMAIN-SUFFIX,lync.com,🛑 禁止代理
- - DOMAIN-SUFFIX,msappproxy.net,🛑 禁止代理
- - DOMAIN-SUFFIX,msauth.net,🛑 禁止代理
- - DOMAIN-SUFFIX,msauthimages.net,🛑 禁止代理
- - DOMAIN-SUFFIX,msecnd.net,🛑 禁止代理
- - DOMAIN-SUFFIX,msedge.net,🛑 禁止代理
- - DOMAIN-SUFFIX,msft.net,🛑 禁止代理
- - DOMAIN-SUFFIX,msftauth.net,🛑 禁止代理
- - DOMAIN-SUFFIX,msftauthimages.net,🛑 禁止代理
- - DOMAIN-SUFFIX,msftidentity.com,🛑 禁止代理
- - DOMAIN-SUFFIX,msidentity.com,🛑 禁止代理
- - DOMAIN-SUFFIX,msn.com,🛑 禁止代理
- - DOMAIN-SUFFIX,msocdn.com,🛑 禁止代理
- - DOMAIN-SUFFIX,msocsp.com,🛑 禁止代理
- - DOMAIN-SUFFIX,mstea.ms,🛑 禁止代理
- - DOMAIN-SUFFIX,o365weve.com,🛑 禁止代理
- - DOMAIN-SUFFIX,oaspapps.com,🛑 禁止代理
- - DOMAIN-SUFFIX,office.com,🛑 禁止代理
- - DOMAIN-SUFFIX,office.net,🛑 禁止代理
- - DOMAIN-SUFFIX,office365.com,🛑 禁止代理
- - DOMAIN-SUFFIX,officeppe.net,🛑 禁止代理
- - DOMAIN-SUFFIX,omniroot.com,🛑 禁止代理
- - DOMAIN-SUFFIX,onedrive.com,🛑 禁止代理
- - DOMAIN-SUFFIX,onenote.com,🛑 禁止代理
- - DOMAIN-SUFFIX,onenote.net,🛑 禁止代理
- - DOMAIN-SUFFIX,onestore.ms,🛑 禁止代理
- - DOMAIN-SUFFIX,outlook.com,🛑 禁止代理
- - DOMAIN-SUFFIX,outlookmobile.com,🛑 禁止代理
- - DOMAIN-SUFFIX,phonefactor.net,🛑 禁止代理
- - DOMAIN-SUFFIX,public-trust.com,🛑 禁止代理
- - DOMAIN-SUFFIX,sfbassets.com,🛑 禁止代理
- - DOMAIN-SUFFIX,sfx.ms,🛑 禁止代理
- - DOMAIN-SUFFIX,sharepoint.com,🛑 禁止代理
- - DOMAIN-SUFFIX,sharepointonline.com,🛑 禁止代理
- - DOMAIN-SUFFIX,skype.com,🛑 禁止代理
- - DOMAIN-SUFFIX,skypeassets.com,🛑 禁止代理
- - DOMAIN-SUFFIX,skypeforbusiness.com,🛑 禁止代理
- - DOMAIN-SUFFIX,staffhub.ms,🛑 禁止代理
- - DOMAIN-SUFFIX,svc.ms,🛑 禁止代理
- - DOMAIN-SUFFIX,sway-cdn.com,🛑 禁止代理
- - DOMAIN-SUFFIX,sway-extensions.com,🛑 禁止代理
- - DOMAIN-SUFFIX,sway.com,🛑 禁止代理
- - DOMAIN-SUFFIX,trafficmanager.net,🛑 禁止代理
- - DOMAIN-SUFFIX,uservoice.com,🛑 禁止代理
- - DOMAIN-SUFFIX,virtualearth.net,🛑 禁止代理
- - DOMAIN-SUFFIX,visualstudio.com,🛑 禁止代理
- - DOMAIN-SUFFIX,windows-ppe.net,🛑 禁止代理
- - DOMAIN-SUFFIX,windows.com,🛑 禁止代理
- - DOMAIN-SUFFIX,windows.net,🛑 禁止代理
- - DOMAIN-SUFFIX,windowsazure.com,🛑 禁止代理
- - DOMAIN-SUFFIX,windowsupdate.com,🛑 禁止代理
- - DOMAIN-SUFFIX,wunderlist.com,🛑 禁止代理
- - DOMAIN-SUFFIX,yammer.com,🛑 禁止代理
- - DOMAIN-SUFFIX,yammerusercontent.com,🛑 禁止代理
+ - DOMAIN-KEYWORD,1drv,🐖 广告拦截
+ - DOMAIN-KEYWORD,microsoft,🐖 广告拦截
+ - DOMAIN-SUFFIX,aadrm.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,acompli.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,acompli.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,aka.ms,🐖 广告拦截
+ - DOMAIN-SUFFIX,akadns.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,aspnetcdn.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,assets-yammer.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,azure.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,azure.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,azureedge.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,azurerms.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,bing.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,cloudapp.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,cloudappsecurity.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,edgesuite.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,gfx.ms,🐖 广告拦截
+ - DOMAIN-SUFFIX,hotmail.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,live.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,live.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,lync.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,msappproxy.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,msauth.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,msauthimages.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,msecnd.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,msedge.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,msft.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,msftauth.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,msftauthimages.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,msftidentity.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,msidentity.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,msn.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,msocdn.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,msocsp.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,mstea.ms,🐖 广告拦截
+ - DOMAIN-SUFFIX,o365weve.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,oaspapps.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,office.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,office.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,office365.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,officeppe.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,omniroot.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,onedrive.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,onenote.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,onenote.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,onestore.ms,🐖 广告拦截
+ - DOMAIN-SUFFIX,outlook.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,outlookmobile.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,phonefactor.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,public-trust.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,sfbassets.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,sfx.ms,🐖 广告拦截
+ - DOMAIN-SUFFIX,sharepoint.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,sharepointonline.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,skype.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,skypeassets.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,skypeforbusiness.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,staffhub.ms,🐖 广告拦截
+ - DOMAIN-SUFFIX,svc.ms,🐖 广告拦截
+ - DOMAIN-SUFFIX,sway-cdn.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,sway-extensions.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,sway.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,trafficmanager.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,uservoice.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,virtualearth.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,visualstudio.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,windows-ppe.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,windows.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,windows.net,🐖 广告拦截
+ - DOMAIN-SUFFIX,windowsazure.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,windowsupdate.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,wunderlist.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,yammer.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,yammerusercontent.com,🐖 广告拦截
  - DOMAIN,app.adjust.com,🛑 禁止代理
  - DOMAIN,bdtj.tagtic.cn,🛑 禁止代理
  - DOMAIN,log.mmstat.com,🛑 禁止代理
@@ -9837,37 +9232,6 @@ rules:
  - DOMAIN-SUFFIX,yuanchengxiezuo.com,🐖 广告拦截
  - DOMAIN-SUFFIX,zbrushcn.com,🐖 广告拦截
  - DOMAIN-SUFFIX,zhzzx.com,🐖 广告拦截
- - DOMAIN-SUFFIX,netflix.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflix.net,🔰 代理模式
- - DOMAIN-SUFFIX,nflxext.com,🔰 代理模式
- - DOMAIN-SUFFIX,nflximg.com,🔰 代理模式
- - DOMAIN-SUFFIX,nflximg.net,🔰 代理模式
- - DOMAIN-SUFFIX,nflxso.net,🔰 代理模式
- - DOMAIN-SUFFIX,nflxvideo.net,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest0.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest1.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest2.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest3.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest4.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest5.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest6.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest7.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest8.com,🔰 代理模式
- - DOMAIN-SUFFIX,netflixdnstest9.com,🔰 代理模式
- - DOMAIN-KEYWORD,dualstack.apiproxy-,🔰 代理模式
- - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🔰 代理模式
- - IP-CIDR,23.246.0.0/18,🔰 代理模式,no-resolve
- - IP-CIDR,37.77.184.0/21,🔰 代理模式,no-resolve
- - IP-CIDR,45.57.0.0/17,🔰 代理模式,no-resolve
- - IP-CIDR,64.120.128.0/17,🔰 代理模式,no-resolve
- - IP-CIDR,66.197.128.0/17,🔰 代理模式,no-resolve
- - IP-CIDR,108.175.32.0/20,🔰 代理模式,no-resolve
- - IP-CIDR,192.173.64.0/18,🔰 代理模式,no-resolve
- - IP-CIDR,198.38.96.0/19,🔰 代理模式,no-resolve
- - IP-CIDR,198.45.48.0/20,🔰 代理模式,no-resolve
- - IP-CIDR,34.210.42.111/32,🔰 代理模式,no-resolve
- - IP-CIDR,52.89.124.203/32,🔰 代理模式,no-resolve
- - IP-CIDR,54.148.37.5/32,🔰 代理模式,no-resolve
  - DOMAIN-SUFFIX,jtvnw.net,🔰 代理模式
  - DOMAIN-SUFFIX,ttvnw.net,🔰 代理模式
  - DOMAIN-SUFFIX,twitch.tv,🔰 代理模式
@@ -10734,28 +10098,28 @@ rules:
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 代理模式
  - DOMAIN-SUFFIX,zaobao.com.sg,🔰 代理模式
  - DOMAIN,international-gfe.download.nvidia.com,🔰 代理模式
- - DOMAIN-SUFFIX,aaplimg.com,🔰 代理模式
- - DOMAIN-SUFFIX,apple.co,🔰 代理模式
- - DOMAIN-SUFFIX,apple.com,🔰 代理模式
- - DOMAIN-SUFFIX,apple.com.cn,🔰 代理模式
- - DOMAIN-SUFFIX,apple-cloudkit.com,🔰 代理模式
- - DOMAIN-SUFFIX,appstore.com,🔰 代理模式
- - DOMAIN-SUFFIX,cdn-apple.com,🔰 代理模式
- - DOMAIN-SUFFIX,icloud.com,🔰 代理模式
- - DOMAIN-SUFFIX,icloud.com.cn,🔰 代理模式
- - DOMAIN-SUFFIX,icloud-content.com,🔰 代理模式
- - DOMAIN-SUFFIX,me.com,🔰 代理模式
- - DOMAIN-SUFFIX,mzstatic.com,🔰 代理模式
- - DOMAIN-KEYWORD,apple.com.akadns.net,🔰 代理模式
- - DOMAIN-KEYWORD,icloud.com.akadns.net,🔰 代理模式
- - IP-CIDR,17.0.0.0/8,🔰 代理模式,no-resolve
- - IP-CIDR,63.92.224.0/19,🔰 代理模式,no-resolve
- - IP-CIDR,65.199.22.0/23,🔰 代理模式,no-resolve
- - IP-CIDR,139.178.128.0/18,🔰 代理模式,no-resolve
- - IP-CIDR,144.178.0.0/19,🔰 代理模式,no-resolve
- - IP-CIDR,192.35.50.0/24,🔰 代理模式,no-resolve
- - IP-CIDR,198.183.17.0/24,🔰 代理模式,no-resolve
- - IP-CIDR,205.180.175.0/24,🔰 代理模式,no-resolve
+ - DOMAIN-SUFFIX,aaplimg.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,apple.co,🐖 广告拦截
+ - DOMAIN-SUFFIX,apple.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,apple.com.cn,🐖 广告拦截
+ - DOMAIN-SUFFIX,apple-cloudkit.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,appstore.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,cdn-apple.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,icloud.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,icloud.com.cn,🐖 广告拦截
+ - DOMAIN-SUFFIX,icloud-content.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,me.com,🐖 广告拦截
+ - DOMAIN-SUFFIX,mzstatic.com,🐖 广告拦截
+ - DOMAIN-KEYWORD,apple.com.akadns.net,🐖 广告拦截
+ - DOMAIN-KEYWORD,icloud.com.akadns.net,🐖 广告拦截
+ - IP-CIDR,17.0.0.0/8,🐖 广告拦截,no-resolve
+ - IP-CIDR,63.92.224.0/19,🐖 广告拦截,no-resolve
+ - IP-CIDR,65.199.22.0/23,🐖 广告拦截,no-resolve
+ - IP-CIDR,139.178.128.0/18,🐖 广告拦截,no-resolve
+ - IP-CIDR,144.178.0.0/19,🐖 广告拦截,no-resolve
+ - IP-CIDR,192.35.50.0/24,🐖 广告拦截,no-resolve
+ - IP-CIDR,198.183.17.0/24,🐖 广告拦截,no-resolve
+ - IP-CIDR,205.180.175.0/24,🐖 广告拦截,no-resolve
  - DOMAIN-SUFFIX,qhres.com,🛑 禁止代理
  - DOMAIN-SUFFIX,qhimg.com,🛑 禁止代理
  - DOMAIN-SUFFIX,alibaba.com,🛑 禁止代理
@@ -11140,6 +10504,6 @@ rules:
  - DOMAIN-SUFFIX,itbaizhan.com,🛑 禁止代理
  - DOMAIN-SUFFIX,kgithub.com,🛑 禁止代理
  - DOMAIN-SUFFIX,jomodns.com,🛑 禁止代理
- - DOMAIN-SUFFIX,jomodns.com,🛑 禁止代理
+ - DOMAIN-SUFFIX,ghproxy.com,🛑 禁止代理
  - GEOIP,CN,🛑 禁止代理
  - MATCH,🔰 代理模式
