@@ -5,146 +5,98 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YV|www.zyw.asia ZYW免费节点, server: 156.245.8.247, port: 43390, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_171, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
-  - {name: US_youtube@资源分享师_50, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: YD|tg频道:@Zyw_Channel, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_15, server: 64.32.4.42, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 64.32.24.213, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡_1, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇳🇱 荷兰 235, server: 156.245.8.247, port: 43390, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_80, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_speednode_0008, server: hnyd.aliang.icu, port: 11317, type: trojan, password: 1b2d72a7-9955-460f-a0dc-0cd0afbf3cb0, sni: awsjp.cfcloud.cyou, skip-cert-verify: false}
-  - {name: US_youtube@资源分享师_98, server: 198.2.218.205, port: 51203, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: YV|@Zyw_Channel, server: 13.214.167.185, port: 443, type: trojan, password: 04cd6d53-be65-4739-a5b1-26a6f947d5dd, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇭🇰 TG:@hkaa0 香港, server: 156.245.8.247, port: 43390, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 V2CROSS.COM, server: 156.245.8.158, port: 48123, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_58, server: 23.225.211.20, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: FR_youtube@资源分享师_259, server: 51.195.125.16, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国, server: frsadubibb.76898102.xyz, port: 2095, type: vmess, uuid: 6ab8886d-dcb5-30c7-8376-caa97ef36e2a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: frsadubib.76898102.xyz}}}
-  - {name: "|27.35Mb", server: 45.58.186.91, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国 335, server: 51.195.125.16, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国, server: 156.225.67.159, port: 48921, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
-  - {name: NL_youtube@资源分享师_41, server: 154.85.1.3, port: 40424, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国B|@ripaojiedian, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 8DKJ|@Zyw_Channel, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_youtube@资源分享师_17, server: 223.111.157.50, port: 30019, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false}
-  - {name: GB_youtube@资源分享师_229, server: 51.140.250.38, port: 48641, type: ss, cipher: chacha20-ietf-poly1305, password: WSib9hjmTLqkSxDaxZWSHf}
-  - {name: 🇭🇰 TG:@hkaa0 香港 2, server: 156.245.8.158, port: 48123, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3", server: 18.119.166.91, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true}
-  - {name: US_youtube@资源分享师_116, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_163, server: cf4.992688.xyz, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c95, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}}
-  - {name: 🇺🇸 TG:@hkaa0 美国 2, server: 23.224.15.180, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国 3, server: 156.225.67.159, port: 48921, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
-  - {name: YD|tg频道:@Zyw_Channel 2, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_youtube@资源分享师_1, server: 223.111.157.50, port: 30019, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡_6, server: 3.0.183.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 TG:@hkaa0 美国 4, server: 107.167.7.12, port: 41654, type: vmess, uuid: bdee202c-8fae-441f-a588-7bc4d3887019, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_87, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: YV|tg频道:@Zyw_Channel, server: api-wx-3.rancho.gay, port: 50008, type: ss, cipher: chacha20-ietf-poly1305, password: 82add7d3-b43d-4fc3-9c68-4a2e36512893}
-  - {name: CN_youtube@资源分享师_118, server: 223.111.157.50, port: 30019, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false}
-  - {name: YV|@Zyw_Channel 2, server: hk2.594888.xyz, port: 443, type: vmess, uuid: 5b793906-8d0c-39c8-96cc-35552d870a67, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /hls/us8.m3u8, headers: {Host: hk2.594888.xyz}}}
-  - {name: US_youtube@资源分享师_94, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 TG:@hkaa0 荷兰, server: 154.85.1.3, port: 40424, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_57, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: YV|www.zyw.asia ZYW免费节点 2, server: 8.208.10.169, port: 443, type: vmess, uuid: e4062796-4fb1-44c7-a445-5a18675567c2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@SeyyedMT @SeyyedMT, headers: {Host: Mci-Rightel-talia-mokhaberat.irancell-irancell.website}}}
-  - {name: 🇺🇸 TG:@hkaa0 美国_24, server: 104.243.30.252, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
-  - {name: YV|www.zyw.asia ZYW免费节点 3, server: 6hkf1.102ctc.xyz, port: 32558, type: trojan, password: 21ae840d-47a5-3645-b6a9-0e0f43624691, sni: 6hkf1.102ctc.xyz, skip-cert-verify: true}
-  - {name: HK_youtube@资源分享师_243, server: 156.245.8.158, port: 48123, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_61, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: _电报频道 @mfjdpd, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 252_1, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_5, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CA_youtube@资源分享师_50, server: 23.227.38.111, port: 443, type: vmess, uuid: 012c4549-17d2-475e-b1c1-a3b19cf36622, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
-  - {name: 🇰🇷 TG:@hkaa0 韩国_5, server: 3.38.211.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_youtube@资源分享师_65, server: 64.32.24.213, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_youtube@资源分享师_8, server: 223.111.157.50, port: 30059, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_18, server: 107.167.7.12, port: 41654, type: vmess, uuid: bdee202c-8fae-441f-a588-7bc4d3887019, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国 5, server: 64.32.4.42, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_youtube@资源分享师_207, server: 156.245.8.247, port: 43390, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 TG:@hkaa0 中国_8, server: 120.226.50.84, port: 34214, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_35, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_205, server: 192.74.243.60, port: 50246, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 25", server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: YV|tg频道:@Zyw_Channel 2, server: gzdx.jcnode.top, port: 39315, type: trojan, password: 02b11309-fad8-4f87-96d5-53cf3a62f8b7, sni: sk01.ckcloud.info, skip-cert-verify: true}
-  - {name: US_youtube@资源分享师_239, server: 108.186.116.183, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_27, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_52, server: 108.186.192.232, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: SC_youtube@资源分享师_82, server: 156.251.135.11, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: NL_youtube@资源分享师_36, server: 154.85.1.3, port: 40424, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_32, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: YV|@Zyw_Channel 3, server: 18.133.240.54, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: US_youtube@资源分享师_197, server: 108.186.4.3, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2", server: 103.173.255.234, port: 443, type: trojan, password: 78fd4474-ea2b-4a46-8cdc-b0d39e66ecdd, skip-cert-verify: true}
-  - {name: US_youtube@资源分享师_218, server: 64.32.24.213, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false}
+  - {name: YV|tg频道:@Zyw_Channel, server: 51.140.248.17, port: 47860, type: ss, cipher: chacha20-ietf-poly1305, password: jIyCP3BbNaUF4cqjkmGek9}
+  - {name: 🇯🇵 TG:@hkaa0 日本_4, server: 54.168.131.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: US_youtube@资源分享师_35, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_81, server: 192.74.229.198, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_200, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_107, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇺 TG:@hkaa0 匈牙利, server: 5.181.77.86, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: US_youtube@资源分享师_184, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_181, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_95, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_86, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_11, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶 CeraNetworks数据中心, server: 23.225.211.20, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 TG:@hkaa0 韩国_7, server: 13.125.74.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: TG:@hkaa0 阿富汗, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇮🇹 TG:@hkaa0 意大利, server: 5.188.226.187, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 美国 367, server: 108.186.4.3, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: RU_youtube@资源分享师_20, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.144.179.138]}}}
-  - {name: 🇰🇷 TG:@hkaa0 韩国_3, server: 3.36.103.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_youtube@资源分享师_73, server: 104.18.23.36, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}}
-  - {name: 🇰🇪 TG:@hkaa0 肯尼亚, server: 62.12.116.66, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: YV|tg频道:@Zyw_Channel 3, server: hk1.594888.xyz, port: 2443, type: vmess, uuid: 5b793906-8d0c-39c8-96cc-35552d870a67, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /maohk3, headers: {Host: hk1.594888.xyz}}}
-  - {name: US_youtube@资源分享师_234, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_55, server: 156.225.67.159, port: 48921, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
-  - {name: RELAY-104.18.29.109-1580, server: franc.digires.shop, port: 443, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /11201, headers: {Host: franc.digires.shop}}}
-  - {name: 🇺🇸 TG:@hkaa0 美国_24 2, server: 156.225.67.159, port: 48921, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_youtube@资源分享师_12, server: cm1-nc.go001.buzz, port: 19541, type: ss, cipher: chacha20-ietf-poly1305, password: 38f773c4-6dee-412e-9485-2c9602d550dc}
-  - {name: US_youtube@资源分享师_210, server: 107.167.7.12, port: 41654, type: vmess, uuid: bdee202c-8fae-441f-a588-7bc4d3887019, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_162, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: a5756853-4a80-468a-af62-10565918f58f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
-  - {name: 🇺🇸 美国特殊|@ripaojiedian, server: 54.187.208.118, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 HK(AzadNet.t.me)_031, server: 156.245.8.131, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false}
-  - {name: YV|www.zyw.asia ZYW免费节点 4, server: 15.188.74.210, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: "🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11", server: 43.202.64.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 TG:@hkaa0 新加坡_10, server: 52.221.214.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 五叶节点分享频道 @hkaa0 |台湾, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true}}
-  - {name: YV|@Zyw_Channel 4, server: 223.111.157.50, port: 30059, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false}
-  - {name: YV|tg频道:@Zyw_Channel 4, server: 51.140.248.17, port: 47860, type: ss, cipher: chacha20-ietf-poly1305, password: jIyCP3BbNaUF4cqjkmGek9}
-  - {name: US_youtube@资源分享师_253, server: 104.20.107.231, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}}
-  - {name: 🇨🇳 台湾独家|@ripaojiedian, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true}}
-  - {name: US_youtube@资源分享师_189, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: a5756853-4a80-468a-af62-10565918f58f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
-  - {name: 🇳🇱 TG:@hkaa0 荷兰 2, server: 154.85.1.3, port: 40424, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_212, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇳🇴 TG:@hkaa0 挪威, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: YV|www.zyw.asia ZYW免费节点 5, server: 6f1sgtr1.106ctc.buzz, port: 50143, type: trojan, password: 21ae840d-47a5-3645-b6a9-0e0f43624691, sni: 6f1sgtr1.106ctc.buzz, skip-cert-verify: true}
+  - {name: "", server: 74.211.109.236, port: 41755, type: vmess, uuid: 08520d60-1e64-41cf-9719-bc62b92aaaf3, alterId: 0, cipher: auto, tls: false}
+  - {name: CF|tg频道:@Zyw_Channel, server: 3.38.104.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: " 2", server: 74.211.105.219, port: 58865, type: vmess, uuid: 0d84d1a8-7ab6-4980-ca08-349a47fab6b6, alterId: 0, cipher: auto, tls: false}
+  - {name: " 3", server: 74.211.106.183, port: 57532, type: vmess, uuid: d85ce0f7-a9d6-4a79-f809-6f152162b42c, alterId: 0, cipher: auto, tls: false}
+  - {name: US_youtube@资源分享师_254, server: 142.4.121.227, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 狮城|tg频道:@ripaojiedian, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-47.88.89.251-3258, server: 47.88.89.251, port: 80, type: vmess, uuid: dd92e2b3-03f3-4899-a34e-797ff6a0cea8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /MqINN7CF6UeFSASP4LNTFNn}}
+  - {name: 🇺🇸 美国直连|@ripaojiedian, server: 64.64.252.6, port: 35637, type: vmess, uuid: 02c40fd8-b5fa-4101-d305-deb468769805, alterId: 0, cipher: auto, tls: false}
+  - {name: JP_youtube@资源分享师_18, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: kbawsjp2.aiopen.cfd, skip-cert-verify: true}
+  - {name: 🇺🇸 洛杉矶1, server: 64.64.254.2, port: 32981, type: vmess, uuid: 2dce8934-da9c-4406-aeb8-3d5fc03a0266, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_科网_12, server: 192.74.228.165, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: US_youtube@资源分享师_27, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇨🇳 _CN_中国_114, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 160, server: 23.225.211.20, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 _CN_中国_3, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false}
-  - {name: YV|tg频道:@Zyw_Channel 5, server: 156.245.8.131, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_84, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: CN_youtube@资源分享师_14, server: 36.156.198.43, port: 30055, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false}
-  - {name: _电报频道 @mfjdpd 60, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡特殊|@ripaojiedian, server: 18.136.196.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_214, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_youtube@资源分享师_6, server: 36.156.198.43, port: 30055, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国|@ripaojiedian 2, server: 172.247.148.89, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国_9, server: 156.225.67.159, port: 48921, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
-  - {name: YV|tg频道:@Zyw_Channel 6, server: 156.225.67.159, port: 48921, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国加利福尼亚州洛杉矶 V2CROSS.COM, server: 156.251.135.11, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡, server: 52.77.227.59, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_youtube@资源分享师_48, server: 198.2.203.60, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 39", server: 185.156.111.119, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_youtube@资源分享师_29, server: 192.74.229.199, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_14, server: 108.186.192.232, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰 172, server: 156.225.67.159, port: 48921, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 TG:@hkaa0 美国 6, server: 64.32.24.213, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false}
-  - {name: "VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3", server: 103.173.255.21, port: 443, type: trojan, password: 851a6dba-e7c9-4973-a16d-1ca7bc813574, skip-cert-verify: true}
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram, server: 45.199.138.139, port: 49100, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false}
+  - {name: " 4", server: 80.251.217.205, port: 24324, type: vmess, uuid: 9f0fce39-f78a-4850-a845-e639c564209d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港|tg频道:@ripaojiedian, server: hk5.yihaobao.xyz, port: 10022, type: trojan, password: eeeebdd2-5aa5-4325-b69f-5b8b2c16d9a0, sni: tls.yihaobao.xyz, skip-cert-verify: false}
+  - {name: "🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11", server: 43.202.64.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: " 5", server: 199.19.107.24, port: 45934, type: vmess, uuid: f835d135-616a-42e0-d99a-7810d652ed5d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 TG:@hkaa0 韩国_3, server: 3.36.103.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: " 6", server: 199.193.127.253, port: 33403, type: vmess, uuid: 8ca68696-7a49-4c11-ca8f-1478df701e2c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 007, server: 156.249.18.161, port: 42292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇰🇷 TG:@hkaa0 韩国_4, server: 43.202.63.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: CN_youtube@资源分享师_11, server: 223.111.157.50, port: 30019, type: vmess, uuid: 87d54579-a1eb-4875-b288-afe25f726228, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 TG:@hkaa0 新加坡_1, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: 🇺🇸 _US_美国_86, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: " 7", server: 64.64.255.93, port: 49114, type: vmess, uuid: 1e2e4164-15fe-42ff-8c2d-68eecf7be5bd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 TG:@hkaa0 韩国_9, server: 54.180.154.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CF|tg频道:@Zyw_Channel 2, server: 43.207.74.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: US_youtube@资源分享师_217, server: 140.99.57.23, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_22, server: cm1-nc.go001.buzz, port: 19584, type: ss, cipher: chacha20-ietf-poly1305, password: 38f773c4-6dee-412e-9485-2c9602d550dc}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH, server: 142.4.98.18, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: SG_youtube@资源分享师_24, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: a8f284ff-7d36-493a-a0a6-87ee7f003c5c, sni: kbawssg1.aiopen.cfd, skip-cert-verify: true}
+  - {name: " 8", server: 64.64.227.18, port: 34258, type: vmess, uuid: 72307eb7-615e-408a-bda6-fc0519267b4b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 27.126.206.62, port: 80, type: vmess, uuid: e52d79bb-b26e-4416-ac8a-7755176299a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /9SCqOah8/, headers: {Host: jp1.ielaina.com}}}
+  - {name: " 9", server: 64.64.232.237, port: 26785, type: vmess, uuid: d0c53c5a-d76d-4406-a80b-0b5381db87a9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国特殊|@ripaojiedian, server: 54.187.208.118, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 TG:@hkaa0 韩国_5, server: 3.38.211.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 315, server: 142.4.98.18, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_3, server: cn-guangzhou.applebench.tech, port: 18353, type: vmess, uuid: 08cc54d6-7283-4f27-872c-d9d5e221dd40, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 TG:@hkaa0 新加坡_6, server: 3.0.183.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CN_youtube@资源分享师_12, server: cm1-nc.go001.buzz, port: 19541, type: ss, cipher: chacha20-ietf-poly1305, password: 38f773c4-6dee-412e-9485-2c9602d550dc}
+  - {name: 🇺🇸 美国 Datability, server: 140.99.59.227, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 TG:@hkaa0 新加坡_7, server: 13.229.98.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 43.201.15.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 170@oneclickvpnkeys, server: 140.99.140.170, port: 44932, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: " 10", server: 199.193.125.82, port: 26033, type: vmess, uuid: 39201881-b5d6-4ca1-f4d7-14059d5e74db, alterId: 0, cipher: auto, tls: false}
+  - {name: " 11", server: 173.242.115.105, port: 34124, type: vmess, uuid: 5e57816b-834a-4656-f19a-fced7c971dba, alterId: 0, cipher: auto, tls: false}
+  - {name: US_youtube@资源分享师_48, server: 198.2.203.60, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 TG:@hkaa0 韩国_4 2, server: 43.201.72.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 洛杉矶4, server: 199.193.124.23, port: 30994, type: vmess, uuid: 40bebb53-987d-4354-861d-3504b58170c2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 洛杉矶3, server: 80.251.223.132, port: 17614, type: vmess, uuid: bb753f2e-2796-441c-a805-db6fa8cc794e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 Datability 2, server: 140.99.49.55, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: TG@GEEKSHARE_14, server: e.steamdownload.top, port: 36631, type: trojan, password: a0d33df2-c404-4622-a0a0-4c37e6e20a88, skip-cert-verify: true}
+  - {name: " 12", server: 80.251.215.64, port: 11092, type: vmess, uuid: 5c54cec7-910b-478c-b13b-643edfa39254, alterId: 0, cipher: auto, tls: false}
+  - {name: 21@oneclickvpnkeys, server: 45.92.160.21, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 12", server: 43.202.49.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国 010, server: 192.74.232.225, port: 52312, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 洛杉矶2, server: 64.64.229.142, port: 53061, type: vmess, uuid: 5c2804de-6457-4451-d94f-70df2ae379dc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 Datability 3, server: 140.99.57.23, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国, server: 142.4.121.227, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技), server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡, server: 52.77.227.59, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _US_美国_16, server: 198.2.203.57, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 334, server: 45.58.180.70, port: 44802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_youtube@资源分享师_174, server: 142.4.98.18, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_11, server: 108.186.4.1, port: 42382, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: " 13", server: 64.64.252.6, port: 35637, type: vmess, uuid: 02c40fd8-b5fa-4101-d305-deb468769805, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 045, server: 140.99.57.24, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: " 14", server: 74.211.106.68, port: 40823, type: vmess, uuid: 4d22490d-5fce-4fa0-c0cd-c6a47da8ce98, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_youtube@资源分享师_21, server: ct1-nc.go001.buzz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 38f773c4-6dee-412e-9485-2c9602d550dc}
+  - {name: 252_1, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_youtube@资源分享师_61, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: " 15", server: 80.251.214.57, port: 22704, type: vmess, uuid: dcd97136-d721-4d64-cc88-8aecb18ab4d1, alterId: 0, cipher: auto, tls: false}
+  - {name: US_youtube@资源分享师_80, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 3.112.245.118, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: YD|@Zyw_Channel, server: 120.226.50.84, port: 34214, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_52 | 8.32Mb, server: 140.99.57.23, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: " 16", server: 199.19.104.124, port: 32221, type: vmess, uuid: 9ba7e62a-379a-4bfc-84f3-3712bfb78ba0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国 335, server: 51.195.125.16, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _CN_中国_19, server: 120.226.50.84, port: 34214, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 TG:@hkaa0 韩国_7, server: 13.125.74.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 8DKJ|tg频道:@Zyw_Channel, server: 142.4.121.227, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 TG:@hkaa0 美国, server: 140.99.57.23, port: 41912, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: FR_youtube@资源分享师_259, server: 51.195.125.16, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_18, server: 142.4.121.227, port: 45009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0712533, server: 140.99.49.55, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_122, server: 216.24.253.23, port: 443, type: ss, cipher: aes-256-gcm, password: ami888}
+  - {name: 🇸🇬 新加坡 tg@freeVPNjd, server: weo-sg-1.laowufly.cf, port: 2333, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/FUCK!!!}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -156,582 +108,390 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - YV|www.zyw.asia ZYW免费节点
-      - US_youtube@资源分享师_171
-      - US_youtube@资源分享师_50
-      - YD|tg频道:@Zyw_Channel
-      - 🇺🇸 TG:@hkaa0 美国_15
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇸🇬 TG:@hkaa0 新加坡_1
-      - 🇳🇱 荷兰 235
-      - US_youtube@资源分享师_80
-      - CN_speednode_0008
-      - US_youtube@资源分享师_98
-      - YV|@Zyw_Channel
-      - 🇭🇰 TG:@hkaa0 香港
-      - 🇭🇰 香港 V2CROSS.COM
-      - US_youtube@资源分享师_58
-      - FR_youtube@资源分享师_259
-      - 🇺🇸 TG:@hkaa0 美国
-      - "|27.35Mb"
-      - 🇩🇪 德国 335
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
-      - NL_youtube@资源分享师_41
-      - 🇺🇸 美国B|@ripaojiedian
-      - 8DKJ|@Zyw_Channel
-      - CN_youtube@资源分享师_17
-      - GB_youtube@资源分享师_229
-      - 🇭🇰 TG:@hkaa0 香港 2
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - US_youtube@资源分享师_116
-      - US_youtube@资源分享师_163
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - 🇺🇸 TG:@hkaa0 美国 3
-      - YD|tg频道:@Zyw_Channel 2
-      - CN_youtube@资源分享师_1
-      - 🇸🇬 TG:@hkaa0 新加坡_6
-      - 🇺🇸 TG:@hkaa0 美国 4
-      - US_youtube@资源分享师_87
       - YV|tg频道:@Zyw_Channel
-      - CN_youtube@资源分享师_118
-      - YV|@Zyw_Channel 2
-      - US_youtube@资源分享师_94
-      - 🇳🇱 TG:@hkaa0 荷兰
-      - 🇺🇸 _US_美国_57
-      - YV|www.zyw.asia ZYW免费节点 2
-      - 🇺🇸 TG:@hkaa0 美国_24
-      - YV|www.zyw.asia ZYW免费节点 3
-      - HK_youtube@资源分享师_243
-      - US_youtube@资源分享师_61
-      - _电报频道 @mfjdpd
-      - 252_1
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - CA_youtube@资源分享师_50
-      - 🇰🇷 TG:@hkaa0 韩国_5
-      - US_youtube@资源分享师_65
-      - CN_youtube@资源分享师_8
-      - 🇺🇸 TG:@hkaa0 美国_18
-      - 🇺🇸 TG:@hkaa0 美国 5
-      - HK_youtube@资源分享师_207
-      - 🇨🇳 TG:@hkaa0 中国_8
-      - 🇺🇸 _US_美国_35
-      - 🇺🇸 _US_美国_205
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 25
-      - YV|tg频道:@Zyw_Channel 2
-      - US_youtube@资源分享师_239
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_52
-      - SC_youtube@资源分享师_82
-      - NL_youtube@资源分享师_36
-      - US_youtube@资源分享师_32
-      - YV|@Zyw_Channel 3
-      - US_youtube@资源分享师_197
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2
-      - US_youtube@资源分享师_218
+      - 🇯🇵 TG:@hkaa0 日本_4
       - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_81
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_107
-      - 🇭🇺 TG:@hkaa0 匈牙利
-      - US_youtube@资源分享师_184
-      - US_youtube@资源分享师_181
-      - US_youtube@资源分享师_95
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _US_美国_86
-      - 🇺🇸 _US_美国_11
-      - 🇺🇸 美国加利福尼亚州洛杉矶 CeraNetworks数据中心
-      - 🇰🇷 TG:@hkaa0 韩国_7
-      - TG:@hkaa0 阿富汗
-      - 🇮🇹 TG:@hkaa0 意大利
-      - 🇺🇸 美国 367
-      - RU_youtube@资源分享师_20
-      - 🇰🇷 TG:@hkaa0 韩国_3
-      - US_youtube@资源分享师_73
-      - 🇰🇪 TG:@hkaa0 肯尼亚
-      - YV|tg频道:@Zyw_Channel 3
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_55
-      - RELAY-104.18.29.109-1580
-      - 🇺🇸 TG:@hkaa0 美国_24 2
-      - CN_youtube@资源分享师_12
-      - US_youtube@资源分享师_210
-      - 🇺🇸 _US_美国_162
-      - 🇺🇸 美国特殊|@ripaojiedian
-      - 🇭🇰 HK(AzadNet.t.me)_031
-      - YV|www.zyw.asia ZYW免费节点 4
-      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
-      - 🇸🇬 TG:@hkaa0 新加坡_10
-      - 🇨🇳 五叶节点分享频道 @hkaa0 |台湾
-      - YV|@Zyw_Channel 4
-      - YV|tg频道:@Zyw_Channel 4
-      - US_youtube@资源分享师_253
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - US_youtube@资源分享师_189
-      - 🇳🇱 TG:@hkaa0 荷兰 2
-      - US_youtube@资源分享师_212
-      - 🇳🇴 TG:@hkaa0 挪威
-      - YV|www.zyw.asia ZYW免费节点 5
+      - ""
+      - CF|tg频道:@Zyw_Channel
+      - " 2"
+      - " 3"
+      - US_youtube@资源分享师_254
+      - 🇸🇬 狮城|tg频道:@ripaojiedian
+      - 🇺🇸 US-47.88.89.251-3258
+      - 🇺🇸 美国直连|@ripaojiedian
+      - JP_youtube@资源分享师_18
+      - 🇺🇸 洛杉矶1
+      - 🇺🇸 _US_美国_科网_12
+      - US_youtube@资源分享师_27
       - 🇨🇳 _CN_中国_114
-      - 🇺🇸 美国 160
-      - 🇨🇳 _CN_中国_3
-      - YV|tg频道:@Zyw_Channel 5
-      - US_youtube@资源分享师_84
-      - CN_youtube@资源分享师_14
-      - _电报频道 @mfjdpd 60
-      - 🇸🇬 新加坡特殊|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - US_youtube@资源分享师_214
-      - CN_youtube@资源分享师_6
-      - 🇺🇸 美国|@ripaojiedian 2
-      - 🇺🇸 TG:@hkaa0 美国_9
-      - YV|tg频道:@Zyw_Channel 6
-      - 🇺🇸 美国加利福尼亚州洛杉矶 V2CROSS.COM
-      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
-      - US_youtube@资源分享师_48
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 39
-      - US_youtube@资源分享师_29
-      - 🇺🇸 _US_美国_14
-      - 🇳🇱 荷兰 172
-      - 🇺🇸 TG:@hkaa0 美国 6
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram
+      - " 4"
+      - 🇭🇰 香港|tg频道:@ripaojiedian
+      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
+      - " 5"
+      - 🇰🇷 TG:@hkaa0 韩国_3
+      - " 6"
+      - 🇺🇸 美国 007
       - 🇰🇷 TG:@hkaa0 韩国_4
-      - CN_youtube@资源分享师_11
+      - 🇸🇬 TG:@hkaa0 新加坡_1
+      - 🇺🇸 _US_美国_86
+      - " 7"
+      - 🇰🇷 TG:@hkaa0 韩国_9
+      - CF|tg频道:@Zyw_Channel 2
+      - US_youtube@资源分享师_217
+      - 🇨🇳 _CN_中国_22
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇯🇵 日本2|@ripaojiedian
+      - SG_youtube@资源分享师_24
+      - " 8"
+      - 🇯🇵 日本|@ripaojiedian
+      - " 9"
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇺🇸 美国 315
+      - 🇨🇳 _CN_中国_3
+      - 🇸🇬 TG:@hkaa0 新加坡_6
+      - CN_youtube@资源分享师_12
+      - 🇺🇸 美国 Datability
+      - 🇸🇬 TG:@hkaa0 新加坡_7
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 170@oneclickvpnkeys
+      - " 10"
+      - " 11"
+      - US_youtube@资源分享师_48
+      - 🇰🇷 TG:@hkaa0 韩国_4 2
+      - 🇺🇸 洛杉矶4
+      - 🇺🇸 洛杉矶3
+      - 🇺🇸 美国 Datability 2
+      - TG@GEEKSHARE_14
+      - " 12"
+      - 21@oneclickvpnkeys
+      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 12
+      - 🇺🇸 美国 010
+      - 🇺🇸 洛杉矶2
+      - 🇺🇸 美国 Datability 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 US美国(youtube阿伟科技)
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 美国 334
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - US_youtube@资源分享师_174
+      - 🇺🇸 _US_美国_11
+      - " 13"
+      - 🇺🇸 美国 045
+      - " 14"
+      - CN_youtube@资源分享师_21
+      - 252_1
+      - US_youtube@资源分享师_61
+      - " 15"
+      - US_youtube@资源分享师_80
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - YD|@Zyw_Channel
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52 | 8.32Mb
+      - " 16"
+      - 🇩🇪 德国 335
+      - 🇨🇳 _CN_中国_19
+      - 🇰🇷 TG:@hkaa0 韩国_7
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇺🇸 TG:@hkaa0 美国
+      - FR_youtube@资源分享师_259
+      - 🇺🇸 _US_美国_18
+      - 🇺🇸 美国_0712533
+      - 🇺🇸 _US_美国_122
+      - 🇸🇬 新加坡 tg@freeVPNjd
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - YV|www.zyw.asia ZYW免费节点
-      - US_youtube@资源分享师_171
-      - US_youtube@资源分享师_50
-      - YD|tg频道:@Zyw_Channel
-      - 🇺🇸 TG:@hkaa0 美国_15
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇸🇬 TG:@hkaa0 新加坡_1
-      - 🇳🇱 荷兰 235
-      - US_youtube@资源分享师_80
-      - CN_speednode_0008
-      - US_youtube@资源分享师_98
-      - YV|@Zyw_Channel
-      - 🇭🇰 TG:@hkaa0 香港
-      - 🇭🇰 香港 V2CROSS.COM
-      - US_youtube@资源分享师_58
-      - FR_youtube@资源分享师_259
-      - 🇺🇸 TG:@hkaa0 美国
-      - "|27.35Mb"
-      - 🇩🇪 德国 335
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
-      - NL_youtube@资源分享师_41
-      - 🇺🇸 美国B|@ripaojiedian
-      - 8DKJ|@Zyw_Channel
-      - CN_youtube@资源分享师_17
-      - GB_youtube@资源分享师_229
-      - 🇭🇰 TG:@hkaa0 香港 2
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - US_youtube@资源分享师_116
-      - US_youtube@资源分享师_163
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - 🇺🇸 TG:@hkaa0 美国 3
-      - YD|tg频道:@Zyw_Channel 2
-      - CN_youtube@资源分享师_1
-      - 🇸🇬 TG:@hkaa0 新加坡_6
-      - 🇺🇸 TG:@hkaa0 美国 4
-      - US_youtube@资源分享师_87
       - YV|tg频道:@Zyw_Channel
-      - CN_youtube@资源分享师_118
-      - YV|@Zyw_Channel 2
-      - US_youtube@资源分享师_94
-      - 🇳🇱 TG:@hkaa0 荷兰
-      - 🇺🇸 _US_美国_57
-      - YV|www.zyw.asia ZYW免费节点 2
-      - 🇺🇸 TG:@hkaa0 美国_24
-      - YV|www.zyw.asia ZYW免费节点 3
-      - HK_youtube@资源分享师_243
-      - US_youtube@资源分享师_61
-      - _电报频道 @mfjdpd
-      - 252_1
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - CA_youtube@资源分享师_50
-      - 🇰🇷 TG:@hkaa0 韩国_5
-      - US_youtube@资源分享师_65
-      - CN_youtube@资源分享师_8
-      - 🇺🇸 TG:@hkaa0 美国_18
-      - 🇺🇸 TG:@hkaa0 美国 5
-      - HK_youtube@资源分享师_207
-      - 🇨🇳 TG:@hkaa0 中国_8
-      - 🇺🇸 _US_美国_35
-      - 🇺🇸 _US_美国_205
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 25
-      - YV|tg频道:@Zyw_Channel 2
-      - US_youtube@资源分享师_239
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_52
-      - SC_youtube@资源分享师_82
-      - NL_youtube@资源分享师_36
-      - US_youtube@资源分享师_32
-      - YV|@Zyw_Channel 3
-      - US_youtube@资源分享师_197
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2
-      - US_youtube@资源分享师_218
+      - 🇯🇵 TG:@hkaa0 日本_4
       - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_81
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_107
-      - 🇭🇺 TG:@hkaa0 匈牙利
-      - US_youtube@资源分享师_184
-      - US_youtube@资源分享师_181
-      - US_youtube@资源分享师_95
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _US_美国_86
-      - 🇺🇸 _US_美国_11
-      - 🇺🇸 美国加利福尼亚州洛杉矶 CeraNetworks数据中心
-      - 🇰🇷 TG:@hkaa0 韩国_7
-      - TG:@hkaa0 阿富汗
-      - 🇮🇹 TG:@hkaa0 意大利
-      - 🇺🇸 美国 367
-      - RU_youtube@资源分享师_20
-      - 🇰🇷 TG:@hkaa0 韩国_3
-      - US_youtube@资源分享师_73
-      - 🇰🇪 TG:@hkaa0 肯尼亚
-      - YV|tg频道:@Zyw_Channel 3
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_55
-      - RELAY-104.18.29.109-1580
-      - 🇺🇸 TG:@hkaa0 美国_24 2
-      - CN_youtube@资源分享师_12
-      - US_youtube@资源分享师_210
-      - 🇺🇸 _US_美国_162
-      - 🇺🇸 美国特殊|@ripaojiedian
-      - 🇭🇰 HK(AzadNet.t.me)_031
-      - YV|www.zyw.asia ZYW免费节点 4
-      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
-      - 🇸🇬 TG:@hkaa0 新加坡_10
-      - 🇨🇳 五叶节点分享频道 @hkaa0 |台湾
-      - YV|@Zyw_Channel 4
-      - YV|tg频道:@Zyw_Channel 4
-      - US_youtube@资源分享师_253
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - US_youtube@资源分享师_189
-      - 🇳🇱 TG:@hkaa0 荷兰 2
-      - US_youtube@资源分享师_212
-      - 🇳🇴 TG:@hkaa0 挪威
-      - YV|www.zyw.asia ZYW免费节点 5
+      - ""
+      - CF|tg频道:@Zyw_Channel
+      - " 2"
+      - " 3"
+      - US_youtube@资源分享师_254
+      - 🇸🇬 狮城|tg频道:@ripaojiedian
+      - 🇺🇸 US-47.88.89.251-3258
+      - 🇺🇸 美国直连|@ripaojiedian
+      - JP_youtube@资源分享师_18
+      - 🇺🇸 洛杉矶1
+      - 🇺🇸 _US_美国_科网_12
+      - US_youtube@资源分享师_27
       - 🇨🇳 _CN_中国_114
-      - 🇺🇸 美国 160
-      - 🇨🇳 _CN_中国_3
-      - YV|tg频道:@Zyw_Channel 5
-      - US_youtube@资源分享师_84
-      - CN_youtube@资源分享师_14
-      - _电报频道 @mfjdpd 60
-      - 🇸🇬 新加坡特殊|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - US_youtube@资源分享师_214
-      - CN_youtube@资源分享师_6
-      - 🇺🇸 美国|@ripaojiedian 2
-      - 🇺🇸 TG:@hkaa0 美国_9
-      - YV|tg频道:@Zyw_Channel 6
-      - 🇺🇸 美国加利福尼亚州洛杉矶 V2CROSS.COM
-      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
-      - US_youtube@资源分享师_48
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 39
-      - US_youtube@资源分享师_29
-      - 🇺🇸 _US_美国_14
-      - 🇳🇱 荷兰 172
-      - 🇺🇸 TG:@hkaa0 美国 6
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram
+      - " 4"
+      - 🇭🇰 香港|tg频道:@ripaojiedian
+      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
+      - " 5"
+      - 🇰🇷 TG:@hkaa0 韩国_3
+      - " 6"
+      - 🇺🇸 美国 007
       - 🇰🇷 TG:@hkaa0 韩国_4
-      - CN_youtube@资源分享师_11
+      - 🇸🇬 TG:@hkaa0 新加坡_1
+      - 🇺🇸 _US_美国_86
+      - " 7"
+      - 🇰🇷 TG:@hkaa0 韩国_9
+      - CF|tg频道:@Zyw_Channel 2
+      - US_youtube@资源分享师_217
+      - 🇨🇳 _CN_中国_22
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇯🇵 日本2|@ripaojiedian
+      - SG_youtube@资源分享师_24
+      - " 8"
+      - 🇯🇵 日本|@ripaojiedian
+      - " 9"
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇺🇸 美国 315
+      - 🇨🇳 _CN_中国_3
+      - 🇸🇬 TG:@hkaa0 新加坡_6
+      - CN_youtube@资源分享师_12
+      - 🇺🇸 美国 Datability
+      - 🇸🇬 TG:@hkaa0 新加坡_7
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 170@oneclickvpnkeys
+      - " 10"
+      - " 11"
+      - US_youtube@资源分享师_48
+      - 🇰🇷 TG:@hkaa0 韩国_4 2
+      - 🇺🇸 洛杉矶4
+      - 🇺🇸 洛杉矶3
+      - 🇺🇸 美国 Datability 2
+      - TG@GEEKSHARE_14
+      - " 12"
+      - 21@oneclickvpnkeys
+      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 12
+      - 🇺🇸 美国 010
+      - 🇺🇸 洛杉矶2
+      - 🇺🇸 美国 Datability 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 US美国(youtube阿伟科技)
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 美国 334
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - US_youtube@资源分享师_174
+      - 🇺🇸 _US_美国_11
+      - " 13"
+      - 🇺🇸 美国 045
+      - " 14"
+      - CN_youtube@资源分享师_21
+      - 252_1
+      - US_youtube@资源分享师_61
+      - " 15"
+      - US_youtube@资源分享师_80
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - YD|@Zyw_Channel
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52 | 8.32Mb
+      - " 16"
+      - 🇩🇪 德国 335
+      - 🇨🇳 _CN_中国_19
+      - 🇰🇷 TG:@hkaa0 韩国_7
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇺🇸 TG:@hkaa0 美国
+      - FR_youtube@资源分享师_259
+      - 🇺🇸 _US_美国_18
+      - 🇺🇸 美国_0712533
+      - 🇺🇸 _US_美国_122
+      - 🇸🇬 新加坡 tg@freeVPNjd
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - YV|www.zyw.asia ZYW免费节点
-      - US_youtube@资源分享师_171
-      - US_youtube@资源分享师_50
-      - YD|tg频道:@Zyw_Channel
-      - 🇺🇸 TG:@hkaa0 美国_15
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇸🇬 TG:@hkaa0 新加坡_1
-      - 🇳🇱 荷兰 235
-      - US_youtube@资源分享师_80
-      - CN_speednode_0008
-      - US_youtube@资源分享师_98
-      - YV|@Zyw_Channel
-      - 🇭🇰 TG:@hkaa0 香港
-      - 🇭🇰 香港 V2CROSS.COM
-      - US_youtube@资源分享师_58
-      - FR_youtube@资源分享师_259
-      - 🇺🇸 TG:@hkaa0 美国
-      - "|27.35Mb"
-      - 🇩🇪 德国 335
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
-      - NL_youtube@资源分享师_41
-      - 🇺🇸 美国B|@ripaojiedian
-      - 8DKJ|@Zyw_Channel
-      - CN_youtube@资源分享师_17
-      - GB_youtube@资源分享师_229
-      - 🇭🇰 TG:@hkaa0 香港 2
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - US_youtube@资源分享师_116
-      - US_youtube@资源分享师_163
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - 🇺🇸 TG:@hkaa0 美国 3
-      - YD|tg频道:@Zyw_Channel 2
-      - CN_youtube@资源分享师_1
-      - 🇸🇬 TG:@hkaa0 新加坡_6
-      - 🇺🇸 TG:@hkaa0 美国 4
-      - US_youtube@资源分享师_87
       - YV|tg频道:@Zyw_Channel
-      - CN_youtube@资源分享师_118
-      - YV|@Zyw_Channel 2
-      - US_youtube@资源分享师_94
-      - 🇳🇱 TG:@hkaa0 荷兰
-      - 🇺🇸 _US_美国_57
-      - YV|www.zyw.asia ZYW免费节点 2
-      - 🇺🇸 TG:@hkaa0 美国_24
-      - YV|www.zyw.asia ZYW免费节点 3
-      - HK_youtube@资源分享师_243
-      - US_youtube@资源分享师_61
-      - _电报频道 @mfjdpd
-      - 252_1
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - CA_youtube@资源分享师_50
-      - 🇰🇷 TG:@hkaa0 韩国_5
-      - US_youtube@资源分享师_65
-      - CN_youtube@资源分享师_8
-      - 🇺🇸 TG:@hkaa0 美国_18
-      - 🇺🇸 TG:@hkaa0 美国 5
-      - HK_youtube@资源分享师_207
-      - 🇨🇳 TG:@hkaa0 中国_8
-      - 🇺🇸 _US_美国_35
-      - 🇺🇸 _US_美国_205
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 25
-      - YV|tg频道:@Zyw_Channel 2
-      - US_youtube@资源分享师_239
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_52
-      - SC_youtube@资源分享师_82
-      - NL_youtube@资源分享师_36
-      - US_youtube@资源分享师_32
-      - YV|@Zyw_Channel 3
-      - US_youtube@资源分享师_197
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2
-      - US_youtube@资源分享师_218
+      - 🇯🇵 TG:@hkaa0 日本_4
       - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_81
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_107
-      - 🇭🇺 TG:@hkaa0 匈牙利
-      - US_youtube@资源分享师_184
-      - US_youtube@资源分享师_181
-      - US_youtube@资源分享师_95
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _US_美国_86
-      - 🇺🇸 _US_美国_11
-      - 🇺🇸 美国加利福尼亚州洛杉矶 CeraNetworks数据中心
-      - 🇰🇷 TG:@hkaa0 韩国_7
-      - TG:@hkaa0 阿富汗
-      - 🇮🇹 TG:@hkaa0 意大利
-      - 🇺🇸 美国 367
-      - RU_youtube@资源分享师_20
-      - 🇰🇷 TG:@hkaa0 韩国_3
-      - US_youtube@资源分享师_73
-      - 🇰🇪 TG:@hkaa0 肯尼亚
-      - YV|tg频道:@Zyw_Channel 3
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_55
-      - RELAY-104.18.29.109-1580
-      - 🇺🇸 TG:@hkaa0 美国_24 2
-      - CN_youtube@资源分享师_12
-      - US_youtube@资源分享师_210
-      - 🇺🇸 _US_美国_162
-      - 🇺🇸 美国特殊|@ripaojiedian
-      - 🇭🇰 HK(AzadNet.t.me)_031
-      - YV|www.zyw.asia ZYW免费节点 4
-      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
-      - 🇸🇬 TG:@hkaa0 新加坡_10
-      - 🇨🇳 五叶节点分享频道 @hkaa0 |台湾
-      - YV|@Zyw_Channel 4
-      - YV|tg频道:@Zyw_Channel 4
-      - US_youtube@资源分享师_253
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - US_youtube@资源分享师_189
-      - 🇳🇱 TG:@hkaa0 荷兰 2
-      - US_youtube@资源分享师_212
-      - 🇳🇴 TG:@hkaa0 挪威
-      - YV|www.zyw.asia ZYW免费节点 5
+      - ""
+      - CF|tg频道:@Zyw_Channel
+      - " 2"
+      - " 3"
+      - US_youtube@资源分享师_254
+      - 🇸🇬 狮城|tg频道:@ripaojiedian
+      - 🇺🇸 US-47.88.89.251-3258
+      - 🇺🇸 美国直连|@ripaojiedian
+      - JP_youtube@资源分享师_18
+      - 🇺🇸 洛杉矶1
+      - 🇺🇸 _US_美国_科网_12
+      - US_youtube@资源分享师_27
       - 🇨🇳 _CN_中国_114
-      - 🇺🇸 美国 160
-      - 🇨🇳 _CN_中国_3
-      - YV|tg频道:@Zyw_Channel 5
-      - US_youtube@资源分享师_84
-      - CN_youtube@资源分享师_14
-      - _电报频道 @mfjdpd 60
-      - 🇸🇬 新加坡特殊|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - US_youtube@资源分享师_214
-      - CN_youtube@资源分享师_6
-      - 🇺🇸 美国|@ripaojiedian 2
-      - 🇺🇸 TG:@hkaa0 美国_9
-      - YV|tg频道:@Zyw_Channel 6
-      - 🇺🇸 美国加利福尼亚州洛杉矶 V2CROSS.COM
-      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
-      - US_youtube@资源分享师_48
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 39
-      - US_youtube@资源分享师_29
-      - 🇺🇸 _US_美国_14
-      - 🇳🇱 荷兰 172
-      - 🇺🇸 TG:@hkaa0 美国 6
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram
+      - " 4"
+      - 🇭🇰 香港|tg频道:@ripaojiedian
+      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
+      - " 5"
+      - 🇰🇷 TG:@hkaa0 韩国_3
+      - " 6"
+      - 🇺🇸 美国 007
       - 🇰🇷 TG:@hkaa0 韩国_4
-      - CN_youtube@资源分享师_11
+      - 🇸🇬 TG:@hkaa0 新加坡_1
+      - 🇺🇸 _US_美国_86
+      - " 7"
+      - 🇰🇷 TG:@hkaa0 韩国_9
+      - CF|tg频道:@Zyw_Channel 2
+      - US_youtube@资源分享师_217
+      - 🇨🇳 _CN_中国_22
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇯🇵 日本2|@ripaojiedian
+      - SG_youtube@资源分享师_24
+      - " 8"
+      - 🇯🇵 日本|@ripaojiedian
+      - " 9"
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇺🇸 美国 315
+      - 🇨🇳 _CN_中国_3
+      - 🇸🇬 TG:@hkaa0 新加坡_6
+      - CN_youtube@资源分享师_12
+      - 🇺🇸 美国 Datability
+      - 🇸🇬 TG:@hkaa0 新加坡_7
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 170@oneclickvpnkeys
+      - " 10"
+      - " 11"
+      - US_youtube@资源分享师_48
+      - 🇰🇷 TG:@hkaa0 韩国_4 2
+      - 🇺🇸 洛杉矶4
+      - 🇺🇸 洛杉矶3
+      - 🇺🇸 美国 Datability 2
+      - TG@GEEKSHARE_14
+      - " 12"
+      - 21@oneclickvpnkeys
+      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 12
+      - 🇺🇸 美国 010
+      - 🇺🇸 洛杉矶2
+      - 🇺🇸 美国 Datability 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 US美国(youtube阿伟科技)
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 美国 334
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - US_youtube@资源分享师_174
+      - 🇺🇸 _US_美国_11
+      - " 13"
+      - 🇺🇸 美国 045
+      - " 14"
+      - CN_youtube@资源分享师_21
+      - 252_1
+      - US_youtube@资源分享师_61
+      - " 15"
+      - US_youtube@资源分享师_80
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - YD|@Zyw_Channel
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52 | 8.32Mb
+      - " 16"
+      - 🇩🇪 德国 335
+      - 🇨🇳 _CN_中国_19
+      - 🇰🇷 TG:@hkaa0 韩国_7
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇺🇸 TG:@hkaa0 美国
+      - FR_youtube@资源分享师_259
+      - 🇺🇸 _US_美国_18
+      - 🇺🇸 美国_0712533
+      - 🇺🇸 _US_美国_122
+      - 🇸🇬 新加坡 tg@freeVPNjd
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - YV|www.zyw.asia ZYW免费节点
-      - US_youtube@资源分享师_171
-      - US_youtube@资源分享师_50
-      - YD|tg频道:@Zyw_Channel
-      - 🇺🇸 TG:@hkaa0 美国_15
-      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 🇸🇬 TG:@hkaa0 新加坡_1
-      - 🇳🇱 荷兰 235
-      - US_youtube@资源分享师_80
-      - CN_speednode_0008
-      - US_youtube@资源分享师_98
-      - YV|@Zyw_Channel
-      - 🇭🇰 TG:@hkaa0 香港
-      - 🇭🇰 香港 V2CROSS.COM
-      - US_youtube@资源分享师_58
-      - FR_youtube@资源分享师_259
-      - 🇺🇸 TG:@hkaa0 美国
-      - "|27.35Mb"
-      - 🇩🇪 德国 335
-      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
-      - NL_youtube@资源分享师_41
-      - 🇺🇸 美国B|@ripaojiedian
-      - 8DKJ|@Zyw_Channel
-      - CN_youtube@资源分享师_17
-      - GB_youtube@资源分享师_229
-      - 🇭🇰 TG:@hkaa0 香港 2
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
-      - US_youtube@资源分享师_116
-      - US_youtube@资源分享师_163
-      - 🇺🇸 TG:@hkaa0 美国 2
-      - 🇺🇸 TG:@hkaa0 美国 3
-      - YD|tg频道:@Zyw_Channel 2
-      - CN_youtube@资源分享师_1
-      - 🇸🇬 TG:@hkaa0 新加坡_6
-      - 🇺🇸 TG:@hkaa0 美国 4
-      - US_youtube@资源分享师_87
       - YV|tg频道:@Zyw_Channel
-      - CN_youtube@资源分享师_118
-      - YV|@Zyw_Channel 2
-      - US_youtube@资源分享师_94
-      - 🇳🇱 TG:@hkaa0 荷兰
-      - 🇺🇸 _US_美国_57
-      - YV|www.zyw.asia ZYW免费节点 2
-      - 🇺🇸 TG:@hkaa0 美国_24
-      - YV|www.zyw.asia ZYW免费节点 3
-      - HK_youtube@资源分享师_243
-      - US_youtube@资源分享师_61
-      - _电报频道 @mfjdpd
-      - 252_1
-      - 🇺🇸 TG:@hkaa0 美国_5
-      - CA_youtube@资源分享师_50
-      - 🇰🇷 TG:@hkaa0 韩国_5
-      - US_youtube@资源分享师_65
-      - CN_youtube@资源分享师_8
-      - 🇺🇸 TG:@hkaa0 美国_18
-      - 🇺🇸 TG:@hkaa0 美国 5
-      - HK_youtube@资源分享师_207
-      - 🇨🇳 TG:@hkaa0 中国_8
-      - 🇺🇸 _US_美国_35
-      - 🇺🇸 _US_美国_205
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 25
-      - YV|tg频道:@Zyw_Channel 2
-      - US_youtube@资源分享师_239
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_52
-      - SC_youtube@资源分享师_82
-      - NL_youtube@资源分享师_36
-      - US_youtube@资源分享师_32
-      - YV|@Zyw_Channel 3
-      - US_youtube@资源分享师_197
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 2
-      - US_youtube@资源分享师_218
+      - 🇯🇵 TG:@hkaa0 日本_4
       - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_81
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_107
-      - 🇭🇺 TG:@hkaa0 匈牙利
-      - US_youtube@资源分享师_184
-      - US_youtube@资源分享师_181
-      - US_youtube@资源分享师_95
-      - 🇺🇸 美国 V2CROSS.COM
-      - 🇺🇸 _US_美国_86
-      - 🇺🇸 _US_美国_11
-      - 🇺🇸 美国加利福尼亚州洛杉矶 CeraNetworks数据中心
-      - 🇰🇷 TG:@hkaa0 韩国_7
-      - TG:@hkaa0 阿富汗
-      - 🇮🇹 TG:@hkaa0 意大利
-      - 🇺🇸 美国 367
-      - RU_youtube@资源分享师_20
-      - 🇰🇷 TG:@hkaa0 韩国_3
-      - US_youtube@资源分享师_73
-      - 🇰🇪 TG:@hkaa0 肯尼亚
-      - YV|tg频道:@Zyw_Channel 3
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_55
-      - RELAY-104.18.29.109-1580
-      - 🇺🇸 TG:@hkaa0 美国_24 2
-      - CN_youtube@资源分享师_12
-      - US_youtube@资源分享师_210
-      - 🇺🇸 _US_美国_162
-      - 🇺🇸 美国特殊|@ripaojiedian
-      - 🇭🇰 HK(AzadNet.t.me)_031
-      - YV|www.zyw.asia ZYW免费节点 4
-      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
-      - 🇸🇬 TG:@hkaa0 新加坡_10
-      - 🇨🇳 五叶节点分享频道 @hkaa0 |台湾
-      - YV|@Zyw_Channel 4
-      - YV|tg频道:@Zyw_Channel 4
-      - US_youtube@资源分享师_253
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - US_youtube@资源分享师_189
-      - 🇳🇱 TG:@hkaa0 荷兰 2
-      - US_youtube@资源分享师_212
-      - 🇳🇴 TG:@hkaa0 挪威
-      - YV|www.zyw.asia ZYW免费节点 5
+      - ""
+      - CF|tg频道:@Zyw_Channel
+      - " 2"
+      - " 3"
+      - US_youtube@资源分享师_254
+      - 🇸🇬 狮城|tg频道:@ripaojiedian
+      - 🇺🇸 US-47.88.89.251-3258
+      - 🇺🇸 美国直连|@ripaojiedian
+      - JP_youtube@资源分享师_18
+      - 🇺🇸 洛杉矶1
+      - 🇺🇸 _US_美国_科网_12
+      - US_youtube@资源分享师_27
       - 🇨🇳 _CN_中国_114
-      - 🇺🇸 美国 160
-      - 🇨🇳 _CN_中国_3
-      - YV|tg频道:@Zyw_Channel 5
-      - US_youtube@资源分享师_84
-      - CN_youtube@资源分享师_14
-      - _电报频道 @mfjdpd 60
-      - 🇸🇬 新加坡特殊|@ripaojiedian
-      - 🇺🇸 美国|@ripaojiedian
-      - US_youtube@资源分享师_214
-      - CN_youtube@资源分享师_6
-      - 🇺🇸 美国|@ripaojiedian 2
-      - 🇺🇸 TG:@hkaa0 美国_9
-      - YV|tg频道:@Zyw_Channel 6
-      - 🇺🇸 美国加利福尼亚州洛杉矶 V2CROSS.COM
-      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
-      - US_youtube@资源分享师_48
-      - 🇺🇸 US(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 39
-      - US_youtube@资源分享师_29
-      - 🇺🇸 _US_美国_14
-      - 🇳🇱 荷兰 172
-      - 🇺🇸 TG:@hkaa0 美国 6
-      - VN(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram
+      - " 4"
+      - 🇭🇰 香港|tg频道:@ripaojiedian
+      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 11
+      - " 5"
+      - 🇰🇷 TG:@hkaa0 韩国_3
+      - " 6"
+      - 🇺🇸 美国 007
       - 🇰🇷 TG:@hkaa0 韩国_4
-      - CN_youtube@资源分享师_11
+      - 🇸🇬 TG:@hkaa0 新加坡_1
+      - 🇺🇸 _US_美国_86
+      - " 7"
+      - 🇰🇷 TG:@hkaa0 韩国_9
+      - CF|tg频道:@Zyw_Channel 2
+      - US_youtube@资源分享师_217
+      - 🇨🇳 _CN_中国_22
+      - 🇺🇸 美国 加利福尼亚州圣何塞PEG TECH
+      - 🇯🇵 日本2|@ripaojiedian
+      - SG_youtube@资源分享师_24
+      - " 8"
+      - 🇯🇵 日本|@ripaojiedian
+      - " 9"
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇰🇷 TG:@hkaa0 韩国_5
+      - 🇺🇸 美国 315
+      - 🇨🇳 _CN_中国_3
+      - 🇸🇬 TG:@hkaa0 新加坡_6
+      - CN_youtube@资源分享师_12
+      - 🇺🇸 美国 Datability
+      - 🇸🇬 TG:@hkaa0 新加坡_7
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 170@oneclickvpnkeys
+      - " 10"
+      - " 11"
+      - US_youtube@资源分享师_48
+      - 🇰🇷 TG:@hkaa0 韩国_4 2
+      - 🇺🇸 洛杉矶4
+      - 🇺🇸 洛杉矶3
+      - 🇺🇸 美国 Datability 2
+      - TG@GEEKSHARE_14
+      - " 12"
+      - 21@oneclickvpnkeys
+      - 🇰🇷 KR(公共订阅质量差,关注TG频道@FProxies可获取高质量专属订阅) 12
+      - 🇺🇸 美国 010
+      - 🇺🇸 洛杉矶2
+      - 🇺🇸 美国 Datability 3
+      - 🇺🇸 _US_美国
+      - 🇺🇸 US美国(youtube阿伟科技)
+      - 🇸🇬 五叶节点分享频道 @hkaa0 |新加坡
+      - 🇺🇸 _US_美国_16
+      - 🇺🇸 美国 334
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+      - US_youtube@资源分享师_174
+      - 🇺🇸 _US_美国_11
+      - " 13"
+      - 🇺🇸 美国 045
+      - " 14"
+      - CN_youtube@资源分享师_21
+      - 252_1
+      - US_youtube@资源分享师_61
+      - " 15"
+      - US_youtube@资源分享师_80
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - YD|@Zyw_Channel
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_52 | 8.32Mb
+      - " 16"
+      - 🇩🇪 德国 335
+      - 🇨🇳 _CN_中国_19
+      - 🇰🇷 TG:@hkaa0 韩国_7
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇺🇸 TG:@hkaa0 美国
+      - FR_youtube@资源分享师_259
+      - 🇺🇸 _US_美国_18
+      - 🇺🇸 美国_0712533
+      - 🇺🇸 _US_美国_122
+      - 🇸🇬 新加坡 tg@freeVPNjd
   - name: 🛑 禁止代理
     type: select
     proxies:
