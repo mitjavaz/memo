@@ -5,87 +5,37 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 USA NEW, server: us1g.easylink1.com, port: 7550, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us1ku.easylink1.com}}}
-  - {name: 🇺🇸 美国VIP|高速|节点09, server: sus107.qiaqia.win, port: 8080, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus107.qiaqia.win}}}
-  - {name: 🇭🇰 香港VIP|高速|节点04, server: bhk147.qiaqia.win, port: 8080, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk147.qiaqia.win}}}
-  - {name: 🇺🇸 美国Plus|高速|节点05, server: sus74.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus74.qiaqia.win}}}
-  - {name: 🇹🇭 泰国❤TH, server: cmbestvm.ifanr.org, port: 20120, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇨🇦 加拿大 Canada Netflix, server: cag.easylink1.com, port: 13056, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cag.easylink1.com}}}
-  - {name: 🇭🇰 香港Mini|高速|节点04, server: bhk145.qiaqia.win, port: 8080, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk145.qiaqia.win}}}
-  - {name: 🇸🇬 新加坡❤️SG➤5|奈飞NF|OpenAi, server: cmbestvm.ifaner.club, port: 20122, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇸🇬 新加坡❤SG➤3奈飞NF|OpenAi, server: specialcunicom.zifanr.net, port: 50716, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇺🇸 美国❤CN2➤01, server: cmbestvm.ifanr.org, port: 20550, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇺🇸 美国Plus|高速|节点02, server: sus50.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus50.qiaqia.win}}}
+  - {name: 🇸🇬 新加坡专线 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: 66c1a068-4b8a-411c-93d0-cfb9902853e6}
+  - {name: 🇩🇪 DE德国(youtube阿伟科技)_2, server: 143.42.63.214, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6809403169}
+  - {name: CF|@Zyw_Channel, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇨🇳 台湾 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: 291d486d-1d76-4572-a995-66c917a74cf3}
+  - {name: 🇺🇸 美国A|@ripaojiedian, server: 167.160.91.118, port: 10077, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 🇸🇬 狮城 tg@freeVPNjd, server: weo-sg-1.laowufly.cf, port: 23333, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
-  - {name: 🇺🇸 美国Plus|高速|节点09, server: sus106.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus106.qiaqia.win}}}
-  - {name: TG@kxswa|https://t.me/kxswa, server: 104.25.177.236, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
-  - {name: 🇺🇸 美国❤CN2➤04, server: cmbestvm.ifanr.org, port: 20809, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇺🇸 美国Mini|高速|节点09, server: sus105.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus105.qiaqia.win}}}
-  - {name: 🇯🇵 日本❤JP ➤01, server: cmbestvm.ifaner.club, port: 30629, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇺🇸 美国VIP|高速|节点03, server: sus59.qiaqia.win, port: 8080, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus59.qiaqia.win}}}
-  - {name: 🇺🇸 美国Mini|高速|节点08, server: sus97.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus97.qiaqia.win}}}
-  - {name: 🇬🇧 UK2 英国 Netflix, server: g10000.easylink1.com, port: 13067, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: g10000.easylink1.com}}}
-  - {name: 🇺🇸 美国Mini|高速|节点07, server: sus89.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus89.qiaqia.win}}}
-  - {name: 🇸🇬 新加坡02 tg@freeVPNjd, server: weo-sg-1.laowufly.cf, port: 2333, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
-  - {name: 🇺🇸 美国Mini|高速|节点02, server: sus49.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus49.qiaqia.win}}}
-  - {name: YV|www.zyw.asia ZYW免费节点, server: weo-sg-2.laowufly.cf, port: 1234, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
-  - {name: 🇺🇸 美国Mini|高速|节点05, server: sus73.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus73.qiaqia.win}}}
-  - {name: 🇺🇸 USA NETFLIX, server: us22g.easylink1.com, port: 12345, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us22.easylink1.com}}}
-  - {name: 🇯🇵 Japan00 日本, server: jp1g.easylink1.com, port: 21315, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp1g.easylink1.com}}}
-  - {name: TG@kxswa|https://t.me/kxswa 2, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg3.sanfencdn2.com}}}
-  - {name: TG@kxswa|https://t.me/kxswa 3, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg4.sanfencdn2.com}}}
-  - {name: TG@kxswa|https://t.me/kxswa 4, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: 2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us5.sanfencdn2.com}}}
-  - {name: 🇳🇱 荷兰 Netherlands, server: nlg.easylink1.com, port: 21307, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: nl.easylink1.com}}}
-  - {name: 🇭🇰 Hongkong 香港 HKT, server: tkg.easylink1.com, port: 13115, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tkg.easylink1.com}}}
-  - {name: 🇭🇰 Hongkong  00 香港, server: sg2g.easylink1.com, port: 13047, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2g.easylink1.com}}}
-  - {name: TG@kxswa|https://t.me/kxswa 5, server: ct1-nc.go001.buzz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: f6f282b5-9dcf-4f5f-9961-47665984f773}
-  - {name: 🇮🇳 印度 India, server: ing.easylink1.com, port: 13053, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ing.easylink1.com}}}
-  - {name: TG@kxswa|https://t.me/kxswa 6, server: 140.99.129.244, port: 48901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 Hongkong02 香港 Test, server: hk3g.easylink1.com, port: 21321, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk3g.easylink1.com}}}
-  - {name: 🇮🇩 Indonesia 印度尼西亚, server: indog.easylink1.com, port: 10010, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: indog.easylink1.com}}}
-  - {name: 🇭🇰 广州-香港-纽约隧道, server: gzyda.821111.xyz, port: 16011, type: vmess, uuid: f607aade-8845-35be-9e51-2ce9e0bd178f, alterId: 0, cipher: auto, tls: false}
-  - {name: TG@kxswa|https://t.me/kxswa 7, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn1.com}}}
-  - {name: 🇸🇬 Singapore00 新加坡, server: sp1dg.easylink1.com, port: 22222, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sp1dg.easylink1.com}}}
-  - {name: 🇬🇧 UK 英国, server: ukguang.easylink1.com, port: 13052, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uk.easylink1.com}}}
-  - {name: 🇨🇳 Taiwan01 台湾, server: hinetg.easylink1.com, port: 13177, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /img, headers: {Host: hinet1.easylink1.com}}}
-  - {name: TG@kxswa|https://t.me/kxswa 8, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us3.sanfencdn1.com}}}
-  - {name: 🇸🇬 Singapore01 新加坡, server: guang2.easylink1.com, port: 59103, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: guang2.easylink1.com}}}
-  - {name: 🇭🇰 Hongkong 00 香港, server: hk0g.easylink1.com, port: 13100, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk0g.easylink1.com}}}
-  - {name: 🇯🇵 Japan01 日本, server: guangz1.easylink1.com, port: 13051, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: guangz1.easylink1.com}}}
-  - {name: TG@kxswa|https://t.me/kxswa 9, server: 198.2.218.207, port: 51203, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: TG@kxswa|https://t.me/kxswa 10, server: cfcdn2.sanfencdn.net, port: 443, type: vmess, uuid: 2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us4.sanfencdn1.com}}}
-  - {name: 🇨🇳 台湾❤HiNet02, server: cmbestvm.ifaner.club, port: 20019, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇲🇾 马来西亚❤️MA|解锁奈飞NF|OpenAi, server: cmbestvm.ifaner.club, port: 30223, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇸🇬 山东-新加坡-迈阿密隧道, server: sdyd.ygdyf.com, port: 54953, type: vmess, uuid: f607aade-8845-35be-9e51-2ce9e0bd178f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国 France Netflix, server: frg.easylink1.com, port: 13112, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: frnew.easylink1.com}}}
-  - {name: 🇺🇸 美国❤CN2➤03, server: specialcunicom.zifanr.net, port: 50707, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇭🇰 香港❤HK➤05, server: specialcunicom.zifanr.net, port: 30009, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇭🇰 香港VIP|高速|节点05, server: bhk155.qiaqia.win, port: 8080, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk155.qiaqia.win}}}
-  - {name: TG@kxswa|https://t.me/kxswa 11, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 2a7334e2-d410-4cb1-bb35-8a15bc1a8d9e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg2.sanfencdn2.com}}}
-  - {name: 🇭🇰 香港VIP|高速|节点06, server: bhk163.qiaqia.win, port: 8080, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: bhk163.qiaqia.win}}}
-  - {name: 🇺🇸 美国❤CN2➤02, server: cmbestvm.ifanr.org, port: 20539, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇺🇸 美国❤CN2➤06, server: specialcunicom.zifanr.net, port: 21107, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇭🇰 香港❤HK➤07, server: cmgz18.zifaner.top, port: 21211, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇩🇪 Germany 德国 NEW, server: deg.easylink1.com, port: 13099, type: vmess, uuid: 9adf3e80-b241-3d59-a74d-3a7e17678d81, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: deg.easylink1.com}}}
-  - {name: 🇨🇳 台湾❤HiNet01, server: cmbestvm.ifaner.club, port: 20598, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇮🇹 意大利❤️IT, server: cmbestvm.ifanr.org, port: 23225, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇦🇪 阿联酋杜拜❤DuBai, server: cmbestvm.ifaner.club, port: 20401, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
+  - {name: 🇸🇬 新加坡_0721029, server: 146.190.90.244, port: 443, type: trojan, password: a185ed4c-2b5c-4a6f-a674-4b67f9c3bfbc, skip-cert-verify: true}
   - {name: 🇭🇰 香港❤HK➤08, server: cmbestvm.ifanr.org, port: 20718, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: ss中转测试, server: gzyda.821111.xyz, port: 24347, type: ss, cipher: aes-128-gcm, password: gIQb4QFQOw3ELAhz}
   - {name: 🇸🇬 新加坡❤SG➤2, server: cmbestvm.ifaner.club, port: 20529, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
+  - {name: 🇯🇵 日本专线05 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 1d7310ac-ea14-4aaf-abce-5e954852d240}
+  - {name: 🇯🇵 日本专线02 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: 2d669f69-a931-460a-b7ae-a3967e115bb6}
+  - {name: 🇯🇵 日本专线04 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: c79f85c7-a567-4e06-ad8d-e1eaaafac388}
+  - {name: 🇸🇬 新加坡专线02 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 8fcc2a1b-dd3a-4471-a57f-b2c1918b3dac}
+  - {name: 🇭🇰 香港专线04 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 33a508e0-6f35-4cfe-86e2-0dc29c91b109}
+  - {name: 🇯🇵 IN_分享日记, server: 139.59.1.39, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: MWiIVYCyO8FfybKWhjt9Sz}
+  - {name: 🇸🇬 新加坡02 tg@freeVPNjd, server: weo-sg-1.laowufly.cf, port: 2333, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
   - {name: 🇬🇧 英国❤UK, server: cmbestvm.ifaner.club, port: 22017, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: TG@kxswa|https://t.me/kxswa 12, server: 45.58.180.142, port: 49877, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾❤HiNet06, server: specialcunicom.zifanr.net, port: 21222, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: TG@kxswa|https://t.me/kxswa 13, server: cn2-2-nc.go001.buzz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: f6f282b5-9dcf-4f5f-9961-47665984f773}
-  - {name: 🇭🇰 香港❤HK➤09, server: specialcunicom.zifanr.net, port: 62717, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇦🇺 澳大利亚❤AU, server: specialcunicom.zifanr.net, port: 30514, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇺🇸 美国Plus|高速|节点08, server: sus98.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus98.qiaqia.win}}}
-  - {name: 🇰🇷 韩国❤KR➤01, server: specialcunicom.zifanr.net, port: 28108, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇭🇰 香港❤HK➤06, server: cmbestvm.ifaner.club, port: 20918, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇭🇰 香港❤HK➤03, server: cmbestvm.ifanr.org, port: 20536, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇺🇸 美国Plus|高速|节点07, server: sus90.qiaqia.win, port: 80, type: vmess, uuid: 97c13ee3-6e1a-350a-b1a7-93ea710a7504, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: sus90.qiaqia.win}}}
-  - {name: 🇭🇰 香港❤HK➤02, server: cmbestvm.ifanr.org, port: 20112, type: ssr, cipher: chacha20-ietf, password: download.microso, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 12884:bXbKLA, obfs-param: 95bd312884.download.microsoft.com}
-  - {name: 🇺🇸 美国 Xerox, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: 106741c8-61c9-4119-af91-05d5898e2709, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港专线 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 93d68885-9b42-4db2-b413-729567e67583}
+  - {name: TG@GEEKSAHRE_10, server: 45.90.218.156, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: m1OoPMx5W_8aGUQZZm8Mbg}
+  - {name: 🇸🇬 新加坡_0720021, server: 159.65.132.147, port: 443, type: trojan, password: a185ed4c-2b5c-4a6f-a674-4b67f9c3bfbc, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇯🇵 @hkaa0||日本_2, server: 43.207.78.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本专线03 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30008, type: ss, cipher: chacha20-ietf-poly1305, password: 06e6d7c8-cafb-4158-a7ec-2351c8afb323}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_2, server: 170.187.198.19, port: 43326, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 6809403169}
+  - {name: 🇺🇸 _US_美国_欢迎订阅yui科技_118, server: 163.123.192.60, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇦🇱 @hkaa0||阿尔巴尼亚, server: 31.171.153.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇯🇵 日本专线01 tg@freeVPNjd, server: cn1.laomao2.xyz, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: 40c71158-84ba-4acf-a168-b5426a672a5e}
+  - {name: 🇰🇪 sub.lly.cz||肯尼亚, server: 62.12.116.66, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇸🇬 _SG_新加坡_欢迎订阅yui科技_26, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true}
+  - {name: 🇫🇷 @hkaa0||法国_1, server: 54.36.115.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: YV|www.zyw.asia ZYW免费节点, server: weo-sg-2.laowufly.cf, port: 1234, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
+  - {name: 🇹🇷 sub.lly.cz||土耳其_1, server: 45.89.52.66, port: 9065, type: ss, cipher: aes-256-cfb, password: PeHSHm5SqEjBuEXE}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -97,346 +47,146 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇺🇸 USA NEW
-      - 🇺🇸 美国VIP|高速|节点09
-      - 🇭🇰 香港VIP|高速|节点04
-      - 🇺🇸 美国Plus|高速|节点05
-      - 🇹🇭 泰国❤TH
-      - 🇨🇦 加拿大 Canada Netflix
-      - 🇭🇰 香港Mini|高速|节点04
-      - 🇸🇬 新加坡❤️SG➤5|奈飞NF|OpenAi
-      - 🇸🇬 新加坡❤SG➤3奈飞NF|OpenAi
-      - 🇺🇸 美国❤CN2➤01
-      - 🇺🇸 美国Plus|高速|节点02
+      - 🇸🇬 新加坡专线 tg@freeVPNjd
+      - 🇩🇪 DE德国(youtube阿伟科技)_2
+      - CF|@Zyw_Channel
+      - 🇨🇳 台湾 tg@freeVPNjd
+      - 🇺🇸 美国A|@ripaojiedian
       - 🇸🇬 狮城 tg@freeVPNjd
-      - 🇺🇸 美国Plus|高速|节点09
-      - TG@kxswa|https://t.me/kxswa
-      - 🇺🇸 美国❤CN2➤04
-      - 🇺🇸 美国Mini|高速|节点09
-      - 🇯🇵 日本❤JP ➤01
-      - 🇺🇸 美国VIP|高速|节点03
-      - 🇺🇸 美国Mini|高速|节点08
-      - 🇬🇧 UK2 英国 Netflix
-      - 🇺🇸 美国Mini|高速|节点07
-      - 🇸🇬 新加坡02 tg@freeVPNjd
-      - 🇺🇸 美国Mini|高速|节点02
-      - YV|www.zyw.asia ZYW免费节点
-      - 🇺🇸 美国Mini|高速|节点05
-      - 🇺🇸 USA NETFLIX
-      - 🇯🇵 Japan00 日本
-      - TG@kxswa|https://t.me/kxswa 2
-      - TG@kxswa|https://t.me/kxswa 3
-      - TG@kxswa|https://t.me/kxswa 4
-      - 🇳🇱 荷兰 Netherlands
-      - 🇭🇰 Hongkong 香港 HKT
-      - 🇭🇰 Hongkong  00 香港
-      - TG@kxswa|https://t.me/kxswa 5
-      - 🇮🇳 印度 India
-      - TG@kxswa|https://t.me/kxswa 6
-      - 🇭🇰 Hongkong02 香港 Test
-      - 🇮🇩 Indonesia 印度尼西亚
-      - 🇭🇰 广州-香港-纽约隧道
-      - TG@kxswa|https://t.me/kxswa 7
-      - 🇸🇬 Singapore00 新加坡
-      - 🇬🇧 UK 英国
-      - 🇨🇳 Taiwan01 台湾
-      - TG@kxswa|https://t.me/kxswa 8
-      - 🇸🇬 Singapore01 新加坡
-      - 🇭🇰 Hongkong 00 香港
-      - 🇯🇵 Japan01 日本
-      - TG@kxswa|https://t.me/kxswa 9
-      - TG@kxswa|https://t.me/kxswa 10
-      - 🇨🇳 台湾❤HiNet02
-      - 🇲🇾 马来西亚❤️MA|解锁奈飞NF|OpenAi
-      - 🇸🇬 山东-新加坡-迈阿密隧道
-      - 🇫🇷 法国 France Netflix
-      - 🇺🇸 美国❤CN2➤03
-      - 🇭🇰 香港❤HK➤05
-      - 🇭🇰 香港VIP|高速|节点05
-      - TG@kxswa|https://t.me/kxswa 11
-      - 🇭🇰 香港VIP|高速|节点06
-      - 🇺🇸 美国❤CN2➤02
-      - 🇺🇸 美国❤CN2➤06
-      - 🇭🇰 香港❤HK➤07
-      - 🇩🇪 Germany 德国 NEW
-      - 🇨🇳 台湾❤HiNet01
-      - 🇮🇹 意大利❤️IT
-      - 🇦🇪 阿联酋杜拜❤DuBai
+      - 🇸🇬 新加坡_0721029
       - 🇭🇰 香港❤HK➤08
-      - ss中转测试
       - 🇸🇬 新加坡❤SG➤2
+      - 🇯🇵 日本专线05 tg@freeVPNjd
+      - 🇯🇵 日本专线02 tg@freeVPNjd
+      - 🇯🇵 日本专线04 tg@freeVPNjd
+      - 🇸🇬 新加坡专线02 tg@freeVPNjd
+      - 🇭🇰 香港专线04 tg@freeVPNjd
+      - 🇯🇵 IN_分享日记
+      - 🇸🇬 新加坡02 tg@freeVPNjd
       - 🇬🇧 英国❤UK
-      - TG@kxswa|https://t.me/kxswa 12
-      - 🇨🇳 台湾❤HiNet06
-      - TG@kxswa|https://t.me/kxswa 13
-      - 🇭🇰 香港❤HK➤09
-      - 🇦🇺 澳大利亚❤AU
-      - 🇺🇸 美国Plus|高速|节点08
-      - 🇰🇷 韩国❤KR➤01
-      - 🇭🇰 香港❤HK➤06
-      - 🇭🇰 香港❤HK➤03
-      - 🇺🇸 美国Plus|高速|节点07
-      - 🇭🇰 香港❤HK➤02
-      - 🇺🇸 美国 Xerox
+      - 🇭🇰 香港专线 tg@freeVPNjd
+      - TG@GEEKSAHRE_10
+      - 🇸🇬 新加坡_0720021
+      - 🇯🇵 @hkaa0||日本_2
+      - 🇯🇵 日本专线03 tg@freeVPNjd
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_2
+      - 🇺🇸 _US_美国_欢迎订阅yui科技_118
+      - 🇦🇱 @hkaa0||阿尔巴尼亚
+      - 🇯🇵 日本专线01 tg@freeVPNjd
+      - 🇰🇪 sub.lly.cz||肯尼亚
+      - 🇸🇬 _SG_新加坡_欢迎订阅yui科技_26
+      - 🇫🇷 @hkaa0||法国_1
+      - YV|www.zyw.asia ZYW免费节点
+      - 🇹🇷 sub.lly.cz||土耳其_1
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 USA NEW
-      - 🇺🇸 美国VIP|高速|节点09
-      - 🇭🇰 香港VIP|高速|节点04
-      - 🇺🇸 美国Plus|高速|节点05
-      - 🇹🇭 泰国❤TH
-      - 🇨🇦 加拿大 Canada Netflix
-      - 🇭🇰 香港Mini|高速|节点04
-      - 🇸🇬 新加坡❤️SG➤5|奈飞NF|OpenAi
-      - 🇸🇬 新加坡❤SG➤3奈飞NF|OpenAi
-      - 🇺🇸 美国❤CN2➤01
-      - 🇺🇸 美国Plus|高速|节点02
+      - 🇸🇬 新加坡专线 tg@freeVPNjd
+      - 🇩🇪 DE德国(youtube阿伟科技)_2
+      - CF|@Zyw_Channel
+      - 🇨🇳 台湾 tg@freeVPNjd
+      - 🇺🇸 美国A|@ripaojiedian
       - 🇸🇬 狮城 tg@freeVPNjd
-      - 🇺🇸 美国Plus|高速|节点09
-      - TG@kxswa|https://t.me/kxswa
-      - 🇺🇸 美国❤CN2➤04
-      - 🇺🇸 美国Mini|高速|节点09
-      - 🇯🇵 日本❤JP ➤01
-      - 🇺🇸 美国VIP|高速|节点03
-      - 🇺🇸 美国Mini|高速|节点08
-      - 🇬🇧 UK2 英国 Netflix
-      - 🇺🇸 美国Mini|高速|节点07
-      - 🇸🇬 新加坡02 tg@freeVPNjd
-      - 🇺🇸 美国Mini|高速|节点02
-      - YV|www.zyw.asia ZYW免费节点
-      - 🇺🇸 美国Mini|高速|节点05
-      - 🇺🇸 USA NETFLIX
-      - 🇯🇵 Japan00 日本
-      - TG@kxswa|https://t.me/kxswa 2
-      - TG@kxswa|https://t.me/kxswa 3
-      - TG@kxswa|https://t.me/kxswa 4
-      - 🇳🇱 荷兰 Netherlands
-      - 🇭🇰 Hongkong 香港 HKT
-      - 🇭🇰 Hongkong  00 香港
-      - TG@kxswa|https://t.me/kxswa 5
-      - 🇮🇳 印度 India
-      - TG@kxswa|https://t.me/kxswa 6
-      - 🇭🇰 Hongkong02 香港 Test
-      - 🇮🇩 Indonesia 印度尼西亚
-      - 🇭🇰 广州-香港-纽约隧道
-      - TG@kxswa|https://t.me/kxswa 7
-      - 🇸🇬 Singapore00 新加坡
-      - 🇬🇧 UK 英国
-      - 🇨🇳 Taiwan01 台湾
-      - TG@kxswa|https://t.me/kxswa 8
-      - 🇸🇬 Singapore01 新加坡
-      - 🇭🇰 Hongkong 00 香港
-      - 🇯🇵 Japan01 日本
-      - TG@kxswa|https://t.me/kxswa 9
-      - TG@kxswa|https://t.me/kxswa 10
-      - 🇨🇳 台湾❤HiNet02
-      - 🇲🇾 马来西亚❤️MA|解锁奈飞NF|OpenAi
-      - 🇸🇬 山东-新加坡-迈阿密隧道
-      - 🇫🇷 法国 France Netflix
-      - 🇺🇸 美国❤CN2➤03
-      - 🇭🇰 香港❤HK➤05
-      - 🇭🇰 香港VIP|高速|节点05
-      - TG@kxswa|https://t.me/kxswa 11
-      - 🇭🇰 香港VIP|高速|节点06
-      - 🇺🇸 美国❤CN2➤02
-      - 🇺🇸 美国❤CN2➤06
-      - 🇭🇰 香港❤HK➤07
-      - 🇩🇪 Germany 德国 NEW
-      - 🇨🇳 台湾❤HiNet01
-      - 🇮🇹 意大利❤️IT
-      - 🇦🇪 阿联酋杜拜❤DuBai
+      - 🇸🇬 新加坡_0721029
       - 🇭🇰 香港❤HK➤08
-      - ss中转测试
       - 🇸🇬 新加坡❤SG➤2
+      - 🇯🇵 日本专线05 tg@freeVPNjd
+      - 🇯🇵 日本专线02 tg@freeVPNjd
+      - 🇯🇵 日本专线04 tg@freeVPNjd
+      - 🇸🇬 新加坡专线02 tg@freeVPNjd
+      - 🇭🇰 香港专线04 tg@freeVPNjd
+      - 🇯🇵 IN_分享日记
+      - 🇸🇬 新加坡02 tg@freeVPNjd
       - 🇬🇧 英国❤UK
-      - TG@kxswa|https://t.me/kxswa 12
-      - 🇨🇳 台湾❤HiNet06
-      - TG@kxswa|https://t.me/kxswa 13
-      - 🇭🇰 香港❤HK➤09
-      - 🇦🇺 澳大利亚❤AU
-      - 🇺🇸 美国Plus|高速|节点08
-      - 🇰🇷 韩国❤KR➤01
-      - 🇭🇰 香港❤HK➤06
-      - 🇭🇰 香港❤HK➤03
-      - 🇺🇸 美国Plus|高速|节点07
-      - 🇭🇰 香港❤HK➤02
-      - 🇺🇸 美国 Xerox
+      - 🇭🇰 香港专线 tg@freeVPNjd
+      - TG@GEEKSAHRE_10
+      - 🇸🇬 新加坡_0720021
+      - 🇯🇵 @hkaa0||日本_2
+      - 🇯🇵 日本专线03 tg@freeVPNjd
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_2
+      - 🇺🇸 _US_美国_欢迎订阅yui科技_118
+      - 🇦🇱 @hkaa0||阿尔巴尼亚
+      - 🇯🇵 日本专线01 tg@freeVPNjd
+      - 🇰🇪 sub.lly.cz||肯尼亚
+      - 🇸🇬 _SG_新加坡_欢迎订阅yui科技_26
+      - 🇫🇷 @hkaa0||法国_1
+      - YV|www.zyw.asia ZYW免费节点
+      - 🇹🇷 sub.lly.cz||土耳其_1
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 USA NEW
-      - 🇺🇸 美国VIP|高速|节点09
-      - 🇭🇰 香港VIP|高速|节点04
-      - 🇺🇸 美国Plus|高速|节点05
-      - 🇹🇭 泰国❤TH
-      - 🇨🇦 加拿大 Canada Netflix
-      - 🇭🇰 香港Mini|高速|节点04
-      - 🇸🇬 新加坡❤️SG➤5|奈飞NF|OpenAi
-      - 🇸🇬 新加坡❤SG➤3奈飞NF|OpenAi
-      - 🇺🇸 美国❤CN2➤01
-      - 🇺🇸 美国Plus|高速|节点02
+      - 🇸🇬 新加坡专线 tg@freeVPNjd
+      - 🇩🇪 DE德国(youtube阿伟科技)_2
+      - CF|@Zyw_Channel
+      - 🇨🇳 台湾 tg@freeVPNjd
+      - 🇺🇸 美国A|@ripaojiedian
       - 🇸🇬 狮城 tg@freeVPNjd
-      - 🇺🇸 美国Plus|高速|节点09
-      - TG@kxswa|https://t.me/kxswa
-      - 🇺🇸 美国❤CN2➤04
-      - 🇺🇸 美国Mini|高速|节点09
-      - 🇯🇵 日本❤JP ➤01
-      - 🇺🇸 美国VIP|高速|节点03
-      - 🇺🇸 美国Mini|高速|节点08
-      - 🇬🇧 UK2 英国 Netflix
-      - 🇺🇸 美国Mini|高速|节点07
-      - 🇸🇬 新加坡02 tg@freeVPNjd
-      - 🇺🇸 美国Mini|高速|节点02
-      - YV|www.zyw.asia ZYW免费节点
-      - 🇺🇸 美国Mini|高速|节点05
-      - 🇺🇸 USA NETFLIX
-      - 🇯🇵 Japan00 日本
-      - TG@kxswa|https://t.me/kxswa 2
-      - TG@kxswa|https://t.me/kxswa 3
-      - TG@kxswa|https://t.me/kxswa 4
-      - 🇳🇱 荷兰 Netherlands
-      - 🇭🇰 Hongkong 香港 HKT
-      - 🇭🇰 Hongkong  00 香港
-      - TG@kxswa|https://t.me/kxswa 5
-      - 🇮🇳 印度 India
-      - TG@kxswa|https://t.me/kxswa 6
-      - 🇭🇰 Hongkong02 香港 Test
-      - 🇮🇩 Indonesia 印度尼西亚
-      - 🇭🇰 广州-香港-纽约隧道
-      - TG@kxswa|https://t.me/kxswa 7
-      - 🇸🇬 Singapore00 新加坡
-      - 🇬🇧 UK 英国
-      - 🇨🇳 Taiwan01 台湾
-      - TG@kxswa|https://t.me/kxswa 8
-      - 🇸🇬 Singapore01 新加坡
-      - 🇭🇰 Hongkong 00 香港
-      - 🇯🇵 Japan01 日本
-      - TG@kxswa|https://t.me/kxswa 9
-      - TG@kxswa|https://t.me/kxswa 10
-      - 🇨🇳 台湾❤HiNet02
-      - 🇲🇾 马来西亚❤️MA|解锁奈飞NF|OpenAi
-      - 🇸🇬 山东-新加坡-迈阿密隧道
-      - 🇫🇷 法国 France Netflix
-      - 🇺🇸 美国❤CN2➤03
-      - 🇭🇰 香港❤HK➤05
-      - 🇭🇰 香港VIP|高速|节点05
-      - TG@kxswa|https://t.me/kxswa 11
-      - 🇭🇰 香港VIP|高速|节点06
-      - 🇺🇸 美国❤CN2➤02
-      - 🇺🇸 美国❤CN2➤06
-      - 🇭🇰 香港❤HK➤07
-      - 🇩🇪 Germany 德国 NEW
-      - 🇨🇳 台湾❤HiNet01
-      - 🇮🇹 意大利❤️IT
-      - 🇦🇪 阿联酋杜拜❤DuBai
+      - 🇸🇬 新加坡_0721029
       - 🇭🇰 香港❤HK➤08
-      - ss中转测试
       - 🇸🇬 新加坡❤SG➤2
+      - 🇯🇵 日本专线05 tg@freeVPNjd
+      - 🇯🇵 日本专线02 tg@freeVPNjd
+      - 🇯🇵 日本专线04 tg@freeVPNjd
+      - 🇸🇬 新加坡专线02 tg@freeVPNjd
+      - 🇭🇰 香港专线04 tg@freeVPNjd
+      - 🇯🇵 IN_分享日记
+      - 🇸🇬 新加坡02 tg@freeVPNjd
       - 🇬🇧 英国❤UK
-      - TG@kxswa|https://t.me/kxswa 12
-      - 🇨🇳 台湾❤HiNet06
-      - TG@kxswa|https://t.me/kxswa 13
-      - 🇭🇰 香港❤HK➤09
-      - 🇦🇺 澳大利亚❤AU
-      - 🇺🇸 美国Plus|高速|节点08
-      - 🇰🇷 韩国❤KR➤01
-      - 🇭🇰 香港❤HK➤06
-      - 🇭🇰 香港❤HK➤03
-      - 🇺🇸 美国Plus|高速|节点07
-      - 🇭🇰 香港❤HK➤02
-      - 🇺🇸 美国 Xerox
+      - 🇭🇰 香港专线 tg@freeVPNjd
+      - TG@GEEKSAHRE_10
+      - 🇸🇬 新加坡_0720021
+      - 🇯🇵 @hkaa0||日本_2
+      - 🇯🇵 日本专线03 tg@freeVPNjd
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_2
+      - 🇺🇸 _US_美国_欢迎订阅yui科技_118
+      - 🇦🇱 @hkaa0||阿尔巴尼亚
+      - 🇯🇵 日本专线01 tg@freeVPNjd
+      - 🇰🇪 sub.lly.cz||肯尼亚
+      - 🇸🇬 _SG_新加坡_欢迎订阅yui科技_26
+      - 🇫🇷 @hkaa0||法国_1
+      - YV|www.zyw.asia ZYW免费节点
+      - 🇹🇷 sub.lly.cz||土耳其_1
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 USA NEW
-      - 🇺🇸 美国VIP|高速|节点09
-      - 🇭🇰 香港VIP|高速|节点04
-      - 🇺🇸 美国Plus|高速|节点05
-      - 🇹🇭 泰国❤TH
-      - 🇨🇦 加拿大 Canada Netflix
-      - 🇭🇰 香港Mini|高速|节点04
-      - 🇸🇬 新加坡❤️SG➤5|奈飞NF|OpenAi
-      - 🇸🇬 新加坡❤SG➤3奈飞NF|OpenAi
-      - 🇺🇸 美国❤CN2➤01
-      - 🇺🇸 美国Plus|高速|节点02
+      - 🇸🇬 新加坡专线 tg@freeVPNjd
+      - 🇩🇪 DE德国(youtube阿伟科技)_2
+      - CF|@Zyw_Channel
+      - 🇨🇳 台湾 tg@freeVPNjd
+      - 🇺🇸 美国A|@ripaojiedian
       - 🇸🇬 狮城 tg@freeVPNjd
-      - 🇺🇸 美国Plus|高速|节点09
-      - TG@kxswa|https://t.me/kxswa
-      - 🇺🇸 美国❤CN2➤04
-      - 🇺🇸 美国Mini|高速|节点09
-      - 🇯🇵 日本❤JP ➤01
-      - 🇺🇸 美国VIP|高速|节点03
-      - 🇺🇸 美国Mini|高速|节点08
-      - 🇬🇧 UK2 英国 Netflix
-      - 🇺🇸 美国Mini|高速|节点07
-      - 🇸🇬 新加坡02 tg@freeVPNjd
-      - 🇺🇸 美国Mini|高速|节点02
-      - YV|www.zyw.asia ZYW免费节点
-      - 🇺🇸 美国Mini|高速|节点05
-      - 🇺🇸 USA NETFLIX
-      - 🇯🇵 Japan00 日本
-      - TG@kxswa|https://t.me/kxswa 2
-      - TG@kxswa|https://t.me/kxswa 3
-      - TG@kxswa|https://t.me/kxswa 4
-      - 🇳🇱 荷兰 Netherlands
-      - 🇭🇰 Hongkong 香港 HKT
-      - 🇭🇰 Hongkong  00 香港
-      - TG@kxswa|https://t.me/kxswa 5
-      - 🇮🇳 印度 India
-      - TG@kxswa|https://t.me/kxswa 6
-      - 🇭🇰 Hongkong02 香港 Test
-      - 🇮🇩 Indonesia 印度尼西亚
-      - 🇭🇰 广州-香港-纽约隧道
-      - TG@kxswa|https://t.me/kxswa 7
-      - 🇸🇬 Singapore00 新加坡
-      - 🇬🇧 UK 英国
-      - 🇨🇳 Taiwan01 台湾
-      - TG@kxswa|https://t.me/kxswa 8
-      - 🇸🇬 Singapore01 新加坡
-      - 🇭🇰 Hongkong 00 香港
-      - 🇯🇵 Japan01 日本
-      - TG@kxswa|https://t.me/kxswa 9
-      - TG@kxswa|https://t.me/kxswa 10
-      - 🇨🇳 台湾❤HiNet02
-      - 🇲🇾 马来西亚❤️MA|解锁奈飞NF|OpenAi
-      - 🇸🇬 山东-新加坡-迈阿密隧道
-      - 🇫🇷 法国 France Netflix
-      - 🇺🇸 美国❤CN2➤03
-      - 🇭🇰 香港❤HK➤05
-      - 🇭🇰 香港VIP|高速|节点05
-      - TG@kxswa|https://t.me/kxswa 11
-      - 🇭🇰 香港VIP|高速|节点06
-      - 🇺🇸 美国❤CN2➤02
-      - 🇺🇸 美国❤CN2➤06
-      - 🇭🇰 香港❤HK➤07
-      - 🇩🇪 Germany 德国 NEW
-      - 🇨🇳 台湾❤HiNet01
-      - 🇮🇹 意大利❤️IT
-      - 🇦🇪 阿联酋杜拜❤DuBai
+      - 🇸🇬 新加坡_0721029
       - 🇭🇰 香港❤HK➤08
-      - ss中转测试
       - 🇸🇬 新加坡❤SG➤2
+      - 🇯🇵 日本专线05 tg@freeVPNjd
+      - 🇯🇵 日本专线02 tg@freeVPNjd
+      - 🇯🇵 日本专线04 tg@freeVPNjd
+      - 🇸🇬 新加坡专线02 tg@freeVPNjd
+      - 🇭🇰 香港专线04 tg@freeVPNjd
+      - 🇯🇵 IN_分享日记
+      - 🇸🇬 新加坡02 tg@freeVPNjd
       - 🇬🇧 英国❤UK
-      - TG@kxswa|https://t.me/kxswa 12
-      - 🇨🇳 台湾❤HiNet06
-      - TG@kxswa|https://t.me/kxswa 13
-      - 🇭🇰 香港❤HK➤09
-      - 🇦🇺 澳大利亚❤AU
-      - 🇺🇸 美国Plus|高速|节点08
-      - 🇰🇷 韩国❤KR➤01
-      - 🇭🇰 香港❤HK➤06
-      - 🇭🇰 香港❤HK➤03
-      - 🇺🇸 美国Plus|高速|节点07
-      - 🇭🇰 香港❤HK➤02
-      - 🇺🇸 美国 Xerox
+      - 🇭🇰 香港专线 tg@freeVPNjd
+      - TG@GEEKSAHRE_10
+      - 🇸🇬 新加坡_0720021
+      - 🇯🇵 @hkaa0||日本_2
+      - 🇯🇵 日本专线03 tg@freeVPNjd
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_2
+      - 🇺🇸 _US_美国_欢迎订阅yui科技_118
+      - 🇦🇱 @hkaa0||阿尔巴尼亚
+      - 🇯🇵 日本专线01 tg@freeVPNjd
+      - 🇰🇪 sub.lly.cz||肯尼亚
+      - 🇸🇬 _SG_新加坡_欢迎订阅yui科技_26
+      - 🇫🇷 @hkaa0||法国_1
+      - YV|www.zyw.asia ZYW免费节点
+      - 🇹🇷 sub.lly.cz||土耳其_1
   - name: 🛑 禁止代理
     type: select
     proxies:
