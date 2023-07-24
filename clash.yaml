@@ -5,51 +5,236 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TG@GEEKSAHRE_10, server: 45.90.218.156, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: m1OoPMx5W_8aGUQZZm8Mbg}
-  - {name: RELAY-104.21.47.30-1084, server: hk.kkpp.online, port: 443, type: vmess, uuid: 78422c74-9a71-4193-8953-a9446dacd782, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dksfjeyrbfSGERgrsfgsdfrq/, headers: {Host: hk.kkpp.online}}}
-  - {name: 🇯🇵 US_分享日记, server: digitalocean.com, port: 8080, type: vmess, uuid: 5f098028-ea22-42ea-abfd-9222cb298b74, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vceu.vpn66.eu.org}}}
-  - {name: 🇯🇵 日本02, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: a51229f9-7d73-487b-8bc7-da70c72395c9}
-  - {name: 🇯🇵 @hkaa0||日本, server: 43.207.78.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: YD|tg频道:@Zyw_Channel, server: edu1.v-pn.my.id, port: 443, type: vmess, uuid: 98476c2f-2971-4326-93c4-896a85124845, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ikd2.vpn-akcelluler.my.id}}}
-  - {name: 🇨🇳 台湾05, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: 13444ba3-f271-402e-9e39-965bb0653b68}
-  - {name: 🇸🇬 新加坡_0722029, server: 128.199.221.46, port: 443, type: trojan, password: 6dd8ffa0-26f7-11ee-945d-1239d0255272, sni: us02web.zoom.us, skip-cert-verify: true}
-  - {name: 🇫🇷 法国-电信联通首选, server: f.anm.lol, port: 443, type: vmess, uuid: 8744c979-6e54-4391-8cfb-29188988e409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: f.anm.lol}}}
-  - {name: 🇸🇬 狮城01, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: c8ec1246-5dc4-4fd2-8a98-570b34a2fe5d}
-  - {name: 🇭🇰 香港05, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: b9005159-ce18-489b-a603-9c4f3ccde150}
-  - {name: _170, server: 147.182.216.10, port: 443, type: trojan, password: 71148cca-0963-4abe-ab01-7cea982c1513, sni: us02web.zoom.us, skip-cert-verify: true}
-  - {name: _168, server: 64.227.131.19, port: 443, type: trojan, password: 21c6c7cb-332b-4a0c-9ad7-dff9c3111442, sni: us02web.zoom.us, skip-cert-verify: true}
-  - {name: 🇯🇵 日本03, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: 27f88666-2633-44a9-8d83-47c3045ed3e9}
-  - {name: 🇰🇷 韩国04, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: d5646d5b-5c37-47e1-ae25-de577249d4ea}
-  - {name: 🇮🇪 爱尔兰_0723001, server: 54.74.52.84, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: 🇯🇵 日本-负载均衡, server: j.anm.lol, port: 443, type: vmess, uuid: 8744c979-6e54-4391-8cfb-29188988e409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: j.anm.lol}}}
+  - {name: YD|tg频道:@Zyw_Channel, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: YD|@Zyw_Channel, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: YD|@Zyw_Channel 2, server: 107.167.16.102, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 @hkaa0||美国_28, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 13, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 5, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国A|@ripaojiedian, server: 120.233.43.30, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 8DKJ|tg频道:@Zyw_Channel, server: 198.2.203.51, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 @hkaa0||美国_35, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: HK_150.107.46.21_0723202346fc-342ssr, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: cloudfront.n%�}
+  - {name: 🇺🇸 @hkaa0||美国_4, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_8, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】_6, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: SG_52.221.240.166_0722202399b6-309ss%%�, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇿🇦 @hkaa0||南非, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇻🇳 VN越南(youtube阿伟科技), server: ftransfer.top, port: 37611, type: ss, cipher: aes-128-gcm, password: 8744c979-6e54-4391-8cfb-29188988e409}
+  - {name: 🇺🇸 @hkaa0||美国_20, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 @hkaa0||美国_33, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 IPLC香港b udpn tg@freeVPNjd, server: gziplc.xjqxz.top, port: 33345, type: ss, cipher: chacha20-ietf-poly1305, password: a9e6c988-3b21-4482-a87e-35881b47a2ac}
+  - {name: 🇯🇵 @hkaa0||日本, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: ""}
+  - {name: 🇺🇸 _US_美国_16, server: 198.2.203.51, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本01, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: 7bda9654-2822-4906-a638-78eada911da2}
-  - {name: 🇨🇳 台湾 tg@freeVPNjd, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: c420dff4-ee53-43cf-a72d-366160ab5350}
-  - {name: "🇭🇰 香港7|GPT|奈飞|\r", server: hk7.jb7ueoq73.xyz, port: 10093, type: trojan, password: c2b7ceda-eee1-40fb-96da-cd92c4513fe9, sni: tls.jisuyun.co, skip-cert-verify: false}
-  - {name: 🇸🇬 狮城05, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: 6e143268-1847-4998-a9ec-72a3640bbf16}
-  - {name: 🇯🇵 日本06, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: 017f6230-ea26-4244-ada0-b812af752a8e}
-  - {name: 🇳🇱 NL荷兰(youtube阿伟科技)_1, server: 185.88.141.175, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: qGjmI8WQlF0tfhDbkLqGdN}
-  - {name: 🇨🇳 台湾01, server: gzdx.acgyt.com, port: 28258, type: ss, cipher: chacha20-ietf-poly1305, password: 92012750-1fa0-432c-9511-4eeba1209e13}
-  - {name: 🇫🇷 法国_0723063, server: 57.128.173.6, port: 443, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, sni: www.speedtest.net, skip-cert-verify: true}
-  - {name: _171, server: 52.52.212.135, port: 10283, type: trojan, password: 5c832abe-66d0-4c4a-8ae3-96b49a876684, sni: us3.aitrjc.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 日本04, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: a320bd3c-bb00-4145-8456-40e6ef3195a7}
-  - {name: 🇸🇬 狮城03, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: 0ce39fef-78ba-41d5-9797-d3fbf06a6812}
-  - {name: 🇰🇷 韩国05, server: gzdx.acgyt.com, port: 28258, type: ss, cipher: chacha20-ietf-poly1305, password: 3b5db99f-118b-41f1-b04f-8e4fc9453d12}
-  - {name: 🇨🇳 台湾 tg@freeVPNjd 2, server: gzdx.acgyt.com, port: 28258, type: ss, cipher: chacha20-ietf-poly1305, password: bf1b398b-3d0c-4e5f-bf3a-384b39b1be6d}
-  - {name: 🇬🇧 英国_0723020, server: 18.130.0.50, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: "🇨🇳 台湾2|原生|彰化|\r", server: tw9.jb7ueoq73.xyz, port: 80, type: trojan, password: c2b7ceda-eee1-40fb-96da-cd92c4513fe9, sni: tls.jisuyun.co, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾 tg@freeVPNjd 3, server: 211.72.35.157, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 956f2ba.dl.nintendo.net:142593}}
-  - {name: "🇺🇸 美国1|GPT|奈飞|\r", server: us1.jb7ueoq73.xyz, port: 10026, type: trojan, password: c2b7ceda-eee1-40fb-96da-cd92c4513fe9, sni: tls.jisuyun.co, skip-cert-verify: false}
-  - {name: "🇺🇸 美国2|GPT|奈飞|\r", server: us2.jb7ueoq73.xyz, port: 10099, type: trojan, password: c2b7ceda-eee1-40fb-96da-cd92c4513fe9, sni: tls.jisuyun.co, skip-cert-verify: false}
+  - {name: 🇰🇷 首尔特殊|@ripaojiedian, server: 43.200.6.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: YD|tg频道:@Zyw_Channel 2, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_7, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: None}
+  - {name: 🇨🇳 @hkaa0||中国_7, server: 120.233.43.30, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国_【YouTube-VV科技】 3, server: 120.233.43.30, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】, server: 104.25.209.114, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇯🇵 US_分享日记, server: 107.167.16.102, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 US_分享日记_27, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 @hkaa0||中国_8, server: 120.233.43.74, port: 41273, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 狮城 tg@freeVPNjd, server: weo-sg-1.laowufly.cf, port: 23333, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
-  - {name: 🇰🇷 韩国-联通首选, server: k.anm.lol, port: 32018, type: vmess, uuid: 8744c979-6e54-4391-8cfb-29188988e409, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: k.anm.lol}}}
-  - {name: 🇭🇰 @hkaa0||香港, server: hk8.aitrjc.xyz, port: 10206, type: trojan, password: bbeacbed-e5bd-4154-ab4c-43aba75ab9d1, sni: hk8.aitrjc.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾l tg@freeVPNjd, server: 211.72.35.155, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: 956f2ba.dl.nintendo.net:142593}}
-  - {name: 🇸🇬 新加坡02 tg@freeVPNjd, server: weo-sg-1.laowufly.cf, port: 2333, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
+  - {name: 🇭🇰 香港【YouTube-由零開始】, server: 103.160.204.50, port: 80, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_61, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: YD|www.zyw.asia ZYW免费节点, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_1, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: ":'##\"\"'\x07#{{\x0e{\x03\x03#\"", obfs-param: ""}
+  - {name: 🇫🇷 @hkaa0||法国, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: ""}
+  - {name: 🇺🇸 @hkaa0||美国_7, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 250, server: 137.175.18.91, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_52, server: 198.2.203.51, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 2, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国 182, server: 51.89.74.241, port: 51102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 3, server: 108.162.196.40, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇭🇰 HK香港(youtube阿伟科技)_1, server: ftransfer.top, port: 29114, type: ss, cipher: aes-128-gcm, password: 8744c979-6e54-4391-8cfb-29188988e409}
+  - {name: 🇫🇷 FR法国(youtube阿伟科技)_2, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "Non%%[%%", obfs-param: ""}
+  - {name: 🇺🇸 _US_美国_176, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_44, server: 198.2.203.51, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国S|@ripaojiedian, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: YD|tg频道:@Zyw_Channel 3, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 五叶节点分享频道 @hkaa0 |美国, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 @hkaa0||美国_3, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 8DKJ|www.zyw.asia ZYW免费节点, server: 120.233.43.30, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(youtube阿伟科技)_13, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国白嫖节点, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 8DKJ|www.zyw.asia ZYW免费节点 2, server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰|@ripaojiedian, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: _41 |27.88Mb, server: 107.167.29.235, port: 46321, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 4, server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 NL荷兰(youtube阿伟科技)_2, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇷🇺 俄罗斯联邦【YouTube-由零開始】, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇨🇳 台湾03, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: b3f7561d-a268-4b8e-9863-0bbf22374a5b}
-  - {name: YD|www.zyw.asia ZYW免费节点, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
-  - {name: YV|www.zyw.asia ZYW免费节点, server: weo-sg-2.laowufly.cf, port: 1234, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
-  - {name: 🇰🇷 韩国06, server: zzjp02.buffcloud.icu, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: b4f86169-a3d9-4655-81bc-6669fcc56b7d}
+  - {name: 免费梯子https://t.me/mftizi, server: 120.233.43.30, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: Telegram@kxswa | https://t.me/kxswa, server: 120.233.43.30, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 @hkaa0||美国_9, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 @hkaa0||美国_30, server: 107.167.29.235, port: 46321, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 US_分享日记 2, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 TW台湾(youtube阿伟科技), server: ftransfer.top, port: 59092, type: ss, cipher: aes-128-gcm, password: 8744c979-6e54-4391-8cfb-29188988e409}
+  - {name: 🇺🇸 US美国白嫖节点 2, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇮🇪 @hkaa0||爱尔兰, server: 23.92.127.134, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 5, server: 104.18.198.12, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇹🇷 TR土耳其(youtube阿伟科技)_1, server: ftransfer.top, port: 33312, type: ss, cipher: aes-128-gcm, password: 8744c979-6e54-4391-8cfb-29188988e409}
+  - {name: 🇯🇵 US_分享日记_10, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 6, server: 104.25.220.115, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_109, server: 104.19.239.54, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 8DKJ|@Zyw_Channel, server: 142.4.126.70, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_83, server: 104.25.234.64, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 @hkaa0||美国_38, server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国【YouTube-由零開始】, server: 103.184.45.230, port: 80, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 @hkaa0||美国_6, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇪🇬 @hkaa0||埃及, server: 38.54.59.99, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇭🇰 香港【YouTube-由零開始】 2, server: 154.92.9.169, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_68, server: 104.21.126.158, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇸🇬 @hkaa0||新加坡, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: ""}
+  - {name: 🇳🇱 荷兰 139, server: 45.199.138.165, port: 55016, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 7, server: 104.25.62.97, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇨🇳 台湾02, server: llp-shct.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: cd01240c-1ce6-4e99-bff1-569a4818cbeb}
+  - {name: 🇫🇷 法国 V2CROSS.COM, server: 51.89.74.241, port: 51102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港【YouTube-由零開始】 3, server: 103.160.204.54, port: 80, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇯🇵 日本03, server: gzdx.acgyt.com, port: 18994, type: ss, cipher: chacha20-ietf-poly1305, password: 27f88666-2633-44a9-8d83-47c3045ed3e9}
+  - {name: 🇺🇸 美国特殊|@ripaojiedian, server: 34.223.228.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 2, server: 103.184.45.70, port: 80, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 US美国(youtube阿伟科技)_14, server: 198.2.203.51, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: YD|www.zyw.asia ZYW免费节点 2, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港【YouTube-由零開始】 4, server: 154.92.9.98, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_62, server: 104.25.90.159, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 @hkaa0||美国_34, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 3, server: 103.184.44.177, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 4, server: 103.184.45.231, port: 80, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇨🇳 @hkaa0||中国_5, server: 120.233.43.74, port: 41273, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 5, server: 103.184.45.234, port: 80, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_4, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%, obfs-param: ""}
+  - {name: 🇺🇸 _US_美国_74, server: 104.27.86.168, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇳🇱 NL荷兰(youtube阿伟科技)_1, server: 185.88.141.175, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: qGjmI8WQlF0tfhDbkLqGdN}
+  - {name: FR_156.249.18.36_0723202346fc-331vmess, server: 156.249.18.36, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 8, server: 104.25.191.215, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇭🇰 香港【YouTube-由零開始】 5, server: 154.92.9.91, port: 80, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇯🇵 US_分享日记_46, server: 107.167.16.102, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇩🇰 @hkaa0||丹麦, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 _US_美国_98, server: 104.25.138.162, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 @hkaa0||美国_21, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_56, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】_11, server: 23.225.211.21, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 6, server: 103.184.45.58, port: 80, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 US美国(youtube阿伟科技), server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
+  - {name: 纽约测试|@ripaojiedian, server: 216.52.183.246, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇭🇰 香港【YouTube-由零開始】 6, server: 154.92.9.5, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 9, server: 103.21.244.48, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_13, server: 142.4.126.70, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国_0723019, server: jk.jkk.kisskiss.pro, port: 1887, type: trojan, password: a8f54f4e-1d9d-44e4-9ef7-50ee7ba89561, skip-cert-verify: true}
+  - {name: 🇺🇸 美国_【YouTube-VV科技】 29, server: 108.162.198.43, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 10, server: 104.25.112.145, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_60, server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 @hkaa0||美国, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CF|tg频道:@Zyw_Channel, server: 13.213.53.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 11, server: 198.2.203.51, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 12, server: 104.19.146.173, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_150, server: 103.21.244.16, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇯🇵 US_分享日记 3, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡02 tg@freeVPNjd, server: weo-sg-1.laowufly.cf, port: 2333, type: ss, cipher: aes-256-gcm, password: NodeByTG@Weoworks/GFW绕过我吧...}
+  - {name: 🇫🇷 FR法国(youtube阿伟科技)_1, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: ""}
+  - {name: 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=4, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_3, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: ":'##\"\"'\x07#{{\x0e{\x03\x03#\"", obfs-param: ""}
+  - {name: YD|www.zyw.asia ZYW免费节点 3, server: 198.2.203.51, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇱🇺 LU卢森堡(youtube阿伟科技), server: ftransfer.top, port: 58982, type: ss, cipher: aes-128-gcm, password: 8744c979-6e54-4391-8cfb-29188988e409}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 13, server: 104.19.228.239, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: CF|tg频道:@Zyw_Channel 2, server: 38.26.135.10, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国_0723063, server: 57.128.173.6, port: 443, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, sni: www.speedtest.net, skip-cert-verify: true}
+  - {name: 🇭🇰 香港【YouTube-由零開始】 7, server: 103.160.204.20, port: 80, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_73, server: 104.27.68.211, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 8DKJ|www.zyw.asia ZYW免费节点 3, server: 104.16.44.213, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 @hkaa0||美国_36, server: 107.167.16.102, port: 47074, type: vmess, uuid: b74f4afa-1a57-4aff-b7e5-8ad5ea33566f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 @hkaa0||新加坡_4, server: 18.141.236.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 7, server: 103.184.45.251, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇹🇷 @hkaa0||土耳其_1, server: 45.89.52.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: 🇺🇸 美国【YouTube-由零開始】_9, server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_61, server: 104.25.241.246, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 14, server: 104.21.234.220, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 15, server: 104.17.207.47, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_1, server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 @hkaa0||美国_2, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 @hkaa0||俄罗斯联邦, server: 185.22.154.70, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
+  - {name: 🇺🇸 _US_美国_153, server: 104.25.199.63, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 16, server: 104.16.208.174, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房, server: 45.199.138.165, port: 55016, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: _39 |79.60Mb, server: 51.89.74.241, port: 51102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 17, server: 141.101.115.85, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 8, server: 103.184.45.242, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: _168, server: 64.227.131.19, port: 443, type: trojan, password: 21c6c7cb-332b-4a0c-9ad7-dff9c3111442, sni: us02web.zoom.us, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国_159, server: 103.21.244.231, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_80, server: 104.18.199.44, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_171, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 18, server: 104.18.188.113, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 US 254 → tg@nicevpn123, server: 107.167.29.235, port: 46321, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_6, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%, obfs-param: ""}
+  - {name: YD|tg频道:@Zyw_Channel 4, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_95, server: 104.18.119.118, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: YD|www.zyw.asia ZYW免费节点 4, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_174, server: 104.18.210.19, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 19, server: 141.101.120.247, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 20, server: 104.25.132.137, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 21, server: 103.21.244.33, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_127, server: 104.21.58.133, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: _170, server: 147.182.216.10, port: 443, type: trojan, password: 71148cca-0963-4abe-ab01-7cea982c1513, sni: us02web.zoom.us, skip-cert-verify: true}
+  - {name: 🇭🇰 香港【YouTube-由零開始】 8, server: 154.92.9.189, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 22, server: 104.18.133.176, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 23, server: 104.27.113.121, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_145, server: 103.21.244.0, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 24, server: 104.17.68.141, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇳🇱 荷兰 169, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 25, server: 108.162.194.145, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】_10, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 US_分享日记 4, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 26, server: 108.162.195.231, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 @hkaa0||美国_24, server: 23.225.211.18, port: 42941, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 27, server: 104.17.19.215, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 28, server: 104.25.94.141, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_149, server: 104.19.206.26, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 29, server: 104.18.158.235, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_36, server: 104.21.112.212, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_180, server: 104.19.216.164, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 30, server: 104.21.214.238, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇫🇷 法国【YouTube-由零開始】_2, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 31, server: 104.16.243.185, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 32, server: 103.21.244.188, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 33, server: 104.20.4.124, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: YD|tg频道:@Zyw_Channel 5, server: 104.18.1.196, port: 80, type: vmess, uuid: 0dfa89a7-fe08-454e-817b-374097be358f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-mlb.securev2ray.com}}}
+  - {name: 🇺🇸 @hkaa0||美国_23, server: 23.224.190.237, port: 58022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 34, server: 104.16.107.42, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 @hkaa0||美国 2, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 35, server: 104.25.251.205, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_50, server: 104.16.218.224, port: 8080, type: vmess, uuid: 20670d72-d0ab-469e-81f4-1564f03955b0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 36, server: 104.18.49.137, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 37, server: 104.18.115.191, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_21, server: 104.27.72.22, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_71, server: 104.19.170.107, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇭🇰 香港【YouTube-由零開始】 9, server: 154.92.9.147, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 38, server: 104.27.196.183, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇨🇳 账号：1i8.cn/fNNTc, server: 104.18.71.114, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 39, server: 104.18.24.8, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_93, server: 108.162.198.155, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 40, server: 104.25.195.18, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 41, server: 104.18.64.244, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 42, server: 108.162.196.192, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 @hkaa0||美国_32, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 43, server: 104.19.18.197, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_67, server: 104.18.114.165, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 US美国(youtube阿伟科技)_17, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_1 2, server: 104.25.228.150, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇯🇵 US_分享日记_8, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 9, server: 103.184.45.226, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 _US_美国_144, server: 104.18.31.96, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国 237, server: 137.175.58.77, port: 40071, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 15, server: 104.18.101.186, port: 8080, type: vmess, uuid: 54d4a5e9-6441-442c-cab7-05620cbe4f7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 @hkaa0||美国 3, server: 156.225.67.103, port: 51792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 10, server: 103.184.45.220, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 44, server: 141.101.121.201, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇭🇰 香港c tg@freeVPNjd, server: 156.251.183.138, port: 10059, type: vmess, uuid: a9e6c988-3b21-4482-a87e-35881b47a2ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: trans.dingtalk.com}}}
+  - {name: 🇺🇸 美国_【YouTube-VV科技】 4, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: JP_3.112.234.245_0723202346fc-700ssr, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇨🇳 中国【YouTube-由零開始】 11, server: 103.184.45.210, port: 443, type: vmess, uuid: 62433eb1-131f-4d3c-877c-192914a2d45c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}}
+  - {name: 🇭🇰 香港 tg@freeVPNjd, server: 178.253.52.200, port: 10059, type: vmess, uuid: a9e6c988-3b21-4482-a87e-35881b47a2ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: trans.dingtalk.com}}}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -61,202 +246,942 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - TG@GEEKSAHRE_10
-      - RELAY-104.21.47.30-1084
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 日本02
-      - 🇯🇵 @hkaa0||日本
       - YD|tg频道:@Zyw_Channel
-      - 🇨🇳 台湾05
-      - 🇸🇬 新加坡_0722029
-      - 🇫🇷 法国-电信联通首选
-      - 🇸🇬 狮城01
-      - 🇭🇰 香港05
-      - _170
-      - _168
-      - 🇯🇵 日本03
-      - 🇰🇷 韩国04
-      - 🇮🇪 爱尔兰_0723001
-      - 🇯🇵 日本-负载均衡
+      - YD|@Zyw_Channel
+      - YD|@Zyw_Channel 2
+      - 🇺🇸 @hkaa0||美国_28
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国A|@ripaojiedian
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇺🇸 @hkaa0||美国_35
+      - HK_150.107.46.21_0723202346fc-342ssr
+      - 🇺🇸 @hkaa0||美国_4
+      - 🇺🇸 _US_美国_8
+      - 🇺🇸 美国【YouTube-由零開始】_6
+      - SG_52.221.240.166_0722202399b6-309ss%%�
+      - 🇿🇦 @hkaa0||南非
+      - 🇻🇳 VN越南(youtube阿伟科技)
+      - 🇺🇸 @hkaa0||美国_20
+      - 🇺🇸 @hkaa0||美国_33
+      - 🇭🇰 IPLC香港b udpn tg@freeVPNjd
+      - 🇯🇵 @hkaa0||日本
+      - 🇺🇸 _US_美国_16
       - 🇯🇵 日本01
-      - 🇨🇳 台湾 tg@freeVPNjd
-      - "🇭🇰 香港7|GPT|奈飞|\r"
-      - 🇸🇬 狮城05
-      - 🇯🇵 日本06
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
-      - 🇨🇳 台湾01
-      - 🇫🇷 法国_0723063
-      - _171
-      - 🇯🇵 日本04
-      - 🇸🇬 狮城03
-      - 🇰🇷 韩国05
-      - 🇨🇳 台湾 tg@freeVPNjd 2
-      - 🇬🇧 英国_0723020
-      - "🇨🇳 台湾2|原生|彰化|\r"
-      - 🇨🇳 台湾 tg@freeVPNjd 3
-      - "🇺🇸 美国1|GPT|奈飞|\r"
-      - "🇺🇸 美国2|GPT|奈飞|\r"
+      - 🇰🇷 首尔特殊|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel 2
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_7
+      - 🇨🇳 @hkaa0||中国_7
+      - 🇨🇳 中国_【YouTube-VV科技】 3
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇯🇵 US_分享日记
+      - 🇯🇵 US_分享日记_27
+      - 🇨🇳 @hkaa0||中国_8
       - 🇸🇬 狮城 tg@freeVPNjd
-      - 🇰🇷 韩国-联通首选
-      - 🇭🇰 @hkaa0||香港
-      - 🇨🇳 台湾l tg@freeVPNjd
-      - 🇸🇬 新加坡02 tg@freeVPNjd
-      - 🇷🇺 俄罗斯联邦【YouTube-由零開始】
-      - 🇨🇳 台湾03
+      - 🇭🇰 香港【YouTube-由零開始】
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_61
       - YD|www.zyw.asia ZYW免费节点
-      - YV|www.zyw.asia ZYW免费节点
-      - 🇰🇷 韩国06
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_1
+      - 🇫🇷 @hkaa0||法国
+      - 🇺🇸 @hkaa0||美国_7
+      - 🇺🇸 美国 250
+      - 🇺🇸 _US_美国_52
+      - 🇺🇸 美国【YouTube-由零開始】 2
+      - 🇩🇪 德国 182
+      - 🇺🇸 美国【YouTube-由零開始】 3
+      - 🇭🇰 HK香港(youtube阿伟科技)_1
+      - 🇫🇷 FR法国(youtube阿伟科技)_2
+      - 🇺🇸 _US_美国_176
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_44
+      - 🇺🇸 美国S|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel 3
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - 🇺🇸 @hkaa0||美国_3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇺🇸 US美国(youtube阿伟科技)_13
+      - 🇺🇸 US美国白嫖节点
+      - 8DKJ|www.zyw.asia ZYW免费节点 2
+      - 🇳🇱 荷兰|@ripaojiedian
+      - _41 |27.88Mb
+      - 🇺🇸 美国【YouTube-由零開始】 4
+      - 🇳🇱 NL荷兰(youtube阿伟科技)_2
+      - 🇷🇺 俄罗斯联邦【YouTube-由零開始】
+      - 免费梯子https://t.me/mftizi
+      - Telegram@kxswa | https://t.me/kxswa
+      - 🇺🇸 @hkaa0||美国_9
+      - 🇺🇸 @hkaa0||美国_30
+      - 🇯🇵 US_分享日记 2
+      - 🇨🇳 TW台湾(youtube阿伟科技)
+      - 🇺🇸 US美国白嫖节点 2
+      - 🇮🇪 @hkaa0||爱尔兰
+      - 🇺🇸 美国【YouTube-由零開始】 5
+      - 🇹🇷 TR土耳其(youtube阿伟科技)_1
+      - 🇯🇵 US_分享日记_10
+      - 🇺🇸 美国【YouTube-由零開始】 6
+      - 🇺🇸 _US_美国_109
+      - 8DKJ|@Zyw_Channel
+      - 🇺🇸 _US_美国_83
+      - 🇺🇸 @hkaa0||美国_38
+      - 🇨🇳 中国【YouTube-由零開始】
+      - 🇺🇸 @hkaa0||美国_6
+      - 🇪🇬 @hkaa0||埃及
+      - 🇭🇰 香港【YouTube-由零開始】 2
+      - 🇺🇸 _US_美国_68
+      - 🇸🇬 @hkaa0||新加坡
+      - 🇳🇱 荷兰 139
+      - 🇺🇸 美国【YouTube-由零開始】 7
+      - 🇨🇳 台湾02
+      - 🇫🇷 法国 V2CROSS.COM
+      - 🇭🇰 香港【YouTube-由零開始】 3
+      - 🇯🇵 日本03
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇨🇳 中国【YouTube-由零開始】 2
+      - 🇺🇸 US美国(youtube阿伟科技)_14
+      - YD|www.zyw.asia ZYW免费节点 2
+      - 🇭🇰 香港【YouTube-由零開始】 4
+      - 🇺🇸 _US_美国_62
+      - 🇺🇸 @hkaa0||美国_34
+      - 🇨🇳 中国【YouTube-由零開始】 3
+      - 🇨🇳 中国【YouTube-由零開始】 4
+      - 🇨🇳 @hkaa0||中国_5
+      - 🇨🇳 中国【YouTube-由零開始】 5
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_4
+      - 🇺🇸 _US_美国_74
+      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
+      - FR_156.249.18.36_0723202346fc-331vmess
+      - 🇺🇸 美国【YouTube-由零開始】 8
+      - 🇭🇰 香港【YouTube-由零開始】 5
+      - 🇯🇵 US_分享日记_46
+      - 🇩🇰 @hkaa0||丹麦
+      - 🇺🇸 _US_美国_98
+      - 🇺🇸 @hkaa0||美国_21
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_56
+      - 🇺🇸 美国【YouTube-由零開始】_11
+      - 🇨🇳 中国【YouTube-由零開始】 6
+      - 🇺🇸 US美国(youtube阿伟科技)
+      - 纽约测试|@ripaojiedian
+      - 🇭🇰 香港【YouTube-由零開始】 6
+      - 🇺🇸 美国【YouTube-由零開始】 9
+      - 🇺🇸 _US_美国_13
+      - 🇰🇷 韩国_0723019
+      - 🇺🇸 美国_【YouTube-VV科技】 29
+      - 🇺🇸 美国【YouTube-由零開始】 10
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_60
+      - 🇺🇸 @hkaa0||美国
+      - CF|tg频道:@Zyw_Channel
+      - 🇺🇸 美国【YouTube-由零開始】 11
+      - 🇺🇸 美国【YouTube-由零開始】 12
+      - 🇺🇸 _US_美国_150
+      - 🇯🇵 US_分享日记 3
+      - 🇸🇬 新加坡02 tg@freeVPNjd
+      - 🇫🇷 FR法国(youtube阿伟科技)_1
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=4
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_3
+      - YD|www.zyw.asia ZYW免费节点 3
+      - 🇱🇺 LU卢森堡(youtube阿伟科技)
+      - 🇺🇸 美国【YouTube-由零開始】 13
+      - CF|tg频道:@Zyw_Channel 2
+      - 🇫🇷 法国_0723063
+      - 🇭🇰 香港【YouTube-由零開始】 7
+      - 🇺🇸 _US_美国_73
+      - 8DKJ|www.zyw.asia ZYW免费节点 3
+      - 🇺🇸 @hkaa0||美国_36
+      - 🇸🇬 @hkaa0||新加坡_4
+      - 🇨🇳 中国【YouTube-由零開始】 7
+      - 🇹🇷 @hkaa0||土耳其_1
+      - 🇺🇸 美国【YouTube-由零開始】_9
+      - 🇺🇸 _US_美国_61
+      - 🇺🇸 美国【YouTube-由零開始】 14
+      - 🇺🇸 美国【YouTube-由零開始】 15
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 @hkaa0||美国_2
+      - 🇷🇺 @hkaa0||俄罗斯联邦
+      - 🇺🇸 _US_美国_153
+      - 🇺🇸 美国【YouTube-由零開始】 16
+      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
+      - _39 |79.60Mb
+      - 🇺🇸 美国【YouTube-由零開始】 17
+      - 🇨🇳 中国【YouTube-由零開始】 8
+      - _168
+      - 🇺🇸 _US_美国_159
+      - 🇺🇸 _US_美国_80
+      - 🇺🇸 _US_美国_171
+      - 🇺🇸 美国【YouTube-由零開始】 18
+      - 🇺🇸 US 254 → tg@nicevpn123
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_6
+      - YD|tg频道:@Zyw_Channel 4
+      - 🇺🇸 _US_美国_95
+      - YD|www.zyw.asia ZYW免费节点 4
+      - 🇺🇸 _US_美国_174
+      - 🇺🇸 美国【YouTube-由零開始】 19
+      - 🇺🇸 美国【YouTube-由零開始】 20
+      - 🇺🇸 美国【YouTube-由零開始】 21
+      - 🇺🇸 _US_美国_127
+      - _170
+      - 🇭🇰 香港【YouTube-由零開始】 8
+      - 🇺🇸 美国【YouTube-由零開始】 22
+      - 🇺🇸 美国【YouTube-由零開始】 23
+      - 🇺🇸 _US_美国_145
+      - 🇺🇸 美国【YouTube-由零開始】 24
+      - 🇳🇱 荷兰 169
+      - 🇺🇸 美国【YouTube-由零開始】 25
+      - 🇺🇸 美国【YouTube-由零開始】_10
+      - 🇯🇵 US_分享日记 4
+      - 🇺🇸 美国【YouTube-由零開始】 26
+      - 🇺🇸 @hkaa0||美国_24
+      - 🇺🇸 美国【YouTube-由零開始】 27
+      - 🇺🇸 美国【YouTube-由零開始】 28
+      - 🇺🇸 _US_美国_149
+      - 🇺🇸 美国【YouTube-由零開始】 29
+      - 🇺🇸 _US_美国_36
+      - 🇺🇸 _US_美国_180
+      - 🇺🇸 美国【YouTube-由零開始】 30
+      - 🇫🇷 法国【YouTube-由零開始】_2
+      - 🇺🇸 美国【YouTube-由零開始】 31
+      - 🇺🇸 美国【YouTube-由零開始】 32
+      - 🇺🇸 美国【YouTube-由零開始】 33
+      - YD|tg频道:@Zyw_Channel 5
+      - 🇺🇸 @hkaa0||美国_23
+      - 🇺🇸 美国【YouTube-由零開始】 34
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 美国【YouTube-由零開始】 35
+      - 🇺🇸 _US_美国_50
+      - 🇺🇸 美国【YouTube-由零開始】 36
+      - 🇺🇸 美国【YouTube-由零開始】 37
+      - 🇺🇸 _US_美国_21
+      - 🇺🇸 _US_美国_71
+      - 🇭🇰 香港【YouTube-由零開始】 9
+      - 🇺🇸 美国【YouTube-由零開始】 38
+      - 🇨🇳 账号：1i8.cn/fNNTc
+      - 🇺🇸 美国【YouTube-由零開始】 39
+      - 🇺🇸 _US_美国_93
+      - 🇺🇸 美国【YouTube-由零開始】 40
+      - 🇺🇸 美国【YouTube-由零開始】 41
+      - 🇺🇸 美国【YouTube-由零開始】 42
+      - 🇺🇸 @hkaa0||美国_32
+      - 🇺🇸 美国【YouTube-由零開始】 43
+      - 🇺🇸 _US_美国_67
+      - 🇺🇸 US美国(youtube阿伟科技)_17
+      - 🇺🇸 _US_美国_1 2
+      - 🇯🇵 US_分享日记_8
+      - 🇨🇳 中国【YouTube-由零開始】 9
+      - 🇺🇸 _US_美国_144
+      - 🇺🇸 美国 237
+      - 🇺🇸 _US_美国 15
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇨🇳 中国【YouTube-由零開始】 10
+      - 🇺🇸 美国【YouTube-由零開始】 44
+      - 🇭🇰 香港c tg@freeVPNjd
+      - 🇺🇸 美国_【YouTube-VV科技】 4
+      - JP_3.112.234.245_0723202346fc-700ssr
+      - 🇨🇳 中国【YouTube-由零開始】 11
+      - 🇭🇰 香港 tg@freeVPNjd
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - TG@GEEKSAHRE_10
-      - RELAY-104.21.47.30-1084
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 日本02
-      - 🇯🇵 @hkaa0||日本
       - YD|tg频道:@Zyw_Channel
-      - 🇨🇳 台湾05
-      - 🇸🇬 新加坡_0722029
-      - 🇫🇷 法国-电信联通首选
-      - 🇸🇬 狮城01
-      - 🇭🇰 香港05
-      - _170
-      - _168
-      - 🇯🇵 日本03
-      - 🇰🇷 韩国04
-      - 🇮🇪 爱尔兰_0723001
-      - 🇯🇵 日本-负载均衡
+      - YD|@Zyw_Channel
+      - YD|@Zyw_Channel 2
+      - 🇺🇸 @hkaa0||美国_28
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国A|@ripaojiedian
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇺🇸 @hkaa0||美国_35
+      - HK_150.107.46.21_0723202346fc-342ssr
+      - 🇺🇸 @hkaa0||美国_4
+      - 🇺🇸 _US_美国_8
+      - 🇺🇸 美国【YouTube-由零開始】_6
+      - SG_52.221.240.166_0722202399b6-309ss%%�
+      - 🇿🇦 @hkaa0||南非
+      - 🇻🇳 VN越南(youtube阿伟科技)
+      - 🇺🇸 @hkaa0||美国_20
+      - 🇺🇸 @hkaa0||美国_33
+      - 🇭🇰 IPLC香港b udpn tg@freeVPNjd
+      - 🇯🇵 @hkaa0||日本
+      - 🇺🇸 _US_美国_16
       - 🇯🇵 日本01
-      - 🇨🇳 台湾 tg@freeVPNjd
-      - "🇭🇰 香港7|GPT|奈飞|\r"
-      - 🇸🇬 狮城05
-      - 🇯🇵 日本06
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
-      - 🇨🇳 台湾01
-      - 🇫🇷 法国_0723063
-      - _171
-      - 🇯🇵 日本04
-      - 🇸🇬 狮城03
-      - 🇰🇷 韩国05
-      - 🇨🇳 台湾 tg@freeVPNjd 2
-      - 🇬🇧 英国_0723020
-      - "🇨🇳 台湾2|原生|彰化|\r"
-      - 🇨🇳 台湾 tg@freeVPNjd 3
-      - "🇺🇸 美国1|GPT|奈飞|\r"
-      - "🇺🇸 美国2|GPT|奈飞|\r"
+      - 🇰🇷 首尔特殊|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel 2
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_7
+      - 🇨🇳 @hkaa0||中国_7
+      - 🇨🇳 中国_【YouTube-VV科技】 3
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇯🇵 US_分享日记
+      - 🇯🇵 US_分享日记_27
+      - 🇨🇳 @hkaa0||中国_8
       - 🇸🇬 狮城 tg@freeVPNjd
-      - 🇰🇷 韩国-联通首选
-      - 🇭🇰 @hkaa0||香港
-      - 🇨🇳 台湾l tg@freeVPNjd
-      - 🇸🇬 新加坡02 tg@freeVPNjd
-      - 🇷🇺 俄罗斯联邦【YouTube-由零開始】
-      - 🇨🇳 台湾03
+      - 🇭🇰 香港【YouTube-由零開始】
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_61
       - YD|www.zyw.asia ZYW免费节点
-      - YV|www.zyw.asia ZYW免费节点
-      - 🇰🇷 韩国06
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_1
+      - 🇫🇷 @hkaa0||法国
+      - 🇺🇸 @hkaa0||美国_7
+      - 🇺🇸 美国 250
+      - 🇺🇸 _US_美国_52
+      - 🇺🇸 美国【YouTube-由零開始】 2
+      - 🇩🇪 德国 182
+      - 🇺🇸 美国【YouTube-由零開始】 3
+      - 🇭🇰 HK香港(youtube阿伟科技)_1
+      - 🇫🇷 FR法国(youtube阿伟科技)_2
+      - 🇺🇸 _US_美国_176
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_44
+      - 🇺🇸 美国S|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel 3
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - 🇺🇸 @hkaa0||美国_3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇺🇸 US美国(youtube阿伟科技)_13
+      - 🇺🇸 US美国白嫖节点
+      - 8DKJ|www.zyw.asia ZYW免费节点 2
+      - 🇳🇱 荷兰|@ripaojiedian
+      - _41 |27.88Mb
+      - 🇺🇸 美国【YouTube-由零開始】 4
+      - 🇳🇱 NL荷兰(youtube阿伟科技)_2
+      - 🇷🇺 俄罗斯联邦【YouTube-由零開始】
+      - 免费梯子https://t.me/mftizi
+      - Telegram@kxswa | https://t.me/kxswa
+      - 🇺🇸 @hkaa0||美国_9
+      - 🇺🇸 @hkaa0||美国_30
+      - 🇯🇵 US_分享日记 2
+      - 🇨🇳 TW台湾(youtube阿伟科技)
+      - 🇺🇸 US美国白嫖节点 2
+      - 🇮🇪 @hkaa0||爱尔兰
+      - 🇺🇸 美国【YouTube-由零開始】 5
+      - 🇹🇷 TR土耳其(youtube阿伟科技)_1
+      - 🇯🇵 US_分享日记_10
+      - 🇺🇸 美国【YouTube-由零開始】 6
+      - 🇺🇸 _US_美国_109
+      - 8DKJ|@Zyw_Channel
+      - 🇺🇸 _US_美国_83
+      - 🇺🇸 @hkaa0||美国_38
+      - 🇨🇳 中国【YouTube-由零開始】
+      - 🇺🇸 @hkaa0||美国_6
+      - 🇪🇬 @hkaa0||埃及
+      - 🇭🇰 香港【YouTube-由零開始】 2
+      - 🇺🇸 _US_美国_68
+      - 🇸🇬 @hkaa0||新加坡
+      - 🇳🇱 荷兰 139
+      - 🇺🇸 美国【YouTube-由零開始】 7
+      - 🇨🇳 台湾02
+      - 🇫🇷 法国 V2CROSS.COM
+      - 🇭🇰 香港【YouTube-由零開始】 3
+      - 🇯🇵 日本03
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇨🇳 中国【YouTube-由零開始】 2
+      - 🇺🇸 US美国(youtube阿伟科技)_14
+      - YD|www.zyw.asia ZYW免费节点 2
+      - 🇭🇰 香港【YouTube-由零開始】 4
+      - 🇺🇸 _US_美国_62
+      - 🇺🇸 @hkaa0||美国_34
+      - 🇨🇳 中国【YouTube-由零開始】 3
+      - 🇨🇳 中国【YouTube-由零開始】 4
+      - 🇨🇳 @hkaa0||中国_5
+      - 🇨🇳 中国【YouTube-由零開始】 5
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_4
+      - 🇺🇸 _US_美国_74
+      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
+      - FR_156.249.18.36_0723202346fc-331vmess
+      - 🇺🇸 美国【YouTube-由零開始】 8
+      - 🇭🇰 香港【YouTube-由零開始】 5
+      - 🇯🇵 US_分享日记_46
+      - 🇩🇰 @hkaa0||丹麦
+      - 🇺🇸 _US_美国_98
+      - 🇺🇸 @hkaa0||美国_21
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_56
+      - 🇺🇸 美国【YouTube-由零開始】_11
+      - 🇨🇳 中国【YouTube-由零開始】 6
+      - 🇺🇸 US美国(youtube阿伟科技)
+      - 纽约测试|@ripaojiedian
+      - 🇭🇰 香港【YouTube-由零開始】 6
+      - 🇺🇸 美国【YouTube-由零開始】 9
+      - 🇺🇸 _US_美国_13
+      - 🇰🇷 韩国_0723019
+      - 🇺🇸 美国_【YouTube-VV科技】 29
+      - 🇺🇸 美国【YouTube-由零開始】 10
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_60
+      - 🇺🇸 @hkaa0||美国
+      - CF|tg频道:@Zyw_Channel
+      - 🇺🇸 美国【YouTube-由零開始】 11
+      - 🇺🇸 美国【YouTube-由零開始】 12
+      - 🇺🇸 _US_美国_150
+      - 🇯🇵 US_分享日记 3
+      - 🇸🇬 新加坡02 tg@freeVPNjd
+      - 🇫🇷 FR法国(youtube阿伟科技)_1
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=4
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_3
+      - YD|www.zyw.asia ZYW免费节点 3
+      - 🇱🇺 LU卢森堡(youtube阿伟科技)
+      - 🇺🇸 美国【YouTube-由零開始】 13
+      - CF|tg频道:@Zyw_Channel 2
+      - 🇫🇷 法国_0723063
+      - 🇭🇰 香港【YouTube-由零開始】 7
+      - 🇺🇸 _US_美国_73
+      - 8DKJ|www.zyw.asia ZYW免费节点 3
+      - 🇺🇸 @hkaa0||美国_36
+      - 🇸🇬 @hkaa0||新加坡_4
+      - 🇨🇳 中国【YouTube-由零開始】 7
+      - 🇹🇷 @hkaa0||土耳其_1
+      - 🇺🇸 美国【YouTube-由零開始】_9
+      - 🇺🇸 _US_美国_61
+      - 🇺🇸 美国【YouTube-由零開始】 14
+      - 🇺🇸 美国【YouTube-由零開始】 15
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 @hkaa0||美国_2
+      - 🇷🇺 @hkaa0||俄罗斯联邦
+      - 🇺🇸 _US_美国_153
+      - 🇺🇸 美国【YouTube-由零開始】 16
+      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
+      - _39 |79.60Mb
+      - 🇺🇸 美国【YouTube-由零開始】 17
+      - 🇨🇳 中国【YouTube-由零開始】 8
+      - _168
+      - 🇺🇸 _US_美国_159
+      - 🇺🇸 _US_美国_80
+      - 🇺🇸 _US_美国_171
+      - 🇺🇸 美国【YouTube-由零開始】 18
+      - 🇺🇸 US 254 → tg@nicevpn123
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_6
+      - YD|tg频道:@Zyw_Channel 4
+      - 🇺🇸 _US_美国_95
+      - YD|www.zyw.asia ZYW免费节点 4
+      - 🇺🇸 _US_美国_174
+      - 🇺🇸 美国【YouTube-由零開始】 19
+      - 🇺🇸 美国【YouTube-由零開始】 20
+      - 🇺🇸 美国【YouTube-由零開始】 21
+      - 🇺🇸 _US_美国_127
+      - _170
+      - 🇭🇰 香港【YouTube-由零開始】 8
+      - 🇺🇸 美国【YouTube-由零開始】 22
+      - 🇺🇸 美国【YouTube-由零開始】 23
+      - 🇺🇸 _US_美国_145
+      - 🇺🇸 美国【YouTube-由零開始】 24
+      - 🇳🇱 荷兰 169
+      - 🇺🇸 美国【YouTube-由零開始】 25
+      - 🇺🇸 美国【YouTube-由零開始】_10
+      - 🇯🇵 US_分享日记 4
+      - 🇺🇸 美国【YouTube-由零開始】 26
+      - 🇺🇸 @hkaa0||美国_24
+      - 🇺🇸 美国【YouTube-由零開始】 27
+      - 🇺🇸 美国【YouTube-由零開始】 28
+      - 🇺🇸 _US_美国_149
+      - 🇺🇸 美国【YouTube-由零開始】 29
+      - 🇺🇸 _US_美国_36
+      - 🇺🇸 _US_美国_180
+      - 🇺🇸 美国【YouTube-由零開始】 30
+      - 🇫🇷 法国【YouTube-由零開始】_2
+      - 🇺🇸 美国【YouTube-由零開始】 31
+      - 🇺🇸 美国【YouTube-由零開始】 32
+      - 🇺🇸 美国【YouTube-由零開始】 33
+      - YD|tg频道:@Zyw_Channel 5
+      - 🇺🇸 @hkaa0||美国_23
+      - 🇺🇸 美国【YouTube-由零開始】 34
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 美国【YouTube-由零開始】 35
+      - 🇺🇸 _US_美国_50
+      - 🇺🇸 美国【YouTube-由零開始】 36
+      - 🇺🇸 美国【YouTube-由零開始】 37
+      - 🇺🇸 _US_美国_21
+      - 🇺🇸 _US_美国_71
+      - 🇭🇰 香港【YouTube-由零開始】 9
+      - 🇺🇸 美国【YouTube-由零開始】 38
+      - 🇨🇳 账号：1i8.cn/fNNTc
+      - 🇺🇸 美国【YouTube-由零開始】 39
+      - 🇺🇸 _US_美国_93
+      - 🇺🇸 美国【YouTube-由零開始】 40
+      - 🇺🇸 美国【YouTube-由零開始】 41
+      - 🇺🇸 美国【YouTube-由零開始】 42
+      - 🇺🇸 @hkaa0||美国_32
+      - 🇺🇸 美国【YouTube-由零開始】 43
+      - 🇺🇸 _US_美国_67
+      - 🇺🇸 US美国(youtube阿伟科技)_17
+      - 🇺🇸 _US_美国_1 2
+      - 🇯🇵 US_分享日记_8
+      - 🇨🇳 中国【YouTube-由零開始】 9
+      - 🇺🇸 _US_美国_144
+      - 🇺🇸 美国 237
+      - 🇺🇸 _US_美国 15
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇨🇳 中国【YouTube-由零開始】 10
+      - 🇺🇸 美国【YouTube-由零開始】 44
+      - 🇭🇰 香港c tg@freeVPNjd
+      - 🇺🇸 美国_【YouTube-VV科技】 4
+      - JP_3.112.234.245_0723202346fc-700ssr
+      - 🇨🇳 中国【YouTube-由零開始】 11
+      - 🇭🇰 香港 tg@freeVPNjd
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - TG@GEEKSAHRE_10
-      - RELAY-104.21.47.30-1084
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 日本02
-      - 🇯🇵 @hkaa0||日本
       - YD|tg频道:@Zyw_Channel
-      - 🇨🇳 台湾05
-      - 🇸🇬 新加坡_0722029
-      - 🇫🇷 法国-电信联通首选
-      - 🇸🇬 狮城01
-      - 🇭🇰 香港05
-      - _170
-      - _168
-      - 🇯🇵 日本03
-      - 🇰🇷 韩国04
-      - 🇮🇪 爱尔兰_0723001
-      - 🇯🇵 日本-负载均衡
+      - YD|@Zyw_Channel
+      - YD|@Zyw_Channel 2
+      - 🇺🇸 @hkaa0||美国_28
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国A|@ripaojiedian
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇺🇸 @hkaa0||美国_35
+      - HK_150.107.46.21_0723202346fc-342ssr
+      - 🇺🇸 @hkaa0||美国_4
+      - 🇺🇸 _US_美国_8
+      - 🇺🇸 美国【YouTube-由零開始】_6
+      - SG_52.221.240.166_0722202399b6-309ss%%�
+      - 🇿🇦 @hkaa0||南非
+      - 🇻🇳 VN越南(youtube阿伟科技)
+      - 🇺🇸 @hkaa0||美国_20
+      - 🇺🇸 @hkaa0||美国_33
+      - 🇭🇰 IPLC香港b udpn tg@freeVPNjd
+      - 🇯🇵 @hkaa0||日本
+      - 🇺🇸 _US_美国_16
       - 🇯🇵 日本01
-      - 🇨🇳 台湾 tg@freeVPNjd
-      - "🇭🇰 香港7|GPT|奈飞|\r"
-      - 🇸🇬 狮城05
-      - 🇯🇵 日本06
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
-      - 🇨🇳 台湾01
-      - 🇫🇷 法国_0723063
-      - _171
-      - 🇯🇵 日本04
-      - 🇸🇬 狮城03
-      - 🇰🇷 韩国05
-      - 🇨🇳 台湾 tg@freeVPNjd 2
-      - 🇬🇧 英国_0723020
-      - "🇨🇳 台湾2|原生|彰化|\r"
-      - 🇨🇳 台湾 tg@freeVPNjd 3
-      - "🇺🇸 美国1|GPT|奈飞|\r"
-      - "🇺🇸 美国2|GPT|奈飞|\r"
+      - 🇰🇷 首尔特殊|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel 2
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_7
+      - 🇨🇳 @hkaa0||中国_7
+      - 🇨🇳 中国_【YouTube-VV科技】 3
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇯🇵 US_分享日记
+      - 🇯🇵 US_分享日记_27
+      - 🇨🇳 @hkaa0||中国_8
       - 🇸🇬 狮城 tg@freeVPNjd
-      - 🇰🇷 韩国-联通首选
-      - 🇭🇰 @hkaa0||香港
-      - 🇨🇳 台湾l tg@freeVPNjd
-      - 🇸🇬 新加坡02 tg@freeVPNjd
-      - 🇷🇺 俄罗斯联邦【YouTube-由零開始】
-      - 🇨🇳 台湾03
+      - 🇭🇰 香港【YouTube-由零開始】
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_61
       - YD|www.zyw.asia ZYW免费节点
-      - YV|www.zyw.asia ZYW免费节点
-      - 🇰🇷 韩国06
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_1
+      - 🇫🇷 @hkaa0||法国
+      - 🇺🇸 @hkaa0||美国_7
+      - 🇺🇸 美国 250
+      - 🇺🇸 _US_美国_52
+      - 🇺🇸 美国【YouTube-由零開始】 2
+      - 🇩🇪 德国 182
+      - 🇺🇸 美国【YouTube-由零開始】 3
+      - 🇭🇰 HK香港(youtube阿伟科技)_1
+      - 🇫🇷 FR法国(youtube阿伟科技)_2
+      - 🇺🇸 _US_美国_176
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_44
+      - 🇺🇸 美国S|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel 3
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - 🇺🇸 @hkaa0||美国_3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇺🇸 US美国(youtube阿伟科技)_13
+      - 🇺🇸 US美国白嫖节点
+      - 8DKJ|www.zyw.asia ZYW免费节点 2
+      - 🇳🇱 荷兰|@ripaojiedian
+      - _41 |27.88Mb
+      - 🇺🇸 美国【YouTube-由零開始】 4
+      - 🇳🇱 NL荷兰(youtube阿伟科技)_2
+      - 🇷🇺 俄罗斯联邦【YouTube-由零開始】
+      - 免费梯子https://t.me/mftizi
+      - Telegram@kxswa | https://t.me/kxswa
+      - 🇺🇸 @hkaa0||美国_9
+      - 🇺🇸 @hkaa0||美国_30
+      - 🇯🇵 US_分享日记 2
+      - 🇨🇳 TW台湾(youtube阿伟科技)
+      - 🇺🇸 US美国白嫖节点 2
+      - 🇮🇪 @hkaa0||爱尔兰
+      - 🇺🇸 美国【YouTube-由零開始】 5
+      - 🇹🇷 TR土耳其(youtube阿伟科技)_1
+      - 🇯🇵 US_分享日记_10
+      - 🇺🇸 美国【YouTube-由零開始】 6
+      - 🇺🇸 _US_美国_109
+      - 8DKJ|@Zyw_Channel
+      - 🇺🇸 _US_美国_83
+      - 🇺🇸 @hkaa0||美国_38
+      - 🇨🇳 中国【YouTube-由零開始】
+      - 🇺🇸 @hkaa0||美国_6
+      - 🇪🇬 @hkaa0||埃及
+      - 🇭🇰 香港【YouTube-由零開始】 2
+      - 🇺🇸 _US_美国_68
+      - 🇸🇬 @hkaa0||新加坡
+      - 🇳🇱 荷兰 139
+      - 🇺🇸 美国【YouTube-由零開始】 7
+      - 🇨🇳 台湾02
+      - 🇫🇷 法国 V2CROSS.COM
+      - 🇭🇰 香港【YouTube-由零開始】 3
+      - 🇯🇵 日本03
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇨🇳 中国【YouTube-由零開始】 2
+      - 🇺🇸 US美国(youtube阿伟科技)_14
+      - YD|www.zyw.asia ZYW免费节点 2
+      - 🇭🇰 香港【YouTube-由零開始】 4
+      - 🇺🇸 _US_美国_62
+      - 🇺🇸 @hkaa0||美国_34
+      - 🇨🇳 中国【YouTube-由零開始】 3
+      - 🇨🇳 中国【YouTube-由零開始】 4
+      - 🇨🇳 @hkaa0||中国_5
+      - 🇨🇳 中国【YouTube-由零開始】 5
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_4
+      - 🇺🇸 _US_美国_74
+      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
+      - FR_156.249.18.36_0723202346fc-331vmess
+      - 🇺🇸 美国【YouTube-由零開始】 8
+      - 🇭🇰 香港【YouTube-由零開始】 5
+      - 🇯🇵 US_分享日记_46
+      - 🇩🇰 @hkaa0||丹麦
+      - 🇺🇸 _US_美国_98
+      - 🇺🇸 @hkaa0||美国_21
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_56
+      - 🇺🇸 美国【YouTube-由零開始】_11
+      - 🇨🇳 中国【YouTube-由零開始】 6
+      - 🇺🇸 US美国(youtube阿伟科技)
+      - 纽约测试|@ripaojiedian
+      - 🇭🇰 香港【YouTube-由零開始】 6
+      - 🇺🇸 美国【YouTube-由零開始】 9
+      - 🇺🇸 _US_美国_13
+      - 🇰🇷 韩国_0723019
+      - 🇺🇸 美国_【YouTube-VV科技】 29
+      - 🇺🇸 美国【YouTube-由零開始】 10
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_60
+      - 🇺🇸 @hkaa0||美国
+      - CF|tg频道:@Zyw_Channel
+      - 🇺🇸 美国【YouTube-由零開始】 11
+      - 🇺🇸 美国【YouTube-由零開始】 12
+      - 🇺🇸 _US_美国_150
+      - 🇯🇵 US_分享日记 3
+      - 🇸🇬 新加坡02 tg@freeVPNjd
+      - 🇫🇷 FR法国(youtube阿伟科技)_1
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=4
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_3
+      - YD|www.zyw.asia ZYW免费节点 3
+      - 🇱🇺 LU卢森堡(youtube阿伟科技)
+      - 🇺🇸 美国【YouTube-由零開始】 13
+      - CF|tg频道:@Zyw_Channel 2
+      - 🇫🇷 法国_0723063
+      - 🇭🇰 香港【YouTube-由零開始】 7
+      - 🇺🇸 _US_美国_73
+      - 8DKJ|www.zyw.asia ZYW免费节点 3
+      - 🇺🇸 @hkaa0||美国_36
+      - 🇸🇬 @hkaa0||新加坡_4
+      - 🇨🇳 中国【YouTube-由零開始】 7
+      - 🇹🇷 @hkaa0||土耳其_1
+      - 🇺🇸 美国【YouTube-由零開始】_9
+      - 🇺🇸 _US_美国_61
+      - 🇺🇸 美国【YouTube-由零開始】 14
+      - 🇺🇸 美国【YouTube-由零開始】 15
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 @hkaa0||美国_2
+      - 🇷🇺 @hkaa0||俄罗斯联邦
+      - 🇺🇸 _US_美国_153
+      - 🇺🇸 美国【YouTube-由零開始】 16
+      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
+      - _39 |79.60Mb
+      - 🇺🇸 美国【YouTube-由零開始】 17
+      - 🇨🇳 中国【YouTube-由零開始】 8
+      - _168
+      - 🇺🇸 _US_美国_159
+      - 🇺🇸 _US_美国_80
+      - 🇺🇸 _US_美国_171
+      - 🇺🇸 美国【YouTube-由零開始】 18
+      - 🇺🇸 US 254 → tg@nicevpn123
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_6
+      - YD|tg频道:@Zyw_Channel 4
+      - 🇺🇸 _US_美国_95
+      - YD|www.zyw.asia ZYW免费节点 4
+      - 🇺🇸 _US_美国_174
+      - 🇺🇸 美国【YouTube-由零開始】 19
+      - 🇺🇸 美国【YouTube-由零開始】 20
+      - 🇺🇸 美国【YouTube-由零開始】 21
+      - 🇺🇸 _US_美国_127
+      - _170
+      - 🇭🇰 香港【YouTube-由零開始】 8
+      - 🇺🇸 美国【YouTube-由零開始】 22
+      - 🇺🇸 美国【YouTube-由零開始】 23
+      - 🇺🇸 _US_美国_145
+      - 🇺🇸 美国【YouTube-由零開始】 24
+      - 🇳🇱 荷兰 169
+      - 🇺🇸 美国【YouTube-由零開始】 25
+      - 🇺🇸 美国【YouTube-由零開始】_10
+      - 🇯🇵 US_分享日记 4
+      - 🇺🇸 美国【YouTube-由零開始】 26
+      - 🇺🇸 @hkaa0||美国_24
+      - 🇺🇸 美国【YouTube-由零開始】 27
+      - 🇺🇸 美国【YouTube-由零開始】 28
+      - 🇺🇸 _US_美国_149
+      - 🇺🇸 美国【YouTube-由零開始】 29
+      - 🇺🇸 _US_美国_36
+      - 🇺🇸 _US_美国_180
+      - 🇺🇸 美国【YouTube-由零開始】 30
+      - 🇫🇷 法国【YouTube-由零開始】_2
+      - 🇺🇸 美国【YouTube-由零開始】 31
+      - 🇺🇸 美国【YouTube-由零開始】 32
+      - 🇺🇸 美国【YouTube-由零開始】 33
+      - YD|tg频道:@Zyw_Channel 5
+      - 🇺🇸 @hkaa0||美国_23
+      - 🇺🇸 美国【YouTube-由零開始】 34
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 美国【YouTube-由零開始】 35
+      - 🇺🇸 _US_美国_50
+      - 🇺🇸 美国【YouTube-由零開始】 36
+      - 🇺🇸 美国【YouTube-由零開始】 37
+      - 🇺🇸 _US_美国_21
+      - 🇺🇸 _US_美国_71
+      - 🇭🇰 香港【YouTube-由零開始】 9
+      - 🇺🇸 美国【YouTube-由零開始】 38
+      - 🇨🇳 账号：1i8.cn/fNNTc
+      - 🇺🇸 美国【YouTube-由零開始】 39
+      - 🇺🇸 _US_美国_93
+      - 🇺🇸 美国【YouTube-由零開始】 40
+      - 🇺🇸 美国【YouTube-由零開始】 41
+      - 🇺🇸 美国【YouTube-由零開始】 42
+      - 🇺🇸 @hkaa0||美国_32
+      - 🇺🇸 美国【YouTube-由零開始】 43
+      - 🇺🇸 _US_美国_67
+      - 🇺🇸 US美国(youtube阿伟科技)_17
+      - 🇺🇸 _US_美国_1 2
+      - 🇯🇵 US_分享日记_8
+      - 🇨🇳 中国【YouTube-由零開始】 9
+      - 🇺🇸 _US_美国_144
+      - 🇺🇸 美国 237
+      - 🇺🇸 _US_美国 15
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇨🇳 中国【YouTube-由零開始】 10
+      - 🇺🇸 美国【YouTube-由零開始】 44
+      - 🇭🇰 香港c tg@freeVPNjd
+      - 🇺🇸 美国_【YouTube-VV科技】 4
+      - JP_3.112.234.245_0723202346fc-700ssr
+      - 🇨🇳 中国【YouTube-由零開始】 11
+      - 🇭🇰 香港 tg@freeVPNjd
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - TG@GEEKSAHRE_10
-      - RELAY-104.21.47.30-1084
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 日本02
-      - 🇯🇵 @hkaa0||日本
       - YD|tg频道:@Zyw_Channel
-      - 🇨🇳 台湾05
-      - 🇸🇬 新加坡_0722029
-      - 🇫🇷 法国-电信联通首选
-      - 🇸🇬 狮城01
-      - 🇭🇰 香港05
-      - _170
-      - _168
-      - 🇯🇵 日本03
-      - 🇰🇷 韩国04
-      - 🇮🇪 爱尔兰_0723001
-      - 🇯🇵 日本-负载均衡
+      - YD|@Zyw_Channel
+      - YD|@Zyw_Channel 2
+      - 🇺🇸 @hkaa0||美国_28
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国A|@ripaojiedian
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇺🇸 @hkaa0||美国_35
+      - HK_150.107.46.21_0723202346fc-342ssr
+      - 🇺🇸 @hkaa0||美国_4
+      - 🇺🇸 _US_美国_8
+      - 🇺🇸 美国【YouTube-由零開始】_6
+      - SG_52.221.240.166_0722202399b6-309ss%%�
+      - 🇿🇦 @hkaa0||南非
+      - 🇻🇳 VN越南(youtube阿伟科技)
+      - 🇺🇸 @hkaa0||美国_20
+      - 🇺🇸 @hkaa0||美国_33
+      - 🇭🇰 IPLC香港b udpn tg@freeVPNjd
+      - 🇯🇵 @hkaa0||日本
+      - 🇺🇸 _US_美国_16
       - 🇯🇵 日本01
-      - 🇨🇳 台湾 tg@freeVPNjd
-      - "🇭🇰 香港7|GPT|奈飞|\r"
-      - 🇸🇬 狮城05
-      - 🇯🇵 日本06
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
-      - 🇨🇳 台湾01
-      - 🇫🇷 法国_0723063
-      - _171
-      - 🇯🇵 日本04
-      - 🇸🇬 狮城03
-      - 🇰🇷 韩国05
-      - 🇨🇳 台湾 tg@freeVPNjd 2
-      - 🇬🇧 英国_0723020
-      - "🇨🇳 台湾2|原生|彰化|\r"
-      - 🇨🇳 台湾 tg@freeVPNjd 3
-      - "🇺🇸 美国1|GPT|奈飞|\r"
-      - "🇺🇸 美国2|GPT|奈飞|\r"
+      - 🇰🇷 首尔特殊|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel 2
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_7
+      - 🇨🇳 @hkaa0||中国_7
+      - 🇨🇳 中国_【YouTube-VV科技】 3
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇯🇵 US_分享日记
+      - 🇯🇵 US_分享日记_27
+      - 🇨🇳 @hkaa0||中国_8
       - 🇸🇬 狮城 tg@freeVPNjd
-      - 🇰🇷 韩国-联通首选
-      - 🇭🇰 @hkaa0||香港
-      - 🇨🇳 台湾l tg@freeVPNjd
-      - 🇸🇬 新加坡02 tg@freeVPNjd
-      - 🇷🇺 俄罗斯联邦【YouTube-由零開始】
-      - 🇨🇳 台湾03
+      - 🇭🇰 香港【YouTube-由零開始】
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_61
       - YD|www.zyw.asia ZYW免费节点
-      - YV|www.zyw.asia ZYW免费节点
-      - 🇰🇷 韩国06
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_1
+      - 🇫🇷 @hkaa0||法国
+      - 🇺🇸 @hkaa0||美国_7
+      - 🇺🇸 美国 250
+      - 🇺🇸 _US_美国_52
+      - 🇺🇸 美国【YouTube-由零開始】 2
+      - 🇩🇪 德国 182
+      - 🇺🇸 美国【YouTube-由零開始】 3
+      - 🇭🇰 HK香港(youtube阿伟科技)_1
+      - 🇫🇷 FR法国(youtube阿伟科技)_2
+      - 🇺🇸 _US_美国_176
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_44
+      - 🇺🇸 美国S|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel 3
+      - 🇺🇸 五叶节点分享频道 @hkaa0 |美国
+      - 🇺🇸 @hkaa0||美国_3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇺🇸 US美国(youtube阿伟科技)_13
+      - 🇺🇸 US美国白嫖节点
+      - 8DKJ|www.zyw.asia ZYW免费节点 2
+      - 🇳🇱 荷兰|@ripaojiedian
+      - _41 |27.88Mb
+      - 🇺🇸 美国【YouTube-由零開始】 4
+      - 🇳🇱 NL荷兰(youtube阿伟科技)_2
+      - 🇷🇺 俄罗斯联邦【YouTube-由零開始】
+      - 免费梯子https://t.me/mftizi
+      - Telegram@kxswa | https://t.me/kxswa
+      - 🇺🇸 @hkaa0||美国_9
+      - 🇺🇸 @hkaa0||美国_30
+      - 🇯🇵 US_分享日记 2
+      - 🇨🇳 TW台湾(youtube阿伟科技)
+      - 🇺🇸 US美国白嫖节点 2
+      - 🇮🇪 @hkaa0||爱尔兰
+      - 🇺🇸 美国【YouTube-由零開始】 5
+      - 🇹🇷 TR土耳其(youtube阿伟科技)_1
+      - 🇯🇵 US_分享日记_10
+      - 🇺🇸 美国【YouTube-由零開始】 6
+      - 🇺🇸 _US_美国_109
+      - 8DKJ|@Zyw_Channel
+      - 🇺🇸 _US_美国_83
+      - 🇺🇸 @hkaa0||美国_38
+      - 🇨🇳 中国【YouTube-由零開始】
+      - 🇺🇸 @hkaa0||美国_6
+      - 🇪🇬 @hkaa0||埃及
+      - 🇭🇰 香港【YouTube-由零開始】 2
+      - 🇺🇸 _US_美国_68
+      - 🇸🇬 @hkaa0||新加坡
+      - 🇳🇱 荷兰 139
+      - 🇺🇸 美国【YouTube-由零開始】 7
+      - 🇨🇳 台湾02
+      - 🇫🇷 法国 V2CROSS.COM
+      - 🇭🇰 香港【YouTube-由零開始】 3
+      - 🇯🇵 日本03
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇨🇳 中国【YouTube-由零開始】 2
+      - 🇺🇸 US美国(youtube阿伟科技)_14
+      - YD|www.zyw.asia ZYW免费节点 2
+      - 🇭🇰 香港【YouTube-由零開始】 4
+      - 🇺🇸 _US_美国_62
+      - 🇺🇸 @hkaa0||美国_34
+      - 🇨🇳 中国【YouTube-由零開始】 3
+      - 🇨🇳 中国【YouTube-由零開始】 4
+      - 🇨🇳 @hkaa0||中国_5
+      - 🇨🇳 中国【YouTube-由零開始】 5
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_4
+      - 🇺🇸 _US_美国_74
+      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
+      - FR_156.249.18.36_0723202346fc-331vmess
+      - 🇺🇸 美国【YouTube-由零開始】 8
+      - 🇭🇰 香港【YouTube-由零開始】 5
+      - 🇯🇵 US_分享日记_46
+      - 🇩🇰 @hkaa0||丹麦
+      - 🇺🇸 _US_美国_98
+      - 🇺🇸 @hkaa0||美国_21
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_56
+      - 🇺🇸 美国【YouTube-由零開始】_11
+      - 🇨🇳 中国【YouTube-由零開始】 6
+      - 🇺🇸 US美国(youtube阿伟科技)
+      - 纽约测试|@ripaojiedian
+      - 🇭🇰 香港【YouTube-由零開始】 6
+      - 🇺🇸 美国【YouTube-由零開始】 9
+      - 🇺🇸 _US_美国_13
+      - 🇰🇷 韩国_0723019
+      - 🇺🇸 美国_【YouTube-VV科技】 29
+      - 🇺🇸 美国【YouTube-由零開始】 10
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_60
+      - 🇺🇸 @hkaa0||美国
+      - CF|tg频道:@Zyw_Channel
+      - 🇺🇸 美国【YouTube-由零開始】 11
+      - 🇺🇸 美国【YouTube-由零開始】 12
+      - 🇺🇸 _US_美国_150
+      - 🇯🇵 US_分享日记 3
+      - 🇸🇬 新加坡02 tg@freeVPNjd
+      - 🇫🇷 FR法国(youtube阿伟科技)_1
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=4
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_3
+      - YD|www.zyw.asia ZYW免费节点 3
+      - 🇱🇺 LU卢森堡(youtube阿伟科技)
+      - 🇺🇸 美国【YouTube-由零開始】 13
+      - CF|tg频道:@Zyw_Channel 2
+      - 🇫🇷 法国_0723063
+      - 🇭🇰 香港【YouTube-由零開始】 7
+      - 🇺🇸 _US_美国_73
+      - 8DKJ|www.zyw.asia ZYW免费节点 3
+      - 🇺🇸 @hkaa0||美国_36
+      - 🇸🇬 @hkaa0||新加坡_4
+      - 🇨🇳 中国【YouTube-由零開始】 7
+      - 🇹🇷 @hkaa0||土耳其_1
+      - 🇺🇸 美国【YouTube-由零開始】_9
+      - 🇺🇸 _US_美国_61
+      - 🇺🇸 美国【YouTube-由零開始】 14
+      - 🇺🇸 美国【YouTube-由零開始】 15
+      - 🇺🇸 _US_美国_1
+      - 🇺🇸 @hkaa0||美国_2
+      - 🇷🇺 @hkaa0||俄罗斯联邦
+      - 🇺🇸 _US_美国_153
+      - 🇺🇸 美国【YouTube-由零開始】 16
+      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
+      - _39 |79.60Mb
+      - 🇺🇸 美国【YouTube-由零開始】 17
+      - 🇨🇳 中国【YouTube-由零開始】 8
+      - _168
+      - 🇺🇸 _US_美国_159
+      - 🇺🇸 _US_美国_80
+      - 🇺🇸 _US_美国_171
+      - 🇺🇸 美国【YouTube-由零開始】 18
+      - 🇺🇸 US 254 → tg@nicevpn123
+      - 🇸🇬 SG新加坡(youtube阿伟科技)_6
+      - YD|tg频道:@Zyw_Channel 4
+      - 🇺🇸 _US_美国_95
+      - YD|www.zyw.asia ZYW免费节点 4
+      - 🇺🇸 _US_美国_174
+      - 🇺🇸 美国【YouTube-由零開始】 19
+      - 🇺🇸 美国【YouTube-由零開始】 20
+      - 🇺🇸 美国【YouTube-由零開始】 21
+      - 🇺🇸 _US_美国_127
+      - _170
+      - 🇭🇰 香港【YouTube-由零開始】 8
+      - 🇺🇸 美国【YouTube-由零開始】 22
+      - 🇺🇸 美国【YouTube-由零開始】 23
+      - 🇺🇸 _US_美国_145
+      - 🇺🇸 美国【YouTube-由零開始】 24
+      - 🇳🇱 荷兰 169
+      - 🇺🇸 美国【YouTube-由零開始】 25
+      - 🇺🇸 美国【YouTube-由零開始】_10
+      - 🇯🇵 US_分享日记 4
+      - 🇺🇸 美国【YouTube-由零開始】 26
+      - 🇺🇸 @hkaa0||美国_24
+      - 🇺🇸 美国【YouTube-由零開始】 27
+      - 🇺🇸 美国【YouTube-由零開始】 28
+      - 🇺🇸 _US_美国_149
+      - 🇺🇸 美国【YouTube-由零開始】 29
+      - 🇺🇸 _US_美国_36
+      - 🇺🇸 _US_美国_180
+      - 🇺🇸 美国【YouTube-由零開始】 30
+      - 🇫🇷 法国【YouTube-由零開始】_2
+      - 🇺🇸 美国【YouTube-由零開始】 31
+      - 🇺🇸 美国【YouTube-由零開始】 32
+      - 🇺🇸 美国【YouTube-由零開始】 33
+      - YD|tg频道:@Zyw_Channel 5
+      - 🇺🇸 @hkaa0||美国_23
+      - 🇺🇸 美国【YouTube-由零開始】 34
+      - 🇺🇸 @hkaa0||美国 2
+      - 🇺🇸 美国【YouTube-由零開始】 35
+      - 🇺🇸 _US_美国_50
+      - 🇺🇸 美国【YouTube-由零開始】 36
+      - 🇺🇸 美国【YouTube-由零開始】 37
+      - 🇺🇸 _US_美国_21
+      - 🇺🇸 _US_美国_71
+      - 🇭🇰 香港【YouTube-由零開始】 9
+      - 🇺🇸 美国【YouTube-由零開始】 38
+      - 🇨🇳 账号：1i8.cn/fNNTc
+      - 🇺🇸 美国【YouTube-由零開始】 39
+      - 🇺🇸 _US_美国_93
+      - 🇺🇸 美国【YouTube-由零開始】 40
+      - 🇺🇸 美国【YouTube-由零開始】 41
+      - 🇺🇸 美国【YouTube-由零開始】 42
+      - 🇺🇸 @hkaa0||美国_32
+      - 🇺🇸 美国【YouTube-由零開始】 43
+      - 🇺🇸 _US_美国_67
+      - 🇺🇸 US美国(youtube阿伟科技)_17
+      - 🇺🇸 _US_美国_1 2
+      - 🇯🇵 US_分享日记_8
+      - 🇨🇳 中国【YouTube-由零開始】 9
+      - 🇺🇸 _US_美国_144
+      - 🇺🇸 美国 237
+      - 🇺🇸 _US_美国 15
+      - 🇺🇸 @hkaa0||美国 3
+      - 🇨🇳 中国【YouTube-由零開始】 10
+      - 🇺🇸 美国【YouTube-由零開始】 44
+      - 🇭🇰 香港c tg@freeVPNjd
+      - 🇺🇸 美国_【YouTube-VV科技】 4
+      - JP_3.112.234.245_0723202346fc-700ssr
+      - 🇨🇳 中国【YouTube-由零開始】 11
+      - 🇭🇰 香港 tg@freeVPNjd
   - name: 🛑 禁止代理
     type: select
     proxies:
