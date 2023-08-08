@@ -5,111 +5,152 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US01, server: 111.12.60.115, port: 2001, type: ss, cipher: chacha20-ietf-poly1305, password: eeae2b7e-5dbf-481b-a271-a6d7d13ddafe}
-  - {name: 8DKJ|www.zyw.asia ZYW免费节点, server: 91.207.183.63, port: 15720, type: ss, cipher: chacha20-ietf-poly1305, password: mX1q8sv17wA5LGDHIHD6Jo}
-  - {name: "@hkaa0||US_6", server: 185.47.255.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: UK01, server: 111.12.60.116, port: 2200, type: ss, cipher: chacha20-ietf-poly1305, password: eeae2b7e-5dbf-481b-a271-a6d7d13ddafe}
-  - {name: 🇨🇳 台湾中继2, server: video.tiktokuu.xyz, port: 1262, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
-  - {name: 8DKJ|www.zyw.asia ZYW免费节点 2, server: 92.243.27.51, port: 9802, type: ss, cipher: chacha20-ietf-poly1305, password: Kq3iQqtVlyPJBPcD6QpnGE}
-  - {name: YouTube阿伟科技_4, server: 154.9.204.54, port: 60000, type: ssr, cipher: dummy, password: 52*wentermethod, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies|, server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-xnchfngut, skip-cert-verify: true}
-  - {name: JP01, server: 111.12.60.115, port: 2051, type: ss, cipher: chacha20-ietf-poly1305, password: eeae2b7e-5dbf-481b-a271-a6d7d13ddafe}
-  - {name: "@hkaa0||ZA", server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇳🇱 NL荷兰(youtube阿伟科技)_2, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [🇳🇱NL荷兰(youtube阿伟科技)]}}}
-  - {name: _电报频道： @mfjdpd 134, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies| 2, server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-cdhngt, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 192, server: 163.123.192.155, port: 443, type: trojan, password: d31792a4-b843-469f-9185-4a6111ff7612, skip-cert-verify: true}
-  - {name: 🇯🇵 东京, server: dj.jiediandajie.link, port: 1425, type: ss, cipher: chacha20-ietf-poly1305, password: 0b4a1969-531e-42be-abcd-9cc623d02b72}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 27.255.82.49, port: 5731, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: YD|tg频道:@Zyw_Channel, server: 146.185.198.44, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: V7jmsA6PQsLn}
-  - {name: 🇷🇺 俄罗斯(youtube阿伟科技), server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.144.179.138]}}}
-  - {name: 纽约测试|@ripaojiedian, server: 216.52.183.246, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇭🇰 HK-18.163.249.175-0217, server: 18.163.249.175, port: 443, type: trojan, password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g, sni: golang.protocolbuffer.com, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 14, server: 15.204.210.176, port: 80, type: trojan, password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f, skip-cert-verify: true}
-  - {name: 8DKJ|tg频道:@Zyw_Channel, server: 212.113.106.243, port: 13022, type: ss, cipher: chacha20-ietf-poly1305, password: w5drAL7PfCIwQ2ycUuoDsV2Ls}
-  - {name: 🇩🇪 DE德国(youtube阿伟科技)_6, server: v2ryng.xyz, port: 27849, type: vmess, uuid: aa057623-1b9e-4b0d-9c95-befca6943ce3, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [zula.ir]}}}
-  - {name: 🇩🇪 DE德国(youtube阿伟科技)_7, server: 65.109.180.96, port: 15600, type: vmess, uuid: e360d82e-5f11-4017-c05d-f4ca2129e5a4, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [digikala.com]}}}
-  - {name: 🇩🇰 @hkaa0||DK, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 TW台湾 04 | 广移 | 1x, server: gz.cm.bbcc.cyou, port: 37017, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇩🇪 法兰克福, server: flkf.jiediandajie.link, port: 1425, type: ss, cipher: chacha20-ietf-poly1305, password: 0b4a1969-531e-42be-abcd-9cc623d02b72}
-  - {name: 🇺🇸 US美国 01 | 广移 | 1x, server: gz.cm.bbcc.cyou, port: 38925, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇭🇰 香港中继6, server: video.tiktokuu.xyz, port: 1206, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港中继3, server: video.tiktokuu.xyz, port: 1203, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 狮城2|@ripaojiedian, server: 54.254.129.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 法国, server: fg.jiediandajie.link, port: 1425, type: ss, cipher: chacha20-ietf-poly1305, password: 0b4a1969-531e-42be-abcd-9cc623d02b72}
-  - {name: 🇰🇷 韩国中继1, server: video.tiktokuu.xyz, port: 1251, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本15 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: f1159286-6ce2-4d1f-a9f7-a779d8c7fd49}
-  - {name: 🇭🇰 v1丨香港丨AZ丨丨北京—香港1丨解锁流媒体, server: xianggangzhi1.yooo.one, port: 36351, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: xianggangzhi1.sayun.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 >🇹🇼 TW|Ms|0731|TG@FProxies|, server: tw3.jb7ueoq73.xyz, port: 443, type: trojan, password: 929421c2-501a-4204-b843-968b67c7ae6e, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾中继1, server: video.tiktokuu.xyz, port: 1261, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: Telegram@kxswa | https://t.me/kxswa, server: 172.64.194.98, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】, server: cf2.992688.xyz, port: 8080, type: vmess, uuid: 0ea60ebb-632d-4226-893a-cccc2053dbf5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: haxus3.vpn66.eu.org}}}
+  - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: YD|www.zyw.asia ZYW免费节点, server: 172.67.61.240, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 8DKJ|@Zyw_Channel, server: cf3.992688.xyz, port: 8080, type: vmess, uuid: f467f4da-2226-448d-a30d-463ef10548ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 2, server: 172.67.115.6, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: YD|@Zyw_Channel, server: 172.64.194.234, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: YD|@Zyw_Channel 2, server: 172.67.197.57, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 8DKJ|@Zyw_Channel 2, server: cdn.narutos.top, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /GdtYWlsLmNvbSJ9LCJjb3V, headers: {Host: newyork.yj2022.gq}}}
   - {name: 🇨🇳 台湾中继3, server: video.tiktokuu.xyz, port: 1263, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港02 tg@freeVPNjd, server: pinhk.cu.edu.kg, port: 10113, type: ss, cipher: chacha20-ietf-poly1305, password: 445e52b6-a2f6-40eb-b2b6-53e754e52630}
-  - {name: Telegram@kxswa | https://t.me/kxswa, server: v2node11.bipbupvpn.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5570a08c-670a-473a-b937-d091d5eb9e08}
-  - {name: 🇺🇸 美国SS-03, server: video.tiktokuu.xyz, port: 12023, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
-  - {name: 🇯🇵 日本09 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: 2a8125fc-3965-4c99-a6ea-f0d1c9d1a6b6}
-  - {name: 🇨🇳 台湾05 tg@freeVPNjd, server: gz.cm.bbcc.cyou, port: 36909, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇨🇳 台湾SS-01, server: video.tiktokuu.xyz, port: 12031, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: YD|@Zyw_Channel 3, server: 172.64.92.42, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: YD|www.zyw.asia ZYW免费节点 2, server: 172.67.196.199, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇨🇳 台湾中继2, server: video.tiktokuu.xyz, port: 1262, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国1|@ripaojiedian, server: 221.168.44.84, port: 53333, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: YD|www.zyw.asia ZYW免费节点 3, server: 172.64.90.210, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
   - {name: 🇺🇸 美国中继6, server: video.tiktokuu.xyz, port: 1236, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港08 tg@freeVPNjd, server: pinhk.cu.edu.kg, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: 2a8125fc-3965-4c99-a6ea-f0d1c9d1a6b6}
-  - {name: 🇺🇸 圣何塞, server: shs.jiediandajie.link, port: 1425, type: trojan, password: 0b4a1969-531e-42be-abcd-9cc623d02b72, sni: shs.jiediandajie.link, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡04 tg@freeVPNjd, server: pinsg.cu.edu.kg, port: 10126, type: ss, cipher: chacha20-ietf-poly1305, password: f1159286-6ce2-4d1f-a9f7-a779d8c7fd49}
-  - {name: YD|www.zyw.asia ZYW免费节点, server: paris.telegavpn.com, port: 9802, type: ss, cipher: chacha20-ietf-poly1305, password: Kq3iQqtVlyPJBPcD6QpnGE}
-  - {name: 🇯🇵 日本 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: 445e52b6-a2f6-40eb-b2b6-53e754e52630}
-  - {name: 🇨🇳 台湾SS-04, server: video.tiktokuu.xyz, port: 12034, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
-  - {name: 🇦🇺 悉尼, server: xn.jiediandajie.link, port: 1425, type: ss, cipher: chacha20-ietf-poly1305, password: 0b4a1969-531e-42be-abcd-9cc623d02b72}
-  - {name: 🇸🇬 新加坡, server: xjp.jiediandajie.link, port: 1425, type: ss, cipher: chacha20-ietf-poly1305, password: 0b4a1969-531e-42be-abcd-9cc623d02b72}
-  - {name: 🇭🇰 v1丨香港丨微软丨AZ丨7丨解锁流媒体, server: xianggangzhi7.yooo.one, port: 52390, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: xianggangzhi7.sayun.xyz, skip-cert-verify: false}
-  - {name: 🇩🇪 v1丨德国丨浙江移动丨Trojan, server: zhuanfa01.suyun.live, port: 20987, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: kjcvcdyuenan1.suyun.live, skip-cert-verify: false}
-  - {name: 🇯🇵 日本11 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: 5bfcee1d-cb90-4c09-9189-e3e3f88a53b2}
-  - {name: 🇯🇵 日本17 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: c51f7f64-80bd-4356-9d35-0fc916cfe07a}
-  - {name: 🇬🇧 英国, server: yg.jiediandajie.link, port: 1425, type: ss, cipher: chacha20-ietf-poly1305, password: 0b4a1969-531e-42be-abcd-9cc623d02b72}
-  - {name: 🇸🇬 v1丨新加坡丨北京-新加坡丨解锁流媒体, server: zhuanfa02.yooo.one, port: 36987, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: zhuanfaxjp3.suyun.live, skip-cert-verify: false}
-  - {name: 🇯🇵 日本03 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: c51f7f64-80bd-4356-9d35-0fc916cfe07a}
-  - {name: 🇯🇵 日本05 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: ccb95072-dedc-4ca9-bf35-3afad54ebf0f}
-  - {name: 🇯🇵 日本08 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: b26fdb09-11a8-4203-ab7b-2d7a2877551c}
-  - {name: 🇯🇵 日本SS-03, server: video.tiktokuu.xyz, port: 12013, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
-  - {name: 🇯🇵 日本04 tg@freeVPNjd, server: gz.cm.bbcc.cyou, port: 34859, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇯🇵 日本, server: rb.jiediandajie.link, port: 1425, type: ss, cipher: chacha20-ietf-poly1305, password: 0b4a1969-531e-42be-abcd-9cc623d02b72}
-  - {name: 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐, server: rbwr01.yooo.one, port: 38121, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: xianggangzhi11.sayun.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 v1丨香港丨移动转线丨1丨8台负载-2x丨解锁流媒体, server: xianggangzhi2.yooo.one, port: 62595, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: xianggangzhi2.sayun.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本SS-02, server: video.tiktokuu.xyz, port: 12012, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
-  - {name: 🇦🇪 阿联酋【YouTube-由零開始】, server: series-g1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: sgjJsZJHLlhmdvUk}
-  - {name: 🇯🇵 日本SS-01, server: video.tiktokuu.xyz, port: 12011, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
-  - {name: 🇭🇰 v1丨香港丨优化丨1Gbps  4丨解锁流媒体, server: xianggangzhi6.yooo.one, port: 18263, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: xianggangzhi6.sayun.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港SS-04, server: video.tiktokuu.xyz, port: 12004, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
-  - {name: 🇭🇰 香港SS-02, server: video.tiktokuu.xyz, port: 12002, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
-  - {name: 🇺🇸 美国中继4, server: video.tiktokuu.xyz, port: 1234, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港07 tg@freeVPNjd, server: pinhk.cu.edu.kg, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: 5bfcee1d-cb90-4c09-9189-e3e3f88a53b2}
-  - {name: 🇭🇰 香港SS-03, server: video.tiktokuu.xyz, port: 12003, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
-  - {name: 🇭🇰 HK香港05 | 苏移 | 1x, server: js.cm.bbcc.cyou, port: 10223, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇨🇳 台湾SS-02, server: video.tiktokuu.xyz, port: 12032, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: 🇻🇳 VN越南(youtube阿伟科技), server: dn2.ph5gvpn.online, port: 80, type: vmess, uuid: 834d6d9a-08ab-4c47-967b-7a6bf6ec3077, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ph5gvpn, headers: {Host: dn2.ph5gvpn.online}}}
   - {name: 🇨🇳 台湾SS-03, server: video.tiktokuu.xyz, port: 12033, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
-  - {name: 🇨🇳 v1丨台湾丨原生丨静态-解锁流媒体, server: zhuanfa01.suyun.live, port: 52993, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: dijdsdgctw1.suyun.live, skip-cert-verify: false}
-  - {name: 🇯🇵 日本16 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: 2a8125fc-3965-4c99-a6ea-f0d1c9d1a6b6}
-  - {name: 🇯🇵 日本07 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: ccb95072-dedc-4ca9-bf35-3afad54ebf0f}
-  - {name: 🇸🇬 新加坡|@ripaojiedian, server: sg6.421421.xyz, port: 20230, type: trojan, password: d9e70e09-e187-4ba1-82e4-1224676216b1, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港04 tg@freeVPNjd, server: pinhk.cu.edu.kg, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: c51f7f64-80bd-4356-9d35-0fc916cfe07a}
-  - {name: 🇯🇵 日本10 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: b26fdb09-11a8-4203-ab7b-2d7a2877551c}
-  - {name: 🇯🇵 日本16 tg@freeVPNjd 2, server: pinjp.cu.edu.kg, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: 2a8125fc-3965-4c99-a6ea-f0d1c9d1a6b6}
-  - {name: 🇨🇳 TW台湾 03 | 苏移 | 1x, server: js.cm.bbcc.cyou, port: 39114, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇯🇵 日本06 tg@freeVPNjd, server: gz.cm.bbcc.cyou, port: 39096, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇬🇧 伦敦, server: ld.jiediandajie.link, port: 1425, type: ss, cipher: chacha20-ietf-poly1305, password: 0b4a1969-531e-42be-abcd-9cc623d02b72}
-  - {name: 🇯🇵 日本12 tg@freeVPNjd, server: pinjp.cu.edu.kg, port: 10142, type: ss, cipher: chacha20-ietf-poly1305, password: ccb95072-dedc-4ca9-bf35-3afad54ebf0f}
-  - {name: 🇯🇵 JP日本 04 | 苏移 | 1x, server: js.cm.bbcc.cyou, port: 13383, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇺🇸 US美国 03 | 苏移 | 1x, server: js.cm.bbcc.cyou, port: 22007, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇲🇾 v1丨马来西亚丨原生丨广移中继, server: malaixiya.yooo.one, port: 52437, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: malai.suyun.live, skip-cert-verify: false}
-  - {name: 🇭🇰 HK香港02 | 苏移 | 1x, server: js.cm.bbcc.cyou, port: 26575, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇨🇳 TW台湾 06 | 苏移 | 1x, server: js.cm.bbcc.cyou, port: 21108, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇭🇰 香港03 tg@freeVPNjd, server: js.cm.bbcc.cyou, port: 34975, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇸🇬 SG新加坡 03 | 苏移 | 1x, server: js.cm.bbcc.cyou, port: 20939, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇺🇸 美国, server: mg.jiediandajie.link, port: 1425, type: trojan, password: 0b4a1969-531e-42be-abcd-9cc623d02b72, sni: jiediandajie.link, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾02 tg@freeVPNjd, server: gz.cm.bbcc.cyou, port: 37386, type: ss, cipher: chacha20-ietf-poly1305, password: 469da9f6-9bf7-43e2-b830-8fbac1642403}
-  - {name: 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇨🇳 台湾中继4, server: video.tiktokuu.xyz, port: 1264, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国中继4, server: video.tiktokuu.xyz, port: 1234, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: Telegram@kxswa | https://t.me/kxswa 3, server: 172.67.237.176, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 纽约测试|@ripaojiedian, server: 216.52.183.246, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: YD|tg频道:@Zyw_Channel, server: 172.67.97.183, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 4, server: 172.67.212.128, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: YD|@Zyw_Channel 4, server: 172.67.193.109, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_13", server: t-wn01.xingyunwu.top, port: 50052, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾SS-02, server: video.tiktokuu.xyz, port: 12032, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: 🇰🇷 韩国-优化1, server: ydyh.nanbei.info, port: 26913, type: ss, cipher: chacha20-ietf-poly1305, password: 78e96817-8697-48ca-8d10-95e3ae0ff586}
+  - {name: 🇭🇰 >🇭🇰 HK|Hs|0805|TG@FProxies|, server: s1.nnnx111.xyz, port: 13002, type: trojan, password: 1f36ba45-93a9-3ab6-9e38-0f0c64b01b20, skip-cert-verify: true}
+  - {name: CF|www.zyw.asia ZYW免费节点, server: 43.201.7.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CF|www.zyw.asia ZYW免费节点 2, server: 221.150.109.6, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇯🇵 日本06 tg@freeVPNjd, server: 43.201.254.183, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: Telegram@kxswa | https://t.me/kxswa 5, server: 172.67.238.152, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇭🇰 香港-优化1, server: ydyh.nanbei.info, port: 26912, type: ss, cipher: chacha20-ietf-poly1305, password: 78e96817-8697-48ca-8d10-95e3ae0ff586}
+  - {name: Telegram@kxswa | https://t.me/kxswa 6, server: k-r01.xingyunwu.top, port: 50020, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: 🇦🇱 @hkaa0||阿尔巴尼亚, server: 31.171.153.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇰🇷 韩国2|@ripaojiedian, server: 43.202.42.149, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_4", server: t-wn03.xingyunwu.top, port: 50056, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: 🇯🇵 日本【YouTube-由零開始】, server: 3.112.225.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 @hkaa0||韩国, server: 221.150.109.5, port: 9555, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: CF|tg频道:@Zyw_Channel, server: 3.0.147.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: YD|tg频道:@Zyw_Channel 2, server: k-r04.xingyunwu.top, port: 50026, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false}
+  - {name: "@hkaa0||FR_12", server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}}
+  - {name: CF|www.zyw.asia ZYW免费节点 3, server: u-s03.xingyunwu.top, port: 50032, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: 「SCP」UK2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk2.scproxy.top}}}
+  - {name: 🇨🇳 台湾03 tg@freeVPNjd, server: 43.201.251.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 8DKJ|tg频道:@Zyw_Channel, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 8abe9496-5e24-4e49-b566-dcf86116017d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /i99LgvSaslbsPLLQQ7j6Z, headers: {Host: de5.irteh.fun}}}
+  - {name: 🇯🇵 日本02 tg@freeVPNjd, server: 3.0.182.218, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CF|tg频道:@Zyw_Channel 2, server: 52.26.147.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: Telegram@kxswa | https://t.me/kxswa 7, server: 172.67.25.87, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 8, server: 172.64.85.189, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇯🇵 日本SS-01, server: video.tiktokuu.xyz, port: 12011, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: 🇰🇷 韩国中继1, server: video.tiktokuu.xyz, port: 1251, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇪 迪拜-优化1, server: ydyh.nanbei.info, port: 26914, type: ss, cipher: chacha20-ietf-poly1305, password: 78e96817-8697-48ca-8d10-95e3ae0ff586}
+  - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: RELAY-104.17.14.48-0264, server: www.codepen.io, port: 443, type: vmess, uuid: 2cd39102-0799-4c61-abb6-2e7a258f0397, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: us-v.sshmax.xyz}}}
+  - {name: 🇸🇬 狮城2|@ripaojiedian, server: 54.254.129.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国特殊|@ripaojiedian, server: 35.85.46.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本SS-02, server: video.tiktokuu.xyz, port: 12012, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: 🇯🇵 东京特殊|@ripaojiedian, server: 43.207.83.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: YD|@Zyw_Channel 5, server: j-p04.xingyunwu.top, port: 50092, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾SS-04, server: video.tiktokuu.xyz, port: 12034, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: 🇺🇸 美国特殊|@ripaojiedian 2, server: 34.217.75.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港SS-04, server: video.tiktokuu.xyz, port: 12004, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: YD|tg频道:@Zyw_Channel 3, server: 172.67.244.14, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇭🇰 香港SS-02, server: video.tiktokuu.xyz, port: 12002, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: 🇺🇸 美国【YouTube-由零開始】 2, server: bxcc.76898102.xyz, port: 2052, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bxsmiao, headers: {Host: bxc.76898102.xyz}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 9, server: 141.101.123.243, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇨🇳 台湾-优化1, server: ydyh.nanbei.info, port: 26911, type: ss, cipher: chacha20-ietf-poly1305, password: 78e96817-8697-48ca-8d10-95e3ae0ff586}
+  - {name: 🇭🇰 香港中继4, server: video.tiktokuu.xyz, port: 1204, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: video.tiktokuu.xyz}}}
+  - {name: 🇺🇸 美国SS-03, server: video.tiktokuu.xyz, port: 12023, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: 🇭🇰 香港中继6, server: video.tiktokuu.xyz, port: 1206, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: CF|www.zyw.asia ZYW免费节点 4, server: 18.179.118.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 美国中继3, server: video.tiktokuu.xyz, port: 1233, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: feijicloud.com赞助_6, server: attwa10008.cdn.node.a.tddns-ounk.com, port: 30883, type: vmess, uuid: 4974546d-3156-3dd7-82c0-d3fb3e6ea8c4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, headers: {Host: attwa10008.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇸🇬 新加坡-优化1, server: ydyh.nanbei.info, port: 26906, type: ss, cipher: chacha20-ietf-poly1305, password: 78e96817-8697-48ca-8d10-95e3ae0ff586}
+  - {name: 🇯🇵 V4-4012|日本|x2.0, server: cdn.node.user-sub.pddns-usersdk.com, port: 14770, type: vmess, uuid: 17b058a0-0337-3a6e-b870-1176ad1194dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
+  - {name: 🇯🇵 日本SS-03, server: video.tiktokuu.xyz, port: 12013, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: feijicloud.com赞助_7, server: attwa10012.cdn.node.a.tddns-ounk.com, port: 30878, type: vmess, uuid: 4974546d-3156-3dd7-82c0-d3fb3e6ea8c4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, headers: {Host: attwa10012.cdn.node.a.tddns-ounk.com}}}
+  - {name: feijicloud.com赞助_5, server: attwa10012.cdn.node.a.tddns-ounk.com, port: 30870, type: vmess, uuid: 4974546d-3156-3dd7-82c0-d3fb3e6ea8c4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, headers: {Host: attwa10012.cdn.node.a.tddns-ounk.com}}}
+  - {name: feijicloud.com赞助_2, server: attwa10012.cdn.node.a.tddns-ounk.com, port: 30871, type: vmess, uuid: 4974546d-3156-3dd7-82c0-d3fb3e6ea8c4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, headers: {Host: attwa10012.cdn.node.a.tddns-ounk.com}}}
+  - {name: feijicloud.com赞助_9, server: attwa10008.cdn.node.a.tddns-ounk.com, port: 30885, type: vmess, uuid: 4974546d-3156-3dd7-82c0-d3fb3e6ea8c4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, headers: {Host: attwa10008.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇸🇬 狮城2|@ripaojiedian 2, server: 54.255.112.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本-优化1, server: ydyh.nanbei.info, port: 26908, type: ss, cipher: chacha20-ietf-poly1305, password: 78e96817-8697-48ca-8d10-95e3ae0ff586}
+  - {name: 🇸🇬 新加坡06 tg@freeVPNjd, server: 183.240.222.80, port: 2001, type: ss, cipher: chacha20-ietf-poly1305, password: 658d07c3-8fdb-496d-bf3b-72207bbfed81}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_3", server: c-a01.xingyunwu.top, port: 50080, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: 🇭🇰 香港中继2, server: video.tiktokuu.xyz, port: 1202, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: feijicloud.com赞助_1, server: attwa10006.cdn.node.a.tddns-ounk.com, port: 30865, type: vmess, uuid: 4974546d-3156-3dd7-82c0-d3fb3e6ea8c4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, headers: {Host: attwa10006.cdn.node.a.tddns-ounk.com}}}
+  - {name: feijicloud.com赞助_3, server: attwa10005.cdn.node.a.tddns-ounk.com, port: 30855, type: vmess, uuid: 4974546d-3156-3dd7-82c0-d3fb3e6ea8c4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, headers: {Host: attwa10005.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇯🇵 V4-4002|日本|x2.0, server: cdn.node.user-sub.pddns-usersdk.com, port: 14110, type: vmess, uuid: 17b058a0-0337-3a6e-b870-1176ad1194dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
+  - {name: YD|www.zyw.asia ZYW免费节点 4, server: 172.67.51.202, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇯🇵 V4-4001|日本|x1.5, server: cdn.node.user-sub.pddns-usersdk.com, port: 14109, type: vmess, uuid: 17b058a0-0337-3a6e-b870-1176ad1194dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
+  - {name: feijicloud.com赞助_4, server: attwa10005.cdn.node.a.tddns-ounk.com, port: 30858, type: vmess, uuid: 4974546d-3156-3dd7-82c0-d3fb3e6ea8c4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8, headers: {Host: attwa10005.cdn.node.a.tddns-ounk.com}}}
+  - {name: 🇭🇰 香港SS-03, server: video.tiktokuu.xyz, port: 12003, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify), server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇸🇬 新加坡中继2, server: video.tiktokuu.xyz, port: 1242, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _美国_【YouTube-VV科技】 40, server: 172.64.96.134, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
+  - {name: 🇦🇪 阿联酋【YouTube-由零開始】, server: series-g1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: sgjJsZJHLlhmdvUk}
+  - {name: 🇸🇬 狮城|@ripaojiedian, server: 13.229.240.227, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 关注电报https://t.me/aifenxiang2020, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: 🇷🇺 俄罗斯(youtube阿伟科技), server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.144.179.138]}}}
+  - {name: 🇩🇪 德国-优化1, server: ydyh.nanbei.info, port: 26907, type: ss, cipher: chacha20-ietf-poly1305, password: 78e96817-8697-48ca-8d10-95e3ae0ff586}
+  - {name: YD|www.zyw.asia ZYW免费节点 5, server: c-a02.xingyunwu.top, port: 50082, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false}
+  - {name: Telegram@kxswa | https://t.me/kxswa 10, server: ip.saintink.eu.org, port: 443, type: vmess, uuid: d4b6f48f-7474-44dc-9492-8fa3f63db887, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: ro2.v2rayserv.com/vmess, headers: {Host: 4.saintink.eu.org}}}
+  - {name: FR_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_3, server: 156.249.18.37, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_11", server: t-wn04.xingyunwu.top, port: 50058, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: Telegram@kxswa | https://t.me/kxswa 11, server: u-s04.xingyunwu.top, port: 50034, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: 🇺🇸 美国 192, server: 163.123.192.155, port: 443, type: trojan, password: d31792a4-b843-469f-9185-4a6111ff7612, skip-cert-verify: true}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_5", server: s-g03.xingyunwu.top, port: 50040, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: Telegram@kxswa | https://t.me/kxswa 12, server: 203.23.104.190, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
+  - {name: 🇭🇰 Hong Kong tg@freeVPNjd, server: hk4.elknode.buzz, port: 8443, type: vmess, uuid: 9ce5464d-23fb-3665-8099-2069faf7b5a2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_8", server: j-p02.xingyunwu.top, port: 50046, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: YD|@Zyw_Channel 6, server: 172.67.7.186, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: RELAY-172.64.133.248-0092, server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: YD|www.zyw.asia ZYW免费节点 6, server: 198.41.214.55, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_18, server: 23.224.202.86, port: 57702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_9", server: u-s02.xingyunwu.top, port: 50030, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: YD|@Zyw_Channel 7, server: u-s01.xingyunwu.top, port: 50028, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: false}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_7", server: s-g02.xingyunwu.top, port: 50038, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: YD|tg频道:@Zyw_Channel 4, server: 172.67.65.210, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 13, server: s.steamdownload.top, port: 36716, type: trojan, password: 1c041a0d-5241-4bce-9987-080a03cba728, sni: datade.steamdownload.top, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾SS-01, server: video.tiktokuu.xyz, port: 12031, type: ss, cipher: aes-128-gcm, password: c3fb8ad7-2dd6-4985-8249-92e479a78eab}
+  - {name: 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐, server: rbwr01.yooo.one, port: 38121, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: xianggangzhi11.sayun.xyz, skip-cert-verify: false}
+  - {name: YD|@Zyw_Channel 8, server: bluehost.com, port: 443, type: vmess, uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /19544, headers: {Host: cdntr2.digisport.shop}}}
   - {name: 🇺🇸 @hkaa0||美国, server: 216.52.183.244, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇨🇳 台湾中继6, server: video.tiktokuu.xyz, port: 1266, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
-  - {name: SG01, server: 111.12.60.116, port: 2100, type: ss, cipher: chacha20-ietf-poly1305, password: eeae2b7e-5dbf-481b-a271-a6d7d13ddafe}
+  - {name: 8DKJ|tg频道:@Zyw_Channel 2, server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 14, server: 172.67.220.154, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 15, server: 172.64.207.232, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_10", server: j-p01.xingyunwu.top, port: 50044, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国_70, server: 172.67.161.21, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇺🇸 美国中继1, server: video.tiktokuu.xyz, port: 1231, type: vmess, uuid: c3fb8ad7-2dd6-4985-8249-92e479a78eab, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇮🇱 以色列_【YouTube-VV科技】\r", server: v2node11.bipbupvpn.com, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9d13726f-ecda-4300-b06e-7e0ec3f876f2}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_6", server: t-wn02.xingyunwu.top, port: 50054, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: 8DKJ|tg频道:@Zyw_Channel 3, server: Shopify.com, port: 2086, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: Fr.cloudflare.quest}}}
+  - {name: YD|@Zyw_Channel 9, server: 172.67.237.73, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: YD|tg频道:@Zyw_Channel 5, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: "🇨🇳 中国_【YouTube-VV科技】\r_12", server: j-p03.xingyunwu.top, port: 50048, type: trojan, password: fad6dff0-9437-4ff1-ab9f-f96c48efc928, sni: xingyunwu.top, skip-cert-verify: true}
+  - {name: YD|@Zyw_Channel 10, server: 172.67.144.240, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 16, server: 172.67.103.86, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: 🇰🇷 免费丨韩国丨2丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐, server: wrhuanguo1.yooo.one, port: 24677, type: trojan, password: aafd65b7-b8bc-3dcd-a389-56fd7d31978c, sni: wrhgaws3.sayun.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 US-198.2.197.73-6696, server: 198.2.197.73, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1690021167515, headers: {Host: www.71825152.xyz}}}
+  - {name: YD|@Zyw_Channel 11, server: 172.67.198.131, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
+  - {name: Telegram@kxswa | https://t.me/kxswa 17, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxlux.fovi.tk}}}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -121,442 +162,606 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - US01
-      - 8DKJ|www.zyw.asia ZYW免费节点
-      - "@hkaa0||US_6"
-      - UK01
-      - 🇨🇳 台湾中继2
-      - 8DKJ|www.zyw.asia ZYW免费节点 2
-      - YouTube阿伟科技_4
-      - 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies|
-      - JP01
-      - "@hkaa0||ZA"
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_2
-      - _电报频道： @mfjdpd 134
-      - 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies| 2
-      - 🇺🇸 美国 192
-      - 🇯🇵 东京
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - YD|tg频道:@Zyw_Channel
-      - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 纽约测试|@ripaojiedian
-      - 🇭🇰 HK-18.163.249.175-0217
-      - 🇺🇸 _US_美国 14
-      - 8DKJ|tg频道:@Zyw_Channel
-      - 🇩🇪 DE德国(youtube阿伟科技)_6
-      - 🇩🇪 DE德国(youtube阿伟科技)_7
-      - 🇩🇰 @hkaa0||DK
-      - 🇨🇳 TW台湾 04 | 广移 | 1x
-      - 🇩🇪 法兰克福
-      - 🇺🇸 US美国 01 | 广移 | 1x
-      - 🇭🇰 香港中继6
-      - 🇭🇰 香港中继3
-      - 🇸🇬 狮城2|@ripaojiedian
-      - 🇫🇷 法国
-      - 🇰🇷 韩国中继1
-      - 🇯🇵 日本15 tg@freeVPNjd
-      - 🇭🇰 v1丨香港丨AZ丨丨北京—香港1丨解锁流媒体
-      - 🇨🇳 >🇹🇼 TW|Ms|0731|TG@FProxies|
-      - 🇨🇳 台湾中继1
-      - 🇨🇳 台湾中继3
-      - 🇭🇰 香港02 tg@freeVPNjd
       - Telegram@kxswa | https://t.me/kxswa
-      - 🇺🇸 美国SS-03
-      - 🇯🇵 日本09 tg@freeVPNjd
-      - 🇨🇳 台湾05 tg@freeVPNjd
-      - 🇨🇳 台湾SS-01
-      - 🇺🇸 美国中继6
-      - 🇭🇰 香港08 tg@freeVPNjd
-      - 🇺🇸 圣何塞
-      - 🇸🇬 新加坡04 tg@freeVPNjd
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - YD|www.zyw.asia ZYW免费节点
-      - 🇯🇵 日本 tg@freeVPNjd
-      - 🇨🇳 台湾SS-04
-      - 🇦🇺 悉尼
-      - 🇸🇬 新加坡
-      - 🇭🇰 v1丨香港丨微软丨AZ丨7丨解锁流媒体
-      - 🇩🇪 v1丨德国丨浙江移动丨Trojan
-      - 🇯🇵 日本11 tg@freeVPNjd
-      - 🇯🇵 日本17 tg@freeVPNjd
-      - 🇬🇧 英国
-      - 🇸🇬 v1丨新加坡丨北京-新加坡丨解锁流媒体
-      - 🇯🇵 日本03 tg@freeVPNjd
-      - 🇯🇵 日本05 tg@freeVPNjd
-      - 🇯🇵 日本08 tg@freeVPNjd
-      - 🇯🇵 日本SS-03
-      - 🇯🇵 日本04 tg@freeVPNjd
-      - 🇯🇵 日本
-      - 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
-      - 🇭🇰 v1丨香港丨移动转线丨1丨8台负载-2x丨解锁流媒体
-      - 🇯🇵 日本SS-02
-      - 🇦🇪 阿联酋【YouTube-由零開始】
-      - 🇯🇵 日本SS-01
-      - 🇭🇰 v1丨香港丨优化丨1Gbps  4丨解锁流媒体
-      - 🇭🇰 香港SS-04
-      - 🇭🇰 香港SS-02
-      - 🇺🇸 美国中继4
-      - 🇭🇰 香港07 tg@freeVPNjd
-      - 🇭🇰 香港SS-03
-      - 🇭🇰 HK香港05 | 苏移 | 1x
-      - 🇨🇳 台湾SS-02
+      - 8DKJ|@Zyw_Channel
+      - Telegram@kxswa | https://t.me/kxswa 2
+      - YD|@Zyw_Channel
+      - YD|@Zyw_Channel 2
+      - 8DKJ|@Zyw_Channel 2
+      - 🇨🇳 台湾中继3
+      - YD|@Zyw_Channel 3
+      - YD|www.zyw.asia ZYW免费节点 2
+      - 🇨🇳 台湾中继2
+      - 🇰🇷 韩国1|@ripaojiedian
+      - YD|www.zyw.asia ZYW免费节点 3
+      - 🇺🇸 美国中继6
+      - 🇻🇳 VN越南(youtube阿伟科技)
       - 🇨🇳 台湾SS-03
-      - 🇨🇳 v1丨台湾丨原生丨静态-解锁流媒体
-      - 🇯🇵 日本16 tg@freeVPNjd
-      - 🇯🇵 日本07 tg@freeVPNjd
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港04 tg@freeVPNjd
-      - 🇯🇵 日本10 tg@freeVPNjd
-      - 🇯🇵 日本16 tg@freeVPNjd 2
-      - 🇨🇳 TW台湾 03 | 苏移 | 1x
+      - 🇺🇸 美国中继4
+      - Telegram@kxswa | https://t.me/kxswa 3
+      - 纽约测试|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel
+      - Telegram@kxswa | https://t.me/kxswa 4
+      - YD|@Zyw_Channel 4
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
+      - "🇨🇳 中国_【YouTube-VV科技】\r_13"
+      - 🇨🇳 台湾SS-02
+      - 🇰🇷 韩国-优化1
+      - 🇭🇰 >🇭🇰 HK|Hs|0805|TG@FProxies|
+      - CF|www.zyw.asia ZYW免费节点
+      - CF|www.zyw.asia ZYW免费节点 2
       - 🇯🇵 日本06 tg@freeVPNjd
-      - 🇬🇧 伦敦
-      - 🇯🇵 日本12 tg@freeVPNjd
-      - 🇯🇵 JP日本 04 | 苏移 | 1x
-      - 🇺🇸 US美国 03 | 苏移 | 1x
-      - 🇲🇾 v1丨马来西亚丨原生丨广移中继
-      - 🇭🇰 HK香港02 | 苏移 | 1x
-      - 🇨🇳 TW台湾 06 | 苏移 | 1x
-      - 🇭🇰 香港03 tg@freeVPNjd
-      - 🇸🇬 SG新加坡 03 | 苏移 | 1x
-      - 🇺🇸 美国
-      - 🇨🇳 台湾02 tg@freeVPNjd
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
-      - 🇨🇳 台湾中继4
+      - Telegram@kxswa | https://t.me/kxswa 5
+      - 🇭🇰 香港-优化1
+      - Telegram@kxswa | https://t.me/kxswa 6
+      - 🇦🇱 @hkaa0||阿尔巴尼亚
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "🇨🇳 中国_【YouTube-VV科技】\r_4"
+      - 🇯🇵 日本【YouTube-由零開始】
+      - 🇰🇷 @hkaa0||韩国
+      - CF|tg频道:@Zyw_Channel
+      - YD|tg频道:@Zyw_Channel 2
+      - "@hkaa0||FR_12"
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - CF|www.zyw.asia ZYW免费节点 3
+      - 「SCP」UK2-CF-HTTP
+      - 🇨🇳 台湾03 tg@freeVPNjd
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇯🇵 日本02 tg@freeVPNjd
+      - CF|tg频道:@Zyw_Channel 2
+      - Telegram@kxswa | https://t.me/kxswa 7
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - Telegram@kxswa | https://t.me/kxswa 8
+      - 🇯🇵 日本SS-01
+      - 🇰🇷 韩国中继1
+      - 🇦🇪 迪拜-优化1
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - RELAY-104.17.14.48-0264
+      - 🇸🇬 狮城2|@ripaojiedian
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇯🇵 日本SS-02
+      - 🇯🇵 东京特殊|@ripaojiedian
+      - YD|@Zyw_Channel 5
+      - 🇨🇳 台湾SS-04
+      - 🇺🇸 美国特殊|@ripaojiedian 2
+      - 🇭🇰 香港SS-04
+      - YD|tg频道:@Zyw_Channel 3
+      - 🇭🇰 香港SS-02
+      - 🇺🇸 美国【YouTube-由零開始】 2
+      - Telegram@kxswa | https://t.me/kxswa 9
+      - 🇨🇳 台湾-优化1
+      - 🇭🇰 香港中继4
+      - 🇺🇸 美国SS-03
+      - 🇭🇰 香港中继6
+      - CF|www.zyw.asia ZYW免费节点 4
       - 🇺🇸 美国中继3
+      - feijicloud.com赞助_6
+      - 🇸🇬 新加坡-优化1
+      - 🇯🇵 V4-4012|日本|x2.0
+      - 🇯🇵 日本SS-03
+      - feijicloud.com赞助_7
+      - feijicloud.com赞助_5
+      - feijicloud.com赞助_2
+      - feijicloud.com赞助_9
+      - 🇸🇬 狮城2|@ripaojiedian 2
+      - 🇯🇵 日本-优化1
+      - 🇸🇬 新加坡06 tg@freeVPNjd
+      - "🇨🇳 中国_【YouTube-VV科技】\r_3"
+      - 🇭🇰 香港中继2
+      - feijicloud.com赞助_1
+      - feijicloud.com赞助_3
+      - 🇯🇵 V4-4002|日本|x2.0
+      - YD|www.zyw.asia ZYW免费节点 4
+      - 🇯🇵 V4-4001|日本|x1.5
+      - feijicloud.com赞助_4
+      - 🇭🇰 香港SS-03
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
+      - 🇸🇬 新加坡中继2
+      - 🇺🇸 _美国_【YouTube-VV科技】 40
+      - 🇦🇪 阿联酋【YouTube-由零開始】
+      - 🇸🇬 狮城|@ripaojiedian
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
+      - 🇩🇪 德国-优化1
+      - YD|www.zyw.asia ZYW免费节点 5
+      - Telegram@kxswa | https://t.me/kxswa 10
+      - FR_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_3
+      - "🇨🇳 中国_【YouTube-VV科技】\r_11"
+      - Telegram@kxswa | https://t.me/kxswa 11
+      - 🇺🇸 美国 192
+      - "🇨🇳 中国_【YouTube-VV科技】\r_5"
+      - Telegram@kxswa | https://t.me/kxswa 12
+      - 🇭🇰 Hong Kong tg@freeVPNjd
+      - "🇨🇳 中国_【YouTube-VV科技】\r_8"
+      - YD|@Zyw_Channel 6
+      - RELAY-172.64.133.248-0092
+      - YD|www.zyw.asia ZYW免费节点 6
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_18
+      - "🇨🇳 中国_【YouTube-VV科技】\r_9"
+      - YD|@Zyw_Channel 7
+      - "🇨🇳 中国_【YouTube-VV科技】\r_7"
+      - YD|tg频道:@Zyw_Channel 4
+      - Telegram@kxswa | https://t.me/kxswa 13
+      - 🇨🇳 台湾SS-01
+      - 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
+      - YD|@Zyw_Channel 8
       - 🇺🇸 @hkaa0||美国
-      - 🇨🇳 台湾中继6
-      - SG01
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - Telegram@kxswa | https://t.me/kxswa 14
+      - Telegram@kxswa | https://t.me/kxswa 15
+      - "🇨🇳 中国_【YouTube-VV科技】\r_10"
+      - 🇺🇸 _US_美国_70
+      - 🇺🇸 美国中继1
+      - "🇮🇱 以色列_【YouTube-VV科技】\r"
+      - "🇨🇳 中国_【YouTube-VV科技】\r_6"
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - YD|@Zyw_Channel 9
+      - YD|tg频道:@Zyw_Channel 5
+      - "🇨🇳 中国_【YouTube-VV科技】\r_12"
+      - YD|@Zyw_Channel 10
+      - Telegram@kxswa | https://t.me/kxswa 16
+      - 🇰🇷 免费丨韩国丨2丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
+      - 🇺🇸 US-198.2.197.73-6696
+      - YD|@Zyw_Channel 11
+      - Telegram@kxswa | https://t.me/kxswa 17
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - US01
-      - 8DKJ|www.zyw.asia ZYW免费节点
-      - "@hkaa0||US_6"
-      - UK01
-      - 🇨🇳 台湾中继2
-      - 8DKJ|www.zyw.asia ZYW免费节点 2
-      - YouTube阿伟科技_4
-      - 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies|
-      - JP01
-      - "@hkaa0||ZA"
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_2
-      - _电报频道： @mfjdpd 134
-      - 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies| 2
-      - 🇺🇸 美国 192
-      - 🇯🇵 东京
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - YD|tg频道:@Zyw_Channel
-      - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 纽约测试|@ripaojiedian
-      - 🇭🇰 HK-18.163.249.175-0217
-      - 🇺🇸 _US_美国 14
-      - 8DKJ|tg频道:@Zyw_Channel
-      - 🇩🇪 DE德国(youtube阿伟科技)_6
-      - 🇩🇪 DE德国(youtube阿伟科技)_7
-      - 🇩🇰 @hkaa0||DK
-      - 🇨🇳 TW台湾 04 | 广移 | 1x
-      - 🇩🇪 法兰克福
-      - 🇺🇸 US美国 01 | 广移 | 1x
-      - 🇭🇰 香港中继6
-      - 🇭🇰 香港中继3
-      - 🇸🇬 狮城2|@ripaojiedian
-      - 🇫🇷 法国
-      - 🇰🇷 韩国中继1
-      - 🇯🇵 日本15 tg@freeVPNjd
-      - 🇭🇰 v1丨香港丨AZ丨丨北京—香港1丨解锁流媒体
-      - 🇨🇳 >🇹🇼 TW|Ms|0731|TG@FProxies|
-      - 🇨🇳 台湾中继1
-      - 🇨🇳 台湾中继3
-      - 🇭🇰 香港02 tg@freeVPNjd
       - Telegram@kxswa | https://t.me/kxswa
-      - 🇺🇸 美国SS-03
-      - 🇯🇵 日本09 tg@freeVPNjd
-      - 🇨🇳 台湾05 tg@freeVPNjd
-      - 🇨🇳 台湾SS-01
-      - 🇺🇸 美国中继6
-      - 🇭🇰 香港08 tg@freeVPNjd
-      - 🇺🇸 圣何塞
-      - 🇸🇬 新加坡04 tg@freeVPNjd
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - YD|www.zyw.asia ZYW免费节点
-      - 🇯🇵 日本 tg@freeVPNjd
-      - 🇨🇳 台湾SS-04
-      - 🇦🇺 悉尼
-      - 🇸🇬 新加坡
-      - 🇭🇰 v1丨香港丨微软丨AZ丨7丨解锁流媒体
-      - 🇩🇪 v1丨德国丨浙江移动丨Trojan
-      - 🇯🇵 日本11 tg@freeVPNjd
-      - 🇯🇵 日本17 tg@freeVPNjd
-      - 🇬🇧 英国
-      - 🇸🇬 v1丨新加坡丨北京-新加坡丨解锁流媒体
-      - 🇯🇵 日本03 tg@freeVPNjd
-      - 🇯🇵 日本05 tg@freeVPNjd
-      - 🇯🇵 日本08 tg@freeVPNjd
-      - 🇯🇵 日本SS-03
-      - 🇯🇵 日本04 tg@freeVPNjd
-      - 🇯🇵 日本
-      - 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
-      - 🇭🇰 v1丨香港丨移动转线丨1丨8台负载-2x丨解锁流媒体
-      - 🇯🇵 日本SS-02
-      - 🇦🇪 阿联酋【YouTube-由零開始】
-      - 🇯🇵 日本SS-01
-      - 🇭🇰 v1丨香港丨优化丨1Gbps  4丨解锁流媒体
-      - 🇭🇰 香港SS-04
-      - 🇭🇰 香港SS-02
-      - 🇺🇸 美国中继4
-      - 🇭🇰 香港07 tg@freeVPNjd
-      - 🇭🇰 香港SS-03
-      - 🇭🇰 HK香港05 | 苏移 | 1x
-      - 🇨🇳 台湾SS-02
+      - 8DKJ|@Zyw_Channel
+      - Telegram@kxswa | https://t.me/kxswa 2
+      - YD|@Zyw_Channel
+      - YD|@Zyw_Channel 2
+      - 8DKJ|@Zyw_Channel 2
+      - 🇨🇳 台湾中继3
+      - YD|@Zyw_Channel 3
+      - YD|www.zyw.asia ZYW免费节点 2
+      - 🇨🇳 台湾中继2
+      - 🇰🇷 韩国1|@ripaojiedian
+      - YD|www.zyw.asia ZYW免费节点 3
+      - 🇺🇸 美国中继6
+      - 🇻🇳 VN越南(youtube阿伟科技)
       - 🇨🇳 台湾SS-03
-      - 🇨🇳 v1丨台湾丨原生丨静态-解锁流媒体
-      - 🇯🇵 日本16 tg@freeVPNjd
-      - 🇯🇵 日本07 tg@freeVPNjd
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港04 tg@freeVPNjd
-      - 🇯🇵 日本10 tg@freeVPNjd
-      - 🇯🇵 日本16 tg@freeVPNjd 2
-      - 🇨🇳 TW台湾 03 | 苏移 | 1x
+      - 🇺🇸 美国中继4
+      - Telegram@kxswa | https://t.me/kxswa 3
+      - 纽约测试|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel
+      - Telegram@kxswa | https://t.me/kxswa 4
+      - YD|@Zyw_Channel 4
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
+      - "🇨🇳 中国_【YouTube-VV科技】\r_13"
+      - 🇨🇳 台湾SS-02
+      - 🇰🇷 韩国-优化1
+      - 🇭🇰 >🇭🇰 HK|Hs|0805|TG@FProxies|
+      - CF|www.zyw.asia ZYW免费节点
+      - CF|www.zyw.asia ZYW免费节点 2
       - 🇯🇵 日本06 tg@freeVPNjd
-      - 🇬🇧 伦敦
-      - 🇯🇵 日本12 tg@freeVPNjd
-      - 🇯🇵 JP日本 04 | 苏移 | 1x
-      - 🇺🇸 US美国 03 | 苏移 | 1x
-      - 🇲🇾 v1丨马来西亚丨原生丨广移中继
-      - 🇭🇰 HK香港02 | 苏移 | 1x
-      - 🇨🇳 TW台湾 06 | 苏移 | 1x
-      - 🇭🇰 香港03 tg@freeVPNjd
-      - 🇸🇬 SG新加坡 03 | 苏移 | 1x
-      - 🇺🇸 美国
-      - 🇨🇳 台湾02 tg@freeVPNjd
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
-      - 🇨🇳 台湾中继4
+      - Telegram@kxswa | https://t.me/kxswa 5
+      - 🇭🇰 香港-优化1
+      - Telegram@kxswa | https://t.me/kxswa 6
+      - 🇦🇱 @hkaa0||阿尔巴尼亚
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "🇨🇳 中国_【YouTube-VV科技】\r_4"
+      - 🇯🇵 日本【YouTube-由零開始】
+      - 🇰🇷 @hkaa0||韩国
+      - CF|tg频道:@Zyw_Channel
+      - YD|tg频道:@Zyw_Channel 2
+      - "@hkaa0||FR_12"
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - CF|www.zyw.asia ZYW免费节点 3
+      - 「SCP」UK2-CF-HTTP
+      - 🇨🇳 台湾03 tg@freeVPNjd
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇯🇵 日本02 tg@freeVPNjd
+      - CF|tg频道:@Zyw_Channel 2
+      - Telegram@kxswa | https://t.me/kxswa 7
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - Telegram@kxswa | https://t.me/kxswa 8
+      - 🇯🇵 日本SS-01
+      - 🇰🇷 韩国中继1
+      - 🇦🇪 迪拜-优化1
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - RELAY-104.17.14.48-0264
+      - 🇸🇬 狮城2|@ripaojiedian
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇯🇵 日本SS-02
+      - 🇯🇵 东京特殊|@ripaojiedian
+      - YD|@Zyw_Channel 5
+      - 🇨🇳 台湾SS-04
+      - 🇺🇸 美国特殊|@ripaojiedian 2
+      - 🇭🇰 香港SS-04
+      - YD|tg频道:@Zyw_Channel 3
+      - 🇭🇰 香港SS-02
+      - 🇺🇸 美国【YouTube-由零開始】 2
+      - Telegram@kxswa | https://t.me/kxswa 9
+      - 🇨🇳 台湾-优化1
+      - 🇭🇰 香港中继4
+      - 🇺🇸 美国SS-03
+      - 🇭🇰 香港中继6
+      - CF|www.zyw.asia ZYW免费节点 4
       - 🇺🇸 美国中继3
+      - feijicloud.com赞助_6
+      - 🇸🇬 新加坡-优化1
+      - 🇯🇵 V4-4012|日本|x2.0
+      - 🇯🇵 日本SS-03
+      - feijicloud.com赞助_7
+      - feijicloud.com赞助_5
+      - feijicloud.com赞助_2
+      - feijicloud.com赞助_9
+      - 🇸🇬 狮城2|@ripaojiedian 2
+      - 🇯🇵 日本-优化1
+      - 🇸🇬 新加坡06 tg@freeVPNjd
+      - "🇨🇳 中国_【YouTube-VV科技】\r_3"
+      - 🇭🇰 香港中继2
+      - feijicloud.com赞助_1
+      - feijicloud.com赞助_3
+      - 🇯🇵 V4-4002|日本|x2.0
+      - YD|www.zyw.asia ZYW免费节点 4
+      - 🇯🇵 V4-4001|日本|x1.5
+      - feijicloud.com赞助_4
+      - 🇭🇰 香港SS-03
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
+      - 🇸🇬 新加坡中继2
+      - 🇺🇸 _美国_【YouTube-VV科技】 40
+      - 🇦🇪 阿联酋【YouTube-由零開始】
+      - 🇸🇬 狮城|@ripaojiedian
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
+      - 🇩🇪 德国-优化1
+      - YD|www.zyw.asia ZYW免费节点 5
+      - Telegram@kxswa | https://t.me/kxswa 10
+      - FR_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_3
+      - "🇨🇳 中国_【YouTube-VV科技】\r_11"
+      - Telegram@kxswa | https://t.me/kxswa 11
+      - 🇺🇸 美国 192
+      - "🇨🇳 中国_【YouTube-VV科技】\r_5"
+      - Telegram@kxswa | https://t.me/kxswa 12
+      - 🇭🇰 Hong Kong tg@freeVPNjd
+      - "🇨🇳 中国_【YouTube-VV科技】\r_8"
+      - YD|@Zyw_Channel 6
+      - RELAY-172.64.133.248-0092
+      - YD|www.zyw.asia ZYW免费节点 6
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_18
+      - "🇨🇳 中国_【YouTube-VV科技】\r_9"
+      - YD|@Zyw_Channel 7
+      - "🇨🇳 中国_【YouTube-VV科技】\r_7"
+      - YD|tg频道:@Zyw_Channel 4
+      - Telegram@kxswa | https://t.me/kxswa 13
+      - 🇨🇳 台湾SS-01
+      - 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
+      - YD|@Zyw_Channel 8
       - 🇺🇸 @hkaa0||美国
-      - 🇨🇳 台湾中继6
-      - SG01
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - Telegram@kxswa | https://t.me/kxswa 14
+      - Telegram@kxswa | https://t.me/kxswa 15
+      - "🇨🇳 中国_【YouTube-VV科技】\r_10"
+      - 🇺🇸 _US_美国_70
+      - 🇺🇸 美国中继1
+      - "🇮🇱 以色列_【YouTube-VV科技】\r"
+      - "🇨🇳 中国_【YouTube-VV科技】\r_6"
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - YD|@Zyw_Channel 9
+      - YD|tg频道:@Zyw_Channel 5
+      - "🇨🇳 中国_【YouTube-VV科技】\r_12"
+      - YD|@Zyw_Channel 10
+      - Telegram@kxswa | https://t.me/kxswa 16
+      - 🇰🇷 免费丨韩国丨2丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
+      - 🇺🇸 US-198.2.197.73-6696
+      - YD|@Zyw_Channel 11
+      - Telegram@kxswa | https://t.me/kxswa 17
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - US01
-      - 8DKJ|www.zyw.asia ZYW免费节点
-      - "@hkaa0||US_6"
-      - UK01
-      - 🇨🇳 台湾中继2
-      - 8DKJ|www.zyw.asia ZYW免费节点 2
-      - YouTube阿伟科技_4
-      - 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies|
-      - JP01
-      - "@hkaa0||ZA"
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_2
-      - _电报频道： @mfjdpd 134
-      - 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies| 2
-      - 🇺🇸 美国 192
-      - 🇯🇵 东京
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - YD|tg频道:@Zyw_Channel
-      - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 纽约测试|@ripaojiedian
-      - 🇭🇰 HK-18.163.249.175-0217
-      - 🇺🇸 _US_美国 14
-      - 8DKJ|tg频道:@Zyw_Channel
-      - 🇩🇪 DE德国(youtube阿伟科技)_6
-      - 🇩🇪 DE德国(youtube阿伟科技)_7
-      - 🇩🇰 @hkaa0||DK
-      - 🇨🇳 TW台湾 04 | 广移 | 1x
-      - 🇩🇪 法兰克福
-      - 🇺🇸 US美国 01 | 广移 | 1x
-      - 🇭🇰 香港中继6
-      - 🇭🇰 香港中继3
-      - 🇸🇬 狮城2|@ripaojiedian
-      - 🇫🇷 法国
-      - 🇰🇷 韩国中继1
-      - 🇯🇵 日本15 tg@freeVPNjd
-      - 🇭🇰 v1丨香港丨AZ丨丨北京—香港1丨解锁流媒体
-      - 🇨🇳 >🇹🇼 TW|Ms|0731|TG@FProxies|
-      - 🇨🇳 台湾中继1
-      - 🇨🇳 台湾中继3
-      - 🇭🇰 香港02 tg@freeVPNjd
       - Telegram@kxswa | https://t.me/kxswa
-      - 🇺🇸 美国SS-03
-      - 🇯🇵 日本09 tg@freeVPNjd
-      - 🇨🇳 台湾05 tg@freeVPNjd
-      - 🇨🇳 台湾SS-01
-      - 🇺🇸 美国中继6
-      - 🇭🇰 香港08 tg@freeVPNjd
-      - 🇺🇸 圣何塞
-      - 🇸🇬 新加坡04 tg@freeVPNjd
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - YD|www.zyw.asia ZYW免费节点
-      - 🇯🇵 日本 tg@freeVPNjd
-      - 🇨🇳 台湾SS-04
-      - 🇦🇺 悉尼
-      - 🇸🇬 新加坡
-      - 🇭🇰 v1丨香港丨微软丨AZ丨7丨解锁流媒体
-      - 🇩🇪 v1丨德国丨浙江移动丨Trojan
-      - 🇯🇵 日本11 tg@freeVPNjd
-      - 🇯🇵 日本17 tg@freeVPNjd
-      - 🇬🇧 英国
-      - 🇸🇬 v1丨新加坡丨北京-新加坡丨解锁流媒体
-      - 🇯🇵 日本03 tg@freeVPNjd
-      - 🇯🇵 日本05 tg@freeVPNjd
-      - 🇯🇵 日本08 tg@freeVPNjd
-      - 🇯🇵 日本SS-03
-      - 🇯🇵 日本04 tg@freeVPNjd
-      - 🇯🇵 日本
-      - 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
-      - 🇭🇰 v1丨香港丨移动转线丨1丨8台负载-2x丨解锁流媒体
-      - 🇯🇵 日本SS-02
-      - 🇦🇪 阿联酋【YouTube-由零開始】
-      - 🇯🇵 日本SS-01
-      - 🇭🇰 v1丨香港丨优化丨1Gbps  4丨解锁流媒体
-      - 🇭🇰 香港SS-04
-      - 🇭🇰 香港SS-02
-      - 🇺🇸 美国中继4
-      - 🇭🇰 香港07 tg@freeVPNjd
-      - 🇭🇰 香港SS-03
-      - 🇭🇰 HK香港05 | 苏移 | 1x
-      - 🇨🇳 台湾SS-02
+      - 8DKJ|@Zyw_Channel
+      - Telegram@kxswa | https://t.me/kxswa 2
+      - YD|@Zyw_Channel
+      - YD|@Zyw_Channel 2
+      - 8DKJ|@Zyw_Channel 2
+      - 🇨🇳 台湾中继3
+      - YD|@Zyw_Channel 3
+      - YD|www.zyw.asia ZYW免费节点 2
+      - 🇨🇳 台湾中继2
+      - 🇰🇷 韩国1|@ripaojiedian
+      - YD|www.zyw.asia ZYW免费节点 3
+      - 🇺🇸 美国中继6
+      - 🇻🇳 VN越南(youtube阿伟科技)
       - 🇨🇳 台湾SS-03
-      - 🇨🇳 v1丨台湾丨原生丨静态-解锁流媒体
-      - 🇯🇵 日本16 tg@freeVPNjd
-      - 🇯🇵 日本07 tg@freeVPNjd
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港04 tg@freeVPNjd
-      - 🇯🇵 日本10 tg@freeVPNjd
-      - 🇯🇵 日本16 tg@freeVPNjd 2
-      - 🇨🇳 TW台湾 03 | 苏移 | 1x
+      - 🇺🇸 美国中继4
+      - Telegram@kxswa | https://t.me/kxswa 3
+      - 纽约测试|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel
+      - Telegram@kxswa | https://t.me/kxswa 4
+      - YD|@Zyw_Channel 4
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
+      - "🇨🇳 中国_【YouTube-VV科技】\r_13"
+      - 🇨🇳 台湾SS-02
+      - 🇰🇷 韩国-优化1
+      - 🇭🇰 >🇭🇰 HK|Hs|0805|TG@FProxies|
+      - CF|www.zyw.asia ZYW免费节点
+      - CF|www.zyw.asia ZYW免费节点 2
       - 🇯🇵 日本06 tg@freeVPNjd
-      - 🇬🇧 伦敦
-      - 🇯🇵 日本12 tg@freeVPNjd
-      - 🇯🇵 JP日本 04 | 苏移 | 1x
-      - 🇺🇸 US美国 03 | 苏移 | 1x
-      - 🇲🇾 v1丨马来西亚丨原生丨广移中继
-      - 🇭🇰 HK香港02 | 苏移 | 1x
-      - 🇨🇳 TW台湾 06 | 苏移 | 1x
-      - 🇭🇰 香港03 tg@freeVPNjd
-      - 🇸🇬 SG新加坡 03 | 苏移 | 1x
-      - 🇺🇸 美国
-      - 🇨🇳 台湾02 tg@freeVPNjd
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
-      - 🇨🇳 台湾中继4
+      - Telegram@kxswa | https://t.me/kxswa 5
+      - 🇭🇰 香港-优化1
+      - Telegram@kxswa | https://t.me/kxswa 6
+      - 🇦🇱 @hkaa0||阿尔巴尼亚
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "🇨🇳 中国_【YouTube-VV科技】\r_4"
+      - 🇯🇵 日本【YouTube-由零開始】
+      - 🇰🇷 @hkaa0||韩国
+      - CF|tg频道:@Zyw_Channel
+      - YD|tg频道:@Zyw_Channel 2
+      - "@hkaa0||FR_12"
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - CF|www.zyw.asia ZYW免费节点 3
+      - 「SCP」UK2-CF-HTTP
+      - 🇨🇳 台湾03 tg@freeVPNjd
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇯🇵 日本02 tg@freeVPNjd
+      - CF|tg频道:@Zyw_Channel 2
+      - Telegram@kxswa | https://t.me/kxswa 7
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - Telegram@kxswa | https://t.me/kxswa 8
+      - 🇯🇵 日本SS-01
+      - 🇰🇷 韩国中继1
+      - 🇦🇪 迪拜-优化1
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - RELAY-104.17.14.48-0264
+      - 🇸🇬 狮城2|@ripaojiedian
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇯🇵 日本SS-02
+      - 🇯🇵 东京特殊|@ripaojiedian
+      - YD|@Zyw_Channel 5
+      - 🇨🇳 台湾SS-04
+      - 🇺🇸 美国特殊|@ripaojiedian 2
+      - 🇭🇰 香港SS-04
+      - YD|tg频道:@Zyw_Channel 3
+      - 🇭🇰 香港SS-02
+      - 🇺🇸 美国【YouTube-由零開始】 2
+      - Telegram@kxswa | https://t.me/kxswa 9
+      - 🇨🇳 台湾-优化1
+      - 🇭🇰 香港中继4
+      - 🇺🇸 美国SS-03
+      - 🇭🇰 香港中继6
+      - CF|www.zyw.asia ZYW免费节点 4
       - 🇺🇸 美国中继3
+      - feijicloud.com赞助_6
+      - 🇸🇬 新加坡-优化1
+      - 🇯🇵 V4-4012|日本|x2.0
+      - 🇯🇵 日本SS-03
+      - feijicloud.com赞助_7
+      - feijicloud.com赞助_5
+      - feijicloud.com赞助_2
+      - feijicloud.com赞助_9
+      - 🇸🇬 狮城2|@ripaojiedian 2
+      - 🇯🇵 日本-优化1
+      - 🇸🇬 新加坡06 tg@freeVPNjd
+      - "🇨🇳 中国_【YouTube-VV科技】\r_3"
+      - 🇭🇰 香港中继2
+      - feijicloud.com赞助_1
+      - feijicloud.com赞助_3
+      - 🇯🇵 V4-4002|日本|x2.0
+      - YD|www.zyw.asia ZYW免费节点 4
+      - 🇯🇵 V4-4001|日本|x1.5
+      - feijicloud.com赞助_4
+      - 🇭🇰 香港SS-03
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
+      - 🇸🇬 新加坡中继2
+      - 🇺🇸 _美国_【YouTube-VV科技】 40
+      - 🇦🇪 阿联酋【YouTube-由零開始】
+      - 🇸🇬 狮城|@ripaojiedian
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
+      - 🇩🇪 德国-优化1
+      - YD|www.zyw.asia ZYW免费节点 5
+      - Telegram@kxswa | https://t.me/kxswa 10
+      - FR_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_3
+      - "🇨🇳 中国_【YouTube-VV科技】\r_11"
+      - Telegram@kxswa | https://t.me/kxswa 11
+      - 🇺🇸 美国 192
+      - "🇨🇳 中国_【YouTube-VV科技】\r_5"
+      - Telegram@kxswa | https://t.me/kxswa 12
+      - 🇭🇰 Hong Kong tg@freeVPNjd
+      - "🇨🇳 中国_【YouTube-VV科技】\r_8"
+      - YD|@Zyw_Channel 6
+      - RELAY-172.64.133.248-0092
+      - YD|www.zyw.asia ZYW免费节点 6
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_18
+      - "🇨🇳 中国_【YouTube-VV科技】\r_9"
+      - YD|@Zyw_Channel 7
+      - "🇨🇳 中国_【YouTube-VV科技】\r_7"
+      - YD|tg频道:@Zyw_Channel 4
+      - Telegram@kxswa | https://t.me/kxswa 13
+      - 🇨🇳 台湾SS-01
+      - 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
+      - YD|@Zyw_Channel 8
       - 🇺🇸 @hkaa0||美国
-      - 🇨🇳 台湾中继6
-      - SG01
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - Telegram@kxswa | https://t.me/kxswa 14
+      - Telegram@kxswa | https://t.me/kxswa 15
+      - "🇨🇳 中国_【YouTube-VV科技】\r_10"
+      - 🇺🇸 _US_美国_70
+      - 🇺🇸 美国中继1
+      - "🇮🇱 以色列_【YouTube-VV科技】\r"
+      - "🇨🇳 中国_【YouTube-VV科技】\r_6"
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - YD|@Zyw_Channel 9
+      - YD|tg频道:@Zyw_Channel 5
+      - "🇨🇳 中国_【YouTube-VV科技】\r_12"
+      - YD|@Zyw_Channel 10
+      - Telegram@kxswa | https://t.me/kxswa 16
+      - 🇰🇷 免费丨韩国丨2丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
+      - 🇺🇸 US-198.2.197.73-6696
+      - YD|@Zyw_Channel 11
+      - Telegram@kxswa | https://t.me/kxswa 17
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - US01
-      - 8DKJ|www.zyw.asia ZYW免费节点
-      - "@hkaa0||US_6"
-      - UK01
-      - 🇨🇳 台湾中继2
-      - 8DKJ|www.zyw.asia ZYW免费节点 2
-      - YouTube阿伟科技_4
-      - 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies|
-      - JP01
-      - "@hkaa0||ZA"
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_2
-      - _电报频道： @mfjdpd 134
-      - 🇨🇦 >🇨🇦 CA|Hs|0731|TG@FProxies| 2
-      - 🇺🇸 美国 192
-      - 🇯🇵 东京
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - YD|tg频道:@Zyw_Channel
-      - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 纽约测试|@ripaojiedian
-      - 🇭🇰 HK-18.163.249.175-0217
-      - 🇺🇸 _US_美国 14
-      - 8DKJ|tg频道:@Zyw_Channel
-      - 🇩🇪 DE德国(youtube阿伟科技)_6
-      - 🇩🇪 DE德国(youtube阿伟科技)_7
-      - 🇩🇰 @hkaa0||DK
-      - 🇨🇳 TW台湾 04 | 广移 | 1x
-      - 🇩🇪 法兰克福
-      - 🇺🇸 US美国 01 | 广移 | 1x
-      - 🇭🇰 香港中继6
-      - 🇭🇰 香港中继3
-      - 🇸🇬 狮城2|@ripaojiedian
-      - 🇫🇷 法国
-      - 🇰🇷 韩国中继1
-      - 🇯🇵 日本15 tg@freeVPNjd
-      - 🇭🇰 v1丨香港丨AZ丨丨北京—香港1丨解锁流媒体
-      - 🇨🇳 >🇹🇼 TW|Ms|0731|TG@FProxies|
-      - 🇨🇳 台湾中继1
-      - 🇨🇳 台湾中继3
-      - 🇭🇰 香港02 tg@freeVPNjd
       - Telegram@kxswa | https://t.me/kxswa
-      - 🇺🇸 美国SS-03
-      - 🇯🇵 日本09 tg@freeVPNjd
-      - 🇨🇳 台湾05 tg@freeVPNjd
-      - 🇨🇳 台湾SS-01
-      - 🇺🇸 美国中继6
-      - 🇭🇰 香港08 tg@freeVPNjd
-      - 🇺🇸 圣何塞
-      - 🇸🇬 新加坡04 tg@freeVPNjd
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - YD|www.zyw.asia ZYW免费节点
-      - 🇯🇵 日本 tg@freeVPNjd
-      - 🇨🇳 台湾SS-04
-      - 🇦🇺 悉尼
-      - 🇸🇬 新加坡
-      - 🇭🇰 v1丨香港丨微软丨AZ丨7丨解锁流媒体
-      - 🇩🇪 v1丨德国丨浙江移动丨Trojan
-      - 🇯🇵 日本11 tg@freeVPNjd
-      - 🇯🇵 日本17 tg@freeVPNjd
-      - 🇬🇧 英国
-      - 🇸🇬 v1丨新加坡丨北京-新加坡丨解锁流媒体
-      - 🇯🇵 日本03 tg@freeVPNjd
-      - 🇯🇵 日本05 tg@freeVPNjd
-      - 🇯🇵 日本08 tg@freeVPNjd
-      - 🇯🇵 日本SS-03
-      - 🇯🇵 日本04 tg@freeVPNjd
-      - 🇯🇵 日本
-      - 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
-      - 🇭🇰 v1丨香港丨移动转线丨1丨8台负载-2x丨解锁流媒体
-      - 🇯🇵 日本SS-02
-      - 🇦🇪 阿联酋【YouTube-由零開始】
-      - 🇯🇵 日本SS-01
-      - 🇭🇰 v1丨香港丨优化丨1Gbps  4丨解锁流媒体
-      - 🇭🇰 香港SS-04
-      - 🇭🇰 香港SS-02
-      - 🇺🇸 美国中继4
-      - 🇭🇰 香港07 tg@freeVPNjd
-      - 🇭🇰 香港SS-03
-      - 🇭🇰 HK香港05 | 苏移 | 1x
-      - 🇨🇳 台湾SS-02
+      - 8DKJ|@Zyw_Channel
+      - Telegram@kxswa | https://t.me/kxswa 2
+      - YD|@Zyw_Channel
+      - YD|@Zyw_Channel 2
+      - 8DKJ|@Zyw_Channel 2
+      - 🇨🇳 台湾中继3
+      - YD|@Zyw_Channel 3
+      - YD|www.zyw.asia ZYW免费节点 2
+      - 🇨🇳 台湾中继2
+      - 🇰🇷 韩国1|@ripaojiedian
+      - YD|www.zyw.asia ZYW免费节点 3
+      - 🇺🇸 美国中继6
+      - 🇻🇳 VN越南(youtube阿伟科技)
       - 🇨🇳 台湾SS-03
-      - 🇨🇳 v1丨台湾丨原生丨静态-解锁流媒体
-      - 🇯🇵 日本16 tg@freeVPNjd
-      - 🇯🇵 日本07 tg@freeVPNjd
-      - 🇸🇬 新加坡|@ripaojiedian
-      - 🇭🇰 香港04 tg@freeVPNjd
-      - 🇯🇵 日本10 tg@freeVPNjd
-      - 🇯🇵 日本16 tg@freeVPNjd 2
-      - 🇨🇳 TW台湾 03 | 苏移 | 1x
+      - 🇺🇸 美国中继4
+      - Telegram@kxswa | https://t.me/kxswa 3
+      - 纽约测试|@ripaojiedian
+      - YD|tg频道:@Zyw_Channel
+      - Telegram@kxswa | https://t.me/kxswa 4
+      - YD|@Zyw_Channel 4
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
+      - "🇨🇳 中国_【YouTube-VV科技】\r_13"
+      - 🇨🇳 台湾SS-02
+      - 🇰🇷 韩国-优化1
+      - 🇭🇰 >🇭🇰 HK|Hs|0805|TG@FProxies|
+      - CF|www.zyw.asia ZYW免费节点
+      - CF|www.zyw.asia ZYW免费节点 2
       - 🇯🇵 日本06 tg@freeVPNjd
-      - 🇬🇧 伦敦
-      - 🇯🇵 日本12 tg@freeVPNjd
-      - 🇯🇵 JP日本 04 | 苏移 | 1x
-      - 🇺🇸 US美国 03 | 苏移 | 1x
-      - 🇲🇾 v1丨马来西亚丨原生丨广移中继
-      - 🇭🇰 HK香港02 | 苏移 | 1x
-      - 🇨🇳 TW台湾 06 | 苏移 | 1x
-      - 🇭🇰 香港03 tg@freeVPNjd
-      - 🇸🇬 SG新加坡 03 | 苏移 | 1x
-      - 🇺🇸 美国
-      - 🇨🇳 台湾02 tg@freeVPNjd
-      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
-      - 🇨🇳 台湾中继4
+      - Telegram@kxswa | https://t.me/kxswa 5
+      - 🇭🇰 香港-优化1
+      - Telegram@kxswa | https://t.me/kxswa 6
+      - 🇦🇱 @hkaa0||阿尔巴尼亚
+      - 🇰🇷 韩国2|@ripaojiedian
+      - "🇨🇳 中国_【YouTube-VV科技】\r_4"
+      - 🇯🇵 日本【YouTube-由零開始】
+      - 🇰🇷 @hkaa0||韩国
+      - CF|tg频道:@Zyw_Channel
+      - YD|tg频道:@Zyw_Channel 2
+      - "@hkaa0||FR_12"
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+      - CF|www.zyw.asia ZYW免费节点 3
+      - 「SCP」UK2-CF-HTTP
+      - 🇨🇳 台湾03 tg@freeVPNjd
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 🇯🇵 日本02 tg@freeVPNjd
+      - CF|tg频道:@Zyw_Channel 2
+      - Telegram@kxswa | https://t.me/kxswa 7
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - Telegram@kxswa | https://t.me/kxswa 8
+      - 🇯🇵 日本SS-01
+      - 🇰🇷 韩国中继1
+      - 🇦🇪 迪拜-优化1
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - RELAY-104.17.14.48-0264
+      - 🇸🇬 狮城2|@ripaojiedian
+      - 🇺🇸 美国特殊|@ripaojiedian
+      - 🇯🇵 日本SS-02
+      - 🇯🇵 东京特殊|@ripaojiedian
+      - YD|@Zyw_Channel 5
+      - 🇨🇳 台湾SS-04
+      - 🇺🇸 美国特殊|@ripaojiedian 2
+      - 🇭🇰 香港SS-04
+      - YD|tg频道:@Zyw_Channel 3
+      - 🇭🇰 香港SS-02
+      - 🇺🇸 美国【YouTube-由零開始】 2
+      - Telegram@kxswa | https://t.me/kxswa 9
+      - 🇨🇳 台湾-优化1
+      - 🇭🇰 香港中继4
+      - 🇺🇸 美国SS-03
+      - 🇭🇰 香港中继6
+      - CF|www.zyw.asia ZYW免费节点 4
       - 🇺🇸 美国中继3
+      - feijicloud.com赞助_6
+      - 🇸🇬 新加坡-优化1
+      - 🇯🇵 V4-4012|日本|x2.0
+      - 🇯🇵 日本SS-03
+      - feijicloud.com赞助_7
+      - feijicloud.com赞助_5
+      - feijicloud.com赞助_2
+      - feijicloud.com赞助_9
+      - 🇸🇬 狮城2|@ripaojiedian 2
+      - 🇯🇵 日本-优化1
+      - 🇸🇬 新加坡06 tg@freeVPNjd
+      - "🇨🇳 中国_【YouTube-VV科技】\r_3"
+      - 🇭🇰 香港中继2
+      - feijicloud.com赞助_1
+      - feijicloud.com赞助_3
+      - 🇯🇵 V4-4002|日本|x2.0
+      - YD|www.zyw.asia ZYW免费节点 4
+      - 🇯🇵 V4-4001|日本|x1.5
+      - feijicloud.com赞助_4
+      - 🇭🇰 香港SS-03
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
+      - 🇸🇬 新加坡中继2
+      - 🇺🇸 _美国_【YouTube-VV科技】 40
+      - 🇦🇪 阿联酋【YouTube-由零開始】
+      - 🇸🇬 狮城|@ripaojiedian
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇷🇺 俄罗斯(youtube阿伟科技)
+      - 🇩🇪 德国-优化1
+      - YD|www.zyw.asia ZYW免费节点 5
+      - Telegram@kxswa | https://t.me/kxswa 10
+      - FR_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_3
+      - "🇨🇳 中国_【YouTube-VV科技】\r_11"
+      - Telegram@kxswa | https://t.me/kxswa 11
+      - 🇺🇸 美国 192
+      - "🇨🇳 中国_【YouTube-VV科技】\r_5"
+      - Telegram@kxswa | https://t.me/kxswa 12
+      - 🇭🇰 Hong Kong tg@freeVPNjd
+      - "🇨🇳 中国_【YouTube-VV科技】\r_8"
+      - YD|@Zyw_Channel 6
+      - RELAY-172.64.133.248-0092
+      - YD|www.zyw.asia ZYW免费节点 6
+      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_18
+      - "🇨🇳 中国_【YouTube-VV科技】\r_9"
+      - YD|@Zyw_Channel 7
+      - "🇨🇳 中国_【YouTube-VV科技】\r_7"
+      - YD|tg频道:@Zyw_Channel 4
+      - Telegram@kxswa | https://t.me/kxswa 13
+      - 🇨🇳 台湾SS-01
+      - 🇯🇵 免费丨日本丨1丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
+      - YD|@Zyw_Channel 8
       - 🇺🇸 @hkaa0||美国
-      - 🇨🇳 台湾中继6
-      - SG01
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - Telegram@kxswa | https://t.me/kxswa 14
+      - Telegram@kxswa | https://t.me/kxswa 15
+      - "🇨🇳 中国_【YouTube-VV科技】\r_10"
+      - 🇺🇸 _US_美国_70
+      - 🇺🇸 美国中继1
+      - "🇮🇱 以色列_【YouTube-VV科技】\r"
+      - "🇨🇳 中国_【YouTube-VV科技】\r_6"
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - YD|@Zyw_Channel 9
+      - YD|tg频道:@Zyw_Channel 5
+      - "🇨🇳 中国_【YouTube-VV科技】\r_12"
+      - YD|@Zyw_Channel 10
+      - Telegram@kxswa | https://t.me/kxswa 16
+      - 🇰🇷 免费丨韩国丨2丨30M限速丨速云丨sayun.xyz丨 更多高速线路请购买套餐
+      - 🇺🇸 US-198.2.197.73-6696
+      - YD|@Zyw_Channel 11
+      - Telegram@kxswa | https://t.me/kxswa 17
   - name: 🛑 禁止代理
     type: select
     proxies:
