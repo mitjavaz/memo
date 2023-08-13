@@ -5,44 +5,42 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本-2.19MB/s(Youtube:不良林), server: jp1.fighting.win, port: 10001, type: trojan, password: 8861ad96-45d4-42f7-9703-7de363a39a0f, skip-cert-verify: true}
-  - {name: 🇯🇵 日本KT|@ripaojiedian, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_14, server: 45.199.138.181, port: 45695, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 @hkaa0||台湾, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true}}
-  - {name: 🇨🇳 台湾独家|@ripaojiedian, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true}}
-  - {name: 🇯🇵 US_分享日记_10, server: 64.32.4.53, port: 43556, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 US_分享日记, server: 64.32.4.53, port: 43556, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本A|@ripaojiedian, server: a10.wuxianliulianng.xyz, port: 8443, type: vmess, uuid: 4682492b-6fd8-4ce0-9b2a-f62ea5ffdc56, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 5.wuxianliulianng.xyz}}}
-  - {name: 🇯🇵 CY_分享日记, server: csgo.com, port: 2052, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 45.144.152.231.cyhmall.eu.org}}}
-  - {name: "@hkaa0||五叶专属", server: 45.137.97.217, port: 8080, type: vmess, uuid: 0b52017c-9e9e-41d9-8698-f28aea09448e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0}}
-  - {name: 🇺🇸 @hkaa0||美国|300G, server: 219.76.13.183, port: 443, type: vmess, uuid: 7fcb4a27-f818-3377-af56-cc08bcb42b5d, alterId: 1, cipher: auto, tls: true, servername: a.db-link.in, network: ws, ws-opts: {path: /db, headers: {Host: a.db-link.in}}}
-  - {name: YD|www.zyw.asia ZYW免费节点, server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
-  - {name: _电报频道： @mfjdpd 80, server: 66.81.247.58, port: 443, type: vmess, uuid: 64480f4c-61c2-4d88-89c3-fc0045229bfc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kplxvws, headers: {Host: us.dalazhi.eu.org}}}
-  - {name: 🇺🇸 美国【YouTube-由零開始】, server: 172.64.192.167, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: uk2.scproxy.top}}}
   - {name: 🇬🇧 GB英国(youtube阿伟科技)_2, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国|@ripaojiedian, server: 192.203.230.183, port: 443, type: vmess, uuid: 06b464f6-e38f-4ba8-eac3-8914277970dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /06b464f6-e38f-4ba8-eac3-8914277970dc, headers: {Host: yg1.mlbldzz.top}}}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技)_5, server: 619hk1.fr99kt.top, port: 8080, type: vmess, uuid: ad13f574-f6b7-427e-bb29-224a07c56d10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rdg, headers: {Host: 619hk1.fr99kt.top}}}
-  - {name: 🇸🇬 新加坡a5, server: a5.wuxianliulianng.xyz, port: 8443, type: vmess, uuid: 7ed408a0-d1f4-46e2-a8a4-d5e1b023bf84, alterId: 0, cipher: auto, tls: true, servername: 3.wuxianliulianng.xyz, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 3.wuxianliulianng.xyz}}}
   - {name: _电报频道： @mfjdpd 48, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
-  - {name: _电报频道 @mfjdpd 57, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
-  - {name: _电报频道： @mfjdpd 134, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇨🇳 @hkaa0||中国_3, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
   - {name: 🇨🇳 中国_【YouTube-VV科技】_2, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港B|@ripaojiedian, server: cthk1.createmofa.xyz, port: 35999, type: ss, cipher: chacha20-ietf-poly1305, password: 85148752-a7c3-41bb-bdee-ba2109a424c0}
   - {name: 🇨🇳 中国【YouTube-由零開始】_11, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_【YouTube-VV科技】_14, server: 45.199.138.181, port: 45695, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 US_分享日记_10, server: 64.32.4.53, port: 43556, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国a8, server: a8.wuxianliulianng.xyz, port: 8443, type: vmess, uuid: 7ed408a0-d1f4-46e2-a8a4-d5e1b023bf84, alterId: 0, cipher: auto, tls: true, servername: 4.wuxianliulianng.xyz, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 4.wuxianliulianng.xyz}}}
+  - {name: 🇨🇳 台湾独家|@ripaojiedian, server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true}}
+  - {name: 🇨🇳 @hkaa0||中国_3, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本A|@ripaojiedian, server: a10.wuxianliulianng.xyz, port: 8443, type: vmess, uuid: 4682492b-6fd8-4ce0-9b2a-f62ea5ffdc56, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 5.wuxianliulianng.xyz}}}
+  - {name: YD|@Zyw_Channel, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 CN_分享日记_2, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇩🇪 DE德国(youtube阿伟科技)_7, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
+  - {name: YD|@Zyw_Channel 2, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
+  - {name: _电报频道 @mfjdpd 57, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
+  - {name: _电报频道： @mfjdpd 8, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国【YouTube-由零開始】, server: 172.67.65.210, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇯🇵 日本KT|@ripaojiedian, server: 183.232.170.32, port: 30016, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: 🇬🇧 英国|@ripaojiedian, server: 192.203.230.183, port: 443, type: vmess, uuid: 06b464f6-e38f-4ba8-eac3-8914277970dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /06b464f6-e38f-4ba8-eac3-8914277970dc, headers: {Host: yg1.mlbldzz.top}}}
+  - {name: "@hkaa0||五叶专属", server: 45.137.97.217, port: 8080, type: vmess, uuid: 0b52017c-9e9e-41d9-8698-f28aea09448e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0}}
+  - {name: _电报频道： @mfjdpd 134, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: 🇷🇺 俄罗斯(youtube阿伟科技), server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.144.179.138]}}}
   - {name: 🇳🇱 NL荷兰(youtube阿伟科技)_2, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [🇳🇱NL荷兰(youtube阿伟科技)]}}}
   - {name: 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7, server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇺🇸 美国a8, server: a8.wuxianliulianng.xyz, port: 8443, type: vmess, uuid: 7ed408a0-d1f4-46e2-a8a4-d5e1b023bf84, alterId: 0, cipher: auto, tls: true, servername: 4.wuxianliulianng.xyz, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 4.wuxianliulianng.xyz}}}
+  - {name: 🇭🇰 HK香港(youtube阿伟科技)_5, server: 619hk1.fr99kt.top, port: 8080, type: vmess, uuid: ad13f574-f6b7-427e-bb29-224a07c56d10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rdg, headers: {Host: 619hk1.fr99kt.top}}}
+  - {name: 🇯🇵 US_分享日记, server: 64.32.4.53, port: 43556, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 US_分享日记 2, server: 66.81.247.58, port: 443, type: vmess, uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /16575, headers: {Host: cdnca1.digisport.shop}}}
+  - {name: 🇸🇬 新加坡a5, server: a5.wuxianliulianng.xyz, port: 8443, type: vmess, uuid: 7ed408a0-d1f4-46e2-a8a4-d5e1b023bf84, alterId: 0, cipher: auto, tls: true, servername: 3.wuxianliulianng.xyz, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 3.wuxianliulianng.xyz}}}
   - {name: 🇺🇸 美国a8 2, server: a8.wuxianliulianng.xyz, port: 8443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, servername: 4.wuxianliulianng.xyz, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 4.wuxianliulianng.xyz}}}
-  - {name: CF|tg频道:@Zyw_Channel, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: a8.wuxianliulianng.xyz, port: 8443, type: vmess, uuid: 4682492b-6fd8-4ce0-9b2a-f62ea5ffdc56, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 4.wuxianliulianng.xyz}}}
-  - {name: _电报频道： @mfjdpd 8, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true}
-  - {name: 🇯🇵 US_分享日记 2, server: 162.159.130.198, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: YD|@Zyw_Channel, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE德国(youtube阿伟科技)_7, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇯🇵 CN_分享日记_2, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港B|@ripaojiedian, server: cthk1.createmofa.xyz, port: 35999, type: ss, cipher: chacha20-ietf-poly1305, password: 85148752-a7c3-41bb-bdee-ba2109a424c0}
-  - {name: YD|@Zyw_Channel 2, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
+  - {name: YD|www.zyw.asia ZYW免费节点, server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
+  - {name: 🇯🇵 CY_分享日记, server: csgo.com, port: 2052, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 45.144.152.231.cyhmall.eu.org}}}
+  - {name: 🇨🇦 加拿大【YouTube-由零開始】, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: 🇯🇵 日本-2.19MB/s(Youtube:不良林), server: jp1.fighting.win, port: 10001, type: trojan, password: 8861ad96-45d4-42f7-9703-7de363a39a0f, skip-cert-verify: true}
+  - {name: 🇨🇦 加拿大【YouTube-由零開始】_3, server: www.dongtaiwang4.com, port: 22088, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇯🇵 US_分享日记 3, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -54,174 +52,166 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇯🇵 日本-2.19MB/s(Youtube:不良林)
-      - 🇯🇵 日本KT|@ripaojiedian
-      - 🇺🇸 美国_【YouTube-VV科技】_14
-      - 🇨🇳 @hkaa0||台湾
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - 🇯🇵 US_分享日记_10
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 日本A|@ripaojiedian
-      - 🇯🇵 CY_分享日记
-      - "@hkaa0||五叶专属"
-      - 🇺🇸 @hkaa0||美国|300G
-      - YD|www.zyw.asia ZYW免费节点
-      - _电报频道： @mfjdpd 80
-      - 🇺🇸 美国【YouTube-由零開始】
       - 🇬🇧 GB英国(youtube阿伟科技)_2
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇭🇰 HK香港(youtube阿伟科技)_5
-      - 🇸🇬 新加坡a5
       - _电报频道： @mfjdpd 48
-      - _电报频道 @mfjdpd 57
-      - _电报频道： @mfjdpd 134
-      - 🇨🇳 @hkaa0||中国_3
       - 🇨🇳 中国_【YouTube-VV科技】_2
+      - 🇭🇰 香港B|@ripaojiedian
       - 🇨🇳 中国【YouTube-由零開始】_11
+      - 🇺🇸 美国_【YouTube-VV科技】_14
+      - 🇯🇵 US_分享日记_10
+      - 🇺🇸 美国a8
+      - 🇨🇳 台湾独家|@ripaojiedian
+      - 🇨🇳 @hkaa0||中国_3
+      - 🇯🇵 日本A|@ripaojiedian
+      - YD|@Zyw_Channel
+      - 🇯🇵 CN_分享日记_2
+      - 🇩🇪 DE德国(youtube阿伟科技)_7
+      - YD|@Zyw_Channel 2
+      - _电报频道 @mfjdpd 57
+      - _电报频道： @mfjdpd 8
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇯🇵 日本KT|@ripaojiedian
+      - 🇬🇧 英国|@ripaojiedian
+      - "@hkaa0||五叶专属"
+      - _电报频道： @mfjdpd 134
       - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇳🇱 NL荷兰(youtube阿伟科技)_2
       - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
-      - 🇺🇸 美国a8
-      - 🇺🇸 美国a8 2
-      - CF|tg频道:@Zyw_Channel
-      - 🇺🇸 美国2|@ripaojiedian
-      - _电报频道： @mfjdpd 8
+      - 🇭🇰 HK香港(youtube阿伟科技)_5
+      - 🇯🇵 US_分享日记
       - 🇯🇵 US_分享日记 2
-      - YD|@Zyw_Channel
-      - 🇩🇪 DE德国(youtube阿伟科技)_7
-      - 🇯🇵 CN_分享日记_2
-      - 🇭🇰 香港B|@ripaojiedian
-      - YD|@Zyw_Channel 2
+      - 🇸🇬 新加坡a5
+      - 🇺🇸 美国a8 2
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇯🇵 CY_分享日记
+      - 🇨🇦 加拿大【YouTube-由零開始】
+      - 🇯🇵 日本-2.19MB/s(Youtube:不良林)
+      - 🇨🇦 加拿大【YouTube-由零開始】_3
+      - 🇯🇵 US_分享日记 3
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本-2.19MB/s(Youtube:不良林)
-      - 🇯🇵 日本KT|@ripaojiedian
-      - 🇺🇸 美国_【YouTube-VV科技】_14
-      - 🇨🇳 @hkaa0||台湾
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - 🇯🇵 US_分享日记_10
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 日本A|@ripaojiedian
-      - 🇯🇵 CY_分享日记
-      - "@hkaa0||五叶专属"
-      - 🇺🇸 @hkaa0||美国|300G
-      - YD|www.zyw.asia ZYW免费节点
-      - _电报频道： @mfjdpd 80
-      - 🇺🇸 美国【YouTube-由零開始】
       - 🇬🇧 GB英国(youtube阿伟科技)_2
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇭🇰 HK香港(youtube阿伟科技)_5
-      - 🇸🇬 新加坡a5
       - _电报频道： @mfjdpd 48
-      - _电报频道 @mfjdpd 57
-      - _电报频道： @mfjdpd 134
-      - 🇨🇳 @hkaa0||中国_3
       - 🇨🇳 中国_【YouTube-VV科技】_2
+      - 🇭🇰 香港B|@ripaojiedian
       - 🇨🇳 中国【YouTube-由零開始】_11
+      - 🇺🇸 美国_【YouTube-VV科技】_14
+      - 🇯🇵 US_分享日记_10
+      - 🇺🇸 美国a8
+      - 🇨🇳 台湾独家|@ripaojiedian
+      - 🇨🇳 @hkaa0||中国_3
+      - 🇯🇵 日本A|@ripaojiedian
+      - YD|@Zyw_Channel
+      - 🇯🇵 CN_分享日记_2
+      - 🇩🇪 DE德国(youtube阿伟科技)_7
+      - YD|@Zyw_Channel 2
+      - _电报频道 @mfjdpd 57
+      - _电报频道： @mfjdpd 8
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇯🇵 日本KT|@ripaojiedian
+      - 🇬🇧 英国|@ripaojiedian
+      - "@hkaa0||五叶专属"
+      - _电报频道： @mfjdpd 134
       - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇳🇱 NL荷兰(youtube阿伟科技)_2
       - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
-      - 🇺🇸 美国a8
-      - 🇺🇸 美国a8 2
-      - CF|tg频道:@Zyw_Channel
-      - 🇺🇸 美国2|@ripaojiedian
-      - _电报频道： @mfjdpd 8
+      - 🇭🇰 HK香港(youtube阿伟科技)_5
+      - 🇯🇵 US_分享日记
       - 🇯🇵 US_分享日记 2
-      - YD|@Zyw_Channel
-      - 🇩🇪 DE德国(youtube阿伟科技)_7
-      - 🇯🇵 CN_分享日记_2
-      - 🇭🇰 香港B|@ripaojiedian
-      - YD|@Zyw_Channel 2
+      - 🇸🇬 新加坡a5
+      - 🇺🇸 美国a8 2
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇯🇵 CY_分享日记
+      - 🇨🇦 加拿大【YouTube-由零開始】
+      - 🇯🇵 日本-2.19MB/s(Youtube:不良林)
+      - 🇨🇦 加拿大【YouTube-由零開始】_3
+      - 🇯🇵 US_分享日记 3
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本-2.19MB/s(Youtube:不良林)
-      - 🇯🇵 日本KT|@ripaojiedian
-      - 🇺🇸 美国_【YouTube-VV科技】_14
-      - 🇨🇳 @hkaa0||台湾
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - 🇯🇵 US_分享日记_10
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 日本A|@ripaojiedian
-      - 🇯🇵 CY_分享日记
-      - "@hkaa0||五叶专属"
-      - 🇺🇸 @hkaa0||美国|300G
-      - YD|www.zyw.asia ZYW免费节点
-      - _电报频道： @mfjdpd 80
-      - 🇺🇸 美国【YouTube-由零開始】
       - 🇬🇧 GB英国(youtube阿伟科技)_2
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇭🇰 HK香港(youtube阿伟科技)_5
-      - 🇸🇬 新加坡a5
       - _电报频道： @mfjdpd 48
-      - _电报频道 @mfjdpd 57
-      - _电报频道： @mfjdpd 134
-      - 🇨🇳 @hkaa0||中国_3
       - 🇨🇳 中国_【YouTube-VV科技】_2
+      - 🇭🇰 香港B|@ripaojiedian
       - 🇨🇳 中国【YouTube-由零開始】_11
+      - 🇺🇸 美国_【YouTube-VV科技】_14
+      - 🇯🇵 US_分享日记_10
+      - 🇺🇸 美国a8
+      - 🇨🇳 台湾独家|@ripaojiedian
+      - 🇨🇳 @hkaa0||中国_3
+      - 🇯🇵 日本A|@ripaojiedian
+      - YD|@Zyw_Channel
+      - 🇯🇵 CN_分享日记_2
+      - 🇩🇪 DE德国(youtube阿伟科技)_7
+      - YD|@Zyw_Channel 2
+      - _电报频道 @mfjdpd 57
+      - _电报频道： @mfjdpd 8
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇯🇵 日本KT|@ripaojiedian
+      - 🇬🇧 英国|@ripaojiedian
+      - "@hkaa0||五叶专属"
+      - _电报频道： @mfjdpd 134
       - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇳🇱 NL荷兰(youtube阿伟科技)_2
       - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
-      - 🇺🇸 美国a8
-      - 🇺🇸 美国a8 2
-      - CF|tg频道:@Zyw_Channel
-      - 🇺🇸 美国2|@ripaojiedian
-      - _电报频道： @mfjdpd 8
+      - 🇭🇰 HK香港(youtube阿伟科技)_5
+      - 🇯🇵 US_分享日记
       - 🇯🇵 US_分享日记 2
-      - YD|@Zyw_Channel
-      - 🇩🇪 DE德国(youtube阿伟科技)_7
-      - 🇯🇵 CN_分享日记_2
-      - 🇭🇰 香港B|@ripaojiedian
-      - YD|@Zyw_Channel 2
+      - 🇸🇬 新加坡a5
+      - 🇺🇸 美国a8 2
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇯🇵 CY_分享日记
+      - 🇨🇦 加拿大【YouTube-由零開始】
+      - 🇯🇵 日本-2.19MB/s(Youtube:不良林)
+      - 🇨🇦 加拿大【YouTube-由零開始】_3
+      - 🇯🇵 US_分享日记 3
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本-2.19MB/s(Youtube:不良林)
-      - 🇯🇵 日本KT|@ripaojiedian
-      - 🇺🇸 美国_【YouTube-VV科技】_14
-      - 🇨🇳 @hkaa0||台湾
-      - 🇨🇳 台湾独家|@ripaojiedian
-      - 🇯🇵 US_分享日记_10
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 日本A|@ripaojiedian
-      - 🇯🇵 CY_分享日记
-      - "@hkaa0||五叶专属"
-      - 🇺🇸 @hkaa0||美国|300G
-      - YD|www.zyw.asia ZYW免费节点
-      - _电报频道： @mfjdpd 80
-      - 🇺🇸 美国【YouTube-由零開始】
       - 🇬🇧 GB英国(youtube阿伟科技)_2
-      - 🇬🇧 英国|@ripaojiedian
-      - 🇭🇰 HK香港(youtube阿伟科技)_5
-      - 🇸🇬 新加坡a5
       - _电报频道： @mfjdpd 48
-      - _电报频道 @mfjdpd 57
-      - _电报频道： @mfjdpd 134
-      - 🇨🇳 @hkaa0||中国_3
       - 🇨🇳 中国_【YouTube-VV科技】_2
+      - 🇭🇰 香港B|@ripaojiedian
       - 🇨🇳 中国【YouTube-由零開始】_11
+      - 🇺🇸 美国_【YouTube-VV科技】_14
+      - 🇯🇵 US_分享日记_10
+      - 🇺🇸 美国a8
+      - 🇨🇳 台湾独家|@ripaojiedian
+      - 🇨🇳 @hkaa0||中国_3
+      - 🇯🇵 日本A|@ripaojiedian
+      - YD|@Zyw_Channel
+      - 🇯🇵 CN_分享日记_2
+      - 🇩🇪 DE德国(youtube阿伟科技)_7
+      - YD|@Zyw_Channel 2
+      - _电报频道 @mfjdpd 57
+      - _电报频道： @mfjdpd 8
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇯🇵 日本KT|@ripaojiedian
+      - 🇬🇧 英国|@ripaojiedian
+      - "@hkaa0||五叶专属"
+      - _电报频道： @mfjdpd 134
       - 🇷🇺 俄罗斯(youtube阿伟科技)
       - 🇳🇱 NL荷兰(youtube阿伟科技)_2
       - 🇷🇺 俄罗斯联邦=tg频道:@bpjzx2=7
-      - 🇺🇸 美国a8
-      - 🇺🇸 美国a8 2
-      - CF|tg频道:@Zyw_Channel
-      - 🇺🇸 美国2|@ripaojiedian
-      - _电报频道： @mfjdpd 8
+      - 🇭🇰 HK香港(youtube阿伟科技)_5
+      - 🇯🇵 US_分享日记
       - 🇯🇵 US_分享日记 2
-      - YD|@Zyw_Channel
-      - 🇩🇪 DE德国(youtube阿伟科技)_7
-      - 🇯🇵 CN_分享日记_2
-      - 🇭🇰 香港B|@ripaojiedian
-      - YD|@Zyw_Channel 2
+      - 🇸🇬 新加坡a5
+      - 🇺🇸 美国a8 2
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇯🇵 CY_分享日记
+      - 🇨🇦 加拿大【YouTube-由零開始】
+      - 🇯🇵 日本-2.19MB/s(Youtube:不良林)
+      - 🇨🇦 加拿大【YouTube-由零開始】_3
+      - 🇯🇵 US_分享日记 3
   - name: 🛑 禁止代理
     type: select
     proxies:
