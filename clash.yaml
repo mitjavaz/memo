@@ -5,106 +5,67 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇦🇿 AZ阿塞拜疆(youtube阿伟科技), server: 180.149.44.67, port: 10000, type: vmess, uuid: d40dca2c-3782-11ee-82ed-bff26c3b4e46, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇹🇭 TH泰国(youtube阿伟科技), server: 141.98.19.77, port: 10000, type: vmess, uuid: 3e0bf5be-3785-11ee-9c2e-00163ed178a4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_1, server: 185.239.107.74, port: 52829, type: vmess, uuid: ca60d665-711b-486a-ea5f-496e8f747d13, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇧🇷 BR巴西(youtube阿伟科技), server: sblarm.kaolll.tech, port: 80, type: vmess, uuid: 78cb2383-f3c9-4230-82c4-4f465acd1680, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sblarm.kaolll.tech}}}
-  - {name: 🇨🇦 CA加拿大(youtube阿伟科技)_1, server: 192.99.247.52, port: 10000, type: vmess, uuid: 0406a7a8-3783-11ee-bb37-3bf378e3e9fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇨🇦 CA加拿大(youtube阿伟科技)_2, server: ca1.09vpn.com, port: 80, type: vmess, uuid: cdadcc00-10e7-417e-a03f-7b968b3f5bdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: ca1.09vpn.com}}}
-  - {name: 🇩🇪 DE德国(youtube阿伟科技)_1, server: s.steamdownload.top, port: 16203, type: trojan, password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e, sni: s.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇩🇪 DE德国(youtube阿伟科技)_2, server: 172.105.84.7, port: 44577, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 8672508789}
-  - {name: 🇫🇷 FR法国(youtube阿伟科技)_1, server: 13.36.101.161, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: 🇫🇷 FR法国(youtube阿伟科技)_2, server: ge1.09vpn.com, port: 80, type: vmess, uuid: 9917371e-16f6-46f1-b3a2-5c00ebde5813, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: ge1.09vpn.com}}}
-  - {name: 🇫🇷 FR法国(youtube阿伟科技)_3, server: fr2.09vpn.com, port: 80, type: vmess, uuid: e4e0776f-30b4-4290-a379-c0de4dddcf77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: fr2.09vpn.com}}}
-  - {name: 🇫🇷 FR法国(youtube阿伟科技)_4, server: 149.202.55.79, port: 10000, type: vmess, uuid: 29d81b38-3783-11ee-85a3-9bc543dcf9c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇫🇷 FR法国(youtube阿伟科技)_5, server: 146.59.32.32, port: 10000, type: vmess, uuid: 466d848a-3784-11ee-a586-2fe46b474e57, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇬🇧 GB英国(youtube阿伟科技)_1, server: dx.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: 4cda4a6f-76a4-4637-9eee-b45cfbdcb416}
-  - {name: 🇬🇧 GB英国(youtube阿伟科技)_2, server: 109.74.192.74, port: 44577, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 8672508789}
-  - {name: 🇬🇧 GB英国(youtube阿伟科技)_3, server: yg1.mlbldzz.top, port: 443, type: vmess, uuid: 06b464f6-e38f-4ba8-eac3-8914277970dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /06b464f6-e38f-4ba8-eac3-8914277970dc, headers: {Host: yg1.mlbldzz.top}}}
-  - {name: 🇬🇧 GB英国(youtube阿伟科技)_4, server: 192.203.230.183, port: 443, type: vmess, uuid: 06b464f6-e38f-4ba8-eac3-8914277970dc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /06b464f6-e38f-4ba8-eac3-8914277970dc}}
-  - {name: 🇬🇧 GB英国(youtube阿伟科技)_5, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇬🇧 GB英国(youtube阿伟科技)_6, server: 194.146.44.14, port: 10000, type: vmess, uuid: 93238058-3785-11ee-9385-00163ea0a2ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇬🇧 GB英国(youtube阿伟科技)_7, server: 120.226.50.89, port: 47009, type: vmess, uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇬🇧 GB英国(youtube阿伟科技)_10, server: un1.09vpn.com, port: 80, type: vmess, uuid: c74a01da-790e-46fb-8c89-3436dbdbc56b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: un1.09vpn.com}}}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技)_1, server: south.steamdownload.top, port: 11003, type: trojan, password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e, sni: south.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技)_2, server: south.steamdownload.top, port: 11004, type: trojan, password: 59f6ac1d-4dfd-424e-8913-15cb66e9ee6e, sni: south.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技)_3, server: dx.ktmwan.top, port: 27259, type: ss, cipher: chacha20-ietf-poly1305, password: 4cda4a6f-76a4-4637-9eee-b45cfbdcb416}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技)_4, server: 111.38.37.9, port: 12484, type: ss, cipher: chacha20-ietf-poly1305, password: e0cc294f-a0b3-4c37-b86a-b7fe3cb5bc41}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技)_5, server: 192.203.230.183, port: 443, type: vmess, uuid: fbf5ddad-8807-400f-93ed-83017aff8bbb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fbf5ddad-8807-400f-93ed-83017aff8bbb}}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技)_6, server: 66hk66.fr99kt.top, port: 18090, type: vmess, uuid: ad13f574-f6b7-427e-bb29-224a07c56d10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /efdg, headers: {Host: 66hk66.fr99kt.top}}}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技)_7, server: hk01.isddns.tk, port: 443, type: vmess, uuid: 6a9506e8-6a5b-43f7-87bf-2fca0c4566db, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: hk01.isddns.tk}}}
-  - {name: 🇭🇰 HK香港(youtube阿伟科技)_8, server: 27.0.232.251, port: 10000, type: vmess, uuid: 4e233d28-3784-11ee-bf86-00163e35210f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇮🇩 ID印尼(youtube阿伟科技), server: 45.12.80.138, port: 10000, type: vmess, uuid: c88d61b0-3784-11ee-8407-00163ef086d4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇮🇱 IL以色列(youtube阿伟科技), server: is1kam.09vpn.com, port: 80, type: vmess, uuid: cec72106-83d0-45e0-bdfd-c5aa7d915ac7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: is1kam.09vpn.com}}}
-  - {name: 🇮🇳 IN印度(youtube阿伟科技)_1, server: dx.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 4cda4a6f-76a4-4637-9eee-b45cfbdcb416}
-  - {name: 🇮🇳 IN印度(youtube阿伟科技)_2, server: ydarm.e5outllok.me, port: 80, type: vmess, uuid: 78cb2383-f3c9-4230-82c4-4f465acd1680, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ydarm.e5outllok.me}}}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_1, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Tm9uZQ%3D%3D, obfs-param: ""}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_2, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%, obfs-param: ""}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_3, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: ",:\x16\x13##\x16@...:#%%%%%%%%%\x12%^..%", obfs-param: ""}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_4, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%, obfs-param: ""}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_5, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_6, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: ",:\x16%\x1fD{H%\x1f{%\x1fE%%[%%[\x022RRRRRRRR^%%[\"^%\x1f{%\x1f{%\x1fW%%[%%[%%[%%[%%", obfs-param: ""}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_7, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: ""}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_9, server: 812jp2.xyzsa.top, port: 4433, type: trojan, password: ad13f574-f6b7-427e-bb29-224a07c56d10, sni: 812jp2.xyzsa.top, skip-cert-verify: true}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_10, server: jp3.421421.xyz, port: 20230, type: trojan, password: 26af88d0-fc72-43b3-8108-521a7b12aa45, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_11, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_12, server: dx.ktmwan.top, port: 27251, type: ss, cipher: chacha20-ietf-poly1305, password: 4cda4a6f-76a4-4637-9eee-b45cfbdcb416}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_13, server: 111.38.37.9, port: 41912, type: ss, cipher: chacha20-ietf-poly1305, password: e0cc294f-a0b3-4c37-b86a-b7fe3cb5bc41}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_14, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: zfc.windowsupdate1.com}}}
-  - {name: 🇯🇵 JP日本(youtube阿伟科技)_15, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 7390f4bc-1bf0-42f4-9c4f-0cbc35217ee3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fd.shabijichang.com}}}
-  - {name: 🇰🇭 KH柬埔寨(youtube阿伟科技), server: 183.232.139.38, port: 46253, type: ss, cipher: chacha20-ietf-poly1305, password: e0cc294f-a0b3-4c37-b86a-b7fe3cb5bc41}
-  - {name: 🇰🇷 KR韩国(youtube阿伟科技)_1, server: 813krkr.fr99kt.top, port: 443, type: trojan, password: ad13f574-f6b7-427e-bb29-224a07c56d10, sni: 813krkr.fr99kt.top, skip-cert-verify: true}
-  - {name: 🇰🇷 KR韩国(youtube阿伟科技)_2, server: krawycaa.76898102.xyz, port: 2095, type: vmess, uuid: 7ed7e770-140d-37d0-8bbd-11cafb8186e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: krawycaa.76898102.xyz}}}
-  - {name: 🇳🇱 NL荷兰(youtube阿伟科技)_1, server: 45.199.138.164, port: 45301, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 NL荷兰(youtube阿伟科技)_3, server: 45.199.138.161, port: 46735, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 NL荷兰(youtube阿伟科技)_4, server: 156.245.8.145, port: 443, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691750259012}}
-  - {name: 🇵🇱 PL波兰(youtube阿伟科技), server: p1.09vpn.com, port: 80, type: vmess, uuid: c625341d-b3c8-473e-9072-66426477341b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: p1.09vpn.com}}}
-  - {name: 🇷🇴 RO罗马尼亚(youtube阿伟科技), server: 185.202.92.174, port: 10000, type: vmess, uuid: 885c4d9a-3784-11ee-a87e-5bc139b0f4e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇷🇺 俄罗斯(youtube阿伟科技), server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [🇷🇺俄罗斯(youtube阿伟科技)]}}}
-  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_1, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_2, server: 192.53.172.206, port: 44577, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 8672508789}
-  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_3, server: 183.232.139.38, port: 48479, type: ss, cipher: chacha20-ietf-poly1305, password: e0cc294f-a0b3-4c37-b86a-b7fe3cb5bc41}
-  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_4, server: 111.38.37.9, port: 28660, type: ss, cipher: chacha20-ietf-poly1305, password: e0cc294f-a0b3-4c37-b86a-b7fe3cb5bc41}
-  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_5, server: dx.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 4cda4a6f-76a4-4637-9eee-b45cfbdcb416}
-  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_6, server: 813sgsg.fr99kt.top, port: 443, type: vmess, uuid: ad13f574-f6b7-427e-bb29-224a07c56d10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fdsdgg, headers: {Host: 813sgsg.fr99kt.top}}}
-  - {name: 🇸🇬 SG新加坡(youtube阿伟科技)_7, server: wxxjp.e5outllok.me, port: 80, type: vmess, uuid: 78cb2383-f3c9-4230-82c4-4f465acd1680, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wxxjp.e5outllok.me}}}
-  - {name: 🇹🇷 TR土耳其(youtube阿伟科技)_1, server: zen-cloud.freenetforprogrammers.tk, port: 54375, type: vmess, uuid: 86c62739-1a68-43dc-b8a6-afde3ed16c28, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [fast.com]}}}
-  - {name: 🇹🇷 TR土耳其(youtube阿伟科技)_2, server: 185.219.133.90, port: 10000, type: vmess, uuid: 6a41f0c0-3785-11ee-9798-e3eaa36c0dc1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇹🇷 TR土耳其(youtube阿伟科技)_3, server: 185.39.204.117, port: 10000, type: vmess, uuid: 4bbfd36a-3785-11ee-9edd-0304edda382a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇨🇳 TW台湾(youtube阿伟科技), server: dx.ktmwan.top, port: 27260, type: ss, cipher: chacha20-ietf-poly1305, password: 4cda4a6f-76a4-4637-9eee-b45cfbdcb416}
-  - {name: UA乌克兰(youtube阿伟科技), server: 193.238.153.61, port: 10000, type: vmess, uuid: 7c39bbf0-3785-11ee-8287-1fdc874e4892, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_1 2, server: 54.85.96.182, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_2, server: 183.232.249.130, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_3, server: 138.2.108.27, port: 80, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: a7ee85f4}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_4, server: 129.150.47.162, port: 80, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: a7ee85f4}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_5, server: 138.2.72.149, port: 80, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: a7ee85f4}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_6, server: 170.64.183.154, port: 8881, type: vmess, uuid: db5afae4-ac23-41a6-8378-f307a9a47436, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [🇺🇸US美国(youtube阿伟科技)]}}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_7, server: 137.175.18.81, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691728485254}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_8, server: cf.thaseunknown.com, port: 8080, type: vmess, uuid: 0306fea1-427b-4d08-9b2d-cf8a4078d634, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: cf.thaseunknown.com}}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_9, server: 138.2.69.142, port: 80, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: a7ee85f4}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_11, server: 23.224.11.149, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691728485254}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_12, server: 137.175.35.154, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691728485254}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_13, server: 108.166.203.183, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_14, server: 142.4.115.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691728485254}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_15, server: 198.2.204.246, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691750259012}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_16, server: 137.175.3.36, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691575919722}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_17, server: 198.200.33.27, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691728485254}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_18, server: 74.217.182.119, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691728485254}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_19, server: 38.26.135.13, port: 40940, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_20, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: cdn.anycast.eu.org}}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_21, server: 171.22.116.44, port: 46909, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_22, server: 171.22.116.45, port: 46909, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_23, server: 146.190.133.185, port: 8880, type: vmess, uuid: 65ed00dc-d6bf-42f9-cc6b-5faee6d7a3f8, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [🇺🇸US美国(youtube阿伟科技)]}}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_24, server: 107.167.30.132, port: 43900, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_25, server: 192.74.231.183, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691750259012}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_26, server: 107.189.7.49, port: 10000, type: vmess, uuid: d76ee164-3783-11ee-892f-0016c03a82e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_27, server: 112.214.109.140, port: 10101, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: a7ee85f4}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_28, server: wxll.e5outllok.me, port: 80, type: vmess, uuid: 78cb2383-f3c9-4230-82c4-4f465acd1680, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wxll.e5outllok.me}}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_29, server: microsoftdebug.com, port: 80, type: vmess, uuid: 71cff3aa-bf37-4be9-abaf-8da5b39e4f83, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: microsoftdebug.com}}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_30, server: 162.159.133.188, port: 2082, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_31, server: 38.26.135.13, port: 40940, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_32, server: 104.24.206.115, port: 2082, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue}}
-  - {name: 🇺🇸 US美国(youtube阿伟科技)_33, server: 104.27.69.12, port: 2082, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue}}
+  - {name: 🇰🇷 韩国 01 高级IEPL中继, server: s400l.ddns1.pw, port: 21393, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇸🇬 >🇸🇬 SG|Hs|0812|TG@FProxies|, server: south.steamdownload.top, port: 14004, type: trojan, password: f3c833ef-cb96-49fb-9398-1aa6429559d0, skip-cert-verify: true}
+  - {name: 🇮🇳 印度 BGP, server: s400l.ddns1.pw, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 254254.xyz👈购买地址, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本02 | 高速专线, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-52.198.130.48-0173, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 02 高级IEPL中继, server: s400l.ddns1.pw, port: 21397, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇸🇬 新加坡 03 高级IEPL中继, server: s400l.ddns1.pw, port: 21395, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇳🇱 荷兰01 高级BGP中继, server: s400l.ddns1.pw, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 254254.xyz👈购买地址 2, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本4 | 高速专线, server: pqawsjp4.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: Telegram@kxswa | https://t.me/kxswa, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 05 高级IEPL中继, server: s400l.ddns1.pw, port: 24350, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇭🇰 香港 01 高级BGP中继  2x, server: s400l.ddns1.pw, port: 21493, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇸🇬 新加坡1 | 高速专线, server: pqawssg1.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡02 | 高速专线, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本01 | 高速专线, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 43.202.67.118, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本05 | 高速专线, server: pqawssg001.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇹🇷 土耳其-346.0KB/s(Youtube:不良林), server: 45.89.52.66, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn}
+  - {name: 🇯🇵 日本3 | 高速专线, server: pqawsjp3.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾3, server: pqhinet3.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 03 高级IEPL中继, server: s400l.ddns1.pw, port: 21389, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇸🇬 新加坡01 | 高速专线, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本04 | 高速专线, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 01 高级IEPL中继, server: s400l.ddns1.pw, port: 21390, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇯🇵 日本 01 高级IEPL中继, server: s400l.ddns1.pw, port: 21391, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 254254.xyz👈购买地址 3, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2 | 高速专线, server: pqawssg2.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本2 | 高速专线, server: pqawsjp2.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港 04 高级IEPL中继, server: s400l.ddns1.pw, port: 21492, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇦🇪 迪拜 BGP, server: s400l.ddns1.pw, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇺🇸 美国 | 0.1x, server: 74.217.179.35, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡 02 高级IEPL中继, server: s400l.ddns1.pw, port: 22398, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇯🇵 日本 tg@freeVPNjd, server: 54.251.219.83, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本03 | 高速专线, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 254254.xyz👈购买地址 4, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 8DKJ|www.zyw.asia ZYW免费节点, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 02 高级IEPL中继, server: s400l.ddns1.pw, port: 21392, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 254254.xyz👈购买地址 5, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本-692.0KB/s(Youtube:不良林), server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 05 高级IEPL中继, server: s400l.ddns1.pw, port: 21494, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇯🇵 日本 03 高级IEPL中继, server: s400l.ddns1.pw, port: 21387, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇰🇷 韩国 02 高级IEPL中继, server: s400l.ddns1.pw, port: 21394, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇨🇳 台湾, server: pqhinet1.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本 04 高级IEPL中继, server: s400l.ddns1.pw, port: 24389, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 254254.xyz👈购买地址 6, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本1 | 高速专线, server: pqawszf.aiopen.cfd, port: 35000, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾2, server: pqhinet2.aiopen.cfd, port: 443, type: trojan, password: 2ad7f1d5-0355-46a7-a219-ab44effd3669, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾 03 高级IEPL中继, server: s400l.ddns1.pw, port: 22180, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇨🇳 台湾 02 高级IEPL中继, server: s400l.ddns1.pw, port: 22399, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇵🇭 菲律宾 Edge, server: s400l.ddns1.pw, port: 20050, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇯🇵 日本09 tg@freeVPNjd, server: 43.201.149.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇪 德国 01 高级BGP中继, server: s400l.ddns1.pw, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇬🇧 英国 01 高级BGP中继, server: s400l.ddns1.pw, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇫🇷 法国 01 高级BGP中继, server: s400l.ddns1.pw, port: 11015, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇨🇳 台湾 01 高级IEPL中继, server: s400l.ddns1.pw, port: 21398, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇺🇸 美国 01 高级IEPL中继, server: s400l.ddns1.pw, port: 21396, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇸🇬 新加坡-760.4KB/s(Youtube:不良林), server: sg2.jb7ueoq73.xyz, port: 10110, type: trojan, password: 80ee02fd-6db7-463d-a774-ba6ca8184d7b, sni: tls.jb7ueoq73.xyz, skip-cert-verify: true}
+  - {name: 🇨🇦 加拿大 01 高级BGP中继, server: s400l.ddns1.pw, port: 20011, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
+  - {name: 🇺🇸 美国 04 高级IEPL中继, server: s400l.ddns1.pw, port: 21388, type: ss, cipher: chacha20-ietf-poly1305, password: 05c328df-f6ef-4f1c-9ad7-de9bca7752f4}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -116,422 +77,266 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇦🇿 AZ阿塞拜疆(youtube阿伟科技)
-      - 🇹🇭 TH泰国(youtube阿伟科技)
-      - 🇺🇸 US美国(youtube阿伟科技)_1
-      - 🇧🇷 BR巴西(youtube阿伟科技)
-      - 🇨🇦 CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
-      - 🇩🇪 DE德国(youtube阿伟科技)_1
-      - 🇩🇪 DE德国(youtube阿伟科技)_2
-      - 🇫🇷 FR法国(youtube阿伟科技)_1
-      - 🇫🇷 FR法国(youtube阿伟科技)_2
-      - 🇫🇷 FR法国(youtube阿伟科技)_3
-      - 🇫🇷 FR法国(youtube阿伟科技)_4
-      - 🇫🇷 FR法国(youtube阿伟科技)_5
-      - 🇬🇧 GB英国(youtube阿伟科技)_1
-      - 🇬🇧 GB英国(youtube阿伟科技)_2
-      - 🇬🇧 GB英国(youtube阿伟科技)_3
-      - 🇬🇧 GB英国(youtube阿伟科技)_4
-      - 🇬🇧 GB英国(youtube阿伟科技)_5
-      - 🇬🇧 GB英国(youtube阿伟科技)_6
-      - 🇬🇧 GB英国(youtube阿伟科技)_7
-      - 🇬🇧 GB英国(youtube阿伟科技)_10
-      - 🇭🇰 HK香港(youtube阿伟科技)_1
-      - 🇭🇰 HK香港(youtube阿伟科技)_2
-      - 🇭🇰 HK香港(youtube阿伟科技)_3
-      - 🇭🇰 HK香港(youtube阿伟科技)_4
-      - 🇭🇰 HK香港(youtube阿伟科技)_5
-      - 🇭🇰 HK香港(youtube阿伟科技)_6
-      - 🇭🇰 HK香港(youtube阿伟科技)_7
-      - 🇭🇰 HK香港(youtube阿伟科技)_8
-      - 🇮🇩 ID印尼(youtube阿伟科技)
-      - 🇮🇱 IL以色列(youtube阿伟科技)
-      - 🇮🇳 IN印度(youtube阿伟科技)_1
-      - 🇮🇳 IN印度(youtube阿伟科技)_2
-      - 🇯🇵 JP日本(youtube阿伟科技)_1
-      - 🇯🇵 JP日本(youtube阿伟科技)_2
-      - 🇯🇵 JP日本(youtube阿伟科技)_3
-      - 🇯🇵 JP日本(youtube阿伟科技)_4
-      - 🇯🇵 JP日本(youtube阿伟科技)_5
-      - 🇯🇵 JP日本(youtube阿伟科技)_6
-      - 🇯🇵 JP日本(youtube阿伟科技)_7
-      - 🇯🇵 JP日本(youtube阿伟科技)_9
-      - 🇯🇵 JP日本(youtube阿伟科技)_10
-      - 🇯🇵 JP日本(youtube阿伟科技)_11
-      - 🇯🇵 JP日本(youtube阿伟科技)_12
-      - 🇯🇵 JP日本(youtube阿伟科技)_13
-      - 🇯🇵 JP日本(youtube阿伟科技)_14
-      - 🇯🇵 JP日本(youtube阿伟科技)_15
-      - 🇰🇭 KH柬埔寨(youtube阿伟科技)
-      - 🇰🇷 KR韩国(youtube阿伟科技)_1
-      - 🇰🇷 KR韩国(youtube阿伟科技)_2
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_3
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_4
-      - 🇵🇱 PL波兰(youtube阿伟科技)
-      - 🇷🇴 RO罗马尼亚(youtube阿伟科技)
-      - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_7
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_1
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_2
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_3
-      - 🇨🇳 TW台湾(youtube阿伟科技)
-      - UA乌克兰(youtube阿伟科技)
-      - 🇺🇸 US美国(youtube阿伟科技)_1 2
-      - 🇺🇸 US美国(youtube阿伟科技)_2
-      - 🇺🇸 US美国(youtube阿伟科技)_3
-      - 🇺🇸 US美国(youtube阿伟科技)_4
-      - 🇺🇸 US美国(youtube阿伟科技)_5
-      - 🇺🇸 US美国(youtube阿伟科技)_6
-      - 🇺🇸 US美国(youtube阿伟科技)_7
-      - 🇺🇸 US美国(youtube阿伟科技)_8
-      - 🇺🇸 US美国(youtube阿伟科技)_9
-      - 🇺🇸 US美国(youtube阿伟科技)_11
-      - 🇺🇸 US美国(youtube阿伟科技)_12
-      - 🇺🇸 US美国(youtube阿伟科技)_13
-      - 🇺🇸 US美国(youtube阿伟科技)_14
-      - 🇺🇸 US美国(youtube阿伟科技)_15
-      - 🇺🇸 US美国(youtube阿伟科技)_16
-      - 🇺🇸 US美国(youtube阿伟科技)_17
-      - 🇺🇸 US美国(youtube阿伟科技)_18
-      - 🇺🇸 US美国(youtube阿伟科技)_19
-      - 🇺🇸 US美国(youtube阿伟科技)_20
-      - 🇺🇸 US美国(youtube阿伟科技)_21
-      - 🇺🇸 US美国(youtube阿伟科技)_22
-      - 🇺🇸 US美国(youtube阿伟科技)_23
-      - 🇺🇸 US美国(youtube阿伟科技)_24
-      - 🇺🇸 US美国(youtube阿伟科技)_25
-      - 🇺🇸 US美国(youtube阿伟科技)_26
-      - 🇺🇸 US美国(youtube阿伟科技)_27
-      - 🇺🇸 US美国(youtube阿伟科技)_28
-      - 🇺🇸 US美国(youtube阿伟科技)_29
-      - 🇺🇸 US美国(youtube阿伟科技)_30
-      - 🇺🇸 US美国(youtube阿伟科技)_31
-      - 🇺🇸 US美国(youtube阿伟科技)_32
-      - 🇺🇸 US美国(youtube阿伟科技)_33
+      - 🇰🇷 韩国 01 高级IEPL中继
+      - 🇸🇬 >🇸🇬 SG|Hs|0812|TG@FProxies|
+      - 🇮🇳 印度 BGP
+      - 254254.xyz👈购买地址
+      - 🇯🇵 日本02 | 高速专线
+      - 🇯🇵 JP-52.198.130.48-0173
+      - 🇺🇸 美国 02 高级IEPL中继
+      - 🇸🇬 新加坡 03 高级IEPL中继
+      - 🇳🇱 荷兰01 高级BGP中继
+      - 254254.xyz👈购买地址 2
+      - 🇯🇵 日本4 | 高速专线
+      - Telegram@kxswa | https://t.me/kxswa
+      - 🇯🇵 日本 05 高级IEPL中继
+      - 🇭🇰 香港 01 高级BGP中继  2x
+      - 🇸🇬 新加坡1 | 高速专线
+      - 🇸🇬 新加坡02 | 高速专线
+      - 🇯🇵 日本01 | 高速专线
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 日本05 | 高速专线
+      - 🇹🇷 土耳其-346.0KB/s(Youtube:不良林)
+      - 🇯🇵 日本3 | 高速专线
+      - 🇨🇳 台湾3
+      - 🇺🇸 美国 03 高级IEPL中继
+      - 🇸🇬 新加坡01 | 高速专线
+      - 🇯🇵 日本04 | 高速专线
+      - 🇭🇰 香港 01 高级IEPL中继
+      - 🇯🇵 日本 01 高级IEPL中继
+      - 254254.xyz👈购买地址 3
+      - 🇸🇬 新加坡2 | 高速专线
+      - 🇯🇵 日本2 | 高速专线
+      - 🇭🇰 香港 04 高级IEPL中继
+      - 🇦🇪 迪拜 BGP
+      - 🇺🇸 美国 | 0.1x
+      - 🇸🇬 新加坡 02 高级IEPL中继
+      - 🇯🇵 日本 tg@freeVPNjd
+      - 🇯🇵 日本03 | 高速专线
+      - 254254.xyz👈购买地址 4
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇯🇵 日本 02 高级IEPL中继
+      - 254254.xyz👈购买地址 5
+      - 🇯🇵 日本-692.0KB/s(Youtube:不良林)
+      - 🇭🇰 香港 05 高级IEPL中继
+      - 🇯🇵 日本 03 高级IEPL中继
+      - 🇰🇷 韩国 02 高级IEPL中继
+      - 🇨🇳 台湾
+      - 🇯🇵 日本 04 高级IEPL中继
+      - 254254.xyz👈购买地址 6
+      - 🇯🇵 日本1 | 高速专线
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾 03 高级IEPL中继
+      - 🇨🇳 台湾 02 高级IEPL中继
+      - 🇵🇭 菲律宾 Edge
+      - 🇯🇵 日本09 tg@freeVPNjd
+      - 🇩🇪 德国 01 高级BGP中继
+      - 🇬🇧 英国 01 高级BGP中继
+      - 🇫🇷 法国 01 高级BGP中继
+      - 🇨🇳 台湾 01 高级IEPL中继
+      - 🇺🇸 美国 01 高级IEPL中继
+      - 🇸🇬 新加坡-760.4KB/s(Youtube:不良林)
+      - 🇨🇦 加拿大 01 高级BGP中继
+      - 🇺🇸 美国 04 高级IEPL中继
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇿 AZ阿塞拜疆(youtube阿伟科技)
-      - 🇹🇭 TH泰国(youtube阿伟科技)
-      - 🇺🇸 US美国(youtube阿伟科技)_1
-      - 🇧🇷 BR巴西(youtube阿伟科技)
-      - 🇨🇦 CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
-      - 🇩🇪 DE德国(youtube阿伟科技)_1
-      - 🇩🇪 DE德国(youtube阿伟科技)_2
-      - 🇫🇷 FR法国(youtube阿伟科技)_1
-      - 🇫🇷 FR法国(youtube阿伟科技)_2
-      - 🇫🇷 FR法国(youtube阿伟科技)_3
-      - 🇫🇷 FR法国(youtube阿伟科技)_4
-      - 🇫🇷 FR法国(youtube阿伟科技)_5
-      - 🇬🇧 GB英国(youtube阿伟科技)_1
-      - 🇬🇧 GB英国(youtube阿伟科技)_2
-      - 🇬🇧 GB英国(youtube阿伟科技)_3
-      - 🇬🇧 GB英国(youtube阿伟科技)_4
-      - 🇬🇧 GB英国(youtube阿伟科技)_5
-      - 🇬🇧 GB英国(youtube阿伟科技)_6
-      - 🇬🇧 GB英国(youtube阿伟科技)_7
-      - 🇬🇧 GB英国(youtube阿伟科技)_10
-      - 🇭🇰 HK香港(youtube阿伟科技)_1
-      - 🇭🇰 HK香港(youtube阿伟科技)_2
-      - 🇭🇰 HK香港(youtube阿伟科技)_3
-      - 🇭🇰 HK香港(youtube阿伟科技)_4
-      - 🇭🇰 HK香港(youtube阿伟科技)_5
-      - 🇭🇰 HK香港(youtube阿伟科技)_6
-      - 🇭🇰 HK香港(youtube阿伟科技)_7
-      - 🇭🇰 HK香港(youtube阿伟科技)_8
-      - 🇮🇩 ID印尼(youtube阿伟科技)
-      - 🇮🇱 IL以色列(youtube阿伟科技)
-      - 🇮🇳 IN印度(youtube阿伟科技)_1
-      - 🇮🇳 IN印度(youtube阿伟科技)_2
-      - 🇯🇵 JP日本(youtube阿伟科技)_1
-      - 🇯🇵 JP日本(youtube阿伟科技)_2
-      - 🇯🇵 JP日本(youtube阿伟科技)_3
-      - 🇯🇵 JP日本(youtube阿伟科技)_4
-      - 🇯🇵 JP日本(youtube阿伟科技)_5
-      - 🇯🇵 JP日本(youtube阿伟科技)_6
-      - 🇯🇵 JP日本(youtube阿伟科技)_7
-      - 🇯🇵 JP日本(youtube阿伟科技)_9
-      - 🇯🇵 JP日本(youtube阿伟科技)_10
-      - 🇯🇵 JP日本(youtube阿伟科技)_11
-      - 🇯🇵 JP日本(youtube阿伟科技)_12
-      - 🇯🇵 JP日本(youtube阿伟科技)_13
-      - 🇯🇵 JP日本(youtube阿伟科技)_14
-      - 🇯🇵 JP日本(youtube阿伟科技)_15
-      - 🇰🇭 KH柬埔寨(youtube阿伟科技)
-      - 🇰🇷 KR韩国(youtube阿伟科技)_1
-      - 🇰🇷 KR韩国(youtube阿伟科技)_2
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_3
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_4
-      - 🇵🇱 PL波兰(youtube阿伟科技)
-      - 🇷🇴 RO罗马尼亚(youtube阿伟科技)
-      - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_7
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_1
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_2
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_3
-      - 🇨🇳 TW台湾(youtube阿伟科技)
-      - UA乌克兰(youtube阿伟科技)
-      - 🇺🇸 US美国(youtube阿伟科技)_1 2
-      - 🇺🇸 US美国(youtube阿伟科技)_2
-      - 🇺🇸 US美国(youtube阿伟科技)_3
-      - 🇺🇸 US美国(youtube阿伟科技)_4
-      - 🇺🇸 US美国(youtube阿伟科技)_5
-      - 🇺🇸 US美国(youtube阿伟科技)_6
-      - 🇺🇸 US美国(youtube阿伟科技)_7
-      - 🇺🇸 US美国(youtube阿伟科技)_8
-      - 🇺🇸 US美国(youtube阿伟科技)_9
-      - 🇺🇸 US美国(youtube阿伟科技)_11
-      - 🇺🇸 US美国(youtube阿伟科技)_12
-      - 🇺🇸 US美国(youtube阿伟科技)_13
-      - 🇺🇸 US美国(youtube阿伟科技)_14
-      - 🇺🇸 US美国(youtube阿伟科技)_15
-      - 🇺🇸 US美国(youtube阿伟科技)_16
-      - 🇺🇸 US美国(youtube阿伟科技)_17
-      - 🇺🇸 US美国(youtube阿伟科技)_18
-      - 🇺🇸 US美国(youtube阿伟科技)_19
-      - 🇺🇸 US美国(youtube阿伟科技)_20
-      - 🇺🇸 US美国(youtube阿伟科技)_21
-      - 🇺🇸 US美国(youtube阿伟科技)_22
-      - 🇺🇸 US美国(youtube阿伟科技)_23
-      - 🇺🇸 US美国(youtube阿伟科技)_24
-      - 🇺🇸 US美国(youtube阿伟科技)_25
-      - 🇺🇸 US美国(youtube阿伟科技)_26
-      - 🇺🇸 US美国(youtube阿伟科技)_27
-      - 🇺🇸 US美国(youtube阿伟科技)_28
-      - 🇺🇸 US美国(youtube阿伟科技)_29
-      - 🇺🇸 US美国(youtube阿伟科技)_30
-      - 🇺🇸 US美国(youtube阿伟科技)_31
-      - 🇺🇸 US美国(youtube阿伟科技)_32
-      - 🇺🇸 US美国(youtube阿伟科技)_33
+      - 🇰🇷 韩国 01 高级IEPL中继
+      - 🇸🇬 >🇸🇬 SG|Hs|0812|TG@FProxies|
+      - 🇮🇳 印度 BGP
+      - 254254.xyz👈购买地址
+      - 🇯🇵 日本02 | 高速专线
+      - 🇯🇵 JP-52.198.130.48-0173
+      - 🇺🇸 美国 02 高级IEPL中继
+      - 🇸🇬 新加坡 03 高级IEPL中继
+      - 🇳🇱 荷兰01 高级BGP中继
+      - 254254.xyz👈购买地址 2
+      - 🇯🇵 日本4 | 高速专线
+      - Telegram@kxswa | https://t.me/kxswa
+      - 🇯🇵 日本 05 高级IEPL中继
+      - 🇭🇰 香港 01 高级BGP中继  2x
+      - 🇸🇬 新加坡1 | 高速专线
+      - 🇸🇬 新加坡02 | 高速专线
+      - 🇯🇵 日本01 | 高速专线
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 日本05 | 高速专线
+      - 🇹🇷 土耳其-346.0KB/s(Youtube:不良林)
+      - 🇯🇵 日本3 | 高速专线
+      - 🇨🇳 台湾3
+      - 🇺🇸 美国 03 高级IEPL中继
+      - 🇸🇬 新加坡01 | 高速专线
+      - 🇯🇵 日本04 | 高速专线
+      - 🇭🇰 香港 01 高级IEPL中继
+      - 🇯🇵 日本 01 高级IEPL中继
+      - 254254.xyz👈购买地址 3
+      - 🇸🇬 新加坡2 | 高速专线
+      - 🇯🇵 日本2 | 高速专线
+      - 🇭🇰 香港 04 高级IEPL中继
+      - 🇦🇪 迪拜 BGP
+      - 🇺🇸 美国 | 0.1x
+      - 🇸🇬 新加坡 02 高级IEPL中继
+      - 🇯🇵 日本 tg@freeVPNjd
+      - 🇯🇵 日本03 | 高速专线
+      - 254254.xyz👈购买地址 4
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇯🇵 日本 02 高级IEPL中继
+      - 254254.xyz👈购买地址 5
+      - 🇯🇵 日本-692.0KB/s(Youtube:不良林)
+      - 🇭🇰 香港 05 高级IEPL中继
+      - 🇯🇵 日本 03 高级IEPL中继
+      - 🇰🇷 韩国 02 高级IEPL中继
+      - 🇨🇳 台湾
+      - 🇯🇵 日本 04 高级IEPL中继
+      - 254254.xyz👈购买地址 6
+      - 🇯🇵 日本1 | 高速专线
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾 03 高级IEPL中继
+      - 🇨🇳 台湾 02 高级IEPL中继
+      - 🇵🇭 菲律宾 Edge
+      - 🇯🇵 日本09 tg@freeVPNjd
+      - 🇩🇪 德国 01 高级BGP中继
+      - 🇬🇧 英国 01 高级BGP中继
+      - 🇫🇷 法国 01 高级BGP中继
+      - 🇨🇳 台湾 01 高级IEPL中继
+      - 🇺🇸 美国 01 高级IEPL中继
+      - 🇸🇬 新加坡-760.4KB/s(Youtube:不良林)
+      - 🇨🇦 加拿大 01 高级BGP中继
+      - 🇺🇸 美国 04 高级IEPL中继
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇿 AZ阿塞拜疆(youtube阿伟科技)
-      - 🇹🇭 TH泰国(youtube阿伟科技)
-      - 🇺🇸 US美国(youtube阿伟科技)_1
-      - 🇧🇷 BR巴西(youtube阿伟科技)
-      - 🇨🇦 CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
-      - 🇩🇪 DE德国(youtube阿伟科技)_1
-      - 🇩🇪 DE德国(youtube阿伟科技)_2
-      - 🇫🇷 FR法国(youtube阿伟科技)_1
-      - 🇫🇷 FR法国(youtube阿伟科技)_2
-      - 🇫🇷 FR法国(youtube阿伟科技)_3
-      - 🇫🇷 FR法国(youtube阿伟科技)_4
-      - 🇫🇷 FR法国(youtube阿伟科技)_5
-      - 🇬🇧 GB英国(youtube阿伟科技)_1
-      - 🇬🇧 GB英国(youtube阿伟科技)_2
-      - 🇬🇧 GB英国(youtube阿伟科技)_3
-      - 🇬🇧 GB英国(youtube阿伟科技)_4
-      - 🇬🇧 GB英国(youtube阿伟科技)_5
-      - 🇬🇧 GB英国(youtube阿伟科技)_6
-      - 🇬🇧 GB英国(youtube阿伟科技)_7
-      - 🇬🇧 GB英国(youtube阿伟科技)_10
-      - 🇭🇰 HK香港(youtube阿伟科技)_1
-      - 🇭🇰 HK香港(youtube阿伟科技)_2
-      - 🇭🇰 HK香港(youtube阿伟科技)_3
-      - 🇭🇰 HK香港(youtube阿伟科技)_4
-      - 🇭🇰 HK香港(youtube阿伟科技)_5
-      - 🇭🇰 HK香港(youtube阿伟科技)_6
-      - 🇭🇰 HK香港(youtube阿伟科技)_7
-      - 🇭🇰 HK香港(youtube阿伟科技)_8
-      - 🇮🇩 ID印尼(youtube阿伟科技)
-      - 🇮🇱 IL以色列(youtube阿伟科技)
-      - 🇮🇳 IN印度(youtube阿伟科技)_1
-      - 🇮🇳 IN印度(youtube阿伟科技)_2
-      - 🇯🇵 JP日本(youtube阿伟科技)_1
-      - 🇯🇵 JP日本(youtube阿伟科技)_2
-      - 🇯🇵 JP日本(youtube阿伟科技)_3
-      - 🇯🇵 JP日本(youtube阿伟科技)_4
-      - 🇯🇵 JP日本(youtube阿伟科技)_5
-      - 🇯🇵 JP日本(youtube阿伟科技)_6
-      - 🇯🇵 JP日本(youtube阿伟科技)_7
-      - 🇯🇵 JP日本(youtube阿伟科技)_9
-      - 🇯🇵 JP日本(youtube阿伟科技)_10
-      - 🇯🇵 JP日本(youtube阿伟科技)_11
-      - 🇯🇵 JP日本(youtube阿伟科技)_12
-      - 🇯🇵 JP日本(youtube阿伟科技)_13
-      - 🇯🇵 JP日本(youtube阿伟科技)_14
-      - 🇯🇵 JP日本(youtube阿伟科技)_15
-      - 🇰🇭 KH柬埔寨(youtube阿伟科技)
-      - 🇰🇷 KR韩国(youtube阿伟科技)_1
-      - 🇰🇷 KR韩国(youtube阿伟科技)_2
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_3
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_4
-      - 🇵🇱 PL波兰(youtube阿伟科技)
-      - 🇷🇴 RO罗马尼亚(youtube阿伟科技)
-      - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_7
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_1
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_2
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_3
-      - 🇨🇳 TW台湾(youtube阿伟科技)
-      - UA乌克兰(youtube阿伟科技)
-      - 🇺🇸 US美国(youtube阿伟科技)_1 2
-      - 🇺🇸 US美国(youtube阿伟科技)_2
-      - 🇺🇸 US美国(youtube阿伟科技)_3
-      - 🇺🇸 US美国(youtube阿伟科技)_4
-      - 🇺🇸 US美国(youtube阿伟科技)_5
-      - 🇺🇸 US美国(youtube阿伟科技)_6
-      - 🇺🇸 US美国(youtube阿伟科技)_7
-      - 🇺🇸 US美国(youtube阿伟科技)_8
-      - 🇺🇸 US美国(youtube阿伟科技)_9
-      - 🇺🇸 US美国(youtube阿伟科技)_11
-      - 🇺🇸 US美国(youtube阿伟科技)_12
-      - 🇺🇸 US美国(youtube阿伟科技)_13
-      - 🇺🇸 US美国(youtube阿伟科技)_14
-      - 🇺🇸 US美国(youtube阿伟科技)_15
-      - 🇺🇸 US美国(youtube阿伟科技)_16
-      - 🇺🇸 US美国(youtube阿伟科技)_17
-      - 🇺🇸 US美国(youtube阿伟科技)_18
-      - 🇺🇸 US美国(youtube阿伟科技)_19
-      - 🇺🇸 US美国(youtube阿伟科技)_20
-      - 🇺🇸 US美国(youtube阿伟科技)_21
-      - 🇺🇸 US美国(youtube阿伟科技)_22
-      - 🇺🇸 US美国(youtube阿伟科技)_23
-      - 🇺🇸 US美国(youtube阿伟科技)_24
-      - 🇺🇸 US美国(youtube阿伟科技)_25
-      - 🇺🇸 US美国(youtube阿伟科技)_26
-      - 🇺🇸 US美国(youtube阿伟科技)_27
-      - 🇺🇸 US美国(youtube阿伟科技)_28
-      - 🇺🇸 US美国(youtube阿伟科技)_29
-      - 🇺🇸 US美国(youtube阿伟科技)_30
-      - 🇺🇸 US美国(youtube阿伟科技)_31
-      - 🇺🇸 US美国(youtube阿伟科技)_32
-      - 🇺🇸 US美国(youtube阿伟科技)_33
+      - 🇰🇷 韩国 01 高级IEPL中继
+      - 🇸🇬 >🇸🇬 SG|Hs|0812|TG@FProxies|
+      - 🇮🇳 印度 BGP
+      - 254254.xyz👈购买地址
+      - 🇯🇵 日本02 | 高速专线
+      - 🇯🇵 JP-52.198.130.48-0173
+      - 🇺🇸 美国 02 高级IEPL中继
+      - 🇸🇬 新加坡 03 高级IEPL中继
+      - 🇳🇱 荷兰01 高级BGP中继
+      - 254254.xyz👈购买地址 2
+      - 🇯🇵 日本4 | 高速专线
+      - Telegram@kxswa | https://t.me/kxswa
+      - 🇯🇵 日本 05 高级IEPL中继
+      - 🇭🇰 香港 01 高级BGP中继  2x
+      - 🇸🇬 新加坡1 | 高速专线
+      - 🇸🇬 新加坡02 | 高速专线
+      - 🇯🇵 日本01 | 高速专线
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 日本05 | 高速专线
+      - 🇹🇷 土耳其-346.0KB/s(Youtube:不良林)
+      - 🇯🇵 日本3 | 高速专线
+      - 🇨🇳 台湾3
+      - 🇺🇸 美国 03 高级IEPL中继
+      - 🇸🇬 新加坡01 | 高速专线
+      - 🇯🇵 日本04 | 高速专线
+      - 🇭🇰 香港 01 高级IEPL中继
+      - 🇯🇵 日本 01 高级IEPL中继
+      - 254254.xyz👈购买地址 3
+      - 🇸🇬 新加坡2 | 高速专线
+      - 🇯🇵 日本2 | 高速专线
+      - 🇭🇰 香港 04 高级IEPL中继
+      - 🇦🇪 迪拜 BGP
+      - 🇺🇸 美国 | 0.1x
+      - 🇸🇬 新加坡 02 高级IEPL中继
+      - 🇯🇵 日本 tg@freeVPNjd
+      - 🇯🇵 日本03 | 高速专线
+      - 254254.xyz👈购买地址 4
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇯🇵 日本 02 高级IEPL中继
+      - 254254.xyz👈购买地址 5
+      - 🇯🇵 日本-692.0KB/s(Youtube:不良林)
+      - 🇭🇰 香港 05 高级IEPL中继
+      - 🇯🇵 日本 03 高级IEPL中继
+      - 🇰🇷 韩国 02 高级IEPL中继
+      - 🇨🇳 台湾
+      - 🇯🇵 日本 04 高级IEPL中继
+      - 254254.xyz👈购买地址 6
+      - 🇯🇵 日本1 | 高速专线
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾 03 高级IEPL中继
+      - 🇨🇳 台湾 02 高级IEPL中继
+      - 🇵🇭 菲律宾 Edge
+      - 🇯🇵 日本09 tg@freeVPNjd
+      - 🇩🇪 德国 01 高级BGP中继
+      - 🇬🇧 英国 01 高级BGP中继
+      - 🇫🇷 法国 01 高级BGP中继
+      - 🇨🇳 台湾 01 高级IEPL中继
+      - 🇺🇸 美国 01 高级IEPL中继
+      - 🇸🇬 新加坡-760.4KB/s(Youtube:不良林)
+      - 🇨🇦 加拿大 01 高级BGP中继
+      - 🇺🇸 美国 04 高级IEPL中继
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇿 AZ阿塞拜疆(youtube阿伟科技)
-      - 🇹🇭 TH泰国(youtube阿伟科技)
-      - 🇺🇸 US美国(youtube阿伟科技)_1
-      - 🇧🇷 BR巴西(youtube阿伟科技)
-      - 🇨🇦 CA加拿大(youtube阿伟科技)_1
-      - 🇨🇦 CA加拿大(youtube阿伟科技)_2
-      - 🇩🇪 DE德国(youtube阿伟科技)_1
-      - 🇩🇪 DE德国(youtube阿伟科技)_2
-      - 🇫🇷 FR法国(youtube阿伟科技)_1
-      - 🇫🇷 FR法国(youtube阿伟科技)_2
-      - 🇫🇷 FR法国(youtube阿伟科技)_3
-      - 🇫🇷 FR法国(youtube阿伟科技)_4
-      - 🇫🇷 FR法国(youtube阿伟科技)_5
-      - 🇬🇧 GB英国(youtube阿伟科技)_1
-      - 🇬🇧 GB英国(youtube阿伟科技)_2
-      - 🇬🇧 GB英国(youtube阿伟科技)_3
-      - 🇬🇧 GB英国(youtube阿伟科技)_4
-      - 🇬🇧 GB英国(youtube阿伟科技)_5
-      - 🇬🇧 GB英国(youtube阿伟科技)_6
-      - 🇬🇧 GB英国(youtube阿伟科技)_7
-      - 🇬🇧 GB英国(youtube阿伟科技)_10
-      - 🇭🇰 HK香港(youtube阿伟科技)_1
-      - 🇭🇰 HK香港(youtube阿伟科技)_2
-      - 🇭🇰 HK香港(youtube阿伟科技)_3
-      - 🇭🇰 HK香港(youtube阿伟科技)_4
-      - 🇭🇰 HK香港(youtube阿伟科技)_5
-      - 🇭🇰 HK香港(youtube阿伟科技)_6
-      - 🇭🇰 HK香港(youtube阿伟科技)_7
-      - 🇭🇰 HK香港(youtube阿伟科技)_8
-      - 🇮🇩 ID印尼(youtube阿伟科技)
-      - 🇮🇱 IL以色列(youtube阿伟科技)
-      - 🇮🇳 IN印度(youtube阿伟科技)_1
-      - 🇮🇳 IN印度(youtube阿伟科技)_2
-      - 🇯🇵 JP日本(youtube阿伟科技)_1
-      - 🇯🇵 JP日本(youtube阿伟科技)_2
-      - 🇯🇵 JP日本(youtube阿伟科技)_3
-      - 🇯🇵 JP日本(youtube阿伟科技)_4
-      - 🇯🇵 JP日本(youtube阿伟科技)_5
-      - 🇯🇵 JP日本(youtube阿伟科技)_6
-      - 🇯🇵 JP日本(youtube阿伟科技)_7
-      - 🇯🇵 JP日本(youtube阿伟科技)_9
-      - 🇯🇵 JP日本(youtube阿伟科技)_10
-      - 🇯🇵 JP日本(youtube阿伟科技)_11
-      - 🇯🇵 JP日本(youtube阿伟科技)_12
-      - 🇯🇵 JP日本(youtube阿伟科技)_13
-      - 🇯🇵 JP日本(youtube阿伟科技)_14
-      - 🇯🇵 JP日本(youtube阿伟科技)_15
-      - 🇰🇭 KH柬埔寨(youtube阿伟科技)
-      - 🇰🇷 KR韩国(youtube阿伟科技)_1
-      - 🇰🇷 KR韩国(youtube阿伟科技)_2
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_1
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_3
-      - 🇳🇱 NL荷兰(youtube阿伟科技)_4
-      - 🇵🇱 PL波兰(youtube阿伟科技)
-      - 🇷🇴 RO罗马尼亚(youtube阿伟科技)
-      - 🇷🇺 俄罗斯(youtube阿伟科技)
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_1
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_2
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_3
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_4
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_5
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_6
-      - 🇸🇬 SG新加坡(youtube阿伟科技)_7
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_1
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_2
-      - 🇹🇷 TR土耳其(youtube阿伟科技)_3
-      - 🇨🇳 TW台湾(youtube阿伟科技)
-      - UA乌克兰(youtube阿伟科技)
-      - 🇺🇸 US美国(youtube阿伟科技)_1 2
-      - 🇺🇸 US美国(youtube阿伟科技)_2
-      - 🇺🇸 US美国(youtube阿伟科技)_3
-      - 🇺🇸 US美国(youtube阿伟科技)_4
-      - 🇺🇸 US美国(youtube阿伟科技)_5
-      - 🇺🇸 US美国(youtube阿伟科技)_6
-      - 🇺🇸 US美国(youtube阿伟科技)_7
-      - 🇺🇸 US美国(youtube阿伟科技)_8
-      - 🇺🇸 US美国(youtube阿伟科技)_9
-      - 🇺🇸 US美国(youtube阿伟科技)_11
-      - 🇺🇸 US美国(youtube阿伟科技)_12
-      - 🇺🇸 US美国(youtube阿伟科技)_13
-      - 🇺🇸 US美国(youtube阿伟科技)_14
-      - 🇺🇸 US美国(youtube阿伟科技)_15
-      - 🇺🇸 US美国(youtube阿伟科技)_16
-      - 🇺🇸 US美国(youtube阿伟科技)_17
-      - 🇺🇸 US美国(youtube阿伟科技)_18
-      - 🇺🇸 US美国(youtube阿伟科技)_19
-      - 🇺🇸 US美国(youtube阿伟科技)_20
-      - 🇺🇸 US美国(youtube阿伟科技)_21
-      - 🇺🇸 US美国(youtube阿伟科技)_22
-      - 🇺🇸 US美国(youtube阿伟科技)_23
-      - 🇺🇸 US美国(youtube阿伟科技)_24
-      - 🇺🇸 US美国(youtube阿伟科技)_25
-      - 🇺🇸 US美国(youtube阿伟科技)_26
-      - 🇺🇸 US美国(youtube阿伟科技)_27
-      - 🇺🇸 US美国(youtube阿伟科技)_28
-      - 🇺🇸 US美国(youtube阿伟科技)_29
-      - 🇺🇸 US美国(youtube阿伟科技)_30
-      - 🇺🇸 US美国(youtube阿伟科技)_31
-      - 🇺🇸 US美国(youtube阿伟科技)_32
-      - 🇺🇸 US美国(youtube阿伟科技)_33
+      - 🇰🇷 韩国 01 高级IEPL中继
+      - 🇸🇬 >🇸🇬 SG|Hs|0812|TG@FProxies|
+      - 🇮🇳 印度 BGP
+      - 254254.xyz👈购买地址
+      - 🇯🇵 日本02 | 高速专线
+      - 🇯🇵 JP-52.198.130.48-0173
+      - 🇺🇸 美国 02 高级IEPL中继
+      - 🇸🇬 新加坡 03 高级IEPL中继
+      - 🇳🇱 荷兰01 高级BGP中继
+      - 254254.xyz👈购买地址 2
+      - 🇯🇵 日本4 | 高速专线
+      - Telegram@kxswa | https://t.me/kxswa
+      - 🇯🇵 日本 05 高级IEPL中继
+      - 🇭🇰 香港 01 高级BGP中继  2x
+      - 🇸🇬 新加坡1 | 高速专线
+      - 🇸🇬 新加坡02 | 高速专线
+      - 🇯🇵 日本01 | 高速专线
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 日本05 | 高速专线
+      - 🇹🇷 土耳其-346.0KB/s(Youtube:不良林)
+      - 🇯🇵 日本3 | 高速专线
+      - 🇨🇳 台湾3
+      - 🇺🇸 美国 03 高级IEPL中继
+      - 🇸🇬 新加坡01 | 高速专线
+      - 🇯🇵 日本04 | 高速专线
+      - 🇭🇰 香港 01 高级IEPL中继
+      - 🇯🇵 日本 01 高级IEPL中继
+      - 254254.xyz👈购买地址 3
+      - 🇸🇬 新加坡2 | 高速专线
+      - 🇯🇵 日本2 | 高速专线
+      - 🇭🇰 香港 04 高级IEPL中继
+      - 🇦🇪 迪拜 BGP
+      - 🇺🇸 美国 | 0.1x
+      - 🇸🇬 新加坡 02 高级IEPL中继
+      - 🇯🇵 日本 tg@freeVPNjd
+      - 🇯🇵 日本03 | 高速专线
+      - 254254.xyz👈购买地址 4
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇯🇵 日本 02 高级IEPL中继
+      - 254254.xyz👈购买地址 5
+      - 🇯🇵 日本-692.0KB/s(Youtube:不良林)
+      - 🇭🇰 香港 05 高级IEPL中继
+      - 🇯🇵 日本 03 高级IEPL中继
+      - 🇰🇷 韩国 02 高级IEPL中继
+      - 🇨🇳 台湾
+      - 🇯🇵 日本 04 高级IEPL中继
+      - 254254.xyz👈购买地址 6
+      - 🇯🇵 日本1 | 高速专线
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾 03 高级IEPL中继
+      - 🇨🇳 台湾 02 高级IEPL中继
+      - 🇵🇭 菲律宾 Edge
+      - 🇯🇵 日本09 tg@freeVPNjd
+      - 🇩🇪 德国 01 高级BGP中继
+      - 🇬🇧 英国 01 高级BGP中继
+      - 🇫🇷 法国 01 高级BGP中继
+      - 🇨🇳 台湾 01 高级IEPL中继
+      - 🇺🇸 美国 01 高级IEPL中继
+      - 🇸🇬 新加坡-760.4KB/s(Youtube:不良林)
+      - 🇨🇦 加拿大 01 高级BGP中继
+      - 🇺🇸 美国 04 高级IEPL中继
   - name: 🛑 禁止代理
     type: select
     proxies:
@@ -617,7 +422,6 @@ rules:
  - DOMAIN-SUFFIX,trafficmanager.net,🐖 广告拦截
  - DOMAIN-SUFFIX,uservoice.com,🐖 广告拦截
  - DOMAIN-SUFFIX,virtualearth.net,🐖 广告拦截
- - DOMAIN-SUFFIX,visualstudio.com,🐖 广告拦截
  - DOMAIN-SUFFIX,windows-ppe.net,🐖 广告拦截
  - DOMAIN-SUFFIX,windows.com,🐖 广告拦截
  - DOMAIN-SUFFIX,windows.net,🐖 广告拦截
