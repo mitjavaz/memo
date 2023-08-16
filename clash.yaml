@@ -5,62 +5,49 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: CF|tg频道:@Zyw_Channel, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true, udp: true}
+  - {name: "@hkaa0||美国\r", server: 15.204.210.176, port: 80, type: trojan, password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f, skip-cert-verify: true, udp: true}
+  - {name: 254254.xyz👈购买地址, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 254254.xyz👈购买地址 2, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 254254.xyz👈购买地址 3, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: _电报频道 @mfjdpd 6, server: 57.128.173.6, port: 443, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
+  - {name: 254254.xyz👈购买地址 4, server: gshinet1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: GB_23622 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
   - {name: JP_58996 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)49bda1d:58996}, udp: true}
   - {name: JP_73362 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a7eb96c:73362}, udp: true}
   - {name: SG_31859 @WangCai_1, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)082f26a:31859}, udp: true}
-  - {name: 伦敦②, server: hbcm.r1u.cn, port: 12320, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
-  - {name: 254254.xyz👈购买地址, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: JP_31859 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)082f26a:31859}, udp: true}
   - {name: SG_31859 @WangCai_1 2, server: 5.44.249.43, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)082f26a:31859}, udp: true}
   - {name: JP_30743 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f478f13:54448}, udp: true}
   - {name: SG_31859 @WangCai_1 3, server: 5.44.249.44, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)082f26a:31859}, udp: true}
   - {name: GB_138218 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)221260eea:138218}, udp: true}
-  - {name: CF|tg频道:@Zyw_Channel, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true, udp: true}
   - {name: SG_23622 @WangCai_1, server: 5.44.249.43, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
-  - {name: 254254.xyz👈购买地址 2, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 台湾 tg@freeVPNjd, server: port-hk-01.etcjichang.top, port: 45074, type: ss, cipher: chacha20-ietf-poly1305, password: 33374a13-97f1-48c7-8bf6-9021883569f3, udp: true}
-  - {name: 新加坡2|@ripaojiedian, server: gzdx0.156786.xyz, port: 27539, type: trojan, password: c1b2f451-b488-40c7-8487-62b927f9c43d, sni: sgmax01.170203.xyz, skip-cert-verify: true, udp: true}
   - {name: GB_123597 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)8d242c5:123597}, udp: true}
   - {name: SG_23622 @WangCai_1 2, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
   - {name: SG_23622 @WangCai_1 3, server: 5.44.249.44, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
-  - {name: 香港, server: hbcm.r1u.cn, port: 12321, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
   - {name: GB_32667 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)d0a8692:32667}, udp: true}
   - {name: SG_23622 @WangCai_1 4, server: 5.44.249.45, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
   - {name: GB_111548 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f1f3227:111548}, udp: true}
-  - {name: 春川①, server: hbcm.r1u.cn, port: 12310, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
   - {name: GB_54080 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)5318442:54080}, udp: true}
   - {name: SG_6193 @WangCai_1, server: 5.44.249.43, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}, udp: true}
-  - {name: 大阪①, server: hbcm.r1u.cn, port: 12308, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
   - {name: JP_136383 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)5238088:136383}, udp: true}
-  - {name: 254254.xyz👈购买地址 3, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: JP_123597 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)8d242c5:123597}, udp: true}
   - {name: JP_23622 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
-  - {name: 日本2|@ripaojiedian, server: ctjp1.createmofa.xyz, port: 38999, type: ss, cipher: chacha20-ietf-poly1305, password: 1f6a229b-ae27-420e-89b6-8349869890fb, udp: true}
   - {name: GB_113941 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c551397:113941}, udp: true}
   - {name: GB_73362 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a7eb96c:73362}, udp: true}
   - {name: JP_89692 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)953e517:89692}, udp: true}
   - {name: SG_58996 @WangCai_1, server: 5.44.249.44, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)49bda1d:58996}, udp: true}
-  - {name: 孟买②, server: hbcm.r1u.cn, port: 12317, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
   - {name: GB_30743 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f1db81e:30743}, udp: true}
   - {name: GB_142593 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)956f2ba:142593}, udp: true}
-  - {name: 东京, server: hbcm.r1u.cn, port: 12307, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
   - {name: SG_6193 @WangCai_1 2, server: 5.44.249.45, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}, udp: true}
   - {name: SG_58996 @WangCai_1 2, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)49bda1d:58996}, udp: true}
-  - {name: "@hkaa0||美国\r", server: 15.204.210.176, port: 80, type: trojan, password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f, skip-cert-verify: true, udp: true}
-  - {name: TR土耳其(youtube阿伟科技)_1, server: tur20.gamecentervip.site, port: 41818, type: vmess, uuid: a5e76204-1b04-4ccf-b5df-2166e74f5142, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [uplod.ir]}}, udp: true}
   - {name: SG_29306 @WangCai_1, server: 5.44.249.45, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)feec8af:29306}, udp: true}
   - {name: JP_30743 @WangCai_1 2, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f1db81e:30743}, udp: true}
-  - {name: _电报频道 @mfjdpd 6, server: 57.128.173.6, port: 443, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
   - {name: GB_65870 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c563b0d:65870}, udp: true}
-  - {name: 孟买①, server: hbcm.r1u.cn, port: 12314, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
   - {name: JP_111548 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f1f3227:111548}, udp: true}
   - {name: JP_57003 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)28492a5:57003}, udp: true}
   - {name: SG_138218 @WangCai_1, server: 5.44.249.45, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)221260eea:138218}, udp: true}
-  - {name: 254254.xyz👈购买地址 4, server: gshinet1.aiopen.cfd, port: 443, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡⑥, server: hbcm.r1u.cn, port: 12305, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
   - {name: GB_53325 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a83679f:53325}, udp: true}
-  - {name: "@hkaa0||美国_10", server: 44.228.157.205, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
   - {name: GB_82897 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)12a00c4:82897}, udp: true}
   - {name: JP_32667 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)d0a8692:32667}, udp: true}
   - {name: JP_16708 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c27821f:16708}, udp: true}
@@ -69,7 +56,6 @@ proxies:
   - {name: GB_50307 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c68b799:50307}, udp: true}
   - {name: SG_65870 @WangCai_1 2, server: 5.44.249.45, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c563b0d:65870}, udp: true}
   - {name: SG_145794 @WangCai_1, server: 5.44.249.43, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c9d93ec:145794}, udp: true}
-  - {name: 首尔②, server: hbcm.r1u.cn, port: 12318, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
   - {name: GB_58996 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)49bda1d:58996}, udp: true}
   - {name: JP_113941 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c551397:113941}, udp: true}
   - {name: JP_36403 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a4a09ce:36403}, udp: true}
@@ -120,68 +106,69 @@ proxies:
   - {name: SG_6193 @WangCai_1 4, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}, udp: true}
   - {name: JP_145794 @WangCai_1, server: 54.95.215.125, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c9d93ec:145794}, udp: true}
   - {name: GB_31859 @WangCai_1, server: 3.8.177.62, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)082f26a:31859}, udp: true}
+  - {name: 新加坡⑥, server: hbcm.r1u.cn, port: 12305, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
+  - {name: 东京, server: hbcm.r1u.cn, port: 12307, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
+  - {name: 大阪①, server: hbcm.r1u.cn, port: 12308, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
+  - {name: 春川①, server: hbcm.r1u.cn, port: 12310, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
+  - {name: 孟买①, server: hbcm.r1u.cn, port: 12314, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
+  - {name: 孟买②, server: hbcm.r1u.cn, port: 12317, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
+  - {name: 首尔②, server: hbcm.r1u.cn, port: 12318, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
+  - {name: 伦敦②, server: hbcm.r1u.cn, port: 12320, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
+  - {name: 香港, server: hbcm.r1u.cn, port: 12321, type: ss, cipher: chacha20-ietf-poly1305, password: f3896b65-8bf3-4a56-b634-d4cd5beda317, udp: true}
+  - {name: "@hkaa0||美国_10", server: 44.228.157.205, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 新加坡2|@ripaojiedian, server: gzdx0.156786.xyz, port: 27539, type: trojan, password: c1b2f451-b488-40c7-8487-62b927f9c43d, sni: sgmax01.170203.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本2|@ripaojiedian, server: ctjp1.createmofa.xyz, port: 38999, type: ss, cipher: chacha20-ietf-poly1305, password: 1f6a229b-ae27-420e-89b6-8349869890fb, udp: true}
+  - {name: TR土耳其(youtube阿伟科技)_1, server: tur20.gamecentervip.site, port: 41818, type: vmess, uuid: a5e76204-1b04-4ccf-b5df-2166e74f5142, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [uplod.ir]}}, udp: true}
+  - {name: 台湾 tg@freeVPNjd, server: port-hk-01.etcjichang.top, port: 45074, type: ss, cipher: chacha20-ietf-poly1305, password: 33374a13-97f1-48c7-8bf6-9021883569f3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CF|tg频道:@Zyw_Channel
+      - "@hkaa0||美国\r"
+      - 254254.xyz👈购买地址
+      - 254254.xyz👈购买地址 2
+      - 254254.xyz👈购买地址 3
+      - _电报频道 @mfjdpd 6
+      - 254254.xyz👈购买地址 4
       - GB_23622 @WangCai_1
       - JP_58996 @WangCai_1
       - JP_73362 @WangCai_1
       - SG_31859 @WangCai_1
-      - 伦敦②
-      - 254254.xyz👈购买地址
       - JP_31859 @WangCai_1
       - SG_31859 @WangCai_1 2
       - JP_30743 @WangCai_1
       - SG_31859 @WangCai_1 3
       - GB_138218 @WangCai_1
-      - CF|tg频道:@Zyw_Channel
       - SG_23622 @WangCai_1
-      - 254254.xyz👈购买地址 2
-      - 台湾 tg@freeVPNjd
-      - 新加坡2|@ripaojiedian
       - GB_123597 @WangCai_1
       - SG_23622 @WangCai_1 2
       - SG_23622 @WangCai_1 3
-      - 香港
       - GB_32667 @WangCai_1
       - SG_23622 @WangCai_1 4
       - GB_111548 @WangCai_1
-      - 春川①
       - GB_54080 @WangCai_1
       - SG_6193 @WangCai_1
-      - 大阪①
       - JP_136383 @WangCai_1
-      - 254254.xyz👈购买地址 3
       - JP_123597 @WangCai_1
       - JP_23622 @WangCai_1
-      - 日本2|@ripaojiedian
       - GB_113941 @WangCai_1
       - GB_73362 @WangCai_1
       - JP_89692 @WangCai_1
       - SG_58996 @WangCai_1
-      - 孟买②
       - GB_30743 @WangCai_1
       - GB_142593 @WangCai_1
-      - 东京
       - SG_6193 @WangCai_1 2
       - SG_58996 @WangCai_1 2
-      - "@hkaa0||美国\r"
-      - TR土耳其(youtube阿伟科技)_1
       - SG_29306 @WangCai_1
       - JP_30743 @WangCai_1 2
-      - _电报频道 @mfjdpd 6
       - GB_65870 @WangCai_1
-      - 孟买①
       - JP_111548 @WangCai_1
       - JP_57003 @WangCai_1
       - SG_138218 @WangCai_1
-      - 254254.xyz👈购买地址 4
-      - 新加坡⑥
       - GB_53325 @WangCai_1
-      - "@hkaa0||美国_10"
       - GB_82897 @WangCai_1
       - JP_32667 @WangCai_1
       - JP_16708 @WangCai_1
@@ -190,7 +177,6 @@ proxy-groups:
       - GB_50307 @WangCai_1
       - SG_65870 @WangCai_1 2
       - SG_145794 @WangCai_1
-      - 首尔②
       - GB_58996 @WangCai_1
       - JP_113941 @WangCai_1
       - JP_36403 @WangCai_1
@@ -241,67 +227,68 @@ proxy-groups:
       - SG_6193 @WangCai_1 4
       - JP_145794 @WangCai_1
       - GB_31859 @WangCai_1
+      - 新加坡⑥
+      - 东京
+      - 大阪①
+      - 春川①
+      - 孟买①
+      - 孟买②
+      - 首尔②
+      - 伦敦②
+      - 香港
+      - "@hkaa0||美国_10"
+      - 新加坡2|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - TR土耳其(youtube阿伟科技)_1
+      - 台湾 tg@freeVPNjd
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - CF|tg频道:@Zyw_Channel
+      - "@hkaa0||美国\r"
+      - 254254.xyz👈购买地址
+      - 254254.xyz👈购买地址 2
+      - 254254.xyz👈购买地址 3
+      - _电报频道 @mfjdpd 6
+      - 254254.xyz👈购买地址 4
       - GB_23622 @WangCai_1
       - JP_58996 @WangCai_1
       - JP_73362 @WangCai_1
       - SG_31859 @WangCai_1
-      - 伦敦②
-      - 254254.xyz👈购买地址
       - JP_31859 @WangCai_1
       - SG_31859 @WangCai_1 2
       - JP_30743 @WangCai_1
       - SG_31859 @WangCai_1 3
       - GB_138218 @WangCai_1
-      - CF|tg频道:@Zyw_Channel
       - SG_23622 @WangCai_1
-      - 254254.xyz👈购买地址 2
-      - 台湾 tg@freeVPNjd
-      - 新加坡2|@ripaojiedian
       - GB_123597 @WangCai_1
       - SG_23622 @WangCai_1 2
       - SG_23622 @WangCai_1 3
-      - 香港
       - GB_32667 @WangCai_1
       - SG_23622 @WangCai_1 4
       - GB_111548 @WangCai_1
-      - 春川①
       - GB_54080 @WangCai_1
       - SG_6193 @WangCai_1
-      - 大阪①
       - JP_136383 @WangCai_1
-      - 254254.xyz👈购买地址 3
       - JP_123597 @WangCai_1
       - JP_23622 @WangCai_1
-      - 日本2|@ripaojiedian
       - GB_113941 @WangCai_1
       - GB_73362 @WangCai_1
       - JP_89692 @WangCai_1
       - SG_58996 @WangCai_1
-      - 孟买②
       - GB_30743 @WangCai_1
       - GB_142593 @WangCai_1
-      - 东京
       - SG_6193 @WangCai_1 2
       - SG_58996 @WangCai_1 2
-      - "@hkaa0||美国\r"
-      - TR土耳其(youtube阿伟科技)_1
       - SG_29306 @WangCai_1
       - JP_30743 @WangCai_1 2
-      - _电报频道 @mfjdpd 6
       - GB_65870 @WangCai_1
-      - 孟买①
       - JP_111548 @WangCai_1
       - JP_57003 @WangCai_1
       - SG_138218 @WangCai_1
-      - 254254.xyz👈购买地址 4
-      - 新加坡⑥
       - GB_53325 @WangCai_1
-      - "@hkaa0||美国_10"
       - GB_82897 @WangCai_1
       - JP_32667 @WangCai_1
       - JP_16708 @WangCai_1
@@ -310,7 +297,6 @@ proxy-groups:
       - GB_50307 @WangCai_1
       - SG_65870 @WangCai_1 2
       - SG_145794 @WangCai_1
-      - 首尔②
       - GB_58996 @WangCai_1
       - JP_113941 @WangCai_1
       - JP_36403 @WangCai_1
@@ -361,68 +347,69 @@ proxy-groups:
       - SG_6193 @WangCai_1 4
       - JP_145794 @WangCai_1
       - GB_31859 @WangCai_1
+      - 新加坡⑥
+      - 东京
+      - 大阪①
+      - 春川①
+      - 孟买①
+      - 孟买②
+      - 首尔②
+      - 伦敦②
+      - 香港
+      - "@hkaa0||美国_10"
+      - 新加坡2|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - TR土耳其(youtube阿伟科技)_1
+      - 台湾 tg@freeVPNjd
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CF|tg频道:@Zyw_Channel
+      - "@hkaa0||美国\r"
+      - 254254.xyz👈购买地址
+      - 254254.xyz👈购买地址 2
+      - 254254.xyz👈购买地址 3
+      - _电报频道 @mfjdpd 6
+      - 254254.xyz👈购买地址 4
       - GB_23622 @WangCai_1
       - JP_58996 @WangCai_1
       - JP_73362 @WangCai_1
       - SG_31859 @WangCai_1
-      - 伦敦②
-      - 254254.xyz👈购买地址
       - JP_31859 @WangCai_1
       - SG_31859 @WangCai_1 2
       - JP_30743 @WangCai_1
       - SG_31859 @WangCai_1 3
       - GB_138218 @WangCai_1
-      - CF|tg频道:@Zyw_Channel
       - SG_23622 @WangCai_1
-      - 254254.xyz👈购买地址 2
-      - 台湾 tg@freeVPNjd
-      - 新加坡2|@ripaojiedian
       - GB_123597 @WangCai_1
       - SG_23622 @WangCai_1 2
       - SG_23622 @WangCai_1 3
-      - 香港
       - GB_32667 @WangCai_1
       - SG_23622 @WangCai_1 4
       - GB_111548 @WangCai_1
-      - 春川①
       - GB_54080 @WangCai_1
       - SG_6193 @WangCai_1
-      - 大阪①
       - JP_136383 @WangCai_1
-      - 254254.xyz👈购买地址 3
       - JP_123597 @WangCai_1
       - JP_23622 @WangCai_1
-      - 日本2|@ripaojiedian
       - GB_113941 @WangCai_1
       - GB_73362 @WangCai_1
       - JP_89692 @WangCai_1
       - SG_58996 @WangCai_1
-      - 孟买②
       - GB_30743 @WangCai_1
       - GB_142593 @WangCai_1
-      - 东京
       - SG_6193 @WangCai_1 2
       - SG_58996 @WangCai_1 2
-      - "@hkaa0||美国\r"
-      - TR土耳其(youtube阿伟科技)_1
       - SG_29306 @WangCai_1
       - JP_30743 @WangCai_1 2
-      - _电报频道 @mfjdpd 6
       - GB_65870 @WangCai_1
-      - 孟买①
       - JP_111548 @WangCai_1
       - JP_57003 @WangCai_1
       - SG_138218 @WangCai_1
-      - 254254.xyz👈购买地址 4
-      - 新加坡⑥
       - GB_53325 @WangCai_1
-      - "@hkaa0||美国_10"
       - GB_82897 @WangCai_1
       - JP_32667 @WangCai_1
       - JP_16708 @WangCai_1
@@ -431,7 +418,6 @@ proxy-groups:
       - GB_50307 @WangCai_1
       - SG_65870 @WangCai_1 2
       - SG_145794 @WangCai_1
-      - 首尔②
       - GB_58996 @WangCai_1
       - JP_113941 @WangCai_1
       - JP_36403 @WangCai_1
@@ -482,6 +468,20 @@ proxy-groups:
       - SG_6193 @WangCai_1 4
       - JP_145794 @WangCai_1
       - GB_31859 @WangCai_1
+      - 新加坡⑥
+      - 东京
+      - 大阪①
+      - 春川①
+      - 孟买①
+      - 孟买②
+      - 首尔②
+      - 伦敦②
+      - 香港
+      - "@hkaa0||美国_10"
+      - 新加坡2|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - TR土耳其(youtube阿伟科技)_1
+      - 台湾 tg@freeVPNjd
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -500,62 +500,49 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CF|tg频道:@Zyw_Channel
+      - "@hkaa0||美国\r"
+      - 254254.xyz👈购买地址
+      - 254254.xyz👈购买地址 2
+      - 254254.xyz👈购买地址 3
+      - _电报频道 @mfjdpd 6
+      - 254254.xyz👈购买地址 4
       - GB_23622 @WangCai_1
       - JP_58996 @WangCai_1
       - JP_73362 @WangCai_1
       - SG_31859 @WangCai_1
-      - 伦敦②
-      - 254254.xyz👈购买地址
       - JP_31859 @WangCai_1
       - SG_31859 @WangCai_1 2
       - JP_30743 @WangCai_1
       - SG_31859 @WangCai_1 3
       - GB_138218 @WangCai_1
-      - CF|tg频道:@Zyw_Channel
       - SG_23622 @WangCai_1
-      - 254254.xyz👈购买地址 2
-      - 台湾 tg@freeVPNjd
-      - 新加坡2|@ripaojiedian
       - GB_123597 @WangCai_1
       - SG_23622 @WangCai_1 2
       - SG_23622 @WangCai_1 3
-      - 香港
       - GB_32667 @WangCai_1
       - SG_23622 @WangCai_1 4
       - GB_111548 @WangCai_1
-      - 春川①
       - GB_54080 @WangCai_1
       - SG_6193 @WangCai_1
-      - 大阪①
       - JP_136383 @WangCai_1
-      - 254254.xyz👈购买地址 3
       - JP_123597 @WangCai_1
       - JP_23622 @WangCai_1
-      - 日本2|@ripaojiedian
       - GB_113941 @WangCai_1
       - GB_73362 @WangCai_1
       - JP_89692 @WangCai_1
       - SG_58996 @WangCai_1
-      - 孟买②
       - GB_30743 @WangCai_1
       - GB_142593 @WangCai_1
-      - 东京
       - SG_6193 @WangCai_1 2
       - SG_58996 @WangCai_1 2
-      - "@hkaa0||美国\r"
-      - TR土耳其(youtube阿伟科技)_1
       - SG_29306 @WangCai_1
       - JP_30743 @WangCai_1 2
-      - _电报频道 @mfjdpd 6
       - GB_65870 @WangCai_1
-      - 孟买①
       - JP_111548 @WangCai_1
       - JP_57003 @WangCai_1
       - SG_138218 @WangCai_1
-      - 254254.xyz👈购买地址 4
-      - 新加坡⑥
       - GB_53325 @WangCai_1
-      - "@hkaa0||美国_10"
       - GB_82897 @WangCai_1
       - JP_32667 @WangCai_1
       - JP_16708 @WangCai_1
@@ -564,7 +551,6 @@ proxy-groups:
       - GB_50307 @WangCai_1
       - SG_65870 @WangCai_1 2
       - SG_145794 @WangCai_1
-      - 首尔②
       - GB_58996 @WangCai_1
       - JP_113941 @WangCai_1
       - JP_36403 @WangCai_1
@@ -615,76 +601,77 @@ proxy-groups:
       - SG_6193 @WangCai_1 4
       - JP_145794 @WangCai_1
       - GB_31859 @WangCai_1
+      - 新加坡⑥
+      - 东京
+      - 大阪①
+      - 春川①
+      - 孟买①
+      - 孟买②
+      - 首尔②
+      - 伦敦②
+      - 香港
+      - "@hkaa0||美国_10"
+      - 新加坡2|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - TR土耳其(youtube阿伟科技)_1
+      - 台湾 tg@freeVPNjd
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾 tg@freeVPNjd
-      - 香港
       - "@hkaa0||美国\r"
+      - 香港
       - "@hkaa0||美国_10"
+      - 台湾 tg@freeVPNjd
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - CF|tg频道:@Zyw_Channel
+      - "@hkaa0||美国\r"
+      - 254254.xyz👈购买地址
+      - 254254.xyz👈购买地址 2
+      - 254254.xyz👈购买地址 3
+      - _电报频道 @mfjdpd 6
+      - 254254.xyz👈购买地址 4
       - GB_23622 @WangCai_1
       - JP_58996 @WangCai_1
       - JP_73362 @WangCai_1
       - SG_31859 @WangCai_1
-      - 伦敦②
-      - 254254.xyz👈购买地址
       - JP_31859 @WangCai_1
       - SG_31859 @WangCai_1 2
       - JP_30743 @WangCai_1
       - SG_31859 @WangCai_1 3
       - GB_138218 @WangCai_1
-      - CF|tg频道:@Zyw_Channel
       - SG_23622 @WangCai_1
-      - 254254.xyz👈购买地址 2
-      - 台湾 tg@freeVPNjd
-      - 新加坡2|@ripaojiedian
       - GB_123597 @WangCai_1
       - SG_23622 @WangCai_1 2
       - SG_23622 @WangCai_1 3
-      - 香港
       - GB_32667 @WangCai_1
       - SG_23622 @WangCai_1 4
       - GB_111548 @WangCai_1
-      - 春川①
       - GB_54080 @WangCai_1
       - SG_6193 @WangCai_1
-      - 大阪①
       - JP_136383 @WangCai_1
-      - 254254.xyz👈购买地址 3
       - JP_123597 @WangCai_1
       - JP_23622 @WangCai_1
-      - 日本2|@ripaojiedian
       - GB_113941 @WangCai_1
       - GB_73362 @WangCai_1
       - JP_89692 @WangCai_1
       - SG_58996 @WangCai_1
-      - 孟买②
       - GB_30743 @WangCai_1
       - GB_142593 @WangCai_1
-      - 东京
       - SG_6193 @WangCai_1 2
       - SG_58996 @WangCai_1 2
-      - "@hkaa0||美国\r"
-      - TR土耳其(youtube阿伟科技)_1
       - SG_29306 @WangCai_1
       - JP_30743 @WangCai_1 2
-      - _电报频道 @mfjdpd 6
       - GB_65870 @WangCai_1
-      - 孟买①
       - JP_111548 @WangCai_1
       - JP_57003 @WangCai_1
       - SG_138218 @WangCai_1
-      - 254254.xyz👈购买地址 4
-      - 新加坡⑥
       - GB_53325 @WangCai_1
-      - "@hkaa0||美国_10"
       - GB_82897 @WangCai_1
       - JP_32667 @WangCai_1
       - JP_16708 @WangCai_1
@@ -693,7 +680,6 @@ proxy-groups:
       - GB_50307 @WangCai_1
       - SG_65870 @WangCai_1 2
       - SG_145794 @WangCai_1
-      - 首尔②
       - GB_58996 @WangCai_1
       - JP_113941 @WangCai_1
       - JP_36403 @WangCai_1
@@ -744,67 +730,68 @@ proxy-groups:
       - SG_6193 @WangCai_1 4
       - JP_145794 @WangCai_1
       - GB_31859 @WangCai_1
+      - 新加坡⑥
+      - 东京
+      - 大阪①
+      - 春川①
+      - 孟买①
+      - 孟买②
+      - 首尔②
+      - 伦敦②
+      - 香港
+      - "@hkaa0||美国_10"
+      - 新加坡2|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - TR土耳其(youtube阿伟科技)_1
+      - 台湾 tg@freeVPNjd
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - CF|tg频道:@Zyw_Channel
+      - "@hkaa0||美国\r"
+      - 254254.xyz👈购买地址
+      - 254254.xyz👈购买地址 2
+      - 254254.xyz👈购买地址 3
+      - _电报频道 @mfjdpd 6
+      - 254254.xyz👈购买地址 4
       - GB_23622 @WangCai_1
       - JP_58996 @WangCai_1
       - JP_73362 @WangCai_1
       - SG_31859 @WangCai_1
-      - 伦敦②
-      - 254254.xyz👈购买地址
       - JP_31859 @WangCai_1
       - SG_31859 @WangCai_1 2
       - JP_30743 @WangCai_1
       - SG_31859 @WangCai_1 3
       - GB_138218 @WangCai_1
-      - CF|tg频道:@Zyw_Channel
       - SG_23622 @WangCai_1
-      - 254254.xyz👈购买地址 2
-      - 台湾 tg@freeVPNjd
-      - 新加坡2|@ripaojiedian
       - GB_123597 @WangCai_1
       - SG_23622 @WangCai_1 2
       - SG_23622 @WangCai_1 3
-      - 香港
       - GB_32667 @WangCai_1
       - SG_23622 @WangCai_1 4
       - GB_111548 @WangCai_1
-      - 春川①
       - GB_54080 @WangCai_1
       - SG_6193 @WangCai_1
-      - 大阪①
       - JP_136383 @WangCai_1
-      - 254254.xyz👈购买地址 3
       - JP_123597 @WangCai_1
       - JP_23622 @WangCai_1
-      - 日本2|@ripaojiedian
       - GB_113941 @WangCai_1
       - GB_73362 @WangCai_1
       - JP_89692 @WangCai_1
       - SG_58996 @WangCai_1
-      - 孟买②
       - GB_30743 @WangCai_1
       - GB_142593 @WangCai_1
-      - 东京
       - SG_6193 @WangCai_1 2
       - SG_58996 @WangCai_1 2
-      - "@hkaa0||美国\r"
-      - TR土耳其(youtube阿伟科技)_1
       - SG_29306 @WangCai_1
       - JP_30743 @WangCai_1 2
-      - _电报频道 @mfjdpd 6
       - GB_65870 @WangCai_1
-      - 孟买①
       - JP_111548 @WangCai_1
       - JP_57003 @WangCai_1
       - SG_138218 @WangCai_1
-      - 254254.xyz👈购买地址 4
-      - 新加坡⑥
       - GB_53325 @WangCai_1
-      - "@hkaa0||美国_10"
       - GB_82897 @WangCai_1
       - JP_32667 @WangCai_1
       - JP_16708 @WangCai_1
@@ -813,7 +800,6 @@ proxy-groups:
       - GB_50307 @WangCai_1
       - SG_65870 @WangCai_1 2
       - SG_145794 @WangCai_1
-      - 首尔②
       - GB_58996 @WangCai_1
       - JP_113941 @WangCai_1
       - JP_36403 @WangCai_1
@@ -864,68 +850,69 @@ proxy-groups:
       - SG_6193 @WangCai_1 4
       - JP_145794 @WangCai_1
       - GB_31859 @WangCai_1
+      - 新加坡⑥
+      - 东京
+      - 大阪①
+      - 春川①
+      - 孟买①
+      - 孟买②
+      - 首尔②
+      - 伦敦②
+      - 香港
+      - "@hkaa0||美国_10"
+      - 新加坡2|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - TR土耳其(youtube阿伟科技)_1
+      - 台湾 tg@freeVPNjd
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CF|tg频道:@Zyw_Channel
+      - "@hkaa0||美国\r"
+      - 254254.xyz👈购买地址
+      - 254254.xyz👈购买地址 2
+      - 254254.xyz👈购买地址 3
+      - _电报频道 @mfjdpd 6
+      - 254254.xyz👈购买地址 4
       - GB_23622 @WangCai_1
       - JP_58996 @WangCai_1
       - JP_73362 @WangCai_1
       - SG_31859 @WangCai_1
-      - 伦敦②
-      - 254254.xyz👈购买地址
       - JP_31859 @WangCai_1
       - SG_31859 @WangCai_1 2
       - JP_30743 @WangCai_1
       - SG_31859 @WangCai_1 3
       - GB_138218 @WangCai_1
-      - CF|tg频道:@Zyw_Channel
       - SG_23622 @WangCai_1
-      - 254254.xyz👈购买地址 2
-      - 台湾 tg@freeVPNjd
-      - 新加坡2|@ripaojiedian
       - GB_123597 @WangCai_1
       - SG_23622 @WangCai_1 2
       - SG_23622 @WangCai_1 3
-      - 香港
       - GB_32667 @WangCai_1
       - SG_23622 @WangCai_1 4
       - GB_111548 @WangCai_1
-      - 春川①
       - GB_54080 @WangCai_1
       - SG_6193 @WangCai_1
-      - 大阪①
       - JP_136383 @WangCai_1
-      - 254254.xyz👈购买地址 3
       - JP_123597 @WangCai_1
       - JP_23622 @WangCai_1
-      - 日本2|@ripaojiedian
       - GB_113941 @WangCai_1
       - GB_73362 @WangCai_1
       - JP_89692 @WangCai_1
       - SG_58996 @WangCai_1
-      - 孟买②
       - GB_30743 @WangCai_1
       - GB_142593 @WangCai_1
-      - 东京
       - SG_6193 @WangCai_1 2
       - SG_58996 @WangCai_1 2
-      - "@hkaa0||美国\r"
-      - TR土耳其(youtube阿伟科技)_1
       - SG_29306 @WangCai_1
       - JP_30743 @WangCai_1 2
-      - _电报频道 @mfjdpd 6
       - GB_65870 @WangCai_1
-      - 孟买①
       - JP_111548 @WangCai_1
       - JP_57003 @WangCai_1
       - SG_138218 @WangCai_1
-      - 254254.xyz👈购买地址 4
-      - 新加坡⑥
       - GB_53325 @WangCai_1
-      - "@hkaa0||美国_10"
       - GB_82897 @WangCai_1
       - JP_32667 @WangCai_1
       - JP_16708 @WangCai_1
@@ -934,7 +921,6 @@ proxy-groups:
       - GB_50307 @WangCai_1
       - SG_65870 @WangCai_1 2
       - SG_145794 @WangCai_1
-      - 首尔②
       - GB_58996 @WangCai_1
       - JP_113941 @WangCai_1
       - JP_36403 @WangCai_1
@@ -985,6 +971,20 @@ proxy-groups:
       - SG_6193 @WangCai_1 4
       - JP_145794 @WangCai_1
       - GB_31859 @WangCai_1
+      - 新加坡⑥
+      - 东京
+      - 大阪①
+      - 春川①
+      - 孟买①
+      - 孟买②
+      - 首尔②
+      - 伦敦②
+      - 香港
+      - "@hkaa0||美国_10"
+      - 新加坡2|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - TR土耳其(youtube阿伟科技)_1
+      - 台湾 tg@freeVPNjd
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1000,62 +1000,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CF|tg频道:@Zyw_Channel
+      - "@hkaa0||美国\r"
+      - 254254.xyz👈购买地址
+      - 254254.xyz👈购买地址 2
+      - 254254.xyz👈购买地址 3
+      - _电报频道 @mfjdpd 6
+      - 254254.xyz👈购买地址 4
       - GB_23622 @WangCai_1
       - JP_58996 @WangCai_1
       - JP_73362 @WangCai_1
       - SG_31859 @WangCai_1
-      - 伦敦②
-      - 254254.xyz👈购买地址
       - JP_31859 @WangCai_1
       - SG_31859 @WangCai_1 2
       - JP_30743 @WangCai_1
       - SG_31859 @WangCai_1 3
       - GB_138218 @WangCai_1
-      - CF|tg频道:@Zyw_Channel
       - SG_23622 @WangCai_1
-      - 254254.xyz👈购买地址 2
-      - 台湾 tg@freeVPNjd
-      - 新加坡2|@ripaojiedian
       - GB_123597 @WangCai_1
       - SG_23622 @WangCai_1 2
       - SG_23622 @WangCai_1 3
-      - 香港
       - GB_32667 @WangCai_1
       - SG_23622 @WangCai_1 4
       - GB_111548 @WangCai_1
-      - 春川①
       - GB_54080 @WangCai_1
       - SG_6193 @WangCai_1
-      - 大阪①
       - JP_136383 @WangCai_1
-      - 254254.xyz👈购买地址 3
       - JP_123597 @WangCai_1
       - JP_23622 @WangCai_1
-      - 日本2|@ripaojiedian
       - GB_113941 @WangCai_1
       - GB_73362 @WangCai_1
       - JP_89692 @WangCai_1
       - SG_58996 @WangCai_1
-      - 孟买②
       - GB_30743 @WangCai_1
       - GB_142593 @WangCai_1
-      - 东京
       - SG_6193 @WangCai_1 2
       - SG_58996 @WangCai_1 2
-      - "@hkaa0||美国\r"
-      - TR土耳其(youtube阿伟科技)_1
       - SG_29306 @WangCai_1
       - JP_30743 @WangCai_1 2
-      - _电报频道 @mfjdpd 6
       - GB_65870 @WangCai_1
-      - 孟买①
       - JP_111548 @WangCai_1
       - JP_57003 @WangCai_1
       - SG_138218 @WangCai_1
-      - 254254.xyz👈购买地址 4
-      - 新加坡⑥
       - GB_53325 @WangCai_1
-      - "@hkaa0||美国_10"
       - GB_82897 @WangCai_1
       - JP_32667 @WangCai_1
       - JP_16708 @WangCai_1
@@ -1064,7 +1051,6 @@ proxy-groups:
       - GB_50307 @WangCai_1
       - SG_65870 @WangCai_1 2
       - SG_145794 @WangCai_1
-      - 首尔②
       - GB_58996 @WangCai_1
       - JP_113941 @WangCai_1
       - JP_36403 @WangCai_1
@@ -1115,6 +1101,20 @@ proxy-groups:
       - SG_6193 @WangCai_1 4
       - JP_145794 @WangCai_1
       - GB_31859 @WangCai_1
+      - 新加坡⑥
+      - 东京
+      - 大阪①
+      - 春川①
+      - 孟买①
+      - 孟买②
+      - 首尔②
+      - 伦敦②
+      - 香港
+      - "@hkaa0||美国_10"
+      - 新加坡2|@ripaojiedian
+      - 日本2|@ripaojiedian
+      - TR土耳其(youtube阿伟科技)_1
+      - 台湾 tg@freeVPNjd
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
