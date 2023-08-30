@@ -46,7 +46,7 @@ async function handleWebhook(event) {
  */
 async function onUpdate(update) {
   if ('message' in update) {
-    await onMessage(update.message)
+    await onMessage(update.message, update)
   }
 }
 
@@ -54,8 +54,8 @@ async function onUpdate(update) {
  * Handle incoming Message
  * https://core.telegram.org/bots/api#message
  */
-function onMessage(message) {
-  return sendPlainText(message.chat.id, '🎁客服🎁:\n' + message.text)
+async function onMessage(message, update) {
+  return await sendPlainText(message.chat.id, '🎁客服🎁:\n' + message.text + '\n' + message.chat.id)
 }
 
 /**
