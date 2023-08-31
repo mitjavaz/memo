@@ -1,8 +1,6 @@
-/**
- * https://github.com/cvzi/telegram-bot-cloudflare
- */
+// 机器人token
+const TOKEN = ENV_BOT_TOKEN
 
-const TOKEN = ENV_BOT_TOKEN // Get it from @BotFather https://core.telegram.org/bots#6-botfather
 const WEBHOOK = '/endpoint'
 const SECRET = ENV_BOT_SECRET // A-Z, a-z, 0-9, _ and -
 
@@ -14,7 +12,8 @@ addEventListener('fetch', event => {
   if (url.pathname === WEBHOOK) {
     event.respondWith(handleWebhook(event))
   } else if (url.pathname === '/registerWebhook') {
-    event.respondWith(registerWebhook(event, url, WEBHOOK, SECRET))
+    // event.respondWith(registerWebhook(event, url, WEBHOOK, SECRET))
+    event.respondWith(new Response('' + url))
   } else if (url.pathname === '/unRegisterWebhook') {
     event.respondWith(unRegisterWebhook(event))
   } else {
