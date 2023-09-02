@@ -5,53 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 1x JP03 Akamai, server: fzrb.magicby.top, port: 42966, type: ss, cipher: chacha20-ietf-poly1305, password: ccad95c7-1f9f-427f-87ce-88427c138a8a}
-  - {name: 1x SG04 Do, server: xzgy.magicby.top, port: 47312, type: ss, cipher: chacha20-ietf-poly1305, password: c8d4ce2e-d56d-4a0d-a92e-7b1dce9057ed}
-  - {name: 1x SG04 Do 2, server: xzgy.magicby.top, port: 47312, type: ss, cipher: chacha20-ietf-poly1305, password: 194228cf-1968-4ca2-bfda-e6dcd18eb277}
-  - {name: 1x SG02 Do, server: xzgy.magicby.top, port: 28222, type: ss, cipher: chacha20-ietf-poly1305, password: 1cf7c6cf-0818-4a57-989b-2ba3ca6a0731}
-  - {name: 1x SG01 Digital-vm, server: xzgy.magicby.top, port: 52312, type: ss, cipher: chacha20-ietf-poly1305, password: ccad95c7-1f9f-427f-87ce-88427c138a8a}
-  - {name: 1x SG03 Do, server: xzgy.magicby.top, port: 44434, type: ss, cipher: chacha20-ietf-poly1305, password: ccad95c7-1f9f-427f-87ce-88427c138a8a}
-  - {name: 1x SG04 Do 3, server: xzgy.magicby.top, port: 47312, type: ss, cipher: chacha20-ietf-poly1305, password: ccad95c7-1f9f-427f-87ce-88427c138a8a}
-  - {name: 1x JP01 NTT&PC, server: fzrb.magicby.top, port: 56057, type: ss, cipher: chacha20-ietf-poly1305, password: 1cf7c6cf-0818-4a57-989b-2ba3ca6a0731}
-  - {name: 🇭🇰 香港 tg@freeVPNjd, server: phk2s.fastsss.xyz, port: 33055, type: ss, cipher: aes-128-gcm, password: 987ffd8a-4945-4444-b7c3-e7b092c68bdd}
-  - {name: 🇸🇬 @hkaa0||新西兰, server: tempest-us.aikun.online, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, skip-cert-verify: true}
-  - {name: 1x SG02 Do 2, server: xzgy.magicby.top, port: 28222, type: ss, cipher: chacha20-ietf-poly1305, password: 194228cf-1968-4ca2-bfda-e6dcd18eb277}
-  - {name: 1x JP01 NTT&PC 2, server: fzrb.magicby.top, port: 56057, type: ss, cipher: chacha20-ietf-poly1305, password: 194228cf-1968-4ca2-bfda-e6dcd18eb277}
-  - {name: 1x JP02 Akamai, server: fzrb.magicby.top, port: 33175, type: ss, cipher: chacha20-ietf-poly1305, password: 194228cf-1968-4ca2-bfda-e6dcd18eb277}
-  - {name: 🇯🇵 日本_Telegram@kxswa, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: 343f9a0c-494e-4c23-8adc-afb3f75c1294, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 1x SG01 Digital-vm 2, server: xzgy.magicby.top, port: 52312, type: ss, cipher: chacha20-ietf-poly1305, password: c8d4ce2e-d56d-4a0d-a92e-7b1dce9057ed}
-  - {name: 🇫🇷 @hkaa0||法国, server: 57.128.173.6, port: 443, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, sni: www.speedtest.net, skip-cert-verify: true}
-  - {name: 1x JP02 Akamai 2, server: fzrb.magicby.top, port: 33175, type: ss, cipher: chacha20-ietf-poly1305, password: ccad95c7-1f9f-427f-87ce-88427c138a8a}
-  - {name: 1x SG02 Do 3, server: xzgy.magicby.top, port: 28222, type: ss, cipher: chacha20-ietf-poly1305, password: ccad95c7-1f9f-427f-87ce-88427c138a8a}
-  - {name: 1x JP02 Akamai 3, server: fzrb.magicby.top, port: 33175, type: ss, cipher: chacha20-ietf-poly1305, password: 1cf7c6cf-0818-4a57-989b-2ba3ca6a0731}
-  - {name: 1x SG02 Do 4, server: xzgy.magicby.top, port: 28222, type: ss, cipher: chacha20-ietf-poly1305, password: c8d4ce2e-d56d-4a0d-a92e-7b1dce9057ed}
-  - {name: 1x SG03 Do 2, server: xzgy.magicby.top, port: 44434, type: ss, cipher: chacha20-ietf-poly1305, password: c8d4ce2e-d56d-4a0d-a92e-7b1dce9057ed}
-  - {name: 1x SG01 Digital-vm 3, server: xzgy.magicby.top, port: 52312, type: ss, cipher: chacha20-ietf-poly1305, password: 1cf7c6cf-0818-4a57-989b-2ba3ca6a0731}
-  - {name: 1x SG04 Do 4, server: xzgy.magicby.top, port: 47312, type: ss, cipher: chacha20-ietf-poly1305, password: 1cf7c6cf-0818-4a57-989b-2ba3ca6a0731}
-  - {name: 1x SG01 Digital-vm 4, server: xzgy.magicby.top, port: 52312, type: ss, cipher: chacha20-ietf-poly1305, password: 194228cf-1968-4ca2-bfda-e6dcd18eb277}
-  - {name: 1x SG03 Do 3, server: xzgy.magicby.top, port: 44434, type: ss, cipher: chacha20-ietf-poly1305, password: 1cf7c6cf-0818-4a57-989b-2ba3ca6a0731}
-  - {name: 1x JP03 Akamai 2, server: fzrb.magicby.top, port: 42966, type: ss, cipher: chacha20-ietf-poly1305, password: c8d4ce2e-d56d-4a0d-a92e-7b1dce9057ed}
-  - {name: 1x JP03 Akamai 3, server: fzrb.magicby.top, port: 42966, type: ss, cipher: chacha20-ietf-poly1305, password: 1cf7c6cf-0818-4a57-989b-2ba3ca6a0731}
-  - {name: 1x JP03 Akamai 4, server: fzrb.magicby.top, port: 42966, type: ss, cipher: chacha20-ietf-poly1305, password: 194228cf-1968-4ca2-bfda-e6dcd18eb277}
-  - {name: 1x SG03 Do 4, server: xzgy.magicby.top, port: 44434, type: ss, cipher: chacha20-ietf-poly1305, password: 194228cf-1968-4ca2-bfda-e6dcd18eb277}
-  - {name: 1x JP01 NTT&PC 3, server: fzrb.magicby.top, port: 56057, type: ss, cipher: chacha20-ietf-poly1305, password: ccad95c7-1f9f-427f-87ce-88427c138a8a}
-  - {name: 🇭🇰 香港_Telegram@kxswa, server: chinamobile.cu.edu.kg, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: 50317ff5-d552-4425-b047-349ed007a7c5}
-  - {name: 🇯🇵 免费-日本3Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21581, type: vmess, uuid: c2365e4e-3700-323a-b889-fea7677ef8d1, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇯🇵 CN_分享日记_1, server: cd69.cdn.node.a.tddns-ounk.com, port: 13665, type: vmess, uuid: 9b661386-8076-3f13-8fe4-c0a333375984, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8, headers: {Host: cd69.cdn.node.a.tddns-ounk.com}}}
-  - {name: 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok, server: zhuanx01.zncloudnet01.xyz, port: 3901, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: "🇯🇵 TG@mfbpn-日本#18 LV2 - ChatGPT, Disney, Netflix, JP", server: 111.6.86.76, port: 21552, type: vmess, uuid: 4aac9dc1-4285-34b9-b486-3099da917eab, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 TG@mfbpn-新加坡#42 LV1 - SG, server: 111.6.86.76, port: 21319, type: vmess, uuid: 4aac9dc1-4285-34b9-b486-3099da917eab, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 【YouTube-由零開始】🇺🇸美国, server: 104.17.39.140, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
+  - {name: 🇺🇸 【YouTube-由零開始】🇺🇸美国 2, server: 104.17.81.226, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
+  - {name: 🇺🇸 美国【YouTube-由零開始】, server: 104.17.99.147, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
+  - {name: 🇺🇸 【YouTube-由零開始】🇺🇸美国 3, server: 104.18.106.84, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
+  - {name: 🇯🇵 US_分享日记, server: 137.175.18.81, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691985329194, headers: {Host: www.66273264.xyz}}}
+  - {name: 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2, server: 156.225.67.241, port: 443, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1689068934789, headers: {Host: www.43430140.xyz}}}
+  - {name: 🇯🇵 US_分享日记 2, server: arvancloud.ir-Uc.snappfood.SO.ddns001.net, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1c5854ba-1b44-11ee-a146-8213fd3be4b9, headers: {Host: 1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster}}}
+  - {name: 关注电报https://t.me/aifenxiang2020, server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
+  - {name: 🇦🇪 迪拜-标准-01, server: cnyzcm01.fastbiubiu.com, port: 17701, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇩🇪 德国-标准-02, server: cnyzcm01.fastbiubiu.com, port: 6114, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇩🇪 德国-标准-03, server: cnyzcm01.fastbiubiu.com, port: 6115, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇦🇪 迪拜-标准-02, server: cnyzcm01.fastbiubiu.com, port: 17702, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇻🇳 越南-标准-01, server: cnzz02.fastbiubiu.com, port: 6421, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇻🇳 越南-标准-02, server: cnzz02.fastbiubiu.com, port: 6422, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
   - {name: 🇮🇩 印度尼西亚-标准-01, server: cnzz02.fastbiubiu.com, port: 6411, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇮🇩 印度尼西亚-标准-02, server: cnzz02.fastbiubiu.com, port: 6412, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
   - {name: 🇺🇸 美国-标准-02 | 解锁ChatGPT, server: cnzz03.fastbiubiu.com, port: 18600, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇺🇸 美国-标准-03 | 解锁ChatGPT, server: cnzz03.fastbiubiu.com, port: 18700, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇺🇸 美国-标准-04 | 解锁ChatGPT, server: cnzz03.fastbiubiu.com, port: 18704, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
   - {name: 🇯🇵 日本-标准-05, server: cnzz05.fastbiubiu.com, port: 16500, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
   - {name: ">🇵🇪 PE|Ns|0824|TG@FProxies|", server: iaudhcui.76898102.xyz, port: 2052, type: vmess, uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nfdguiw, headers: {Host: asfgdvf.76898102.xyz}}}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa, server: js.bfyun.eu.org, port: 2082, type: vmess, uuid: d47af677-d637-4085-ad9f-b2e0ecefca26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hostodo, headers: {Host: hostodo.galenet.online}}}
-  - {name: 🇺🇸 美国|tg频道:@ripaojiedian, server: mf631fx.micloud.buzz, port: 42231, type: vmess, uuid: ef78e23d-598f-442e-a29b-35f25901a5a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf631fx.micloud.buzz}}}
-  - {name: 🇺🇸 美国-标准-04 | 解锁ChatGPT, server: cnzz03.fastbiubiu.com, port: 18704, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇻🇳 越南-标准-02, server: cnzz02.fastbiubiu.com, port: 6422, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 免费梯子https://t.me/mftizi, server: mf631fx.micloud.buzz, port: 42231, type: vmess, uuid: ef78e23d-598f-442e-a29b-35f25901a5a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf631fx.micloud.buzz}}}
+  - {name: 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok, server: zhuanx01.zncloudnet01.xyz, port: 3901, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 免费梯子https://t.me/mftizi, server: 120.226.50.92, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 CN_分享日记, server: 120.226.50.92, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港中转|@ripaojiedian, server: 120.226.50.92, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 tg@freeVPNjd, server: 120.226.50.92, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 免费梯子https://t.me/mftizi 2, server: 183.232.249.40, port: 54004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港直连|@ripaojiedian, server: 183.232.249.40, port: 54004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本KT|@ripaojiedian, server: 183.232.170.32, port: 30005, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇭🇰 香港 tg@freeVPNjd 2, server: phk2s.fastsss.xyz, port: 33055, type: ss, cipher: aes-128-gcm, password: 987ffd8a-4945-4444-b7c3-e7b092c68bdd}
+  - {name: 🇭🇰 香港_Telegram@kxswa, server: vpnhat.stablize.top, port: 443, type: trojan, password: 30c80314-a395-45d9-b0ab-0171ad07c082, sni: ap.stablize.top, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -63,210 +45,138 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 1x JP03 Akamai
-      - 1x SG04 Do
-      - 1x SG04 Do 2
-      - 1x SG02 Do
-      - 1x SG01 Digital-vm
-      - 1x SG03 Do
-      - 1x SG04 Do 3
-      - 1x JP01 NTT&PC
-      - 🇭🇰 香港 tg@freeVPNjd
-      - 🇸🇬 @hkaa0||新西兰
-      - 1x SG02 Do 2
-      - 1x JP01 NTT&PC 2
-      - 1x JP02 Akamai
-      - 🇯🇵 日本_Telegram@kxswa
-      - 1x SG01 Digital-vm 2
-      - 🇫🇷 @hkaa0||法国
-      - 1x JP02 Akamai 2
-      - 1x SG02 Do 3
-      - 1x JP02 Akamai 3
-      - 1x SG02 Do 4
-      - 1x SG03 Do 2
-      - 1x SG01 Digital-vm 3
-      - 1x SG04 Do 4
-      - 1x SG01 Digital-vm 4
-      - 1x SG03 Do 3
-      - 1x JP03 Akamai 2
-      - 1x JP03 Akamai 3
-      - 1x JP03 Akamai 4
-      - 1x SG03 Do 4
-      - 1x JP01 NTT&PC 3
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇯🇵 免费-日本3Ver.4
-      - 🇯🇵 CN_分享日记_1
-      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
-      - 🇯🇵 TG@mfbpn-日本#18 LV2 - ChatGPT, Disney, Netflix, JP
-      - 🇸🇬 TG@mfbpn-新加坡#42 LV1 - SG
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国 2
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国 3
+      - 🇯🇵 US_分享日记
+      - 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2
+      - 🇯🇵 US_分享日记 2
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇦🇪 迪拜-标准-01
+      - 🇩🇪 德国-标准-02
+      - 🇩🇪 德国-标准-03
+      - 🇦🇪 迪拜-标准-02
+      - 🇻🇳 越南-标准-01
+      - 🇻🇳 越南-标准-02
       - 🇮🇩 印度尼西亚-标准-01
-      - 🇮🇩 印度尼西亚-标准-02
       - 🇺🇸 美国-标准-02 | 解锁ChatGPT
-      - 🇺🇸 美国-标准-03 | 解锁ChatGPT
+      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
       - 🇯🇵 日本-标准-05
       - ">🇵🇪 PE|Ns|0824|TG@FProxies|"
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇺🇸 美国|tg频道:@ripaojiedian
-      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
-      - 🇻🇳 越南-标准-02
+      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
       - 免费梯子https://t.me/mftizi
+      - 🇯🇵 CN_分享日记
+      - 🇭🇰 香港中转|@ripaojiedian
+      - 🇭🇰 香港 tg@freeVPNjd
+      - 免费梯子https://t.me/mftizi 2
+      - 🇭🇰 香港直连|@ripaojiedian
+      - 🇯🇵 日本KT|@ripaojiedian
+      - 🇭🇰 香港 tg@freeVPNjd 2
+      - 🇭🇰 香港_Telegram@kxswa
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 1x JP03 Akamai
-      - 1x SG04 Do
-      - 1x SG04 Do 2
-      - 1x SG02 Do
-      - 1x SG01 Digital-vm
-      - 1x SG03 Do
-      - 1x SG04 Do 3
-      - 1x JP01 NTT&PC
-      - 🇭🇰 香港 tg@freeVPNjd
-      - 🇸🇬 @hkaa0||新西兰
-      - 1x SG02 Do 2
-      - 1x JP01 NTT&PC 2
-      - 1x JP02 Akamai
-      - 🇯🇵 日本_Telegram@kxswa
-      - 1x SG01 Digital-vm 2
-      - 🇫🇷 @hkaa0||法国
-      - 1x JP02 Akamai 2
-      - 1x SG02 Do 3
-      - 1x JP02 Akamai 3
-      - 1x SG02 Do 4
-      - 1x SG03 Do 2
-      - 1x SG01 Digital-vm 3
-      - 1x SG04 Do 4
-      - 1x SG01 Digital-vm 4
-      - 1x SG03 Do 3
-      - 1x JP03 Akamai 2
-      - 1x JP03 Akamai 3
-      - 1x JP03 Akamai 4
-      - 1x SG03 Do 4
-      - 1x JP01 NTT&PC 3
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇯🇵 免费-日本3Ver.4
-      - 🇯🇵 CN_分享日记_1
-      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
-      - 🇯🇵 TG@mfbpn-日本#18 LV2 - ChatGPT, Disney, Netflix, JP
-      - 🇸🇬 TG@mfbpn-新加坡#42 LV1 - SG
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国 2
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国 3
+      - 🇯🇵 US_分享日记
+      - 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2
+      - 🇯🇵 US_分享日记 2
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇦🇪 迪拜-标准-01
+      - 🇩🇪 德国-标准-02
+      - 🇩🇪 德国-标准-03
+      - 🇦🇪 迪拜-标准-02
+      - 🇻🇳 越南-标准-01
+      - 🇻🇳 越南-标准-02
       - 🇮🇩 印度尼西亚-标准-01
-      - 🇮🇩 印度尼西亚-标准-02
       - 🇺🇸 美国-标准-02 | 解锁ChatGPT
-      - 🇺🇸 美国-标准-03 | 解锁ChatGPT
+      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
       - 🇯🇵 日本-标准-05
       - ">🇵🇪 PE|Ns|0824|TG@FProxies|"
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇺🇸 美国|tg频道:@ripaojiedian
-      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
-      - 🇻🇳 越南-标准-02
+      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
       - 免费梯子https://t.me/mftizi
+      - 🇯🇵 CN_分享日记
+      - 🇭🇰 香港中转|@ripaojiedian
+      - 🇭🇰 香港 tg@freeVPNjd
+      - 免费梯子https://t.me/mftizi 2
+      - 🇭🇰 香港直连|@ripaojiedian
+      - 🇯🇵 日本KT|@ripaojiedian
+      - 🇭🇰 香港 tg@freeVPNjd 2
+      - 🇭🇰 香港_Telegram@kxswa
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 1x JP03 Akamai
-      - 1x SG04 Do
-      - 1x SG04 Do 2
-      - 1x SG02 Do
-      - 1x SG01 Digital-vm
-      - 1x SG03 Do
-      - 1x SG04 Do 3
-      - 1x JP01 NTT&PC
-      - 🇭🇰 香港 tg@freeVPNjd
-      - 🇸🇬 @hkaa0||新西兰
-      - 1x SG02 Do 2
-      - 1x JP01 NTT&PC 2
-      - 1x JP02 Akamai
-      - 🇯🇵 日本_Telegram@kxswa
-      - 1x SG01 Digital-vm 2
-      - 🇫🇷 @hkaa0||法国
-      - 1x JP02 Akamai 2
-      - 1x SG02 Do 3
-      - 1x JP02 Akamai 3
-      - 1x SG02 Do 4
-      - 1x SG03 Do 2
-      - 1x SG01 Digital-vm 3
-      - 1x SG04 Do 4
-      - 1x SG01 Digital-vm 4
-      - 1x SG03 Do 3
-      - 1x JP03 Akamai 2
-      - 1x JP03 Akamai 3
-      - 1x JP03 Akamai 4
-      - 1x SG03 Do 4
-      - 1x JP01 NTT&PC 3
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇯🇵 免费-日本3Ver.4
-      - 🇯🇵 CN_分享日记_1
-      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
-      - 🇯🇵 TG@mfbpn-日本#18 LV2 - ChatGPT, Disney, Netflix, JP
-      - 🇸🇬 TG@mfbpn-新加坡#42 LV1 - SG
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国 2
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国 3
+      - 🇯🇵 US_分享日记
+      - 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2
+      - 🇯🇵 US_分享日记 2
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇦🇪 迪拜-标准-01
+      - 🇩🇪 德国-标准-02
+      - 🇩🇪 德国-标准-03
+      - 🇦🇪 迪拜-标准-02
+      - 🇻🇳 越南-标准-01
+      - 🇻🇳 越南-标准-02
       - 🇮🇩 印度尼西亚-标准-01
-      - 🇮🇩 印度尼西亚-标准-02
       - 🇺🇸 美国-标准-02 | 解锁ChatGPT
-      - 🇺🇸 美国-标准-03 | 解锁ChatGPT
+      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
       - 🇯🇵 日本-标准-05
       - ">🇵🇪 PE|Ns|0824|TG@FProxies|"
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇺🇸 美国|tg频道:@ripaojiedian
-      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
-      - 🇻🇳 越南-标准-02
+      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
       - 免费梯子https://t.me/mftizi
+      - 🇯🇵 CN_分享日记
+      - 🇭🇰 香港中转|@ripaojiedian
+      - 🇭🇰 香港 tg@freeVPNjd
+      - 免费梯子https://t.me/mftizi 2
+      - 🇭🇰 香港直连|@ripaojiedian
+      - 🇯🇵 日本KT|@ripaojiedian
+      - 🇭🇰 香港 tg@freeVPNjd 2
+      - 🇭🇰 香港_Telegram@kxswa
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 1x JP03 Akamai
-      - 1x SG04 Do
-      - 1x SG04 Do 2
-      - 1x SG02 Do
-      - 1x SG01 Digital-vm
-      - 1x SG03 Do
-      - 1x SG04 Do 3
-      - 1x JP01 NTT&PC
-      - 🇭🇰 香港 tg@freeVPNjd
-      - 🇸🇬 @hkaa0||新西兰
-      - 1x SG02 Do 2
-      - 1x JP01 NTT&PC 2
-      - 1x JP02 Akamai
-      - 🇯🇵 日本_Telegram@kxswa
-      - 1x SG01 Digital-vm 2
-      - 🇫🇷 @hkaa0||法国
-      - 1x JP02 Akamai 2
-      - 1x SG02 Do 3
-      - 1x JP02 Akamai 3
-      - 1x SG02 Do 4
-      - 1x SG03 Do 2
-      - 1x SG01 Digital-vm 3
-      - 1x SG04 Do 4
-      - 1x SG01 Digital-vm 4
-      - 1x SG03 Do 3
-      - 1x JP03 Akamai 2
-      - 1x JP03 Akamai 3
-      - 1x JP03 Akamai 4
-      - 1x SG03 Do 4
-      - 1x JP01 NTT&PC 3
-      - 🇭🇰 香港_Telegram@kxswa
-      - 🇯🇵 免费-日本3Ver.4
-      - 🇯🇵 CN_分享日记_1
-      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
-      - 🇯🇵 TG@mfbpn-日本#18 LV2 - ChatGPT, Disney, Netflix, JP
-      - 🇸🇬 TG@mfbpn-新加坡#42 LV1 - SG
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国 2
+      - 🇺🇸 美国【YouTube-由零開始】
+      - 🇺🇸 【YouTube-由零開始】🇺🇸美国 3
+      - 🇯🇵 US_分享日记
+      - 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2
+      - 🇯🇵 US_分享日记 2
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇦🇪 迪拜-标准-01
+      - 🇩🇪 德国-标准-02
+      - 🇩🇪 德国-标准-03
+      - 🇦🇪 迪拜-标准-02
+      - 🇻🇳 越南-标准-01
+      - 🇻🇳 越南-标准-02
       - 🇮🇩 印度尼西亚-标准-01
-      - 🇮🇩 印度尼西亚-标准-02
       - 🇺🇸 美国-标准-02 | 解锁ChatGPT
-      - 🇺🇸 美国-标准-03 | 解锁ChatGPT
+      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
       - 🇯🇵 日本-标准-05
       - ">🇵🇪 PE|Ns|0824|TG@FProxies|"
-      - 🇸🇬 新加坡_Telegram@kxswa
-      - 🇺🇸 美国|tg频道:@ripaojiedian
-      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
-      - 🇻🇳 越南-标准-02
+      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
       - 免费梯子https://t.me/mftizi
+      - 🇯🇵 CN_分享日记
+      - 🇭🇰 香港中转|@ripaojiedian
+      - 🇭🇰 香港 tg@freeVPNjd
+      - 免费梯子https://t.me/mftizi 2
+      - 🇭🇰 香港直连|@ripaojiedian
+      - 🇯🇵 日本KT|@ripaojiedian
+      - 🇭🇰 香港 tg@freeVPNjd 2
+      - 🇭🇰 香港_Telegram@kxswa
   - name: 🎯 不挂代理
     type: select
     proxies:
