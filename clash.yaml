@@ -5,146 +5,67 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _电报频道 @mfjdpd 86, server: 172.67.83.191, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: _电报频道 @mfjdpd 96, server: 172.64.133.137, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 8DKJ|@Zyw_Channel, server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}}
-  - {name: 8DKJ|tg频道:@Zyw_Channel, server: Tokyo.Mfa.EE, port: 2082, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-fr.iiio.wiki}}}
-  - {name: 8DKJ|tg频道:@Zyw_Channel 2, server: 172.64.105.249, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 8DKJ|tg频道:@Zyw_Channel 3, server: 172.64.103.88, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 8DKJ|www.zyw.asia ZYW免费节点, server: 172.67.120.200, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇯🇵 CA_分享日记, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
-  - {name: 🇯🇵 CH_分享日记, server: 64.110.64.80, port: 80, type: vmess, uuid: 7ca21098-691c-4c12-8aac-934b21635423, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 16.wyhkaa0.gq}}}
-  - {name: 🇯🇵 HK_分享日记, server: 103.160.204.97, port: 80, type: vmess, uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 18.wyhkaa0.gq}}}
-  - {name: 🇯🇵 HK_分享日记 2, server: 103.160.204.108, port: 80, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
-  - {name: 🇯🇵 HK_分享日记 3, server: a10.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 5.wuxianliulianng.xyz}}}
-  - {name: 🇯🇵 KR_分享日记, server: 130.162.158.81, port: 80, type: vmess, uuid: 220974d7-5785-435c-f04b-a7669c5f1845, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 8.wyhkaa0.gq}}}
-  - {name: PP|@Zyw_Channel, server: 156.225.67.101, port: 53797, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_ | 7.72Mb, server: 156.225.67.101, port: 53797, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_37 | 4.57Mb, server: 36.141.40.34, port: 54073, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 US_分享日记, server: 137.175.18.81, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691985329194, headers: {Host: www.66273264.xyz}}}
-  - {name: 🇯🇵 US_分享日记 2, server: 104.31.16.14, port: 80, type: vmess, uuid: bb5bb9c0-48b4-11ee-b337-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: us-20.0rd.net}}}
-  - {name: 🇯🇵 US_分享日记 3, server: 216.24.57.1, port: 443, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}}
-  - {name: 🇯🇵 US_分享日记 4, server: 8.wyhkaa0.gq, port: 2095, type: vmess, uuid: 2c4db0b1-5cd9-4bad-e957-33c36e261987, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 8.wyhkaa0.gq}}}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_10, server: 156.225.67.101, port: 53797, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_35, server: 156.225.67.101, port: 53797, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_49, server: 156.225.67.101, port: 53797, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_6, server: 142.4.109.68, port: 46672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: YD|@Zyw_Channel, server: 104.25.13.12, port: 80, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}}
-  - {name: YD|@Zyw_Channel 2, server: 162.159.240.97, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: YD|tg频道:@Zyw_Channel, server: 172.64.169.211, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: YD|www.zyw.asia ZYW免费节点, server: 183.232.249.40, port: 54004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇦🇪 迪拜-标准-01, server: cnyzcm01.fastbiubiu.com, port: 17701, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇦🇪 迪拜-标准-02, server: cnyzcm01.fastbiubiu.com, port: 17702, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇩🇪 德国-标准-02, server: cnyzcm01.fastbiubiu.com, port: 6114, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇩🇪 德国-标准-03, server: cnyzcm01.fastbiubiu.com, port: 6115, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇫🇷 法国_【YouTube-VV科技】_3, server: 156.249.18.24, port: 40775, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港直连|@ripaojiedian, server: 183.232.249.40, port: 54004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港直连|@ripaojiedian 2, server: 183.232.249.40, port: 54004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港专线|@ripaojiedian, server: 36.141.40.34, port: 54073, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇩 印度尼西亚-标准-01, server: cnzz02.fastbiubiu.com, port: 6411, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇯🇵 CN_分享日记_1, server: 36.141.40.34, port: 54073, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本A|@ripaojiedian, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: a30ba00c-802e-4a2d-bb93-aa15adaebc6d, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本KT|@ripaojiedian, server: 183.232.170.32, port: 30005, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇯🇵 日本-标准-05, server: cnzz05.fastbiubiu.com, port: 16500, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇰🇷 韩国_【YouTube-VV科技】, server: xiongda006.daxiongda.top, port: 23333, type: ss, cipher: chacha20-ietf-poly1305, password: 70a93fcb-f8c0-4916-96b5-8c54f3394708}
-  - {name: 🇰🇷 韩国【YouTube-由零開始】, server: 146.56.177.119, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
-  - {name: 🇰🇷 韩国【YouTube-由零開始】 2, server: 146.56.175.92, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
-  - {name: 🇰🇷 韩国【YouTube-由零開始】 3, server: 131.186.25.200, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
-  - {name: 🇰🇷 韩国【YouTube-由零開始】 4, server: 131.186.17.231, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
-  - {name: 🇰🇷 韩国【YouTube-由零開始】 5, server: 152.67.208.222, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
-  - {name: 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2, server: 156.225.67.241, port: 443, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1689068934789, headers: {Host: www.43430140.xyz}}}
-  - {name: 🇳🇱 荷兰【YouTube-由零開始】, server: 188.114.96.125, port: 8443, type: vmess, uuid: aa9b6f16-00b0-479f-ca6a-db2a6e205df7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
-  - {name: 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok, server: zhuanx01.zncloudnet01.xyz, port: 3901, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 13.250.97.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 @Hope_Net | US🇺🇸 | dd2.1808.cf:80 | 215.99ms | 0️⃣1️⃣, server: 128.199.171.169, port: 80, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}}
-  - {name: 🇺🇸 _US_美国_2, server: 162.159.130.198, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_12, server: 23.224.11.147, port: 41009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_15, server: 171.22.116.45, port: 36709, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_15 2, server: 156.225.67.73, port: 32109, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_16, server: 142.4.114.123, port: 32307, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国_【YouTube-VV科技】_3, server: 120.226.50.93, port: 40702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_【YouTube-VV科技】_17, server: 108.186.208.157, port: 41404, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_22, server: 45.199.138.157, port: 41814, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_25, server: 45.199.138.162, port: 54871, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_29, server: 45.199.138.188, port: 30008, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_3, server: 45.199.138.180, port: 54785, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_32, server: 45.92.161.173, port: 56369, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_34, server: 45.199.138.148, port: 49955, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_38, server: 45.199.138.189, port: 34560, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_39, server: 45.199.138.180, port: 54785, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_52, server: 45.199.138.135, port: 50119, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_55, server: 45.199.138.162, port: 54871, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_72, server: 45.199.138.197, port: 46658, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_【YouTube-VV科技】_9, server: 45.92.161.173, port: 56369, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国-标准-02 | 解锁ChatGPT, server: cnzz03.fastbiubiu.com, port: 18600, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇺🇸 美国-标准-04 | 解锁ChatGPT, server: cnzz03.fastbiubiu.com, port: 18704, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: US_29 |25.61Mb, server: 171.22.116.45, port: 36709, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_88 |26.34Mb, server: 45.92.161.173, port: 56369, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【YouTube-由零開始】, server: 172.67.22.15, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 美国【YouTube-由零開始】 2, server: 104.21.23.0, port: 80, type: vmess, uuid: 567d3fe2-8df2-466c-ab0d-640cc151c62c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
-  - {name: 🇺🇸 美国【YouTube-由零開始】 3, server: 172.67.55.2, port: 80, type: vmess, uuid: 567d3fe2-8df2-466c-ab0d-640cc151c62c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
-  - {name: 🇻🇳 越南-标准-01, server: cnzz02.fastbiubiu.com, port: 6421, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇻🇳 越南-标准-02, server: cnzz02.fastbiubiu.com, port: 6422, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
-  - {name: 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db6.shabijichang.com}}}
-  - {name: 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb.shabijichang.com}}}
-  - {name: 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
-  - {name: 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
+  - {name: 🇯🇵 日本|tg频道:@ripaojiedian, server: 103.234.128.130, port: 58417, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_55 |25.60Mb, server: 108.186.208.157, port: 41404, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港C|@ripaojiedian, server: 120.226.50.93, port: 40702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 上海市 联通, server: 103.234.128.130, port: 58417, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-标准-05, server: cnzz05.fastbiubiu.com, port: 16500, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
   - {name: 🇧🇷 巴西-圣保罗2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
+  - {name: 🇬🇧 英国2丨白嫖机场.com, server: t2.bestcloud.tk, port: 80, type: vmess, uuid: bbed2cba-ad42-455a-9c0e-127db657156f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1654431, headers: {Host: uk3.mybestjj.com}}}
+  - {name: 254254.xyz👈购买地址, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
+  - {name: 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db6.shabijichang.com}}}
+  - {name: 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
   - {name: 🇧🇷 巴西-维涅杜 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wnd.shabijichang.com}}}
-  - {name: 🇧🇬 保加利亚_Telegram@kxswa, server: 213.183.63.58, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: Fibj4fFDF5ander}
-  - {name: 不定期抽奖https://t.me/mftizi, server: zhuanfa.baiduvideos.online, port: 80, type: vmess, uuid: 13ddc7a0-869f-43cc-857e-cdf29cfbdd2a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /11451, headers: {Host: hongkong1145141.baiduvideos.online}}}
-  - {name: 🇷🇺 俄罗斯联邦_Telegram@kxswa, server: 185.39.204.69, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: ZtrXk65GFdw7niQYG9a}
-  - {name: 🇫🇷 法国-马赛 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ms.shabijichang.com}}}
-  - {name: 关注电报https://t.me/aifenxiang2020, server: 172.64.153.211, port: 443, type: vmess, uuid: 6e751712-9569-5187-86ea-8f585ad99105, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /api01, headers: {Host: schereswed.softwarenews.store}}}
-  - {name: 关注电报https://t.me/mftizi, server: zhuanfa.baiduvideos.online, port: 80, type: vmess, uuid: 13ddc7a0-869f-43cc-857e-cdf29cfbdd2a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /114514, headers: {Host: singapore1145141.baiduvideos.online}}}
-  - {name: 🇰🇷 韩国-首尔 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: se.shabijichang.com}}}
-  - {name: 🇰🇷 韩国-首尔2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: se2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: 45.199.138.135, port: 50119, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 3, server: 45.199.138.188, port: 30008, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 4, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 5, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 6, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db7.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 7, server: b2n.ir, port: 443, type: vmess, uuid: F5A0B71E-85AA-48FF-99D1-9F3B8459DA49, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.bobbykotick.rip}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 8, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 9, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 10, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg3.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 11, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 12, server: 172.64.198.36, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 13, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 14, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 15, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 16, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 17, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl3.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 18, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 19, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 20, server: 172.64.142.31, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 21, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: asb3.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 22, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wnd.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 23, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: se2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 24, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 25, server: 172.67.92.119, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 26, server: 172.67.160.88, port: 80, type: vmess, uuid: 567d3fe2-8df2-466c-ab0d-640cc151c62c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: ziyong.vtcss.top}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 27, server: 172.64.105.187, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 28, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 29, server: 45.199.138.157, port: 41814, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国-阿什本2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}}
-  - {name: 🇺🇸 美国-阿什本3 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: asb3.shabijichang.com}}}
-  - {name: 🇺🇸 美国-凤凰城 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
-  - {name: 🏳️‍🌈 美国无限流量, server: 172.67.129.245, port: 443, type: vmess, uuid: aa03cd03-3e48-4d79-faf5-bd61b88f5027, alterId: 0, cipher: auto, tls: true, servername: cc.jiegebuyao.top, network: ws, ws-opts: {path: /, headers: {Host: cc.jiegebuyao.top}}}
-  - {name: 🇿🇦 南非-约翰内斯堡 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yhnsb.shabijichang.com}}}
   - {name: 🇯🇵 日本-大阪3 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db5.shabijichang.com}}}
-  - {name: 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdgrm.shabijichang.com}}}
-  - {name: 🇨🇭 瑞士-苏黎世 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sls.shabijichang.com}}}
-  - {name: 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ylsl.shabijichang.com}}}
-  - {name: 🇮🇹 意大利-米兰 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
-  - {name: 🇮🇹 意大利-米兰4 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
+  - {name: 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok, server: zhuanx01.zncloudnet01.xyz, port: 3901, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇺🇸 美国-标准-04 | 解锁ChatGPT, server: cnzz03.fastbiubiu.com, port: 18704, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇫🇷 法国-马赛 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ms.shabijichang.com}}}
+  - {name: 🇰🇷 KR tg@freeVPNjd, server: 221.131.165.180, port: 16790, type: vmess, uuid: 2fed8ce2-ff5e-3959-8c0d-2e2f879aa4bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /soda}}
+  - {name: 🇯🇵 日本2|@ripaojiedian, server: 219.76.13.183, port: 443, type: vmess, uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 5.wuxianliulianng.xyz}}}
+  - {name: 8DKJ|www.zyw.asia ZYW免费节点, server: Tokyo.Mfa.EE, port: 2082, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-fr.iiio.wiki}}}
+  - {name: 🇬🇧 英国3丨白嫖机场.com, server: t3.bestcloud.tk, port: 80, type: vmess, uuid: bbed2cba-ad42-455a-9c0e-127db657156f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1654431, headers: {Host: uk3.mybestjj.com}}}
+  - {name: 🇻🇳 越南-标准-01, server: cnzz02.fastbiubiu.com, port: 6421, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 「SCP 」NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: b5.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 5.wuxianliulianng.xyz}}}
+  - {name: 🇺🇸 美国-标准-02 | 解锁ChatGPT, server: cnzz03.fastbiubiu.com, port: 18600, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
   - {name: 🇮🇳 印度-海得拉巴 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb.shabijichang.com}}}
-  - {name: 🇮🇳 印度-孟买3 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
+  - {name: 🇬🇧 英国1丨白嫖机场.com, server: t1.bestcloud.tk, port: 80, type: vmess, uuid: bbed2cba-ad42-455a-9c0e-127db657156f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1654431, headers: {Host: uk3.mybestjj.com}}}
+  - {name: 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
+  - {name: 🇩🇪 德国-标准-03, server: cnyzcm01.fastbiubiu.com, port: 6115, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇨🇱 智利=tg频道:@bpjzx2=, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6f7404b8-9933-4230-9f54-0bcca0a761a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg2.shabijichang.com}}}
+  - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇦🇪 迪拜-标准-02, server: cnyzcm01.fastbiubiu.com, port: 17702, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇮🇹 意大利-米兰 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
+  - {name: CF|www.zyw.asia ZYW免费节点, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
+  - {name: 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ylsl.shabijichang.com}}}
+  - {name: 254254.xyz👈购买地址 2, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: euserv2.vpn66.eu.org}}}
   - {name: 🇮🇳 印度-孟买4 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm4.shabijichang.com}}}
-  - {name: 🇬🇧 英国_Telegram@kxswa, server: 51.141.11.92, port: 33131, type: ss, cipher: chacha20-ietf-poly1305, password: ujbow8ZY46sUMEqvGfh7BT}
+  - {name: 🇦🇪 迪拜-标准-01, server: cnyzcm01.fastbiubiu.com, port: 17701, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇺🇸 美国=tg频道:@bpjzx2=, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6f7404b8-9933-4230-9f54-0bcca0a761a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇨🇱 智利=tg频道:@bpjzx2= 2, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6f7404b8-9933-4230-9f54-0bcca0a761a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg3.shabijichang.com}}}
+  - {name: YD|tg频道:@Zyw_Channel, server: sdygarm.e5outllok.me, port: 80, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdygarm.e5outllok.me}}}
+  - {name: 🇮🇩 印度尼西亚-标准-01, server: cnzz02.fastbiubiu.com, port: 6411, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇺🇸 美国-阿什本2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}}
+  - {name: 🇷🇺 优化高速1-俄罗斯, server: 45.144.2.113, port: 80, type: vmess, uuid: bbed2cba-ad42-455a-9c0e-127db657156f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2, headers: {Host: er3.mybestjj.com}}}
+  - {name: 🇯🇵 CA_分享日记, server: 23.227.38.80, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇨🇱 智利-圣地亚哥2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg2.shabijichang.com}}}
   - {name: 🇬🇧 英国-伦敦  加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
+  - {name: 🇻🇳 越南-标准-02, server: cnzz02.fastbiubiu.com, port: 6422, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇩🇪 德国-标准-02, server: cnyzcm01.fastbiubiu.com, port: 6114, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: live.bilibili.com}}}
+  - {name: 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdgrm.shabijichang.com}}}
+  - {name: YD|www.zyw.asia ZYW免费节点, server: 23.227.39.109, port: 443, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
+  - {name: 🇺🇸 美国-凤凰城 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 8DKJ|@Zyw_Channel, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}}
+  - {name: 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb.shabijichang.com}}}
+  - {name: 关注电报https://t.me/mftizi, server: zhuanfa.baiduvideos.online, port: 80, type: vmess, uuid: 13ddc7a0-869f-43cc-857e-cdf29cfbdd2a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /114514, headers: {Host: singapore1145141.baiduvideos.online}}}
+  - {name: 🇺🇸 美国-阿什本3 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: asb3.shabijichang.com}}}
+  - {name: 🇧🇷 巴西-圣保罗4 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
+  - {name: 🇨🇦 _CA_加拿大_14, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇰🇷 韩国-首尔2 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: se2.shabijichang.com}}}
+  - {name: 🇮🇹 意大利-米兰4 加群不限速@xinglianyun, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6567eb30-6982-4484-bb9a-97232b229f2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -156,582 +77,266 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - _电报频道 @mfjdpd 86
-      - _电报频道 @mfjdpd 96
-      - 8DKJ|@Zyw_Channel
-      - 8DKJ|tg频道:@Zyw_Channel
-      - 8DKJ|tg频道:@Zyw_Channel 2
-      - 8DKJ|tg频道:@Zyw_Channel 3
-      - 8DKJ|www.zyw.asia ZYW免费节点
-      - 🇯🇵 CA_分享日记
-      - 🇯🇵 CH_分享日记
-      - 🇯🇵 HK_分享日记
-      - 🇯🇵 HK_分享日记 2
-      - 🇯🇵 HK_分享日记 3
-      - 🇯🇵 KR_分享日记
-      - PP|@Zyw_Channel
-      - Relay_ | 7.72Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_37 | 4.57Mb
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 US_分享日记 2
-      - 🇯🇵 US_分享日记 3
-      - 🇯🇵 US_分享日记 4
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_10
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_35
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_49
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_6
-      - YD|@Zyw_Channel
-      - YD|@Zyw_Channel 2
-      - YD|tg频道:@Zyw_Channel
-      - YD|www.zyw.asia ZYW免费节点
-      - 🇦🇪 迪拜-标准-01
-      - 🇦🇪 迪拜-标准-02
-      - 🇩🇪 德国-标准-02
-      - 🇩🇪 德国-标准-03
-      - 🇫🇷 法国_【YouTube-VV科技】_3
-      - 🇭🇰 香港直连|@ripaojiedian
-      - 🇭🇰 香港直连|@ripaojiedian 2
-      - 🇭🇰 香港专线|@ripaojiedian
-      - 🇮🇩 印度尼西亚-标准-01
-      - 🇯🇵 CN_分享日记_1
-      - 🇯🇵 日本A|@ripaojiedian
-      - 🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 日本-标准-05
-      - 🇰🇷 韩国_【YouTube-VV科技】
-      - 🇰🇷 韩国【YouTube-由零開始】
-      - 🇰🇷 韩国【YouTube-由零開始】 2
-      - 🇰🇷 韩国【YouTube-由零開始】 3
-      - 🇰🇷 韩国【YouTube-由零開始】 4
-      - 🇰🇷 韩国【YouTube-由零開始】 5
-      - 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2
-      - 🇳🇱 荷兰【YouTube-由零開始】
-      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇺🇸 @Hope_Net | US🇺🇸 | dd2.1808.cf:80 | 215.99ms | 0️⃣1️⃣
-      - 🇺🇸 _US_美国_2
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇺🇸 美国_【YouTube-VV科技】_12
-      - 🇺🇸 美国_【YouTube-VV科技】_15
-      - 🇺🇸 美国_【YouTube-VV科技】_15 2
-      - 🇺🇸 美国_【YouTube-VV科技】_16
+      - 🇨🇳 中国_【YouTube-VV科技】_3
       - 🇺🇸 美国_【YouTube-VV科技】_17
-      - 🇺🇸 美国_【YouTube-VV科技】_22
-      - 🇺🇸 美国_【YouTube-VV科技】_25
-      - 🇺🇸 美国_【YouTube-VV科技】_29
-      - 🇺🇸 美国_【YouTube-VV科技】_3
-      - 🇺🇸 美国_【YouTube-VV科技】_32
-      - 🇺🇸 美国_【YouTube-VV科技】_34
-      - 🇺🇸 美国_【YouTube-VV科技】_38
-      - 🇺🇸 美国_【YouTube-VV科技】_39
-      - 🇺🇸 美国_【YouTube-VV科技】_52
-      - 🇺🇸 美国_【YouTube-VV科技】_55
-      - 🇺🇸 美国_【YouTube-VV科技】_72
-      - 🇺🇸 美国_【YouTube-VV科技】_9
-      - 🇺🇸 美国-标准-02 | 解锁ChatGPT
-      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
-      - US_29 |25.61Mb
-      - US_88 |26.34Mb
-      - 🇺🇸 美国【YouTube-由零開始】
-      - 🇺🇸 美国【YouTube-由零開始】 2
-      - 🇺🇸 美国【YouTube-由零開始】 3
-      - 🇻🇳 越南-标准-01
-      - 🇻🇳 越南-标准-02
-      - 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun
+      - 🇯🇵 日本|tg频道:@ripaojiedian
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_55 |25.60Mb
+      - 🇭🇰 香港C|@ripaojiedian
+      - 🇨🇳 上海市 联通
+      - 🇯🇵 日本-标准-05
       - 🇧🇷 巴西-圣保罗2 加群不限速@xinglianyun
+      - 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun
+      - 🇬🇧 英国2丨白嫖机场.com
+      - 254254.xyz👈购买地址
+      - 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun
+      - 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun
       - 🇧🇷 巴西-维涅杜 加群不限速@xinglianyun
-      - 🇧🇬 保加利亚_Telegram@kxswa
-      - 不定期抽奖https://t.me/mftizi
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇫🇷 法国-马赛 加群不限速@xinglianyun
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/mftizi
-      - 🇰🇷 韩国-首尔 加群不限速@xinglianyun
-      - 🇰🇷 韩国-首尔2 加群不限速@xinglianyun
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇺🇸 美国_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - 🇺🇸 美国_Telegram@kxswa 22
-      - 🇺🇸 美国_Telegram@kxswa 23
-      - 🇺🇸 美国_Telegram@kxswa 24
-      - 🇺🇸 美国_Telegram@kxswa 25
-      - 🇺🇸 美国_Telegram@kxswa 26
-      - 🇺🇸 美国_Telegram@kxswa 27
-      - 🇺🇸 美国_Telegram@kxswa 28
-      - 🇺🇸 美国_Telegram@kxswa 29
-      - 🇺🇸 美国-阿什本2 加群不限速@xinglianyun
-      - 🇺🇸 美国-阿什本3 加群不限速@xinglianyun
-      - 🇺🇸 美国-凤凰城 加群不限速@xinglianyun
-      - 🏳️‍🌈 美国无限流量
-      - 🇿🇦 南非-约翰内斯堡 加群不限速@xinglianyun
       - 🇯🇵 日本-大阪3 加群不限速@xinglianyun
-      - 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun
-      - 🇨🇭 瑞士-苏黎世 加群不限速@xinglianyun
-      - 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun
-      - 🇮🇹 意大利-米兰 加群不限速@xinglianyun
-      - 🇮🇹 意大利-米兰4 加群不限速@xinglianyun
+      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
+      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
+      - 🇫🇷 法国-马赛 加群不限速@xinglianyun
+      - 🇰🇷 KR tg@freeVPNjd
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇬🇧 英国3丨白嫖机场.com
+      - 🇻🇳 越南-标准-01
+      - 「SCP 」NNC-CF-HTTP
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国-标准-02 | 解锁ChatGPT
       - 🇮🇳 印度-海得拉巴 加群不限速@xinglianyun
-      - 🇮🇳 印度-孟买3 加群不限速@xinglianyun
+      - 🇬🇧 英国1丨白嫖机场.com
+      - 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun
+      - 🇩🇪 德国-标准-03
+      - 🇨🇱 智利=tg频道:@bpjzx2=
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇦🇪 迪拜-标准-02
+      - 🇮🇹 意大利-米兰 加群不限速@xinglianyun
+      - CF|www.zyw.asia ZYW免费节点
+      - 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun
+      - 254254.xyz👈购买地址 2
       - 🇮🇳 印度-孟买4 加群不限速@xinglianyun
-      - 🇬🇧 英国_Telegram@kxswa
+      - 🇦🇪 迪拜-标准-01
+      - 🇺🇸 美国=tg频道:@bpjzx2=
+      - 🇨🇱 智利=tg频道:@bpjzx2= 2
+      - YD|tg频道:@Zyw_Channel
+      - 🇮🇩 印度尼西亚-标准-01
+      - 🇺🇸 美国-阿什本2 加群不限速@xinglianyun
+      - 🇷🇺 优化高速1-俄罗斯
+      - 🇯🇵 CA_分享日记
+      - 🇨🇱 智利-圣地亚哥2 加群不限速@xinglianyun
       - 🇬🇧 英国-伦敦  加群不限速@xinglianyun
+      - 🇻🇳 越南-标准-02
+      - 🇩🇪 德国-标准-02
+      - 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇺🇸 美国-凤凰城 加群不限速@xinglianyun
+      - 8DKJ|@Zyw_Channel
+      - 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun
+      - 关注电报https://t.me/mftizi
+      - 🇺🇸 美国-阿什本3 加群不限速@xinglianyun
+      - 🇧🇷 巴西-圣保罗4 加群不限速@xinglianyun
+      - 🇨🇦 _CA_加拿大_14
+      - 🇰🇷 韩国-首尔2 加群不限速@xinglianyun
+      - 🇮🇹 意大利-米兰4 加群不限速@xinglianyun
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - _电报频道 @mfjdpd 86
-      - _电报频道 @mfjdpd 96
-      - 8DKJ|@Zyw_Channel
-      - 8DKJ|tg频道:@Zyw_Channel
-      - 8DKJ|tg频道:@Zyw_Channel 2
-      - 8DKJ|tg频道:@Zyw_Channel 3
-      - 8DKJ|www.zyw.asia ZYW免费节点
-      - 🇯🇵 CA_分享日记
-      - 🇯🇵 CH_分享日记
-      - 🇯🇵 HK_分享日记
-      - 🇯🇵 HK_分享日记 2
-      - 🇯🇵 HK_分享日记 3
-      - 🇯🇵 KR_分享日记
-      - PP|@Zyw_Channel
-      - Relay_ | 7.72Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_37 | 4.57Mb
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 US_分享日记 2
-      - 🇯🇵 US_分享日记 3
-      - 🇯🇵 US_分享日记 4
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_10
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_35
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_49
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_6
-      - YD|@Zyw_Channel
-      - YD|@Zyw_Channel 2
-      - YD|tg频道:@Zyw_Channel
-      - YD|www.zyw.asia ZYW免费节点
-      - 🇦🇪 迪拜-标准-01
-      - 🇦🇪 迪拜-标准-02
-      - 🇩🇪 德国-标准-02
-      - 🇩🇪 德国-标准-03
-      - 🇫🇷 法国_【YouTube-VV科技】_3
-      - 🇭🇰 香港直连|@ripaojiedian
-      - 🇭🇰 香港直连|@ripaojiedian 2
-      - 🇭🇰 香港专线|@ripaojiedian
-      - 🇮🇩 印度尼西亚-标准-01
-      - 🇯🇵 CN_分享日记_1
-      - 🇯🇵 日本A|@ripaojiedian
-      - 🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 日本-标准-05
-      - 🇰🇷 韩国_【YouTube-VV科技】
-      - 🇰🇷 韩国【YouTube-由零開始】
-      - 🇰🇷 韩国【YouTube-由零開始】 2
-      - 🇰🇷 韩国【YouTube-由零開始】 3
-      - 🇰🇷 韩国【YouTube-由零開始】 4
-      - 🇰🇷 韩国【YouTube-由零開始】 5
-      - 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2
-      - 🇳🇱 荷兰【YouTube-由零開始】
-      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇺🇸 @Hope_Net | US🇺🇸 | dd2.1808.cf:80 | 215.99ms | 0️⃣1️⃣
-      - 🇺🇸 _US_美国_2
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇺🇸 美国_【YouTube-VV科技】_12
-      - 🇺🇸 美国_【YouTube-VV科技】_15
-      - 🇺🇸 美国_【YouTube-VV科技】_15 2
-      - 🇺🇸 美国_【YouTube-VV科技】_16
+      - 🇨🇳 中国_【YouTube-VV科技】_3
       - 🇺🇸 美国_【YouTube-VV科技】_17
-      - 🇺🇸 美国_【YouTube-VV科技】_22
-      - 🇺🇸 美国_【YouTube-VV科技】_25
-      - 🇺🇸 美国_【YouTube-VV科技】_29
-      - 🇺🇸 美国_【YouTube-VV科技】_3
-      - 🇺🇸 美国_【YouTube-VV科技】_32
-      - 🇺🇸 美国_【YouTube-VV科技】_34
-      - 🇺🇸 美国_【YouTube-VV科技】_38
-      - 🇺🇸 美国_【YouTube-VV科技】_39
-      - 🇺🇸 美国_【YouTube-VV科技】_52
-      - 🇺🇸 美国_【YouTube-VV科技】_55
-      - 🇺🇸 美国_【YouTube-VV科技】_72
-      - 🇺🇸 美国_【YouTube-VV科技】_9
-      - 🇺🇸 美国-标准-02 | 解锁ChatGPT
-      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
-      - US_29 |25.61Mb
-      - US_88 |26.34Mb
-      - 🇺🇸 美国【YouTube-由零開始】
-      - 🇺🇸 美国【YouTube-由零開始】 2
-      - 🇺🇸 美国【YouTube-由零開始】 3
-      - 🇻🇳 越南-标准-01
-      - 🇻🇳 越南-标准-02
-      - 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun
+      - 🇯🇵 日本|tg频道:@ripaojiedian
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_55 |25.60Mb
+      - 🇭🇰 香港C|@ripaojiedian
+      - 🇨🇳 上海市 联通
+      - 🇯🇵 日本-标准-05
       - 🇧🇷 巴西-圣保罗2 加群不限速@xinglianyun
+      - 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun
+      - 🇬🇧 英国2丨白嫖机场.com
+      - 254254.xyz👈购买地址
+      - 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun
+      - 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun
       - 🇧🇷 巴西-维涅杜 加群不限速@xinglianyun
-      - 🇧🇬 保加利亚_Telegram@kxswa
-      - 不定期抽奖https://t.me/mftizi
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇫🇷 法国-马赛 加群不限速@xinglianyun
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/mftizi
-      - 🇰🇷 韩国-首尔 加群不限速@xinglianyun
-      - 🇰🇷 韩国-首尔2 加群不限速@xinglianyun
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇺🇸 美国_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - 🇺🇸 美国_Telegram@kxswa 22
-      - 🇺🇸 美国_Telegram@kxswa 23
-      - 🇺🇸 美国_Telegram@kxswa 24
-      - 🇺🇸 美国_Telegram@kxswa 25
-      - 🇺🇸 美国_Telegram@kxswa 26
-      - 🇺🇸 美国_Telegram@kxswa 27
-      - 🇺🇸 美国_Telegram@kxswa 28
-      - 🇺🇸 美国_Telegram@kxswa 29
-      - 🇺🇸 美国-阿什本2 加群不限速@xinglianyun
-      - 🇺🇸 美国-阿什本3 加群不限速@xinglianyun
-      - 🇺🇸 美国-凤凰城 加群不限速@xinglianyun
-      - 🏳️‍🌈 美国无限流量
-      - 🇿🇦 南非-约翰内斯堡 加群不限速@xinglianyun
       - 🇯🇵 日本-大阪3 加群不限速@xinglianyun
-      - 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun
-      - 🇨🇭 瑞士-苏黎世 加群不限速@xinglianyun
-      - 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun
-      - 🇮🇹 意大利-米兰 加群不限速@xinglianyun
-      - 🇮🇹 意大利-米兰4 加群不限速@xinglianyun
+      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
+      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
+      - 🇫🇷 法国-马赛 加群不限速@xinglianyun
+      - 🇰🇷 KR tg@freeVPNjd
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇬🇧 英国3丨白嫖机场.com
+      - 🇻🇳 越南-标准-01
+      - 「SCP 」NNC-CF-HTTP
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国-标准-02 | 解锁ChatGPT
       - 🇮🇳 印度-海得拉巴 加群不限速@xinglianyun
-      - 🇮🇳 印度-孟买3 加群不限速@xinglianyun
+      - 🇬🇧 英国1丨白嫖机场.com
+      - 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun
+      - 🇩🇪 德国-标准-03
+      - 🇨🇱 智利=tg频道:@bpjzx2=
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇦🇪 迪拜-标准-02
+      - 🇮🇹 意大利-米兰 加群不限速@xinglianyun
+      - CF|www.zyw.asia ZYW免费节点
+      - 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun
+      - 254254.xyz👈购买地址 2
       - 🇮🇳 印度-孟买4 加群不限速@xinglianyun
-      - 🇬🇧 英国_Telegram@kxswa
+      - 🇦🇪 迪拜-标准-01
+      - 🇺🇸 美国=tg频道:@bpjzx2=
+      - 🇨🇱 智利=tg频道:@bpjzx2= 2
+      - YD|tg频道:@Zyw_Channel
+      - 🇮🇩 印度尼西亚-标准-01
+      - 🇺🇸 美国-阿什本2 加群不限速@xinglianyun
+      - 🇷🇺 优化高速1-俄罗斯
+      - 🇯🇵 CA_分享日记
+      - 🇨🇱 智利-圣地亚哥2 加群不限速@xinglianyun
       - 🇬🇧 英国-伦敦  加群不限速@xinglianyun
+      - 🇻🇳 越南-标准-02
+      - 🇩🇪 德国-标准-02
+      - 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇺🇸 美国-凤凰城 加群不限速@xinglianyun
+      - 8DKJ|@Zyw_Channel
+      - 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun
+      - 关注电报https://t.me/mftizi
+      - 🇺🇸 美国-阿什本3 加群不限速@xinglianyun
+      - 🇧🇷 巴西-圣保罗4 加群不限速@xinglianyun
+      - 🇨🇦 _CA_加拿大_14
+      - 🇰🇷 韩国-首尔2 加群不限速@xinglianyun
+      - 🇮🇹 意大利-米兰4 加群不限速@xinglianyun
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - _电报频道 @mfjdpd 86
-      - _电报频道 @mfjdpd 96
-      - 8DKJ|@Zyw_Channel
-      - 8DKJ|tg频道:@Zyw_Channel
-      - 8DKJ|tg频道:@Zyw_Channel 2
-      - 8DKJ|tg频道:@Zyw_Channel 3
-      - 8DKJ|www.zyw.asia ZYW免费节点
-      - 🇯🇵 CA_分享日记
-      - 🇯🇵 CH_分享日记
-      - 🇯🇵 HK_分享日记
-      - 🇯🇵 HK_分享日记 2
-      - 🇯🇵 HK_分享日记 3
-      - 🇯🇵 KR_分享日记
-      - PP|@Zyw_Channel
-      - Relay_ | 7.72Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_37 | 4.57Mb
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 US_分享日记 2
-      - 🇯🇵 US_分享日记 3
-      - 🇯🇵 US_分享日记 4
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_10
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_35
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_49
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_6
-      - YD|@Zyw_Channel
-      - YD|@Zyw_Channel 2
-      - YD|tg频道:@Zyw_Channel
-      - YD|www.zyw.asia ZYW免费节点
-      - 🇦🇪 迪拜-标准-01
-      - 🇦🇪 迪拜-标准-02
-      - 🇩🇪 德国-标准-02
-      - 🇩🇪 德国-标准-03
-      - 🇫🇷 法国_【YouTube-VV科技】_3
-      - 🇭🇰 香港直连|@ripaojiedian
-      - 🇭🇰 香港直连|@ripaojiedian 2
-      - 🇭🇰 香港专线|@ripaojiedian
-      - 🇮🇩 印度尼西亚-标准-01
-      - 🇯🇵 CN_分享日记_1
-      - 🇯🇵 日本A|@ripaojiedian
-      - 🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 日本-标准-05
-      - 🇰🇷 韩国_【YouTube-VV科技】
-      - 🇰🇷 韩国【YouTube-由零開始】
-      - 🇰🇷 韩国【YouTube-由零開始】 2
-      - 🇰🇷 韩国【YouTube-由零開始】 3
-      - 🇰🇷 韩国【YouTube-由零開始】 4
-      - 🇰🇷 韩国【YouTube-由零開始】 5
-      - 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2
-      - 🇳🇱 荷兰【YouTube-由零開始】
-      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇺🇸 @Hope_Net | US🇺🇸 | dd2.1808.cf:80 | 215.99ms | 0️⃣1️⃣
-      - 🇺🇸 _US_美国_2
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇺🇸 美国_【YouTube-VV科技】_12
-      - 🇺🇸 美国_【YouTube-VV科技】_15
-      - 🇺🇸 美国_【YouTube-VV科技】_15 2
-      - 🇺🇸 美国_【YouTube-VV科技】_16
+      - 🇨🇳 中国_【YouTube-VV科技】_3
       - 🇺🇸 美国_【YouTube-VV科技】_17
-      - 🇺🇸 美国_【YouTube-VV科技】_22
-      - 🇺🇸 美国_【YouTube-VV科技】_25
-      - 🇺🇸 美国_【YouTube-VV科技】_29
-      - 🇺🇸 美国_【YouTube-VV科技】_3
-      - 🇺🇸 美国_【YouTube-VV科技】_32
-      - 🇺🇸 美国_【YouTube-VV科技】_34
-      - 🇺🇸 美国_【YouTube-VV科技】_38
-      - 🇺🇸 美国_【YouTube-VV科技】_39
-      - 🇺🇸 美国_【YouTube-VV科技】_52
-      - 🇺🇸 美国_【YouTube-VV科技】_55
-      - 🇺🇸 美国_【YouTube-VV科技】_72
-      - 🇺🇸 美国_【YouTube-VV科技】_9
-      - 🇺🇸 美国-标准-02 | 解锁ChatGPT
-      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
-      - US_29 |25.61Mb
-      - US_88 |26.34Mb
-      - 🇺🇸 美国【YouTube-由零開始】
-      - 🇺🇸 美国【YouTube-由零開始】 2
-      - 🇺🇸 美国【YouTube-由零開始】 3
-      - 🇻🇳 越南-标准-01
-      - 🇻🇳 越南-标准-02
-      - 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun
+      - 🇯🇵 日本|tg频道:@ripaojiedian
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_55 |25.60Mb
+      - 🇭🇰 香港C|@ripaojiedian
+      - 🇨🇳 上海市 联通
+      - 🇯🇵 日本-标准-05
       - 🇧🇷 巴西-圣保罗2 加群不限速@xinglianyun
+      - 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun
+      - 🇬🇧 英国2丨白嫖机场.com
+      - 254254.xyz👈购买地址
+      - 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun
+      - 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun
       - 🇧🇷 巴西-维涅杜 加群不限速@xinglianyun
-      - 🇧🇬 保加利亚_Telegram@kxswa
-      - 不定期抽奖https://t.me/mftizi
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇫🇷 法国-马赛 加群不限速@xinglianyun
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/mftizi
-      - 🇰🇷 韩国-首尔 加群不限速@xinglianyun
-      - 🇰🇷 韩国-首尔2 加群不限速@xinglianyun
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇺🇸 美国_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - 🇺🇸 美国_Telegram@kxswa 22
-      - 🇺🇸 美国_Telegram@kxswa 23
-      - 🇺🇸 美国_Telegram@kxswa 24
-      - 🇺🇸 美国_Telegram@kxswa 25
-      - 🇺🇸 美国_Telegram@kxswa 26
-      - 🇺🇸 美国_Telegram@kxswa 27
-      - 🇺🇸 美国_Telegram@kxswa 28
-      - 🇺🇸 美国_Telegram@kxswa 29
-      - 🇺🇸 美国-阿什本2 加群不限速@xinglianyun
-      - 🇺🇸 美国-阿什本3 加群不限速@xinglianyun
-      - 🇺🇸 美国-凤凰城 加群不限速@xinglianyun
-      - 🏳️‍🌈 美国无限流量
-      - 🇿🇦 南非-约翰内斯堡 加群不限速@xinglianyun
       - 🇯🇵 日本-大阪3 加群不限速@xinglianyun
-      - 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun
-      - 🇨🇭 瑞士-苏黎世 加群不限速@xinglianyun
-      - 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun
-      - 🇮🇹 意大利-米兰 加群不限速@xinglianyun
-      - 🇮🇹 意大利-米兰4 加群不限速@xinglianyun
+      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
+      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
+      - 🇫🇷 法国-马赛 加群不限速@xinglianyun
+      - 🇰🇷 KR tg@freeVPNjd
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇬🇧 英国3丨白嫖机场.com
+      - 🇻🇳 越南-标准-01
+      - 「SCP 」NNC-CF-HTTP
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国-标准-02 | 解锁ChatGPT
       - 🇮🇳 印度-海得拉巴 加群不限速@xinglianyun
-      - 🇮🇳 印度-孟买3 加群不限速@xinglianyun
+      - 🇬🇧 英国1丨白嫖机场.com
+      - 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun
+      - 🇩🇪 德国-标准-03
+      - 🇨🇱 智利=tg频道:@bpjzx2=
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇦🇪 迪拜-标准-02
+      - 🇮🇹 意大利-米兰 加群不限速@xinglianyun
+      - CF|www.zyw.asia ZYW免费节点
+      - 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun
+      - 254254.xyz👈购买地址 2
       - 🇮🇳 印度-孟买4 加群不限速@xinglianyun
-      - 🇬🇧 英国_Telegram@kxswa
+      - 🇦🇪 迪拜-标准-01
+      - 🇺🇸 美国=tg频道:@bpjzx2=
+      - 🇨🇱 智利=tg频道:@bpjzx2= 2
+      - YD|tg频道:@Zyw_Channel
+      - 🇮🇩 印度尼西亚-标准-01
+      - 🇺🇸 美国-阿什本2 加群不限速@xinglianyun
+      - 🇷🇺 优化高速1-俄罗斯
+      - 🇯🇵 CA_分享日记
+      - 🇨🇱 智利-圣地亚哥2 加群不限速@xinglianyun
       - 🇬🇧 英国-伦敦  加群不限速@xinglianyun
+      - 🇻🇳 越南-标准-02
+      - 🇩🇪 德国-标准-02
+      - 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇺🇸 美国-凤凰城 加群不限速@xinglianyun
+      - 8DKJ|@Zyw_Channel
+      - 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun
+      - 关注电报https://t.me/mftizi
+      - 🇺🇸 美国-阿什本3 加群不限速@xinglianyun
+      - 🇧🇷 巴西-圣保罗4 加群不限速@xinglianyun
+      - 🇨🇦 _CA_加拿大_14
+      - 🇰🇷 韩国-首尔2 加群不限速@xinglianyun
+      - 🇮🇹 意大利-米兰4 加群不限速@xinglianyun
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - _电报频道 @mfjdpd 86
-      - _电报频道 @mfjdpd 96
-      - 8DKJ|@Zyw_Channel
-      - 8DKJ|tg频道:@Zyw_Channel
-      - 8DKJ|tg频道:@Zyw_Channel 2
-      - 8DKJ|tg频道:@Zyw_Channel 3
-      - 8DKJ|www.zyw.asia ZYW免费节点
-      - 🇯🇵 CA_分享日记
-      - 🇯🇵 CH_分享日记
-      - 🇯🇵 HK_分享日记
-      - 🇯🇵 HK_分享日记 2
-      - 🇯🇵 HK_分享日记 3
-      - 🇯🇵 KR_分享日记
-      - PP|@Zyw_Channel
-      - Relay_ | 7.72Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_37 | 4.57Mb
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 US_分享日记 2
-      - 🇯🇵 US_分享日记 3
-      - 🇯🇵 US_分享日记 4
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_10
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_35
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_49
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_6
-      - YD|@Zyw_Channel
-      - YD|@Zyw_Channel 2
-      - YD|tg频道:@Zyw_Channel
-      - YD|www.zyw.asia ZYW免费节点
-      - 🇦🇪 迪拜-标准-01
-      - 🇦🇪 迪拜-标准-02
-      - 🇩🇪 德国-标准-02
-      - 🇩🇪 德国-标准-03
-      - 🇫🇷 法国_【YouTube-VV科技】_3
-      - 🇭🇰 香港直连|@ripaojiedian
-      - 🇭🇰 香港直连|@ripaojiedian 2
-      - 🇭🇰 香港专线|@ripaojiedian
-      - 🇮🇩 印度尼西亚-标准-01
-      - 🇯🇵 CN_分享日记_1
-      - 🇯🇵 日本A|@ripaojiedian
-      - 🇯🇵 日本KT|@ripaojiedian
-      - 🇯🇵 日本-标准-05
-      - 🇰🇷 韩国_【YouTube-VV科技】
-      - 🇰🇷 韩国【YouTube-由零開始】
-      - 🇰🇷 韩国【YouTube-由零開始】 2
-      - 🇰🇷 韩国【YouTube-由零開始】 3
-      - 🇰🇷 韩国【YouTube-由零開始】 4
-      - 🇰🇷 韩国【YouTube-由零開始】 5
-      - 🇳🇱 >🇳🇱 NL|Ls|0824|TG@FProxies| 2
-      - 🇳🇱 荷兰【YouTube-由零開始】
-      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇺🇸 @Hope_Net | US🇺🇸 | dd2.1808.cf:80 | 215.99ms | 0️⃣1️⃣
-      - 🇺🇸 _US_美国_2
-      - 🇺🇸 「SCP」US-DP4-HTTP
-      - 🇺🇸 美国_【YouTube-VV科技】_12
-      - 🇺🇸 美国_【YouTube-VV科技】_15
-      - 🇺🇸 美国_【YouTube-VV科技】_15 2
-      - 🇺🇸 美国_【YouTube-VV科技】_16
+      - 🇨🇳 中国_【YouTube-VV科技】_3
       - 🇺🇸 美国_【YouTube-VV科技】_17
-      - 🇺🇸 美国_【YouTube-VV科技】_22
-      - 🇺🇸 美国_【YouTube-VV科技】_25
-      - 🇺🇸 美国_【YouTube-VV科技】_29
-      - 🇺🇸 美国_【YouTube-VV科技】_3
-      - 🇺🇸 美国_【YouTube-VV科技】_32
-      - 🇺🇸 美国_【YouTube-VV科技】_34
-      - 🇺🇸 美国_【YouTube-VV科技】_38
-      - 🇺🇸 美国_【YouTube-VV科技】_39
-      - 🇺🇸 美国_【YouTube-VV科技】_52
-      - 🇺🇸 美国_【YouTube-VV科技】_55
-      - 🇺🇸 美国_【YouTube-VV科技】_72
-      - 🇺🇸 美国_【YouTube-VV科技】_9
-      - 🇺🇸 美国-标准-02 | 解锁ChatGPT
-      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
-      - US_29 |25.61Mb
-      - US_88 |26.34Mb
-      - 🇺🇸 美国【YouTube-由零開始】
-      - 🇺🇸 美国【YouTube-由零開始】 2
-      - 🇺🇸 美国【YouTube-由零開始】 3
-      - 🇻🇳 越南-标准-01
-      - 🇻🇳 越南-标准-02
-      - 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun
-      - 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun
+      - 🇯🇵 日本|tg频道:@ripaojiedian
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_55 |25.60Mb
+      - 🇭🇰 香港C|@ripaojiedian
+      - 🇨🇳 上海市 联通
+      - 🇯🇵 日本-标准-05
       - 🇧🇷 巴西-圣保罗2 加群不限速@xinglianyun
+      - 🇦🇺 澳大利亚-墨尔本2 加群不限速@xinglianyun
+      - 🇬🇧 英国2丨白嫖机场.com
+      - 254254.xyz👈购买地址
+      - 🇦🇪 阿联酋-迪拜2 加群不限速@xinglianyun
+      - 🇦🇺 澳大利亚-悉尼4 加群不限速@xinglianyun
       - 🇧🇷 巴西-维涅杜 加群不限速@xinglianyun
-      - 🇧🇬 保加利亚_Telegram@kxswa
-      - 不定期抽奖https://t.me/mftizi
-      - 🇷🇺 俄罗斯联邦_Telegram@kxswa
-      - 🇫🇷 法国-马赛 加群不限速@xinglianyun
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/mftizi
-      - 🇰🇷 韩国-首尔 加群不限速@xinglianyun
-      - 🇰🇷 韩国-首尔2 加群不限速@xinglianyun
-      - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇺🇸 美国_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - 🇺🇸 美国_Telegram@kxswa 22
-      - 🇺🇸 美国_Telegram@kxswa 23
-      - 🇺🇸 美国_Telegram@kxswa 24
-      - 🇺🇸 美国_Telegram@kxswa 25
-      - 🇺🇸 美国_Telegram@kxswa 26
-      - 🇺🇸 美国_Telegram@kxswa 27
-      - 🇺🇸 美国_Telegram@kxswa 28
-      - 🇺🇸 美国_Telegram@kxswa 29
-      - 🇺🇸 美国-阿什本2 加群不限速@xinglianyun
-      - 🇺🇸 美国-阿什本3 加群不限速@xinglianyun
-      - 🇺🇸 美国-凤凰城 加群不限速@xinglianyun
-      - 🏳️‍🌈 美国无限流量
-      - 🇿🇦 南非-约翰内斯堡 加群不限速@xinglianyun
       - 🇯🇵 日本-大阪3 加群不限速@xinglianyun
-      - 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun
-      - 🇨🇭 瑞士-苏黎世 加群不限速@xinglianyun
-      - 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun
-      - 🇮🇹 意大利-米兰 加群不限速@xinglianyun
-      - 🇮🇹 意大利-米兰4 加群不限速@xinglianyun
+      - 🇵🇭 VIP | 东南亚-菲律宾01【1.5x】| 支持Tiktok
+      - 🇺🇸 美国-标准-04 | 解锁ChatGPT
+      - 🇫🇷 法国-马赛 加群不限速@xinglianyun
+      - 🇰🇷 KR tg@freeVPNjd
+      - 🇯🇵 日本2|@ripaojiedian
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - 🇬🇧 英国3丨白嫖机场.com
+      - 🇻🇳 越南-标准-01
+      - 「SCP 」NNC-CF-HTTP
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国-标准-02 | 解锁ChatGPT
       - 🇮🇳 印度-海得拉巴 加群不限速@xinglianyun
-      - 🇮🇳 印度-孟买3 加群不限速@xinglianyun
+      - 🇬🇧 英国1丨白嫖机场.com
+      - 🇦🇺 澳大利亚-悉尼2 加群不限速@xinglianyun
+      - 🇩🇪 德国-标准-03
+      - 🇨🇱 智利=tg频道:@bpjzx2=
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇦🇪 迪拜-标准-02
+      - 🇮🇹 意大利-米兰 加群不限速@xinglianyun
+      - CF|www.zyw.asia ZYW免费节点
+      - 🇮🇱 以色列-耶路撒冷 加群不限速@xinglianyun
+      - 254254.xyz👈购买地址 2
       - 🇮🇳 印度-孟买4 加群不限速@xinglianyun
-      - 🇬🇧 英国_Telegram@kxswa
+      - 🇦🇪 迪拜-标准-01
+      - 🇺🇸 美国=tg频道:@bpjzx2=
+      - 🇨🇱 智利=tg频道:@bpjzx2= 2
+      - YD|tg频道:@Zyw_Channel
+      - 🇮🇩 印度尼西亚-标准-01
+      - 🇺🇸 美国-阿什本2 加群不限速@xinglianyun
+      - 🇷🇺 优化高速1-俄罗斯
+      - 🇯🇵 CA_分享日记
+      - 🇨🇱 智利-圣地亚哥2 加群不限速@xinglianyun
       - 🇬🇧 英国-伦敦  加群不限速@xinglianyun
+      - 🇻🇳 越南-标准-02
+      - 🇩🇪 德国-标准-02
+      - 🇸🇪 瑞典-斯德哥尔摩 加群不限速@xinglianyun
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇺🇸 美国-凤凰城 加群不限速@xinglianyun
+      - 8DKJ|@Zyw_Channel
+      - 🇦🇺 澳大利亚-墨尔本 加群不限速@xinglianyun
+      - 关注电报https://t.me/mftizi
+      - 🇺🇸 美国-阿什本3 加群不限速@xinglianyun
+      - 🇧🇷 巴西-圣保罗4 加群不限速@xinglianyun
+      - 🇨🇦 _CA_加拿大_14
+      - 🇰🇷 韩国-首尔2 加群不限速@xinglianyun
+      - 🇮🇹 意大利-米兰4 加群不限速@xinglianyun
   - name: 🎯 不挂代理
     type: select
     proxies:
