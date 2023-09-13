@@ -26,7 +26,7 @@ addEventListener('fetch', event => {
  * Handle requests to WEBHOOK
  * https://core.telegram.org/bots/api#update
  */
-async function handleWebhook (event) {
+async function handleWebhook(event) {
   // Check secret
   if (event.request.headers.get('X-Telegram-Bot-Api-Secret-Token') !== SECRET) {
     return new Response('Unauthorized', { status: 403 })
@@ -44,25 +44,18 @@ async function handleWebhook (event) {
  * Handle incoming Update
  * https://core.telegram.org/bots/api#update
  */
-async function onUpdate (update) {
-  if ('message' in update) {
-    await onMessage(update.message)
+async function onUpdate(update) {
+  if ('text' in update.message) {
+    const text = '✈ 客 服 ✈\n' + '欢迎光临！'
+    await sendMessage(update.message.chat.id, text)
   }
-}
-
-/**
- * Handle incoming Message
- * https://core.telegram.org/bots/api#message
- */
-function onMessage (message) {
-  return sendPlainText(message.chat.id, 'Echo:\n' + message.text)
 }
 
 /**
  * Send plain text message
  * https://core.telegram.org/bots/api#sendmessage
  */
-async function sendPlainText (chatId, text) {
+async function sendMessage(chatId, text) {
   return (await fetch(apiUrl('sendMessage', {
     chat_id: chatId,
     text
@@ -73,7 +66,7 @@ async function sendPlainText (chatId, text) {
  * Set webhook to this worker's url
  * https://core.telegram.org/bots/api#setwebhook
  */
-async function registerWebhook (event, requestUrl, suffix, secret) {
+async function registerWebhook(event, requestUrl, suffix, secret) {
   // https://core.telegram.org/bots/api#setwebhook
   const webhookUrl = `${requestUrl.protocol}//${requestUrl.hostname}${suffix}`
   const r = await (await fetch(apiUrl('setWebhook', { url: webhookUrl, secret_token: secret }))).json()
@@ -84,7 +77,7 @@ async function registerWebhook (event, requestUrl, suffix, secret) {
  * Remove webhook
  * https://core.telegram.org/bots/api#setwebhook
  */
-async function unRegisterWebhook (event) {
+async function unRegisterWebhook(event) {
   const r = await (await fetch(apiUrl('setWebhook', { url: '' }))).json()
   return new Response('ok' in r && r.ok ? 'Ok' : JSON.stringify(r, null, 2))
 }
@@ -92,7 +85,7 @@ async function unRegisterWebhook (event) {
 /**
  * Return url to telegram api, optionally with parameters added
  */
-function apiUrl (methodName, params = null) {
+function apiUrl(methodName, params = null) {
   let query = ''
   if (params) {
     query = '?' + new URLSearchParams(params).toString()
