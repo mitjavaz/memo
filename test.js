@@ -1,31 +1,22 @@
-// 机器人token
-const TOKEN = ENV_BOT_TOKEN
-// 机器人请求的URL接口后缀
+/**
+ * https://github.com/cvzi/telegram-bot-cloudflare
+ */
+
+const TOKEN = ENV_BOT_TOKEN // Get it from @BotFather https://core.telegram.org/bots#6-botfather
 const WEBHOOK = '/endpoint'
-// 密钥
 const SECRET = ENV_BOT_SECRET // A-Z, a-z, 0-9, _ and -
 
 /**
- * Router of the work
- * 工作路由
+ * Wait for requests to the worker
  */
 addEventListener('fetch', event => {
-  // 获取请求的URL
   const url = new URL(event.request.url)
-
-  // 机器人的请求处理
   if (url.pathname === WEBHOOK) {
     event.respondWith(handleWebhook(event))
-
-    // 机器人的webhook注册
-  } else if (url.pathname === '/reg') {
-    event.respondWith(registerWebhook(url, WEBHOOK, SECRET))
-
-    // 机器人的webhook注销
-  } else if (url.pathname === '/remove') {
-    event.respondWith(unRegisterWebhook())
-
-    // 404
+  } else if (url.pathname === '/registerWebhook') {
+    event.respondWith(registerWebhook(event, url, WEBHOOK, SECRET))
+  } else if (url.pathname === '/unRegisterWebhook') {
+    event.respondWith(unRegisterWebhook(event))
   } else {
     event.respondWith(new Response('No handler for this request'))
   }
@@ -33,32 +24,29 @@ addEventListener('fetch', event => {
 
 /**
  * Handle requests to WEBHOOK
- * 机器人的请求处理
  * https://core.telegram.org/bots/api#update
  */
-async function handleWebhook(event) {
-  // Check secret 检查密钥
+async function handleWebhook (event) {
+  // Check secret
   if (event.request.headers.get('X-Telegram-Bot-Api-Secret-Token') !== SECRET) {
-    return new Response('Unauthorized 未授权', { status: 403 })
+    return new Response('Unauthorized', { status: 403 })
   }
 
-  // 处理传入的数据
-  event.waitUntil(onUpdate(event))
+  // Read request body synchronously
+  const update = await event.request.json()
+  // Deal with response asynchronously
+  event.waitUntil(onUpdate(update))
 
   return new Response('Ok')
 }
 
 /**
  * Handle incoming Update
- * 处理传入的update数据
  * https://core.telegram.org/bots/api#update
  */
-async function onUpdate(data) {
-
-  const update = await data.request.json()
-
+async function onUpdate (update) {
   if ('message' in update) {
-    return await onMessage(update.message)
+    await onMessage(update.message)
   }
 }
 
@@ -66,41 +54,26 @@ async function onUpdate(data) {
  * Handle incoming Message
  * https://core.telegram.org/bots/api#message
  */
-async function onMessage(message) {
-  let data = {
-    "method": "sendMessage",
-    "chat_id": message.chat.id,
-    "text": '🎁客服🎁:\n' + message.text + '\n' + message.chat.id
-  }
-  await fPost(data)
-  const chatId = message.chat.id
-  const text1 = '' + apiUrl('sendMessage', {
-    chat_id: chatId,
-    text: 'hello'
-  })
-  return await sendPlainText(chatId, text1)
+function onMessage (message) {
+  return sendPlainText(message.chat.id, 'Echo:\n' + message.text)
 }
 
 /**
  * Send plain text message
  * https://core.telegram.org/bots/api#sendmessage
  */
-async function sendPlainText(chatId, text) {
-  // return await fetch(apiUrl('sendMessage', {
-  //   chat_id: chatId,
-  //   text
-  // }))
-  await aFetch('sendMessage', {
+async function sendPlainText (chatId, text) {
+  return (await fetch(apiUrl('sendMessage', {
     chat_id: chatId,
     text
-  })
+  }))).json()
 }
 
 /**
  * Set webhook to this worker's url
  * https://core.telegram.org/bots/api#setwebhook
  */
-async function registerWebhook(requestUrl, suffix, secret) {
+async function registerWebhook (event, requestUrl, suffix, secret) {
   // https://core.telegram.org/bots/api#setwebhook
   const webhookUrl = `${requestUrl.protocol}//${requestUrl.hostname}${suffix}`
   const r = await (await fetch(apiUrl('setWebhook', { url: webhookUrl, secret_token: secret }))).json()
@@ -111,7 +84,7 @@ async function registerWebhook(requestUrl, suffix, secret) {
  * Remove webhook
  * https://core.telegram.org/bots/api#setwebhook
  */
-async function unRegisterWebhook() {
+async function unRegisterWebhook (event) {
   const r = await (await fetch(apiUrl('setWebhook', { url: '' }))).json()
   return new Response('ok' in r && r.ok ? 'Ok' : JSON.stringify(r, null, 2))
 }
@@ -119,24 +92,10 @@ async function unRegisterWebhook() {
 /**
  * Return url to telegram api, optionally with parameters added
  */
-function apiUrl(methodName, params = null) {
+function apiUrl (methodName, params = null) {
   let query = ''
   if (params) {
     query = '?' + new URLSearchParams(params).toString()
   }
   return `https://api.telegram.org/bot${TOKEN}/${methodName}${query}`
-}
-/**
- * fetch的封装函数
- */
-async function aFetch(methodName, params = null) {
-  await fetch(apiUrl(methodName, params));
-}
-async function fPost(payload) {
-  const data = {
-    "method": 'post',
-    "payload": payload
-  }
-
-  await fetch(apiUrl(payload.method, data), data)
 }
