@@ -5,231 +5,76 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 @hkaa0 | 美国, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
-  - {name: 🇺🇸 @hkaa0 |美国, server: 45.199.138.209, port: 50447, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 @hkaa0 |美国 2, server: 156.225.67.48, port: 45493, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 @hkaa0 |美国 3, server: 156.225.67.102, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 @hkaa0 |香港, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: "@hkaa0 |中国", server: 120.226.50.94, port: 40702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: ">Beta|🇺🇳 FP|Ls|0909|TG@FProxies| 6", server: south.steamdownload.top, port: 11004, type: trojan, password: b51d89d1-cb6c-4887-9529-ee5392e93fed, skip-cert-verify: true}
-  - {name: ">Beta|🇺🇳 FP|Ns|0909|TG@FProxies| 19", server: south.steamdownload.top, port: 11005, type: trojan, password: b51d89d1-cb6c-4887-9529-ee5392e93fed, skip-cert-verify: true}
-  - {name: ">🇻🇳 VN|Ls|0909|TG@FProxies| 5", server: s-2.api-node.run, port: 443, type: trojan, password: 09e202fe-1c02-469c-9685-8d8fd525838c, skip-cert-verify: true}
-  - {name: ">🇻🇳 VN|Ms|0909|TG@FProxies| 5", server: s-3.api-node.run, port: 443, type: trojan, password: 09e202fe-1c02-469c-9685-8d8fd525838c, skip-cert-verify: true}
-  - {name: ">🇻🇳 VN|Ns|0909|TG@FProxies| 6", server: cnzz02.fastbiubiu.com, port: 6421, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: cnzz02.fastbiubiu.com}}}
-  - {name: 254254.xyz👈购买地址, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: 254254.xyz👈购买地址 2, server: lt1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: 254254.xyz👈购买地址 3, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: CF|www.zyw.asia ZYW免费节点, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
-  - {name: RELAY-172.67.200.176-0101, server: yd1.992688.xyz, port: 8080, type: vmess, uuid: cafbdf1c-5812-492f-92ac-330650c6ecf0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu1.vpn66.eu.org}}}
-  - {name: RELAY-172.67.200.176-0814, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: RELAY-172.67.206.242-1778, server: lt1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: RELAY-172.67.221.18-1296, server: 172.67.221.18, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: 🇯🇵 US_分享日记, server: 107.167.16.85, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.51109057.xyz}}}
-  - {name: 🇯🇵 US_分享日记 2, server: 137.175.86.129, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694604820478, headers: {Host: www.46074906.xyz}}}
-  - {name: 🇯🇵 US_分享日记 3, server: 38.63.0.71, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/053133263111, headers: {Host: www.19458162.xyz}}}
-  - {name: 🇯🇵 US_分享日记 4, server: 192.74.228.187, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/140319000216, headers: {Host: www.59274706.xyz}}}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_133, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_136, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: ef591064-640a-48e0-a511-623d5c0e67e9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_152, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_162, server: ms.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ms.shabijichang.com}}}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_2, server: 142.4.125.84, port: 59614, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_22, server: 142.4.125.84, port: 59614, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_50, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_53, server: 142.4.125.84, port: 59614, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_88, server: xn4.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: YD|www.zyw.asia ZYW免费节点, server: 38.26.135.18, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693992821776, headers: {Host: www.39838266.xyz}}}
-  - {name: 阿布扎比｜x0.1, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: abzb.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: abzb.kxking.eu.org}}}
-  - {name: 阿布扎比｜x0.1 2, server: 195.245.241.30, port: 12345, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: abzb.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: abzb.kxking.eu.org}}}
-  - {name: 🇦🇪 迪拜｜x0.1, server: 195.245.241.30, port: 12345, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: dci.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: dci.kxking.eu.org}}}
-  - {name: 🇦🇪 迪拜｜x0.1 2, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: dci.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: dci.kxking.eu.org}}}
-  - {name: 🇦🇺 悉尼｜x0.1, server: 195.245.241.30, port: 12345, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: xn.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: xn.kxking.eu.org}}}
-  - {name: 🇦🇺 悉尼｜x0.1 2, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: xn.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: xn.kxking.eu.org}}}
-  - {name: 🇨🇳 @hkaa0 | 中国_10, server: 112.26.46.24, port: 27202, type: ss, cipher: chacha20-ietf-poly1305, password: 2a23c437-de2c-47e3-b779-fb1d2289578f}
-  - {name: 🇨🇳 @hkaa0 |中国_36, server: jjozz-1092-tr-8.r-kcd-b.iote.bond, port: 39919, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true}
-  - {name: 🇨🇳 @hkaa0 |中国_38, server: zjpvc-1083-tr-0.r-kcd-b.tuil.xyz, port: 29969, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true}
-  - {name: 🇨🇳 @hkaa0 |中国_40, server: 183.237.20.146, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies|, server: yd-03.paofunlink.com, port: 1078, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 2, server: yd-03.paofunlink.com, port: 1076, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 3, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13305, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 4, server: fpxs9.cdn.node.a.tddns-ounk.com, port: 13337, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 5, server: yd-02.paofunlink.com, port: 1074, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇨🇳 Premium-台湾 HiNet丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11428, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇨🇳 Pro-台湾 HiNet丨全解锁丨A1, server: vip.basicnode.host, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8, server: botshard.pyptom.cf, port: 443, type: vmess, uuid: 8c94dfd8-52dd-451c-8c85-26770cd41768, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: botshard.pyptom.cf}}}
-  - {name: 🇩🇪 德国, server: 89.163.157.205, port: 443, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇩🇪 德国｜x0.1, server: 195.245.241.30, port: 12345, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: de.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: de.kxking.eu.org}}}
-  - {name: 🇩🇪 德国｜x0.1 2, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: de.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: de.kxking.eu.org}}}
-  - {name: 🇫🇷 >🇫🇷 FR|Ls|0909|TG@FProxies| 2, server: main.animelover.ir, port: 443, type: vmess, uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Amsterdam.kotick.site/speedtest, headers: {Host: main.animelover.ir}}}
-  - {name: 🇬🇧 Base-英国 Gcore丨全解锁丨A1, server: vip.basicnode.host, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇬🇧 Premium-英国 Gcore丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11501, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇭🇰 >🇭🇰 HK|Hs|0909|TG@FProxies| 5, server: x321.cdn.node.a.tddns-ounk.com, port: 13495, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 4, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 5, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: None, obfs-param: ""}
-  - {name: 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 9, server: sql.accessconnect.cc, port: 999, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203723:kS6Oji, obfs-param: 72106203723.www.gov.hk}
-  - {name: 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 19, server: x321.cdn.node.a.tddns-ounk.com, port: 13499, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 2, server: x321.cdn.node.a.tddns-ounk.com, port: 13416, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 25, server: x321.cdn.node.a.tddns-ounk.com, port: 13534, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇭🇰 Base-香港 HKG丨全解锁丨A1丨V2ray丨A1, server: vip.basicnode.host, port: 16627, type: vmess, uuid: 4aa447d6-744b-32f9-9a8f-a39ca2f89b60, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /niuniu, headers: {Host: 193.25.215.160}}}
-  - {name: 🇭🇰 Base-香港 HKG丨全解锁丨A3, server: vip.basicnode.host, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇭🇰 Premium-香港 DMIT丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11420, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇭🇰 Premium-香港 HKG丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇭🇰 Pro-香港 HKG丨全解锁丨A1, server: vip.basicnode.host, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇭🇰 Pro-香港 HKG丨全解锁丨A2, server: vip.basicnode.host, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇭🇰 香港03 tg@freeVPNjd, server: fgddt-1082-tr-4.r-kcd-a.tuil.xyz, port: 39909, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: s3.cjhh.beauty, skip-cert-verify: false}
-  - {name: 🇭🇰 香港1|@ripaojiedian, server: 120.226.50.94, port: 40702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 120.226.50.94, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港02, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: hk1.kxking.eu.org}}}
-  - {name: 耶路撒冷｜x0.1, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: ylsl.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: ylsl.kxking.eu.org}}}
-  - {name: 耶路撒冷｜x0.1 2, server: 195.245.241.30, port: 12345, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: ylsl.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: ylsl.kxking.eu.org}}}
-  - {name: 🇮🇳 >🇮🇳 IN|Hs|0909|TG@FProxies| 2, server: cnzz01.fastbiubiu.com, port: 1562, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: cnzz01.fastbiubiu.com}}}
-  - {name: 🇮🇳 网站：db01.in, server: 39.164.141.84, port: 50080, type: vmess, uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /db, headers: {Host: b.db-link.in}}}
-  - {name: 🇮🇳 直连-移动网优化|-网站：dabai.in, server: sd.db-link.in, port: 80, type: vmess, uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /db, headers: {Host: c.cn-db.top}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3, server: cnzz05.fastbiubiu.com, port: 16401, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: cnzz05.fastbiubiu.com}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 7, server: xrbsy1.cdn.node.a.tddns-ounk.com, port: 13234, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇯🇵 >🇯🇵 JP|Ls|0909|TG@FProxies| 6, server: zsuxuszr.gaziaq.icu, port: 47186, type: ss, cipher: chacha20-ietf-poly1305, password: 597a5a14-77c6-4ef3-88c1-6cb2531c9dc9}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 10, server: jp-m247.fishcloudcdn.top, port: 8880, type: vmess, uuid: 72d01c70-5714-3549-9995-792948f51165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jpm247, headers: {Host: jp-m247.fishcloudcdn.top}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 2, server: jp-m247.fishcloudcdn.top, port: 8880, type: vmess, uuid: c43d3232-2d57-3f28-adbe-ea15b7c0f080, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jpm247, headers: {Host: jp-m247.fishcloudcdn.top}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 3, server: cm1-nc.go001.buzz, port: 19531, type: ss, cipher: chacha20-ietf-poly1305, password: 2e201a3c-e855-4414-a9c0-5d6e6fedca07}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 9, server: jp-m247.fishcloudcdn.top, port: 8880, type: vmess, uuid: 2e646253-ddea-310f-b92e-bb31f5354d11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jpm247, headers: {Host: jp-m247.fishcloudcdn.top}}}
-  - {name: 🇯🇵 Base-日本 DMIT丨全解锁丨A3, server: vip.basicnode.host, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇯🇵 Premium-日本 Oracle丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇯🇵 Pro-日本 Oracle丨全解锁丨A2, server: vip.basicnode.host, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇯🇵 东京特殊|@ripaojiedian, server: 43.207.233.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 公共套餐|每3日重置节点密码, server: 39.164.141.70, port: 52052, type: vmess, uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /db, headers: {Host: d.db-link.in}}}
-  - {name: 🇯🇵 日本01 | 高速专线, server: pqawszf.aiopen.cfd, port: 35000, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本1 | 高速专线, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本3 | 高速专线, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 18.183.142.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 东京01, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: jp.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: jp.kxking.eu.org}}}
-  - {name: 🇯🇵 东京02, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: dj.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: dj.kxking.eu.org}}}
-  - {name: 🇯🇵 东京03, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: amd-jp.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: amd-jp.kxking.eu.org}}}
-  - {name: 🇯🇵 东京04, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: amd-jp2.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: amd-jp2.kxking.eu.org}}}
-  - {name: 🇯🇵 东京05, server: 103.103.245.45, port: 2086, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: jp.kxking.eu.org}}}
-  - {name: 🇯🇵 东京06, server: 103.103.245.45, port: 2086, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: dj.kxking.eu.org}}}
-  - {name: 🇯🇵 东京06 2, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: dj.kxking.eu.org}}}
-  - {name: 🇯🇵 东京07, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: amd-jp.kxking.eu.org}}}
-  - {name: 🇯🇵 东京07 2, server: 103.103.245.45, port: 2086, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: amd-jp.kxking.eu.org}}}
-  - {name: 🇯🇵 东京08, server: 103.103.245.45, port: 2086, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: amd-jp2.kxking.eu.org}}}
-  - {name: 🇯🇵 东京08 2, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: amd-jp2.kxking.eu.org}}}
-  - {name: 🇰🇷 >🇰🇷 KR|Ls|0909|TG@FProxies| 12, server: no.06.ijg.cc, port: 8088, type: trojan, password: I8AVzj3Cr7, skip-cert-verify: true}
-  - {name: 🇰🇷 Base-韩国 vultr丨全解锁丨A4, server: vip.basicnode.host, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇰🇷 韩国|@ripaojiedian, server: rpete-1096-tr-3.r-kcd-e.iote.bond, port: 29989, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 43.202.67.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 春川02, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: nm.kxking.eu.org}}}
-  - {name: 春川03, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: chunchuan.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: chunchuan.kxking.eu.org}}}
-  - {name: 春川03 2, server: 195.245.241.30, port: 12345, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: chunchuan.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: chunchuan.kxking.eu.org}}}
-  - {name: 🇰🇷 首尔01, server: 195.245.241.30, port: 12345, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: sr.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: sr.kxking.eu.org}}}
-  - {name: 🇰🇷 首尔01 2, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: sr.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: sr.kxking.eu.org}}}
-  - {name: 🇰🇷 首尔02, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: sr2.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: sr2.kxking.eu.org}}}
-  - {name: 🇰🇷 首尔03, server: 103.103.245.45, port: 2086, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: sr.kxking.eu.org}}}
-  - {name: 🇰🇷 首尔03 2, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: sr.kxking.eu.org}}}
-  - {name: 🇰🇷 首尔04, server: 103.103.245.45, port: 2086, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: sr2.kxking.eu.org}}}
-  - {name: 🇰🇷 首尔04 2, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: sr2.kxking.eu.org}}}
-  - {name: 🇷🇺 Base-俄罗斯 LLC BAXET丨半解锁丨A1, server: vip.basicnode.host, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies|, server: yd-03.paofunlink.com, port: 1096, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 2, server: yd-03.paofunlink.com, port: 1098, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 3, server: gf6s.cdn.node.a.tddns-ounk.com, port: 13372, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 8, server: yd-03.paofunlink.com, port: 1098, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 9, server: wegm63.cdn.node.a.tddns-ounk.com, port: 13370, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 2, server: yd-05.paofunlink.com, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 5, server: yd-05.paofunlink.com, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 6, server: yd-03.paofunlink.com, port: 1095, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 11, server: oracle.accessconnect.cc, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203723:kS6Oji, obfs-param: 72106203723.www.gov.hk}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 3, server: yd-05.paofunlink.com, port: 1090, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 5, server: yd-03.paofunlink.com, port: 1095, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇸🇬 >🇸🇬 SG|Ns|0909|TG@FProxies| 59, server: south.steamdownload.top, port: 14003, type: trojan, password: b51d89d1-cb6c-4887-9529-ee5392e93fed, skip-cert-verify: true}
-  - {name: 🇸🇬 Base-新加坡 Gcore丨全解锁丨A1, server: vip.basicnode.host, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇸🇬 Base-新加坡 Oracle丨全解锁丨A1, server: vip.basicnode.host, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇸🇬 Base-新加坡 Oracle丨全解锁丨A2, server: vip.basicnode.host, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2, server: vip3.niuniupremium.xyz, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇸🇬 Pro-新加坡 Oracle丨全解锁丨A3, server: vip.basicnode.host, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇸🇬 更新订阅|同步最新节点信息, server: 39.164.141.70, port: 52095, type: vmess, uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /db, headers: {Host: e.db-link.in}}}
+  - {name: 🇭🇰 香港1, server: zzzz.meiyiss.club, port: 32601, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
   - {name: 🇸🇬 新加坡1 | 高速专线, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡3 | 高速专线, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡|直连|公益|2, server: 30.namesilo123.top, port: 80, type: vmess, uuid: 309f84b9-49dd-408d-a0b6-8860393be802, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: freesg.sanfen002.top}}}
-  - {name: 🇸🇬 新加坡|直连|公益|3, server: 31.namesilo123.top, port: 8080, type: vmess, uuid: 309f84b9-49dd-408d-a0b6-8860393be802, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: freesg.sanfen002.top}}}
-  - {name: 🇸🇬 新加坡|直连|公益|4, server: 32.namesilo123.top, port: 2082, type: vmess, uuid: 309f84b9-49dd-408d-a0b6-8860393be802, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: freesg.sanfen002.top}}}
-  - {name: 🇸🇬 新加坡01, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: dosg1.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: dosg1.kxking.eu.org}}}
-  - {name: 🇸🇬 新加坡02, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: do1.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: do1.kxking.eu.org}}}
-  - {name: 🇸🇬 新加坡03, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: do2.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: do2.kxking.eu.org}}}
-  - {name: 🇸🇬 新加坡04, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: do2.kxking.eu.org}}}
-  - {name: 🇸🇬 新加坡04 2, server: 103.103.245.45, port: 2086, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: do2.kxking.eu.org}}}
-  - {name: 🇸🇬 新加坡05, server: 103.103.245.45, port: 2086, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: dosg1.kxking.eu.org}}}
-  - {name: 🇸🇬 新加坡05 2, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: dosg1.kxking.eu.org}}}
-  - {name: 🇸🇬 新加坡06, server: 103.103.245.45, port: 2086, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: do1.kxking.eu.org}}}
-  - {name: 🇸🇬 新加坡06 2, server: 47.242.162.56, port: 9001, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: do1.kxking.eu.org}}}
-  - {name: 🇺🇸 @hkaa0 |美国_26, server: 156.225.67.48, port: 45493, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 @hkaa0 |美国_27, server: 156.225.67.102, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 @hkaa0 |美国_28, server: 45.199.138.209, port: 50447, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 39, server: oracle.accessconnect.cc, port: 1133, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203723:kS6Oji, obfs-param: 72106203723.www.gov.hk}
-  - {name: 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 8, server: suyhks.cdn.node.a.tddns-ounk.com, port: 13267, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9, server: cnzz03.fastbiubiu.com, port: 18700, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: cnzz03.fastbiubiu.com}}}
-  - {name: 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 19, server: yd-02.paofunlink.com, port: 1084, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 30, server: yd-05.paofunlink.com, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 32, server: yd-03.paofunlink.com, port: 1088, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 37, server: yd-05.paofunlink.com, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 10, server: rules.pyptom.tk, port: 443, type: vmess, uuid: 8c94dfd8-52dd-451c-8c85-26770cd41768, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: rules.pyptom.tk}}}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 14, server: oracle.accessconnect.cc, port: 1120, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203723:kS6Oji, obfs-param: 72106203723.www.gov.hk}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 20, server: oracle.accessconnect.cc, port: 1121, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 203723:kS6Oji, obfs-param: 72106203723.www.gov.hk}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 25, server: wf.n61388365.cf, port: 443, type: vmess, uuid: 8c94dfd8-52dd-451c-8c85-26770cd41768, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: wf.n61388365.cf}}}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 3, server: suyhks.cdn.node.a.tddns-ounk.com, port: 13641, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30495:UYzWvR, obfs-param: 7fdb330495.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 31, server: 163.123.192.155, port: 443, type: trojan, password: 6befeeb3-702b-4948-9028-f9e072f2da98, skip-cert-verify: true}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 33, server: yd-03.paofunlink.com, port: 1088, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 39, server: yd-03.paofunlink.com, port: 1085, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 49, server: yd-02.paofunlink.com, port: 1084, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 59, server: 137.175.14.60, port: 49627, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 64, server: yd-03.paofunlink.com, port: 1087, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 7521:12HsOu, obfs-param: fb7bc7521.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45, server: cnzz03.fastbiubiu.com, port: 18600, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: cnzz03.fastbiubiu.com}}}
-  - {name: 🇺🇸 Base-美国 DMIT丨全解锁丨A1, server: vip.basicnode.host, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇺🇸 Base-美国 FDC丨全解锁丨A1, server: vip.basicnode.host, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇺🇸 Base-美国 FDC丨全解锁丨V2ray丨A1, server: vip3.niuniupremium.xyz, port: 16928, type: vmess, uuid: 4aa447d6-744b-32f9-9a8f-a39ca2f89b60, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 193.25.215.160}}}
-  - {name: 🇺🇸 Premium-美国 FDC丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇺🇸 Pro-美国 Zenlayer丨全解锁丨A2, server: vip.basicnode.host, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
-  - {name: 🇺🇸 美国 tg@freeVPNjd, server: Mvirtua.com, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.wx.alue.link}}}
-  - {name: 🇺🇸 美国2, server: 108.181.23.249, port: 443, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 45.199.138.209, port: 50447, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国3|@ripaojiedian, server: 172.67.34.218, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: 🇺🇸 美国｜x0.1, server: 195.245.241.30, port: 12345, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: zjg.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: zjg.kxking.eu.org}}}
-  - {name: 🇺🇸 美国｜x0.1 2, server: 154.198.224.37, port: 56120, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, servername: zjg.kxking.eu.org, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: zjg.kxking.eu.org}}}
-  - {name: ZA_91 | 5.75Mb, server: 156.225.67.102, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: ZA_93 |38.88Mb, server: 156.225.67.48, port: 45493, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
-  - {name: 🏳️‍🌈 ️‍🌈 直连-移动网优化|-免费每月30-93GB流量, server: sd.db-link.in, port: 80, type: vmess, uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /db, headers: {Host: d.cn-db.top}}}
-  - {name: 不定期抽奖https://t.me/mftizi, server: 183.237.20.146, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国_Telegram@kxswa, server: hdfy1d1.cpi2hidd.eu.org, port: 443, type: vmess, uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6, alterId: 0, cipher: auto, tls: true, network: grpc, servername: hdfy1d1.cpi2hidd.eu.org, grpc-opts: {grpc-service-name: kWNsYSByc82sNvvsPqovsnh}}
-  - {name: 付费解锁更多线路, server: 39.164.141.84, port: 52095, type: vmess, uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /db, headers: {Host: a.db-link.in}}}
-  - {name: 关注电报https://t.me/aifenxiang2020, server: aobre-1092-v2-7.r-kcd-b.iote.bond, port: 39918, type: vmess, uuid: a590e692-4c8d-42dd-ba80-b1765a34f699, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}}
-  - {name: 关注电报https://t.me/aifenxiang2020 2, server: 45.199.138.164, port: 48944, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
-  - {name: 关注电报https://t.me/aifenxiang2020 3, server: fd.shabijichang.com, port: 80, type: vmess, uuid: fac955ed-c390-4ca9-a716-5d9a2a6339c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
-  - {name: 关注电报https://t.me/mftizi, server: 120.226.50.94, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 关注频道https://t.me/mftizi, server: 120.226.50.94, port: 40702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 节点1, server: free1.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: downloads3.6114514.xyz}}}
-  - {name: 节点2, server: free2.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: downloads3.6114514.xyz}}}
-  - {name: 节点3, server: free3.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: downloads3.6114514.xyz}}}
-  - {name: 节点4, server: free4.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: downloads3.6114514.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa, server: 142.4.125.84, port: 59614, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vnpt.iiio.wiki}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 3, server: xn4.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 4, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jd5.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 5, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 6, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl5.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 7, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 8, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 81fc114e-44d7-44c7-9912-942453b03154, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 9, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 10, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 11, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn5.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 12, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 13, server: 172.67.146.22, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm.shabijichang.com}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 14, server: 172.64.101.98, port: 80, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm.shabijichang.com}}}
-  - {name: 免费梯子https://t.me/mftizi, server: 45.58.180.126, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 免费梯子https://t.me/mftizi 2, server: 45.199.138.209, port: 50447, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡3, server: zzzz.meiyiss.club, port: 32403, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇭🇰 香港2, server: zzzz.meiyiss.club, port: 32602, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇰🇷 韩国1, server: zzzz.meiyiss.club, port: 32701, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: ">🇻🇳 VN|Ns|0909|TG@FProxies| 6", server: cnzz02.fastbiubiu.com, port: 6421, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: cnzz02.fastbiubiu.com}}}
+  - {name: 🇵🇱 波兰, server: zzzz.meiyiss.club, port: 32804, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: ">🇻🇳 VN|Ls|0909|TG@FProxies| 5", server: s-2.api-node.run, port: 443, type: trojan, password: 09e202fe-1c02-469c-9685-8d8fd525838c, skip-cert-verify: true}
+  - {name: 🇬🇧 英国, server: zzzz.meiyiss.club, port: 32808, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇿🇦 南非, server: zzzz.meiyiss.club, port: 32803, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇺🇸 US-66.241.124.93-1290, server: ahsorathiyaa.fly.dev, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ahsorathiyaa.fly.dev}}}
+  - {name: 🇯🇵 日本07, server: jp7.421421.xyz, port: 20230, type: trojan, password: 39e817a2-453e-4283-86b6-5b673d44b7c1, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 81fc114e-44d7-44c7-9912-942453b03154, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg.shabijichang.com}}}
   - {name: 免费线路限速-超出1M不限量, server: 39.164.141.70, port: 50080, type: vmess, uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /db, headers: {Host: b.cn-db.top}}}
-  - {name: 🇸🇬 新加坡04|流媒体, server: sg4.421421.xyz, port: 20230, type: trojan, password: 9323c75e-56bd-4dee-bd90-601e6f03d259, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡06|流媒体, server: sg6.421421.xyz, port: 20230, type: trojan, password: 9323c75e-56bd-4dee-bd90-601e6f03d259, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡07|流媒体, server: sg7.421421.xyz, port: 20230, type: trojan, password: 9323c75e-56bd-4dee-bd90-601e6f03d259, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡08|流媒体, server: sg8.421421.xyz, port: 20230, type: trojan, password: 9323c75e-56bd-4dee-bd90-601e6f03d259, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 邀请用户|最高返还40%, server: 183.249.20.150, port: 61091, type: vmess, uuid: 9a0e6456-dc36-31f4-8b91-2cc8cff87390, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /db, headers: {Host: e.cn-db.top}}}
+  - {name: 🇯🇵 日本01 | 高速专线, server: pqawszf.aiopen.cfd, port: 35000, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45, server: cnzz03.fastbiubiu.com, port: 18600, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: cnzz03.fastbiubiu.com}}}
+  - {name: 🇯🇵 日本3 | 高速专线, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 Premium-日本 Oracle丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
+  - {name: 🇯🇵 日本02 | 高速专线, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: US_68 |23.14Mb, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.82615355.xyz}}}
+  - {name: 🇺🇸 美国2, server: zzzz.meiyiss.club, port: 32502, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇨🇳 台湾2, server: pqhinet2.aiopen.cfd, port: 443, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾, server: pqhinet1.aiopen.cfd, port: 443, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇭🇰 香港3, server: zzzz.meiyiss.club, port: 32603, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: YD|www.zyw.asia ZYW免费节点, server: 38.26.135.18, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693992821776, headers: {Host: www.39838266.xyz}}}
+  - {name: 🇺🇸 US-66.241.124.229-2184, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}}
+  - {name: 🇫🇷 法国, server: zzzz.meiyiss.club, port: 32807, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇦🇪 迪拜, server: zzzz.meiyiss.club, port: 32806, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇯🇵 日本2 | 高速专线, server: pqawsjp2.aiopen.cfd, port: 443, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡1 | 高速专线 2, server: pqawssg1.aiopen.cfd, port: 443, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2 | 高速专线, server: pqawssg2.aiopen.cfd, port: 443, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jd5.shabijichang.com}}}
+  - {name: 🇩🇰 丹麦, server: zzzz.meiyiss.club, port: 32805, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 节点1, server: free1.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: downloads3.6114514.xyz}}}
+  - {name: 🇺🇸 美国3, server: zzzz.meiyiss.club, port: 32503, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇨🇳 台湾3, server: pqhinet3.aiopen.cfd, port: 443, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 1x HK03 DMIT, server: zfhk.magicby.top, port: 29158, type: ss, cipher: chacha20-ietf-poly1305, password: 25b7478a-10c6-44b1-a56a-8f4adec6dcc1}
+  - {name: 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
+  - {name: 🇯🇵 日本01 | 高速专线 2, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡01 | 高速专线, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3 | 高速专线, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9, server: cnzz03.fastbiubiu.com, port: 18700, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: cnzz03.fastbiubiu.com}}}
+  - {name: 🇯🇵 日本2, server: zzzz.meiyiss.club, port: 32302, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇰🇷 韩国|@ripaojiedian, server: rpete-1096-tr-3.r-kcd-e.iote.bond, port: 29989, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: false}
+  - {name: 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8, server: botshard.pyptom.cf, port: 443, type: vmess, uuid: 8c94dfd8-52dd-451c-8c85-26770cd41768, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: botshard.pyptom.cf}}}
+  - {name: 🇸🇬 新加坡|直连|公益|3, server: 31.namesilo123.top, port: 8080, type: vmess, uuid: 309f84b9-49dd-408d-a0b6-8860393be802, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: freesg.sanfen002.top}}}
+  - {name: RELAY-104.18.23.248-1297, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
+  - {name: 节点2, server: free2.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: downloads3.6114514.xyz}}}
+  - {name: 1x HK04 Eons, server: zfhk.magicby.top, port: 42291, type: ss, cipher: chacha20-ietf-poly1305, password: 25b7478a-10c6-44b1-a56a-8f4adec6dcc1}
+  - {name: 🇯🇵 日本1 | 高速专线, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: b8e77694-0b5c-4fb3-83b2-ab8889e226fc, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇨🇳 @hkaa0 |中国_36, server: jjozz-1092-tr-8.r-kcd-b.iote.bond, port: 39919, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true}
+  - {name: 🇯🇵 日本01 | 高速专线-10x, server: pqawszf.aiopen.cfd, port: 35000, type: trojan, password: 2a9abeb7-6f97-4d33-9069-f6e009d88455, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 日本3, server: zzzz.meiyiss.club, port: 32303, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇸🇬 新加坡1, server: zzzz.meiyiss.club, port: 32401, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇺🇸 Premium-美国 FDC丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
+  - {name: 🇸🇬 新加坡2, server: zzzz.meiyiss.club, port: 32402, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: PP|@Zyw_Channel, server: 38.63.0.85, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1689935243027, headers: {Host: www.19458162.xyz}}}
+  - {name: 🇺🇸 美国1, server: zzzz.meiyiss.club, port: 32501, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1, server: vip3.niuniupremium.xyz, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
+  - {name: 🇰🇷 韩国3, server: zzzz.meiyiss.club, port: 32703, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3, server: cnzz05.fastbiubiu.com, port: 16401, type: vmess, uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /6, headers: {Host: cnzz05.fastbiubiu.com}}}
+  - {name: 🇨🇳 台湾-解锁抖音, server: zzzz.meiyiss.club, port: 32203, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2, server: vip3.niuniupremium.xyz, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 37966:yLsqWdniyaQttT4G, obfs-param: 0551737966.microsoft.com}
+  - {name: 🇷🇴 罗马尼亚, server: zzzz.meiyiss.club, port: 32802, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇰🇷 韩国2, server: zzzz.meiyiss.club, port: 32702, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇺🇸 美国_Telegram@kxswa 3, server: ahsorathiyaa.fly.dev, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ahsorathiyaa.fly.dev}}}
+  - {name: 🇺🇸 US-64.32.24.222-1488, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.82615355.xyz}}}
+  - {name: 🇻🇳 越南, server: zzzz.meiyiss.club, port: 32801, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
+  - {name: 🇺🇸 US-38.63.0.72-5251, server: 38.63.0.72, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.19458162.xyz}}}
+  - {name: 乌克兰, server: zzzz.meiyiss.club, port: 32809, type: ss, cipher: aes-128-gcm, password: 64580508-6d87-46cc-acf1-b47d095eba5c}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -241,922 +86,302 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇺🇸 @hkaa0 | 美国
-      - 🇺🇸 @hkaa0 |美国
-      - 🇺🇸 @hkaa0 |美国 2
-      - 🇺🇸 @hkaa0 |美国 3
-      - 🇭🇰 @hkaa0 |香港
-      - "@hkaa0 |中国"
-      - ">Beta|🇺🇳 FP|Ls|0909|TG@FProxies| 6"
-      - ">Beta|🇺🇳 FP|Ns|0909|TG@FProxies| 19"
-      - ">🇻🇳 VN|Ls|0909|TG@FProxies| 5"
-      - ">🇻🇳 VN|Ms|0909|TG@FProxies| 5"
-      - ">🇻🇳 VN|Ns|0909|TG@FProxies| 6"
-      - 254254.xyz👈购买地址
-      - 254254.xyz👈购买地址 2
-      - 254254.xyz👈购买地址 3
-      - CF|www.zyw.asia ZYW免费节点
-      - RELAY-172.67.200.176-0101
-      - RELAY-172.67.200.176-0814
-      - RELAY-172.67.206.242-1778
-      - RELAY-172.67.221.18-1296
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 US_分享日记 2
-      - 🇯🇵 US_分享日记 3
-      - 🇯🇵 US_分享日记 4
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_133
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_136
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_152
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_162
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_2
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_22
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_50
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_53
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_88
-      - YD|www.zyw.asia ZYW免费节点
-      - 阿布扎比｜x0.1
-      - 阿布扎比｜x0.1 2
-      - 🇦🇪 迪拜｜x0.1
-      - 🇦🇪 迪拜｜x0.1 2
-      - 🇦🇺 悉尼｜x0.1
-      - 🇦🇺 悉尼｜x0.1 2
-      - 🇨🇳 @hkaa0 | 中国_10
-      - 🇨🇳 @hkaa0 |中国_36
-      - 🇨🇳 @hkaa0 |中国_38
-      - 🇨🇳 @hkaa0 |中国_40
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies|
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 2
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 3
-      - 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 4
-      - 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 5
-      - 🇨🇳 Premium-台湾 HiNet丨全解锁丨A1
-      - 🇨🇳 Pro-台湾 HiNet丨全解锁丨A1
-      - 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8
-      - 🇩🇪 德国
-      - 🇩🇪 德国｜x0.1
-      - 🇩🇪 德国｜x0.1 2
-      - 🇫🇷 >🇫🇷 FR|Ls|0909|TG@FProxies| 2
-      - 🇬🇧 Base-英国 Gcore丨全解锁丨A1
-      - 🇬🇧 Premium-英国 Gcore丨全解锁丨A1
-      - 🇭🇰 >🇭🇰 HK|Hs|0909|TG@FProxies| 5
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 4
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 5
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 9
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 19
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 2
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 25
-      - 🇭🇰 Base-香港 HKG丨全解锁丨A1丨V2ray丨A1
-      - 🇭🇰 Base-香港 HKG丨全解锁丨A3
-      - 🇭🇰 Premium-香港 DMIT丨全解锁丨A1
-      - 🇭🇰 Premium-香港 HKG丨全解锁丨A1
-      - 🇭🇰 Pro-香港 HKG丨全解锁丨A1
-      - 🇭🇰 Pro-香港 HKG丨全解锁丨A2
-      - 🇭🇰 香港03 tg@freeVPNjd
-      - 🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港02
-      - 耶路撒冷｜x0.1
-      - 耶路撒冷｜x0.1 2
-      - 🇮🇳 >🇮🇳 IN|Hs|0909|TG@FProxies| 2
-      - 🇮🇳 网站：db01.in
-      - 🇮🇳 直连-移动网优化|-网站：dabai.in
-      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3
-      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 7
-      - 🇯🇵 >🇯🇵 JP|Ls|0909|TG@FProxies| 6
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 10
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 2
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 3
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 9
-      - 🇯🇵 Base-日本 DMIT丨全解锁丨A3
-      - 🇯🇵 Premium-日本 Oracle丨全解锁丨A1
-      - 🇯🇵 Pro-日本 Oracle丨全解锁丨A2
-      - 🇯🇵 东京特殊|@ripaojiedian
-      - 🇯🇵 公共套餐|每3日重置节点密码
-      - 🇯🇵 日本01 | 高速专线
-      - 🇯🇵 日本1 | 高速专线
-      - 🇯🇵 日本3 | 高速专线
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 东京01
-      - 🇯🇵 东京02
-      - 🇯🇵 东京03
-      - 🇯🇵 东京04
-      - 🇯🇵 东京05
-      - 🇯🇵 东京06
-      - 🇯🇵 东京06 2
-      - 🇯🇵 东京07
-      - 🇯🇵 东京07 2
-      - 🇯🇵 东京08
-      - 🇯🇵 东京08 2
-      - 🇰🇷 >🇰🇷 KR|Ls|0909|TG@FProxies| 12
-      - 🇰🇷 Base-韩国 vultr丨全解锁丨A4
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 春川02
-      - 春川03
-      - 春川03 2
-      - 🇰🇷 首尔01
-      - 🇰🇷 首尔01 2
-      - 🇰🇷 首尔02
-      - 🇰🇷 首尔03
-      - 🇰🇷 首尔03 2
-      - 🇰🇷 首尔04
-      - 🇰🇷 首尔04 2
-      - 🇷🇺 Base-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies|
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 2
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 3
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 8
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 9
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 2
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 5
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 6
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 11
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 3
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 5
-      - 🇸🇬 >🇸🇬 SG|Ns|0909|TG@FProxies| 59
-      - 🇸🇬 Base-新加坡 Gcore丨全解锁丨A1
-      - 🇸🇬 Base-新加坡 Oracle丨全解锁丨A1
-      - 🇸🇬 Base-新加坡 Oracle丨全解锁丨A2
-      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1
-      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2
-      - 🇸🇬 Pro-新加坡 Oracle丨全解锁丨A3
-      - 🇸🇬 更新订阅|同步最新节点信息
+      - 🇭🇰 香港1
       - 🇸🇬 新加坡1 | 高速专线
-      - 🇸🇬 新加坡3 | 高速专线
-      - 🇸🇬 新加坡|直连|公益|2
-      - 🇸🇬 新加坡|直连|公益|3
-      - 🇸🇬 新加坡|直连|公益|4
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡04 2
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡05 2
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡06 2
-      - 🇺🇸 @hkaa0 |美国_26
-      - 🇺🇸 @hkaa0 |美国_27
-      - 🇺🇸 @hkaa0 |美国_28
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 39
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 8
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 19
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 30
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 32
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 37
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 10
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 14
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 20
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 25
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 3
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 31
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 33
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 39
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 49
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 59
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 64
-      - 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45
-      - 🇺🇸 Base-美国 DMIT丨全解锁丨A1
-      - 🇺🇸 Base-美国 FDC丨全解锁丨A1
-      - 🇺🇸 Base-美国 FDC丨全解锁丨V2ray丨A1
-      - 🇺🇸 Premium-美国 FDC丨全解锁丨A1
-      - 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1
-      - 🇺🇸 Pro-美国 Zenlayer丨全解锁丨A2
-      - 🇺🇸 美国 tg@freeVPNjd
-      - 🇺🇸 美国2
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国｜x0.1
-      - 🇺🇸 美国｜x0.1 2
-      - ZA_91 | 5.75Mb
-      - ZA_93 |38.88Mb
-      - 🏳️‍🌈 ️‍🌈 直连-移动网优化|-免费每月30-93GB流量
-      - 不定期抽奖https://t.me/mftizi
-      - 🇫🇷 法国_Telegram@kxswa
-      - 付费解锁更多线路
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/aifenxiang2020 2
-      - 关注电报https://t.me/aifenxiang2020 3
-      - 关注电报https://t.me/mftizi
-      - 关注频道https://t.me/mftizi
-      - 节点1
-      - 节点2
-      - 节点3
-      - 节点4
+      - 🇸🇬 新加坡3
+      - 🇭🇰 香港2
+      - 🇰🇷 韩国1
+      - ">🇻🇳 VN|Ns|0909|TG@FProxies| 6"
+      - 🇵🇱 波兰
+      - ">🇻🇳 VN|Ls|0909|TG@FProxies| 5"
+      - 🇬🇧 英国
+      - 🇿🇦 南非
+      - 🇺🇸 US-66.241.124.93-1290
+      - 🇯🇵 日本07
       - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 免费梯子https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi 2
       - 免费线路限速-超出1M不限量
-      - 🇸🇬 新加坡04|流媒体
-      - 🇸🇬 新加坡06|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 新加坡08|流媒体
-      - 邀请用户|最高返还40%
+      - 🇯🇵 日本01 | 高速专线
+      - 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45
+      - 🇯🇵 日本3 | 高速专线
+      - 🇯🇵 Premium-日本 Oracle丨全解锁丨A1
+      - 🇯🇵 日本02 | 高速专线
+      - US_68 |23.14Mb
+      - 🇺🇸 美国2
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇺🇸 US-66.241.124.229-2184
+      - 🇫🇷 法国
+      - 🇦🇪 迪拜
+      - 🇯🇵 日本2 | 高速专线
+      - 🇸🇬 新加坡1 | 高速专线 2
+      - 🇸🇬 新加坡2 | 高速专线
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇩🇰 丹麦
+      - 节点1
+      - 🇺🇸 美国3
+      - 🇨🇳 台湾3
+      - 1x HK03 DMIT
+      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1
+      - 🇯🇵 日本01 | 高速专线 2
+      - 🇸🇬 新加坡01 | 高速专线
+      - 🇸🇬 新加坡3 | 高速专线
+      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9
+      - 🇯🇵 日本2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8
+      - 🇸🇬 新加坡|直连|公益|3
+      - RELAY-104.18.23.248-1297
+      - 节点2
+      - 1x HK04 Eons
+      - 🇯🇵 日本1 | 高速专线
+      - 🇨🇳 @hkaa0 |中国_36
+      - 🇯🇵 日本01 | 高速专线-10x
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇺🇸 Premium-美国 FDC丨全解锁丨A1
+      - 🇸🇬 新加坡2
+      - PP|@Zyw_Channel
+      - 🇺🇸 美国1
+      - 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1
+      - 🇰🇷 韩国3
+      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3
+      - 🇨🇳 台湾-解锁抖音
+      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2
+      - 🇷🇴 罗马尼亚
+      - 🇰🇷 韩国2
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 US-64.32.24.222-1488
+      - 🇻🇳 越南
+      - 🇺🇸 US-38.63.0.72-5251
+      - 乌克兰
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 @hkaa0 | 美国
-      - 🇺🇸 @hkaa0 |美国
-      - 🇺🇸 @hkaa0 |美国 2
-      - 🇺🇸 @hkaa0 |美国 3
-      - 🇭🇰 @hkaa0 |香港
-      - "@hkaa0 |中国"
-      - ">Beta|🇺🇳 FP|Ls|0909|TG@FProxies| 6"
-      - ">Beta|🇺🇳 FP|Ns|0909|TG@FProxies| 19"
-      - ">🇻🇳 VN|Ls|0909|TG@FProxies| 5"
-      - ">🇻🇳 VN|Ms|0909|TG@FProxies| 5"
-      - ">🇻🇳 VN|Ns|0909|TG@FProxies| 6"
-      - 254254.xyz👈购买地址
-      - 254254.xyz👈购买地址 2
-      - 254254.xyz👈购买地址 3
-      - CF|www.zyw.asia ZYW免费节点
-      - RELAY-172.67.200.176-0101
-      - RELAY-172.67.200.176-0814
-      - RELAY-172.67.206.242-1778
-      - RELAY-172.67.221.18-1296
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 US_分享日记 2
-      - 🇯🇵 US_分享日记 3
-      - 🇯🇵 US_分享日记 4
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_133
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_136
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_152
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_162
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_2
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_22
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_50
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_53
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_88
-      - YD|www.zyw.asia ZYW免费节点
-      - 阿布扎比｜x0.1
-      - 阿布扎比｜x0.1 2
-      - 🇦🇪 迪拜｜x0.1
-      - 🇦🇪 迪拜｜x0.1 2
-      - 🇦🇺 悉尼｜x0.1
-      - 🇦🇺 悉尼｜x0.1 2
-      - 🇨🇳 @hkaa0 | 中国_10
-      - 🇨🇳 @hkaa0 |中国_36
-      - 🇨🇳 @hkaa0 |中国_38
-      - 🇨🇳 @hkaa0 |中国_40
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies|
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 2
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 3
-      - 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 4
-      - 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 5
-      - 🇨🇳 Premium-台湾 HiNet丨全解锁丨A1
-      - 🇨🇳 Pro-台湾 HiNet丨全解锁丨A1
-      - 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8
-      - 🇩🇪 德国
-      - 🇩🇪 德国｜x0.1
-      - 🇩🇪 德国｜x0.1 2
-      - 🇫🇷 >🇫🇷 FR|Ls|0909|TG@FProxies| 2
-      - 🇬🇧 Base-英国 Gcore丨全解锁丨A1
-      - 🇬🇧 Premium-英国 Gcore丨全解锁丨A1
-      - 🇭🇰 >🇭🇰 HK|Hs|0909|TG@FProxies| 5
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 4
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 5
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 9
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 19
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 2
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 25
-      - 🇭🇰 Base-香港 HKG丨全解锁丨A1丨V2ray丨A1
-      - 🇭🇰 Base-香港 HKG丨全解锁丨A3
-      - 🇭🇰 Premium-香港 DMIT丨全解锁丨A1
-      - 🇭🇰 Premium-香港 HKG丨全解锁丨A1
-      - 🇭🇰 Pro-香港 HKG丨全解锁丨A1
-      - 🇭🇰 Pro-香港 HKG丨全解锁丨A2
-      - 🇭🇰 香港03 tg@freeVPNjd
-      - 🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港02
-      - 耶路撒冷｜x0.1
-      - 耶路撒冷｜x0.1 2
-      - 🇮🇳 >🇮🇳 IN|Hs|0909|TG@FProxies| 2
-      - 🇮🇳 网站：db01.in
-      - 🇮🇳 直连-移动网优化|-网站：dabai.in
-      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3
-      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 7
-      - 🇯🇵 >🇯🇵 JP|Ls|0909|TG@FProxies| 6
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 10
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 2
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 3
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 9
-      - 🇯🇵 Base-日本 DMIT丨全解锁丨A3
-      - 🇯🇵 Premium-日本 Oracle丨全解锁丨A1
-      - 🇯🇵 Pro-日本 Oracle丨全解锁丨A2
-      - 🇯🇵 东京特殊|@ripaojiedian
-      - 🇯🇵 公共套餐|每3日重置节点密码
-      - 🇯🇵 日本01 | 高速专线
-      - 🇯🇵 日本1 | 高速专线
-      - 🇯🇵 日本3 | 高速专线
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 东京01
-      - 🇯🇵 东京02
-      - 🇯🇵 东京03
-      - 🇯🇵 东京04
-      - 🇯🇵 东京05
-      - 🇯🇵 东京06
-      - 🇯🇵 东京06 2
-      - 🇯🇵 东京07
-      - 🇯🇵 东京07 2
-      - 🇯🇵 东京08
-      - 🇯🇵 东京08 2
-      - 🇰🇷 >🇰🇷 KR|Ls|0909|TG@FProxies| 12
-      - 🇰🇷 Base-韩国 vultr丨全解锁丨A4
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 春川02
-      - 春川03
-      - 春川03 2
-      - 🇰🇷 首尔01
-      - 🇰🇷 首尔01 2
-      - 🇰🇷 首尔02
-      - 🇰🇷 首尔03
-      - 🇰🇷 首尔03 2
-      - 🇰🇷 首尔04
-      - 🇰🇷 首尔04 2
-      - 🇷🇺 Base-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies|
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 2
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 3
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 8
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 9
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 2
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 5
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 6
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 11
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 3
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 5
-      - 🇸🇬 >🇸🇬 SG|Ns|0909|TG@FProxies| 59
-      - 🇸🇬 Base-新加坡 Gcore丨全解锁丨A1
-      - 🇸🇬 Base-新加坡 Oracle丨全解锁丨A1
-      - 🇸🇬 Base-新加坡 Oracle丨全解锁丨A2
-      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1
-      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2
-      - 🇸🇬 Pro-新加坡 Oracle丨全解锁丨A3
-      - 🇸🇬 更新订阅|同步最新节点信息
+      - 🇭🇰 香港1
       - 🇸🇬 新加坡1 | 高速专线
-      - 🇸🇬 新加坡3 | 高速专线
-      - 🇸🇬 新加坡|直连|公益|2
-      - 🇸🇬 新加坡|直连|公益|3
-      - 🇸🇬 新加坡|直连|公益|4
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡04 2
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡05 2
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡06 2
-      - 🇺🇸 @hkaa0 |美国_26
-      - 🇺🇸 @hkaa0 |美国_27
-      - 🇺🇸 @hkaa0 |美国_28
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 39
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 8
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 19
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 30
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 32
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 37
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 10
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 14
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 20
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 25
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 3
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 31
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 33
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 39
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 49
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 59
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 64
-      - 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45
-      - 🇺🇸 Base-美国 DMIT丨全解锁丨A1
-      - 🇺🇸 Base-美国 FDC丨全解锁丨A1
-      - 🇺🇸 Base-美国 FDC丨全解锁丨V2ray丨A1
-      - 🇺🇸 Premium-美国 FDC丨全解锁丨A1
-      - 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1
-      - 🇺🇸 Pro-美国 Zenlayer丨全解锁丨A2
-      - 🇺🇸 美国 tg@freeVPNjd
-      - 🇺🇸 美国2
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国｜x0.1
-      - 🇺🇸 美国｜x0.1 2
-      - ZA_91 | 5.75Mb
-      - ZA_93 |38.88Mb
-      - 🏳️‍🌈 ️‍🌈 直连-移动网优化|-免费每月30-93GB流量
-      - 不定期抽奖https://t.me/mftizi
-      - 🇫🇷 法国_Telegram@kxswa
-      - 付费解锁更多线路
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/aifenxiang2020 2
-      - 关注电报https://t.me/aifenxiang2020 3
-      - 关注电报https://t.me/mftizi
-      - 关注频道https://t.me/mftizi
-      - 节点1
-      - 节点2
-      - 节点3
-      - 节点4
+      - 🇸🇬 新加坡3
+      - 🇭🇰 香港2
+      - 🇰🇷 韩国1
+      - ">🇻🇳 VN|Ns|0909|TG@FProxies| 6"
+      - 🇵🇱 波兰
+      - ">🇻🇳 VN|Ls|0909|TG@FProxies| 5"
+      - 🇬🇧 英国
+      - 🇿🇦 南非
+      - 🇺🇸 US-66.241.124.93-1290
+      - 🇯🇵 日本07
       - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 免费梯子https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi 2
       - 免费线路限速-超出1M不限量
-      - 🇸🇬 新加坡04|流媒体
-      - 🇸🇬 新加坡06|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 新加坡08|流媒体
-      - 邀请用户|最高返还40%
+      - 🇯🇵 日本01 | 高速专线
+      - 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45
+      - 🇯🇵 日本3 | 高速专线
+      - 🇯🇵 Premium-日本 Oracle丨全解锁丨A1
+      - 🇯🇵 日本02 | 高速专线
+      - US_68 |23.14Mb
+      - 🇺🇸 美国2
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇺🇸 US-66.241.124.229-2184
+      - 🇫🇷 法国
+      - 🇦🇪 迪拜
+      - 🇯🇵 日本2 | 高速专线
+      - 🇸🇬 新加坡1 | 高速专线 2
+      - 🇸🇬 新加坡2 | 高速专线
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇩🇰 丹麦
+      - 节点1
+      - 🇺🇸 美国3
+      - 🇨🇳 台湾3
+      - 1x HK03 DMIT
+      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1
+      - 🇯🇵 日本01 | 高速专线 2
+      - 🇸🇬 新加坡01 | 高速专线
+      - 🇸🇬 新加坡3 | 高速专线
+      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9
+      - 🇯🇵 日本2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8
+      - 🇸🇬 新加坡|直连|公益|3
+      - RELAY-104.18.23.248-1297
+      - 节点2
+      - 1x HK04 Eons
+      - 🇯🇵 日本1 | 高速专线
+      - 🇨🇳 @hkaa0 |中国_36
+      - 🇯🇵 日本01 | 高速专线-10x
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇺🇸 Premium-美国 FDC丨全解锁丨A1
+      - 🇸🇬 新加坡2
+      - PP|@Zyw_Channel
+      - 🇺🇸 美国1
+      - 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1
+      - 🇰🇷 韩国3
+      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3
+      - 🇨🇳 台湾-解锁抖音
+      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2
+      - 🇷🇴 罗马尼亚
+      - 🇰🇷 韩国2
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 US-64.32.24.222-1488
+      - 🇻🇳 越南
+      - 🇺🇸 US-38.63.0.72-5251
+      - 乌克兰
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 @hkaa0 | 美国
-      - 🇺🇸 @hkaa0 |美国
-      - 🇺🇸 @hkaa0 |美国 2
-      - 🇺🇸 @hkaa0 |美国 3
-      - 🇭🇰 @hkaa0 |香港
-      - "@hkaa0 |中国"
-      - ">Beta|🇺🇳 FP|Ls|0909|TG@FProxies| 6"
-      - ">Beta|🇺🇳 FP|Ns|0909|TG@FProxies| 19"
-      - ">🇻🇳 VN|Ls|0909|TG@FProxies| 5"
-      - ">🇻🇳 VN|Ms|0909|TG@FProxies| 5"
-      - ">🇻🇳 VN|Ns|0909|TG@FProxies| 6"
-      - 254254.xyz👈购买地址
-      - 254254.xyz👈购买地址 2
-      - 254254.xyz👈购买地址 3
-      - CF|www.zyw.asia ZYW免费节点
-      - RELAY-172.67.200.176-0101
-      - RELAY-172.67.200.176-0814
-      - RELAY-172.67.206.242-1778
-      - RELAY-172.67.221.18-1296
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 US_分享日记 2
-      - 🇯🇵 US_分享日记 3
-      - 🇯🇵 US_分享日记 4
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_133
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_136
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_152
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_162
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_2
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_22
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_50
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_53
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_88
-      - YD|www.zyw.asia ZYW免费节点
-      - 阿布扎比｜x0.1
-      - 阿布扎比｜x0.1 2
-      - 🇦🇪 迪拜｜x0.1
-      - 🇦🇪 迪拜｜x0.1 2
-      - 🇦🇺 悉尼｜x0.1
-      - 🇦🇺 悉尼｜x0.1 2
-      - 🇨🇳 @hkaa0 | 中国_10
-      - 🇨🇳 @hkaa0 |中国_36
-      - 🇨🇳 @hkaa0 |中国_38
-      - 🇨🇳 @hkaa0 |中国_40
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies|
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 2
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 3
-      - 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 4
-      - 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 5
-      - 🇨🇳 Premium-台湾 HiNet丨全解锁丨A1
-      - 🇨🇳 Pro-台湾 HiNet丨全解锁丨A1
-      - 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8
-      - 🇩🇪 德国
-      - 🇩🇪 德国｜x0.1
-      - 🇩🇪 德国｜x0.1 2
-      - 🇫🇷 >🇫🇷 FR|Ls|0909|TG@FProxies| 2
-      - 🇬🇧 Base-英国 Gcore丨全解锁丨A1
-      - 🇬🇧 Premium-英国 Gcore丨全解锁丨A1
-      - 🇭🇰 >🇭🇰 HK|Hs|0909|TG@FProxies| 5
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 4
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 5
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 9
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 19
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 2
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 25
-      - 🇭🇰 Base-香港 HKG丨全解锁丨A1丨V2ray丨A1
-      - 🇭🇰 Base-香港 HKG丨全解锁丨A3
-      - 🇭🇰 Premium-香港 DMIT丨全解锁丨A1
-      - 🇭🇰 Premium-香港 HKG丨全解锁丨A1
-      - 🇭🇰 Pro-香港 HKG丨全解锁丨A1
-      - 🇭🇰 Pro-香港 HKG丨全解锁丨A2
-      - 🇭🇰 香港03 tg@freeVPNjd
-      - 🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港02
-      - 耶路撒冷｜x0.1
-      - 耶路撒冷｜x0.1 2
-      - 🇮🇳 >🇮🇳 IN|Hs|0909|TG@FProxies| 2
-      - 🇮🇳 网站：db01.in
-      - 🇮🇳 直连-移动网优化|-网站：dabai.in
-      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3
-      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 7
-      - 🇯🇵 >🇯🇵 JP|Ls|0909|TG@FProxies| 6
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 10
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 2
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 3
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 9
-      - 🇯🇵 Base-日本 DMIT丨全解锁丨A3
-      - 🇯🇵 Premium-日本 Oracle丨全解锁丨A1
-      - 🇯🇵 Pro-日本 Oracle丨全解锁丨A2
-      - 🇯🇵 东京特殊|@ripaojiedian
-      - 🇯🇵 公共套餐|每3日重置节点密码
-      - 🇯🇵 日本01 | 高速专线
-      - 🇯🇵 日本1 | 高速专线
-      - 🇯🇵 日本3 | 高速专线
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 东京01
-      - 🇯🇵 东京02
-      - 🇯🇵 东京03
-      - 🇯🇵 东京04
-      - 🇯🇵 东京05
-      - 🇯🇵 东京06
-      - 🇯🇵 东京06 2
-      - 🇯🇵 东京07
-      - 🇯🇵 东京07 2
-      - 🇯🇵 东京08
-      - 🇯🇵 东京08 2
-      - 🇰🇷 >🇰🇷 KR|Ls|0909|TG@FProxies| 12
-      - 🇰🇷 Base-韩国 vultr丨全解锁丨A4
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 春川02
-      - 春川03
-      - 春川03 2
-      - 🇰🇷 首尔01
-      - 🇰🇷 首尔01 2
-      - 🇰🇷 首尔02
-      - 🇰🇷 首尔03
-      - 🇰🇷 首尔03 2
-      - 🇰🇷 首尔04
-      - 🇰🇷 首尔04 2
-      - 🇷🇺 Base-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies|
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 2
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 3
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 8
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 9
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 2
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 5
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 6
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 11
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 3
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 5
-      - 🇸🇬 >🇸🇬 SG|Ns|0909|TG@FProxies| 59
-      - 🇸🇬 Base-新加坡 Gcore丨全解锁丨A1
-      - 🇸🇬 Base-新加坡 Oracle丨全解锁丨A1
-      - 🇸🇬 Base-新加坡 Oracle丨全解锁丨A2
-      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1
-      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2
-      - 🇸🇬 Pro-新加坡 Oracle丨全解锁丨A3
-      - 🇸🇬 更新订阅|同步最新节点信息
+      - 🇭🇰 香港1
       - 🇸🇬 新加坡1 | 高速专线
-      - 🇸🇬 新加坡3 | 高速专线
-      - 🇸🇬 新加坡|直连|公益|2
-      - 🇸🇬 新加坡|直连|公益|3
-      - 🇸🇬 新加坡|直连|公益|4
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡04 2
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡05 2
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡06 2
-      - 🇺🇸 @hkaa0 |美国_26
-      - 🇺🇸 @hkaa0 |美国_27
-      - 🇺🇸 @hkaa0 |美国_28
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 39
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 8
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 19
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 30
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 32
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 37
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 10
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 14
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 20
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 25
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 3
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 31
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 33
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 39
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 49
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 59
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 64
-      - 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45
-      - 🇺🇸 Base-美国 DMIT丨全解锁丨A1
-      - 🇺🇸 Base-美国 FDC丨全解锁丨A1
-      - 🇺🇸 Base-美国 FDC丨全解锁丨V2ray丨A1
-      - 🇺🇸 Premium-美国 FDC丨全解锁丨A1
-      - 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1
-      - 🇺🇸 Pro-美国 Zenlayer丨全解锁丨A2
-      - 🇺🇸 美国 tg@freeVPNjd
-      - 🇺🇸 美国2
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国｜x0.1
-      - 🇺🇸 美国｜x0.1 2
-      - ZA_91 | 5.75Mb
-      - ZA_93 |38.88Mb
-      - 🏳️‍🌈 ️‍🌈 直连-移动网优化|-免费每月30-93GB流量
-      - 不定期抽奖https://t.me/mftizi
-      - 🇫🇷 法国_Telegram@kxswa
-      - 付费解锁更多线路
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/aifenxiang2020 2
-      - 关注电报https://t.me/aifenxiang2020 3
-      - 关注电报https://t.me/mftizi
-      - 关注频道https://t.me/mftizi
-      - 节点1
-      - 节点2
-      - 节点3
-      - 节点4
+      - 🇸🇬 新加坡3
+      - 🇭🇰 香港2
+      - 🇰🇷 韩国1
+      - ">🇻🇳 VN|Ns|0909|TG@FProxies| 6"
+      - 🇵🇱 波兰
+      - ">🇻🇳 VN|Ls|0909|TG@FProxies| 5"
+      - 🇬🇧 英国
+      - 🇿🇦 南非
+      - 🇺🇸 US-66.241.124.93-1290
+      - 🇯🇵 日本07
       - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 免费梯子https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi 2
       - 免费线路限速-超出1M不限量
-      - 🇸🇬 新加坡04|流媒体
-      - 🇸🇬 新加坡06|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 新加坡08|流媒体
-      - 邀请用户|最高返还40%
+      - 🇯🇵 日本01 | 高速专线
+      - 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45
+      - 🇯🇵 日本3 | 高速专线
+      - 🇯🇵 Premium-日本 Oracle丨全解锁丨A1
+      - 🇯🇵 日本02 | 高速专线
+      - US_68 |23.14Mb
+      - 🇺🇸 美国2
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇺🇸 US-66.241.124.229-2184
+      - 🇫🇷 法国
+      - 🇦🇪 迪拜
+      - 🇯🇵 日本2 | 高速专线
+      - 🇸🇬 新加坡1 | 高速专线 2
+      - 🇸🇬 新加坡2 | 高速专线
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇩🇰 丹麦
+      - 节点1
+      - 🇺🇸 美国3
+      - 🇨🇳 台湾3
+      - 1x HK03 DMIT
+      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1
+      - 🇯🇵 日本01 | 高速专线 2
+      - 🇸🇬 新加坡01 | 高速专线
+      - 🇸🇬 新加坡3 | 高速专线
+      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9
+      - 🇯🇵 日本2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8
+      - 🇸🇬 新加坡|直连|公益|3
+      - RELAY-104.18.23.248-1297
+      - 节点2
+      - 1x HK04 Eons
+      - 🇯🇵 日本1 | 高速专线
+      - 🇨🇳 @hkaa0 |中国_36
+      - 🇯🇵 日本01 | 高速专线-10x
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇺🇸 Premium-美国 FDC丨全解锁丨A1
+      - 🇸🇬 新加坡2
+      - PP|@Zyw_Channel
+      - 🇺🇸 美国1
+      - 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1
+      - 🇰🇷 韩国3
+      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3
+      - 🇨🇳 台湾-解锁抖音
+      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2
+      - 🇷🇴 罗马尼亚
+      - 🇰🇷 韩国2
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 US-64.32.24.222-1488
+      - 🇻🇳 越南
+      - 🇺🇸 US-38.63.0.72-5251
+      - 乌克兰
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 @hkaa0 | 美国
-      - 🇺🇸 @hkaa0 |美国
-      - 🇺🇸 @hkaa0 |美国 2
-      - 🇺🇸 @hkaa0 |美国 3
-      - 🇭🇰 @hkaa0 |香港
-      - "@hkaa0 |中国"
-      - ">Beta|🇺🇳 FP|Ls|0909|TG@FProxies| 6"
-      - ">Beta|🇺🇳 FP|Ns|0909|TG@FProxies| 19"
-      - ">🇻🇳 VN|Ls|0909|TG@FProxies| 5"
-      - ">🇻🇳 VN|Ms|0909|TG@FProxies| 5"
-      - ">🇻🇳 VN|Ns|0909|TG@FProxies| 6"
-      - 254254.xyz👈购买地址
-      - 254254.xyz👈购买地址 2
-      - 254254.xyz👈购买地址 3
-      - CF|www.zyw.asia ZYW免费节点
-      - RELAY-172.67.200.176-0101
-      - RELAY-172.67.200.176-0814
-      - RELAY-172.67.206.242-1778
-      - RELAY-172.67.221.18-1296
-      - 🇯🇵 US_分享日记
-      - 🇯🇵 US_分享日记 2
-      - 🇯🇵 US_分享日记 3
-      - 🇯🇵 US_分享日记 4
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_133
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_136
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_152
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_162
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_2
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_22
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_50
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_53
-      - US_学习搭讪撩妹请订阅《閑哥情感TV（大叔撩妹）》频道，私教一对一线下“永久陪跑”请加微信:txyz6234_88
-      - YD|www.zyw.asia ZYW免费节点
-      - 阿布扎比｜x0.1
-      - 阿布扎比｜x0.1 2
-      - 🇦🇪 迪拜｜x0.1
-      - 🇦🇪 迪拜｜x0.1 2
-      - 🇦🇺 悉尼｜x0.1
-      - 🇦🇺 悉尼｜x0.1 2
-      - 🇨🇳 @hkaa0 | 中国_10
-      - 🇨🇳 @hkaa0 |中国_36
-      - 🇨🇳 @hkaa0 |中国_38
-      - 🇨🇳 @hkaa0 |中国_40
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies|
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 2
-      - 🇨🇳 >🇹🇼 TW|Hs|0909|TG@FProxies| 3
-      - 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 4
-      - 🇨🇳 >🇹🇼 TW|Ms|0909|TG@FProxies| 5
-      - 🇨🇳 Premium-台湾 HiNet丨全解锁丨A1
-      - 🇨🇳 Pro-台湾 HiNet丨全解锁丨A1
-      - 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8
-      - 🇩🇪 德国
-      - 🇩🇪 德国｜x0.1
-      - 🇩🇪 德国｜x0.1 2
-      - 🇫🇷 >🇫🇷 FR|Ls|0909|TG@FProxies| 2
-      - 🇬🇧 Base-英国 Gcore丨全解锁丨A1
-      - 🇬🇧 Premium-英国 Gcore丨全解锁丨A1
-      - 🇭🇰 >🇭🇰 HK|Hs|0909|TG@FProxies| 5
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 4
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 5
-      - 🇭🇰 >🇭🇰 HK|Ls|0909|TG@FProxies| 9
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 19
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 2
-      - 🇭🇰 >🇭🇰 HK|Ms|0909|TG@FProxies| 25
-      - 🇭🇰 Base-香港 HKG丨全解锁丨A1丨V2ray丨A1
-      - 🇭🇰 Base-香港 HKG丨全解锁丨A3
-      - 🇭🇰 Premium-香港 DMIT丨全解锁丨A1
-      - 🇭🇰 Premium-香港 HKG丨全解锁丨A1
-      - 🇭🇰 Pro-香港 HKG丨全解锁丨A1
-      - 🇭🇰 Pro-香港 HKG丨全解锁丨A2
-      - 🇭🇰 香港03 tg@freeVPNjd
-      - 🇭🇰 香港1|@ripaojiedian
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇭🇰 香港02
-      - 耶路撒冷｜x0.1
-      - 耶路撒冷｜x0.1 2
-      - 🇮🇳 >🇮🇳 IN|Hs|0909|TG@FProxies| 2
-      - 🇮🇳 网站：db01.in
-      - 🇮🇳 直连-移动网优化|-网站：dabai.in
-      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3
-      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 7
-      - 🇯🇵 >🇯🇵 JP|Ls|0909|TG@FProxies| 6
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 10
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 2
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 3
-      - 🇯🇵 >🇯🇵 JP|Ms|0909|TG@FProxies| 9
-      - 🇯🇵 Base-日本 DMIT丨全解锁丨A3
-      - 🇯🇵 Premium-日本 Oracle丨全解锁丨A1
-      - 🇯🇵 Pro-日本 Oracle丨全解锁丨A2
-      - 🇯🇵 东京特殊|@ripaojiedian
-      - 🇯🇵 公共套餐|每3日重置节点密码
-      - 🇯🇵 日本01 | 高速专线
-      - 🇯🇵 日本1 | 高速专线
-      - 🇯🇵 日本3 | 高速专线
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇯🇵 东京01
-      - 🇯🇵 东京02
-      - 🇯🇵 东京03
-      - 🇯🇵 东京04
-      - 🇯🇵 东京05
-      - 🇯🇵 东京06
-      - 🇯🇵 东京06 2
-      - 🇯🇵 东京07
-      - 🇯🇵 东京07 2
-      - 🇯🇵 东京08
-      - 🇯🇵 东京08 2
-      - 🇰🇷 >🇰🇷 KR|Ls|0909|TG@FProxies| 12
-      - 🇰🇷 Base-韩国 vultr丨全解锁丨A4
-      - 🇰🇷 韩国|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 春川02
-      - 春川03
-      - 春川03 2
-      - 🇰🇷 首尔01
-      - 🇰🇷 首尔01 2
-      - 🇰🇷 首尔02
-      - 🇰🇷 首尔03
-      - 🇰🇷 首尔03 2
-      - 🇰🇷 首尔04
-      - 🇰🇷 首尔04 2
-      - 🇷🇺 Base-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies|
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 2
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 3
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 8
-      - 🇸🇬 >🇸🇬 SG|Hs|0909|TG@FProxies| 9
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 2
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 5
-      - 🇸🇬 >🇸🇬 SG|Ls|0909|TG@FProxies| 6
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 11
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 3
-      - 🇸🇬 >🇸🇬 SG|Ms|0909|TG@FProxies| 5
-      - 🇸🇬 >🇸🇬 SG|Ns|0909|TG@FProxies| 59
-      - 🇸🇬 Base-新加坡 Gcore丨全解锁丨A1
-      - 🇸🇬 Base-新加坡 Oracle丨全解锁丨A1
-      - 🇸🇬 Base-新加坡 Oracle丨全解锁丨A2
-      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1
-      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2
-      - 🇸🇬 Pro-新加坡 Oracle丨全解锁丨A3
-      - 🇸🇬 更新订阅|同步最新节点信息
+      - 🇭🇰 香港1
       - 🇸🇬 新加坡1 | 高速专线
-      - 🇸🇬 新加坡3 | 高速专线
-      - 🇸🇬 新加坡|直连|公益|2
-      - 🇸🇬 新加坡|直连|公益|3
-      - 🇸🇬 新加坡|直连|公益|4
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡04 2
-      - 🇸🇬 新加坡05
-      - 🇸🇬 新加坡05 2
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡06 2
-      - 🇺🇸 @hkaa0 |美国_26
-      - 🇺🇸 @hkaa0 |美国_27
-      - 🇺🇸 @hkaa0 |美国_28
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 39
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 8
-      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 19
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 30
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 32
-      - 🇺🇸 >🇺🇸 US|Ls|0909|TG@FProxies| 37
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 10
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 14
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 20
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 25
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 3
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 31
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 33
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 39
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 49
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 59
-      - 🇺🇸 >🇺🇸 US|Ms|0909|TG@FProxies| 64
-      - 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45
-      - 🇺🇸 Base-美国 DMIT丨全解锁丨A1
-      - 🇺🇸 Base-美国 FDC丨全解锁丨A1
-      - 🇺🇸 Base-美国 FDC丨全解锁丨V2ray丨A1
-      - 🇺🇸 Premium-美国 FDC丨全解锁丨A1
-      - 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1
-      - 🇺🇸 Pro-美国 Zenlayer丨全解锁丨A2
-      - 🇺🇸 美国 tg@freeVPNjd
-      - 🇺🇸 美国2
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 美国3|@ripaojiedian
-      - 🇺🇸 美国｜x0.1
-      - 🇺🇸 美国｜x0.1 2
-      - ZA_91 | 5.75Mb
-      - ZA_93 |38.88Mb
-      - 🏳️‍🌈 ️‍🌈 直连-移动网优化|-免费每月30-93GB流量
-      - 不定期抽奖https://t.me/mftizi
-      - 🇫🇷 法国_Telegram@kxswa
-      - 付费解锁更多线路
-      - 关注电报https://t.me/aifenxiang2020
-      - 关注电报https://t.me/aifenxiang2020 2
-      - 关注电报https://t.me/aifenxiang2020 3
-      - 关注电报https://t.me/mftizi
-      - 关注频道https://t.me/mftizi
-      - 节点1
-      - 节点2
-      - 节点3
-      - 节点4
+      - 🇸🇬 新加坡3
+      - 🇭🇰 香港2
+      - 🇰🇷 韩国1
+      - ">🇻🇳 VN|Ns|0909|TG@FProxies| 6"
+      - 🇵🇱 波兰
+      - ">🇻🇳 VN|Ls|0909|TG@FProxies| 5"
+      - 🇬🇧 英国
+      - 🇿🇦 南非
+      - 🇺🇸 US-66.241.124.93-1290
+      - 🇯🇵 日本07
       - 🇺🇸 美国_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 5
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇺🇸 美国_Telegram@kxswa 8
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 免费梯子https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi 2
       - 免费线路限速-超出1M不限量
-      - 🇸🇬 新加坡04|流媒体
-      - 🇸🇬 新加坡06|流媒体
-      - 🇸🇬 新加坡07|流媒体
-      - 🇸🇬 新加坡08|流媒体
-      - 邀请用户|最高返还40%
+      - 🇯🇵 日本01 | 高速专线
+      - 🇺🇸 >🇺🇸 US|Ns|0909|TG@FProxies| 45
+      - 🇯🇵 日本3 | 高速专线
+      - 🇯🇵 Premium-日本 Oracle丨全解锁丨A1
+      - 🇯🇵 日本02 | 高速专线
+      - US_68 |23.14Mb
+      - 🇺🇸 美国2
+      - 🇨🇳 台湾2
+      - 🇨🇳 台湾
+      - 🇭🇰 香港3
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇺🇸 US-66.241.124.229-2184
+      - 🇫🇷 法国
+      - 🇦🇪 迪拜
+      - 🇯🇵 日本2 | 高速专线
+      - 🇸🇬 新加坡1 | 高速专线 2
+      - 🇸🇬 新加坡2 | 高速专线
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇩🇰 丹麦
+      - 节点1
+      - 🇺🇸 美国3
+      - 🇨🇳 台湾3
+      - 1x HK03 DMIT
+      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A1
+      - 🇯🇵 日本01 | 高速专线 2
+      - 🇸🇬 新加坡01 | 高速专线
+      - 🇸🇬 新加坡3 | 高速专线
+      - 🇺🇸 >🇺🇸 US|Hs|0909|TG@FProxies| 9
+      - 🇯🇵 日本2
+      - 🇰🇷 韩国|@ripaojiedian
+      - 🇩🇪 >🇩🇪 DE|Ms|0909|TG@FProxies| 8
+      - 🇸🇬 新加坡|直连|公益|3
+      - RELAY-104.18.23.248-1297
+      - 节点2
+      - 1x HK04 Eons
+      - 🇯🇵 日本1 | 高速专线
+      - 🇨🇳 @hkaa0 |中国_36
+      - 🇯🇵 日本01 | 高速专线-10x
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇺🇸 Premium-美国 FDC丨全解锁丨A1
+      - 🇸🇬 新加坡2
+      - PP|@Zyw_Channel
+      - 🇺🇸 美国1
+      - 🇺🇸 Premium-美国 Zenlayer丨全解锁丨A1
+      - 🇰🇷 韩国3
+      - 🇯🇵 >🇯🇵 JP|Hs|0909|TG@FProxies| 3
+      - 🇨🇳 台湾-解锁抖音
+      - 🇸🇬 Premium-新加坡 Gcore丨全解锁丨A2
+      - 🇷🇴 罗马尼亚
+      - 🇰🇷 韩国2
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 US-64.32.24.222-1488
+      - 🇻🇳 越南
+      - 🇺🇸 US-38.63.0.72-5251
+      - 乌克兰
   - name: 🎯 不挂代理
     type: select
     proxies:
@@ -11700,5 +10925,6 @@ rules:
  - DOMAIN-SUFFIX,liteapks.com,🎯 不挂代理
  - PROCESS-NAME,nodesCatch.exe,🎯 不挂代理
  - DOMAIN-SUFFIX,scriptcat.org,🎯 不挂代理
+ - DOMAIN-SUFFIX,mikuclub.win,🎯 不挂代理
  - GEOIP,CN,🎯 不挂代理
  - MATCH,🔰 代理模式
