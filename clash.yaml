@@ -5,88 +5,346 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TG频道 @oeo12  =CN_20, server: us.kunlun-ppg.com, port: 10825, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_8, server: hk.kunlun-ppg.com, port: 10801, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇰 香港KT1|@ripaojiedian, server: 8.217.134.91, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: TG频道 @oeo12  =CN_28, server: us.kunlun-ppg.com, port: 10820, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_26, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_62, server: cnmbdcm01.kczz2038.online, port: 36698, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: TG频道 @oeo12  =CN_18, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_10, server: cnmbdcm01.kczz2038.online, port: 42213, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: TG频道 @oeo12  =CN_33, server: cnmbdcm01.kczz2038.online, port: 40172, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: TG频道 @oeo12  =CN_9, server: cnmbdcm01.kczz2038.online, port: 45379, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: TG频道 @oeo12  =CN_17, server: us.kunlun-ppg.com, port: 10822, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_41, server: cnmbdcm01.kczz2038.online, port: 42142, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: TG频道 @oeo12  =CN_32, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: 110a1d13-5a5d-4153-96cf-3ee0ef1c780f, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡A02|奈飞|GPT, server: 183.232.170.22, port: 30141, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_15, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国A01, server: 183.232.170.22, port: 30127, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_40, server: cnmbdcm01.kczz2038.online, port: 15474, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: 🇨🇱 智利A01, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 14, server: yd-06.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: TG频道 @oeo12  =CN_63, server: cnmbdcm01.kczz2038.online, port: 36521, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: 🇭🇰 香港A10|奈飞-优化, server: 183.232.170.22, port: 30114, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_38, server: cnmbdcm01.kczz2038.online, port: 48004, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: TG频道 @oeo12  =CN_34, server: us.kunlun-ppg.com, port: 10819, type: trojan, password: 86bf7b8a-b8af-478f-99fc-7054813c32aa, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_18 2, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇺🇸 美国B05|奈飞|GPT, server: 183.232.170.11, port: 30031, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇭 瑞士A01|奈飞|GPT, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_46, server: cnmbdcm01.kczz2038.online, port: 28039, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: TG频道 @oeo12  =CN_39, server: cnmbdcm01.kczz2038.online, port: 48003, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: TG频道 @oeo12  =CN_19, server: us.kunlun-ppg.com, port: 10824, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_12, server: cnmbdcm01.kczz2038.online, port: 40102, type: ss, cipher: chacha20-ietf-poly1305, password: a95a989d-fb6f-4b0f-ad16-7653735271ed}
-  - {name: 🇨🇳 台湾|@ripaojiedian, server: bjcu.xzyunjiasu.icu, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1}
-  - {name: 🇦🇪 迪拜A01|奈飞|GPT, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇺 澳大利亚-IEPL-Pro专线-01, server: au.network-cdn-gw.cc, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 香港 08 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11008, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇯🇵 日本-IEPL-Pro专线-03, server: jp05.network-cdn-gw.cc, port: 48805, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 美国 03 | 深港专线, server: catnet-us.04vnkdx0nh.cn, port: 11025, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: "🇵🇱 Poland[Edge]", server: aca.xn--fiqr9egvchy8d.com, port: 10027, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 日本 03 | 深港专线, server: catnet-jp.04vnkdx0nh.cn, port: 11013, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: TG频道 @oeo12  =CN_16, server: hk.kunlun-ppg.com, port: 10809, type: trojan, password: 726f982a-39d4-46d5-a124-4bc44e6a12a7, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 Hong Kong 07, server: aca.xn--fiqr9egvchy8d.com, port: 10017, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 美国 02 | 深港专线, server: catnet-us.04vnkdx0nh.cn, port: 11024, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 Hong Kong 06, server: aca.xn--fiqr9egvchy8d.com, port: 10016, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇯🇵 Japan 02, server: aca.xn--fiqr9egvchy8d.com, port: 43641, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇸🇬 Singapore 01, server: aca.xn--fiqr9egvchy8d.com, port: 14337, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 日本 05 | 深港专线, server: catnet-jp.04vnkdx0nh.cn, port: 11015, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 德国 01 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11037, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇲🇾 马来西亚-IEPL-Pro专线-01, server: mas.network-cdn-gw.cc, port: 43305, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 香港 09 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11009, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇻🇳 越南-IEPL-Basic专线-01, server: vn01.network-cdn-gw.cc, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 Hong Kong丨06, server: hk006.com-cn-htt.site, port: 16006, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇭🇰 Hong Kong丨02, server: hk002.com-cn-htt.site, port: 16002, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇫🇷 法国-IEPL-Pro专线-01, server: fr.network-cdn-gw.cc, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 Hong Kong丨03, server: hk003.com-cn-htt.site, port: 16003, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇺🇸 美国03, server: us3.421421.xyz, port: 20230, type: trojan, password: e7d1f4d0-f470-44d3-86b4-6eb4c22f1a79, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_5, server: ydyh.nanbeicloud.top, port: 26906, type: ss, cipher: chacha20-ietf-poly1305, password: 91945521-aac9-4dad-8e03-4da13cd4d43f}
+  - {name: 🇭🇰 Hong Kong丨10, server: hk010.com-cn-htt.site, port: 16010, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇮🇳 印度-IEPL-Pro专线-01, server: in01.network-cdn-gw.cc, port: 43304, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 美国 04 | 深港专线, server: catnet-us.04vnkdx0nh.cn, port: 11026, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇺🇸 美国-IEPL-Pro专线-03, server: us03.network-cdn-gw.cc, port: 44403, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇸🇬 Singapore丨03, server: sg003.com-cn-htt.site, port: 18003, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇸🇬 Singapore丨02, server: sg002.com-cn-htt.site, port: 18002, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-04, server: hkp04.network-cdn-gw.cc, port: 49904, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇺🇸 美国-IEPL-Basic-01, server: us06.network-cdn-gw.cc, port: 43111, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇬🇧 英国_2, server: ydyh.nanbeicloud.top, port: 26905, type: ss, cipher: chacha20-ietf-poly1305, password: 91945521-aac9-4dad-8e03-4da13cd4d43f}
+  - {name: "🇺🇸 美国 D [0.3x]", server: bsdhd77cdys65sxx.qiwawangzi1188.com, port: 6031, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇺🇸 美国-IEPL-Basic-02, server: us07.network-cdn-gw.cc, port: 43211, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇰🇷 韩国-IEPL-Basic专线-01, server: kr03.network-cdn-gw.cc, port: 41115, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇺🇸 美国-IEPL-Pro专线-04, server: us04.network-cdn-gw.cc, port: 44404, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 V3-香港HKT02|NF|v2ray, server: v.ovhsg.v4.kiki789.com, port: 39569, type: vmess, uuid: 43ec5128-a0f8-3b38-8c39-ec9e398b355a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: jike1-linode10.bilibili.com}}}
+  - {name: 🇸🇬 Singapore 05, server: aca.xn--fiqr9egvchy8d.com, port: 10032, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇺🇸 United States丨04, server: us004.com-cn-htt.site, port: 20004, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇸🇬 Singapore丨01, server: sg001.com-cn-htt.site, port: 18001, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇭🇰 Hong Kong丨08, server: hk008.com-cn-htt.site, port: 16008, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇻🇳 越南-IEPL-Pro专线-02, server: vn02.network-cdn-gw.cc, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇵🇭 菲律宾-IEPL-Pro专线-01, server: ph.network-cdn-gw.cc, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇨🇳 Taiwan丨04, server: tw004.com-cn-htt.site, port: 17004, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇭🇰 香港 05 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11005, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港-IEPL-Basic专线-03, server: hk3.network-cdn-gw.cc, port: 47756, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇬🇧 United Kingdom 02, server: aca.xn--fiqr9egvchy8d.com, port: 10014, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 日本 02 | 深港专线, server: catnet-jp.04vnkdx0nh.cn, port: 11012, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇺🇸 美国-IEPL-Basic-04, server: us09.network-cdn-gw.cc, port: 43213, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇸🇬 标准-6-新加坡SKG01|NF|V2ray, server: ovhsg.v6.kiki789.com, port: 23138, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: hkghk.kiki789.com}}}
+  - {name: 🇨🇳 Taiwan 01, server: aca.xn--fiqr9egvchy8d.com, port: 50937, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇨🇳 Taiwan丨03, server: tw003.com-cn-htt.site, port: 17003, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇨🇳 台湾-IEPL-Pro专线-03, server: tw04.network-cdn-gw.cc, port: 46604, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 澳大利亚 01 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11047, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇺🇸 United States丨02, server: us002.com-cn-htt.site, port: 20002, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇸🇬 新加坡07|流媒体, server: sg7.421421.xyz, port: 20230, type: trojan, password: e7d1f4d0-f470-44d3-86b4-6eb4c22f1a79, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国-IEPL-Pro专线-05, server: us05.network-cdn-gw.cc, port: 44405, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 Hong Kong丨09, server: hk009.com-cn-htt.site, port: 16009, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇨🇳 台湾-IEPL-Basic专线-01, server: tw01.network-cdn-gw.cc, port: 46601, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇨🇳 台湾-IEPL-Pro专线-02, server: tw03.network-cdn-gw.cc, port: 46603, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇸🇬 标准-6-新加坡SKG02|NF|V2ray, server: ovhsg.v6.kiki789.com, port: 23141, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: hkghk.kiki789.com}}}
+  - {name: 🇭🇰 新加坡 04 | 深港专线, server: catnet-sg.04vnkdx0nh.cn, port: 11020, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇺🇸 United States丨01, server: us001.com-cn-htt.site, port: 20001, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇭🇰 香港-IEPL-Basic专线-10, server: hk11.network-cdn-gw.cc, port: 47711, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇺🇸 美国-IEPL-Pro专线-01, server: us01.network-cdn-gw.cc, port: 44401, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: "🇨🇳 台湾 D [0.3x]", server: bsdhd77cdys65sxx.qiwawangzi1188.com, port: 6051, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇨🇳 Taiwan丨05, server: tw005.com-cn-htt.site, port: 17005, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇨🇳 台湾-IEPL-Pro专线-04, server: tw05.network-cdn-gw.cc, port: 46605, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇰🇷 韩国 A, server: a1jexzshnphscpcr.qiwawangzi1188.com, port: 6061, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇸🇬 Singapore丨04, server: sg004.com-cn-htt.site, port: 18004, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇺🇸 United States丨03, server: us003.com-cn-htt.site, port: 20003, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇨🇳 台湾-IEPL-Pro专线-01, server: tw02.network-cdn-gw.cc, port: 46602, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇸🇬 Singapore丨05, server: sg005.com-cn-htt.site, port: 18005, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇭🇰 Hong Kong丨04, server: hk004.com-cn-htt.site, port: 16004, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇲🇾 入门-马来西亚|NF|v2ray, server: styd.kiki789.com, port: 23013, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: azure-new02.kiki789.com}}}
+  - {name: 🇲🇾 标准-马来西亚|NF|v2ray, server: styd.kiki789.com, port: 29015, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: azure-new04.kiki789.com}}}
+  - {name: 🇷🇺 冷门-俄罗斯 B, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6086, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇸🇬 入门-6-新加坡SKG02|NF|V2ray, server: ovhsg.v6.kiki789.com, port: 23035, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: hkghk.kiki789.com}}}
+  - {name: 🇸🇬 Singapore 08, server: aca.xn--fiqr9egvchy8d.com, port: 10035, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇺🇸 美国-IEPL-Pro专线-02, server: us02.network-cdn-gw.cc, port: 44402, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 美国 01 | 深港专线, server: catnet-us.04vnkdx0nh.cn, port: 11023, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: Great Britain丨02, server: uk002.com-cn-htt.site, port: 23002, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: "🇮🇳 India[Edge]", server: aca.xn--fiqr9egvchy8d.com, port: 10023, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇬🇧 英国-IEPL-Basic专线-01, server: uk.network-cdn-gw.cc, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇨🇳 Taiwan丨02, server: tw002.com-cn-htt.site, port: 17002, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇸🇬 Singapore 04, server: aca.xn--fiqr9egvchy8d.com, port: 10003, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇲🇾 V3-马来西亚|NF|v2ray, server: styd.kiki789.com, port: 29707, type: vmess, uuid: 43ec5128-a0f8-3b38-8c39-ec9e398b355a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: hkghk.bilibili.com}}}
+  - {name: 🇬🇧 英国-IEPL-Pro专线-02, server: uk01.network-cdn-gw.cc, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 Hong Kong丨07, server: hk007.com-cn-htt.site, port: 16007, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇸🇬 新加坡-IEPL-Basic专线-01, server: sgp01.network-cdn-gw.cc, port: 45501, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇮🇳 印度, server: ydyh.nanbeicloud.top, port: 26901, type: ss, cipher: chacha20-ietf-poly1305, password: 91945521-aac9-4dad-8e03-4da13cd4d43f}
+  - {name: 🇩🇪 冷门-德国, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6076, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇦🇺 冷门-澳大利亚, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6080, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇭🇰 台湾 06 | 深港专线, server: catnet-tw.04vnkdx0nh.cn, port: 11034, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇸🇪 冷门-瑞典, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6081, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇸🇬 V3-6-新加坡SKG01|NF|v2ray, server: ovhsg.v6.kiki789.com, port: 39451, type: vmess, uuid: 43ec5128-a0f8-3b38-8c39-ec9e398b355a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: hkghk.bilibili.com}}}
+  - {name: "🇸🇬 新加坡 D [0.3x]", server: bsdhd77cdys65sxx.qiwawangzi1188.com, port: 6041, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇮🇳 冷门-印度, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6073, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇿🇦 冷门-南非, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6072, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇲🇽 冷门-墨西哥, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6074, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
   - {name: 🇲🇾 马来西亚 A, server: 183.232.170.22, port: 30014, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国B03|奈飞|GPT, server: 183.232.170.11, port: 30013, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾B01|奈飞|GPT, server: 183.232.170.11, port: 30059, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 14 2, server: bjcu.xzyunjiasu.icu, port: 20009, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1}
-  - {name: TG频道 @oeo12  =CN_14, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_2, server: hk.kunlun-ppg.com, port: 10806, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_17 2, server: hk.kunlun-ppg.com, port: 10810, type: trojan, password: b9c9d240-cf94-48b5-b38f-dfb36c6394cf, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇮🇩 印尼A, server: 183.232.170.22, port: 30015, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 15, server: yd-07.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇭🇰 香港A08|奈飞-优化, server: 183.232.170.22, port: 30112, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚A01|奈飞|GPT, server: 183.232.170.22, port: 30143, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇹🇭 泰国B, server: 183.232.170.11, port: 30023, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国B, server: 183.232.170.11, port: 30033, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国B, server: 183.232.170.11, port: 30041, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国A01|奈飞|GPT, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_Telegram@kxswa, server: 43.200.6.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: TG频道 @oeo12  =CN_16, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇳🇴 挪威B01|奈飞|GPT, server: 183.232.170.11, port: 30045, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国A02|奈飞|GPT, server: 183.232.170.22, port: 30061, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_5, server: hk.kunlun-ppg.com, port: 10805, type: trojan, password: 110a1d13-5a5d-4153-96cf-3ee0ef1c780f, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_1, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_6, server: hk.kunlun-ppg.com, port: 10808, type: trojan, password: 86bf7b8a-b8af-478f-99fc-7054813c32aa, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇷🇺 冷门-俄罗斯 A, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6085, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: "Antarctica[Edge]", server: aca.xn--fiqr9egvchy8d.com, port: 10030, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇨🇳 Taiwan丨01, server: tw001.com-cn-htt.site, port: 17001, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇫🇷 V4-法国01, server: cccn.kiki789.com, port: 31802, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇯🇵 日本中继 D, server: bsdhd77cdys65sxx.qiwawangzi1188.com, port: 6021, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇧🇷 冷门-巴西, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6075, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇭🇰 入门-香港自有机房01, server: jp.j.v3.2.kiki789.com, port: 10552, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇭🇰 香港 B, server: a2jphkzxwmzjylmt.qiwawangzi1188.com, port: 6011, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇫🇷 V3-法国01, server: cccn.kiki789.com, port: 31304, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇲🇾 V4-马来西亚|NF|v2ray, server: styd.kiki789.com, port: 31303, type: vmess, uuid: 43ec5128-a0f8-3b38-8c39-ec9e398b355a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: hkghk.bilibili.com}}}
+  - {name: 🇬🇧 UK丨London-, server: out.jijifun.com, port: 30067, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 531e95c4ac.microsoft.com}}
+  - {name: 🇭🇰 Hong Kong丨05, server: hk005.com-cn-htt.site, port: 16005, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇯🇵 日本 B, server: a2jphkzxwmzjylmt.qiwawangzi1188.com, port: 6021, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇨🇳 CN丨Taipei-01, server: out.jijifun.com, port: 30032, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 531e95c4ac.microsoft.com}}
+  - {name: 🇳🇱 荷兰_Telegram@kxswa, server: 194.5.97.23, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 1xCURPGNZhlM11cn69AjSA}
+  - {name: 🇺🇸 标准-美国洛杉矶01, server: cccn.kiki789.com, port: 10802, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇭🇰 入门-香港HKT01|NF, server: ovhsg.v4.kiki789.com, port: 10100, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇰🇷 TG频道:@hkaa0▓韩国, server: 43.202.68.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇬🇧 92.59 GB | 150 GB, server: hk001.com-cn-htt.site, port: 16001, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇨🇳 V4-台湾01|NF, server: g.j.v4.1.kiki789.com, port: 31200, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇭🇰 入门-香港HKT01|NF|V2ray, server: ovhsg.v4.kiki789.com, port: 23144, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: xixi-us01.kiki789.com}}}
+  - {name: 🇰🇷 TG频道:@hkaa0▓韩国 2, server: 43.201.62.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 SG丨Singapore-01, server: out.jijifun.com, port: 30042, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 531e95c4ac.microsoft.com}}
+  - {name: 🇭🇰 入门-香港自有机房02, server: jp.j.v3.2.kiki789.com, port: 10554, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇯🇵 V3-日本02|NF, server: jp.v1.j.v4.2.kiki789.com, port: 31410, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇺🇸 美国-IEPL-Basic-03, server: us08.network-cdn-gw.cc, port: 43212, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇺🇸 V4-美国洛杉矶01, server: cccn.kiki789.com, port: 31804, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇨🇭 瑞士A01|奈飞|GPT, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国_Telegram@kxswa 2, server: 57.129.1.19, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇭🇰 V4-香港HKT02|NF|v2ray, server: ovhsg.v4.kiki789.com, port: 39571, type: vmess, uuid: 43ec5128-a0f8-3b38-8c39-ec9e398b355a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-linode11.bilibili.com}}}
+  - {name: 关注频道https://t.me/mftizi, server: 183.240.232.65, port: 35013, type: vmess, uuid: 942fa1bb-a34f-35a9-9ef6-af8a023eb67f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 CN丨Hongkong-04, server: out.jijifun.com, port: 30013, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 531e95c4ac.microsoft.com}}
+  - {name: 🇸🇬 入门-6-新加坡SKG01|NF|V2ray, server: ovhsg.v6.kiki789.com, port: 23032, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: hkghk.kiki789.com}}}
+  - {name: 🇺🇸 V3-美国洛杉矶01, server: cccn.kiki789.com, port: 39306, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇯🇵 V4-日本02|NF, server: jp.v1.j.v4.2.kiki789.com, port: 31408, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇭🇰 V3-香港自有机房01, server: jp.j.v3.2.kiki789.com, port: 31722, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 18.141.177.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国_Telegram@kxswa, server: 43.201.97.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 入门-新加坡OVH01, server: 6.ovhsg.v4.kiki789.com, port: 19233, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇰🇷 TG频道:@hkaa0▓韩国 3, server: 43.201.103.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇫🇷 法国_Telegram@kxswa, server: 51.159.14.36, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇭🇰 标准-香港自有机房01, server: jp.j.v3.2.kiki789.com, port: 10614, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇸🇬 V3-新加坡OVH02, server: 6.ovhsg.v4.kiki789.com, port: 38554, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇰🇷 入门-韩国02|NF, server: ahyd.kiki789.com, port: 10441, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇭🇰 台湾 05 | 深港专线, server: catnet-tw.04vnkdx0nh.cn, port: 11033, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇺🇸 美国 B, server: a2jphkzxwmzjylmt.qiwawangzi1188.com, port: 6031, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇯🇵 标准-日本01|NF, server: ah1.kiki789.com, port: 10602, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇮🇱 冷门-以色列, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6071, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇭🇰 CN丨Hongkong-01, server: out.jijifun.com, port: 30002, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 531e95c4ac.microsoft.com}}
   - {name: 🇧🇷 巴西A01|奈飞|GPT, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_3, server: hk.kunlun-ppg.com, port: 10805, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇯🇵 日本A05|奈飞|GPT, server: 183.232.170.22, port: 30057, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇱 以色列B, server: 183.232.170.11, port: 30032, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 约翰内斯堡B, server: 183.232.170.11, port: 30051, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇰 丹麦A01|奈飞|GPT, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇵🇭 菲律宾A, server: 183.232.170.22, port: 30017, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国A04|奈飞|GPT, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇿🇦 南非_Telegram@kxswa, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: TG频道 @oeo12  =JP_3, server: jp7.421421.xyz, port: 20230, type: trojan, password: 7a10fed2-dab0-4b5a-a111-86c9e8065053, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 乌克兰B01|奈飞|GPT, server: 183.232.170.11, port: 30049, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇸 西班牙A01, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰A01|奈飞|GPT, server: 183.232.170.22, port: 30046, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_25, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: 110a1d13-5a5d-4153-96cf-3ee0ef1c780f, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 14, server: yd-06.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
+  - {name: 🇭🇰 V3-香港HKT01|NF|v2ray, server: ovhsg.v4.kiki789.com, port: 39601, type: vmess, uuid: 43ec5128-a0f8-3b38-8c39-ec9e398b355a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8, headers: {Host: jike1-us02.bilibili.com}}}
+  - {name: 🇭🇰 V4-香港自有机房01, server: jp.j.v3.2.kiki789.com, port: 21712, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇰🇷 韩国 C, server: a3gsdkayttlejtxs.qiwawangzi1188.com, port: 6061, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇨🇳 入门-台湾01|NF, server: g.j.v4.1.kiki789.com, port: 10401, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: "🇨🇦 加拿大 C [0.3x]", server: bsdhd77cdys65sxx.qiwawangzi1188.com, port: 6091, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
   - {name: 🇭🇰 香港_Telegram@kxswa 13, server: yd-04.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
-  - {name: 🇻🇳 越南B01|奈飞|GPT, server: 183.232.170.11, port: 30042, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_2 2, server: hk.kunlun-ppg.com, port: 10807, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_1 2, server: hk.kunlun-ppg.com, port: 10804, type: trojan, password: 4a6e36c1-1b34-4ecf-9fe2-9a902d161d19, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利B, server: 183.232.170.11, port: 30011, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本A03|奈飞|GPT, server: 183.232.170.22, port: 30038, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_28 2, server: us.kunlun-ppg.com, port: 10822, type: trojan, password: a53a1153-6a43-4dc6-b8b5-f388e4aec16d, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯B, server: 183.232.170.11, port: 30012, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_21, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: 🇭🇺 匈牙利_Telegram@kxswa, server: 109.61.80.225, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇬🇧 冷门-英国, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6082, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇸🇬 新加坡A01, server: 183.232.170.22, port: 30131, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国A02|奈飞|GPT, server: 183.232.170.22, port: 30061, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 标准-台湾01|NF, server: g.j.v4.1.kiki789.com, port: 10403, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇰🇷 入门-韩国01|NF, server: cccn.kiki789.com, port: 10411, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇭🇰 V4-香港HKT01|NF|v2ray, server: ovhsg.v4.kiki789.com, port: 29807, type: vmess, uuid: 43ec5128-a0f8-3b38-8c39-ec9e398b355a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8, headers: {Host: jike1-de04.bilibili.com}}}
+  - {name: 🇭🇰 CN丨Hongkong-02, server: out.jijifun.com, port: 30003, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 531e95c4ac.microsoft.com}}
+  - {name: 🇸🇬 V3-新加坡OVH01, server: 6.ovhsg.v4.kiki789.com, port: 31872, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇺🇸 标准-美国洛杉矶02, server: cccn.kiki789.com, port: 10235, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇸🇬 新加坡A02|奈飞|GPT, server: 183.232.170.22, port: 30141, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 V4-6-新加坡SKG01|NF|v2ray, server: ovhsg.v6.kiki789.com, port: 39999, type: vmess, uuid: 43ec5128-a0f8-3b38-8c39-ec9e398b355a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, headers: {Host: host=live.bilibili.com}}}
+  - {name: 🇸🇬 入门-新加坡OVH02, server: 6.ovhsg.v4.kiki789.com, port: 10291, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇨🇱 冷门-智利, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6077, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇯🇵 V4-日本01|NF, server: jp.v1.j.v4.2.kiki789.com, port: 31400, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇺🇸 入门-美国洛杉矶01, server: cccn.kiki789.com, port: 18231, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇭🇰 香港_Telegram@kxswa 15, server: yd-07.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 229225:zZ4fCm, obfs-param: 2b49f229225.microsoft.com}
+  - {name: 🇸🇬 新加坡-IEPL-Pro专线-04, server: sgp05.network-cdn-gw.cc, port: 45505, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇬🇧 英国A01|奈飞|GPT, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_Telegram@kxswa 24, server: a.baozinet.top, port: 25007, type: vmess, uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本A05|奈飞|GPT, server: 183.232.170.22, port: 30057, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 标准-新加坡OVH01, server: 6.ovhsg.v4.kiki789.com, port: 19237, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇸🇬 新加坡 B, server: a2jphkzxwmzjylmt.qiwawangzi1188.com, port: 6041, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇰🇷 V4-韩国01|NF, server: jp.j.v4.2.kiki789.com, port: 31210, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇨🇳 CN丨Taipei-02, server: out.jijifun.com, port: 30033, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 531e95c4ac.microsoft.com}}
+  - {name: 🇺🇸 美国1|@ripaojiedian, server: 185.47.255.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇦 加拿大 A, server: a1jexzshnphscpcr.qiwawangzi1188.com, port: 6091, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇫🇷 入门-法国01, server: cccn.kiki789.com, port: 10700, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇰🇷 韩国A01, server: 183.232.170.22, port: 30127, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港KT1|@ripaojiedian, server: 8.217.218.147, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇰🇷 V4-韩国02|NF, server: jp.j.v4.2.kiki789.com, port: 31550, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇻🇳 越南_Telegram@kxswa, server: 103.57.131.61, port: 443, type: trojan, password: 6873a137-077c-4775-996b-3225ed0cc999, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
   - {name: 🇮🇳 印度A01, server: 183.232.170.22, port: 30128, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: TG频道 @oeo12  =CN_29, server: us.kunlun-ppg.com, port: 10826, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_27, server: hk.kunlun-ppg.com, port: 10803, type: trojan, password: e8567548-fbaf-4e04-b1f6-bd9ae282d050, sni: alibaba-node.cn, skip-cert-verify: true}
-  - {name: TG频道 @oeo12  =CN_26 2, server: us.kunlun-ppg.com, port: 10825, type: trojan, password: 110a1d13-5a5d-4153-96cf-3ee0ef1c780f, sni: alibaba-node.cn, skip-cert-verify: true}
+  - {name: 🇰🇷 标准-韩国02|NF, server: ahyd.kiki789.com, port: 10443, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇪🇸 西班牙A01, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 标准-韩国01|NF, server: cccn.kiki789.com, port: 10413, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇵🇭 菲律宾A, server: 183.232.170.22, port: 30017, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港-IEPL-Basic专线-02, server: hk2.network-cdn-gw.cc, port: 47790, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 入门-HKT02|NF, server: ovhsg.v4.kiki789.com, port: 10990, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 183.240.232.65, port: 35013, type: vmess, uuid: 942fa1bb-a34f-35a9-9ef6-af8a023eb67f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇱 冷门-波兰, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6079, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇭🇰 标准-香港HKT01|NF|V2ray, server: ovhsg.v4.kiki789.com, port: 23145, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: xixi-us02.kiki789.com}}}
+  - {name: 🇸🇬 V4-新加坡OVH02, server: 6.ovhsg.v4.kiki789.com, port: 31566, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇯🇵 入门-日本01|NF, server: ah1.kiki789.com, port: 10608, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇯🇵 入门-日本02|NF, server: jp.v1.j.v4.2.kiki789.com, port: 10502, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇸🇬 标准-6-新加坡SKG02|NF, server: ovhsg.v6.kiki789.com, port: 10612, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇯🇵 日本A03|奈飞|GPT, server: 183.232.170.22, port: 30038, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国A04|奈飞|GPT, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇰 丹麦A01|奈飞|GPT, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 标准-香港HKT01|NF, server: ovhsg.v4.kiki789.com, port: 10102, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇯🇵 V3-日本01|NF, server: jp.v1.j.v4.2.kiki789.com, port: 31402, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇨🇳 台湾 C, server: a2jphkzxwmzjylmt.qiwawangzi1188.com, port: 6051, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: "🇦🇷 Argentina[Edge]", server: aca.xn--fiqr9egvchy8d.com, port: 10006, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇸🇬 标准-新加坡OVH02, server: 6.ovhsg.v4.kiki789.com, port: 18255, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇭🇰 香港KT1|@ripaojiedian 2, server: 8.217.134.91, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇺🇸 United States丨05, server: us005.com-cn-htt.site, port: 20005, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇭🇰 V3-香港HKT02|NF, server: ovhsg.v4.kiki789.com, port: 31568, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇺🇸 美国 A, server: a1jexzshnphscpcr.qiwawangzi1188.com, port: 6031, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇨🇳 台湾 A, server: a1jexzshnphscpcr.qiwawangzi1188.com, port: 6051, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇸🇬 SG丨Singapore-02, server: out.jijifun.com, port: 30043, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 531e95c4ac.microsoft.com}}
+  - {name: 🇮🇱 以色列_Telegram@kxswa, server: 193.182.144.65, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇭🇰 V4-香港HKT02|NF, server: ovhsg.v4.kiki789.com, port: 31570, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇸🇬 V3-6-新加坡SKG01|NF, server: ovhsg.v6.kiki789.com, port: 31450, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇨🇳 台湾 B, server: a3gsdkayttlejtxs.qiwawangzi1188.com, port: 6051, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: "🇭🇰 香港 D [0.3x]", server: bsdhd77cdys65sxx.qiwawangzi1188.com, port: 6011, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇭🇰 香港A10|奈飞-优化, server: 183.232.170.22, port: 30114, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 标准-HKT02|NF, server: ovhsg.v4.kiki789.com, port: 10992, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇸🇬 V4-6-新加坡SKG01|NF, server: ovhsg.v6.kiki789.com, port: 39300, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇲🇾 V4-马来西亚|NF, server: styd.kiki789.com, port: 31302, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇮🇩 印尼A, server: 183.232.170.22, port: 30015, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇪 迪拜A01|奈飞|GPT, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 入门-HKT02|NF|V2ray, server: ovhsg.v4.kiki789.com, port: 23153, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, headers: {Host: xixi-giasg01.kiki789.com}}}
+  - {name: 🇯🇵 标准-日本02|NF, server: jp.v1.j.v4.2.kiki789.com, port: 19504, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇭🇰 V4-香港HKT01|NF, server: ovhsg.v4.kiki789.com, port: 31806, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇸🇬 标准-6-新加坡SKG01|NF, server: ovhsg.v6.kiki789.com, port: 10606, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇦🇺 澳大利亚A01|奈飞|GPT, server: 183.232.170.22, port: 30143, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 V3-香港HKT01|NF, server: ovhsg.v4.kiki789.com, port: 31600, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇭🇰 香港 A, server: a1jexzshnphscpcr.qiwawangzi1188.com, port: 6011, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇰🇷 V3-韩国02|NF, server: jp.j.v4.2.kiki789.com, port: 31504, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇫🇷 冷门-法国, server: a4wcenmcsbit58ap.qiwawangzi1188.com, port: 6078, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇰🇷 V3-韩国01|NF, server: jp.j.v4.2.kiki789.com, port: 31212, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇸🇬 入门-6-新加坡SKG02|NF, server: ovhsg.v6.kiki789.com, port: 10600, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇯🇵 日本中继 E, server: bfcztshshh6rxnzy.qiwawangzi1188.com, port: 6021, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇸🇬 入门-6-新加坡SKG01|NF, server: ovhsg.v6.kiki789.com, port: 10550, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇭🇰 香港A08|奈飞-优化, server: 183.232.170.22, port: 30112, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 CN丨Hongkong-03, server: out.jijifun.com, port: 30012, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 531e95c4ac.microsoft.com}}
+  - {name: 🇯🇵 日本 A, server: a1jexzshnphscpcr.qiwawangzi1188.com, port: 6021, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇸🇬 新加坡 A, server: a1jexzshnphscpcr.qiwawangzi1188.com, port: 6041, type: ssr, cipher: chacha20-ietf, password: sV4c99, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 105759:3NcSWr75QJ283Nut, obfs-param: 1dfac105759.microsoft.com}
+  - {name: 🇻🇳 越南_Telegram@kxswa 3, server: 103.57.131.115, port: 443, type: trojan, password: 6873a137-077c-4775-996b-3225ed0cc999, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇸🇬 V4-新加坡OVH01, server: 6.ovhsg.v4.kiki789.com, port: 31870, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 🇨🇳 台湾A00|奈飞|GPT, server: 183.232.170.22, port: 30055, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇲🇾 V3-马来西亚|NF, server: styd.kiki789.com, port: 22706, type: ssr, cipher: chacha20-ietf, password: yT6Am5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 219285:sNcjS2, obfs-param: 10561219285.microsoft.com}
+  - {name: 关注电报https://t.me/aifenxiang2020, server: 183.233.187.214, port: 49553, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇲🇾 入门-马来西亚|NF, server: styd.kiki789.com, port: 10253, type: ssr, cipher: rc4-md5, password: wz5jrlp7j2l, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 206406:y2k6Zb, obfs-param: 2157a206406.microsoft.com}
+  - {name: 🇸🇬 新加坡-IEPL-Pro专线-01, server: sgp02.network-cdn-gw.cc, port: 45502, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 标准-HKT02|NF|V2ray, server: ovhsg.v4.kiki789.com, port: 23154, type: vmess, uuid: a2f88bb1-c2f8-3281-a9b7-6f89cb8eb51f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, headers: {Host: xixi-giasg02.kiki789.com}}}
+  - {name: 🇭🇰 香港-IEPL-Basic专线-09, server: hk9.network-cdn-gw.cc, port: 47709, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 香港-IEPL-Basic专线-07, server: hk7.network-cdn-gw.cc, port: 47707, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇯🇵 Japan 06, server: aca.xn--fiqr9egvchy8d.com, port: 10020, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-01, server: hkp01.network-cdn-gw.cc, port: 49901, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 香港-IEPL-Basic专线-05, server: hk5.network-cdn-gw.cc, port: 47705, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 香港-IEPL-Basic专线-04, server: hk4.network-cdn-gw.cc, port: 47759, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇯🇵 Japan丨03, server: jp003.com-cn-htt.site, port: 19003, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇯🇵 Japan丨05, server: jp005.com-cn-htt.site, port: 19005, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇸🇬 Singapore 03, server: aca.xn--fiqr9egvchy8d.com, port: 10002, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇯🇵 Japan丨02, server: jp002.com-cn-htt.site, port: 19002, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: "🇯🇵 Japan[Lite] 0.5x", server: aca.xn--fiqr9egvchy8d.com, port: 10036, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 台湾 02 | 深港专线, server: catnet-tw.04vnkdx0nh.cn, port: 11030, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇯🇵 日本-IEPL-Pro专线-01, server: jp03.network-cdn-gw.cc, port: 48803, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 台湾 03 | 深港专线, server: catnet-tw.04vnkdx0nh.cn, port: 11031, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-10, server: hkp10.network-cdn-gw.cc, port: 48810, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇯🇵 Japan丨01, server: jp001.com-cn-htt.site, port: 19001, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇯🇵 Japan丨04, server: jp004.com-cn-htt.site, port: 19004, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇯🇵 Japan 01, server: aca.xn--fiqr9egvchy8d.com, port: 19563, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: "🇰🇷 South Korea[Edge]", server: aca.xn--fiqr9egvchy8d.com, port: 10026, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 新加坡 05 | 深港专线, server: catnet-sg.04vnkdx0nh.cn, port: 11021, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-02, server: hkp02.network-cdn-gw.cc, port: 49902, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 Hong Kong 04, server: aca.xn--fiqr9egvchy8d.com, port: 10001, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 新加坡 02 | 深港专线, server: catnet-sg.04vnkdx0nh.cn, port: 11018, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 Hong Kong 03, server: aca.xn--fiqr9egvchy8d.com, port: 10000, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇬🇧 United Kingdom 01, server: aca.xn--fiqr9egvchy8d.com, port: 10013, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇯🇵 Japan 04, server: aca.xn--fiqr9egvchy8d.com, port: 12994, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 印度 02 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11042, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇺🇸 United States 02, server: aca.xn--fiqr9egvchy8d.com, port: 28287, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: "🇮🇱 Israel[Edge]", server: aca.xn--fiqr9egvchy8d.com, port: 10028, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 新加坡 06 | 深港专线, server: catnet-sg.04vnkdx0nh.cn, port: 11022, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-08, server: hkp08.network-cdn-gw.cc, port: 48808, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 Hong Kong 08, server: aca.xn--fiqr9egvchy8d.com, port: 10018, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 印度 01 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11041, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 日本 01 | 深港专线, server: catnet-jp.04vnkdx0nh.cn, port: 11011, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 柬埔寨 01 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11035, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-07, server: hkp07.network-cdn-gw.cc, port: 48807, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 英国 01 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11043, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 日本 04 | 深港专线, server: catnet-jp.04vnkdx0nh.cn, port: 11014, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港-IEPL-Basic专线-06, server: hk6.network-cdn-gw.cc, port: 47706, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 台湾 01 | 深港专线, server: catnet-tw.04vnkdx0nh.cn, port: 11029, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇯🇵 日本-IEPL-Pro专线-02, server: jp04.network-cdn-gw.cc, port: 48804, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇯🇵 Japan 05, server: aca.xn--fiqr9egvchy8d.com, port: 10019, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: "🇹🇷 Turkey[Edge]", server: aca.xn--fiqr9egvchy8d.com, port: 10005, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: "🇰🇷 North Korea[Edge]", server: aca.xn--fiqr9egvchy8d.com, port: 10029, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-09, server: hkp09.network-cdn-gw.cc, port: 48809, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇯🇵 Japan 03, server: aca.xn--fiqr9egvchy8d.com, port: 28436, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 荷兰 01 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11039, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-06, server: hkp06.network-cdn-gw.cc, port: 48806, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 德国 02 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11038, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 新加坡 03 | 深港专线, server: catnet-sg.04vnkdx0nh.cn, port: 11019, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港 07 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11007, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇺🇸 United States 01, server: aca.xn--fiqr9egvchy8d.com, port: 25818, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇨🇦 Canada丨01, server: ca001.com-cn-htt.site, port: 22001, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇰🇷 韩国-EIPL-Pro专线-01, server: kr01.network-cdn-gw.cc, port: 41117, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 香港 01 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11001, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港 06 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11006, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 Hong Kong 05, server: aca.xn--fiqr9egvchy8d.com, port: 10015, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 香港_Telegram@kxswa 23, server: bjcu.xzyunjiasu.icu, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1}
+  - {name: 🇭🇰 加拿大 02 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11046, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 澳大利亚 02 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11048, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 新加坡 01 | 深港专线, server: catnet-sg.04vnkdx0nh.cn, port: 11017, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇯🇵 日本-IEPL-Basic专线-01, server: jp01.network-cdn-gw.cc, port: 48801, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 香港 10 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11010, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇰🇷 South Korea丨01, server: kr001.com-cn-htt.site, port: 21001, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇯🇵 Japan 07, server: aca.xn--fiqr9egvchy8d.com, port: 10021, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇸🇬 Singapore 07, server: aca.xn--fiqr9egvchy8d.com, port: 10034, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: "🇮🇸 Iceland[Edge]", server: aca.xn--fiqr9egvchy8d.com, port: 10031, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-05, server: hkp05.network-cdn-gw.cc, port: 49905, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: 🇭🇰 香港 04 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11004, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 香港 03 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11003, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 台湾 04 | 深港专线, server: catnet-tw.04vnkdx0nh.cn, port: 11032, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 英国 02 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11044, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 Hong Kong 02, server: aca.xn--fiqr9egvchy8d.com, port: 14149, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 香港 02 | 深港专线, server: catnet-hk.04vnkdx0nh.cn, port: 11002, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇯🇵 Japan 08, server: aca.xn--fiqr9egvchy8d.com, port: 10022, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇸🇬 Singapore 02, server: aca.xn--fiqr9egvchy8d.com, port: 43934, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 柬埔寨 02 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11036, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 美国 06 | 深港专线, server: catnet-us.04vnkdx0nh.cn, port: 11028, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇰🇷 South Korea丨02, server: kr002.com-cn-htt.site, port: 21002, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇭🇰 美国 05 | 深港专线, server: catnet-us.04vnkdx0nh.cn, port: 11027, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇭🇰 荷兰 02 | 深港专线, server: catnet-other.04vnkdx0nh.cn, port: 11040, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇨🇦 Canada丨02, server: ca002.com-cn-htt.site, port: 22002, type: ss, cipher: aes-256-gcm, password: a7a59505-60a1-4f48-88fd-6a47d32285e0}
+  - {name: 🇸🇬 Singapore 06, server: aca.xn--fiqr9egvchy8d.com, port: 10033, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 香港-IEPL-Pro专线-03, server: hkp03.network-cdn-gw.cc, port: 49903, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: "🇸🇬 Singapore[Lite] 0.5x", server: aca.xn--fiqr9egvchy8d.com, port: 10010, type: ss, cipher: aes-256-gcm, password: 8579df56-af59-4bd8-965b-87eee9ff031b}
+  - {name: 🇭🇰 日本 06 | 深港专线, server: catnet-jp.04vnkdx0nh.cn, port: 11016, type: ss, cipher: aes-128-gcm, password: 3b878d71-346f-4fc9-9e5c-6a54bb5f6440}
+  - {name: 🇯🇵 日本-IEPL-Basic专线-02, server: jp02.network-cdn-gw.cc, port: 48802, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -98,350 +356,1382 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - TG频道 @oeo12  =CN_20
-      - TG频道 @oeo12  =CN_8
-      - 🇭🇰 香港KT1|@ripaojiedian
-      - TG频道 @oeo12  =CN_28
-      - TG频道 @oeo12  =CN_26
-      - TG频道 @oeo12  =CN_62
-      - TG频道 @oeo12  =CN_18
-      - TG频道 @oeo12  =CN_10
-      - TG频道 @oeo12  =CN_33
-      - TG频道 @oeo12  =CN_9
-      - TG频道 @oeo12  =CN_17
-      - TG频道 @oeo12  =CN_41
-      - TG频道 @oeo12  =CN_32
-      - 🇸🇬 新加坡A02|奈飞|GPT
-      - TG频道 @oeo12  =CN_15
-      - 🇰🇷 韩国A01
-      - TG频道 @oeo12  =CN_40
-      - 🇨🇱 智利A01
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - TG频道 @oeo12  =CN_63
-      - 🇭🇰 香港A10|奈飞-优化
-      - TG频道 @oeo12  =CN_38
-      - TG频道 @oeo12  =CN_34
-      - TG频道 @oeo12  =CN_18 2
-      - 🇺🇸 美国B05|奈飞|GPT
-      - 🇨🇭 瑞士A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_46
-      - TG频道 @oeo12  =CN_39
-      - TG频道 @oeo12  =CN_19
-      - TG频道 @oeo12  =CN_12
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇦🇪 迪拜A01|奈飞|GPT
-      - 🇲🇾 马来西亚 A
-      - 🇺🇸 美国B03|奈飞|GPT
-      - 🇨🇳 台湾B01|奈飞|GPT
-      - 🇭🇰 香港_Telegram@kxswa 14 2
-      - TG频道 @oeo12  =CN_14
-      - TG频道 @oeo12  =CN_2
-      - TG频道 @oeo12  =CN_17 2
-      - 🇮🇩 印尼A
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港A08|奈飞-优化
-      - 🇦🇺 澳大利亚A01|奈飞|GPT
-      - 🇹🇭 泰国B
-      - 🇩🇪 德国B
-      - 🇫🇷 法国B
-      - 🇬🇧 英国A01|奈飞|GPT
-      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇦🇺 澳大利亚-IEPL-Pro专线-01
+      - 🇭🇰 香港 08 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-03
+      - 🇭🇰 美国 03 | 深港专线
+      - 🇵🇱 Poland[Edge]
+      - 🇭🇰 日本 03 | 深港专线
       - TG频道 @oeo12  =CN_16
-      - 🇳🇴 挪威B01|奈飞|GPT
-      - 🇺🇸 美国A02|奈飞|GPT
-      - TG频道 @oeo12  =CN_5
-      - TG频道 @oeo12  =CN_1
-      - TG频道 @oeo12  =CN_6
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 美国 02 | 深港专线
+      - 🇭🇰 Hong Kong 06
+      - 🇯🇵 Japan 02
+      - 🇸🇬 Singapore 01
+      - 🇭🇰 日本 05 | 深港专线
+      - 🇭🇰 德国 01 | 深港专线
+      - 🇲🇾 马来西亚-IEPL-Pro专线-01
+      - 🇭🇰 香港 09 | 深港专线
+      - 🇻🇳 越南-IEPL-Basic专线-01
+      - 🇭🇰 Hong Kong丨06
+      - 🇭🇰 Hong Kong丨02
+      - 🇫🇷 法国-IEPL-Pro专线-01
+      - 🇭🇰 Hong Kong丨03
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡_5
+      - 🇭🇰 Hong Kong丨10
+      - 🇮🇳 印度-IEPL-Pro专线-01
+      - 🇭🇰 美国 04 | 深港专线
+      - 🇺🇸 美国-IEPL-Pro专线-03
+      - 🇸🇬 Singapore丨03
+      - 🇸🇬 Singapore丨02
+      - 🇭🇰 香港-IEPL-Pro专线-04
+      - 🇺🇸 美国-IEPL-Basic-01
+      - 🇬🇧 英国_2
+      - 🇺🇸 美国 D [0.3x]
+      - 🇺🇸 美国-IEPL-Basic-02
+      - 🇰🇷 韩国-IEPL-Basic专线-01
+      - 🇺🇸 美国-IEPL-Pro专线-04
+      - 🇭🇰 V3-香港HKT02|NF|v2ray
+      - 🇸🇬 Singapore 05
+      - 🇺🇸 United States丨04
+      - 🇸🇬 Singapore丨01
+      - 🇭🇰 Hong Kong丨08
+      - 🇻🇳 越南-IEPL-Pro专线-02
+      - 🇵🇭 菲律宾-IEPL-Pro专线-01
+      - 🇨🇳 Taiwan丨04
+      - 🇭🇰 香港 05 | 深港专线
+      - 🇭🇰 香港-IEPL-Basic专线-03
+      - 🇬🇧 United Kingdom 02
+      - 🇭🇰 日本 02 | 深港专线
+      - 🇺🇸 美国-IEPL-Basic-04
+      - 🇸🇬 标准-6-新加坡SKG01|NF|V2ray
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan丨03
+      - 🇨🇳 台湾-IEPL-Pro专线-03
+      - 🇭🇰 澳大利亚 01 | 深港专线
+      - 🇺🇸 United States丨02
+      - 🇸🇬 新加坡07|流媒体
+      - 🇺🇸 美国-IEPL-Pro专线-05
+      - 🇭🇰 Hong Kong丨09
+      - 🇨🇳 台湾-IEPL-Basic专线-01
+      - 🇨🇳 台湾-IEPL-Pro专线-02
+      - 🇸🇬 标准-6-新加坡SKG02|NF|V2ray
+      - 🇭🇰 新加坡 04 | 深港专线
+      - 🇺🇸 United States丨01
+      - 🇭🇰 香港-IEPL-Basic专线-10
+      - 🇺🇸 美国-IEPL-Pro专线-01
+      - 🇨🇳 台湾 D [0.3x]
+      - 🇨🇳 Taiwan丨05
+      - 🇨🇳 台湾-IEPL-Pro专线-04
+      - 🇰🇷 韩国 A
+      - 🇸🇬 Singapore丨04
+      - 🇺🇸 United States丨03
+      - 🇨🇳 台湾-IEPL-Pro专线-01
+      - 🇸🇬 Singapore丨05
+      - 🇭🇰 Hong Kong丨04
+      - 🇲🇾 入门-马来西亚|NF|v2ray
+      - 🇲🇾 标准-马来西亚|NF|v2ray
+      - 🇷🇺 冷门-俄罗斯 B
+      - 🇸🇬 入门-6-新加坡SKG02|NF|V2ray
+      - 🇸🇬 Singapore 08
+      - 🇺🇸 美国-IEPL-Pro专线-02
+      - 🇭🇰 美国 01 | 深港专线
+      - Great Britain丨02
+      - 🇮🇳 India[Edge]
+      - 🇬🇧 英国-IEPL-Basic专线-01
+      - 🇨🇳 Taiwan丨02
+      - 🇸🇬 Singapore 04
+      - 🇲🇾 V3-马来西亚|NF|v2ray
+      - 🇬🇧 英国-IEPL-Pro专线-02
+      - 🇭🇰 Hong Kong丨07
+      - 🇸🇬 新加坡-IEPL-Basic专线-01
+      - 🇮🇳 印度
+      - 🇩🇪 冷门-德国
+      - 🇦🇺 冷门-澳大利亚
+      - 🇭🇰 台湾 06 | 深港专线
+      - 🇸🇪 冷门-瑞典
+      - 🇸🇬 V3-6-新加坡SKG01|NF|v2ray
+      - 🇸🇬 新加坡 D [0.3x]
+      - 🇮🇳 冷门-印度
+      - 🇿🇦 冷门-南非
+      - 🇲🇽 冷门-墨西哥
+      - 🇲🇾 马来西亚 A
+      - 🇷🇺 冷门-俄罗斯 A
+      - Antarctica[Edge]
+      - 🇨🇳 Taiwan丨01
+      - 🇫🇷 V4-法国01
+      - 🇯🇵 日本中继 D
+      - 🇧🇷 冷门-巴西
+      - 🇭🇰 入门-香港自有机房01
+      - 🇭🇰 香港 B
+      - 🇫🇷 V3-法国01
+      - 🇲🇾 V4-马来西亚|NF|v2ray
+      - 🇬🇧 UK丨London-
+      - 🇭🇰 Hong Kong丨05
+      - 🇯🇵 日本 B
+      - 🇨🇳 CN丨Taipei-01
+      - 🇳🇱 荷兰_Telegram@kxswa
+      - 🇺🇸 标准-美国洛杉矶01
+      - 🇭🇰 入门-香港HKT01|NF
+      - 🇰🇷 TG频道:@hkaa0▓韩国
+      - 🇬🇧 92.59 GB | 150 GB
+      - 🇨🇳 V4-台湾01|NF
+      - 🇭🇰 入门-香港HKT01|NF|V2ray
+      - 🇰🇷 TG频道:@hkaa0▓韩国 2
+      - 🇸🇬 SG丨Singapore-01
+      - 🇭🇰 入门-香港自有机房02
+      - 🇯🇵 V3-日本02|NF
+      - 🇺🇸 美国-IEPL-Basic-03
+      - 🇺🇸 V4-美国洛杉矶01
+      - 🇨🇭 瑞士A01|奈飞|GPT
+      - 🇫🇷 法国_Telegram@kxswa 2
+      - 🇭🇰 V4-香港HKT02|NF|v2ray
+      - 关注频道https://t.me/mftizi
+      - 🇭🇰 CN丨Hongkong-04
+      - 🇸🇬 入门-6-新加坡SKG01|NF|V2ray
+      - 🇺🇸 V3-美国洛杉矶01
+      - 🇯🇵 V4-日本02|NF
+      - 🇭🇰 V3-香港自有机房01
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇸🇬 入门-新加坡OVH01
+      - 🇰🇷 TG频道:@hkaa0▓韩国 3
+      - 🇫🇷 法国_Telegram@kxswa
+      - 🇭🇰 标准-香港自有机房01
+      - 🇸🇬 V3-新加坡OVH02
+      - 🇰🇷 入门-韩国02|NF
+      - 🇭🇰 台湾 05 | 深港专线
+      - 🇺🇸 美国 B
+      - 🇯🇵 标准-日本01|NF
+      - 🇮🇱 冷门-以色列
+      - 🇭🇰 CN丨Hongkong-01
       - 🇧🇷 巴西A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_3
-      - 🇯🇵 日本A05|奈飞|GPT
-      - 🇮🇱 以色列B
-      - 约翰内斯堡B
-      - 🇩🇰 丹麦A01|奈飞|GPT
-      - 🇵🇭 菲律宾A
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇿🇦 南非_Telegram@kxswa
-      - TG频道 @oeo12  =JP_3
-      - 乌克兰B01|奈飞|GPT
-      - 🇪🇸 西班牙A01
-      - 🇳🇱 荷兰A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_25
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - 🇭🇰 V3-香港HKT01|NF|v2ray
+      - 🇭🇰 V4-香港自有机房01
+      - 🇰🇷 韩国 C
+      - 🇨🇳 入门-台湾01|NF
+      - 🇨🇦 加拿大 C [0.3x]
       - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇻🇳 越南B01|奈飞|GPT
-      - TG频道 @oeo12  =CN_2 2
-      - TG频道 @oeo12  =CN_1 2
-      - 🇮🇹 意大利B
-      - 🇯🇵 日本A03|奈飞|GPT
-      - TG频道 @oeo12  =CN_28 2
-      - 🇷🇺 俄罗斯B
-      - TG频道 @oeo12  =CN_21
-      - 🇭🇺 匈牙利_Telegram@kxswa
+      - 🇬🇧 冷门-英国
+      - 🇸🇬 新加坡A01
+      - 🇺🇸 美国A02|奈飞|GPT
+      - 🇨🇳 标准-台湾01|NF
+      - 🇰🇷 入门-韩国01|NF
+      - 🇭🇰 V4-香港HKT01|NF|v2ray
+      - 🇭🇰 CN丨Hongkong-02
+      - 🇸🇬 V3-新加坡OVH01
+      - 🇺🇸 标准-美国洛杉矶02
+      - 🇸🇬 新加坡A02|奈飞|GPT
+      - 🇸🇬 V4-6-新加坡SKG01|NF|v2ray
+      - 🇸🇬 入门-新加坡OVH02
+      - 🇨🇱 冷门-智利
+      - 🇯🇵 V4-日本01|NF
+      - 🇺🇸 入门-美国洛杉矶01
+      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇸🇬 新加坡-IEPL-Pro专线-04
+      - 🇬🇧 英国A01|奈飞|GPT
+      - 🇭🇰 香港_Telegram@kxswa 24
+      - 🇯🇵 日本A05|奈飞|GPT
+      - 🇸🇬 标准-新加坡OVH01
+      - 🇸🇬 新加坡 B
+      - 🇰🇷 V4-韩国01|NF
+      - 🇨🇳 CN丨Taipei-02
+      - 🇺🇸 美国1|@ripaojiedian
+      - 🇨🇦 加拿大 A
+      - 🇫🇷 入门-法国01
+      - 🇰🇷 韩国A01
+      - 🇭🇰 香港KT1|@ripaojiedian
+      - 🇰🇷 V4-韩国02|NF
+      - 🇻🇳 越南_Telegram@kxswa
       - 🇮🇳 印度A01
-      - TG频道 @oeo12  =CN_29
-      - TG频道 @oeo12  =CN_27
-      - TG频道 @oeo12  =CN_26 2
+      - 🇰🇷 标准-韩国02|NF
+      - 🇪🇸 西班牙A01
+      - 🇰🇷 标准-韩国01|NF
+      - 🇵🇭 菲律宾A
+      - 🇭🇰 香港-IEPL-Basic专线-02
+      - 入门-HKT02|NF
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇵🇱 冷门-波兰
+      - 🇭🇰 标准-香港HKT01|NF|V2ray
+      - 🇸🇬 V4-新加坡OVH02
+      - 🇯🇵 入门-日本01|NF
+      - 🇯🇵 入门-日本02|NF
+      - 🇸🇬 标准-6-新加坡SKG02|NF
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇺🇸 美国A04|奈飞|GPT
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 🇭🇰 标准-香港HKT01|NF
+      - 🇯🇵 V3-日本01|NF
+      - 🇨🇳 台湾 C
+      - 🇦🇷 Argentina[Edge]
+      - 🇸🇬 标准-新加坡OVH02
+      - 🇭🇰 香港KT1|@ripaojiedian 2
+      - 🇺🇸 United States丨05
+      - 🇭🇰 V3-香港HKT02|NF
+      - 🇺🇸 美国 A
+      - 🇨🇳 台湾 A
+      - 🇸🇬 SG丨Singapore-02
+      - 🇮🇱 以色列_Telegram@kxswa
+      - 🇭🇰 V4-香港HKT02|NF
+      - 🇸🇬 V3-6-新加坡SKG01|NF
+      - 🇨🇳 台湾 B
+      - 🇭🇰 香港 D [0.3x]
+      - 🇭🇰 香港A10|奈飞-优化
+      - 标准-HKT02|NF
+      - 🇸🇬 V4-6-新加坡SKG01|NF
+      - 🇲🇾 V4-马来西亚|NF
+      - 🇮🇩 印尼A
+      - 🇦🇪 迪拜A01|奈飞|GPT
+      - 入门-HKT02|NF|V2ray
+      - 🇯🇵 标准-日本02|NF
+      - 🇭🇰 V4-香港HKT01|NF
+      - 🇸🇬 标准-6-新加坡SKG01|NF
+      - 🇦🇺 澳大利亚A01|奈飞|GPT
+      - 🇭🇰 V3-香港HKT01|NF
+      - 🇭🇰 香港 A
+      - 🇰🇷 V3-韩国02|NF
+      - 🇫🇷 冷门-法国
+      - 🇰🇷 V3-韩国01|NF
+      - 🇸🇬 入门-6-新加坡SKG02|NF
+      - 🇯🇵 日本中继 E
+      - 🇸🇬 入门-6-新加坡SKG01|NF
+      - 🇭🇰 香港A08|奈飞-优化
+      - 🇭🇰 CN丨Hongkong-03
+      - 🇯🇵 日本 A
+      - 🇸🇬 新加坡 A
+      - 🇻🇳 越南_Telegram@kxswa 3
+      - 🇸🇬 V4-新加坡OVH01
+      - 🇨🇳 台湾A00|奈飞|GPT
+      - 🇲🇾 V3-马来西亚|NF
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇲🇾 入门-马来西亚|NF
+      - 🇸🇬 新加坡-IEPL-Pro专线-01
+      - 标准-HKT02|NF|V2ray
+      - 🇭🇰 香港-IEPL-Basic专线-09
+      - 🇭🇰 香港-IEPL-Basic专线-07
+      - 🇯🇵 Japan 06
+      - 🇭🇰 香港-IEPL-Pro专线-01
+      - 🇭🇰 香港-IEPL-Basic专线-05
+      - 🇭🇰 香港-IEPL-Basic专线-04
+      - 🇯🇵 Japan丨03
+      - 🇯🇵 Japan丨05
+      - 🇸🇬 Singapore 03
+      - 🇯🇵 Japan丨02
+      - 🇯🇵 Japan[Lite] 0.5x
+      - 🇭🇰 台湾 02 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-01
+      - 🇭🇰 台湾 03 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-10
+      - 🇯🇵 Japan丨01
+      - 🇯🇵 Japan丨04
+      - 🇯🇵 Japan 01
+      - 🇰🇷 South Korea[Edge]
+      - 🇭🇰 新加坡 05 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-02
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 新加坡 02 | 深港专线
+      - 🇭🇰 Hong Kong 03
+      - 🇬🇧 United Kingdom 01
+      - 🇯🇵 Japan 04
+      - 🇭🇰 印度 02 | 深港专线
+      - 🇺🇸 United States 02
+      - 🇮🇱 Israel[Edge]
+      - 🇭🇰 新加坡 06 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-08
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 印度 01 | 深港专线
+      - 🇭🇰 日本 01 | 深港专线
+      - 🇭🇰 柬埔寨 01 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-07
+      - 🇭🇰 英国 01 | 深港专线
+      - 🇭🇰 日本 04 | 深港专线
+      - 🇭🇰 香港-IEPL-Basic专线-06
+      - 🇭🇰 台湾 01 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-02
+      - 🇯🇵 Japan 05
+      - 🇹🇷 Turkey[Edge]
+      - 🇰🇷 North Korea[Edge]
+      - 🇭🇰 香港-IEPL-Pro专线-09
+      - 🇯🇵 Japan 03
+      - 🇭🇰 荷兰 01 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-06
+      - 🇭🇰 德国 02 | 深港专线
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇭🇰 香港 07 | 深港专线
+      - 🇺🇸 United States 01
+      - 🇨🇦 Canada丨01
+      - 🇰🇷 韩国-EIPL-Pro专线-01
+      - 🇭🇰 香港 01 | 深港专线
+      - 🇭🇰 香港 06 | 深港专线
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 香港_Telegram@kxswa 23
+      - 🇭🇰 加拿大 02 | 深港专线
+      - 🇭🇰 澳大利亚 02 | 深港专线
+      - 🇭🇰 新加坡 01 | 深港专线
+      - 🇯🇵 日本-IEPL-Basic专线-01
+      - 🇭🇰 香港 10 | 深港专线
+      - 🇰🇷 South Korea丨01
+      - 🇯🇵 Japan 07
+      - 🇸🇬 Singapore 07
+      - 🇮🇸 Iceland[Edge]
+      - 🇭🇰 香港-IEPL-Pro专线-05
+      - 🇭🇰 香港 04 | 深港专线
+      - 🇭🇰 香港 03 | 深港专线
+      - 🇭🇰 台湾 04 | 深港专线
+      - 🇭🇰 英国 02 | 深港专线
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 香港 02 | 深港专线
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇭🇰 柬埔寨 02 | 深港专线
+      - 🇭🇰 美国 06 | 深港专线
+      - 🇰🇷 South Korea丨02
+      - 🇭🇰 美国 05 | 深港专线
+      - 🇭🇰 荷兰 02 | 深港专线
+      - 🇨🇦 Canada丨02
+      - 🇸🇬 Singapore 06
+      - 🇭🇰 香港-IEPL-Pro专线-03
+      - 🇸🇬 Singapore[Lite] 0.5x
+      - 🇭🇰 日本 06 | 深港专线
+      - 🇯🇵 日本-IEPL-Basic专线-02
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - TG频道 @oeo12  =CN_20
-      - TG频道 @oeo12  =CN_8
-      - 🇭🇰 香港KT1|@ripaojiedian
-      - TG频道 @oeo12  =CN_28
-      - TG频道 @oeo12  =CN_26
-      - TG频道 @oeo12  =CN_62
-      - TG频道 @oeo12  =CN_18
-      - TG频道 @oeo12  =CN_10
-      - TG频道 @oeo12  =CN_33
-      - TG频道 @oeo12  =CN_9
-      - TG频道 @oeo12  =CN_17
-      - TG频道 @oeo12  =CN_41
-      - TG频道 @oeo12  =CN_32
-      - 🇸🇬 新加坡A02|奈飞|GPT
-      - TG频道 @oeo12  =CN_15
-      - 🇰🇷 韩国A01
-      - TG频道 @oeo12  =CN_40
-      - 🇨🇱 智利A01
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - TG频道 @oeo12  =CN_63
-      - 🇭🇰 香港A10|奈飞-优化
-      - TG频道 @oeo12  =CN_38
-      - TG频道 @oeo12  =CN_34
-      - TG频道 @oeo12  =CN_18 2
-      - 🇺🇸 美国B05|奈飞|GPT
-      - 🇨🇭 瑞士A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_46
-      - TG频道 @oeo12  =CN_39
-      - TG频道 @oeo12  =CN_19
-      - TG频道 @oeo12  =CN_12
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇦🇪 迪拜A01|奈飞|GPT
-      - 🇲🇾 马来西亚 A
-      - 🇺🇸 美国B03|奈飞|GPT
-      - 🇨🇳 台湾B01|奈飞|GPT
-      - 🇭🇰 香港_Telegram@kxswa 14 2
-      - TG频道 @oeo12  =CN_14
-      - TG频道 @oeo12  =CN_2
-      - TG频道 @oeo12  =CN_17 2
-      - 🇮🇩 印尼A
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港A08|奈飞-优化
-      - 🇦🇺 澳大利亚A01|奈飞|GPT
-      - 🇹🇭 泰国B
-      - 🇩🇪 德国B
-      - 🇫🇷 法国B
-      - 🇬🇧 英国A01|奈飞|GPT
-      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇦🇺 澳大利亚-IEPL-Pro专线-01
+      - 🇭🇰 香港 08 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-03
+      - 🇭🇰 美国 03 | 深港专线
+      - 🇵🇱 Poland[Edge]
+      - 🇭🇰 日本 03 | 深港专线
       - TG频道 @oeo12  =CN_16
-      - 🇳🇴 挪威B01|奈飞|GPT
-      - 🇺🇸 美国A02|奈飞|GPT
-      - TG频道 @oeo12  =CN_5
-      - TG频道 @oeo12  =CN_1
-      - TG频道 @oeo12  =CN_6
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 美国 02 | 深港专线
+      - 🇭🇰 Hong Kong 06
+      - 🇯🇵 Japan 02
+      - 🇸🇬 Singapore 01
+      - 🇭🇰 日本 05 | 深港专线
+      - 🇭🇰 德国 01 | 深港专线
+      - 🇲🇾 马来西亚-IEPL-Pro专线-01
+      - 🇭🇰 香港 09 | 深港专线
+      - 🇻🇳 越南-IEPL-Basic专线-01
+      - 🇭🇰 Hong Kong丨06
+      - 🇭🇰 Hong Kong丨02
+      - 🇫🇷 法国-IEPL-Pro专线-01
+      - 🇭🇰 Hong Kong丨03
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡_5
+      - 🇭🇰 Hong Kong丨10
+      - 🇮🇳 印度-IEPL-Pro专线-01
+      - 🇭🇰 美国 04 | 深港专线
+      - 🇺🇸 美国-IEPL-Pro专线-03
+      - 🇸🇬 Singapore丨03
+      - 🇸🇬 Singapore丨02
+      - 🇭🇰 香港-IEPL-Pro专线-04
+      - 🇺🇸 美国-IEPL-Basic-01
+      - 🇬🇧 英国_2
+      - 🇺🇸 美国 D [0.3x]
+      - 🇺🇸 美国-IEPL-Basic-02
+      - 🇰🇷 韩国-IEPL-Basic专线-01
+      - 🇺🇸 美国-IEPL-Pro专线-04
+      - 🇭🇰 V3-香港HKT02|NF|v2ray
+      - 🇸🇬 Singapore 05
+      - 🇺🇸 United States丨04
+      - 🇸🇬 Singapore丨01
+      - 🇭🇰 Hong Kong丨08
+      - 🇻🇳 越南-IEPL-Pro专线-02
+      - 🇵🇭 菲律宾-IEPL-Pro专线-01
+      - 🇨🇳 Taiwan丨04
+      - 🇭🇰 香港 05 | 深港专线
+      - 🇭🇰 香港-IEPL-Basic专线-03
+      - 🇬🇧 United Kingdom 02
+      - 🇭🇰 日本 02 | 深港专线
+      - 🇺🇸 美国-IEPL-Basic-04
+      - 🇸🇬 标准-6-新加坡SKG01|NF|V2ray
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan丨03
+      - 🇨🇳 台湾-IEPL-Pro专线-03
+      - 🇭🇰 澳大利亚 01 | 深港专线
+      - 🇺🇸 United States丨02
+      - 🇸🇬 新加坡07|流媒体
+      - 🇺🇸 美国-IEPL-Pro专线-05
+      - 🇭🇰 Hong Kong丨09
+      - 🇨🇳 台湾-IEPL-Basic专线-01
+      - 🇨🇳 台湾-IEPL-Pro专线-02
+      - 🇸🇬 标准-6-新加坡SKG02|NF|V2ray
+      - 🇭🇰 新加坡 04 | 深港专线
+      - 🇺🇸 United States丨01
+      - 🇭🇰 香港-IEPL-Basic专线-10
+      - 🇺🇸 美国-IEPL-Pro专线-01
+      - 🇨🇳 台湾 D [0.3x]
+      - 🇨🇳 Taiwan丨05
+      - 🇨🇳 台湾-IEPL-Pro专线-04
+      - 🇰🇷 韩国 A
+      - 🇸🇬 Singapore丨04
+      - 🇺🇸 United States丨03
+      - 🇨🇳 台湾-IEPL-Pro专线-01
+      - 🇸🇬 Singapore丨05
+      - 🇭🇰 Hong Kong丨04
+      - 🇲🇾 入门-马来西亚|NF|v2ray
+      - 🇲🇾 标准-马来西亚|NF|v2ray
+      - 🇷🇺 冷门-俄罗斯 B
+      - 🇸🇬 入门-6-新加坡SKG02|NF|V2ray
+      - 🇸🇬 Singapore 08
+      - 🇺🇸 美国-IEPL-Pro专线-02
+      - 🇭🇰 美国 01 | 深港专线
+      - Great Britain丨02
+      - 🇮🇳 India[Edge]
+      - 🇬🇧 英国-IEPL-Basic专线-01
+      - 🇨🇳 Taiwan丨02
+      - 🇸🇬 Singapore 04
+      - 🇲🇾 V3-马来西亚|NF|v2ray
+      - 🇬🇧 英国-IEPL-Pro专线-02
+      - 🇭🇰 Hong Kong丨07
+      - 🇸🇬 新加坡-IEPL-Basic专线-01
+      - 🇮🇳 印度
+      - 🇩🇪 冷门-德国
+      - 🇦🇺 冷门-澳大利亚
+      - 🇭🇰 台湾 06 | 深港专线
+      - 🇸🇪 冷门-瑞典
+      - 🇸🇬 V3-6-新加坡SKG01|NF|v2ray
+      - 🇸🇬 新加坡 D [0.3x]
+      - 🇮🇳 冷门-印度
+      - 🇿🇦 冷门-南非
+      - 🇲🇽 冷门-墨西哥
+      - 🇲🇾 马来西亚 A
+      - 🇷🇺 冷门-俄罗斯 A
+      - Antarctica[Edge]
+      - 🇨🇳 Taiwan丨01
+      - 🇫🇷 V4-法国01
+      - 🇯🇵 日本中继 D
+      - 🇧🇷 冷门-巴西
+      - 🇭🇰 入门-香港自有机房01
+      - 🇭🇰 香港 B
+      - 🇫🇷 V3-法国01
+      - 🇲🇾 V4-马来西亚|NF|v2ray
+      - 🇬🇧 UK丨London-
+      - 🇭🇰 Hong Kong丨05
+      - 🇯🇵 日本 B
+      - 🇨🇳 CN丨Taipei-01
+      - 🇳🇱 荷兰_Telegram@kxswa
+      - 🇺🇸 标准-美国洛杉矶01
+      - 🇭🇰 入门-香港HKT01|NF
+      - 🇰🇷 TG频道:@hkaa0▓韩国
+      - 🇬🇧 92.59 GB | 150 GB
+      - 🇨🇳 V4-台湾01|NF
+      - 🇭🇰 入门-香港HKT01|NF|V2ray
+      - 🇰🇷 TG频道:@hkaa0▓韩国 2
+      - 🇸🇬 SG丨Singapore-01
+      - 🇭🇰 入门-香港自有机房02
+      - 🇯🇵 V3-日本02|NF
+      - 🇺🇸 美国-IEPL-Basic-03
+      - 🇺🇸 V4-美国洛杉矶01
+      - 🇨🇭 瑞士A01|奈飞|GPT
+      - 🇫🇷 法国_Telegram@kxswa 2
+      - 🇭🇰 V4-香港HKT02|NF|v2ray
+      - 关注频道https://t.me/mftizi
+      - 🇭🇰 CN丨Hongkong-04
+      - 🇸🇬 入门-6-新加坡SKG01|NF|V2ray
+      - 🇺🇸 V3-美国洛杉矶01
+      - 🇯🇵 V4-日本02|NF
+      - 🇭🇰 V3-香港自有机房01
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇸🇬 入门-新加坡OVH01
+      - 🇰🇷 TG频道:@hkaa0▓韩国 3
+      - 🇫🇷 法国_Telegram@kxswa
+      - 🇭🇰 标准-香港自有机房01
+      - 🇸🇬 V3-新加坡OVH02
+      - 🇰🇷 入门-韩国02|NF
+      - 🇭🇰 台湾 05 | 深港专线
+      - 🇺🇸 美国 B
+      - 🇯🇵 标准-日本01|NF
+      - 🇮🇱 冷门-以色列
+      - 🇭🇰 CN丨Hongkong-01
       - 🇧🇷 巴西A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_3
-      - 🇯🇵 日本A05|奈飞|GPT
-      - 🇮🇱 以色列B
-      - 约翰内斯堡B
-      - 🇩🇰 丹麦A01|奈飞|GPT
-      - 🇵🇭 菲律宾A
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇿🇦 南非_Telegram@kxswa
-      - TG频道 @oeo12  =JP_3
-      - 乌克兰B01|奈飞|GPT
-      - 🇪🇸 西班牙A01
-      - 🇳🇱 荷兰A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_25
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - 🇭🇰 V3-香港HKT01|NF|v2ray
+      - 🇭🇰 V4-香港自有机房01
+      - 🇰🇷 韩国 C
+      - 🇨🇳 入门-台湾01|NF
+      - 🇨🇦 加拿大 C [0.3x]
       - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇻🇳 越南B01|奈飞|GPT
-      - TG频道 @oeo12  =CN_2 2
-      - TG频道 @oeo12  =CN_1 2
-      - 🇮🇹 意大利B
-      - 🇯🇵 日本A03|奈飞|GPT
-      - TG频道 @oeo12  =CN_28 2
-      - 🇷🇺 俄罗斯B
-      - TG频道 @oeo12  =CN_21
-      - 🇭🇺 匈牙利_Telegram@kxswa
+      - 🇬🇧 冷门-英国
+      - 🇸🇬 新加坡A01
+      - 🇺🇸 美国A02|奈飞|GPT
+      - 🇨🇳 标准-台湾01|NF
+      - 🇰🇷 入门-韩国01|NF
+      - 🇭🇰 V4-香港HKT01|NF|v2ray
+      - 🇭🇰 CN丨Hongkong-02
+      - 🇸🇬 V3-新加坡OVH01
+      - 🇺🇸 标准-美国洛杉矶02
+      - 🇸🇬 新加坡A02|奈飞|GPT
+      - 🇸🇬 V4-6-新加坡SKG01|NF|v2ray
+      - 🇸🇬 入门-新加坡OVH02
+      - 🇨🇱 冷门-智利
+      - 🇯🇵 V4-日本01|NF
+      - 🇺🇸 入门-美国洛杉矶01
+      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇸🇬 新加坡-IEPL-Pro专线-04
+      - 🇬🇧 英国A01|奈飞|GPT
+      - 🇭🇰 香港_Telegram@kxswa 24
+      - 🇯🇵 日本A05|奈飞|GPT
+      - 🇸🇬 标准-新加坡OVH01
+      - 🇸🇬 新加坡 B
+      - 🇰🇷 V4-韩国01|NF
+      - 🇨🇳 CN丨Taipei-02
+      - 🇺🇸 美国1|@ripaojiedian
+      - 🇨🇦 加拿大 A
+      - 🇫🇷 入门-法国01
+      - 🇰🇷 韩国A01
+      - 🇭🇰 香港KT1|@ripaojiedian
+      - 🇰🇷 V4-韩国02|NF
+      - 🇻🇳 越南_Telegram@kxswa
       - 🇮🇳 印度A01
-      - TG频道 @oeo12  =CN_29
-      - TG频道 @oeo12  =CN_27
-      - TG频道 @oeo12  =CN_26 2
+      - 🇰🇷 标准-韩国02|NF
+      - 🇪🇸 西班牙A01
+      - 🇰🇷 标准-韩国01|NF
+      - 🇵🇭 菲律宾A
+      - 🇭🇰 香港-IEPL-Basic专线-02
+      - 入门-HKT02|NF
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇵🇱 冷门-波兰
+      - 🇭🇰 标准-香港HKT01|NF|V2ray
+      - 🇸🇬 V4-新加坡OVH02
+      - 🇯🇵 入门-日本01|NF
+      - 🇯🇵 入门-日本02|NF
+      - 🇸🇬 标准-6-新加坡SKG02|NF
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇺🇸 美国A04|奈飞|GPT
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 🇭🇰 标准-香港HKT01|NF
+      - 🇯🇵 V3-日本01|NF
+      - 🇨🇳 台湾 C
+      - 🇦🇷 Argentina[Edge]
+      - 🇸🇬 标准-新加坡OVH02
+      - 🇭🇰 香港KT1|@ripaojiedian 2
+      - 🇺🇸 United States丨05
+      - 🇭🇰 V3-香港HKT02|NF
+      - 🇺🇸 美国 A
+      - 🇨🇳 台湾 A
+      - 🇸🇬 SG丨Singapore-02
+      - 🇮🇱 以色列_Telegram@kxswa
+      - 🇭🇰 V4-香港HKT02|NF
+      - 🇸🇬 V3-6-新加坡SKG01|NF
+      - 🇨🇳 台湾 B
+      - 🇭🇰 香港 D [0.3x]
+      - 🇭🇰 香港A10|奈飞-优化
+      - 标准-HKT02|NF
+      - 🇸🇬 V4-6-新加坡SKG01|NF
+      - 🇲🇾 V4-马来西亚|NF
+      - 🇮🇩 印尼A
+      - 🇦🇪 迪拜A01|奈飞|GPT
+      - 入门-HKT02|NF|V2ray
+      - 🇯🇵 标准-日本02|NF
+      - 🇭🇰 V4-香港HKT01|NF
+      - 🇸🇬 标准-6-新加坡SKG01|NF
+      - 🇦🇺 澳大利亚A01|奈飞|GPT
+      - 🇭🇰 V3-香港HKT01|NF
+      - 🇭🇰 香港 A
+      - 🇰🇷 V3-韩国02|NF
+      - 🇫🇷 冷门-法国
+      - 🇰🇷 V3-韩国01|NF
+      - 🇸🇬 入门-6-新加坡SKG02|NF
+      - 🇯🇵 日本中继 E
+      - 🇸🇬 入门-6-新加坡SKG01|NF
+      - 🇭🇰 香港A08|奈飞-优化
+      - 🇭🇰 CN丨Hongkong-03
+      - 🇯🇵 日本 A
+      - 🇸🇬 新加坡 A
+      - 🇻🇳 越南_Telegram@kxswa 3
+      - 🇸🇬 V4-新加坡OVH01
+      - 🇨🇳 台湾A00|奈飞|GPT
+      - 🇲🇾 V3-马来西亚|NF
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇲🇾 入门-马来西亚|NF
+      - 🇸🇬 新加坡-IEPL-Pro专线-01
+      - 标准-HKT02|NF|V2ray
+      - 🇭🇰 香港-IEPL-Basic专线-09
+      - 🇭🇰 香港-IEPL-Basic专线-07
+      - 🇯🇵 Japan 06
+      - 🇭🇰 香港-IEPL-Pro专线-01
+      - 🇭🇰 香港-IEPL-Basic专线-05
+      - 🇭🇰 香港-IEPL-Basic专线-04
+      - 🇯🇵 Japan丨03
+      - 🇯🇵 Japan丨05
+      - 🇸🇬 Singapore 03
+      - 🇯🇵 Japan丨02
+      - 🇯🇵 Japan[Lite] 0.5x
+      - 🇭🇰 台湾 02 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-01
+      - 🇭🇰 台湾 03 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-10
+      - 🇯🇵 Japan丨01
+      - 🇯🇵 Japan丨04
+      - 🇯🇵 Japan 01
+      - 🇰🇷 South Korea[Edge]
+      - 🇭🇰 新加坡 05 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-02
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 新加坡 02 | 深港专线
+      - 🇭🇰 Hong Kong 03
+      - 🇬🇧 United Kingdom 01
+      - 🇯🇵 Japan 04
+      - 🇭🇰 印度 02 | 深港专线
+      - 🇺🇸 United States 02
+      - 🇮🇱 Israel[Edge]
+      - 🇭🇰 新加坡 06 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-08
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 印度 01 | 深港专线
+      - 🇭🇰 日本 01 | 深港专线
+      - 🇭🇰 柬埔寨 01 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-07
+      - 🇭🇰 英国 01 | 深港专线
+      - 🇭🇰 日本 04 | 深港专线
+      - 🇭🇰 香港-IEPL-Basic专线-06
+      - 🇭🇰 台湾 01 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-02
+      - 🇯🇵 Japan 05
+      - 🇹🇷 Turkey[Edge]
+      - 🇰🇷 North Korea[Edge]
+      - 🇭🇰 香港-IEPL-Pro专线-09
+      - 🇯🇵 Japan 03
+      - 🇭🇰 荷兰 01 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-06
+      - 🇭🇰 德国 02 | 深港专线
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇭🇰 香港 07 | 深港专线
+      - 🇺🇸 United States 01
+      - 🇨🇦 Canada丨01
+      - 🇰🇷 韩国-EIPL-Pro专线-01
+      - 🇭🇰 香港 01 | 深港专线
+      - 🇭🇰 香港 06 | 深港专线
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 香港_Telegram@kxswa 23
+      - 🇭🇰 加拿大 02 | 深港专线
+      - 🇭🇰 澳大利亚 02 | 深港专线
+      - 🇭🇰 新加坡 01 | 深港专线
+      - 🇯🇵 日本-IEPL-Basic专线-01
+      - 🇭🇰 香港 10 | 深港专线
+      - 🇰🇷 South Korea丨01
+      - 🇯🇵 Japan 07
+      - 🇸🇬 Singapore 07
+      - 🇮🇸 Iceland[Edge]
+      - 🇭🇰 香港-IEPL-Pro专线-05
+      - 🇭🇰 香港 04 | 深港专线
+      - 🇭🇰 香港 03 | 深港专线
+      - 🇭🇰 台湾 04 | 深港专线
+      - 🇭🇰 英国 02 | 深港专线
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 香港 02 | 深港专线
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇭🇰 柬埔寨 02 | 深港专线
+      - 🇭🇰 美国 06 | 深港专线
+      - 🇰🇷 South Korea丨02
+      - 🇭🇰 美国 05 | 深港专线
+      - 🇭🇰 荷兰 02 | 深港专线
+      - 🇨🇦 Canada丨02
+      - 🇸🇬 Singapore 06
+      - 🇭🇰 香港-IEPL-Pro专线-03
+      - 🇸🇬 Singapore[Lite] 0.5x
+      - 🇭🇰 日本 06 | 深港专线
+      - 🇯🇵 日本-IEPL-Basic专线-02
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - TG频道 @oeo12  =CN_20
-      - TG频道 @oeo12  =CN_8
-      - 🇭🇰 香港KT1|@ripaojiedian
-      - TG频道 @oeo12  =CN_28
-      - TG频道 @oeo12  =CN_26
-      - TG频道 @oeo12  =CN_62
-      - TG频道 @oeo12  =CN_18
-      - TG频道 @oeo12  =CN_10
-      - TG频道 @oeo12  =CN_33
-      - TG频道 @oeo12  =CN_9
-      - TG频道 @oeo12  =CN_17
-      - TG频道 @oeo12  =CN_41
-      - TG频道 @oeo12  =CN_32
-      - 🇸🇬 新加坡A02|奈飞|GPT
-      - TG频道 @oeo12  =CN_15
-      - 🇰🇷 韩国A01
-      - TG频道 @oeo12  =CN_40
-      - 🇨🇱 智利A01
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - TG频道 @oeo12  =CN_63
-      - 🇭🇰 香港A10|奈飞-优化
-      - TG频道 @oeo12  =CN_38
-      - TG频道 @oeo12  =CN_34
-      - TG频道 @oeo12  =CN_18 2
-      - 🇺🇸 美国B05|奈飞|GPT
-      - 🇨🇭 瑞士A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_46
-      - TG频道 @oeo12  =CN_39
-      - TG频道 @oeo12  =CN_19
-      - TG频道 @oeo12  =CN_12
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇦🇪 迪拜A01|奈飞|GPT
-      - 🇲🇾 马来西亚 A
-      - 🇺🇸 美国B03|奈飞|GPT
-      - 🇨🇳 台湾B01|奈飞|GPT
-      - 🇭🇰 香港_Telegram@kxswa 14 2
-      - TG频道 @oeo12  =CN_14
-      - TG频道 @oeo12  =CN_2
-      - TG频道 @oeo12  =CN_17 2
-      - 🇮🇩 印尼A
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港A08|奈飞-优化
-      - 🇦🇺 澳大利亚A01|奈飞|GPT
-      - 🇹🇭 泰国B
-      - 🇩🇪 德国B
-      - 🇫🇷 法国B
-      - 🇬🇧 英国A01|奈飞|GPT
-      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇦🇺 澳大利亚-IEPL-Pro专线-01
+      - 🇭🇰 香港 08 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-03
+      - 🇭🇰 美国 03 | 深港专线
+      - 🇵🇱 Poland[Edge]
+      - 🇭🇰 日本 03 | 深港专线
       - TG频道 @oeo12  =CN_16
-      - 🇳🇴 挪威B01|奈飞|GPT
-      - 🇺🇸 美国A02|奈飞|GPT
-      - TG频道 @oeo12  =CN_5
-      - TG频道 @oeo12  =CN_1
-      - TG频道 @oeo12  =CN_6
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 美国 02 | 深港专线
+      - 🇭🇰 Hong Kong 06
+      - 🇯🇵 Japan 02
+      - 🇸🇬 Singapore 01
+      - 🇭🇰 日本 05 | 深港专线
+      - 🇭🇰 德国 01 | 深港专线
+      - 🇲🇾 马来西亚-IEPL-Pro专线-01
+      - 🇭🇰 香港 09 | 深港专线
+      - 🇻🇳 越南-IEPL-Basic专线-01
+      - 🇭🇰 Hong Kong丨06
+      - 🇭🇰 Hong Kong丨02
+      - 🇫🇷 法国-IEPL-Pro专线-01
+      - 🇭🇰 Hong Kong丨03
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡_5
+      - 🇭🇰 Hong Kong丨10
+      - 🇮🇳 印度-IEPL-Pro专线-01
+      - 🇭🇰 美国 04 | 深港专线
+      - 🇺🇸 美国-IEPL-Pro专线-03
+      - 🇸🇬 Singapore丨03
+      - 🇸🇬 Singapore丨02
+      - 🇭🇰 香港-IEPL-Pro专线-04
+      - 🇺🇸 美国-IEPL-Basic-01
+      - 🇬🇧 英国_2
+      - 🇺🇸 美国 D [0.3x]
+      - 🇺🇸 美国-IEPL-Basic-02
+      - 🇰🇷 韩国-IEPL-Basic专线-01
+      - 🇺🇸 美国-IEPL-Pro专线-04
+      - 🇭🇰 V3-香港HKT02|NF|v2ray
+      - 🇸🇬 Singapore 05
+      - 🇺🇸 United States丨04
+      - 🇸🇬 Singapore丨01
+      - 🇭🇰 Hong Kong丨08
+      - 🇻🇳 越南-IEPL-Pro专线-02
+      - 🇵🇭 菲律宾-IEPL-Pro专线-01
+      - 🇨🇳 Taiwan丨04
+      - 🇭🇰 香港 05 | 深港专线
+      - 🇭🇰 香港-IEPL-Basic专线-03
+      - 🇬🇧 United Kingdom 02
+      - 🇭🇰 日本 02 | 深港专线
+      - 🇺🇸 美国-IEPL-Basic-04
+      - 🇸🇬 标准-6-新加坡SKG01|NF|V2ray
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan丨03
+      - 🇨🇳 台湾-IEPL-Pro专线-03
+      - 🇭🇰 澳大利亚 01 | 深港专线
+      - 🇺🇸 United States丨02
+      - 🇸🇬 新加坡07|流媒体
+      - 🇺🇸 美国-IEPL-Pro专线-05
+      - 🇭🇰 Hong Kong丨09
+      - 🇨🇳 台湾-IEPL-Basic专线-01
+      - 🇨🇳 台湾-IEPL-Pro专线-02
+      - 🇸🇬 标准-6-新加坡SKG02|NF|V2ray
+      - 🇭🇰 新加坡 04 | 深港专线
+      - 🇺🇸 United States丨01
+      - 🇭🇰 香港-IEPL-Basic专线-10
+      - 🇺🇸 美国-IEPL-Pro专线-01
+      - 🇨🇳 台湾 D [0.3x]
+      - 🇨🇳 Taiwan丨05
+      - 🇨🇳 台湾-IEPL-Pro专线-04
+      - 🇰🇷 韩国 A
+      - 🇸🇬 Singapore丨04
+      - 🇺🇸 United States丨03
+      - 🇨🇳 台湾-IEPL-Pro专线-01
+      - 🇸🇬 Singapore丨05
+      - 🇭🇰 Hong Kong丨04
+      - 🇲🇾 入门-马来西亚|NF|v2ray
+      - 🇲🇾 标准-马来西亚|NF|v2ray
+      - 🇷🇺 冷门-俄罗斯 B
+      - 🇸🇬 入门-6-新加坡SKG02|NF|V2ray
+      - 🇸🇬 Singapore 08
+      - 🇺🇸 美国-IEPL-Pro专线-02
+      - 🇭🇰 美国 01 | 深港专线
+      - Great Britain丨02
+      - 🇮🇳 India[Edge]
+      - 🇬🇧 英国-IEPL-Basic专线-01
+      - 🇨🇳 Taiwan丨02
+      - 🇸🇬 Singapore 04
+      - 🇲🇾 V3-马来西亚|NF|v2ray
+      - 🇬🇧 英国-IEPL-Pro专线-02
+      - 🇭🇰 Hong Kong丨07
+      - 🇸🇬 新加坡-IEPL-Basic专线-01
+      - 🇮🇳 印度
+      - 🇩🇪 冷门-德国
+      - 🇦🇺 冷门-澳大利亚
+      - 🇭🇰 台湾 06 | 深港专线
+      - 🇸🇪 冷门-瑞典
+      - 🇸🇬 V3-6-新加坡SKG01|NF|v2ray
+      - 🇸🇬 新加坡 D [0.3x]
+      - 🇮🇳 冷门-印度
+      - 🇿🇦 冷门-南非
+      - 🇲🇽 冷门-墨西哥
+      - 🇲🇾 马来西亚 A
+      - 🇷🇺 冷门-俄罗斯 A
+      - Antarctica[Edge]
+      - 🇨🇳 Taiwan丨01
+      - 🇫🇷 V4-法国01
+      - 🇯🇵 日本中继 D
+      - 🇧🇷 冷门-巴西
+      - 🇭🇰 入门-香港自有机房01
+      - 🇭🇰 香港 B
+      - 🇫🇷 V3-法国01
+      - 🇲🇾 V4-马来西亚|NF|v2ray
+      - 🇬🇧 UK丨London-
+      - 🇭🇰 Hong Kong丨05
+      - 🇯🇵 日本 B
+      - 🇨🇳 CN丨Taipei-01
+      - 🇳🇱 荷兰_Telegram@kxswa
+      - 🇺🇸 标准-美国洛杉矶01
+      - 🇭🇰 入门-香港HKT01|NF
+      - 🇰🇷 TG频道:@hkaa0▓韩国
+      - 🇬🇧 92.59 GB | 150 GB
+      - 🇨🇳 V4-台湾01|NF
+      - 🇭🇰 入门-香港HKT01|NF|V2ray
+      - 🇰🇷 TG频道:@hkaa0▓韩国 2
+      - 🇸🇬 SG丨Singapore-01
+      - 🇭🇰 入门-香港自有机房02
+      - 🇯🇵 V3-日本02|NF
+      - 🇺🇸 美国-IEPL-Basic-03
+      - 🇺🇸 V4-美国洛杉矶01
+      - 🇨🇭 瑞士A01|奈飞|GPT
+      - 🇫🇷 法国_Telegram@kxswa 2
+      - 🇭🇰 V4-香港HKT02|NF|v2ray
+      - 关注频道https://t.me/mftizi
+      - 🇭🇰 CN丨Hongkong-04
+      - 🇸🇬 入门-6-新加坡SKG01|NF|V2ray
+      - 🇺🇸 V3-美国洛杉矶01
+      - 🇯🇵 V4-日本02|NF
+      - 🇭🇰 V3-香港自有机房01
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇸🇬 入门-新加坡OVH01
+      - 🇰🇷 TG频道:@hkaa0▓韩国 3
+      - 🇫🇷 法国_Telegram@kxswa
+      - 🇭🇰 标准-香港自有机房01
+      - 🇸🇬 V3-新加坡OVH02
+      - 🇰🇷 入门-韩国02|NF
+      - 🇭🇰 台湾 05 | 深港专线
+      - 🇺🇸 美国 B
+      - 🇯🇵 标准-日本01|NF
+      - 🇮🇱 冷门-以色列
+      - 🇭🇰 CN丨Hongkong-01
       - 🇧🇷 巴西A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_3
-      - 🇯🇵 日本A05|奈飞|GPT
-      - 🇮🇱 以色列B
-      - 约翰内斯堡B
-      - 🇩🇰 丹麦A01|奈飞|GPT
-      - 🇵🇭 菲律宾A
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇿🇦 南非_Telegram@kxswa
-      - TG频道 @oeo12  =JP_3
-      - 乌克兰B01|奈飞|GPT
-      - 🇪🇸 西班牙A01
-      - 🇳🇱 荷兰A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_25
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - 🇭🇰 V3-香港HKT01|NF|v2ray
+      - 🇭🇰 V4-香港自有机房01
+      - 🇰🇷 韩国 C
+      - 🇨🇳 入门-台湾01|NF
+      - 🇨🇦 加拿大 C [0.3x]
       - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇻🇳 越南B01|奈飞|GPT
-      - TG频道 @oeo12  =CN_2 2
-      - TG频道 @oeo12  =CN_1 2
-      - 🇮🇹 意大利B
-      - 🇯🇵 日本A03|奈飞|GPT
-      - TG频道 @oeo12  =CN_28 2
-      - 🇷🇺 俄罗斯B
-      - TG频道 @oeo12  =CN_21
-      - 🇭🇺 匈牙利_Telegram@kxswa
+      - 🇬🇧 冷门-英国
+      - 🇸🇬 新加坡A01
+      - 🇺🇸 美国A02|奈飞|GPT
+      - 🇨🇳 标准-台湾01|NF
+      - 🇰🇷 入门-韩国01|NF
+      - 🇭🇰 V4-香港HKT01|NF|v2ray
+      - 🇭🇰 CN丨Hongkong-02
+      - 🇸🇬 V3-新加坡OVH01
+      - 🇺🇸 标准-美国洛杉矶02
+      - 🇸🇬 新加坡A02|奈飞|GPT
+      - 🇸🇬 V4-6-新加坡SKG01|NF|v2ray
+      - 🇸🇬 入门-新加坡OVH02
+      - 🇨🇱 冷门-智利
+      - 🇯🇵 V4-日本01|NF
+      - 🇺🇸 入门-美国洛杉矶01
+      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇸🇬 新加坡-IEPL-Pro专线-04
+      - 🇬🇧 英国A01|奈飞|GPT
+      - 🇭🇰 香港_Telegram@kxswa 24
+      - 🇯🇵 日本A05|奈飞|GPT
+      - 🇸🇬 标准-新加坡OVH01
+      - 🇸🇬 新加坡 B
+      - 🇰🇷 V4-韩国01|NF
+      - 🇨🇳 CN丨Taipei-02
+      - 🇺🇸 美国1|@ripaojiedian
+      - 🇨🇦 加拿大 A
+      - 🇫🇷 入门-法国01
+      - 🇰🇷 韩国A01
+      - 🇭🇰 香港KT1|@ripaojiedian
+      - 🇰🇷 V4-韩国02|NF
+      - 🇻🇳 越南_Telegram@kxswa
       - 🇮🇳 印度A01
-      - TG频道 @oeo12  =CN_29
-      - TG频道 @oeo12  =CN_27
-      - TG频道 @oeo12  =CN_26 2
+      - 🇰🇷 标准-韩国02|NF
+      - 🇪🇸 西班牙A01
+      - 🇰🇷 标准-韩国01|NF
+      - 🇵🇭 菲律宾A
+      - 🇭🇰 香港-IEPL-Basic专线-02
+      - 入门-HKT02|NF
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇵🇱 冷门-波兰
+      - 🇭🇰 标准-香港HKT01|NF|V2ray
+      - 🇸🇬 V4-新加坡OVH02
+      - 🇯🇵 入门-日本01|NF
+      - 🇯🇵 入门-日本02|NF
+      - 🇸🇬 标准-6-新加坡SKG02|NF
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇺🇸 美国A04|奈飞|GPT
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 🇭🇰 标准-香港HKT01|NF
+      - 🇯🇵 V3-日本01|NF
+      - 🇨🇳 台湾 C
+      - 🇦🇷 Argentina[Edge]
+      - 🇸🇬 标准-新加坡OVH02
+      - 🇭🇰 香港KT1|@ripaojiedian 2
+      - 🇺🇸 United States丨05
+      - 🇭🇰 V3-香港HKT02|NF
+      - 🇺🇸 美国 A
+      - 🇨🇳 台湾 A
+      - 🇸🇬 SG丨Singapore-02
+      - 🇮🇱 以色列_Telegram@kxswa
+      - 🇭🇰 V4-香港HKT02|NF
+      - 🇸🇬 V3-6-新加坡SKG01|NF
+      - 🇨🇳 台湾 B
+      - 🇭🇰 香港 D [0.3x]
+      - 🇭🇰 香港A10|奈飞-优化
+      - 标准-HKT02|NF
+      - 🇸🇬 V4-6-新加坡SKG01|NF
+      - 🇲🇾 V4-马来西亚|NF
+      - 🇮🇩 印尼A
+      - 🇦🇪 迪拜A01|奈飞|GPT
+      - 入门-HKT02|NF|V2ray
+      - 🇯🇵 标准-日本02|NF
+      - 🇭🇰 V4-香港HKT01|NF
+      - 🇸🇬 标准-6-新加坡SKG01|NF
+      - 🇦🇺 澳大利亚A01|奈飞|GPT
+      - 🇭🇰 V3-香港HKT01|NF
+      - 🇭🇰 香港 A
+      - 🇰🇷 V3-韩国02|NF
+      - 🇫🇷 冷门-法国
+      - 🇰🇷 V3-韩国01|NF
+      - 🇸🇬 入门-6-新加坡SKG02|NF
+      - 🇯🇵 日本中继 E
+      - 🇸🇬 入门-6-新加坡SKG01|NF
+      - 🇭🇰 香港A08|奈飞-优化
+      - 🇭🇰 CN丨Hongkong-03
+      - 🇯🇵 日本 A
+      - 🇸🇬 新加坡 A
+      - 🇻🇳 越南_Telegram@kxswa 3
+      - 🇸🇬 V4-新加坡OVH01
+      - 🇨🇳 台湾A00|奈飞|GPT
+      - 🇲🇾 V3-马来西亚|NF
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇲🇾 入门-马来西亚|NF
+      - 🇸🇬 新加坡-IEPL-Pro专线-01
+      - 标准-HKT02|NF|V2ray
+      - 🇭🇰 香港-IEPL-Basic专线-09
+      - 🇭🇰 香港-IEPL-Basic专线-07
+      - 🇯🇵 Japan 06
+      - 🇭🇰 香港-IEPL-Pro专线-01
+      - 🇭🇰 香港-IEPL-Basic专线-05
+      - 🇭🇰 香港-IEPL-Basic专线-04
+      - 🇯🇵 Japan丨03
+      - 🇯🇵 Japan丨05
+      - 🇸🇬 Singapore 03
+      - 🇯🇵 Japan丨02
+      - 🇯🇵 Japan[Lite] 0.5x
+      - 🇭🇰 台湾 02 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-01
+      - 🇭🇰 台湾 03 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-10
+      - 🇯🇵 Japan丨01
+      - 🇯🇵 Japan丨04
+      - 🇯🇵 Japan 01
+      - 🇰🇷 South Korea[Edge]
+      - 🇭🇰 新加坡 05 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-02
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 新加坡 02 | 深港专线
+      - 🇭🇰 Hong Kong 03
+      - 🇬🇧 United Kingdom 01
+      - 🇯🇵 Japan 04
+      - 🇭🇰 印度 02 | 深港专线
+      - 🇺🇸 United States 02
+      - 🇮🇱 Israel[Edge]
+      - 🇭🇰 新加坡 06 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-08
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 印度 01 | 深港专线
+      - 🇭🇰 日本 01 | 深港专线
+      - 🇭🇰 柬埔寨 01 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-07
+      - 🇭🇰 英国 01 | 深港专线
+      - 🇭🇰 日本 04 | 深港专线
+      - 🇭🇰 香港-IEPL-Basic专线-06
+      - 🇭🇰 台湾 01 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-02
+      - 🇯🇵 Japan 05
+      - 🇹🇷 Turkey[Edge]
+      - 🇰🇷 North Korea[Edge]
+      - 🇭🇰 香港-IEPL-Pro专线-09
+      - 🇯🇵 Japan 03
+      - 🇭🇰 荷兰 01 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-06
+      - 🇭🇰 德国 02 | 深港专线
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇭🇰 香港 07 | 深港专线
+      - 🇺🇸 United States 01
+      - 🇨🇦 Canada丨01
+      - 🇰🇷 韩国-EIPL-Pro专线-01
+      - 🇭🇰 香港 01 | 深港专线
+      - 🇭🇰 香港 06 | 深港专线
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 香港_Telegram@kxswa 23
+      - 🇭🇰 加拿大 02 | 深港专线
+      - 🇭🇰 澳大利亚 02 | 深港专线
+      - 🇭🇰 新加坡 01 | 深港专线
+      - 🇯🇵 日本-IEPL-Basic专线-01
+      - 🇭🇰 香港 10 | 深港专线
+      - 🇰🇷 South Korea丨01
+      - 🇯🇵 Japan 07
+      - 🇸🇬 Singapore 07
+      - 🇮🇸 Iceland[Edge]
+      - 🇭🇰 香港-IEPL-Pro专线-05
+      - 🇭🇰 香港 04 | 深港专线
+      - 🇭🇰 香港 03 | 深港专线
+      - 🇭🇰 台湾 04 | 深港专线
+      - 🇭🇰 英国 02 | 深港专线
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 香港 02 | 深港专线
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇭🇰 柬埔寨 02 | 深港专线
+      - 🇭🇰 美国 06 | 深港专线
+      - 🇰🇷 South Korea丨02
+      - 🇭🇰 美国 05 | 深港专线
+      - 🇭🇰 荷兰 02 | 深港专线
+      - 🇨🇦 Canada丨02
+      - 🇸🇬 Singapore 06
+      - 🇭🇰 香港-IEPL-Pro专线-03
+      - 🇸🇬 Singapore[Lite] 0.5x
+      - 🇭🇰 日本 06 | 深港专线
+      - 🇯🇵 日本-IEPL-Basic专线-02
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - TG频道 @oeo12  =CN_20
-      - TG频道 @oeo12  =CN_8
-      - 🇭🇰 香港KT1|@ripaojiedian
-      - TG频道 @oeo12  =CN_28
-      - TG频道 @oeo12  =CN_26
-      - TG频道 @oeo12  =CN_62
-      - TG频道 @oeo12  =CN_18
-      - TG频道 @oeo12  =CN_10
-      - TG频道 @oeo12  =CN_33
-      - TG频道 @oeo12  =CN_9
-      - TG频道 @oeo12  =CN_17
-      - TG频道 @oeo12  =CN_41
-      - TG频道 @oeo12  =CN_32
-      - 🇸🇬 新加坡A02|奈飞|GPT
-      - TG频道 @oeo12  =CN_15
-      - 🇰🇷 韩国A01
-      - TG频道 @oeo12  =CN_40
-      - 🇨🇱 智利A01
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - TG频道 @oeo12  =CN_63
-      - 🇭🇰 香港A10|奈飞-优化
-      - TG频道 @oeo12  =CN_38
-      - TG频道 @oeo12  =CN_34
-      - TG频道 @oeo12  =CN_18 2
-      - 🇺🇸 美国B05|奈飞|GPT
-      - 🇨🇭 瑞士A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_46
-      - TG频道 @oeo12  =CN_39
-      - TG频道 @oeo12  =CN_19
-      - TG频道 @oeo12  =CN_12
-      - 🇨🇳 台湾|@ripaojiedian
-      - 🇦🇪 迪拜A01|奈飞|GPT
-      - 🇲🇾 马来西亚 A
-      - 🇺🇸 美国B03|奈飞|GPT
-      - 🇨🇳 台湾B01|奈飞|GPT
-      - 🇭🇰 香港_Telegram@kxswa 14 2
-      - TG频道 @oeo12  =CN_14
-      - TG频道 @oeo12  =CN_2
-      - TG频道 @oeo12  =CN_17 2
-      - 🇮🇩 印尼A
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇭🇰 香港A08|奈飞-优化
-      - 🇦🇺 澳大利亚A01|奈飞|GPT
-      - 🇹🇭 泰国B
-      - 🇩🇪 德国B
-      - 🇫🇷 法国B
-      - 🇬🇧 英国A01|奈飞|GPT
-      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇦🇺 澳大利亚-IEPL-Pro专线-01
+      - 🇭🇰 香港 08 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-03
+      - 🇭🇰 美国 03 | 深港专线
+      - 🇵🇱 Poland[Edge]
+      - 🇭🇰 日本 03 | 深港专线
       - TG频道 @oeo12  =CN_16
-      - 🇳🇴 挪威B01|奈飞|GPT
-      - 🇺🇸 美国A02|奈飞|GPT
-      - TG频道 @oeo12  =CN_5
-      - TG频道 @oeo12  =CN_1
-      - TG频道 @oeo12  =CN_6
+      - 🇭🇰 Hong Kong 07
+      - 🇭🇰 美国 02 | 深港专线
+      - 🇭🇰 Hong Kong 06
+      - 🇯🇵 Japan 02
+      - 🇸🇬 Singapore 01
+      - 🇭🇰 日本 05 | 深港专线
+      - 🇭🇰 德国 01 | 深港专线
+      - 🇲🇾 马来西亚-IEPL-Pro专线-01
+      - 🇭🇰 香港 09 | 深港专线
+      - 🇻🇳 越南-IEPL-Basic专线-01
+      - 🇭🇰 Hong Kong丨06
+      - 🇭🇰 Hong Kong丨02
+      - 🇫🇷 法国-IEPL-Pro专线-01
+      - 🇭🇰 Hong Kong丨03
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡_5
+      - 🇭🇰 Hong Kong丨10
+      - 🇮🇳 印度-IEPL-Pro专线-01
+      - 🇭🇰 美国 04 | 深港专线
+      - 🇺🇸 美国-IEPL-Pro专线-03
+      - 🇸🇬 Singapore丨03
+      - 🇸🇬 Singapore丨02
+      - 🇭🇰 香港-IEPL-Pro专线-04
+      - 🇺🇸 美国-IEPL-Basic-01
+      - 🇬🇧 英国_2
+      - 🇺🇸 美国 D [0.3x]
+      - 🇺🇸 美国-IEPL-Basic-02
+      - 🇰🇷 韩国-IEPL-Basic专线-01
+      - 🇺🇸 美国-IEPL-Pro专线-04
+      - 🇭🇰 V3-香港HKT02|NF|v2ray
+      - 🇸🇬 Singapore 05
+      - 🇺🇸 United States丨04
+      - 🇸🇬 Singapore丨01
+      - 🇭🇰 Hong Kong丨08
+      - 🇻🇳 越南-IEPL-Pro专线-02
+      - 🇵🇭 菲律宾-IEPL-Pro专线-01
+      - 🇨🇳 Taiwan丨04
+      - 🇭🇰 香港 05 | 深港专线
+      - 🇭🇰 香港-IEPL-Basic专线-03
+      - 🇬🇧 United Kingdom 02
+      - 🇭🇰 日本 02 | 深港专线
+      - 🇺🇸 美国-IEPL-Basic-04
+      - 🇸🇬 标准-6-新加坡SKG01|NF|V2ray
+      - 🇨🇳 Taiwan 01
+      - 🇨🇳 Taiwan丨03
+      - 🇨🇳 台湾-IEPL-Pro专线-03
+      - 🇭🇰 澳大利亚 01 | 深港专线
+      - 🇺🇸 United States丨02
+      - 🇸🇬 新加坡07|流媒体
+      - 🇺🇸 美国-IEPL-Pro专线-05
+      - 🇭🇰 Hong Kong丨09
+      - 🇨🇳 台湾-IEPL-Basic专线-01
+      - 🇨🇳 台湾-IEPL-Pro专线-02
+      - 🇸🇬 标准-6-新加坡SKG02|NF|V2ray
+      - 🇭🇰 新加坡 04 | 深港专线
+      - 🇺🇸 United States丨01
+      - 🇭🇰 香港-IEPL-Basic专线-10
+      - 🇺🇸 美国-IEPL-Pro专线-01
+      - 🇨🇳 台湾 D [0.3x]
+      - 🇨🇳 Taiwan丨05
+      - 🇨🇳 台湾-IEPL-Pro专线-04
+      - 🇰🇷 韩国 A
+      - 🇸🇬 Singapore丨04
+      - 🇺🇸 United States丨03
+      - 🇨🇳 台湾-IEPL-Pro专线-01
+      - 🇸🇬 Singapore丨05
+      - 🇭🇰 Hong Kong丨04
+      - 🇲🇾 入门-马来西亚|NF|v2ray
+      - 🇲🇾 标准-马来西亚|NF|v2ray
+      - 🇷🇺 冷门-俄罗斯 B
+      - 🇸🇬 入门-6-新加坡SKG02|NF|V2ray
+      - 🇸🇬 Singapore 08
+      - 🇺🇸 美国-IEPL-Pro专线-02
+      - 🇭🇰 美国 01 | 深港专线
+      - Great Britain丨02
+      - 🇮🇳 India[Edge]
+      - 🇬🇧 英国-IEPL-Basic专线-01
+      - 🇨🇳 Taiwan丨02
+      - 🇸🇬 Singapore 04
+      - 🇲🇾 V3-马来西亚|NF|v2ray
+      - 🇬🇧 英国-IEPL-Pro专线-02
+      - 🇭🇰 Hong Kong丨07
+      - 🇸🇬 新加坡-IEPL-Basic专线-01
+      - 🇮🇳 印度
+      - 🇩🇪 冷门-德国
+      - 🇦🇺 冷门-澳大利亚
+      - 🇭🇰 台湾 06 | 深港专线
+      - 🇸🇪 冷门-瑞典
+      - 🇸🇬 V3-6-新加坡SKG01|NF|v2ray
+      - 🇸🇬 新加坡 D [0.3x]
+      - 🇮🇳 冷门-印度
+      - 🇿🇦 冷门-南非
+      - 🇲🇽 冷门-墨西哥
+      - 🇲🇾 马来西亚 A
+      - 🇷🇺 冷门-俄罗斯 A
+      - Antarctica[Edge]
+      - 🇨🇳 Taiwan丨01
+      - 🇫🇷 V4-法国01
+      - 🇯🇵 日本中继 D
+      - 🇧🇷 冷门-巴西
+      - 🇭🇰 入门-香港自有机房01
+      - 🇭🇰 香港 B
+      - 🇫🇷 V3-法国01
+      - 🇲🇾 V4-马来西亚|NF|v2ray
+      - 🇬🇧 UK丨London-
+      - 🇭🇰 Hong Kong丨05
+      - 🇯🇵 日本 B
+      - 🇨🇳 CN丨Taipei-01
+      - 🇳🇱 荷兰_Telegram@kxswa
+      - 🇺🇸 标准-美国洛杉矶01
+      - 🇭🇰 入门-香港HKT01|NF
+      - 🇰🇷 TG频道:@hkaa0▓韩国
+      - 🇬🇧 92.59 GB | 150 GB
+      - 🇨🇳 V4-台湾01|NF
+      - 🇭🇰 入门-香港HKT01|NF|V2ray
+      - 🇰🇷 TG频道:@hkaa0▓韩国 2
+      - 🇸🇬 SG丨Singapore-01
+      - 🇭🇰 入门-香港自有机房02
+      - 🇯🇵 V3-日本02|NF
+      - 🇺🇸 美国-IEPL-Basic-03
+      - 🇺🇸 V4-美国洛杉矶01
+      - 🇨🇭 瑞士A01|奈飞|GPT
+      - 🇫🇷 法国_Telegram@kxswa 2
+      - 🇭🇰 V4-香港HKT02|NF|v2ray
+      - 关注频道https://t.me/mftizi
+      - 🇭🇰 CN丨Hongkong-04
+      - 🇸🇬 入门-6-新加坡SKG01|NF|V2ray
+      - 🇺🇸 V3-美国洛杉矶01
+      - 🇯🇵 V4-日本02|NF
+      - 🇭🇰 V3-香港自有机房01
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇸🇬 入门-新加坡OVH01
+      - 🇰🇷 TG频道:@hkaa0▓韩国 3
+      - 🇫🇷 法国_Telegram@kxswa
+      - 🇭🇰 标准-香港自有机房01
+      - 🇸🇬 V3-新加坡OVH02
+      - 🇰🇷 入门-韩国02|NF
+      - 🇭🇰 台湾 05 | 深港专线
+      - 🇺🇸 美国 B
+      - 🇯🇵 标准-日本01|NF
+      - 🇮🇱 冷门-以色列
+      - 🇭🇰 CN丨Hongkong-01
       - 🇧🇷 巴西A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_3
-      - 🇯🇵 日本A05|奈飞|GPT
-      - 🇮🇱 以色列B
-      - 约翰内斯堡B
-      - 🇩🇰 丹麦A01|奈飞|GPT
-      - 🇵🇭 菲律宾A
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇿🇦 南非_Telegram@kxswa
-      - TG频道 @oeo12  =JP_3
-      - 乌克兰B01|奈飞|GPT
-      - 🇪🇸 西班牙A01
-      - 🇳🇱 荷兰A01|奈飞|GPT
-      - TG频道 @oeo12  =CN_25
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - 🇭🇰 V3-香港HKT01|NF|v2ray
+      - 🇭🇰 V4-香港自有机房01
+      - 🇰🇷 韩国 C
+      - 🇨🇳 入门-台湾01|NF
+      - 🇨🇦 加拿大 C [0.3x]
       - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇻🇳 越南B01|奈飞|GPT
-      - TG频道 @oeo12  =CN_2 2
-      - TG频道 @oeo12  =CN_1 2
-      - 🇮🇹 意大利B
-      - 🇯🇵 日本A03|奈飞|GPT
-      - TG频道 @oeo12  =CN_28 2
-      - 🇷🇺 俄罗斯B
-      - TG频道 @oeo12  =CN_21
-      - 🇭🇺 匈牙利_Telegram@kxswa
+      - 🇬🇧 冷门-英国
+      - 🇸🇬 新加坡A01
+      - 🇺🇸 美国A02|奈飞|GPT
+      - 🇨🇳 标准-台湾01|NF
+      - 🇰🇷 入门-韩国01|NF
+      - 🇭🇰 V4-香港HKT01|NF|v2ray
+      - 🇭🇰 CN丨Hongkong-02
+      - 🇸🇬 V3-新加坡OVH01
+      - 🇺🇸 标准-美国洛杉矶02
+      - 🇸🇬 新加坡A02|奈飞|GPT
+      - 🇸🇬 V4-6-新加坡SKG01|NF|v2ray
+      - 🇸🇬 入门-新加坡OVH02
+      - 🇨🇱 冷门-智利
+      - 🇯🇵 V4-日本01|NF
+      - 🇺🇸 入门-美国洛杉矶01
+      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇸🇬 新加坡-IEPL-Pro专线-04
+      - 🇬🇧 英国A01|奈飞|GPT
+      - 🇭🇰 香港_Telegram@kxswa 24
+      - 🇯🇵 日本A05|奈飞|GPT
+      - 🇸🇬 标准-新加坡OVH01
+      - 🇸🇬 新加坡 B
+      - 🇰🇷 V4-韩国01|NF
+      - 🇨🇳 CN丨Taipei-02
+      - 🇺🇸 美国1|@ripaojiedian
+      - 🇨🇦 加拿大 A
+      - 🇫🇷 入门-法国01
+      - 🇰🇷 韩国A01
+      - 🇭🇰 香港KT1|@ripaojiedian
+      - 🇰🇷 V4-韩国02|NF
+      - 🇻🇳 越南_Telegram@kxswa
       - 🇮🇳 印度A01
-      - TG频道 @oeo12  =CN_29
-      - TG频道 @oeo12  =CN_27
-      - TG频道 @oeo12  =CN_26 2
+      - 🇰🇷 标准-韩国02|NF
+      - 🇪🇸 西班牙A01
+      - 🇰🇷 标准-韩国01|NF
+      - 🇵🇭 菲律宾A
+      - 🇭🇰 香港-IEPL-Basic专线-02
+      - 入门-HKT02|NF
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇵🇱 冷门-波兰
+      - 🇭🇰 标准-香港HKT01|NF|V2ray
+      - 🇸🇬 V4-新加坡OVH02
+      - 🇯🇵 入门-日本01|NF
+      - 🇯🇵 入门-日本02|NF
+      - 🇸🇬 标准-6-新加坡SKG02|NF
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇺🇸 美国A04|奈飞|GPT
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 🇭🇰 标准-香港HKT01|NF
+      - 🇯🇵 V3-日本01|NF
+      - 🇨🇳 台湾 C
+      - 🇦🇷 Argentina[Edge]
+      - 🇸🇬 标准-新加坡OVH02
+      - 🇭🇰 香港KT1|@ripaojiedian 2
+      - 🇺🇸 United States丨05
+      - 🇭🇰 V3-香港HKT02|NF
+      - 🇺🇸 美国 A
+      - 🇨🇳 台湾 A
+      - 🇸🇬 SG丨Singapore-02
+      - 🇮🇱 以色列_Telegram@kxswa
+      - 🇭🇰 V4-香港HKT02|NF
+      - 🇸🇬 V3-6-新加坡SKG01|NF
+      - 🇨🇳 台湾 B
+      - 🇭🇰 香港 D [0.3x]
+      - 🇭🇰 香港A10|奈飞-优化
+      - 标准-HKT02|NF
+      - 🇸🇬 V4-6-新加坡SKG01|NF
+      - 🇲🇾 V4-马来西亚|NF
+      - 🇮🇩 印尼A
+      - 🇦🇪 迪拜A01|奈飞|GPT
+      - 入门-HKT02|NF|V2ray
+      - 🇯🇵 标准-日本02|NF
+      - 🇭🇰 V4-香港HKT01|NF
+      - 🇸🇬 标准-6-新加坡SKG01|NF
+      - 🇦🇺 澳大利亚A01|奈飞|GPT
+      - 🇭🇰 V3-香港HKT01|NF
+      - 🇭🇰 香港 A
+      - 🇰🇷 V3-韩国02|NF
+      - 🇫🇷 冷门-法国
+      - 🇰🇷 V3-韩国01|NF
+      - 🇸🇬 入门-6-新加坡SKG02|NF
+      - 🇯🇵 日本中继 E
+      - 🇸🇬 入门-6-新加坡SKG01|NF
+      - 🇭🇰 香港A08|奈飞-优化
+      - 🇭🇰 CN丨Hongkong-03
+      - 🇯🇵 日本 A
+      - 🇸🇬 新加坡 A
+      - 🇻🇳 越南_Telegram@kxswa 3
+      - 🇸🇬 V4-新加坡OVH01
+      - 🇨🇳 台湾A00|奈飞|GPT
+      - 🇲🇾 V3-马来西亚|NF
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇲🇾 入门-马来西亚|NF
+      - 🇸🇬 新加坡-IEPL-Pro专线-01
+      - 标准-HKT02|NF|V2ray
+      - 🇭🇰 香港-IEPL-Basic专线-09
+      - 🇭🇰 香港-IEPL-Basic专线-07
+      - 🇯🇵 Japan 06
+      - 🇭🇰 香港-IEPL-Pro专线-01
+      - 🇭🇰 香港-IEPL-Basic专线-05
+      - 🇭🇰 香港-IEPL-Basic专线-04
+      - 🇯🇵 Japan丨03
+      - 🇯🇵 Japan丨05
+      - 🇸🇬 Singapore 03
+      - 🇯🇵 Japan丨02
+      - 🇯🇵 Japan[Lite] 0.5x
+      - 🇭🇰 台湾 02 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-01
+      - 🇭🇰 台湾 03 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-10
+      - 🇯🇵 Japan丨01
+      - 🇯🇵 Japan丨04
+      - 🇯🇵 Japan 01
+      - 🇰🇷 South Korea[Edge]
+      - 🇭🇰 新加坡 05 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-02
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 新加坡 02 | 深港专线
+      - 🇭🇰 Hong Kong 03
+      - 🇬🇧 United Kingdom 01
+      - 🇯🇵 Japan 04
+      - 🇭🇰 印度 02 | 深港专线
+      - 🇺🇸 United States 02
+      - 🇮🇱 Israel[Edge]
+      - 🇭🇰 新加坡 06 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-08
+      - 🇭🇰 Hong Kong 08
+      - 🇭🇰 印度 01 | 深港专线
+      - 🇭🇰 日本 01 | 深港专线
+      - 🇭🇰 柬埔寨 01 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-07
+      - 🇭🇰 英国 01 | 深港专线
+      - 🇭🇰 日本 04 | 深港专线
+      - 🇭🇰 香港-IEPL-Basic专线-06
+      - 🇭🇰 台湾 01 | 深港专线
+      - 🇯🇵 日本-IEPL-Pro专线-02
+      - 🇯🇵 Japan 05
+      - 🇹🇷 Turkey[Edge]
+      - 🇰🇷 North Korea[Edge]
+      - 🇭🇰 香港-IEPL-Pro专线-09
+      - 🇯🇵 Japan 03
+      - 🇭🇰 荷兰 01 | 深港专线
+      - 🇭🇰 香港-IEPL-Pro专线-06
+      - 🇭🇰 德国 02 | 深港专线
+      - 🇭🇰 新加坡 03 | 深港专线
+      - 🇭🇰 香港 07 | 深港专线
+      - 🇺🇸 United States 01
+      - 🇨🇦 Canada丨01
+      - 🇰🇷 韩国-EIPL-Pro专线-01
+      - 🇭🇰 香港 01 | 深港专线
+      - 🇭🇰 香港 06 | 深港专线
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 香港_Telegram@kxswa 23
+      - 🇭🇰 加拿大 02 | 深港专线
+      - 🇭🇰 澳大利亚 02 | 深港专线
+      - 🇭🇰 新加坡 01 | 深港专线
+      - 🇯🇵 日本-IEPL-Basic专线-01
+      - 🇭🇰 香港 10 | 深港专线
+      - 🇰🇷 South Korea丨01
+      - 🇯🇵 Japan 07
+      - 🇸🇬 Singapore 07
+      - 🇮🇸 Iceland[Edge]
+      - 🇭🇰 香港-IEPL-Pro专线-05
+      - 🇭🇰 香港 04 | 深港专线
+      - 🇭🇰 香港 03 | 深港专线
+      - 🇭🇰 台湾 04 | 深港专线
+      - 🇭🇰 英国 02 | 深港专线
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 香港 02 | 深港专线
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇭🇰 柬埔寨 02 | 深港专线
+      - 🇭🇰 美国 06 | 深港专线
+      - 🇰🇷 South Korea丨02
+      - 🇭🇰 美国 05 | 深港专线
+      - 🇭🇰 荷兰 02 | 深港专线
+      - 🇨🇦 Canada丨02
+      - 🇸🇬 Singapore 06
+      - 🇭🇰 香港-IEPL-Pro专线-03
+      - 🇸🇬 Singapore[Lite] 0.5x
+      - 🇭🇰 日本 06 | 深港专线
+      - 🇯🇵 日本-IEPL-Basic专线-02
   - name: 🎯 不挂代理
     type: select
     proxies:
