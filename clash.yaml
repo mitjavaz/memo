@@ -5,240 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 SG  IPLC x 1, server: any.hmbiplc-02.com, port: 54596, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇯🇵 [日] Japan 1", server: 120.232.165.26, port: 12359, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇭🇰 [港] Hong Kong  7", server: 120.232.165.26, port: 12347, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇯🇵 [日] Japan 2", server: 120.232.165.26, port: 12361, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇺🇸 美国 | CN2 - 2号线, server: ngzydd.sub-zrj.com, port: 6811, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇭🇰 [港] Hong Kong  10", server: 120.232.165.26, port: 12371, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇸🇬 [新] Singapore 1", server: 120.232.165.26, port: 12365, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇺🇸 美国 | CN2, server: cn2hnn.sub-zrj.com, port: 6811, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本11, server: cn14.mynode.me, port: 8411, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇨🇳 台湾 | CN2, server: cn2hnn.sub-zrj.com, port: 600, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇸🇬 [新] Singapore 1 2", server: 120.232.165.26, port: 12365, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇺🇸 [美] United States 2", server: 120.232.165.26, port: 12364, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇭🇰 [港] Hong Kong  4", server: 120.232.165.26, port: 12346, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: 🇭🇰 香港 | CN2, server: cn2hnn.sub-zrj.com, port: 321, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇺🇸 美国 | 9929 [2.5x]", server: updatess.sub-zrj.com, port: 6811, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: data.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇺🇸 [美] United States 1", server: 120.232.165.26, port: 12366, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇨🇳 [台] Taiwan 3", server: 120.232.165.26, port: 12373, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇭🇰 [港] Hong Kong  4 2", server: 120.232.165.26, port: 12346, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇭🇰 [港] Hong Kong  4 3", server: 120.232.165.26, port: 12346, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇺🇸 [美] United States 3", server: 120.232.165.26, port: 12370, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇯🇵 [日] Japan 3", server: 120.232.165.26, port: 12362, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇸🇬 新加坡 | CN2, server: cn2hnn.sub-zrj.com, port: 222, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇭🇰 [港] Hong Kong  13", server: 120.232.165.26, port: 12372, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇺🇸 [美] Misaka United States", server: 120.232.165.26, port: 12374, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇲🇾 [马] Malaysia", server: 120.232.165.26, port: 12353, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇸🇬 [新] Singapore 1 3", server: 120.232.165.26, port: 12365, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: 🇯🇵 JP  IPLC x 1, server: any.hmbiplc-02.com, port: 53393, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: 🇯🇵 JP  IPLC x 1 2, server: any.hmbiplc-02.com, port: 53393, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇯🇵 [日] Japan 3 2", server: 120.232.165.26, port: 12362, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇰🇷 [韩] South Korea 1", server: 120.232.165.26, port: 12367, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇹🇭 [泰] Thailand", server: 120.232.165.26, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇦🇷 [阿] Argentina", server: 120.232.165.26, port: 12350, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇯🇵 [日] Japan 1 2", server: 120.232.165.26, port: 12359, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇯🇵 日本09, server: cn13.mynode.me, port: 8409, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇲🇾 [马] Malaysia 2", server: 120.232.165.26, port: 12353, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇮🇩 [印] Indonesia", server: 120.232.165.26, port: 12357, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: 🇯🇵 JP  IPLC x 1 3, server: any.hmbiplc-02.com, port: 53393, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇺🇸 [美] United States 2 2", server: 120.232.165.26, port: 12364, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇭🇰 [港] Hong Kong  10 2", server: 120.232.165.26, port: 12371, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: 🇨🇳 台湾 | 上海, server: shltt.sub-zrj.com, port: 600, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇨🇳 [台] Taiwan 1", server: 120.232.165.26, port: 12358, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇸🇬 [新] Singapore 3", server: 120.232.165.26, port: 12363, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇬🇧 [英] United Kiongdom", server: 120.232.165.26, port: 12355, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇻🇳 [越] Vietnam", server: 120.232.165.26, port: 12354, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇨🇳 [台] Taiwan 3 2", server: 120.232.165.26, port: 12373, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇺🇸 [美] United States 2 3", server: 120.232.165.26, port: 12364, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇭🇰 [港] Hong Kong  13 2", server: 120.232.165.26, port: 12372, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇬🇧 [英] United Kiongdom 2", server: 120.232.165.26, port: 12355, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇸🇬 SG  IPLC x 1 2, server: any.hmbiplc-02.com, port: 54596, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇭🇰 [港] Hong Kong  13 3", server: 120.232.165.26, port: 12372, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇸🇬 SG  IPLC x 1 3, server: any.hmbiplc-02.com, port: 54596, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇯🇵 [日] Japan 3 3", server: 120.232.165.26, port: 12362, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇭🇰 [港] Hong Kong  10 3", server: 120.232.165.26, port: 12371, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇸🇬 新加坡 | CN2 - 2号线, server: ngzydd.sub-zrj.com, port: 222, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国 | CN2 - 2号线, server: ngzydd.sub-zrj.com, port: 6565, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇸🇬 [新] Singapore 3 2", server: 120.232.165.26, port: 12363, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇸🇬 SG  IPLC x 1 4, server: any.hmbiplc-02.com, port: 54596, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇺🇸 [美] United States 3 2", server: 120.232.165.26, port: 12370, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇺🇸 [美] Misaka United States 2", server: 120.232.165.26, port: 12374, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇯🇵 [日] Japan 5", server: 120.232.165.26, port: 12360, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇺🇸 [美] United States 3 3", server: 120.232.165.26, port: 12370, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇹🇷 [土] Turkey", server: 120.232.165.26, port: 12348, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇬🇧 英国 | 9929 [2.5x]", server: updatess.sub-zrj.com, port: 121, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: data.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇬🇧 [英] United Kiongdom 3", server: 120.232.165.26, port: 12355, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇯🇵 [日] Japan 5 2", server: 120.232.165.26, port: 12360, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇰🇷 韩国 | CN2, server: cn2hnn.sub-zrj.com, port: 6565, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇺🇸 [美] United States 1 2", server: 120.232.165.26, port: 12366, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇺🇸 [美] Misaka United States 3", server: 120.232.165.26, port: 12374, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇺🇸 [美] Misaka United States 4", server: 120.232.165.26, port: 12374, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇸🇬 新加坡 | 上海, server: shltt.sub-zrj.com, port: 222, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇸🇬 [新] Singapore 3 3", server: 120.232.165.26, port: 12363, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇨🇳 TW  IPLC x 1, server: any.hmbiplc-02.com, port: 53649, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇺🇸 [美] Misaka United States 5", server: 120.232.165.26, port: 12374, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇦🇷 [阿] Argentina 2", server: 120.232.165.26, port: 12350, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇹🇷 [土] Turkey 2", server: 120.232.165.26, port: 12348, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇹🇭 [泰] Thailand 2", server: 120.232.165.26, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇯🇵 [日] Japan 1 3", server: 120.232.165.26, port: 12359, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇺🇸 [美] United States 2 4", server: 120.232.165.26, port: 12364, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇯🇵 日本 | 9929 [2.5x]", server: updatess.sub-zrj.com, port: 2323, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: data.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇻🇳 [越] Vietnam 2", server: 120.232.165.26, port: 12354, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: 🇺🇸 美国04, server: cn15.mynode.me, port: 8504, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇺🇸 美国03, server: cn15.mynode.me, port: 8503, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇹🇭 [泰] Thailand 3", server: 120.232.165.26, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇦🇷 [阿] Argentina 3", server: 120.232.165.26, port: 12350, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇰🇭 [柬] Cambodia", server: 120.232.165.26, port: 12352, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇭🇰 [港] Hong Kong  7 2", server: 120.232.165.26, port: 12347, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇰🇷 [韩] South Korea 1 2", server: 120.232.165.26, port: 12367, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇭🇰 香港12, server: cn03.mynode.me, port: 8112, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇵🇭 [菲] Philippines", server: 120.232.165.26, port: 12349, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇲🇾 [马] Malaysia 3", server: 120.232.165.26, port: 12353, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇭🇰 HK  IPLC x 1, server: any.hmbiplc-02.com, port: 53451, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇨🇳 [台] Taiwan 3 3", server: 120.232.165.26, port: 12373, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇨🇳 TW  IPLC x 1 2, server: any.hmbiplc-02.com, port: 53649, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: 🇺🇸 美国01, server: cn15.mynode.me, port: 8501, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇯🇵 日本02, server: cn11.mynode.me, port: 8402, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇯🇵 日本06, server: cn12.mynode.me, port: 8406, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇸🇬 [新] Singapore 1 4", server: 120.232.165.26, port: 12365, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇯🇵 JP  IPLC x 1 4, server: any.hmbiplc-02.com, port: 53393, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇨🇳 [台] Taiwan 1 2", server: 120.232.165.26, port: 12358, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇯🇵 日本01, server: cn11.mynode.me, port: 8401, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 香港13, server: cn03.mynode.me, port: 8113, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇵🇭 [菲] Philippines 2", server: 120.232.165.26, port: 12349, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇯🇵 日本07, server: cn12.mynode.me, port: 8407, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇯🇵 [日] Japan 1 4", server: 120.232.165.26, port: 12359, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: 🇺🇸 美国05, server: cn15.mynode.me, port: 8505, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇯🇵 日本08, server: cn13.mynode.me, port: 8408, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇰🇭 [柬] Cambodia 2", server: 120.232.165.26, port: 12352, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇹🇭 [泰] Thailand 4", server: 120.232.165.26, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇯🇵 日本12, server: cn14.mynode.me, port: 8412, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇭🇰 [港] Hong Kong  13 4", server: 120.232.165.26, port: 12372, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇹🇷 [土] Turkey 3", server: 120.232.165.26, port: 12348, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: 🇨🇳 台湾省03, server: cn10.mynode.me, port: 8303, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇦🇷 [阿] Argentina 4", server: 120.232.165.26, port: 12350, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇬🇧 [英] United Kiongdom 4", server: 120.232.165.26, port: 12355, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇹🇷 [土] Turkey 4", server: 120.232.165.26, port: 12348, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇰🇷 [韩] South Korea 1 3", server: 120.232.165.26, port: 12367, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇯🇵 [日] Japan 2 2", server: 120.232.165.26, port: 12361, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇭🇰 [港] Hong Kong  7 3", server: 120.232.165.26, port: 12347, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇯🇵 日本13, server: cn14.mynode.me, port: 8413, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇺🇸 [美] United States 3 4", server: 120.232.165.26, port: 12370, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇻🇳 [越] Vietnam 3", server: 120.232.165.26, port: 12354, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇵🇭 [菲] Philippines 3", server: 120.232.165.26, port: 12349, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: 🇨🇳 台湾省04, server: cn10.mynode.me, port: 8304, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇰🇷 韩国 | 上海, server: shltt.sub-zrj.com, port: 6565, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇲🇾 [马] Malaysia 4", server: 120.232.165.26, port: 12353, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇯🇵 日本 | CN2 - 2号线, server: ngzydd.sub-zrj.com, port: 2323, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇻🇳 [越] Vietnam 4", server: 120.232.165.26, port: 12354, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇯🇵 日本05, server: cn12.mynode.me, port: 8405, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇹🇷 [土] Turkey 5", server: 120.232.165.26, port: 12348, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: JP01, server: cn00.mynode.me, port: 8802, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 香港03, server: cn01.mynode.me, port: 8103, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇨🇳 台湾省02, server: cn10.mynode.me, port: 8302, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇺🇸 [美] United States 1 3", server: 120.232.165.26, port: 12366, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: 🇭🇰 香港05, server: cn02.mynode.me, port: 8105, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: US01, server: cn00.mynode.me, port: 8803, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇬🇧 英国 | CN2 - 2号线, server: ngzydd.sub-zrj.com, port: 121, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇰🇭 [柬] Cambodia 3", server: 120.232.165.26, port: 12352, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇻🇳 [越] Vietnam 5", server: 120.232.165.26, port: 12354, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇹🇷 土耳其 | 9929 [2.5x]", server: updatess.sub-zrj.com, port: 200, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: data.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇲🇾 [马] Malaysia 5", server: 120.232.165.26, port: 12353, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: 🇯🇵 日本03, server: cn11.mynode.me, port: 8403, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇹🇭 [泰] Thailand 5", server: 120.232.165.26, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: 🇯🇵 日本04, server: cn12.mynode.me, port: 8404, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 香港06, server: cn02.mynode.me, port: 8106, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇸🇬 [新] Singapore 3 4", server: 120.232.165.26, port: 12363, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: 🇯🇵 日本 | 上海, server: shltt.sub-zrj.com, port: 2323, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港01, server: cn01.mynode.me, port: 8101, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇮🇩 [印] Indonesia 2", server: 120.232.165.26, port: 12357, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇰🇷 [韩] South Korea 1 4", server: 120.232.165.26, port: 12367, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: 🇭🇰 香港04, server: cn02.mynode.me, port: 8104, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 HK  IPLC x 1 2, server: any.hmbiplc-02.com, port: 53451, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: 🇭🇰 香港02, server: cn01.mynode.me, port: 8102, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇯🇵 US_分享日记, server: 95.164.87.138, port: 63830, type: ss, cipher: chacha20-ietf-poly1305, password: dPW6SKhVfqDevBfdrt5eJg}
-  - {name: "🇸🇬 [新] Singapore 1 5", server: 120.232.165.26, port: 12365, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇯🇵 [日] Japan 2 3", server: 120.232.165.26, port: 12361, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇸🇬 SG  IPLC x 1 5, server: any.hmbiplc-02.com, port: 54596, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇯🇵 [日] Japan 3 4", server: 120.232.165.26, port: 12362, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇯🇵 [日] Japan 5 3", server: 120.232.165.26, port: 12360, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇦🇷 [阿] Argentina 5", server: 120.232.165.26, port: 12350, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇯🇵 CH_分享日记, server: 5.182.36.245, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: ndJuPjq7WbFDjB4oacljGw}
-  - {name: 🇯🇵 日本 | CN2, server: cn2hnn.sub-zrj.com, port: 2323, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 | CN2, server: cn2hnn.sub-zrj.com, port: 121, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇵🇭 [菲] Philippines 4", server: 120.232.165.26, port: 12349, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇯🇵 JP  IPLC x 1 5, server: any.hmbiplc-02.com, port: 53393, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇯🇵 [日] Japan 5 4", server: 120.232.165.26, port: 12360, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇰🇷 [韩] South Korea 1 5", server: 120.232.165.26, port: 12367, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇭🇰 香港11, server: cn03.mynode.me, port: 8111, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇬🇧 [英] United Kiongdom 5", server: 120.232.165.26, port: 12355, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇯🇵 [日] Japan 3 5", server: 120.232.165.26, port: 12362, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇺🇸 [美] United States 2 5", server: 120.232.165.26, port: 12364, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇬🇧 英国 | 上海, server: shltt.sub-zrj.com, port: 121, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾省05, server: cn10.mynode.me, port: 8305, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇺🇸 [美] United States 1 4", server: 120.232.165.26, port: 12366, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇰🇷 韩国 | 9929 [2.5x]", server: updatess.sub-zrj.com, port: 6565, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: data.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇮🇩 [印] Indonesia 3", server: 120.232.165.26, port: 12357, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: "🇨🇳 台湾 | 9929 [2.5x]", server: updatess.sub-zrj.com, port: 600, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: data.sub-zrj.com, skip-cert-verify: false}
-  - {name: 🇭🇰 HK  IPLC x 1 3, server: any.hmbiplc-02.com, port: 53451, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇵🇭 [菲] Philippines 5", server: 120.232.165.26, port: 12349, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇨🇳 台湾省01, server: cn10.mynode.me, port: 8301, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇺🇸 美国A04|奈飞|GPT, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK  IPLC x 1 4, server: any.hmbiplc-02.com, port: 53451, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇭🇰 香港 | CN2 - 2号线, server: ngzydd.sub-zrj.com, port: 321, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: TW01, server: cn00.mynode.me, port: 8801, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇨🇳 台湾省06, server: cn10.mynode.me, port: 8306, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇨🇳 [台] Taiwan 3 4", server: 120.232.165.26, port: 12373, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇸🇬 [新] Singapore 3 5", server: 120.232.165.26, port: 12363, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇭🇰 [港] Hong Kong  4 4", server: 120.232.165.26, port: 12346, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇯🇵 [日] Japan 5 5", server: 120.232.165.26, port: 12360, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: "🇨🇳 [台] Taiwan 3 5", server: 120.232.165.26, port: 12373, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: 🇭🇰 香港24, server: cn05.mynode.me, port: 8124, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 香港 | 上海, server: shltt.sub-zrj.com, port: 321, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国06, server: cn15.mynode.me, port: 8506, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇭🇰 [港] Hong Kong  7 4", server: 120.232.165.26, port: 12347, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: 🇭🇰 香港18, server: cn04.mynode.me, port: 8118, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 香港15, server: cn03.mynode.me, port: 8115, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇺🇸 美国14, server: cn16.mynode.me, port: 8514, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 香港08, server: cn02.mynode.me, port: 8108, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 香港16, server: cn04.mynode.me, port: 8116, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇨🇳 [台] Taiwan 1 3", server: 120.232.165.26, port: 12358, type: ss, cipher: chacha20-ietf-poly1305, password: 1df5392f-a7fe-44b5-9173-06c8a25ac292}
-  - {name: "🇸🇬 [新] Singapore 1 6", server: 120.232.165.26, port: 12365, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: 🇭🇰 香港26, server: cn05.mynode.me, port: 8126, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇸🇬 新加坡10, server: cn08.mynode.me, port: 8210, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 香港23, server: cn05.mynode.me, port: 8123, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇯🇵 [日] Japan 1 5", server: 120.232.165.26, port: 12359, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
-  - {name: 🇭🇰 香港17, server: cn04.mynode.me, port: 8117, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇺🇸 美国A02|奈飞|GPT, server: 183.232.170.22, port: 30061, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本A03|奈飞|GPT, server: 183.232.170.22, port: 30038, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港21, server: cn05.mynode.me, port: 8121, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇭🇰 香港25, server: cn05.mynode.me, port: 8125, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇰🇷 韩国A01, server: 183.232.170.22, port: 30127, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港19, server: cn04.mynode.me, port: 8119, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
+  - {name: 🇬🇧 英国_Telegram@kxswa, server: sg.colacloud.site, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 173dad00-841b-4dc6-8425-56cfc7997a2f}
+  - {name: 🇺🇸 美国_Telegram@kxswa, server: singapore.com, port: 80, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}}
+  - {name: 🇭🇰 香港A10|奈飞-优化, server: 183.232.170.22, port: 30114, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 Japan Native 03, server: jp2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20352, type: trojan, password: 4cbadf3b-dae5-4e09-b5d4-9787373846ad, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇬🇧 英国_Telegram@kxswa 2, server: sg.colacloud.site, port: 20153, type: ss, cipher: chacha20-ietf-poly1305, password: 173dad00-841b-4dc6-8425-56cfc7997a2f}
+  - {name: 🇯🇵 Japan Native 01, server: jp1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20802, type: trojan, password: 312d6c9a-a39b-4581-9c04-b27be91e47a2, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 2, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: Y2xvdWRmcm9udC5uZXQ%3D}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_78 | 3.07Mb, server: 38.54.185.111, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1700571207277, headers: {Host: www.73664999.xyz}}}
+  - {name: 🇩🇰 丹麦A01|奈飞|GPT, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_07 | 5.06Mb, server: 112.29.94.23, port: 59137, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 不定期抽奖https://t.me/mftizi, server: mf805f.micloud.buzz, port: 46005, type: vmess, uuid: d60bfa14-b952-4d2c-809f-ce4730b02e02, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf805f.micloud.buzz}}}
+  - {name: 🇨🇳 TW台湾 B, server: tw.colacloud.site, port: 48886, type: ss, cipher: chacha20-ietf-poly1305, password: 23145350-4d9e-40fb-97e0-54260787a8e3}
+  - {name: 🇭🇰 香港A10|奈飞-优化 2, server: 183.232.170.22, port: 30114, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US E 0.1, server: jpc5217.qkhbyf.tech, port: 2052, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /lonan, headers: {Host: haxus1126box.cxzntq.tech}}}
+  - {name: 🇨🇳 TW台湾 A, server: tw.colacloud.site, port: 48887, type: ss, cipher: chacha20-ietf-poly1305, password: 23145350-4d9e-40fb-97e0-54260787a8e3}
+  - {name: 🇧🇷 巴西A01|奈飞|GPT, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: v16.583182.xyz, port: 8443, type: vmess, uuid: c5027ed5-33cd-42d5-9894-d5c6160b3987, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: v16.583181.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 3, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v002.ssrsub.com}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 4, server: singapore.com, port: 8880, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v002.ssrsub.com}}}
+  - {name: 🇸🇬 新加坡04|流媒体, server: sg4.421421.xyz, port: 20230, type: trojan, password: 749ab9c3-db0c-4a1d-a20f-dd4e15d928d1, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 5, server: singapore.com, port: 80, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
+  - {name: 🇸🇬 新加坡02|流媒体, server: sg2.421421.xyz, port: 20230, type: trojan, password: 749ab9c3-db0c-4a1d-a20f-dd4e15d928d1, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 6, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v005.ssrsub.com}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v006.ssrsub.com}}}
+  - {name: 不定期抽奖https://t.me/mftizi 2, server: 27.kccic2pa.xyz, port: 50027, type: vmess, uuid: c17a31ce-d574-40c4-8d4e-07d8299c9fd7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇪🇸 西班牙A01, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾_Telegram@kxswa, server: 36.228.203.34, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 77, server: 120.240.88.111, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇭🇰 香港_Telegram@kxswa 19, server: 139.227.182.207, port: 10012, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
+  - {name: 关注电报https://t.me/aifenxiang2020, server: bb5.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 4d7732ee-986a-4c25-8443-d6fefa8d2190, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /apple, headers: {Host: 555.golinkwuxian.top}}}
+  - {name: 🇮🇷 伊朗_Telegram@kxswa, server: 91.107.145.222, port: 443, type: vmess, uuid: d20e38ef-1a4d-4009-a00d-2f0d44e3c65a, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 13, server: cm01.newcome.xyz, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇷🇺 俄罗斯联邦_Telegram@kxswa 4, server: 89.221.224.94, port: 80, type: trojan, password: 28c79056-ccfd-4cc1-93d4-c337cc782e65, skip-cert-verify: true}
+  - {name: 🇯🇵 日本特殊|浏览器输入 翻墙.com, server: 52.195.236.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国_Telegram@kxswa 2, server: 43.201.7.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港_Telegram@kxswa 76, server: 27.kccic2pa.xyz, port: 50027, type: vmess, uuid: c17a31ce-d574-40c4-8d4e-07d8299c9fd7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: service.ouluyun9803.com, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 64e1703a-ce4d-499a-8353-56c656d9bdf8}
+  - {name: 🇭🇰 香港_Telegram@kxswa 7, server: 183.232.238.77, port: 10010, type: vmess, uuid: ab537195-b74c-3df5-a3a1-d504345e80bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇿 捷克_Telegram@kxswa, server: 77.75.230.125, port: 80, type: vmess, uuid: ac6b7169-7367-4693-8b40-2b506e562dc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 77.75.230.125}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 8, server: 192.74.244.1, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1700657625181, headers: {Host: www.54146999.xyz}}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 4, server: 139.227.182.207, port: 10011, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
+  - {name: 🇺🇸 US C 0.1 优选IP 0.1, server: debbc.qkhbyf.tech, port: 443, type: vmess, uuid: 6da3e574-52f1-4690-a53b-2847ce756456, alterId: 0, cipher: auto, tls: true, servername: haxus.1145114.me, network: ws, ws-opts: {path: /lonan, headers: {Host: haxus.1145114.me}}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 20, server: 183.240.221.164, port: 39876, type: ss, cipher: aes-128-gcm, password: 2a8070ae-cee7-4efb-8fd8-3fc233717e60}
+  - {name: 🇺🇸 美国_Telegram@kxswa 9, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v006.ssrsub.com}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 10, server: 172.233.92.117, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cUgD3mHXLM0JEqhunBk3Oz}
+  - {name: 🇺🇸 美国_Telegram@kxswa 4 2, server: fr-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 6773a666-5593-4c9f-aacd-52300b6a02d4, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [fr-v2ray.freevmess.com]}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 5 2, server: 146.190.111.241, port: 443, type: trojan, password: b3339648-7067-4639-a961-2421b585a174, skip-cert-verify: true}
+  - {name: 🇸🇬 狮城特殊|浏览器输入 翻墙.com, server: 13.213.1.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 SG新加坡 B, server: sg.colacloud.site, port: 20153, type: ss, cipher: chacha20-ietf-poly1305, password: 23145350-4d9e-40fb-97e0-54260787a8e3}
   - {name: 🇨🇳 台湾A00|奈飞|GPT, server: 183.232.170.22, port: 30055, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 [新] Singapore 3 6", server: 120.232.165.26, port: 12363, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: 🇸🇬 新加坡07, server: cn07.mynode.me, port: 8207, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇻🇳 [越] Vietnam 6", server: 120.232.165.26, port: 12354, type: ss, cipher: chacha20-ietf-poly1305, password: b0bfc18f-a857-4d66-81d9-d8214b984490}
-  - {name: "🇭🇰 [港] Hong Kong  4 5", server: 120.232.165.26, port: 12346, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇭🇰 香港22, server: cn05.mynode.me, port: 8122, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇸🇬 新加坡17, server: cn09.mynode.me, port: 8217, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇸🇬 新加坡12, server: cn08.mynode.me, port: 8212, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: 🇸🇬 新加坡01, server: cn06.mynode.me, port: 8201, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇭🇰 [港] Hong Kong  10 4", server: 120.232.165.26, port: 12371, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: 🇭🇰 香港09, server: cn02.mynode.me, port: 8109, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇨🇳 [台] Taiwan 3 6", server: 120.232.165.26, port: 12373, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇭🇰 [港] Hong Kong  7 5", server: 120.232.165.26, port: 12347, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇯🇵 [日] Japan 5 6", server: 120.232.165.26, port: 12360, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇯🇵 [日] Japan 2 4", server: 120.232.165.26, port: 12361, type: ss, cipher: chacha20-ietf-poly1305, password: a8017780-fb78-42eb-89f8-6c60be523650}
-  - {name: "🇭🇰 [港] Hong Kong  10 5", server: 120.232.165.26, port: 12371, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇰🇭 [柬] Cambodia 4", server: 120.232.165.26, port: 12352, type: ss, cipher: chacha20-ietf-poly1305, password: de71004d-7c61-4f53-a915-3c889b321684}
-  - {name: 🇨🇳 台湾 | CN2 - 2号线, server: ngzydd.sub-zrj.com, port: 600, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: "🇸🇬 新加坡 | 9929 [2.5x]", server: updatess.sub-zrj.com, port: 222, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: data.sub-zrj.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 | 上海, server: shltt.sub-zrj.com, port: 6811, type: trojan, password: c66e5a82-13b0-4d4e-b90c-317d6dd42fe1, sni: streaming.sub-zrj.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本10, server: cn14.mynode.me, port: 8410, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 20395-QAZ8025018zzj.download.microsoft.com}
-  - {name: "🇯🇵 [日] Japan 1 6", server: 120.232.165.26, port: 12359, type: ss, cipher: chacha20-ietf-poly1305, password: a8f7d157-89f9-4878-8845-c139f77dd0b0}
-  - {name: "🇰🇭 [柬] Cambodia 5", server: 120.232.165.26, port: 12352, type: ss, cipher: chacha20-ietf-poly1305, password: 3fc42cac-b87c-4aee-bed6-4e0814d3dceb}
+  - {name: 🇨🇦 加拿大_Telegram@kxswa, server: 193.203.203.88, port: 2082, type: vmess, uuid: 5f2d026e-1dbd-4bb0-aa61-b1bcc544ab2c, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 16, server: cm01.newcome.xyz, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: TG@wangcai_1}
+  - {name: 🇸🇬 SG新加坡 A, server: sg.colacloud.site, port: 20152, type: ss, cipher: chacha20-ietf-poly1305, password: 23145350-4d9e-40fb-97e0-54260787a8e3}
+  - {name: 🇭🇰 香港KT1|@ripaojiedian, server: 8.210.85.62, port: 80, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇸🇬 新加坡3|浏览器输入 翻墙.com, server: service.ouluyun9803.com, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: 64e1703a-ce4d-499a-8353-56c656d9bdf8}
+  - {name: 🇫🇷 法国_Telegram@kxswa 4, server: 51.158.195.96, port: 110, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇯🇵 日本KT2|@ripaojiedian, server: 139.227.182.207, port: 10011, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: 免费梯子https://t.me/mftizi, server: 16.kccic2pa.xyz, port: 50016, type: vmess, uuid: c17a31ce-d574-40c4-8d4e-07d8299c9fd7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇿 捷克_Telegram@kxswa 2, server: 77.75.230.125, port: 80, type: vmess, uuid: ac6b7169-7367-4693-8b40-2b506e562dc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: internet.life.com.by}}}
+  - {name: VPN招代理电报联系@xiaoying229, server: 112.29.94.23, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港2|付费版推荐 翻墙.com, server: 112.29.94.23, port: 53300, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_Telegram@kxswa 31, server: 183.232.238.77, port: 10010, type: vmess, uuid: ab537195-b74c-3df5-a3a1-d504345e80bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港1|浏览器输入 翻墙.com, server: n1700373161.aaigefm.cn, port: 443, type: vmess, uuid: ac897b22-58ae-447d-b323-f837c1d5e75f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1700373161.aaigefm.cn}}}
+  - {name: 🇺🇸 美国2|低价实惠 翻墙.com, server: 112.29.94.23, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
+  - {name: YD|www.zyw.asia ZYW免费节点, server: 112.29.94.23, port: 59137, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇿 捷克_Telegram@kxswa 3, server: cz1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: cz1-vmess.sshmax.xyz}}}
+  - {name: 🇺🇸 美国 Akamai科技公司CDN网络节点, server: 172.232.194.131, port: 2443, type: ss, cipher: aes-256-gcm, password: F+eM0SV9+4NTpCceBYIwkx931Ftq9s10oXdvpg/tIM8=}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: singapore.com, port: 80, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}}
+  - {name: 🇨🇳 台湾A00|奈飞|GPT 2, server: 183.232.170.22, port: 30055, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 64e1703a-ce4d-499a-8353-56c656d9bdf8}
+  - {name: 🇺🇸 美国A02|奈飞|GPT, server: 183.232.170.22, port: 30061, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇳 [动态ip]台湾-流媒体-0.5x", server: tw.qrfly.me, port: 10102, type: vmess, uuid: b264e44a-578c-4ce6-bb8d-cd31ae33201f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tw.qrfly.me}}}
+  - {name: 🇭🇰 香港3|浏览器输入 翻墙.com, server: mf805f.micloud.buzz, port: 46005, type: vmess, uuid: a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf805f.micloud.buzz}}}
+  - {name: 🇮🇳 印度A01, server: 183.232.170.22, port: 30128, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国A02|奈飞|GPT 2, server: 183.232.170.22, port: 30061, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国A01, server: 183.232.170.22, port: 30127, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本A03|奈飞|GPT, server: 183.232.170.22, port: 30038, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡A01, server: 183.232.170.22, port: 30131, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 东京特殊|浏览器输入 翻墙.com, server: 13.112.247.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇰 丹麦A01|奈飞|GPT 2, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港A08|奈飞-优化, server: 183.232.170.22, port: 30112, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇩 印尼A, server: 183.232.170.22, port: 30015, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度A01 2, server: 183.232.170.22, port: 30128, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇩 印尼A 2, server: 183.232.170.22, port: 30015, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国02 tg@freeVPNjd, server: 28.namesilo123.top, port: 80, type: vmess, uuid: 2acd8205-4991-4e19-ba45-bb7d45d6a7e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: uszhang.sanfen002.top}}}
+  - {name: 🇺🇸 美国A04|奈飞|GPT, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国01 tg@freeVPNjd, server: 26.namesilo123.top, port: 2082, type: vmess, uuid: 2acd8205-4991-4e19-ba45-bb7d45d6a7e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: uszhang.sanfen002.top}}}
+  - {name: 🇺🇸 美国A04|奈飞|GPT 2, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇭 瑞士A01|奈飞|GPT, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港02 tg@freeVPNjd, server: 29.namesilo123.top, port: 8880, type: vmess, uuid: 2acd8205-4991-4e19-ba45-bb7d45d6a7e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: uszhang.sanfen002.top}}}
+  - {name: 🇦🇪 迪拜A01|奈飞|GPT, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 tg@freeVPNjd, server: 27.namesilo123.top, port: 8080, type: vmess, uuid: 2acd8205-4991-4e19-ba45-bb7d45d6a7e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/grdhhgrdhhhhhhj?ed=2048", headers: {Host: uszhang.sanfen002.top}}}
+  - {name: 🇯🇵 日本A03|奈飞|GPT 2, server: 183.232.170.22, port: 30038, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港A08|奈飞-优化 2, server: 183.232.170.22, port: 30112, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_Telegram@kxswa, server: 183.232.238.77, port: 10010, type: vmess, uuid: ab537195-b74c-3df5-a3a1-d504345e80bb, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 11, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2a683a54-f098-4d98-92fc-762b85d907b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v004.ssrsub.com}}}
+  - {name: 🇿🇦 TG频道:@hkaa0▓南非, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -250,958 +113,410 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇸🇬 SG  IPLC x 1
-      - 🇯🇵 [日] Japan 1
-      - 🇭🇰 [港] Hong Kong  7
-      - 🇯🇵 [日] Japan 2
-      - 🇺🇸 美国 | CN2 - 2号线
-      - 🇭🇰 [港] Hong Kong  10
-      - 🇸🇬 [新] Singapore 1
-      - 🇺🇸 美国 | CN2
-      - 🇯🇵 日本11
-      - 🇨🇳 台湾 | CN2
-      - 🇸🇬 [新] Singapore 1 2
-      - 🇺🇸 [美] United States 2
-      - 🇭🇰 [港] Hong Kong  4
-      - 🇭🇰 香港 | CN2
-      - 🇺🇸 美国 | 9929 [2.5x]
-      - 🇺🇸 [美] United States 1
-      - 🇨🇳 [台] Taiwan 3
-      - 🇭🇰 [港] Hong Kong  4 2
-      - 🇭🇰 [港] Hong Kong  4 3
-      - 🇺🇸 [美] United States 3
-      - 🇯🇵 [日] Japan 3
-      - 🇸🇬 新加坡 | CN2
-      - 🇭🇰 [港] Hong Kong  13
-      - 🇺🇸 [美] Misaka United States
-      - 🇲🇾 [马] Malaysia
-      - 🇸🇬 [新] Singapore 1 3
-      - 🇯🇵 JP  IPLC x 1
-      - 🇯🇵 JP  IPLC x 1 2
-      - 🇯🇵 [日] Japan 3 2
-      - 🇰🇷 [韩] South Korea 1
-      - 🇹🇭 [泰] Thailand
-      - 🇦🇷 [阿] Argentina
-      - 🇯🇵 [日] Japan 1 2
-      - 🇯🇵 日本09
-      - 🇲🇾 [马] Malaysia 2
-      - 🇮🇩 [印] Indonesia
-      - 🇯🇵 JP  IPLC x 1 3
-      - 🇺🇸 [美] United States 2 2
-      - 🇭🇰 [港] Hong Kong  10 2
-      - 🇨🇳 台湾 | 上海
-      - 🇨🇳 [台] Taiwan 1
-      - 🇸🇬 [新] Singapore 3
-      - 🇬🇧 [英] United Kiongdom
-      - 🇻🇳 [越] Vietnam
-      - 🇨🇳 [台] Taiwan 3 2
-      - 🇺🇸 [美] United States 2 3
-      - 🇭🇰 [港] Hong Kong  13 2
-      - 🇬🇧 [英] United Kiongdom 2
-      - 🇸🇬 SG  IPLC x 1 2
-      - 🇭🇰 [港] Hong Kong  13 3
-      - 🇸🇬 SG  IPLC x 1 3
-      - 🇯🇵 [日] Japan 3 3
-      - 🇭🇰 [港] Hong Kong  10 3
-      - 🇸🇬 新加坡 | CN2 - 2号线
-      - 🇰🇷 韩国 | CN2 - 2号线
-      - 🇸🇬 [新] Singapore 3 2
-      - 🇸🇬 SG  IPLC x 1 4
-      - 🇺🇸 [美] United States 3 2
-      - 🇺🇸 [美] Misaka United States 2
-      - 🇯🇵 [日] Japan 5
-      - 🇺🇸 [美] United States 3 3
-      - 🇹🇷 [土] Turkey
-      - 🇬🇧 英国 | 9929 [2.5x]
-      - 🇬🇧 [英] United Kiongdom 3
-      - 🇯🇵 [日] Japan 5 2
-      - 🇰🇷 韩国 | CN2
-      - 🇺🇸 [美] United States 1 2
-      - 🇺🇸 [美] Misaka United States 3
-      - 🇺🇸 [美] Misaka United States 4
-      - 🇸🇬 新加坡 | 上海
-      - 🇸🇬 [新] Singapore 3 3
-      - 🇨🇳 TW  IPLC x 1
-      - 🇺🇸 [美] Misaka United States 5
-      - 🇦🇷 [阿] Argentina 2
-      - 🇹🇷 [土] Turkey 2
-      - 🇹🇭 [泰] Thailand 2
-      - 🇯🇵 [日] Japan 1 3
-      - 🇺🇸 [美] United States 2 4
-      - 🇯🇵 日本 | 9929 [2.5x]
-      - 🇻🇳 [越] Vietnam 2
-      - 🇺🇸 美国04
-      - 🇺🇸 美国03
-      - 🇹🇭 [泰] Thailand 3
-      - 🇦🇷 [阿] Argentina 3
-      - 🇰🇭 [柬] Cambodia
-      - 🇭🇰 [港] Hong Kong  7 2
-      - 🇰🇷 [韩] South Korea 1 2
-      - 🇭🇰 香港12
-      - 🇵🇭 [菲] Philippines
-      - 🇲🇾 [马] Malaysia 3
-      - 🇭🇰 HK  IPLC x 1
-      - 🇨🇳 [台] Taiwan 3 3
-      - 🇨🇳 TW  IPLC x 1 2
-      - 🇺🇸 美国01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本06
-      - 🇸🇬 [新] Singapore 1 4
-      - 🇯🇵 JP  IPLC x 1 4
-      - 🇨🇳 [台] Taiwan 1 2
-      - 🇯🇵 日本01
-      - 🇭🇰 香港13
-      - 🇵🇭 [菲] Philippines 2
-      - 🇯🇵 日本07
-      - 🇯🇵 [日] Japan 1 4
-      - 🇺🇸 美国05
-      - 🇯🇵 日本08
-      - 🇰🇭 [柬] Cambodia 2
-      - 🇹🇭 [泰] Thailand 4
-      - 🇯🇵 日本12
-      - 🇭🇰 [港] Hong Kong  13 4
-      - 🇹🇷 [土] Turkey 3
-      - 🇨🇳 台湾省03
-      - 🇦🇷 [阿] Argentina 4
-      - 🇬🇧 [英] United Kiongdom 4
-      - 🇹🇷 [土] Turkey 4
-      - 🇰🇷 [韩] South Korea 1 3
-      - 🇯🇵 [日] Japan 2 2
-      - 🇭🇰 [港] Hong Kong  7 3
-      - 🇯🇵 日本13
-      - 🇺🇸 [美] United States 3 4
-      - 🇻🇳 [越] Vietnam 3
-      - 🇵🇭 [菲] Philippines 3
-      - 🇨🇳 台湾省04
-      - 🇰🇷 韩国 | 上海
-      - 🇲🇾 [马] Malaysia 4
-      - 🇯🇵 日本 | CN2 - 2号线
-      - 🇻🇳 [越] Vietnam 4
-      - 🇯🇵 日本05
-      - 🇹🇷 [土] Turkey 5
-      - JP01
-      - 🇭🇰 香港03
-      - 🇨🇳 台湾省02
-      - 🇺🇸 [美] United States 1 3
-      - 🇭🇰 香港05
-      - US01
-      - 🇬🇧 英国 | CN2 - 2号线
-      - 🇰🇭 [柬] Cambodia 3
-      - 🇻🇳 [越] Vietnam 5
-      - 🇹🇷 土耳其 | 9929 [2.5x]
-      - 🇲🇾 [马] Malaysia 5
-      - 🇯🇵 日本03
-      - 🇹🇭 [泰] Thailand 5
-      - 🇯🇵 日本04
-      - 🇭🇰 香港06
-      - 🇸🇬 [新] Singapore 3 4
-      - 🇯🇵 日本 | 上海
-      - 🇭🇰 香港01
-      - 🇮🇩 [印] Indonesia 2
-      - 🇰🇷 [韩] South Korea 1 4
-      - 🇭🇰 香港04
-      - 🇭🇰 HK  IPLC x 1 2
-      - 🇭🇰 香港02
-      - 🇯🇵 US_分享日记
-      - 🇸🇬 [新] Singapore 1 5
-      - 🇯🇵 [日] Japan 2 3
-      - 🇸🇬 SG  IPLC x 1 5
-      - 🇯🇵 [日] Japan 3 4
-      - 🇯🇵 [日] Japan 5 3
-      - 🇦🇷 [阿] Argentina 5
-      - 🇯🇵 CH_分享日记
-      - 🇯🇵 日本 | CN2
-      - 🇬🇧 英国 | CN2
-      - 🇵🇭 [菲] Philippines 4
-      - 🇯🇵 JP  IPLC x 1 5
-      - 🇯🇵 [日] Japan 5 4
-      - 🇰🇷 [韩] South Korea 1 5
-      - 🇭🇰 香港11
-      - 🇬🇧 [英] United Kiongdom 5
-      - 🇯🇵 [日] Japan 3 5
-      - 🇺🇸 [美] United States 2 5
-      - 🇬🇧 英国 | 上海
-      - 🇨🇳 台湾省05
-      - 🇺🇸 [美] United States 1 4
-      - 🇰🇷 韩国 | 9929 [2.5x]
-      - 🇮🇩 [印] Indonesia 3
-      - 🇨🇳 台湾 | 9929 [2.5x]
-      - 🇭🇰 HK  IPLC x 1 3
-      - 🇵🇭 [菲] Philippines 5
-      - 🇨🇳 台湾省01
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇭🇰 HK  IPLC x 1 4
-      - 🇭🇰 香港 | CN2 - 2号线
-      - TW01
-      - 🇨🇳 台湾省06
-      - 🇨🇳 [台] Taiwan 3 4
-      - 🇸🇬 [新] Singapore 3 5
-      - 🇭🇰 [港] Hong Kong  4 4
-      - 🇯🇵 [日] Japan 5 5
-      - 🇨🇳 [台] Taiwan 3 5
-      - 🇭🇰 香港24
-      - 🇭🇰 香港 | 上海
-      - 🇺🇸 美国06
-      - 🇭🇰 [港] Hong Kong  7 4
-      - 🇭🇰 香港18
-      - 🇭🇰 香港15
-      - 🇺🇸 美国14
-      - 🇭🇰 香港08
-      - 🇭🇰 香港16
-      - 🇨🇳 [台] Taiwan 1 3
-      - 🇸🇬 [新] Singapore 1 6
-      - 🇭🇰 香港26
-      - 🇸🇬 新加坡10
-      - 🇭🇰 香港23
-      - 🇯🇵 [日] Japan 1 5
-      - 🇭🇰 香港17
-      - 🇺🇸 美国A02|奈飞|GPT
-      - 🇯🇵 日本A03|奈飞|GPT
-      - 🇭🇰 香港21
-      - 🇭🇰 香港25
-      - 🇰🇷 韩国A01
-      - 🇭🇰 香港19
+      - 🇬🇧 英国_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa
+      - 🇭🇰 香港A10|奈飞-优化
+      - 🇯🇵 Japan Native 03
+      - 🇬🇧 英国_Telegram@kxswa 2
+      - 🇯🇵 Japan Native 01
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_78 | 3.07Mb
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_07 | 5.06Mb
+      - 不定期抽奖https://t.me/mftizi
+      - 🇨🇳 TW台湾 B
+      - 🇭🇰 香港A10|奈飞-优化 2
+      - 🇺🇸 US E 0.1
+      - 🇨🇳 TW台湾 A
+      - 🇧🇷 巴西A01|奈飞|GPT
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇸🇬 新加坡04|流媒体
+      - 🇺🇸 美国_Telegram@kxswa 5
+      - 🇸🇬 新加坡02|流媒体
+      - 🇺🇸 美国_Telegram@kxswa 6
+      - 🇺🇸 美国_Telegram@kxswa 7
+      - 不定期抽奖https://t.me/mftizi 2
+      - 🇪🇸 西班牙A01
+      - 🇨🇳 台湾_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 77
+      - 🇭🇰 香港_Telegram@kxswa 19
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇮🇷 伊朗_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - 🇷🇺 俄罗斯联邦_Telegram@kxswa 4
+      - 🇯🇵 日本特殊|浏览器输入 翻墙.com
+      - 🇰🇷 韩国_Telegram@kxswa 2
+      - 🇭🇰 香港_Telegram@kxswa 76
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港_Telegram@kxswa 7
+      - 🇨🇿 捷克_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 8
+      - 🇭🇰 香港_Telegram@kxswa 4
+      - 🇺🇸 US C 0.1 优选IP 0.1
+      - 🇭🇰 香港_Telegram@kxswa 20
+      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇺🇸 美国_Telegram@kxswa 10
+      - 🇺🇸 美国_Telegram@kxswa 4 2
+      - 🇺🇸 美国_Telegram@kxswa 5 2
+      - 🇸🇬 狮城特殊|浏览器输入 翻墙.com
+      - 🇸🇬 SG新加坡 B
       - 🇨🇳 台湾A00|奈飞|GPT
-      - 🇸🇬 [新] Singapore 3 6
-      - 🇸🇬 新加坡07
-      - 🇻🇳 [越] Vietnam 6
-      - 🇭🇰 [港] Hong Kong  4 5
-      - 🇭🇰 香港22
-      - 🇸🇬 新加坡17
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡01
-      - 🇭🇰 [港] Hong Kong  10 4
-      - 🇭🇰 香港09
-      - 🇨🇳 [台] Taiwan 3 6
-      - 🇭🇰 [港] Hong Kong  7 5
-      - 🇯🇵 [日] Japan 5 6
-      - 🇯🇵 [日] Japan 2 4
-      - 🇭🇰 [港] Hong Kong  10 5
-      - 🇰🇭 [柬] Cambodia 4
-      - 🇨🇳 台湾 | CN2 - 2号线
-      - 🇸🇬 新加坡 | 9929 [2.5x]
-      - 🇺🇸 美国 | 上海
-      - 🇯🇵 日本10
-      - 🇯🇵 [日] Japan 1 6
-      - 🇰🇭 [柬] Cambodia 5
+      - 🇨🇦 加拿大_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 16
+      - 🇸🇬 SG新加坡 A
+      - 🇭🇰 香港KT1|@ripaojiedian
+      - 🇸🇬 新加坡3|浏览器输入 翻墙.com
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇯🇵 日本KT2|@ripaojiedian
+      - 免费梯子https://t.me/mftizi
+      - 🇨🇿 捷克_Telegram@kxswa 2
+      - VPN招代理电报联系@xiaoying229
+      - 🇭🇰 香港2|付费版推荐 翻墙.com
+      - 🇭🇰 香港_Telegram@kxswa 31
+      - 🇭🇰 香港1|浏览器输入 翻墙.com
+      - 🇺🇸 美国2|低价实惠 翻墙.com
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇨🇿 捷克_Telegram@kxswa 3
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾A00|奈飞|GPT 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国A02|奈飞|GPT
+      - 🇨🇳 [动态ip]台湾-流媒体-0.5x
+      - 🇭🇰 香港3|浏览器输入 翻墙.com
+      - 🇮🇳 印度A01
+      - 🇺🇸 美国A02|奈飞|GPT 2
+      - 🇰🇷 韩国A01
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇸🇬 新加坡A01
+      - 🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - 🇩🇰 丹麦A01|奈飞|GPT 2
+      - 🇭🇰 香港A08|奈飞-优化
+      - 🇮🇩 印尼A
+      - 🇮🇳 印度A01 2
+      - 🇮🇩 印尼A 2
+      - 🇺🇸 美国02 tg@freeVPNjd
+      - 🇺🇸 美国A04|奈飞|GPT
+      - 🇺🇸 美国01 tg@freeVPNjd
+      - 🇺🇸 美国A04|奈飞|GPT 2
+      - 🇨🇭 瑞士A01|奈飞|GPT
+      - 🇭🇰 香港02 tg@freeVPNjd
+      - 🇦🇪 迪拜A01|奈飞|GPT
+      - 🇭🇰 香港 tg@freeVPNjd
+      - 🇯🇵 日本A03|奈飞|GPT 2
+      - 🇭🇰 香港A08|奈飞-优化 2
+      - 🇭🇰 香港_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇿🇦 TG频道:@hkaa0▓南非
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 SG  IPLC x 1
-      - 🇯🇵 [日] Japan 1
-      - 🇭🇰 [港] Hong Kong  7
-      - 🇯🇵 [日] Japan 2
-      - 🇺🇸 美国 | CN2 - 2号线
-      - 🇭🇰 [港] Hong Kong  10
-      - 🇸🇬 [新] Singapore 1
-      - 🇺🇸 美国 | CN2
-      - 🇯🇵 日本11
-      - 🇨🇳 台湾 | CN2
-      - 🇸🇬 [新] Singapore 1 2
-      - 🇺🇸 [美] United States 2
-      - 🇭🇰 [港] Hong Kong  4
-      - 🇭🇰 香港 | CN2
-      - 🇺🇸 美国 | 9929 [2.5x]
-      - 🇺🇸 [美] United States 1
-      - 🇨🇳 [台] Taiwan 3
-      - 🇭🇰 [港] Hong Kong  4 2
-      - 🇭🇰 [港] Hong Kong  4 3
-      - 🇺🇸 [美] United States 3
-      - 🇯🇵 [日] Japan 3
-      - 🇸🇬 新加坡 | CN2
-      - 🇭🇰 [港] Hong Kong  13
-      - 🇺🇸 [美] Misaka United States
-      - 🇲🇾 [马] Malaysia
-      - 🇸🇬 [新] Singapore 1 3
-      - 🇯🇵 JP  IPLC x 1
-      - 🇯🇵 JP  IPLC x 1 2
-      - 🇯🇵 [日] Japan 3 2
-      - 🇰🇷 [韩] South Korea 1
-      - 🇹🇭 [泰] Thailand
-      - 🇦🇷 [阿] Argentina
-      - 🇯🇵 [日] Japan 1 2
-      - 🇯🇵 日本09
-      - 🇲🇾 [马] Malaysia 2
-      - 🇮🇩 [印] Indonesia
-      - 🇯🇵 JP  IPLC x 1 3
-      - 🇺🇸 [美] United States 2 2
-      - 🇭🇰 [港] Hong Kong  10 2
-      - 🇨🇳 台湾 | 上海
-      - 🇨🇳 [台] Taiwan 1
-      - 🇸🇬 [新] Singapore 3
-      - 🇬🇧 [英] United Kiongdom
-      - 🇻🇳 [越] Vietnam
-      - 🇨🇳 [台] Taiwan 3 2
-      - 🇺🇸 [美] United States 2 3
-      - 🇭🇰 [港] Hong Kong  13 2
-      - 🇬🇧 [英] United Kiongdom 2
-      - 🇸🇬 SG  IPLC x 1 2
-      - 🇭🇰 [港] Hong Kong  13 3
-      - 🇸🇬 SG  IPLC x 1 3
-      - 🇯🇵 [日] Japan 3 3
-      - 🇭🇰 [港] Hong Kong  10 3
-      - 🇸🇬 新加坡 | CN2 - 2号线
-      - 🇰🇷 韩国 | CN2 - 2号线
-      - 🇸🇬 [新] Singapore 3 2
-      - 🇸🇬 SG  IPLC x 1 4
-      - 🇺🇸 [美] United States 3 2
-      - 🇺🇸 [美] Misaka United States 2
-      - 🇯🇵 [日] Japan 5
-      - 🇺🇸 [美] United States 3 3
-      - 🇹🇷 [土] Turkey
-      - 🇬🇧 英国 | 9929 [2.5x]
-      - 🇬🇧 [英] United Kiongdom 3
-      - 🇯🇵 [日] Japan 5 2
-      - 🇰🇷 韩国 | CN2
-      - 🇺🇸 [美] United States 1 2
-      - 🇺🇸 [美] Misaka United States 3
-      - 🇺🇸 [美] Misaka United States 4
-      - 🇸🇬 新加坡 | 上海
-      - 🇸🇬 [新] Singapore 3 3
-      - 🇨🇳 TW  IPLC x 1
-      - 🇺🇸 [美] Misaka United States 5
-      - 🇦🇷 [阿] Argentina 2
-      - 🇹🇷 [土] Turkey 2
-      - 🇹🇭 [泰] Thailand 2
-      - 🇯🇵 [日] Japan 1 3
-      - 🇺🇸 [美] United States 2 4
-      - 🇯🇵 日本 | 9929 [2.5x]
-      - 🇻🇳 [越] Vietnam 2
-      - 🇺🇸 美国04
-      - 🇺🇸 美国03
-      - 🇹🇭 [泰] Thailand 3
-      - 🇦🇷 [阿] Argentina 3
-      - 🇰🇭 [柬] Cambodia
-      - 🇭🇰 [港] Hong Kong  7 2
-      - 🇰🇷 [韩] South Korea 1 2
-      - 🇭🇰 香港12
-      - 🇵🇭 [菲] Philippines
-      - 🇲🇾 [马] Malaysia 3
-      - 🇭🇰 HK  IPLC x 1
-      - 🇨🇳 [台] Taiwan 3 3
-      - 🇨🇳 TW  IPLC x 1 2
-      - 🇺🇸 美国01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本06
-      - 🇸🇬 [新] Singapore 1 4
-      - 🇯🇵 JP  IPLC x 1 4
-      - 🇨🇳 [台] Taiwan 1 2
-      - 🇯🇵 日本01
-      - 🇭🇰 香港13
-      - 🇵🇭 [菲] Philippines 2
-      - 🇯🇵 日本07
-      - 🇯🇵 [日] Japan 1 4
-      - 🇺🇸 美国05
-      - 🇯🇵 日本08
-      - 🇰🇭 [柬] Cambodia 2
-      - 🇹🇭 [泰] Thailand 4
-      - 🇯🇵 日本12
-      - 🇭🇰 [港] Hong Kong  13 4
-      - 🇹🇷 [土] Turkey 3
-      - 🇨🇳 台湾省03
-      - 🇦🇷 [阿] Argentina 4
-      - 🇬🇧 [英] United Kiongdom 4
-      - 🇹🇷 [土] Turkey 4
-      - 🇰🇷 [韩] South Korea 1 3
-      - 🇯🇵 [日] Japan 2 2
-      - 🇭🇰 [港] Hong Kong  7 3
-      - 🇯🇵 日本13
-      - 🇺🇸 [美] United States 3 4
-      - 🇻🇳 [越] Vietnam 3
-      - 🇵🇭 [菲] Philippines 3
-      - 🇨🇳 台湾省04
-      - 🇰🇷 韩国 | 上海
-      - 🇲🇾 [马] Malaysia 4
-      - 🇯🇵 日本 | CN2 - 2号线
-      - 🇻🇳 [越] Vietnam 4
-      - 🇯🇵 日本05
-      - 🇹🇷 [土] Turkey 5
-      - JP01
-      - 🇭🇰 香港03
-      - 🇨🇳 台湾省02
-      - 🇺🇸 [美] United States 1 3
-      - 🇭🇰 香港05
-      - US01
-      - 🇬🇧 英国 | CN2 - 2号线
-      - 🇰🇭 [柬] Cambodia 3
-      - 🇻🇳 [越] Vietnam 5
-      - 🇹🇷 土耳其 | 9929 [2.5x]
-      - 🇲🇾 [马] Malaysia 5
-      - 🇯🇵 日本03
-      - 🇹🇭 [泰] Thailand 5
-      - 🇯🇵 日本04
-      - 🇭🇰 香港06
-      - 🇸🇬 [新] Singapore 3 4
-      - 🇯🇵 日本 | 上海
-      - 🇭🇰 香港01
-      - 🇮🇩 [印] Indonesia 2
-      - 🇰🇷 [韩] South Korea 1 4
-      - 🇭🇰 香港04
-      - 🇭🇰 HK  IPLC x 1 2
-      - 🇭🇰 香港02
-      - 🇯🇵 US_分享日记
-      - 🇸🇬 [新] Singapore 1 5
-      - 🇯🇵 [日] Japan 2 3
-      - 🇸🇬 SG  IPLC x 1 5
-      - 🇯🇵 [日] Japan 3 4
-      - 🇯🇵 [日] Japan 5 3
-      - 🇦🇷 [阿] Argentina 5
-      - 🇯🇵 CH_分享日记
-      - 🇯🇵 日本 | CN2
-      - 🇬🇧 英国 | CN2
-      - 🇵🇭 [菲] Philippines 4
-      - 🇯🇵 JP  IPLC x 1 5
-      - 🇯🇵 [日] Japan 5 4
-      - 🇰🇷 [韩] South Korea 1 5
-      - 🇭🇰 香港11
-      - 🇬🇧 [英] United Kiongdom 5
-      - 🇯🇵 [日] Japan 3 5
-      - 🇺🇸 [美] United States 2 5
-      - 🇬🇧 英国 | 上海
-      - 🇨🇳 台湾省05
-      - 🇺🇸 [美] United States 1 4
-      - 🇰🇷 韩国 | 9929 [2.5x]
-      - 🇮🇩 [印] Indonesia 3
-      - 🇨🇳 台湾 | 9929 [2.5x]
-      - 🇭🇰 HK  IPLC x 1 3
-      - 🇵🇭 [菲] Philippines 5
-      - 🇨🇳 台湾省01
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇭🇰 HK  IPLC x 1 4
-      - 🇭🇰 香港 | CN2 - 2号线
-      - TW01
-      - 🇨🇳 台湾省06
-      - 🇨🇳 [台] Taiwan 3 4
-      - 🇸🇬 [新] Singapore 3 5
-      - 🇭🇰 [港] Hong Kong  4 4
-      - 🇯🇵 [日] Japan 5 5
-      - 🇨🇳 [台] Taiwan 3 5
-      - 🇭🇰 香港24
-      - 🇭🇰 香港 | 上海
-      - 🇺🇸 美国06
-      - 🇭🇰 [港] Hong Kong  7 4
-      - 🇭🇰 香港18
-      - 🇭🇰 香港15
-      - 🇺🇸 美国14
-      - 🇭🇰 香港08
-      - 🇭🇰 香港16
-      - 🇨🇳 [台] Taiwan 1 3
-      - 🇸🇬 [新] Singapore 1 6
-      - 🇭🇰 香港26
-      - 🇸🇬 新加坡10
-      - 🇭🇰 香港23
-      - 🇯🇵 [日] Japan 1 5
-      - 🇭🇰 香港17
-      - 🇺🇸 美国A02|奈飞|GPT
-      - 🇯🇵 日本A03|奈飞|GPT
-      - 🇭🇰 香港21
-      - 🇭🇰 香港25
-      - 🇰🇷 韩国A01
-      - 🇭🇰 香港19
+      - 🇬🇧 英国_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa
+      - 🇭🇰 香港A10|奈飞-优化
+      - 🇯🇵 Japan Native 03
+      - 🇬🇧 英国_Telegram@kxswa 2
+      - 🇯🇵 Japan Native 01
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_78 | 3.07Mb
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_07 | 5.06Mb
+      - 不定期抽奖https://t.me/mftizi
+      - 🇨🇳 TW台湾 B
+      - 🇭🇰 香港A10|奈飞-优化 2
+      - 🇺🇸 US E 0.1
+      - 🇨🇳 TW台湾 A
+      - 🇧🇷 巴西A01|奈飞|GPT
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇸🇬 新加坡04|流媒体
+      - 🇺🇸 美国_Telegram@kxswa 5
+      - 🇸🇬 新加坡02|流媒体
+      - 🇺🇸 美国_Telegram@kxswa 6
+      - 🇺🇸 美国_Telegram@kxswa 7
+      - 不定期抽奖https://t.me/mftizi 2
+      - 🇪🇸 西班牙A01
+      - 🇨🇳 台湾_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 77
+      - 🇭🇰 香港_Telegram@kxswa 19
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇮🇷 伊朗_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - 🇷🇺 俄罗斯联邦_Telegram@kxswa 4
+      - 🇯🇵 日本特殊|浏览器输入 翻墙.com
+      - 🇰🇷 韩国_Telegram@kxswa 2
+      - 🇭🇰 香港_Telegram@kxswa 76
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港_Telegram@kxswa 7
+      - 🇨🇿 捷克_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 8
+      - 🇭🇰 香港_Telegram@kxswa 4
+      - 🇺🇸 US C 0.1 优选IP 0.1
+      - 🇭🇰 香港_Telegram@kxswa 20
+      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇺🇸 美国_Telegram@kxswa 10
+      - 🇺🇸 美国_Telegram@kxswa 4 2
+      - 🇺🇸 美国_Telegram@kxswa 5 2
+      - 🇸🇬 狮城特殊|浏览器输入 翻墙.com
+      - 🇸🇬 SG新加坡 B
       - 🇨🇳 台湾A00|奈飞|GPT
-      - 🇸🇬 [新] Singapore 3 6
-      - 🇸🇬 新加坡07
-      - 🇻🇳 [越] Vietnam 6
-      - 🇭🇰 [港] Hong Kong  4 5
-      - 🇭🇰 香港22
-      - 🇸🇬 新加坡17
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡01
-      - 🇭🇰 [港] Hong Kong  10 4
-      - 🇭🇰 香港09
-      - 🇨🇳 [台] Taiwan 3 6
-      - 🇭🇰 [港] Hong Kong  7 5
-      - 🇯🇵 [日] Japan 5 6
-      - 🇯🇵 [日] Japan 2 4
-      - 🇭🇰 [港] Hong Kong  10 5
-      - 🇰🇭 [柬] Cambodia 4
-      - 🇨🇳 台湾 | CN2 - 2号线
-      - 🇸🇬 新加坡 | 9929 [2.5x]
-      - 🇺🇸 美国 | 上海
-      - 🇯🇵 日本10
-      - 🇯🇵 [日] Japan 1 6
-      - 🇰🇭 [柬] Cambodia 5
+      - 🇨🇦 加拿大_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 16
+      - 🇸🇬 SG新加坡 A
+      - 🇭🇰 香港KT1|@ripaojiedian
+      - 🇸🇬 新加坡3|浏览器输入 翻墙.com
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇯🇵 日本KT2|@ripaojiedian
+      - 免费梯子https://t.me/mftizi
+      - 🇨🇿 捷克_Telegram@kxswa 2
+      - VPN招代理电报联系@xiaoying229
+      - 🇭🇰 香港2|付费版推荐 翻墙.com
+      - 🇭🇰 香港_Telegram@kxswa 31
+      - 🇭🇰 香港1|浏览器输入 翻墙.com
+      - 🇺🇸 美国2|低价实惠 翻墙.com
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇨🇿 捷克_Telegram@kxswa 3
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾A00|奈飞|GPT 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国A02|奈飞|GPT
+      - 🇨🇳 [动态ip]台湾-流媒体-0.5x
+      - 🇭🇰 香港3|浏览器输入 翻墙.com
+      - 🇮🇳 印度A01
+      - 🇺🇸 美国A02|奈飞|GPT 2
+      - 🇰🇷 韩国A01
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇸🇬 新加坡A01
+      - 🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - 🇩🇰 丹麦A01|奈飞|GPT 2
+      - 🇭🇰 香港A08|奈飞-优化
+      - 🇮🇩 印尼A
+      - 🇮🇳 印度A01 2
+      - 🇮🇩 印尼A 2
+      - 🇺🇸 美国02 tg@freeVPNjd
+      - 🇺🇸 美国A04|奈飞|GPT
+      - 🇺🇸 美国01 tg@freeVPNjd
+      - 🇺🇸 美国A04|奈飞|GPT 2
+      - 🇨🇭 瑞士A01|奈飞|GPT
+      - 🇭🇰 香港02 tg@freeVPNjd
+      - 🇦🇪 迪拜A01|奈飞|GPT
+      - 🇭🇰 香港 tg@freeVPNjd
+      - 🇯🇵 日本A03|奈飞|GPT 2
+      - 🇭🇰 香港A08|奈飞-优化 2
+      - 🇭🇰 香港_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇿🇦 TG频道:@hkaa0▓南非
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 SG  IPLC x 1
-      - 🇯🇵 [日] Japan 1
-      - 🇭🇰 [港] Hong Kong  7
-      - 🇯🇵 [日] Japan 2
-      - 🇺🇸 美国 | CN2 - 2号线
-      - 🇭🇰 [港] Hong Kong  10
-      - 🇸🇬 [新] Singapore 1
-      - 🇺🇸 美国 | CN2
-      - 🇯🇵 日本11
-      - 🇨🇳 台湾 | CN2
-      - 🇸🇬 [新] Singapore 1 2
-      - 🇺🇸 [美] United States 2
-      - 🇭🇰 [港] Hong Kong  4
-      - 🇭🇰 香港 | CN2
-      - 🇺🇸 美国 | 9929 [2.5x]
-      - 🇺🇸 [美] United States 1
-      - 🇨🇳 [台] Taiwan 3
-      - 🇭🇰 [港] Hong Kong  4 2
-      - 🇭🇰 [港] Hong Kong  4 3
-      - 🇺🇸 [美] United States 3
-      - 🇯🇵 [日] Japan 3
-      - 🇸🇬 新加坡 | CN2
-      - 🇭🇰 [港] Hong Kong  13
-      - 🇺🇸 [美] Misaka United States
-      - 🇲🇾 [马] Malaysia
-      - 🇸🇬 [新] Singapore 1 3
-      - 🇯🇵 JP  IPLC x 1
-      - 🇯🇵 JP  IPLC x 1 2
-      - 🇯🇵 [日] Japan 3 2
-      - 🇰🇷 [韩] South Korea 1
-      - 🇹🇭 [泰] Thailand
-      - 🇦🇷 [阿] Argentina
-      - 🇯🇵 [日] Japan 1 2
-      - 🇯🇵 日本09
-      - 🇲🇾 [马] Malaysia 2
-      - 🇮🇩 [印] Indonesia
-      - 🇯🇵 JP  IPLC x 1 3
-      - 🇺🇸 [美] United States 2 2
-      - 🇭🇰 [港] Hong Kong  10 2
-      - 🇨🇳 台湾 | 上海
-      - 🇨🇳 [台] Taiwan 1
-      - 🇸🇬 [新] Singapore 3
-      - 🇬🇧 [英] United Kiongdom
-      - 🇻🇳 [越] Vietnam
-      - 🇨🇳 [台] Taiwan 3 2
-      - 🇺🇸 [美] United States 2 3
-      - 🇭🇰 [港] Hong Kong  13 2
-      - 🇬🇧 [英] United Kiongdom 2
-      - 🇸🇬 SG  IPLC x 1 2
-      - 🇭🇰 [港] Hong Kong  13 3
-      - 🇸🇬 SG  IPLC x 1 3
-      - 🇯🇵 [日] Japan 3 3
-      - 🇭🇰 [港] Hong Kong  10 3
-      - 🇸🇬 新加坡 | CN2 - 2号线
-      - 🇰🇷 韩国 | CN2 - 2号线
-      - 🇸🇬 [新] Singapore 3 2
-      - 🇸🇬 SG  IPLC x 1 4
-      - 🇺🇸 [美] United States 3 2
-      - 🇺🇸 [美] Misaka United States 2
-      - 🇯🇵 [日] Japan 5
-      - 🇺🇸 [美] United States 3 3
-      - 🇹🇷 [土] Turkey
-      - 🇬🇧 英国 | 9929 [2.5x]
-      - 🇬🇧 [英] United Kiongdom 3
-      - 🇯🇵 [日] Japan 5 2
-      - 🇰🇷 韩国 | CN2
-      - 🇺🇸 [美] United States 1 2
-      - 🇺🇸 [美] Misaka United States 3
-      - 🇺🇸 [美] Misaka United States 4
-      - 🇸🇬 新加坡 | 上海
-      - 🇸🇬 [新] Singapore 3 3
-      - 🇨🇳 TW  IPLC x 1
-      - 🇺🇸 [美] Misaka United States 5
-      - 🇦🇷 [阿] Argentina 2
-      - 🇹🇷 [土] Turkey 2
-      - 🇹🇭 [泰] Thailand 2
-      - 🇯🇵 [日] Japan 1 3
-      - 🇺🇸 [美] United States 2 4
-      - 🇯🇵 日本 | 9929 [2.5x]
-      - 🇻🇳 [越] Vietnam 2
-      - 🇺🇸 美国04
-      - 🇺🇸 美国03
-      - 🇹🇭 [泰] Thailand 3
-      - 🇦🇷 [阿] Argentina 3
-      - 🇰🇭 [柬] Cambodia
-      - 🇭🇰 [港] Hong Kong  7 2
-      - 🇰🇷 [韩] South Korea 1 2
-      - 🇭🇰 香港12
-      - 🇵🇭 [菲] Philippines
-      - 🇲🇾 [马] Malaysia 3
-      - 🇭🇰 HK  IPLC x 1
-      - 🇨🇳 [台] Taiwan 3 3
-      - 🇨🇳 TW  IPLC x 1 2
-      - 🇺🇸 美国01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本06
-      - 🇸🇬 [新] Singapore 1 4
-      - 🇯🇵 JP  IPLC x 1 4
-      - 🇨🇳 [台] Taiwan 1 2
-      - 🇯🇵 日本01
-      - 🇭🇰 香港13
-      - 🇵🇭 [菲] Philippines 2
-      - 🇯🇵 日本07
-      - 🇯🇵 [日] Japan 1 4
-      - 🇺🇸 美国05
-      - 🇯🇵 日本08
-      - 🇰🇭 [柬] Cambodia 2
-      - 🇹🇭 [泰] Thailand 4
-      - 🇯🇵 日本12
-      - 🇭🇰 [港] Hong Kong  13 4
-      - 🇹🇷 [土] Turkey 3
-      - 🇨🇳 台湾省03
-      - 🇦🇷 [阿] Argentina 4
-      - 🇬🇧 [英] United Kiongdom 4
-      - 🇹🇷 [土] Turkey 4
-      - 🇰🇷 [韩] South Korea 1 3
-      - 🇯🇵 [日] Japan 2 2
-      - 🇭🇰 [港] Hong Kong  7 3
-      - 🇯🇵 日本13
-      - 🇺🇸 [美] United States 3 4
-      - 🇻🇳 [越] Vietnam 3
-      - 🇵🇭 [菲] Philippines 3
-      - 🇨🇳 台湾省04
-      - 🇰🇷 韩国 | 上海
-      - 🇲🇾 [马] Malaysia 4
-      - 🇯🇵 日本 | CN2 - 2号线
-      - 🇻🇳 [越] Vietnam 4
-      - 🇯🇵 日本05
-      - 🇹🇷 [土] Turkey 5
-      - JP01
-      - 🇭🇰 香港03
-      - 🇨🇳 台湾省02
-      - 🇺🇸 [美] United States 1 3
-      - 🇭🇰 香港05
-      - US01
-      - 🇬🇧 英国 | CN2 - 2号线
-      - 🇰🇭 [柬] Cambodia 3
-      - 🇻🇳 [越] Vietnam 5
-      - 🇹🇷 土耳其 | 9929 [2.5x]
-      - 🇲🇾 [马] Malaysia 5
-      - 🇯🇵 日本03
-      - 🇹🇭 [泰] Thailand 5
-      - 🇯🇵 日本04
-      - 🇭🇰 香港06
-      - 🇸🇬 [新] Singapore 3 4
-      - 🇯🇵 日本 | 上海
-      - 🇭🇰 香港01
-      - 🇮🇩 [印] Indonesia 2
-      - 🇰🇷 [韩] South Korea 1 4
-      - 🇭🇰 香港04
-      - 🇭🇰 HK  IPLC x 1 2
-      - 🇭🇰 香港02
-      - 🇯🇵 US_分享日记
-      - 🇸🇬 [新] Singapore 1 5
-      - 🇯🇵 [日] Japan 2 3
-      - 🇸🇬 SG  IPLC x 1 5
-      - 🇯🇵 [日] Japan 3 4
-      - 🇯🇵 [日] Japan 5 3
-      - 🇦🇷 [阿] Argentina 5
-      - 🇯🇵 CH_分享日记
-      - 🇯🇵 日本 | CN2
-      - 🇬🇧 英国 | CN2
-      - 🇵🇭 [菲] Philippines 4
-      - 🇯🇵 JP  IPLC x 1 5
-      - 🇯🇵 [日] Japan 5 4
-      - 🇰🇷 [韩] South Korea 1 5
-      - 🇭🇰 香港11
-      - 🇬🇧 [英] United Kiongdom 5
-      - 🇯🇵 [日] Japan 3 5
-      - 🇺🇸 [美] United States 2 5
-      - 🇬🇧 英国 | 上海
-      - 🇨🇳 台湾省05
-      - 🇺🇸 [美] United States 1 4
-      - 🇰🇷 韩国 | 9929 [2.5x]
-      - 🇮🇩 [印] Indonesia 3
-      - 🇨🇳 台湾 | 9929 [2.5x]
-      - 🇭🇰 HK  IPLC x 1 3
-      - 🇵🇭 [菲] Philippines 5
-      - 🇨🇳 台湾省01
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇭🇰 HK  IPLC x 1 4
-      - 🇭🇰 香港 | CN2 - 2号线
-      - TW01
-      - 🇨🇳 台湾省06
-      - 🇨🇳 [台] Taiwan 3 4
-      - 🇸🇬 [新] Singapore 3 5
-      - 🇭🇰 [港] Hong Kong  4 4
-      - 🇯🇵 [日] Japan 5 5
-      - 🇨🇳 [台] Taiwan 3 5
-      - 🇭🇰 香港24
-      - 🇭🇰 香港 | 上海
-      - 🇺🇸 美国06
-      - 🇭🇰 [港] Hong Kong  7 4
-      - 🇭🇰 香港18
-      - 🇭🇰 香港15
-      - 🇺🇸 美国14
-      - 🇭🇰 香港08
-      - 🇭🇰 香港16
-      - 🇨🇳 [台] Taiwan 1 3
-      - 🇸🇬 [新] Singapore 1 6
-      - 🇭🇰 香港26
-      - 🇸🇬 新加坡10
-      - 🇭🇰 香港23
-      - 🇯🇵 [日] Japan 1 5
-      - 🇭🇰 香港17
-      - 🇺🇸 美国A02|奈飞|GPT
-      - 🇯🇵 日本A03|奈飞|GPT
-      - 🇭🇰 香港21
-      - 🇭🇰 香港25
-      - 🇰🇷 韩国A01
-      - 🇭🇰 香港19
+      - 🇬🇧 英国_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa
+      - 🇭🇰 香港A10|奈飞-优化
+      - 🇯🇵 Japan Native 03
+      - 🇬🇧 英国_Telegram@kxswa 2
+      - 🇯🇵 Japan Native 01
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_78 | 3.07Mb
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_07 | 5.06Mb
+      - 不定期抽奖https://t.me/mftizi
+      - 🇨🇳 TW台湾 B
+      - 🇭🇰 香港A10|奈飞-优化 2
+      - 🇺🇸 US E 0.1
+      - 🇨🇳 TW台湾 A
+      - 🇧🇷 巴西A01|奈飞|GPT
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇸🇬 新加坡04|流媒体
+      - 🇺🇸 美国_Telegram@kxswa 5
+      - 🇸🇬 新加坡02|流媒体
+      - 🇺🇸 美国_Telegram@kxswa 6
+      - 🇺🇸 美国_Telegram@kxswa 7
+      - 不定期抽奖https://t.me/mftizi 2
+      - 🇪🇸 西班牙A01
+      - 🇨🇳 台湾_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 77
+      - 🇭🇰 香港_Telegram@kxswa 19
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇮🇷 伊朗_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - 🇷🇺 俄罗斯联邦_Telegram@kxswa 4
+      - 🇯🇵 日本特殊|浏览器输入 翻墙.com
+      - 🇰🇷 韩国_Telegram@kxswa 2
+      - 🇭🇰 香港_Telegram@kxswa 76
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港_Telegram@kxswa 7
+      - 🇨🇿 捷克_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 8
+      - 🇭🇰 香港_Telegram@kxswa 4
+      - 🇺🇸 US C 0.1 优选IP 0.1
+      - 🇭🇰 香港_Telegram@kxswa 20
+      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇺🇸 美国_Telegram@kxswa 10
+      - 🇺🇸 美国_Telegram@kxswa 4 2
+      - 🇺🇸 美国_Telegram@kxswa 5 2
+      - 🇸🇬 狮城特殊|浏览器输入 翻墙.com
+      - 🇸🇬 SG新加坡 B
       - 🇨🇳 台湾A00|奈飞|GPT
-      - 🇸🇬 [新] Singapore 3 6
-      - 🇸🇬 新加坡07
-      - 🇻🇳 [越] Vietnam 6
-      - 🇭🇰 [港] Hong Kong  4 5
-      - 🇭🇰 香港22
-      - 🇸🇬 新加坡17
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡01
-      - 🇭🇰 [港] Hong Kong  10 4
-      - 🇭🇰 香港09
-      - 🇨🇳 [台] Taiwan 3 6
-      - 🇭🇰 [港] Hong Kong  7 5
-      - 🇯🇵 [日] Japan 5 6
-      - 🇯🇵 [日] Japan 2 4
-      - 🇭🇰 [港] Hong Kong  10 5
-      - 🇰🇭 [柬] Cambodia 4
-      - 🇨🇳 台湾 | CN2 - 2号线
-      - 🇸🇬 新加坡 | 9929 [2.5x]
-      - 🇺🇸 美国 | 上海
-      - 🇯🇵 日本10
-      - 🇯🇵 [日] Japan 1 6
-      - 🇰🇭 [柬] Cambodia 5
+      - 🇨🇦 加拿大_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 16
+      - 🇸🇬 SG新加坡 A
+      - 🇭🇰 香港KT1|@ripaojiedian
+      - 🇸🇬 新加坡3|浏览器输入 翻墙.com
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇯🇵 日本KT2|@ripaojiedian
+      - 免费梯子https://t.me/mftizi
+      - 🇨🇿 捷克_Telegram@kxswa 2
+      - VPN招代理电报联系@xiaoying229
+      - 🇭🇰 香港2|付费版推荐 翻墙.com
+      - 🇭🇰 香港_Telegram@kxswa 31
+      - 🇭🇰 香港1|浏览器输入 翻墙.com
+      - 🇺🇸 美国2|低价实惠 翻墙.com
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇨🇿 捷克_Telegram@kxswa 3
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾A00|奈飞|GPT 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国A02|奈飞|GPT
+      - 🇨🇳 [动态ip]台湾-流媒体-0.5x
+      - 🇭🇰 香港3|浏览器输入 翻墙.com
+      - 🇮🇳 印度A01
+      - 🇺🇸 美国A02|奈飞|GPT 2
+      - 🇰🇷 韩国A01
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇸🇬 新加坡A01
+      - 🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - 🇩🇰 丹麦A01|奈飞|GPT 2
+      - 🇭🇰 香港A08|奈飞-优化
+      - 🇮🇩 印尼A
+      - 🇮🇳 印度A01 2
+      - 🇮🇩 印尼A 2
+      - 🇺🇸 美国02 tg@freeVPNjd
+      - 🇺🇸 美国A04|奈飞|GPT
+      - 🇺🇸 美国01 tg@freeVPNjd
+      - 🇺🇸 美国A04|奈飞|GPT 2
+      - 🇨🇭 瑞士A01|奈飞|GPT
+      - 🇭🇰 香港02 tg@freeVPNjd
+      - 🇦🇪 迪拜A01|奈飞|GPT
+      - 🇭🇰 香港 tg@freeVPNjd
+      - 🇯🇵 日本A03|奈飞|GPT 2
+      - 🇭🇰 香港A08|奈飞-优化 2
+      - 🇭🇰 香港_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇿🇦 TG频道:@hkaa0▓南非
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 SG  IPLC x 1
-      - 🇯🇵 [日] Japan 1
-      - 🇭🇰 [港] Hong Kong  7
-      - 🇯🇵 [日] Japan 2
-      - 🇺🇸 美国 | CN2 - 2号线
-      - 🇭🇰 [港] Hong Kong  10
-      - 🇸🇬 [新] Singapore 1
-      - 🇺🇸 美国 | CN2
-      - 🇯🇵 日本11
-      - 🇨🇳 台湾 | CN2
-      - 🇸🇬 [新] Singapore 1 2
-      - 🇺🇸 [美] United States 2
-      - 🇭🇰 [港] Hong Kong  4
-      - 🇭🇰 香港 | CN2
-      - 🇺🇸 美国 | 9929 [2.5x]
-      - 🇺🇸 [美] United States 1
-      - 🇨🇳 [台] Taiwan 3
-      - 🇭🇰 [港] Hong Kong  4 2
-      - 🇭🇰 [港] Hong Kong  4 3
-      - 🇺🇸 [美] United States 3
-      - 🇯🇵 [日] Japan 3
-      - 🇸🇬 新加坡 | CN2
-      - 🇭🇰 [港] Hong Kong  13
-      - 🇺🇸 [美] Misaka United States
-      - 🇲🇾 [马] Malaysia
-      - 🇸🇬 [新] Singapore 1 3
-      - 🇯🇵 JP  IPLC x 1
-      - 🇯🇵 JP  IPLC x 1 2
-      - 🇯🇵 [日] Japan 3 2
-      - 🇰🇷 [韩] South Korea 1
-      - 🇹🇭 [泰] Thailand
-      - 🇦🇷 [阿] Argentina
-      - 🇯🇵 [日] Japan 1 2
-      - 🇯🇵 日本09
-      - 🇲🇾 [马] Malaysia 2
-      - 🇮🇩 [印] Indonesia
-      - 🇯🇵 JP  IPLC x 1 3
-      - 🇺🇸 [美] United States 2 2
-      - 🇭🇰 [港] Hong Kong  10 2
-      - 🇨🇳 台湾 | 上海
-      - 🇨🇳 [台] Taiwan 1
-      - 🇸🇬 [新] Singapore 3
-      - 🇬🇧 [英] United Kiongdom
-      - 🇻🇳 [越] Vietnam
-      - 🇨🇳 [台] Taiwan 3 2
-      - 🇺🇸 [美] United States 2 3
-      - 🇭🇰 [港] Hong Kong  13 2
-      - 🇬🇧 [英] United Kiongdom 2
-      - 🇸🇬 SG  IPLC x 1 2
-      - 🇭🇰 [港] Hong Kong  13 3
-      - 🇸🇬 SG  IPLC x 1 3
-      - 🇯🇵 [日] Japan 3 3
-      - 🇭🇰 [港] Hong Kong  10 3
-      - 🇸🇬 新加坡 | CN2 - 2号线
-      - 🇰🇷 韩国 | CN2 - 2号线
-      - 🇸🇬 [新] Singapore 3 2
-      - 🇸🇬 SG  IPLC x 1 4
-      - 🇺🇸 [美] United States 3 2
-      - 🇺🇸 [美] Misaka United States 2
-      - 🇯🇵 [日] Japan 5
-      - 🇺🇸 [美] United States 3 3
-      - 🇹🇷 [土] Turkey
-      - 🇬🇧 英国 | 9929 [2.5x]
-      - 🇬🇧 [英] United Kiongdom 3
-      - 🇯🇵 [日] Japan 5 2
-      - 🇰🇷 韩国 | CN2
-      - 🇺🇸 [美] United States 1 2
-      - 🇺🇸 [美] Misaka United States 3
-      - 🇺🇸 [美] Misaka United States 4
-      - 🇸🇬 新加坡 | 上海
-      - 🇸🇬 [新] Singapore 3 3
-      - 🇨🇳 TW  IPLC x 1
-      - 🇺🇸 [美] Misaka United States 5
-      - 🇦🇷 [阿] Argentina 2
-      - 🇹🇷 [土] Turkey 2
-      - 🇹🇭 [泰] Thailand 2
-      - 🇯🇵 [日] Japan 1 3
-      - 🇺🇸 [美] United States 2 4
-      - 🇯🇵 日本 | 9929 [2.5x]
-      - 🇻🇳 [越] Vietnam 2
-      - 🇺🇸 美国04
-      - 🇺🇸 美国03
-      - 🇹🇭 [泰] Thailand 3
-      - 🇦🇷 [阿] Argentina 3
-      - 🇰🇭 [柬] Cambodia
-      - 🇭🇰 [港] Hong Kong  7 2
-      - 🇰🇷 [韩] South Korea 1 2
-      - 🇭🇰 香港12
-      - 🇵🇭 [菲] Philippines
-      - 🇲🇾 [马] Malaysia 3
-      - 🇭🇰 HK  IPLC x 1
-      - 🇨🇳 [台] Taiwan 3 3
-      - 🇨🇳 TW  IPLC x 1 2
-      - 🇺🇸 美国01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本06
-      - 🇸🇬 [新] Singapore 1 4
-      - 🇯🇵 JP  IPLC x 1 4
-      - 🇨🇳 [台] Taiwan 1 2
-      - 🇯🇵 日本01
-      - 🇭🇰 香港13
-      - 🇵🇭 [菲] Philippines 2
-      - 🇯🇵 日本07
-      - 🇯🇵 [日] Japan 1 4
-      - 🇺🇸 美国05
-      - 🇯🇵 日本08
-      - 🇰🇭 [柬] Cambodia 2
-      - 🇹🇭 [泰] Thailand 4
-      - 🇯🇵 日本12
-      - 🇭🇰 [港] Hong Kong  13 4
-      - 🇹🇷 [土] Turkey 3
-      - 🇨🇳 台湾省03
-      - 🇦🇷 [阿] Argentina 4
-      - 🇬🇧 [英] United Kiongdom 4
-      - 🇹🇷 [土] Turkey 4
-      - 🇰🇷 [韩] South Korea 1 3
-      - 🇯🇵 [日] Japan 2 2
-      - 🇭🇰 [港] Hong Kong  7 3
-      - 🇯🇵 日本13
-      - 🇺🇸 [美] United States 3 4
-      - 🇻🇳 [越] Vietnam 3
-      - 🇵🇭 [菲] Philippines 3
-      - 🇨🇳 台湾省04
-      - 🇰🇷 韩国 | 上海
-      - 🇲🇾 [马] Malaysia 4
-      - 🇯🇵 日本 | CN2 - 2号线
-      - 🇻🇳 [越] Vietnam 4
-      - 🇯🇵 日本05
-      - 🇹🇷 [土] Turkey 5
-      - JP01
-      - 🇭🇰 香港03
-      - 🇨🇳 台湾省02
-      - 🇺🇸 [美] United States 1 3
-      - 🇭🇰 香港05
-      - US01
-      - 🇬🇧 英国 | CN2 - 2号线
-      - 🇰🇭 [柬] Cambodia 3
-      - 🇻🇳 [越] Vietnam 5
-      - 🇹🇷 土耳其 | 9929 [2.5x]
-      - 🇲🇾 [马] Malaysia 5
-      - 🇯🇵 日本03
-      - 🇹🇭 [泰] Thailand 5
-      - 🇯🇵 日本04
-      - 🇭🇰 香港06
-      - 🇸🇬 [新] Singapore 3 4
-      - 🇯🇵 日本 | 上海
-      - 🇭🇰 香港01
-      - 🇮🇩 [印] Indonesia 2
-      - 🇰🇷 [韩] South Korea 1 4
-      - 🇭🇰 香港04
-      - 🇭🇰 HK  IPLC x 1 2
-      - 🇭🇰 香港02
-      - 🇯🇵 US_分享日记
-      - 🇸🇬 [新] Singapore 1 5
-      - 🇯🇵 [日] Japan 2 3
-      - 🇸🇬 SG  IPLC x 1 5
-      - 🇯🇵 [日] Japan 3 4
-      - 🇯🇵 [日] Japan 5 3
-      - 🇦🇷 [阿] Argentina 5
-      - 🇯🇵 CH_分享日记
-      - 🇯🇵 日本 | CN2
-      - 🇬🇧 英国 | CN2
-      - 🇵🇭 [菲] Philippines 4
-      - 🇯🇵 JP  IPLC x 1 5
-      - 🇯🇵 [日] Japan 5 4
-      - 🇰🇷 [韩] South Korea 1 5
-      - 🇭🇰 香港11
-      - 🇬🇧 [英] United Kiongdom 5
-      - 🇯🇵 [日] Japan 3 5
-      - 🇺🇸 [美] United States 2 5
-      - 🇬🇧 英国 | 上海
-      - 🇨🇳 台湾省05
-      - 🇺🇸 [美] United States 1 4
-      - 🇰🇷 韩国 | 9929 [2.5x]
-      - 🇮🇩 [印] Indonesia 3
-      - 🇨🇳 台湾 | 9929 [2.5x]
-      - 🇭🇰 HK  IPLC x 1 3
-      - 🇵🇭 [菲] Philippines 5
-      - 🇨🇳 台湾省01
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇭🇰 HK  IPLC x 1 4
-      - 🇭🇰 香港 | CN2 - 2号线
-      - TW01
-      - 🇨🇳 台湾省06
-      - 🇨🇳 [台] Taiwan 3 4
-      - 🇸🇬 [新] Singapore 3 5
-      - 🇭🇰 [港] Hong Kong  4 4
-      - 🇯🇵 [日] Japan 5 5
-      - 🇨🇳 [台] Taiwan 3 5
-      - 🇭🇰 香港24
-      - 🇭🇰 香港 | 上海
-      - 🇺🇸 美国06
-      - 🇭🇰 [港] Hong Kong  7 4
-      - 🇭🇰 香港18
-      - 🇭🇰 香港15
-      - 🇺🇸 美国14
-      - 🇭🇰 香港08
-      - 🇭🇰 香港16
-      - 🇨🇳 [台] Taiwan 1 3
-      - 🇸🇬 [新] Singapore 1 6
-      - 🇭🇰 香港26
-      - 🇸🇬 新加坡10
-      - 🇭🇰 香港23
-      - 🇯🇵 [日] Japan 1 5
-      - 🇭🇰 香港17
-      - 🇺🇸 美国A02|奈飞|GPT
-      - 🇯🇵 日本A03|奈飞|GPT
-      - 🇭🇰 香港21
-      - 🇭🇰 香港25
-      - 🇰🇷 韩国A01
-      - 🇭🇰 香港19
+      - 🇬🇧 英国_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa
+      - 🇭🇰 香港A10|奈飞-优化
+      - 🇯🇵 Japan Native 03
+      - 🇬🇧 英国_Telegram@kxswa 2
+      - 🇯🇵 Japan Native 01
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_78 | 3.07Mb
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_07 | 5.06Mb
+      - 不定期抽奖https://t.me/mftizi
+      - 🇨🇳 TW台湾 B
+      - 🇭🇰 香港A10|奈飞-优化 2
+      - 🇺🇸 US E 0.1
+      - 🇨🇳 TW台湾 A
+      - 🇧🇷 巴西A01|奈飞|GPT
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇸🇬 新加坡04|流媒体
+      - 🇺🇸 美国_Telegram@kxswa 5
+      - 🇸🇬 新加坡02|流媒体
+      - 🇺🇸 美国_Telegram@kxswa 6
+      - 🇺🇸 美国_Telegram@kxswa 7
+      - 不定期抽奖https://t.me/mftizi 2
+      - 🇪🇸 西班牙A01
+      - 🇨🇳 台湾_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 77
+      - 🇭🇰 香港_Telegram@kxswa 19
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇮🇷 伊朗_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - 🇷🇺 俄罗斯联邦_Telegram@kxswa 4
+      - 🇯🇵 日本特殊|浏览器输入 翻墙.com
+      - 🇰🇷 韩国_Telegram@kxswa 2
+      - 🇭🇰 香港_Telegram@kxswa 76
+      - 🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港_Telegram@kxswa 7
+      - 🇨🇿 捷克_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 8
+      - 🇭🇰 香港_Telegram@kxswa 4
+      - 🇺🇸 US C 0.1 优选IP 0.1
+      - 🇭🇰 香港_Telegram@kxswa 20
+      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇺🇸 美国_Telegram@kxswa 10
+      - 🇺🇸 美国_Telegram@kxswa 4 2
+      - 🇺🇸 美国_Telegram@kxswa 5 2
+      - 🇸🇬 狮城特殊|浏览器输入 翻墙.com
+      - 🇸🇬 SG新加坡 B
       - 🇨🇳 台湾A00|奈飞|GPT
-      - 🇸🇬 [新] Singapore 3 6
-      - 🇸🇬 新加坡07
-      - 🇻🇳 [越] Vietnam 6
-      - 🇭🇰 [港] Hong Kong  4 5
-      - 🇭🇰 香港22
-      - 🇸🇬 新加坡17
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡01
-      - 🇭🇰 [港] Hong Kong  10 4
-      - 🇭🇰 香港09
-      - 🇨🇳 [台] Taiwan 3 6
-      - 🇭🇰 [港] Hong Kong  7 5
-      - 🇯🇵 [日] Japan 5 6
-      - 🇯🇵 [日] Japan 2 4
-      - 🇭🇰 [港] Hong Kong  10 5
-      - 🇰🇭 [柬] Cambodia 4
-      - 🇨🇳 台湾 | CN2 - 2号线
-      - 🇸🇬 新加坡 | 9929 [2.5x]
-      - 🇺🇸 美国 | 上海
-      - 🇯🇵 日本10
-      - 🇯🇵 [日] Japan 1 6
-      - 🇰🇭 [柬] Cambodia 5
+      - 🇨🇦 加拿大_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 16
+      - 🇸🇬 SG新加坡 A
+      - 🇭🇰 香港KT1|@ripaojiedian
+      - 🇸🇬 新加坡3|浏览器输入 翻墙.com
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇯🇵 日本KT2|@ripaojiedian
+      - 免费梯子https://t.me/mftizi
+      - 🇨🇿 捷克_Telegram@kxswa 2
+      - VPN招代理电报联系@xiaoying229
+      - 🇭🇰 香港2|付费版推荐 翻墙.com
+      - 🇭🇰 香港_Telegram@kxswa 31
+      - 🇭🇰 香港1|浏览器输入 翻墙.com
+      - 🇺🇸 美国2|低价实惠 翻墙.com
+      - YD|www.zyw.asia ZYW免费节点
+      - 🇨🇿 捷克_Telegram@kxswa 3
+      - 🇺🇸 美国 Akamai科技公司CDN网络节点
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇨🇳 台湾A00|奈飞|GPT 2
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 美国A02|奈飞|GPT
+      - 🇨🇳 [动态ip]台湾-流媒体-0.5x
+      - 🇭🇰 香港3|浏览器输入 翻墙.com
+      - 🇮🇳 印度A01
+      - 🇺🇸 美国A02|奈飞|GPT 2
+      - 🇰🇷 韩国A01
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇸🇬 新加坡A01
+      - 🇯🇵 东京特殊|浏览器输入 翻墙.com
+      - 🇩🇰 丹麦A01|奈飞|GPT 2
+      - 🇭🇰 香港A08|奈飞-优化
+      - 🇮🇩 印尼A
+      - 🇮🇳 印度A01 2
+      - 🇮🇩 印尼A 2
+      - 🇺🇸 美国02 tg@freeVPNjd
+      - 🇺🇸 美国A04|奈飞|GPT
+      - 🇺🇸 美国01 tg@freeVPNjd
+      - 🇺🇸 美国A04|奈飞|GPT 2
+      - 🇨🇭 瑞士A01|奈飞|GPT
+      - 🇭🇰 香港02 tg@freeVPNjd
+      - 🇦🇪 迪拜A01|奈飞|GPT
+      - 🇭🇰 香港 tg@freeVPNjd
+      - 🇯🇵 日本A03|奈飞|GPT 2
+      - 🇭🇰 香港A08|奈飞-优化 2
+      - 🇭🇰 香港_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇿🇦 TG频道:@hkaa0▓南非
   - name: 🎯 不挂代理
     type: select
     proxies:
