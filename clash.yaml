@@ -5,140 +5,46 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国A04|奈飞|GPT 2, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇰🇷 [流媒体加速专线]首尔Seoul 01", server: cnseven.nnslink.xyz, port: 21111, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: kr11.996yyds.org, skip-cert-verify: false}
-  - {name: 🇭🇰 香港A08|奈飞-优化, server: 183.232.170.22, port: 30112, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 [优化]日本JAPAN 01", server: cnone.nnslink.xyz, port: 21103, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lijp01.996yyds.org, skip-cert-verify: false}
-  - {name: KR_72 | 6.88Mb, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true}
-  - {name: "🇨🇦 [流媒体加速专线]加拿大Canada 01", server: cnseven.nnslink.xyz, port: 21109, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lica01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇮🇳 印度, server: south.eeeeeef998.buzz, port: 16102, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: "🇬🇧 [优化]英国United Kingdom 01", server: cnone.nnslink.xyz, port: 21107, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: liuk01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇩🇰 丹麦A01|奈飞|GPT 2, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Ⅰ-华南专线|美国 01, server: cn.hn.yh.01.relay.bilibili-cdn.stream, port: 40004, type: vmess, uuid: a34984ad-b2bb-3f34-b9a6-61a63ff6404e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇰 丹麦A01|奈飞|GPT, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本A03|奈飞|GPT, server: 183.232.170.22, port: 30038, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度A01, server: 183.232.170.22, port: 30128, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇦🇺 [流媒体加速专线]澳洲Australia 01", server: cnseven.nnslink.xyz, port: 21110, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: liau01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 16 7, server: 172.67.180.248, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}}
-  - {name: 🇭🇰 香港A10|奈飞-优化, server: 183.232.170.22, port: 30114, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇺🇸 [增强]美国United Sates 01", server: cntwo.nnslink.xyz, port: 21201, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lius01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 6 2, server: east.eeeeeef998.buzz, port: 15006, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: "🇮🇳 [优化]印度India 01", server: cnone.nnslink.xyz, port: 21108, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: liin01.996yyds.org, skip-cert-verify: false}
-  - {name: "🇰🇷 [沿海专线]韩国Korea 01", server: cnone.nnslink.xyz, port: 21561, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: okr01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇯🇵 日本2|@ripaojiedian, server: 172.67.143.192, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: "🇸🇬 [增强]新加坡Singapore 01", server: cntwo.nnslink.xyz, port: 21205, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lisg01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇩🇰 丹麦A01|奈飞|GPT 3, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国A01|奈飞|GPT, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: VPN招代理电报联系@xiaoying229, server: 188.114.96.113, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
-  - {name: 🇸🇬 新加坡 5, server: south.eeeeeef998.buzz, port: 14005, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇺🇸 美国A02|奈飞|GPT, server: 183.232.170.22, port: 30061, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾A00|奈飞|GPT, server: 183.232.170.22, port: 30055, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 Ⅲ-华东优化|新加坡 01, server: cn.hd.yh.01.relay.bilibili-cdn.stream, port: 26006, type: vmess, uuid: a34984ad-b2bb-3f34-b9a6-61a63ff6404e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇱 智利A01, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇩🇪 [增强]德国German 01", server: cntwo.nnslink.xyz, port: 21206, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lige01.996yyds.org, skip-cert-verify: false}
-  - {name: "🇬🇧 [增强]英国United Kingdom 01", server: cntwo.nnslink.xyz, port: 21207, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: liuk01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇪🇸 西班牙A01 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 5 7, server: 104.21.31.244, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 3, server: 104.21.20.16, port: 80, type: vmess, uuid: c9e99213-170b-458a-b45b-79454ac7cf4b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: fi2-vmess.sshmax.xyz}}}
-  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 8.218.71.80, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 28 13, server: 23.142.200.175, port: 443, type: trojan, password: 27876_t7d7f4e3f, skip-cert-verify: true}
-  - {name: US_172 |10.13Mb, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 Manifold 美国02-原生, server: 231103level4.unclemanco.com, port: 2541, type: ssr, cipher: aes-256-cfb, password: ayds232112sffssd1, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 61610:G5gdyp, obfs-param: 68e7b61610.download.windowsupdate.com}
+  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: 🇭🇰 Ⅰ-华南专线|香港 03, server: cn.hn.yh.01.relay.bilibili-cdn.stream, port: 40007, type: vmess, uuid: a34984ad-b2bb-3f34-b9a6-61a63ff6404e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Ⅰ-华南专线|台湾 02, server: cn.hn.yh.01.relay.bilibili-cdn.stream, port: 40010, type: vmess, uuid: a34984ad-b2bb-3f34-b9a6-61a63ff6404e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_Telegram@kxswa 31 6, server: 8.218.71.80, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
-  - {name: 🇦🇺 澳大利亚, server: south.eeeeeef998.buzz, port: 16103, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: "🇩🇪 [优化]德国German 01", server: cnone.nnslink.xyz, port: 21106, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lige01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 20 11, server: 104.21.56.185, port: 443, type: vmess, uuid: 38535031-ccc3-4a94-bd54-c68806486406, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ie1-vmess.greenssh.xyz}}}
-  - {name: 🇺🇸 美国 1, server: east.eeeeeef998.buzz, port: 15001, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇺🇸 美国A02|奈飞|GPT 2, server: 183.232.170.22, port: 30061, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 15, server: data-hk-v1.shwjfkw.cn, port: 20207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-hk-v1.shwjfkw.cn}}}
+  - {name: 🇵🇭 菲律宾A, server: 183.232.170.22, port: 30017, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 • 02 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 52706, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
   - {name: 🇯🇵 Ⅰ-华南专线|日本 01, server: cn.hn.yh.01.relay.bilibili-cdn.stream, port: 40003, type: vmess, uuid: a34984ad-b2bb-3f34-b9a6-61a63ff6404e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国A04|奈飞|GPT, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇭 瑞士A01|奈飞|GPT, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇸 西班牙A01, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国_Telegram@kxswa 3, server: 37.220.31.119, port: 20861, type: vmess, uuid: 44f4c719-1ec4-48b4-b21a-edb6a83999b6, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 15 7, server: 47.243.196.229, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
-  - {name: 🇬🇧 英国A01|奈飞|GPT 2, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰A01|奈飞|GPT, server: 183.232.170.22, port: 30046, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇸 西班牙A01 2 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 关注电报https://t.me/aifenxiang2020, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 🇨🇳 台湾A00|奈飞|GPT 2, server: 183.232.170.22, port: 30055, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 3 2, server: east.eeeeeef998.buzz, port: 15003, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇺🇸 Ⅲ-华东优化|美国 01, server: cn.hd.yh.01.relay.bilibili-cdn.stream, port: 26008, type: vmess, uuid: a34984ad-b2bb-3f34-b9a6-61a63ff6404e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇰 丹麦A01|奈飞|GPT 2 2, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港KT2|@ripaojiedian 2, server: 47.243.196.229, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
-  - {name: "🇯🇵 [增强]日本JAPAN 02", server: cntwo.nnslink.xyz, port: 21204, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lijp02.996yyds.org, skip-cert-verify: false}
-  - {name: 🇦🇪 阿联酋_Telegram@kxswa, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}}
-  - {name: 🇭🇰 香港A08|奈飞-优化 2, server: 183.232.170.22, port: 30112, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇮🇳 [增强]印度India 01", server: cntwo.nnslink.xyz, port: 21208, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: liin01.996yyds.org, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾A00|奈飞|GPT, server: 183.232.170.22, port: 30055, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡A01, server: 183.232.170.22, port: 30131, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: ZZ_132 |29.38Mb, server: 104.21.20.16, port: 443, type: vmess, uuid: 802c1068-ee2b-4c87-b49d-e7f3043e75d2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: se2-vmess.sshmax.xyz}}}
-  - {name: "🇯🇵 [优化]日本JAPAN 02", server: cnone.nnslink.xyz, port: 21104, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lijp02.996yyds.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 6 4 2, server: cf.openxai.link, port: 8080, type: vmess, uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu3.openxai.link}}}
-  - {name: "🇺🇸 [优化]美国United Sates 02", server: cnone.nnslink.xyz, port: 21102, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lius02.996yyds.org, skip-cert-verify: false}
-  - {name: "🇺🇸 [优化]美国United Sates 01", server: cnone.nnslink.xyz, port: 21101, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lius01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾 2 2, server: south.eeeeeef998.buzz, port: 12002, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 172.67.171.177, port: 8080, type: vmess, uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu3.openxai.link}}}
-  - {name: 🇯🇵 日本A05|奈飞|GPT, server: 183.232.170.22, port: 30057, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 关注电报https://t.me/aifenxiang2020 7 2, server: 172.67.217.144, port: 80, type: vmess, uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lv1.xv2ray.net}}}
-  - {name: 🇺🇸 美国A04|奈飞|GPT 3, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 2 2 2, server: east.eeeeeef998.buzz, port: 15002, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾 1, server: south.eeeeeef998.buzz, port: 12001, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾A00|奈飞|GPT 2 2, server: 183.232.170.22, port: 30055, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 11 2, server: www.nahck.site, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}}
-  - {name: 🇺🇸 美国 5 2, server: east.eeeeeef998.buzz, port: 15005, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa 4, server: 50.7.61.104, port: 14545, type: vmess, uuid: c2b797fc-4054-4167-9f9e-9759ecde0733, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 🇭🇰 香港A10|奈飞-优化 2, server: 183.232.170.22, port: 30114, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 1, server: south.eeeeeef998.buzz, port: 14001, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇭🇰 香港KT|@ripaojiedian 2, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
-  - {name: "🇯🇵 [流媒体加速专线]大阪Osaka 01", server: cnseven.nnslink.xyz, port: 21112, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: aos01.996yyds.org, skip-cert-verify: false}
-  - {name: "🇸🇬 [优化]新加坡Singapore 01", server: cnone.nnslink.xyz, port: 21105, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lisg01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 4 2, server: east.eeeeeef998.buzz, port: 15004, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇧🇷 巴西A01|奈飞|GPT, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇧🇷 [流媒体加速专线]圣保罗Sao Paulo 01", server: cnseven.nnslink.xyz, port: 21114, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: asp01.996yyds.org, skip-cert-verify: false}
-  - {name: "🇫🇷 [流媒体加速专线]巴黎Paris 01", server: cnseven.nnslink.xyz, port: 21113, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: apa01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: onea.flha.ru, port: 2052, type: vmess, uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
-  - {name: 🇳🇱 荷兰A01|奈飞|GPT 2, server: 183.232.170.22, port: 30046, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港KT2|@ripaojiedian, server: 42.2.115.231, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
-  - {name: 🇸🇬 新加坡A01 2, server: 183.232.170.22, port: 30131, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 4, server: east.eeeeeef998.buzz, port: 13004, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇯🇵 日本A05|奈飞|GPT 2, server: 183.232.170.22, port: 30057, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 3, server: east.eeeeeef998.buzz, port: 13003, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 1, server: east.eeeeeef998.buzz, port: 13001, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 6, server: south.eeeeeef998.buzz, port: 14006, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 5, server: east.eeeeeef998.buzz, port: 13005, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 6, server: south.eeeeeef998.buzz, port: 11006, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇨🇱 智利A01 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 2 2, server: south.eeeeeef998.buzz, port: 11002, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 5, server: south.eeeeeef998.buzz, port: 11005, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 Linode数据中心 2, server: beecomf.xyz, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇨🇳 台湾A00|奈飞|GPT 2, server: 183.232.170.22, port: 30055, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本A03|奈飞|GPT, server: 183.232.170.22, port: 30038, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_Telegram@kxswa 15 7, server: 47.243.196.229, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
+  - {name: 🇯🇵 日本A03|奈飞|GPT 2, server: 183.232.170.22, port: 30038, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 Ⅰ-华南专线|香港 01, server: cn.hn.yh.01.relay.bilibili-cdn.stream, port: 40005, type: vmess, uuid: a34984ad-b2bb-3f34-b9a6-61a63ff6404e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 Ⅰ-华南专线|新加坡 01, server: cn.hn.yh.01.relay.bilibili-cdn.stream, port: 40002, type: vmess, uuid: a34984ad-b2bb-3f34-b9a6-61a63ff6404e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 5, server: east.eeeeeef998.buzz, port: 16101, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇦🇪 迪拜A01|奈飞|GPT, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇯🇵 [增强]日本JAPAN 01", server: cntwo.nnslink.xyz, port: 21203, type: trojan, password: f1d19213-1da8-385d-8ec6-e7e0923c39f7, sni: lijp01.996yyds.org, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰_Telegram@kxswa 9, server: 188.114.97.53, port: 443, type: vmess, uuid: 8c929251-406f-4b32-9173-07ccd242cb58, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: fr1-vmess.sshmax.xyz}}}
-  - {name: 🇯🇵 日本 2, server: east.eeeeeef998.buzz, port: 13002, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 2 2, server: south.eeeeeef998.buzz, port: 14002, type: trojan, password: 7084bed5-740d-42fc-bc30-76d2ffbb66b4, sni: data.steamdownload.top, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 • 06 | 1.0x | NF, server: updates.abcjsd.site, port: 57018, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇭🇰 香港 • 08 | 1.0x | NF, server: updates.abcjsd.site, port: 52367, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇭🇰 香港 • 04 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 35666, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇸🇬 新加坡 • 03 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 53999, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇰🇷 韩国 • 01 | 1.5x | NF, server: data.cu-slb-hd.xyz, port: 36010, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇰🇷 韩国 • 04 | 1.5x | NF, server: data.cu-slb-hd.xyz, port: 36060, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇦🇺 澳大利亚 • 01 | 1.0x | NF, server: updates.abcjsd.site, port: 50016, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇦🇺 澳大利亚 • 02 | 1.0x | NF, server: updates.abcjsd.site, port: 50017, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇨🇳 台湾 • 01 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 53259, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇨🇳 台湾 • 02 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 53258, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇨🇳 台湾 • 03 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 53257, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇰🇷 韩国 • 02 | 1.5x | NF, server: data.cu-slb-hd.xyz, port: 36020, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇰🇷 韩国 • 03 | 1.5x | NF, server: data.cu-slb-hd.xyz, port: 36030, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇺🇸 美国 • 01 | 1.0x | NF, server: updates.abcjsd.site, port: 22661, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇭🇰 香港 • 05 | 1.0x | NF, server: updates.abcjsd.site, port: 57010, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
+  - {name: 🇪🇸 西班牙A01 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇰 丹麦A01|奈飞|GPT, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 免费梯子https://t.me/mftizi, server: 104.21.226.13, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt1.ir}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 5 7, server: 104.21.31.244, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 16 7, server: 172.67.180.248, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}}
+  - {name: 🇭🇰 Ⅰ-华南专线|香港 02, server: cn.hn.yh.01.relay.bilibili-cdn.stream, port: 40006, type: vmess, uuid: a34984ad-b2bb-3f34-b9a6-61a63ff6404e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 11 2, server: www.nahck.site, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.nahck.site}}}
+  - {name: 🇪🇸 西班牙A01, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇪🇸 西班牙A01 2 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 US_分享日记 4, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt4.ir}}}
+  - {name: 🇺🇸 TG频道:@hkaa0▓美国, server: 104.21.54.252, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
+  - {name: 关注电报https://t.me/aifenxiang2020, server: 162.159.134.23, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm, headers: {Host: championship-bidding-oxygen-brochure.trycloudflare.com}}}
+  - {name: 不定期抽奖https://t.me/mftizi, server: 104.21.69.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 3.34.43.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港KT2|@ripaojiedian, server: 42.2.115.231, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: 🇸🇬 新加坡|@ripaojiedian, server: 50015.baidu-cdn.top, port: 50015, type: vmess, uuid: e80442e2-4577-4b33-8d9b-798d816974bd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 54.180.143.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本 • 02 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 21350, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇺🇸 美国 • 03 | 1.0x | NF, server: updates.abcjsd.site, port: 53700, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇺🇸 美国 • 04 | 1.0x | NF, server: updates.abcjsd.site, port: 53750, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
+  - {name: 🇭🇰 香港 • 04 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 35666, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
+  - {name: 🇭🇰 香港 • 01 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 52705, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
+  - {name: 🇭🇰 香港 • 03 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 51111, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
+  - {name: 🇹🇭 泰国 - 01 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 21700, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
+  - {name: 🇸🇬 新加坡3|@ripaojiedian, server: 50014.baidu-cdn.top, port: 50014, type: vmess, uuid: e80442e2-4577-4b33-8d9b-798d816974bd, alterId: 0, cipher: auto, tls: false}
+  - {name: 关注电报https://t.me/mftizi, server: 223.113.130.55, port: 58080, type: vmess, uuid: 5d75216f-c2ec-3136-b749-fcfe40ed4b4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /db00, headers: {Host: cache-hk-1.cn-db.top}}}
   - {name: 🇦🇺 澳大利亚 • 03 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 50015, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
-  - {name: 🇯🇵 日本 • 01 | 1.0x | NF, server: data.cu-slb-hd.xyz, port: 59201, type: ss, cipher: aes-128-gcm, password: 06OtiXalzeauqPNV}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -150,558 +56,182 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇺🇸 美国A04|奈飞|GPT 2
-      - 🇰🇷 [流媒体加速专线]首尔Seoul 01
-      - 🇭🇰 香港A08|奈飞-优化
-      - 🇯🇵 [优化]日本JAPAN 01
-      - KR_72 | 6.88Mb
-      - 🇨🇦 [流媒体加速专线]加拿大Canada 01
-      - 🇮🇳 印度
-      - 🇬🇧 [优化]英国United Kingdom 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 2
-      - 🇺🇸 Ⅰ-华南专线|美国 01
-      - 🇩🇰 丹麦A01|奈飞|GPT
-      - 🇯🇵 日本A03|奈飞|GPT
-      - 🇮🇳 印度A01
-      - 🇦🇺 [流媒体加速专线]澳洲Australia 01
-      - 🇺🇸 美国_Telegram@kxswa 16 7
-      - 🇭🇰 香港A10|奈飞-优化
-      - 🇺🇸 [增强]美国United Sates 01
-      - 🇺🇸 美国 6 2
-      - 🇮🇳 [优化]印度India 01
-      - 🇰🇷 [沿海专线]韩国Korea 01
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇸🇬 [增强]新加坡Singapore 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 3
-      - 🇬🇧 英国A01|奈飞|GPT
-      - VPN招代理电报联系@xiaoying229
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国A02|奈飞|GPT
-      - 🇨🇳 台湾A00|奈飞|GPT
-      - 🇸🇬 Ⅲ-华东优化|新加坡 01
-      - 🇨🇱 智利A01
-      - 🇩🇪 [增强]德国German 01
-      - 🇬🇧 [增强]英国United Kingdom 01
-      - 🇪🇸 西班牙A01 2
-      - 🇺🇸 美国_Telegram@kxswa 5 7
-      - 🇺🇸 美国_Telegram@kxswa 3
       - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国_Telegram@kxswa 28 13
-      - US_172 |10.13Mb
-      - 🇺🇸 Manifold 美国02-原生
+      - 🇭🇰 Ⅰ-华南专线|香港 03
+      - 🇨🇳 Ⅰ-华南专线|台湾 02
       - 🇭🇰 香港_Telegram@kxswa 31 6
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 [优化]德国German 01
-      - 🇺🇸 美国_Telegram@kxswa 20 11
-      - 🇺🇸 美国 1
-      - 🇺🇸 美国A02|奈飞|GPT 2
-      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇵🇭 菲律宾A
+      - 🇭🇰 香港 • 02 | 1.0x | NF
       - 🇯🇵 Ⅰ-华南专线|日本 01
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇨🇭 瑞士A01|奈飞|GPT
-      - 🇪🇸 西班牙A01
-      - 🇬🇧 英国_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 15 7
-      - 🇬🇧 英国A01|奈飞|GPT 2
-      - 🇳🇱 荷兰A01|奈飞|GPT
-      - 🇪🇸 西班牙A01 2 2
-      - 关注电报https://t.me/aifenxiang2020
-      - 🇨🇳 台湾A00|奈飞|GPT 2
-      - 🇺🇸 美国 3 2
-      - 🇺🇸 Ⅲ-华东优化|美国 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 2 2
-      - 🇭🇰 香港KT2|@ripaojiedian 2
-      - 🇯🇵 [增强]日本JAPAN 02
-      - 🇦🇪 阿联酋_Telegram@kxswa
-      - 🇭🇰 香港A08|奈飞-优化 2
-      - 🇮🇳 [增强]印度India 01
+      - 🇨🇳 台湾A00|奈飞|GPT
       - 🇸🇬 新加坡A01
-      - ZZ_132 |29.38Mb
-      - 🇯🇵 [优化]日本JAPAN 02
-      - 🇺🇸 美国_Telegram@kxswa 6 4 2
-      - 🇺🇸 [优化]美国United Sates 02
-      - 🇺🇸 [优化]美国United Sates 01
-      - 🇨🇳 台湾 2 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本A05|奈飞|GPT
-      - 关注电报https://t.me/aifenxiang2020 7 2
-      - 🇺🇸 美国A04|奈飞|GPT 3
-      - 🇺🇸 美国 2 2 2
-      - 🇨🇳 台湾 1
-      - 🇨🇳 台湾A00|奈飞|GPT 2 2
-      - 🇺🇸 美国_Telegram@kxswa 11 2
-      - 🇺🇸 美国 5 2
-      - 🇯🇵 日本_Telegram@kxswa 4
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇭🇰 香港A10|奈飞-优化 2
-      - 🇸🇬 新加坡 1
-      - 🇭🇰 香港KT|@ripaojiedian 2
-      - 🇯🇵 [流媒体加速专线]大阪Osaka 01
-      - 🇸🇬 [优化]新加坡Singapore 01
-      - 🇺🇸 美国 4 2
-      - 🇧🇷 巴西A01|奈飞|GPT
-      - 🇧🇷 [流媒体加速专线]圣保罗Sao Paulo 01
-      - 🇫🇷 [流媒体加速专线]巴黎Paris 01
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇳🇱 荷兰A01|奈飞|GPT 2
-      - 🇭🇰 香港KT2|@ripaojiedian
-      - 🇸🇬 新加坡A01 2
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本A05|奈飞|GPT 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 1
-      - 🇸🇬 新加坡 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 6
-      - 🇨🇱 智利A01 2
-      - 🇭🇰 香港 2 2
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 Linode数据中心 2
+      - 🇨🇳 台湾A00|奈飞|GPT 2
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇭🇰 香港_Telegram@kxswa 15 7
+      - 🇯🇵 日本A03|奈飞|GPT 2
+      - 🇭🇰 Ⅰ-华南专线|香港 01
       - 🇸🇬 Ⅰ-华南专线|新加坡 01
-      - 🇰🇷 韩国 5
-      - 🇦🇪 迪拜A01|奈飞|GPT
-      - 🇯🇵 [增强]日本JAPAN 01
-      - 🇳🇱 荷兰_Telegram@kxswa 9
-      - 🇯🇵 日本 2
-      - 🇸🇬 新加坡 2 2
-      - 🇭🇰 香港 • 06 | 1.0x | NF
-      - 🇭🇰 香港 • 08 | 1.0x | NF
-      - 🇭🇰 香港 • 04 | 1.0x | NF
-      - 🇸🇬 新加坡 • 03 | 1.0x | NF
-      - 🇰🇷 韩国 • 01 | 1.5x | NF
-      - 🇰🇷 韩国 • 04 | 1.5x | NF
-      - 🇦🇺 澳大利亚 • 01 | 1.0x | NF
-      - 🇦🇺 澳大利亚 • 02 | 1.0x | NF
-      - 🇨🇳 台湾 • 01 | 1.0x | NF
-      - 🇨🇳 台湾 • 02 | 1.0x | NF
-      - 🇨🇳 台湾 • 03 | 1.0x | NF
-      - 🇰🇷 韩国 • 02 | 1.5x | NF
-      - 🇰🇷 韩国 • 03 | 1.5x | NF
-      - 🇺🇸 美国 • 01 | 1.0x | NF
-      - 🇭🇰 香港 • 05 | 1.0x | NF
+      - 🇪🇸 西班牙A01 2
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸 美国_Telegram@kxswa 5 7
+      - 🇺🇸 美国_Telegram@kxswa 16 7
+      - 🇭🇰 Ⅰ-华南专线|香港 02
+      - 🇺🇸 美国_Telegram@kxswa 11 2
+      - 🇪🇸 西班牙A01
+      - 🇪🇸 西班牙A01 2 2
+      - 🇯🇵 US_分享日记 4
+      - 🇺🇸 TG频道:@hkaa0▓美国
+      - 关注电报https://t.me/aifenxiang2020
+      - 不定期抽奖https://t.me/mftizi
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇯🇵 日本 • 02 | 1.0x | NF
-      - 🇺🇸 美国 • 03 | 1.0x | NF
-      - 🇺🇸 美国 • 04 | 1.0x | NF
+      - 🇭🇰 香港 • 04 | 1.0x | NF
+      - 🇭🇰 香港 • 01 | 1.0x | NF
+      - 🇭🇰 香港 • 03 | 1.0x | NF
+      - 🇹🇭 泰国 - 01 | 1.0x | NF
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 关注电报https://t.me/mftizi
       - 🇦🇺 澳大利亚 • 03 | 1.0x | NF
-      - 🇯🇵 日本 • 01 | 1.0x | NF
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国A04|奈飞|GPT 2
-      - 🇰🇷 [流媒体加速专线]首尔Seoul 01
-      - 🇭🇰 香港A08|奈飞-优化
-      - 🇯🇵 [优化]日本JAPAN 01
-      - KR_72 | 6.88Mb
-      - 🇨🇦 [流媒体加速专线]加拿大Canada 01
-      - 🇮🇳 印度
-      - 🇬🇧 [优化]英国United Kingdom 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 2
-      - 🇺🇸 Ⅰ-华南专线|美国 01
-      - 🇩🇰 丹麦A01|奈飞|GPT
-      - 🇯🇵 日本A03|奈飞|GPT
-      - 🇮🇳 印度A01
-      - 🇦🇺 [流媒体加速专线]澳洲Australia 01
-      - 🇺🇸 美国_Telegram@kxswa 16 7
-      - 🇭🇰 香港A10|奈飞-优化
-      - 🇺🇸 [增强]美国United Sates 01
-      - 🇺🇸 美国 6 2
-      - 🇮🇳 [优化]印度India 01
-      - 🇰🇷 [沿海专线]韩国Korea 01
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇸🇬 [增强]新加坡Singapore 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 3
-      - 🇬🇧 英国A01|奈飞|GPT
-      - VPN招代理电报联系@xiaoying229
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国A02|奈飞|GPT
-      - 🇨🇳 台湾A00|奈飞|GPT
-      - 🇸🇬 Ⅲ-华东优化|新加坡 01
-      - 🇨🇱 智利A01
-      - 🇩🇪 [增强]德国German 01
-      - 🇬🇧 [增强]英国United Kingdom 01
-      - 🇪🇸 西班牙A01 2
-      - 🇺🇸 美国_Telegram@kxswa 5 7
-      - 🇺🇸 美国_Telegram@kxswa 3
       - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国_Telegram@kxswa 28 13
-      - US_172 |10.13Mb
-      - 🇺🇸 Manifold 美国02-原生
+      - 🇭🇰 Ⅰ-华南专线|香港 03
+      - 🇨🇳 Ⅰ-华南专线|台湾 02
       - 🇭🇰 香港_Telegram@kxswa 31 6
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 [优化]德国German 01
-      - 🇺🇸 美国_Telegram@kxswa 20 11
-      - 🇺🇸 美国 1
-      - 🇺🇸 美国A02|奈飞|GPT 2
-      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇵🇭 菲律宾A
+      - 🇭🇰 香港 • 02 | 1.0x | NF
       - 🇯🇵 Ⅰ-华南专线|日本 01
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇨🇭 瑞士A01|奈飞|GPT
-      - 🇪🇸 西班牙A01
-      - 🇬🇧 英国_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 15 7
-      - 🇬🇧 英国A01|奈飞|GPT 2
-      - 🇳🇱 荷兰A01|奈飞|GPT
-      - 🇪🇸 西班牙A01 2 2
-      - 关注电报https://t.me/aifenxiang2020
-      - 🇨🇳 台湾A00|奈飞|GPT 2
-      - 🇺🇸 美国 3 2
-      - 🇺🇸 Ⅲ-华东优化|美国 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 2 2
-      - 🇭🇰 香港KT2|@ripaojiedian 2
-      - 🇯🇵 [增强]日本JAPAN 02
-      - 🇦🇪 阿联酋_Telegram@kxswa
-      - 🇭🇰 香港A08|奈飞-优化 2
-      - 🇮🇳 [增强]印度India 01
+      - 🇨🇳 台湾A00|奈飞|GPT
       - 🇸🇬 新加坡A01
-      - ZZ_132 |29.38Mb
-      - 🇯🇵 [优化]日本JAPAN 02
-      - 🇺🇸 美国_Telegram@kxswa 6 4 2
-      - 🇺🇸 [优化]美国United Sates 02
-      - 🇺🇸 [优化]美国United Sates 01
-      - 🇨🇳 台湾 2 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本A05|奈飞|GPT
-      - 关注电报https://t.me/aifenxiang2020 7 2
-      - 🇺🇸 美国A04|奈飞|GPT 3
-      - 🇺🇸 美国 2 2 2
-      - 🇨🇳 台湾 1
-      - 🇨🇳 台湾A00|奈飞|GPT 2 2
-      - 🇺🇸 美国_Telegram@kxswa 11 2
-      - 🇺🇸 美国 5 2
-      - 🇯🇵 日本_Telegram@kxswa 4
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇭🇰 香港A10|奈飞-优化 2
-      - 🇸🇬 新加坡 1
-      - 🇭🇰 香港KT|@ripaojiedian 2
-      - 🇯🇵 [流媒体加速专线]大阪Osaka 01
-      - 🇸🇬 [优化]新加坡Singapore 01
-      - 🇺🇸 美国 4 2
-      - 🇧🇷 巴西A01|奈飞|GPT
-      - 🇧🇷 [流媒体加速专线]圣保罗Sao Paulo 01
-      - 🇫🇷 [流媒体加速专线]巴黎Paris 01
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇳🇱 荷兰A01|奈飞|GPT 2
-      - 🇭🇰 香港KT2|@ripaojiedian
-      - 🇸🇬 新加坡A01 2
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本A05|奈飞|GPT 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 1
-      - 🇸🇬 新加坡 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 6
-      - 🇨🇱 智利A01 2
-      - 🇭🇰 香港 2 2
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 Linode数据中心 2
+      - 🇨🇳 台湾A00|奈飞|GPT 2
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇭🇰 香港_Telegram@kxswa 15 7
+      - 🇯🇵 日本A03|奈飞|GPT 2
+      - 🇭🇰 Ⅰ-华南专线|香港 01
       - 🇸🇬 Ⅰ-华南专线|新加坡 01
-      - 🇰🇷 韩国 5
-      - 🇦🇪 迪拜A01|奈飞|GPT
-      - 🇯🇵 [增强]日本JAPAN 01
-      - 🇳🇱 荷兰_Telegram@kxswa 9
-      - 🇯🇵 日本 2
-      - 🇸🇬 新加坡 2 2
-      - 🇭🇰 香港 • 06 | 1.0x | NF
-      - 🇭🇰 香港 • 08 | 1.0x | NF
-      - 🇭🇰 香港 • 04 | 1.0x | NF
-      - 🇸🇬 新加坡 • 03 | 1.0x | NF
-      - 🇰🇷 韩国 • 01 | 1.5x | NF
-      - 🇰🇷 韩国 • 04 | 1.5x | NF
-      - 🇦🇺 澳大利亚 • 01 | 1.0x | NF
-      - 🇦🇺 澳大利亚 • 02 | 1.0x | NF
-      - 🇨🇳 台湾 • 01 | 1.0x | NF
-      - 🇨🇳 台湾 • 02 | 1.0x | NF
-      - 🇨🇳 台湾 • 03 | 1.0x | NF
-      - 🇰🇷 韩国 • 02 | 1.5x | NF
-      - 🇰🇷 韩国 • 03 | 1.5x | NF
-      - 🇺🇸 美国 • 01 | 1.0x | NF
-      - 🇭🇰 香港 • 05 | 1.0x | NF
+      - 🇪🇸 西班牙A01 2
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸 美国_Telegram@kxswa 5 7
+      - 🇺🇸 美国_Telegram@kxswa 16 7
+      - 🇭🇰 Ⅰ-华南专线|香港 02
+      - 🇺🇸 美国_Telegram@kxswa 11 2
+      - 🇪🇸 西班牙A01
+      - 🇪🇸 西班牙A01 2 2
+      - 🇯🇵 US_分享日记 4
+      - 🇺🇸 TG频道:@hkaa0▓美国
+      - 关注电报https://t.me/aifenxiang2020
+      - 不定期抽奖https://t.me/mftizi
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇯🇵 日本 • 02 | 1.0x | NF
-      - 🇺🇸 美国 • 03 | 1.0x | NF
-      - 🇺🇸 美国 • 04 | 1.0x | NF
+      - 🇭🇰 香港 • 04 | 1.0x | NF
+      - 🇭🇰 香港 • 01 | 1.0x | NF
+      - 🇭🇰 香港 • 03 | 1.0x | NF
+      - 🇹🇭 泰国 - 01 | 1.0x | NF
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 关注电报https://t.me/mftizi
       - 🇦🇺 澳大利亚 • 03 | 1.0x | NF
-      - 🇯🇵 日本 • 01 | 1.0x | NF
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国A04|奈飞|GPT 2
-      - 🇰🇷 [流媒体加速专线]首尔Seoul 01
-      - 🇭🇰 香港A08|奈飞-优化
-      - 🇯🇵 [优化]日本JAPAN 01
-      - KR_72 | 6.88Mb
-      - 🇨🇦 [流媒体加速专线]加拿大Canada 01
-      - 🇮🇳 印度
-      - 🇬🇧 [优化]英国United Kingdom 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 2
-      - 🇺🇸 Ⅰ-华南专线|美国 01
-      - 🇩🇰 丹麦A01|奈飞|GPT
-      - 🇯🇵 日本A03|奈飞|GPT
-      - 🇮🇳 印度A01
-      - 🇦🇺 [流媒体加速专线]澳洲Australia 01
-      - 🇺🇸 美国_Telegram@kxswa 16 7
-      - 🇭🇰 香港A10|奈飞-优化
-      - 🇺🇸 [增强]美国United Sates 01
-      - 🇺🇸 美国 6 2
-      - 🇮🇳 [优化]印度India 01
-      - 🇰🇷 [沿海专线]韩国Korea 01
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇸🇬 [增强]新加坡Singapore 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 3
-      - 🇬🇧 英国A01|奈飞|GPT
-      - VPN招代理电报联系@xiaoying229
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国A02|奈飞|GPT
-      - 🇨🇳 台湾A00|奈飞|GPT
-      - 🇸🇬 Ⅲ-华东优化|新加坡 01
-      - 🇨🇱 智利A01
-      - 🇩🇪 [增强]德国German 01
-      - 🇬🇧 [增强]英国United Kingdom 01
-      - 🇪🇸 西班牙A01 2
-      - 🇺🇸 美国_Telegram@kxswa 5 7
-      - 🇺🇸 美国_Telegram@kxswa 3
       - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国_Telegram@kxswa 28 13
-      - US_172 |10.13Mb
-      - 🇺🇸 Manifold 美国02-原生
+      - 🇭🇰 Ⅰ-华南专线|香港 03
+      - 🇨🇳 Ⅰ-华南专线|台湾 02
       - 🇭🇰 香港_Telegram@kxswa 31 6
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 [优化]德国German 01
-      - 🇺🇸 美国_Telegram@kxswa 20 11
-      - 🇺🇸 美国 1
-      - 🇺🇸 美国A02|奈飞|GPT 2
-      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇵🇭 菲律宾A
+      - 🇭🇰 香港 • 02 | 1.0x | NF
       - 🇯🇵 Ⅰ-华南专线|日本 01
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇨🇭 瑞士A01|奈飞|GPT
-      - 🇪🇸 西班牙A01
-      - 🇬🇧 英国_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 15 7
-      - 🇬🇧 英国A01|奈飞|GPT 2
-      - 🇳🇱 荷兰A01|奈飞|GPT
-      - 🇪🇸 西班牙A01 2 2
-      - 关注电报https://t.me/aifenxiang2020
-      - 🇨🇳 台湾A00|奈飞|GPT 2
-      - 🇺🇸 美国 3 2
-      - 🇺🇸 Ⅲ-华东优化|美国 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 2 2
-      - 🇭🇰 香港KT2|@ripaojiedian 2
-      - 🇯🇵 [增强]日本JAPAN 02
-      - 🇦🇪 阿联酋_Telegram@kxswa
-      - 🇭🇰 香港A08|奈飞-优化 2
-      - 🇮🇳 [增强]印度India 01
+      - 🇨🇳 台湾A00|奈飞|GPT
       - 🇸🇬 新加坡A01
-      - ZZ_132 |29.38Mb
-      - 🇯🇵 [优化]日本JAPAN 02
-      - 🇺🇸 美国_Telegram@kxswa 6 4 2
-      - 🇺🇸 [优化]美国United Sates 02
-      - 🇺🇸 [优化]美国United Sates 01
-      - 🇨🇳 台湾 2 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本A05|奈飞|GPT
-      - 关注电报https://t.me/aifenxiang2020 7 2
-      - 🇺🇸 美国A04|奈飞|GPT 3
-      - 🇺🇸 美国 2 2 2
-      - 🇨🇳 台湾 1
-      - 🇨🇳 台湾A00|奈飞|GPT 2 2
-      - 🇺🇸 美国_Telegram@kxswa 11 2
-      - 🇺🇸 美国 5 2
-      - 🇯🇵 日本_Telegram@kxswa 4
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇭🇰 香港A10|奈飞-优化 2
-      - 🇸🇬 新加坡 1
-      - 🇭🇰 香港KT|@ripaojiedian 2
-      - 🇯🇵 [流媒体加速专线]大阪Osaka 01
-      - 🇸🇬 [优化]新加坡Singapore 01
-      - 🇺🇸 美国 4 2
-      - 🇧🇷 巴西A01|奈飞|GPT
-      - 🇧🇷 [流媒体加速专线]圣保罗Sao Paulo 01
-      - 🇫🇷 [流媒体加速专线]巴黎Paris 01
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇳🇱 荷兰A01|奈飞|GPT 2
-      - 🇭🇰 香港KT2|@ripaojiedian
-      - 🇸🇬 新加坡A01 2
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本A05|奈飞|GPT 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 1
-      - 🇸🇬 新加坡 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 6
-      - 🇨🇱 智利A01 2
-      - 🇭🇰 香港 2 2
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 Linode数据中心 2
+      - 🇨🇳 台湾A00|奈飞|GPT 2
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇭🇰 香港_Telegram@kxswa 15 7
+      - 🇯🇵 日本A03|奈飞|GPT 2
+      - 🇭🇰 Ⅰ-华南专线|香港 01
       - 🇸🇬 Ⅰ-华南专线|新加坡 01
-      - 🇰🇷 韩国 5
-      - 🇦🇪 迪拜A01|奈飞|GPT
-      - 🇯🇵 [增强]日本JAPAN 01
-      - 🇳🇱 荷兰_Telegram@kxswa 9
-      - 🇯🇵 日本 2
-      - 🇸🇬 新加坡 2 2
-      - 🇭🇰 香港 • 06 | 1.0x | NF
-      - 🇭🇰 香港 • 08 | 1.0x | NF
-      - 🇭🇰 香港 • 04 | 1.0x | NF
-      - 🇸🇬 新加坡 • 03 | 1.0x | NF
-      - 🇰🇷 韩国 • 01 | 1.5x | NF
-      - 🇰🇷 韩国 • 04 | 1.5x | NF
-      - 🇦🇺 澳大利亚 • 01 | 1.0x | NF
-      - 🇦🇺 澳大利亚 • 02 | 1.0x | NF
-      - 🇨🇳 台湾 • 01 | 1.0x | NF
-      - 🇨🇳 台湾 • 02 | 1.0x | NF
-      - 🇨🇳 台湾 • 03 | 1.0x | NF
-      - 🇰🇷 韩国 • 02 | 1.5x | NF
-      - 🇰🇷 韩国 • 03 | 1.5x | NF
-      - 🇺🇸 美国 • 01 | 1.0x | NF
-      - 🇭🇰 香港 • 05 | 1.0x | NF
+      - 🇪🇸 西班牙A01 2
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸 美国_Telegram@kxswa 5 7
+      - 🇺🇸 美国_Telegram@kxswa 16 7
+      - 🇭🇰 Ⅰ-华南专线|香港 02
+      - 🇺🇸 美国_Telegram@kxswa 11 2
+      - 🇪🇸 西班牙A01
+      - 🇪🇸 西班牙A01 2 2
+      - 🇯🇵 US_分享日记 4
+      - 🇺🇸 TG频道:@hkaa0▓美国
+      - 关注电报https://t.me/aifenxiang2020
+      - 不定期抽奖https://t.me/mftizi
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇯🇵 日本 • 02 | 1.0x | NF
-      - 🇺🇸 美国 • 03 | 1.0x | NF
-      - 🇺🇸 美国 • 04 | 1.0x | NF
+      - 🇭🇰 香港 • 04 | 1.0x | NF
+      - 🇭🇰 香港 • 01 | 1.0x | NF
+      - 🇭🇰 香港 • 03 | 1.0x | NF
+      - 🇹🇭 泰国 - 01 | 1.0x | NF
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 关注电报https://t.me/mftizi
       - 🇦🇺 澳大利亚 • 03 | 1.0x | NF
-      - 🇯🇵 日本 • 01 | 1.0x | NF
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国A04|奈飞|GPT 2
-      - 🇰🇷 [流媒体加速专线]首尔Seoul 01
-      - 🇭🇰 香港A08|奈飞-优化
-      - 🇯🇵 [优化]日本JAPAN 01
-      - KR_72 | 6.88Mb
-      - 🇨🇦 [流媒体加速专线]加拿大Canada 01
-      - 🇮🇳 印度
-      - 🇬🇧 [优化]英国United Kingdom 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 2
-      - 🇺🇸 Ⅰ-华南专线|美国 01
-      - 🇩🇰 丹麦A01|奈飞|GPT
-      - 🇯🇵 日本A03|奈飞|GPT
-      - 🇮🇳 印度A01
-      - 🇦🇺 [流媒体加速专线]澳洲Australia 01
-      - 🇺🇸 美国_Telegram@kxswa 16 7
-      - 🇭🇰 香港A10|奈飞-优化
-      - 🇺🇸 [增强]美国United Sates 01
-      - 🇺🇸 美国 6 2
-      - 🇮🇳 [优化]印度India 01
-      - 🇰🇷 [沿海专线]韩国Korea 01
-      - 🇯🇵 日本2|@ripaojiedian
-      - 🇸🇬 [增强]新加坡Singapore 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 3
-      - 🇬🇧 英国A01|奈飞|GPT
-      - VPN招代理电报联系@xiaoying229
-      - 🇸🇬 新加坡 5
-      - 🇺🇸 美国A02|奈飞|GPT
-      - 🇨🇳 台湾A00|奈飞|GPT
-      - 🇸🇬 Ⅲ-华东优化|新加坡 01
-      - 🇨🇱 智利A01
-      - 🇩🇪 [增强]德国German 01
-      - 🇬🇧 [增强]英国United Kingdom 01
-      - 🇪🇸 西班牙A01 2
-      - 🇺🇸 美国_Telegram@kxswa 5 7
-      - 🇺🇸 美国_Telegram@kxswa 3
       - 🇭🇰 香港KT|@ripaojiedian
-      - 🇺🇸 美国_Telegram@kxswa 28 13
-      - US_172 |10.13Mb
-      - 🇺🇸 Manifold 美国02-原生
+      - 🇭🇰 Ⅰ-华南专线|香港 03
+      - 🇨🇳 Ⅰ-华南专线|台湾 02
       - 🇭🇰 香港_Telegram@kxswa 31 6
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 [优化]德国German 01
-      - 🇺🇸 美国_Telegram@kxswa 20 11
-      - 🇺🇸 美国 1
-      - 🇺🇸 美国A02|奈飞|GPT 2
-      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇵🇭 菲律宾A
+      - 🇭🇰 香港 • 02 | 1.0x | NF
       - 🇯🇵 Ⅰ-华南专线|日本 01
-      - 🇺🇸 美国A04|奈飞|GPT
-      - 🇨🇭 瑞士A01|奈飞|GPT
-      - 🇪🇸 西班牙A01
-      - 🇬🇧 英国_Telegram@kxswa 3
-      - 🇭🇰 香港_Telegram@kxswa 15 7
-      - 🇬🇧 英国A01|奈飞|GPT 2
-      - 🇳🇱 荷兰A01|奈飞|GPT
-      - 🇪🇸 西班牙A01 2 2
-      - 关注电报https://t.me/aifenxiang2020
-      - 🇨🇳 台湾A00|奈飞|GPT 2
-      - 🇺🇸 美国 3 2
-      - 🇺🇸 Ⅲ-华东优化|美国 01
-      - 🇩🇰 丹麦A01|奈飞|GPT 2 2
-      - 🇭🇰 香港KT2|@ripaojiedian 2
-      - 🇯🇵 [增强]日本JAPAN 02
-      - 🇦🇪 阿联酋_Telegram@kxswa
-      - 🇭🇰 香港A08|奈飞-优化 2
-      - 🇮🇳 [增强]印度India 01
+      - 🇨🇳 台湾A00|奈飞|GPT
       - 🇸🇬 新加坡A01
-      - ZZ_132 |29.38Mb
-      - 🇯🇵 [优化]日本JAPAN 02
-      - 🇺🇸 美国_Telegram@kxswa 6 4 2
-      - 🇺🇸 [优化]美国United Sates 02
-      - 🇺🇸 [优化]美国United Sates 01
-      - 🇨🇳 台湾 2 2
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇯🇵 日本A05|奈飞|GPT
-      - 关注电报https://t.me/aifenxiang2020 7 2
-      - 🇺🇸 美国A04|奈飞|GPT 3
-      - 🇺🇸 美国 2 2 2
-      - 🇨🇳 台湾 1
-      - 🇨🇳 台湾A00|奈飞|GPT 2 2
-      - 🇺🇸 美国_Telegram@kxswa 11 2
-      - 🇺🇸 美国 5 2
-      - 🇯🇵 日本_Telegram@kxswa 4
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇭🇰 香港A10|奈飞-优化 2
-      - 🇸🇬 新加坡 1
-      - 🇭🇰 香港KT|@ripaojiedian 2
-      - 🇯🇵 [流媒体加速专线]大阪Osaka 01
-      - 🇸🇬 [优化]新加坡Singapore 01
-      - 🇺🇸 美国 4 2
-      - 🇧🇷 巴西A01|奈飞|GPT
-      - 🇧🇷 [流媒体加速专线]圣保罗Sao Paulo 01
-      - 🇫🇷 [流媒体加速专线]巴黎Paris 01
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇳🇱 荷兰A01|奈飞|GPT 2
-      - 🇭🇰 香港KT2|@ripaojiedian
-      - 🇸🇬 新加坡A01 2
-      - 🇯🇵 日本 4
-      - 🇯🇵 日本A05|奈飞|GPT 2
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本 1
-      - 🇸🇬 新加坡 6
-      - 🇯🇵 日本 5
-      - 🇭🇰 香港 6
-      - 🇨🇱 智利A01 2
-      - 🇭🇰 香港 2 2
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 Linode数据中心 2
+      - 🇨🇳 台湾A00|奈飞|GPT 2
+      - 🇯🇵 日本A03|奈飞|GPT
+      - 🇭🇰 香港_Telegram@kxswa 15 7
+      - 🇯🇵 日本A03|奈飞|GPT 2
+      - 🇭🇰 Ⅰ-华南专线|香港 01
       - 🇸🇬 Ⅰ-华南专线|新加坡 01
-      - 🇰🇷 韩国 5
-      - 🇦🇪 迪拜A01|奈飞|GPT
-      - 🇯🇵 [增强]日本JAPAN 01
-      - 🇳🇱 荷兰_Telegram@kxswa 9
-      - 🇯🇵 日本 2
-      - 🇸🇬 新加坡 2 2
-      - 🇭🇰 香港 • 06 | 1.0x | NF
-      - 🇭🇰 香港 • 08 | 1.0x | NF
-      - 🇭🇰 香港 • 04 | 1.0x | NF
-      - 🇸🇬 新加坡 • 03 | 1.0x | NF
-      - 🇰🇷 韩国 • 01 | 1.5x | NF
-      - 🇰🇷 韩国 • 04 | 1.5x | NF
-      - 🇦🇺 澳大利亚 • 01 | 1.0x | NF
-      - 🇦🇺 澳大利亚 • 02 | 1.0x | NF
-      - 🇨🇳 台湾 • 01 | 1.0x | NF
-      - 🇨🇳 台湾 • 02 | 1.0x | NF
-      - 🇨🇳 台湾 • 03 | 1.0x | NF
-      - 🇰🇷 韩国 • 02 | 1.5x | NF
-      - 🇰🇷 韩国 • 03 | 1.5x | NF
-      - 🇺🇸 美国 • 01 | 1.0x | NF
-      - 🇭🇰 香港 • 05 | 1.0x | NF
+      - 🇪🇸 西班牙A01 2
+      - 🇩🇰 丹麦A01|奈飞|GPT
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸 美国_Telegram@kxswa 5 7
+      - 🇺🇸 美国_Telegram@kxswa 16 7
+      - 🇭🇰 Ⅰ-华南专线|香港 02
+      - 🇺🇸 美国_Telegram@kxswa 11 2
+      - 🇪🇸 西班牙A01
+      - 🇪🇸 西班牙A01 2 2
+      - 🇯🇵 US_分享日记 4
+      - 🇺🇸 TG频道:@hkaa0▓美国
+      - 关注电报https://t.me/aifenxiang2020
+      - 不定期抽奖https://t.me/mftizi
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 狮城特殊|@ripaojiedian
       - 🇯🇵 日本 • 02 | 1.0x | NF
-      - 🇺🇸 美国 • 03 | 1.0x | NF
-      - 🇺🇸 美国 • 04 | 1.0x | NF
+      - 🇭🇰 香港 • 04 | 1.0x | NF
+      - 🇭🇰 香港 • 01 | 1.0x | NF
+      - 🇭🇰 香港 • 03 | 1.0x | NF
+      - 🇹🇭 泰国 - 01 | 1.0x | NF
+      - 🇸🇬 新加坡3|@ripaojiedian
+      - 关注电报https://t.me/mftizi
       - 🇦🇺 澳大利亚 • 03 | 1.0x | NF
-      - 🇯🇵 日本 • 01 | 1.0x | NF
   - name: 🎯 不挂代理
     type: select
     proxies:
