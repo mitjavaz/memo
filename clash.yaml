@@ -5,108 +5,70 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本_Telegram@kxswa 5, server: 35.77.89.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 14, server: 103.172.116.79, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 18, server: 13.229.184.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本_Telegram@kxswa 11, server: 13.231.229.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡2|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.wish.ml}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 27, server: v3-js-us.as9929.uk, port: 19387, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0}
-  - {name: 🇭🇰 香港_Telegram@kxswa 37, server: v3-js-sg.as9929.uk, port: 29978, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0}
-  - {name: 🇨🇳 台湾2号|【沪日】, server: db.quanstring.top, port: 30042, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇭🇰 香港_Telegram@kxswa 28, server: v3-js-sg.as9929.uk, port: 22466, type: ss, cipher: aes-128-gcm, password: e41b8b00-d940-4006-80ff-bc7865b3b5e0}
-  - {name: 直布罗陀_Telegram@kxswa, server: 95.164.68.116, port: 2053, type: trojan, password: f37a931d-7092-48fe-b82f-a98da3040eb2, skip-cert-verify: true}
-  - {name: 🇧🇷 巴西|中转, server: hk.wuyiqi.eu.org, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: br.wish.ml}}}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 13, server: 103.172.116.79, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: 🇺🇸 美国6|cf|0x, server: hk.wish.ml, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us6.wish.ml}}}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 11, server: 103.172.116.79, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
-  - {name: 🇺🇸 美国5|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us5.wish.ml}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 31, server: gzyd.pmxu.link, port: 26841, type: vmess, uuid: 32cd139b-237d-3574-bc52-64428e3e238d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度3|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: in3.wish.ml}}}
-  - {name: 🇺🇸 美国7|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us7.wish.ml}}}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 17, server: 103.172.116.79, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY}
-  - {name: 🇺🇸 美国_Telegram@kxswa 24, server: 57.181.42.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本|【沪日】, server: db.quanstring.top, port: 22553, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 20, server: p231.panda004.net, port: 43926, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇸🇬 新加坡1|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.wish.ml}}}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 50, server: 103.172.116.79, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 48, server: 103.172.116.79, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
-  - {name: 🇭🇰 香港_Telegram@kxswa 36, server: 101.91.164.138, port: 29126, type: ss, cipher: aes-256-gcm, password: 34a547cd-0bfe-4905-9076-0d7c9a61f325}
-  - {name: 🇯🇵 SS日本-华中入口, server: dahuwh.sdwan.biz, port: 44201, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 52, server: 103.172.116.79, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: 🇯🇵 SS日本东京3, server: curcoyn.sfrae.net, port: 44203, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇸🇬 新加坡|【沪新】, server: db.quanstring.top, port: 30076, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇯🇵 日本_Telegram@kxswa 17, server: 13.230.190.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 台湾省|【沪港】, server: db.quanstring.top, port: 19055, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇨🇳 台湾省|【沪日】, server: db.quanstring.top, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 10, server: 103.172.116.79, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 12, server: 103.172.116.79, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
-  - {name: 🇭🇰 香港_Telegram@kxswa 20, server: 8.218.196.35, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 5, server: 47.128.77.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 16, server: p236.panda004.net, port: 42839, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 19, server: p234.panda004.net, port: 58449, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇩🇪 德国|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de.wish.ml}}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 13, server: cn1.one.edu.kg, port: 12001, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 15, server: cn1.one.edu.kg, port: 12003, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇹🇷 土耳其_Telegram@kxswa 2, server: china4.one.edu.kg, port: 12064, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 17, server: cn1.one.edu.kg, port: 12005, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 16, server: cn1.one.edu.kg, port: 12004, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 16, server: china2.one.edu.kg, port: 12021, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 14, server: cn1.one.edu.kg, port: 12002, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 18, server: china2.one.edu.kg, port: 12023, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 14, server: 13.229.219.5, port: 13403, type: trojan, password: FB210sygpkO1, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 18, server: cn1.one.edu.kg, port: 12006, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 12, server: tanz-kr.01byx31qzn.download, port: 35008, type: vmess, uuid: 2add5c39-f353-3b58-b886-195251fab44f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 13, server: 54.169.15.78, port: 13403, type: trojan, password: kTHCh21KRYOJ, skip-cert-verify: true}
+  - {name: 🇹🇷 土耳其_Telegram@kxswa, server: 94.131.108.133, port: 8881, type: ss, cipher: chacha20-ietf-poly1305, password: a8H2xE6f0ubGLeSvZrfQIWRDKE1LgY}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 12, server: 13.212.51.18, port: 13427, type: trojan, password: dKk(LpRDChxj, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 19, server: china2.one.edu.kg, port: 12024, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 15, server: 54.169.19.70, port: 13408, type: trojan, password: SnVUQ8XD1J2x, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 11, server: vip3.niuniupremium.xyz, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22997:JeHHT2, obfs-param: b91a022997.microsoft.com}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 20, server: china2.one.edu.kg, port: 12025, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 8, server: 42.98.119.98, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 8 7, server: 183.240.180.226, port: 16110, type: vmess, uuid: 1534454e-13c1-332c-a1f6-dffb2e51f778, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾_Telegram@kxswa 4, server: cn1.one.edu.kg, port: 12012, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
   - {name: 🇰🇷 韩国_Telegram@kxswa 5, server: 43.203.201.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港_Telegram@kxswa 16, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 35, server: gzyd.pmxu.link, port: 26841, type: vmess, uuid: 32cd139b-237d-3574-bc52-64428e3e238d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 18, server: p227.panda004.net, port: 49032, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇯🇵 日本_Telegram@kxswa 14, server: 52.69.81.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 15, server: 103.172.116.79, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 19, server: 13.250.63.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 12, server: 3.38.162.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 4, server: 47.128.72.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 台湾2号|【沪港】, server: db.quanstring.top, port: 10173, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇯🇵 日本_Telegram@kxswa 6, server: 52.195.225.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇦🇪 迪拜|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: du.wish.ml}}}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 19 2, server: 18.142.56.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 3, server: 103.172.116.79, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
-  - {name: 🇯🇵 日本_Telegram@kxswa 11 2, server: 18.177.138.167, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港_Telegram@kxswa 17, server: 47.243.196.229, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 47, server: 103.172.116.79, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB}
-  - {name: 🇯🇵 日本_Telegram@kxswa 10, server: 54.248.173.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 16, server: 103.172.116.79, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 23, server: p220.panda001.net, port: 42185, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 10, server: p226.panda004.net, port: 58449, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 11, server: 43.201.110.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国1|cf, server: hk.wish.ml, port: 2052, type: vmess, uuid: d45da401-1357-4310-9561-99f46f4b27c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us1.wish.ml}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 6, server: 1.65.218.192, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
-  - {name: 🇯🇵 日本|【沪日VIP】, server: db.quanstring.top, port: 30320, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇯🇵 SS日本东京2, server: curcoyn.sfrae.net, port: 44202, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 SS香港主力, server: curcoyn.sfrae.net, port: 54214, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 SS香港-华中入口, server: dahuwh.sdwan.biz, port: 44216, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇨🇳 SS台湾1, server: curcoyn.sfrae.net, port: 44230, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 香港|【沪港-0.5x】, server: db.quanstring.top, port: 25873, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇸🇬 SS新加坡-华东入口, server: shanghai.sfrae.net, port: 44207, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇯🇵 SS日本大阪, server: curcoyn.sfrae.net, port: 44228, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 香港|【沪-0.5x】, server: db.quanstring.top, port: 42107, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇭🇰 香港|【沪港-VIP】, server: db.quanstring.top, port: 12601, type: ss, cipher: chacha20-ietf-poly1305, password: 8e900c27-2ba9-4095-aa0c-888b32b138df}
-  - {name: 🇯🇵 SS日本东京5, server: curcoyn.sfrae.net, port: 44205, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 SS香港7, server: curcoyn.sfrae.net, port: 44234, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 SS香港5-华中入口, server: dahuwh.sdwan.biz, port: 23864, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇯🇵 SS日本东京4, server: curcoyn.sfrae.net, port: 44204, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇸🇬 SS新加坡3, server: curcoyn.sfrae.net, port: 44209, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 SS香港5, server: curcoyn.sfrae.net, port: 44224, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 SS香港6, server: curcoyn.sfrae.net, port: 44225, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 60, server: 103.172.116.79, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq}
-  - {name: 🇺🇸 SS美国圣何塞8, server: curcoyn.sfrae.net, port: 44220, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇲🇾 马来西亚, server: curcoyn.sfrae.net, port: 44235, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇺🇸 SS美国圣何塞2, server: curcoyn.sfrae.net, port: 44214, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 香港_Telegram@kxswa 17 2, server: gzyd.pmxu.link, port: 26841, type: vmess, uuid: 32cd139b-237d-3574-bc52-64428e3e238d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 SS美国圣何塞9, server: curcoyn.sfrae.net, port: 44221, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 68, server: 103.172.116.79, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
-  - {name: 🇺🇸 SS美国圣何塞7, server: curcoyn.sfrae.net, port: 44219, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇺🇸 美国洛杉矶, server: curcoyn.sfrae.net, port: 44236, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 58, server: 103.172.116.79, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 59, server: 103.172.116.79, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX}
-  - {name: 🇸🇬 SS新加坡1, server: curcoyn.sfrae.net, port: 44207, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇺🇸 SS美国圣何塞3, server: curcoyn.sfrae.net, port: 44215, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇺🇸 SS美国圣何塞4, server: curcoyn.sfrae.net, port: 44216, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 54, server: 103.172.116.79, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 57, server: 103.172.116.79, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX}
-  - {name: 🇯🇵 SS日本东京6, server: curcoyn.sfrae.net, port: 44206, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇭🇰 香港_Telegram@kxswa 20 2, server: gzyd.pmxu.link, port: 26841, type: vmess, uuid: 32cd139b-237d-3574-bc52-64428e3e238d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 SS德国, server: curcoyn.sfrae.net, port: 44232, type: ss, cipher: aes-256-gcm, password: bfebf93e-b5ca-411b-a15e-da12f526366a}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 61, server: 103.172.116.79, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr}
-  - {name: 🇭🇰 香港 🇭🇰2G, server: gzyd.pmxu.link, port: 26841, type: vmess, uuid: 32cd139b-237d-3574-bc52-64428e3e238d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国_Telegram@kxswa 10, server: 172.207.170.104, port: 443, type: trojan, password: a1956156-b1d6-468e-b22f-59765172b07d, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 17, server: china2.one.edu.kg, port: 12022, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 8 7 2, server: 183.240.180.226, port: 16110, type: vmess, uuid: 1534454e-13c1-332c-a1f6-dffb2e51f778, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国_Telegram@kxswa 9, server: 172.207.130.190, port: 443, type: trojan, password: a1956156-b1d6-468e-b22f-59765172b07d, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 25 6, server: 183.240.180.226, port: 16110, type: vmess, uuid: 1534454e-13c1-332c-a1f6-dffb2e51f778, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 24, server: 57.181.42.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本_Telegram@kxswa 15, server: china3.one.edu.kg, port: 12034, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 8, server: 54.199.15.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国_Telegram@kxswa 5 2, server: 13.124.212.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 86, server: 13.215.156.208, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港_Telegram@kxswa 16 2, server: 8.218.82.85, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
+  - {name: 🇰🇷 韩国_Telegram@kxswa, server: 3.34.200.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇪 德国_Telegram@kxswa 7, server: china4.one.edu.kg, port: 12070, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 8 2, server: 18.182.13.79, port: 13416, type: trojan, password: luMtck2oYAfk, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 16, server: china3.one.edu.kg, port: 12035, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 7, server: 52.195.237.101, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇬🇧 英国_Telegram@kxswa 12, server: china4.one.edu.kg, port: 12069, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 5, server: 52.199.223.184, port: 13403, type: trojan, password: DdlxoFIViJxS, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 6, server: 43.207.117.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇳🇱 荷兰_Telegram@kxswa 2, server: china4.one.edu.kg, port: 12074, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国_Telegram@kxswa 14, server: 43.203.220.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本_Telegram@kxswa 5 2, server: 35.77.89.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本_Telegram@kxswa 14, server: china3.one.edu.kg, port: 12033, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 8, server: 54.254.167.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 17 2, server: 18.141.207.80, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 11, server: 18.141.229.157, port: 13427, type: trojan, password: yHeacJWH(3ns, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 7 2, server: 54.249.151.76, port: 13402, type: trojan, password: BFKJp3gmv9(G, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国_Telegram@kxswa 12, server: 43.202.41.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本_Telegram@kxswa 10, server: 52.195.10.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本_Telegram@kxswa 17, server: 13.230.190.100, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇬🇧 英国_Telegram@kxswa 11, server: 172.207.227.193, port: 443, type: trojan, password: a1956156-b1d6-468e-b22f-59765172b07d, skip-cert-verify: true}
+  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 42.98.119.98, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: 🇯🇵 日本_Telegram@kxswa 11, server: 13.231.229.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本_Telegram@kxswa 10 2, server: 54.248.173.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 韩国_Telegram@kxswa 26, server: 43.201.69.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国_Telegram@kxswa 64, server: 47.76.185.99, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true}}
+  - {name: 🇭🇰 香港KT2|@ripaojiedian, server: 8.218.196.35, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true}}
+  - {name: 🇯🇵 日本_Telegram@kxswa 13, server: china3.one.edu.kg, port: 12032, type: trojan, password: 5be533f1-c24d-40b8-902c-827543721a1c, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国_Telegram@kxswa 6, server: speed.cloudflare.com, port: 8880, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nina.bond/linkvws, headers: {Host: nd-truth-210a8hwjhs.bonar11011.workers.dev}}}
+  - {name: 🇯🇵 日本_Telegram@kxswa 14 2, server: 52.69.81.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 13 2, server: 54.169.147.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国_Telegram@kxswa 57, server: 104.16.60.8, port: 8880, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /kellie.makeup/linkvws, headers: {Host: 8eh-band-d994.gijica5932.workers.dev}}}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -118,430 +80,278 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇯🇵 日本_Telegram@kxswa 5
-      - 🇸🇬 新加坡_Telegram@kxswa 14
-      - 🇸🇬 新加坡_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 11
-      - 🇸🇬 新加坡2|cf
-      - 🇭🇰 香港_Telegram@kxswa 27
-      - 🇭🇰 香港_Telegram@kxswa 37
-      - 🇨🇳 台湾2号|【沪日】
-      - 🇭🇰 香港_Telegram@kxswa 28
-      - 直布罗陀_Telegram@kxswa
-      - 🇧🇷 巴西|中转
-      - 🇸🇬 新加坡_Telegram@kxswa 13
-      - 🇺🇸 美国6|cf|0x
-      - 🇸🇬 新加坡_Telegram@kxswa 11
-      - 🇺🇸 美国5|cf
-      - 🇭🇰 香港_Telegram@kxswa 31
-      - 🇮🇳 印度3|cf
-      - 🇺🇸 美国7|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 24
-      - 🇯🇵 日本|【沪日】
-      - 🇰🇷 韩国_Telegram@kxswa 20
-      - 🇸🇬 新加坡1|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 50
-      - 🇸🇬 新加坡_Telegram@kxswa 48
-      - 🇭🇰 香港_Telegram@kxswa 36
-      - 🇯🇵 SS日本-华中入口
-      - 🇸🇬 新加坡_Telegram@kxswa 52
-      - 🇯🇵 SS日本东京3
-      - 🇸🇬 新加坡|【沪新】
-      - 🇯🇵 日本_Telegram@kxswa 17
-      - 🇭🇰 台湾省|【沪港】
-      - 🇨🇳 台湾省|【沪日】
-      - 🇸🇬 新加坡_Telegram@kxswa 10
-      - 🇸🇬 新加坡_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇸🇬 新加坡_Telegram@kxswa 5
-      - 🇰🇷 韩国_Telegram@kxswa 16
-      - 🇰🇷 韩国_Telegram@kxswa 19
-      - 🇩🇪 德国|cf
-      - 🇰🇷 韩国_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 35
-      - 🇰🇷 韩国_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 14
-      - 🇸🇬 新加坡_Telegram@kxswa 15
-      - 🇸🇬 新加坡_Telegram@kxswa 19
-      - 🇰🇷 韩国_Telegram@kxswa 12
-      - 🇸🇬 新加坡_Telegram@kxswa 4
-      - 🇭🇰 台湾2号|【沪港】
-      - 🇯🇵 日本_Telegram@kxswa 6
-      - 🇦🇪 迪拜|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 19 2
-      - 🇸🇬 新加坡_Telegram@kxswa 3
-      - 🇯🇵 日本_Telegram@kxswa 11 2
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇹🇷 土耳其_Telegram@kxswa 2
       - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇸🇬 新加坡_Telegram@kxswa 47
-      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇭🇰 香港_Telegram@kxswa 16
       - 🇸🇬 新加坡_Telegram@kxswa 16
-      - 🇰🇷 韩国_Telegram@kxswa 23
-      - 🇰🇷 韩国_Telegram@kxswa 10
-      - 🇰🇷 韩国_Telegram@kxswa 11
-      - 🇺🇸 美国1|cf
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇯🇵 日本|【沪日VIP】
-      - 🇯🇵 SS日本东京2
-      - 🇭🇰 SS香港主力
-      - 🇭🇰 SS香港-华中入口
-      - 🇨🇳 SS台湾1
-      - 🇭🇰 香港|【沪港-0.5x】
-      - 🇸🇬 SS新加坡-华东入口
-      - 🇯🇵 SS日本大阪
-      - 🇭🇰 香港|【沪-0.5x】
-      - 🇭🇰 香港|【沪港-VIP】
-      - 🇯🇵 SS日本东京5
-      - 🇭🇰 SS香港7
-      - 🇭🇰 SS香港5-华中入口
-      - 🇯🇵 SS日本东京4
-      - 🇸🇬 SS新加坡3
-      - 🇭🇰 SS香港5
-      - 🇭🇰 SS香港6
-      - 🇸🇬 新加坡_Telegram@kxswa 60
-      - 🇺🇸 SS美国圣何塞8
-      - 🇲🇾 马来西亚
-      - 🇺🇸 SS美国圣何塞2
-      - 🇭🇰 香港_Telegram@kxswa 17 2
-      - 🇺🇸 SS美国圣何塞9
-      - 🇸🇬 新加坡_Telegram@kxswa 68
-      - 🇺🇸 SS美国圣何塞7
-      - 🇺🇸 美国洛杉矶
-      - 🇸🇬 新加坡_Telegram@kxswa 58
-      - 🇸🇬 新加坡_Telegram@kxswa 59
-      - 🇸🇬 SS新加坡1
-      - 🇺🇸 SS美国圣何塞3
-      - 🇺🇸 SS美国圣何塞4
-      - 🇸🇬 新加坡_Telegram@kxswa 54
-      - 🇸🇬 新加坡_Telegram@kxswa 57
-      - 🇯🇵 SS日本东京6
-      - 🇭🇰 香港_Telegram@kxswa 20 2
-      - 🇩🇪 SS德国
-      - 🇸🇬 新加坡_Telegram@kxswa 61
-      - 🇭🇰 香港 🇭🇰2G
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - 🇸🇬 新加坡_Telegram@kxswa 18
+      - 🇸🇬 新加坡_Telegram@kxswa 14
+      - 🇭🇰 香港_Telegram@kxswa 18
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - 🇸🇬 新加坡_Telegram@kxswa 13
+      - 🇹🇷 土耳其_Telegram@kxswa
+      - 🇸🇬 新加坡_Telegram@kxswa 12
+      - 🇸🇬 新加坡_Telegram@kxswa 19
+      - 🇸🇬 新加坡_Telegram@kxswa 15
+      - 🇭🇰 香港_Telegram@kxswa 11
+      - 🇸🇬 新加坡_Telegram@kxswa 20
+      - 🇭🇰 香港_Telegram@kxswa 8
+      - 🇭🇰 香港_Telegram@kxswa 8 7
+      - 🇨🇳 台湾_Telegram@kxswa 4
+      - 🇰🇷 韩国_Telegram@kxswa 5
+      - 🇬🇧 英国_Telegram@kxswa 10
+      - 🇸🇬 新加坡_Telegram@kxswa 17
+      - 🇭🇰 香港_Telegram@kxswa 8 7 2
+      - 🇬🇧 英国_Telegram@kxswa 9
+      - 🇭🇰 香港_Telegram@kxswa 25 6
+      - 🇺🇸 美国_Telegram@kxswa 24
+      - 🇯🇵 日本_Telegram@kxswa 15
+      - 🇯🇵 日本_Telegram@kxswa 8
+      - 🇰🇷 韩国_Telegram@kxswa 5 2
+      - 🇸🇬 新加坡_Telegram@kxswa 86
+      - 🇭🇰 香港_Telegram@kxswa 16 2
+      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇩🇪 德国_Telegram@kxswa 7
+      - 🇯🇵 日本_Telegram@kxswa 8 2
+      - 🇯🇵 日本_Telegram@kxswa 16
+      - 🇯🇵 日本_Telegram@kxswa 7
+      - 🇬🇧 英国_Telegram@kxswa 12
+      - 🇯🇵 日本_Telegram@kxswa 5
+      - 🇯🇵 日本_Telegram@kxswa 6
+      - 🇳🇱 荷兰_Telegram@kxswa 2
+      - 🇰🇷 韩国_Telegram@kxswa 14
+      - 🇯🇵 日本_Telegram@kxswa 5 2
+      - 🇯🇵 日本_Telegram@kxswa 14
+      - 🇸🇬 新加坡_Telegram@kxswa 8
+      - 🇸🇬 新加坡_Telegram@kxswa 17 2
+      - 🇸🇬 新加坡_Telegram@kxswa 11
+      - 🇯🇵 日本_Telegram@kxswa 7 2
+      - 🇰🇷 韩国_Telegram@kxswa 12
+      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇯🇵 日本_Telegram@kxswa 17
+      - 🇬🇧 英国_Telegram@kxswa 11
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本_Telegram@kxswa 11
+      - 🇯🇵 日本_Telegram@kxswa 10 2
+      - 🇰🇷 韩国_Telegram@kxswa 26
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇯🇵 日本_Telegram@kxswa 13
+      - 🇺🇸 美国_Telegram@kxswa 6
+      - 🇯🇵 日本_Telegram@kxswa 14 2
+      - 🇸🇬 新加坡_Telegram@kxswa 13 2
+      - 🇺🇸 美国_Telegram@kxswa 57
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本_Telegram@kxswa 5
-      - 🇸🇬 新加坡_Telegram@kxswa 14
-      - 🇸🇬 新加坡_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 11
-      - 🇸🇬 新加坡2|cf
-      - 🇭🇰 香港_Telegram@kxswa 27
-      - 🇭🇰 香港_Telegram@kxswa 37
-      - 🇨🇳 台湾2号|【沪日】
-      - 🇭🇰 香港_Telegram@kxswa 28
-      - 直布罗陀_Telegram@kxswa
-      - 🇧🇷 巴西|中转
-      - 🇸🇬 新加坡_Telegram@kxswa 13
-      - 🇺🇸 美国6|cf|0x
-      - 🇸🇬 新加坡_Telegram@kxswa 11
-      - 🇺🇸 美国5|cf
-      - 🇭🇰 香港_Telegram@kxswa 31
-      - 🇮🇳 印度3|cf
-      - 🇺🇸 美国7|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 24
-      - 🇯🇵 日本|【沪日】
-      - 🇰🇷 韩国_Telegram@kxswa 20
-      - 🇸🇬 新加坡1|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 50
-      - 🇸🇬 新加坡_Telegram@kxswa 48
-      - 🇭🇰 香港_Telegram@kxswa 36
-      - 🇯🇵 SS日本-华中入口
-      - 🇸🇬 新加坡_Telegram@kxswa 52
-      - 🇯🇵 SS日本东京3
-      - 🇸🇬 新加坡|【沪新】
-      - 🇯🇵 日本_Telegram@kxswa 17
-      - 🇭🇰 台湾省|【沪港】
-      - 🇨🇳 台湾省|【沪日】
-      - 🇸🇬 新加坡_Telegram@kxswa 10
-      - 🇸🇬 新加坡_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇸🇬 新加坡_Telegram@kxswa 5
-      - 🇰🇷 韩国_Telegram@kxswa 16
-      - 🇰🇷 韩国_Telegram@kxswa 19
-      - 🇩🇪 德国|cf
-      - 🇰🇷 韩国_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 35
-      - 🇰🇷 韩国_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 14
-      - 🇸🇬 新加坡_Telegram@kxswa 15
-      - 🇸🇬 新加坡_Telegram@kxswa 19
-      - 🇰🇷 韩国_Telegram@kxswa 12
-      - 🇸🇬 新加坡_Telegram@kxswa 4
-      - 🇭🇰 台湾2号|【沪港】
-      - 🇯🇵 日本_Telegram@kxswa 6
-      - 🇦🇪 迪拜|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 19 2
-      - 🇸🇬 新加坡_Telegram@kxswa 3
-      - 🇯🇵 日本_Telegram@kxswa 11 2
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇹🇷 土耳其_Telegram@kxswa 2
       - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇸🇬 新加坡_Telegram@kxswa 47
-      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇭🇰 香港_Telegram@kxswa 16
       - 🇸🇬 新加坡_Telegram@kxswa 16
-      - 🇰🇷 韩国_Telegram@kxswa 23
-      - 🇰🇷 韩国_Telegram@kxswa 10
-      - 🇰🇷 韩国_Telegram@kxswa 11
-      - 🇺🇸 美国1|cf
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇯🇵 日本|【沪日VIP】
-      - 🇯🇵 SS日本东京2
-      - 🇭🇰 SS香港主力
-      - 🇭🇰 SS香港-华中入口
-      - 🇨🇳 SS台湾1
-      - 🇭🇰 香港|【沪港-0.5x】
-      - 🇸🇬 SS新加坡-华东入口
-      - 🇯🇵 SS日本大阪
-      - 🇭🇰 香港|【沪-0.5x】
-      - 🇭🇰 香港|【沪港-VIP】
-      - 🇯🇵 SS日本东京5
-      - 🇭🇰 SS香港7
-      - 🇭🇰 SS香港5-华中入口
-      - 🇯🇵 SS日本东京4
-      - 🇸🇬 SS新加坡3
-      - 🇭🇰 SS香港5
-      - 🇭🇰 SS香港6
-      - 🇸🇬 新加坡_Telegram@kxswa 60
-      - 🇺🇸 SS美国圣何塞8
-      - 🇲🇾 马来西亚
-      - 🇺🇸 SS美国圣何塞2
-      - 🇭🇰 香港_Telegram@kxswa 17 2
-      - 🇺🇸 SS美国圣何塞9
-      - 🇸🇬 新加坡_Telegram@kxswa 68
-      - 🇺🇸 SS美国圣何塞7
-      - 🇺🇸 美国洛杉矶
-      - 🇸🇬 新加坡_Telegram@kxswa 58
-      - 🇸🇬 新加坡_Telegram@kxswa 59
-      - 🇸🇬 SS新加坡1
-      - 🇺🇸 SS美国圣何塞3
-      - 🇺🇸 SS美国圣何塞4
-      - 🇸🇬 新加坡_Telegram@kxswa 54
-      - 🇸🇬 新加坡_Telegram@kxswa 57
-      - 🇯🇵 SS日本东京6
-      - 🇭🇰 香港_Telegram@kxswa 20 2
-      - 🇩🇪 SS德国
-      - 🇸🇬 新加坡_Telegram@kxswa 61
-      - 🇭🇰 香港 🇭🇰2G
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - 🇸🇬 新加坡_Telegram@kxswa 18
+      - 🇸🇬 新加坡_Telegram@kxswa 14
+      - 🇭🇰 香港_Telegram@kxswa 18
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - 🇸🇬 新加坡_Telegram@kxswa 13
+      - 🇹🇷 土耳其_Telegram@kxswa
+      - 🇸🇬 新加坡_Telegram@kxswa 12
+      - 🇸🇬 新加坡_Telegram@kxswa 19
+      - 🇸🇬 新加坡_Telegram@kxswa 15
+      - 🇭🇰 香港_Telegram@kxswa 11
+      - 🇸🇬 新加坡_Telegram@kxswa 20
+      - 🇭🇰 香港_Telegram@kxswa 8
+      - 🇭🇰 香港_Telegram@kxswa 8 7
+      - 🇨🇳 台湾_Telegram@kxswa 4
+      - 🇰🇷 韩国_Telegram@kxswa 5
+      - 🇬🇧 英国_Telegram@kxswa 10
+      - 🇸🇬 新加坡_Telegram@kxswa 17
+      - 🇭🇰 香港_Telegram@kxswa 8 7 2
+      - 🇬🇧 英国_Telegram@kxswa 9
+      - 🇭🇰 香港_Telegram@kxswa 25 6
+      - 🇺🇸 美国_Telegram@kxswa 24
+      - 🇯🇵 日本_Telegram@kxswa 15
+      - 🇯🇵 日本_Telegram@kxswa 8
+      - 🇰🇷 韩国_Telegram@kxswa 5 2
+      - 🇸🇬 新加坡_Telegram@kxswa 86
+      - 🇭🇰 香港_Telegram@kxswa 16 2
+      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇩🇪 德国_Telegram@kxswa 7
+      - 🇯🇵 日本_Telegram@kxswa 8 2
+      - 🇯🇵 日本_Telegram@kxswa 16
+      - 🇯🇵 日本_Telegram@kxswa 7
+      - 🇬🇧 英国_Telegram@kxswa 12
+      - 🇯🇵 日本_Telegram@kxswa 5
+      - 🇯🇵 日本_Telegram@kxswa 6
+      - 🇳🇱 荷兰_Telegram@kxswa 2
+      - 🇰🇷 韩国_Telegram@kxswa 14
+      - 🇯🇵 日本_Telegram@kxswa 5 2
+      - 🇯🇵 日本_Telegram@kxswa 14
+      - 🇸🇬 新加坡_Telegram@kxswa 8
+      - 🇸🇬 新加坡_Telegram@kxswa 17 2
+      - 🇸🇬 新加坡_Telegram@kxswa 11
+      - 🇯🇵 日本_Telegram@kxswa 7 2
+      - 🇰🇷 韩国_Telegram@kxswa 12
+      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇯🇵 日本_Telegram@kxswa 17
+      - 🇬🇧 英国_Telegram@kxswa 11
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本_Telegram@kxswa 11
+      - 🇯🇵 日本_Telegram@kxswa 10 2
+      - 🇰🇷 韩国_Telegram@kxswa 26
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇯🇵 日本_Telegram@kxswa 13
+      - 🇺🇸 美国_Telegram@kxswa 6
+      - 🇯🇵 日本_Telegram@kxswa 14 2
+      - 🇸🇬 新加坡_Telegram@kxswa 13 2
+      - 🇺🇸 美国_Telegram@kxswa 57
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本_Telegram@kxswa 5
-      - 🇸🇬 新加坡_Telegram@kxswa 14
-      - 🇸🇬 新加坡_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 11
-      - 🇸🇬 新加坡2|cf
-      - 🇭🇰 香港_Telegram@kxswa 27
-      - 🇭🇰 香港_Telegram@kxswa 37
-      - 🇨🇳 台湾2号|【沪日】
-      - 🇭🇰 香港_Telegram@kxswa 28
-      - 直布罗陀_Telegram@kxswa
-      - 🇧🇷 巴西|中转
-      - 🇸🇬 新加坡_Telegram@kxswa 13
-      - 🇺🇸 美国6|cf|0x
-      - 🇸🇬 新加坡_Telegram@kxswa 11
-      - 🇺🇸 美国5|cf
-      - 🇭🇰 香港_Telegram@kxswa 31
-      - 🇮🇳 印度3|cf
-      - 🇺🇸 美国7|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 24
-      - 🇯🇵 日本|【沪日】
-      - 🇰🇷 韩国_Telegram@kxswa 20
-      - 🇸🇬 新加坡1|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 50
-      - 🇸🇬 新加坡_Telegram@kxswa 48
-      - 🇭🇰 香港_Telegram@kxswa 36
-      - 🇯🇵 SS日本-华中入口
-      - 🇸🇬 新加坡_Telegram@kxswa 52
-      - 🇯🇵 SS日本东京3
-      - 🇸🇬 新加坡|【沪新】
-      - 🇯🇵 日本_Telegram@kxswa 17
-      - 🇭🇰 台湾省|【沪港】
-      - 🇨🇳 台湾省|【沪日】
-      - 🇸🇬 新加坡_Telegram@kxswa 10
-      - 🇸🇬 新加坡_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇸🇬 新加坡_Telegram@kxswa 5
-      - 🇰🇷 韩国_Telegram@kxswa 16
-      - 🇰🇷 韩国_Telegram@kxswa 19
-      - 🇩🇪 德国|cf
-      - 🇰🇷 韩国_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 35
-      - 🇰🇷 韩国_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 14
-      - 🇸🇬 新加坡_Telegram@kxswa 15
-      - 🇸🇬 新加坡_Telegram@kxswa 19
-      - 🇰🇷 韩国_Telegram@kxswa 12
-      - 🇸🇬 新加坡_Telegram@kxswa 4
-      - 🇭🇰 台湾2号|【沪港】
-      - 🇯🇵 日本_Telegram@kxswa 6
-      - 🇦🇪 迪拜|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 19 2
-      - 🇸🇬 新加坡_Telegram@kxswa 3
-      - 🇯🇵 日本_Telegram@kxswa 11 2
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇹🇷 土耳其_Telegram@kxswa 2
       - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇸🇬 新加坡_Telegram@kxswa 47
-      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇭🇰 香港_Telegram@kxswa 16
       - 🇸🇬 新加坡_Telegram@kxswa 16
-      - 🇰🇷 韩国_Telegram@kxswa 23
-      - 🇰🇷 韩国_Telegram@kxswa 10
-      - 🇰🇷 韩国_Telegram@kxswa 11
-      - 🇺🇸 美国1|cf
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇯🇵 日本|【沪日VIP】
-      - 🇯🇵 SS日本东京2
-      - 🇭🇰 SS香港主力
-      - 🇭🇰 SS香港-华中入口
-      - 🇨🇳 SS台湾1
-      - 🇭🇰 香港|【沪港-0.5x】
-      - 🇸🇬 SS新加坡-华东入口
-      - 🇯🇵 SS日本大阪
-      - 🇭🇰 香港|【沪-0.5x】
-      - 🇭🇰 香港|【沪港-VIP】
-      - 🇯🇵 SS日本东京5
-      - 🇭🇰 SS香港7
-      - 🇭🇰 SS香港5-华中入口
-      - 🇯🇵 SS日本东京4
-      - 🇸🇬 SS新加坡3
-      - 🇭🇰 SS香港5
-      - 🇭🇰 SS香港6
-      - 🇸🇬 新加坡_Telegram@kxswa 60
-      - 🇺🇸 SS美国圣何塞8
-      - 🇲🇾 马来西亚
-      - 🇺🇸 SS美国圣何塞2
-      - 🇭🇰 香港_Telegram@kxswa 17 2
-      - 🇺🇸 SS美国圣何塞9
-      - 🇸🇬 新加坡_Telegram@kxswa 68
-      - 🇺🇸 SS美国圣何塞7
-      - 🇺🇸 美国洛杉矶
-      - 🇸🇬 新加坡_Telegram@kxswa 58
-      - 🇸🇬 新加坡_Telegram@kxswa 59
-      - 🇸🇬 SS新加坡1
-      - 🇺🇸 SS美国圣何塞3
-      - 🇺🇸 SS美国圣何塞4
-      - 🇸🇬 新加坡_Telegram@kxswa 54
-      - 🇸🇬 新加坡_Telegram@kxswa 57
-      - 🇯🇵 SS日本东京6
-      - 🇭🇰 香港_Telegram@kxswa 20 2
-      - 🇩🇪 SS德国
-      - 🇸🇬 新加坡_Telegram@kxswa 61
-      - 🇭🇰 香港 🇭🇰2G
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - 🇸🇬 新加坡_Telegram@kxswa 18
+      - 🇸🇬 新加坡_Telegram@kxswa 14
+      - 🇭🇰 香港_Telegram@kxswa 18
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - 🇸🇬 新加坡_Telegram@kxswa 13
+      - 🇹🇷 土耳其_Telegram@kxswa
+      - 🇸🇬 新加坡_Telegram@kxswa 12
+      - 🇸🇬 新加坡_Telegram@kxswa 19
+      - 🇸🇬 新加坡_Telegram@kxswa 15
+      - 🇭🇰 香港_Telegram@kxswa 11
+      - 🇸🇬 新加坡_Telegram@kxswa 20
+      - 🇭🇰 香港_Telegram@kxswa 8
+      - 🇭🇰 香港_Telegram@kxswa 8 7
+      - 🇨🇳 台湾_Telegram@kxswa 4
+      - 🇰🇷 韩国_Telegram@kxswa 5
+      - 🇬🇧 英国_Telegram@kxswa 10
+      - 🇸🇬 新加坡_Telegram@kxswa 17
+      - 🇭🇰 香港_Telegram@kxswa 8 7 2
+      - 🇬🇧 英国_Telegram@kxswa 9
+      - 🇭🇰 香港_Telegram@kxswa 25 6
+      - 🇺🇸 美国_Telegram@kxswa 24
+      - 🇯🇵 日本_Telegram@kxswa 15
+      - 🇯🇵 日本_Telegram@kxswa 8
+      - 🇰🇷 韩国_Telegram@kxswa 5 2
+      - 🇸🇬 新加坡_Telegram@kxswa 86
+      - 🇭🇰 香港_Telegram@kxswa 16 2
+      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇩🇪 德国_Telegram@kxswa 7
+      - 🇯🇵 日本_Telegram@kxswa 8 2
+      - 🇯🇵 日本_Telegram@kxswa 16
+      - 🇯🇵 日本_Telegram@kxswa 7
+      - 🇬🇧 英国_Telegram@kxswa 12
+      - 🇯🇵 日本_Telegram@kxswa 5
+      - 🇯🇵 日本_Telegram@kxswa 6
+      - 🇳🇱 荷兰_Telegram@kxswa 2
+      - 🇰🇷 韩国_Telegram@kxswa 14
+      - 🇯🇵 日本_Telegram@kxswa 5 2
+      - 🇯🇵 日本_Telegram@kxswa 14
+      - 🇸🇬 新加坡_Telegram@kxswa 8
+      - 🇸🇬 新加坡_Telegram@kxswa 17 2
+      - 🇸🇬 新加坡_Telegram@kxswa 11
+      - 🇯🇵 日本_Telegram@kxswa 7 2
+      - 🇰🇷 韩国_Telegram@kxswa 12
+      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇯🇵 日本_Telegram@kxswa 17
+      - 🇬🇧 英国_Telegram@kxswa 11
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本_Telegram@kxswa 11
+      - 🇯🇵 日本_Telegram@kxswa 10 2
+      - 🇰🇷 韩国_Telegram@kxswa 26
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇯🇵 日本_Telegram@kxswa 13
+      - 🇺🇸 美国_Telegram@kxswa 6
+      - 🇯🇵 日本_Telegram@kxswa 14 2
+      - 🇸🇬 新加坡_Telegram@kxswa 13 2
+      - 🇺🇸 美国_Telegram@kxswa 57
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本_Telegram@kxswa 5
-      - 🇸🇬 新加坡_Telegram@kxswa 14
-      - 🇸🇬 新加坡_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 11
-      - 🇸🇬 新加坡2|cf
-      - 🇭🇰 香港_Telegram@kxswa 27
-      - 🇭🇰 香港_Telegram@kxswa 37
-      - 🇨🇳 台湾2号|【沪日】
-      - 🇭🇰 香港_Telegram@kxswa 28
-      - 直布罗陀_Telegram@kxswa
-      - 🇧🇷 巴西|中转
-      - 🇸🇬 新加坡_Telegram@kxswa 13
-      - 🇺🇸 美国6|cf|0x
-      - 🇸🇬 新加坡_Telegram@kxswa 11
-      - 🇺🇸 美国5|cf
-      - 🇭🇰 香港_Telegram@kxswa 31
-      - 🇮🇳 印度3|cf
-      - 🇺🇸 美国7|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 24
-      - 🇯🇵 日本|【沪日】
-      - 🇰🇷 韩国_Telegram@kxswa 20
-      - 🇸🇬 新加坡1|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 50
-      - 🇸🇬 新加坡_Telegram@kxswa 48
-      - 🇭🇰 香港_Telegram@kxswa 36
-      - 🇯🇵 SS日本-华中入口
-      - 🇸🇬 新加坡_Telegram@kxswa 52
-      - 🇯🇵 SS日本东京3
-      - 🇸🇬 新加坡|【沪新】
-      - 🇯🇵 日本_Telegram@kxswa 17
-      - 🇭🇰 台湾省|【沪港】
-      - 🇨🇳 台湾省|【沪日】
-      - 🇸🇬 新加坡_Telegram@kxswa 10
-      - 🇸🇬 新加坡_Telegram@kxswa 12
-      - 🇭🇰 香港_Telegram@kxswa 20
-      - 🇸🇬 新加坡_Telegram@kxswa 5
-      - 🇰🇷 韩国_Telegram@kxswa 16
-      - 🇰🇷 韩国_Telegram@kxswa 19
-      - 🇩🇪 德国|cf
-      - 🇰🇷 韩国_Telegram@kxswa 5
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇭🇰 香港_Telegram@kxswa 35
-      - 🇰🇷 韩国_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 14
-      - 🇸🇬 新加坡_Telegram@kxswa 15
-      - 🇸🇬 新加坡_Telegram@kxswa 19
-      - 🇰🇷 韩国_Telegram@kxswa 12
-      - 🇸🇬 新加坡_Telegram@kxswa 4
-      - 🇭🇰 台湾2号|【沪港】
-      - 🇯🇵 日本_Telegram@kxswa 6
-      - 🇦🇪 迪拜|cf
-      - 🇸🇬 新加坡_Telegram@kxswa 19 2
-      - 🇸🇬 新加坡_Telegram@kxswa 3
-      - 🇯🇵 日本_Telegram@kxswa 11 2
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - 🇭🇰 香港_Telegram@kxswa 15
+      - 🇹🇷 土耳其_Telegram@kxswa 2
       - 🇭🇰 香港_Telegram@kxswa 17
-      - 🇸🇬 新加坡_Telegram@kxswa 47
-      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇭🇰 香港_Telegram@kxswa 16
       - 🇸🇬 新加坡_Telegram@kxswa 16
-      - 🇰🇷 韩国_Telegram@kxswa 23
-      - 🇰🇷 韩国_Telegram@kxswa 10
-      - 🇰🇷 韩国_Telegram@kxswa 11
-      - 🇺🇸 美国1|cf
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇯🇵 日本|【沪日VIP】
-      - 🇯🇵 SS日本东京2
-      - 🇭🇰 SS香港主力
-      - 🇭🇰 SS香港-华中入口
-      - 🇨🇳 SS台湾1
-      - 🇭🇰 香港|【沪港-0.5x】
-      - 🇸🇬 SS新加坡-华东入口
-      - 🇯🇵 SS日本大阪
-      - 🇭🇰 香港|【沪-0.5x】
-      - 🇭🇰 香港|【沪港-VIP】
-      - 🇯🇵 SS日本东京5
-      - 🇭🇰 SS香港7
-      - 🇭🇰 SS香港5-华中入口
-      - 🇯🇵 SS日本东京4
-      - 🇸🇬 SS新加坡3
-      - 🇭🇰 SS香港5
-      - 🇭🇰 SS香港6
-      - 🇸🇬 新加坡_Telegram@kxswa 60
-      - 🇺🇸 SS美国圣何塞8
-      - 🇲🇾 马来西亚
-      - 🇺🇸 SS美国圣何塞2
-      - 🇭🇰 香港_Telegram@kxswa 17 2
-      - 🇺🇸 SS美国圣何塞9
-      - 🇸🇬 新加坡_Telegram@kxswa 68
-      - 🇺🇸 SS美国圣何塞7
-      - 🇺🇸 美国洛杉矶
-      - 🇸🇬 新加坡_Telegram@kxswa 58
-      - 🇸🇬 新加坡_Telegram@kxswa 59
-      - 🇸🇬 SS新加坡1
-      - 🇺🇸 SS美国圣何塞3
-      - 🇺🇸 SS美国圣何塞4
-      - 🇸🇬 新加坡_Telegram@kxswa 54
-      - 🇸🇬 新加坡_Telegram@kxswa 57
-      - 🇯🇵 SS日本东京6
-      - 🇭🇰 香港_Telegram@kxswa 20 2
-      - 🇩🇪 SS德国
-      - 🇸🇬 新加坡_Telegram@kxswa 61
-      - 🇭🇰 香港 🇭🇰2G
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - 🇸🇬 新加坡_Telegram@kxswa 18
+      - 🇸🇬 新加坡_Telegram@kxswa 14
+      - 🇭🇰 香港_Telegram@kxswa 18
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - 🇸🇬 新加坡_Telegram@kxswa 13
+      - 🇹🇷 土耳其_Telegram@kxswa
+      - 🇸🇬 新加坡_Telegram@kxswa 12
+      - 🇸🇬 新加坡_Telegram@kxswa 19
+      - 🇸🇬 新加坡_Telegram@kxswa 15
+      - 🇭🇰 香港_Telegram@kxswa 11
+      - 🇸🇬 新加坡_Telegram@kxswa 20
+      - 🇭🇰 香港_Telegram@kxswa 8
+      - 🇭🇰 香港_Telegram@kxswa 8 7
+      - 🇨🇳 台湾_Telegram@kxswa 4
+      - 🇰🇷 韩国_Telegram@kxswa 5
+      - 🇬🇧 英国_Telegram@kxswa 10
+      - 🇸🇬 新加坡_Telegram@kxswa 17
+      - 🇭🇰 香港_Telegram@kxswa 8 7 2
+      - 🇬🇧 英国_Telegram@kxswa 9
+      - 🇭🇰 香港_Telegram@kxswa 25 6
+      - 🇺🇸 美国_Telegram@kxswa 24
+      - 🇯🇵 日本_Telegram@kxswa 15
+      - 🇯🇵 日本_Telegram@kxswa 8
+      - 🇰🇷 韩国_Telegram@kxswa 5 2
+      - 🇸🇬 新加坡_Telegram@kxswa 86
+      - 🇭🇰 香港_Telegram@kxswa 16 2
+      - 🇰🇷 韩国_Telegram@kxswa
+      - 🇩🇪 德国_Telegram@kxswa 7
+      - 🇯🇵 日本_Telegram@kxswa 8 2
+      - 🇯🇵 日本_Telegram@kxswa 16
+      - 🇯🇵 日本_Telegram@kxswa 7
+      - 🇬🇧 英国_Telegram@kxswa 12
+      - 🇯🇵 日本_Telegram@kxswa 5
+      - 🇯🇵 日本_Telegram@kxswa 6
+      - 🇳🇱 荷兰_Telegram@kxswa 2
+      - 🇰🇷 韩国_Telegram@kxswa 14
+      - 🇯🇵 日本_Telegram@kxswa 5 2
+      - 🇯🇵 日本_Telegram@kxswa 14
+      - 🇸🇬 新加坡_Telegram@kxswa 8
+      - 🇸🇬 新加坡_Telegram@kxswa 17 2
+      - 🇸🇬 新加坡_Telegram@kxswa 11
+      - 🇯🇵 日本_Telegram@kxswa 7 2
+      - 🇰🇷 韩国_Telegram@kxswa 12
+      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇯🇵 日本_Telegram@kxswa 17
+      - 🇬🇧 英国_Telegram@kxswa 11
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇯🇵 日本_Telegram@kxswa 11
+      - 🇯🇵 日本_Telegram@kxswa 10 2
+      - 🇰🇷 韩国_Telegram@kxswa 26
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇭🇰 香港KT2|@ripaojiedian
+      - 🇯🇵 日本_Telegram@kxswa 13
+      - 🇺🇸 美国_Telegram@kxswa 6
+      - 🇯🇵 日本_Telegram@kxswa 14 2
+      - 🇸🇬 新加坡_Telegram@kxswa 13 2
+      - 🇺🇸 美国_Telegram@kxswa 57
   - name: 🎯 不挂代理
     type: select
     proxies:
