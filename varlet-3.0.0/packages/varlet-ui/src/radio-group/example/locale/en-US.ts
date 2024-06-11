@@ -1,0 +1,18 @@
+export default {
+  basicUsage: 'Basic Usage',
+  currentValue: 'Current value:',
+  setState: 'Set State Value',
+  setStyle: 'Modify Icon And Color',
+  disabled: 'Disabled',
+  readonly: 'Readonly',
+  eat: 'Eat',
+  sleep: 'Sleep',
+  checkAll: 'Check All',
+  inverseAll: 'Inverse All',
+  radioGroup: 'RadioGroup',
+  vertical: 'Vertical Direction',
+  radioValidate: 'Radio Validation',
+  radioGroupValidate: 'RadioGroup Validate',
+  radioValidateMessage: 'Please check your choice',
+  radioGroupValidateMessage: 'Please check eat',
+}

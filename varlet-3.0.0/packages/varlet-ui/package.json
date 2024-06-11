@@ -1,0 +1,84 @@
+{
+  "name": "@varlet/ui",
+  "version": "3.0.0",
+  "description": "A material like components library",
+  "main": "lib/varlet.cjs.js",
+  "module": "es/index.mjs",
+  "typings": "types/index.d.ts",
+  "style": "umd/style.css",
+  "unpkg": "umd/varlet.js",
+  "jsdelivr": "umd/varlet.js",
+  "web-types": "highlight/web-types.en-US.json",
+  "keywords": [
+    "Vue3",
+    "Mobile",
+    "Material Design",
+    "UI",
+    "Components"
+  ],
+  "files": [
+    "json",
+    "lib",
+    "es",
+    "umd",
+    "highlight",
+    "types"
+  ],
+  "author": "haoziqaq <357229046@qq.com>",
+  "license": "MIT",
+  "homepage": "https://varlet.gitee.io/varlet-ui/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varletjs/varlet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/varletjs/varlet/issues"
+  },
+  "sideEffects": [
+    "es/**/style/*",
+    "lib/**/style/*",
+    "es/style.mjs",
+    "lib/style.js",
+    "*.css"
+  ],
+  "scripts": {
+    "dev": "varlet-cli dev",
+    "build": "varlet-cli build",
+    "preview": "varlet-cli preview",
+    "compile": "varlet-cli compile",
+    "compile:style-vars": "varlet-cli compile:style-vars",
+    "create": "varlet-cli create -i",
+    "test": "varlet-cli test",
+    "test:watch": "varlet-cli test -w",
+    "test:coverage": "varlet-cli test -cov"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@varlet/icons": "workspace:*",
+    "@varlet/shared": "workspace:*",
+    "@varlet/use": "workspace:*",
+    "dayjs": "^1.10.4",
+    "decimal.js": "^10.2.1"
+  },
+  "devDependencies": {
+    "@varlet/cli": "workspace:*",
+    "@varlet/ui": "workspace: *",
+    "@varlet/touch-emulator": "workspace:*",
+    "@vue/runtime-core": "3.4.15",
+    "@vue/test-utils": "2.4.1",
+    "@types/lodash-es": "^4.17.6",
+    "@types/node": "^18.7.18",
+    "@vitest/coverage-istanbul": "1.1.0",
+    "jsdom": "22.1.0",
+    "vitest": "1.1.0",
+    "clipboard": "^2.0.6",
+    "live-server": "^1.2.1",
+    "lodash-es": "^4.17.21",
+    "typescript": "^5.1.5",
+    "vue": "3.4.15",
+    "vue-router": "4.2.0"
+  }
+}
