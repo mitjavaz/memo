@@ -5,104 +5,94 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本_Telegram@kxswa 9, server: china3.one.edu.kg, port: 12034, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯_Telegram@kxswa, server: china4.one.edu.kg, port: 12075, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国_Telegram@kxswa 9, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇲🇾 马来西亚_Telegram@kxswa, server: china2.one.edu.kg, port: 12067, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国_Telegram@kxswa 33, server: china3.one.edu.kg, port: 12051, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 16, server: cn1.one.edu.kg, port: 12004, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国_Telegram@kxswa 37, server: china3.one.edu.kg, port: 12055, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 14, server: cn1.one.edu.kg, port: 12002, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa 6, server: china3.one.edu.kg, port: 12031, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇬🇧 英国_Telegram@kxswa 9, server: 194.36.55.132, port: 80, type: vmess, uuid: 1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /other, headers: {Host: 127.0.0.1.лыемаленькиебуквы.ultramanrising.極為輕鬆的工作.suonycars.buzz.}}}
-  - {name: 🇹🇭 泰国_Telegram@kxswa, server: china2.one.edu.kg, port: 12076, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇮🇪 爱尔兰_Telegram@kxswa 3, server: 13.74.30.44, port: 36680, type: ss, cipher: chacha20-ietf-poly1305, password: of9UbKeXjLEpbQ4n7tZjGQ}
-  - {name: 🇯🇵 日本_Telegram@kxswa 2, server: 13.113.204.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb, server: 183.240.235.170, port: 44602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 35, server: china3.one.edu.kg, port: 12053, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇫🇷 法国_Telegram@kxswa 28, server: china4.one.edu.kg, port: 12065, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇩🇪 德国_Telegram@kxswa 3, server: china4.one.edu.kg, port: 12070, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇮🇪 爱尔兰_Telegram@kxswa, server: 13.79.72.88, port: 21190, type: ss, cipher: chacha20-ietf-poly1305, password: yoOT6tXP5LdMyyU5IQDcGn}
-  - {name: 🇺🇸 美国_Telegram@kxswa 34, server: china3.one.edu.kg, port: 12052, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 7, server: 59.56.77.178, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 2, server: 183.240.235.170, port: 44602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 8, server: 59.56.77.178, port: 15083, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 3, server: 183.240.235.170, port: 44602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 52.199.130.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 10, server: 52.79.247.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 4, server: 183.240.235.170, port: 44602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 危地马拉_Telegram@kxswa, server: 170.80.111.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇯🇵 D20 日本*, server: e3.0o0o0o0o0o0.tokyo, port: 39230, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 B07 香港NoAd*, server: b.edgesrv.lol, port: 39000, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 D21 日本*, server: e3.0o0o0o0o0o0.tokyo, port: 39424, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 D23 日本*, server: e3.0o0o0o0o0o0.tokyo, port: 39439, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇰🇷 B30 韩国, server: b.edgesrv.lol, port: 39005, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇸🇬 B52 新加坡, server: b.edgesrv.lol, port: 39014, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: "🇯🇵 D27 日本P* [3]", server: 370e5bac48b65387e65550c59a.paoluz0.buzz, port: 39244, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 B20 日本*, server: b.edgesrv.lol, port: 39008, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 B21 日本*, server: b.edgesrv.lol, port: 39004, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇺🇸 B40 美国*, server: b.edgesrv.lol, port: 39011, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇸🇬 B51 新加坡*, server: b.edgesrv.lol, port: 39009, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 D00 香港P*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39091, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇨🇳 B10 台湾*, server: b.edgesrv.lol, port: 39013, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇨🇳 B11 台湾, server: 370e5bac48b65387e65550c59a.paoluz0.buzz, port: 39410, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 B22 日本*, server: b.edgesrv.lol, port: 39003, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇺🇸 B41 美国*, server: b.edgesrv.lol, port: 39010, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇸🇬 B53 新加坡, server: 992g2n51.volcsiriusbd.com.3miko.xyz, port: 39393, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 D01 香港P*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39493, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 D02 香港P*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39275, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 D03 香港*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39348, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 D24 日本*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39411, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇰🇷 D31 韩国, server: 370e5bac48b65387e65550c59a.paoluz0.buzz, port: 39808, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇸🇬 B50 新加坡*, server: b.edgesrv.lol, port: 39007, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 D25 日本*, server: 370e5bac48b65387e65550c59a.paoluz0.buzz, port: 39411, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 D22 日本*, server: e3.0o0o0o0o0o0.tokyo, port: 39114, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇺🇸 D40 美国*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39346, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 D04 香港*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39415, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 D08 香港NoAd*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39405, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇨🇳 台湾_Telegram@kxswa, server: cn1.one.edu.kg, port: 12011, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 17, server: cn1.one.edu.kg, port: 12005, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇫🇷 法国_Telegram@kxswa 4, server: 51.210.182.170, port: 443, type: trojan, password: 82a94230-1af7-11ef-955f-1239d0255272, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 10, server: 18.183.130.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇱🇺 卢森堡_Telegram@kxswa 6, server: china2.one.edu.kg, port: 12023, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇱🇺 卢森堡_Telegram@kxswa 4, server: china2.one.edu.kg, port: 12021, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 3.112.128.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享, server: 104.21.30.1, port: 2052, type: vmess, uuid: b7d5fab6-0e30-3e96-ac16-9f5ed4570313, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.21.30.1, headers: {Host: 100-100-17-79.db-link02.top}}}
+  - {name: 🇰🇿 哈萨克斯坦_Telegram@kxswa, server: 213.156.137.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: 172.67.124.123, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: any.ktsfd.shop, path: /, tls: true, mux: true}}
+  - {name: 🇱🇺 卢森堡_Telegram@kxswa 5, server: china2.one.edu.kg, port: 12022, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港KT|@ripaojiedian, server: 172.67.124.123, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: any.ktsfd.shop, path: "", tls: true, mux: true}}
+  - {name: 🇱🇺 卢森堡_Telegram@kxswa 23, server: china3.one.edu.kg, port: 12035, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇱🇺 卢森堡_Telegram@kxswa 17, server: cn1.one.edu.kg, port: 12012, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港_Telegram@kxswa 18, server: cn1.one.edu.kg, port: 12006, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa 3, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇹🇷 土耳其_Telegram@kxswa, server: china4.one.edu.kg, port: 12064, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa 5, server: 52.194.225.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本_Telegram@kxswa, server: 18.183.168.200, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本_Telegram@kxswa 8, server: china3.one.edu.kg, port: 12033, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 尼日利亚_Telegram@kxswa, server: china4.one.edu.kg, port: 12073, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa 7, server: china3.one.edu.kg, port: 12032, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 15, server: cn1.one.edu.kg, port: 12003, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
   - {name: 🇰🇷 韩国_Telegram@kxswa 4, server: 43.202.40.133, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国_Telegram@kxswa 14, server: 172.67.114.125, port: 443, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a4.wagaga.online, path: /, tls: true, mux: true}}
-  - {name: 🇳🇱 荷兰_Telegram@kxswa 3, server: china4.one.edu.kg, port: 12074, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国_Telegram@kxswa 6, server: 172.232.37.114, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: Zg9HJ8NpUH6c2IwEKY0cwg}
-  - {name: 🇸🇪 瑞典_Telegram@kxswa, server: china4.one.edu.kg, port: 12071, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇨🇳 D11 台湾, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39401, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇳🇴 挪威_Telegram@kxswa, server: 51.13.182.130, port: 48562, type: ss, cipher: chacha20-ietf-poly1305, password: eHpq4cgXzmWTkI2xKN3w54}
   - {name: 🇯🇵 日本_Telegram@kxswa 5 2, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇲🇴 H60 澳门, server: b.edgesrv.lol, port: 39020, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇨🇳 D13 台湾*, server: data.bilibili.com.v3-web.douyinvod.com.80fb9e6a.douyinvod.click, port: 39405, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 B06 香港P*, server: b.edgesrv.lol, port: 39012, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇳🇱 荷兰_Telegram@kxswa 3, server: china4.one.edu.kg, port: 12074, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 14, server: cn1.one.edu.kg, port: 12002, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: ❤️ 永久白嫖 https://github.com/CryingMan666/eternal-nodes 收藏本站不迷路 ⚡️4, server: 104.160.177.181, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/203113182529, headers: {Host: www.68828180.xyz}}}
+  - {name: 🇭🇰 公测|香港 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
   - {name: 🇰🇷 韩国_Telegram@kxswa 4 2, server: 43.201.17.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_27 |22.39Mb, server: 183.240.235.166, port: 31778, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 3, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: 🇭🇰 D06 香港*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39155, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 7, server: china2.one.edu.kg, port: 12025, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇯🇵 公测|日本 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: c3572b9c-db66-4656-91b2-853750a422ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
-  - {name: 🇭🇰 D07 香港*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39344, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇰🇷 公测|韩国 05 1x, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 9dd235ea-5d69-4238-9289-11153b888f48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 9dd235ea-5d69-4238-9289-11153b888f48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 04 1x 2, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 441fce84-424d-4d84-b7f4-69939fb51672, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 05 1x, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 235b3fea-2521-41f2-8e6b-d11094aaa8e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 05 1x 2, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 441fce84-424d-4d84-b7f4-69939fb51672, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 05 1x 3, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: b0851738-bb12-43e3-a575-56699e93ea9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 03 1x 2, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 441fce84-424d-4d84-b7f4-69939fb51672, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇭🇰 公测|香港 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 441fce84-424d-4d84-b7f4-69939fb51672, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 04 1x, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 9dd235ea-5d69-4238-9289-11153b888f48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 05 1x 4, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 9a7117f6-a129-4ff1-855d-e0b836b786ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 04 1x 3, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: b0851738-bb12-43e3-a575-56699e93ea9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 05 1x 2, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 9a7117f6-a129-4ff1-855d-e0b836b786ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 05 1x 3, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇭🇰 公测|香港 03 1x 2, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 3f37bced-77cf-489c-9581-bf4fccf812c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 04 1x 2, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 4bd22b62-c5fa-4871-8b11-f92fe1636c6d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 05 1x 5, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 04 1x 4, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 02 1x 2, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 03 1x, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: b0851738-bb12-43e3-a575-56699e93ea9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 02 1x 3, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇸🇪 瑞典_Telegram@kxswa, server: china4.one.edu.kg, port: 12071, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港_Telegram@kxswa 17, server: cn1.one.edu.kg, port: 12005, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 公测|日本 04 1x 5, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 9a7117f6-a129-4ff1-855d-e0b836b786ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 03 1x 3, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 03 1x 2, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 235b3fea-2521-41f2-8e6b-d11094aaa8e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 04 1x 3, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 9a7117f6-a129-4ff1-855d-e0b836b786ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 05 1x 4, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 235b3fea-2521-41f2-8e6b-d11094aaa8e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 03 1x 3, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 4bd22b62-c5fa-4871-8b11-f92fe1636c6d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 03 1x 4, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 9dd235ea-5d69-4238-9289-11153b888f48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
   - {name: 🇭🇰 香港_Telegram@kxswa 13, server: cn1.one.edu.kg, port: 12001, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
-  - {name: 🇭🇰 B02 香港, server: 992g2n51.volcsiriusbd.com.3miko.xyz, port: 39277, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 B00 香港, server: b.edgesrv.lol, port: 39002, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇸🇬 D55 新加坡*, server: 370e5bac48b65387e65550c59a.paoluz0.buzz, port: 39413, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇭🇰 B04 香港P*, server: b.edgesrv.lol, port: 39016, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 57.180.25.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 D05 香港NoAd*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39318, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: 🇸🇬 D54 新加坡*, server: shark2.douyucdn.cn.0768eb49.ksyungslb.com.douyinvod.click, port: 39429, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
-  - {name: "🇺🇸 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享", server: 104.25.232.45, port: 2096, type: vmess, uuid: b7d5fab6-0e30-3e96-ac16-9f5ed4570313, alterId: 0, cipher: auto, tls: true, network: grpc, servername: 100-100-17-140.cn-db.top, grpc-opts: {grpc-service-name: dabai}}
-  - {name: 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 美国|【注册免费领1TB流量】前往-注册|共享, server: 104.17.116.204, port: 2087, type: vmess, uuid: b7d5fab6-0e30-3e96-ac16-9f5ed4570313, alterId: 0, cipher: auto, tls: true, network: grpc, servername: 100-100-17-109.db-link01.top, grpc-opts: {grpc-service-name: dabai}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 5, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: "H60 南极 [3]", server: sp.0o0o0o0o0o0.tokyo, port: 39805, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇰🇷 公测|韩国 03 1x 4, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇭🇰 公测|香港 05 1x, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 37, server: china3.one.edu.kg, port: 12055, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇰🇷 公测|韩国 04 1x 4, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: b0851738-bb12-43e3-a575-56699e93ea9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇭🇰 公测|香港 03 1x 3, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: b0851738-bb12-43e3-a575-56699e93ea9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 04 1x 5, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 02 1x 2, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 02 1x 3, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 9a7117f6-a129-4ff1-855d-e0b836b786ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 01 1x, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 02 1x 4, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 3f37bced-77cf-489c-9581-bf4fccf812c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 01 1x 2, server: baobaojichang.bbjc.xyz, port: 80, type: vmess, uuid: 9dd235ea-5d69-4238-9289-11153b888f48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 02 1x 5, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 441fce84-424d-4d84-b7f4-69939fb51672, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 02 1x 6, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 9dd235ea-5d69-4238-9289-11153b888f48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 04 1x 6, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 04 1x 6, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 03 1x 5, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 9a7117f6-a129-4ff1-855d-e0b836b786ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 05 1x 6, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 33, server: china3.one.edu.kg, port: 12051, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 公测|日本 04 1x 7, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 3f37bced-77cf-489c-9581-bf4fccf812c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
   - {name: 🇺🇸 美国|【公共订阅】动态速率油管最低720P保证|GPT+流媒体|共享, server: 104.19.107.112, port: 2082, type: vmess, uuid: b7d5fab6-0e30-3e96-ac16-9f5ed4570313, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.19.107.112, headers: {Host: 100-100-17-153.db-link02.top}}}
-  - {name: 🇨🇳 D14 台湾*, server: data.bilibili.com.v3-web.douyinvod.com.80fb9e6a.douyinvod.click, port: 39404, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 195557:t8lZjJ, obfs-param: bilivideo.com}
+  - {name: 🇯🇵 日本_Telegram@kxswa 6, server: china3.one.edu.kg, port: 12031, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 公测|香港 02 1x, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 4bd22b62-c5fa-4871-8b11-f92fe1636c6d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 🇭🇰 公测|香港 03 1x 4, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: bf44836a-3557-4920-964a-6935dffc327c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 52.199.130.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 公测|韩国 04 1x 7, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 441fce84-424d-4d84-b7f4-69939fb51672, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 03 1x 5, server: baobaojichang.bbjc.xyz, port: 8880, type: vmess, uuid: 9a7117f6-a129-4ff1-855d-e0b836b786ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: 🇯🇵 公测|日本 02 1x 4, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: b0851738-bb12-43e3-a575-56699e93ea9b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 35, server: china3.one.edu.kg, port: 12053, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 公测|香港 04 1x 2, server: baobaojichang.bbjc.xyz, port: 2052, type: vmess, uuid: 235b3fea-2521-41f2-8e6b-d11094aaa8e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: xianggang.mojc.xyz}}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 16, server: cn1.one.edu.kg, port: 12004, type: trojan, password: 56f5096e-2e6f-4961-9707-fda1b24f8a60, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 公测|日本 02 1x 5, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: riben.mojc.xyz}}}
+  - {name: 🇰🇷 公测|韩国 02 1x 7, server: baobaojichang.bbjc.xyz, port: 8080, type: vmess, uuid: f12fdb99-29e3-46cc-96f5-392db4889792, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hanguo.mojc.xyz}}}
+  - {name: "🇸🇬 [直连] 新加坡高速 8 C", server: 0000000000000000000000000068.cgroup-node-for-bigairport.sbs, port: 42354, type: vmess, uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000068.cgroup-node-for-bigairport.sbs}}}
+  - {name: 🇯🇵 日本|@ripaojiedian, server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true}
+  - {name: 🇺🇸 公测|美国 05 1x, server: baobaojichang.bbjc.xyz, port: 2082, type: vmess, uuid: 4bd22b62-c5fa-4871-8b11-f92fe1636c6d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: meiguo.mojc.xyz}}}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -114,414 +104,374 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇯🇵 日本_Telegram@kxswa 9
-      - 🇷🇺 俄罗斯_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇲🇾 马来西亚_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 33
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇺🇸 美国_Telegram@kxswa 37
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇯🇵 日本_Telegram@kxswa 6
-      - 🇬🇧 英国_Telegram@kxswa 9
-      - 🇹🇭 泰国_Telegram@kxswa
-      - 🇮🇪 爱尔兰_Telegram@kxswa 3
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb
-      - 🇺🇸 美国_Telegram@kxswa 35
-      - 🇫🇷 法国_Telegram@kxswa 28
-      - 🇩🇪 德国_Telegram@kxswa 3
-      - 🇮🇪 爱尔兰_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 34
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 3
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 韩国_Telegram@kxswa 10
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 4
-      - 危地马拉_Telegram@kxswa
-      - 🇯🇵 D20 日本*
-      - 🇭🇰 B07 香港NoAd*
-      - 🇯🇵 D21 日本*
-      - 🇯🇵 D23 日本*
-      - 🇰🇷 B30 韩国
-      - 🇸🇬 B52 新加坡
-      - 🇯🇵 D27 日本P* [3]
-      - 🇯🇵 B20 日本*
-      - 🇯🇵 B21 日本*
-      - 🇺🇸 B40 美国*
-      - 🇸🇬 B51 新加坡*
-      - 🇭🇰 D00 香港P*
-      - 🇨🇳 B10 台湾*
-      - 🇨🇳 B11 台湾
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 B41 美国*
-      - 🇸🇬 B53 新加坡
-      - 🇭🇰 D01 香港P*
-      - 🇭🇰 D02 香港P*
-      - 🇭🇰 D03 香港*
-      - 🇯🇵 D24 日本*
-      - 🇰🇷 D31 韩国
-      - 🇸🇬 B50 新加坡*
-      - 🇯🇵 D25 日本*
-      - 🇯🇵 D22 日本*
-      - 🇺🇸 D40 美国*
-      - 🇭🇰 D04 香港*
-      - 🇭🇰 D08 香港NoAd*
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇱🇺 卢森堡_Telegram@kxswa 6
+      - 🇱🇺 卢森堡_Telegram@kxswa 4
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享
+      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇱🇺 卢森堡_Telegram@kxswa 5
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇱🇺 卢森堡_Telegram@kxswa 23
+      - 🇱🇺 卢森堡_Telegram@kxswa 17
       - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇹🇷 土耳其_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 5
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 8
-      - 🇯🇵 尼日利亚_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 15
       - 🇰🇷 韩国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇳🇱 荷兰_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇸🇪 瑞典_Telegram@kxswa
-      - 🇨🇳 D11 台湾
-      - 🇳🇴 挪威_Telegram@kxswa
       - 🇯🇵 日本_Telegram@kxswa 5 2
-      - 🇲🇴 H60 澳门
-      - 🇨🇳 D13 台湾*
-      - 🇭🇰 B06 香港P*
+      - 🇳🇱 荷兰_Telegram@kxswa 3
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - ❤️ 永久白嫖 https://github.com/CryingMan666/eternal-nodes 收藏本站不迷路 ⚡️4
+      - 🇭🇰 公测|香港 04 1x
       - 🇰🇷 韩国_Telegram@kxswa 4 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_27 |22.39Mb
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 D06 香港*
-      - 🇸🇬 新加坡_Telegram@kxswa 7
+      - 🇰🇷 公测|韩国 05 1x
+      - 🇯🇵 公测|日本 04 1x
+      - 🇯🇵 公测|日本 04 1x 2
+      - 🇯🇵 公测|日本 05 1x
+      - 🇯🇵 公测|日本 03 1x
+      - 🇰🇷 公测|韩国 02 1x
+      - 🇰🇷 公测|韩国 05 1x 2
+      - 🇰🇷 公测|韩国 05 1x 3
+      - 🇯🇵 公测|日本 03 1x 2
       - 🇯🇵 公测|日本 02 1x
-      - 🇭🇰 D07 香港*
+      - 🇭🇰 公测|香港 03 1x
+      - 🇰🇷 公测|韩国 04 1x
+      - 🇰🇷 公测|韩国 05 1x 4
+      - 🇯🇵 公测|日本 04 1x 3
+      - 🇯🇵 公测|日本 05 1x 2
+      - 🇯🇵 公测|日本 05 1x 3
+      - 🇭🇰 公测|香港 03 1x 2
+      - 🇰🇷 公测|韩国 04 1x 2
+      - 🇰🇷 公测|韩国 05 1x 5
+      - 🇯🇵 公测|日本 04 1x 4
+      - 🇰🇷 公测|韩国 02 1x 2
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇰🇷 公测|韩国 02 1x 3
+      - 🇸🇪 瑞典_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇯🇵 公测|日本 04 1x 5
+      - 🇯🇵 公测|日本 03 1x 3
+      - 🇰🇷 公测|韩国 03 1x 2
+      - 🇰🇷 公测|韩国 04 1x 3
+      - 🇯🇵 公测|日本 05 1x 4
+      - 🇰🇷 公测|韩国 03 1x 3
+      - 🇯🇵 公测|日本 03 1x 4
       - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 B02 香港
-      - 🇭🇰 B00 香港
-      - 🇸🇬 D55 新加坡*
-      - 🇭🇰 B04 香港P*
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 D05 香港NoAd*
-      - 🇸🇬 D54 新加坡*
-      - 🇺🇸 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享
-      - 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 美国|【注册免费领1TB流量】前往-注册|共享
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - H60 南极 [3]
+      - 🇰🇷 公测|韩国 03 1x 4
+      - 🇭🇰 公测|香港 05 1x
+      - 🇺🇸 美国_Telegram@kxswa 37
+      - 🇰🇷 公测|韩国 04 1x 4
+      - 🇭🇰 公测|香港 03 1x 3
+      - 🇰🇷 公测|韩国 04 1x 5
+      - 🇯🇵 公测|日本 02 1x 2
+      - 🇯🇵 公测|日本 02 1x 3
+      - 🇯🇵 公测|日本 01 1x
+      - 🇰🇷 公测|韩国 02 1x 4
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇰🇷 公测|韩国 02 1x 5
+      - 🇰🇷 公测|韩国 02 1x 6
+      - 🇯🇵 公测|日本 04 1x 6
+      - 🇰🇷 公测|韩国 04 1x 6
+      - 🇯🇵 公测|日本 03 1x 5
+      - 🇰🇷 公测|韩国 05 1x 6
+      - 🇺🇸 美国_Telegram@kxswa 33
+      - 🇯🇵 公测|日本 04 1x 7
       - 🇺🇸 美国|【公共订阅】动态速率油管最低720P保证|GPT+流媒体|共享
-      - 🇨🇳 D14 台湾*
+      - 🇯🇵 日本_Telegram@kxswa 6
+      - 🇭🇰 公测|香港 02 1x
+      - 🇭🇰 公测|香港 03 1x 4
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 公测|韩国 04 1x 7
+      - 🇰🇷 公测|韩国 03 1x 5
+      - 🇯🇵 公测|日本 02 1x 4
+      - 🇺🇸 美国_Telegram@kxswa 35
+      - 🇭🇰 公测|香港 04 1x 2
+      - 🇭🇰 香港_Telegram@kxswa 16
+      - 🇯🇵 公测|日本 02 1x 5
+      - 🇰🇷 公测|韩国 02 1x 7
+      - 🇸🇬 [直连] 新加坡高速 8 C
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 公测|美国 05 1x
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本_Telegram@kxswa 9
-      - 🇷🇺 俄罗斯_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇲🇾 马来西亚_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 33
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇺🇸 美国_Telegram@kxswa 37
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇯🇵 日本_Telegram@kxswa 6
-      - 🇬🇧 英国_Telegram@kxswa 9
-      - 🇹🇭 泰国_Telegram@kxswa
-      - 🇮🇪 爱尔兰_Telegram@kxswa 3
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb
-      - 🇺🇸 美国_Telegram@kxswa 35
-      - 🇫🇷 法国_Telegram@kxswa 28
-      - 🇩🇪 德国_Telegram@kxswa 3
-      - 🇮🇪 爱尔兰_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 34
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 3
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 韩国_Telegram@kxswa 10
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 4
-      - 危地马拉_Telegram@kxswa
-      - 🇯🇵 D20 日本*
-      - 🇭🇰 B07 香港NoAd*
-      - 🇯🇵 D21 日本*
-      - 🇯🇵 D23 日本*
-      - 🇰🇷 B30 韩国
-      - 🇸🇬 B52 新加坡
-      - 🇯🇵 D27 日本P* [3]
-      - 🇯🇵 B20 日本*
-      - 🇯🇵 B21 日本*
-      - 🇺🇸 B40 美国*
-      - 🇸🇬 B51 新加坡*
-      - 🇭🇰 D00 香港P*
-      - 🇨🇳 B10 台湾*
-      - 🇨🇳 B11 台湾
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 B41 美国*
-      - 🇸🇬 B53 新加坡
-      - 🇭🇰 D01 香港P*
-      - 🇭🇰 D02 香港P*
-      - 🇭🇰 D03 香港*
-      - 🇯🇵 D24 日本*
-      - 🇰🇷 D31 韩国
-      - 🇸🇬 B50 新加坡*
-      - 🇯🇵 D25 日本*
-      - 🇯🇵 D22 日本*
-      - 🇺🇸 D40 美国*
-      - 🇭🇰 D04 香港*
-      - 🇭🇰 D08 香港NoAd*
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇱🇺 卢森堡_Telegram@kxswa 6
+      - 🇱🇺 卢森堡_Telegram@kxswa 4
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享
+      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇱🇺 卢森堡_Telegram@kxswa 5
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇱🇺 卢森堡_Telegram@kxswa 23
+      - 🇱🇺 卢森堡_Telegram@kxswa 17
       - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇹🇷 土耳其_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 5
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 8
-      - 🇯🇵 尼日利亚_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 15
       - 🇰🇷 韩国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇳🇱 荷兰_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇸🇪 瑞典_Telegram@kxswa
-      - 🇨🇳 D11 台湾
-      - 🇳🇴 挪威_Telegram@kxswa
       - 🇯🇵 日本_Telegram@kxswa 5 2
-      - 🇲🇴 H60 澳门
-      - 🇨🇳 D13 台湾*
-      - 🇭🇰 B06 香港P*
+      - 🇳🇱 荷兰_Telegram@kxswa 3
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - ❤️ 永久白嫖 https://github.com/CryingMan666/eternal-nodes 收藏本站不迷路 ⚡️4
+      - 🇭🇰 公测|香港 04 1x
       - 🇰🇷 韩国_Telegram@kxswa 4 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_27 |22.39Mb
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 D06 香港*
-      - 🇸🇬 新加坡_Telegram@kxswa 7
+      - 🇰🇷 公测|韩国 05 1x
+      - 🇯🇵 公测|日本 04 1x
+      - 🇯🇵 公测|日本 04 1x 2
+      - 🇯🇵 公测|日本 05 1x
+      - 🇯🇵 公测|日本 03 1x
+      - 🇰🇷 公测|韩国 02 1x
+      - 🇰🇷 公测|韩国 05 1x 2
+      - 🇰🇷 公测|韩国 05 1x 3
+      - 🇯🇵 公测|日本 03 1x 2
       - 🇯🇵 公测|日本 02 1x
-      - 🇭🇰 D07 香港*
+      - 🇭🇰 公测|香港 03 1x
+      - 🇰🇷 公测|韩国 04 1x
+      - 🇰🇷 公测|韩国 05 1x 4
+      - 🇯🇵 公测|日本 04 1x 3
+      - 🇯🇵 公测|日本 05 1x 2
+      - 🇯🇵 公测|日本 05 1x 3
+      - 🇭🇰 公测|香港 03 1x 2
+      - 🇰🇷 公测|韩国 04 1x 2
+      - 🇰🇷 公测|韩国 05 1x 5
+      - 🇯🇵 公测|日本 04 1x 4
+      - 🇰🇷 公测|韩国 02 1x 2
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇰🇷 公测|韩国 02 1x 3
+      - 🇸🇪 瑞典_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇯🇵 公测|日本 04 1x 5
+      - 🇯🇵 公测|日本 03 1x 3
+      - 🇰🇷 公测|韩国 03 1x 2
+      - 🇰🇷 公测|韩国 04 1x 3
+      - 🇯🇵 公测|日本 05 1x 4
+      - 🇰🇷 公测|韩国 03 1x 3
+      - 🇯🇵 公测|日本 03 1x 4
       - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 B02 香港
-      - 🇭🇰 B00 香港
-      - 🇸🇬 D55 新加坡*
-      - 🇭🇰 B04 香港P*
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 D05 香港NoAd*
-      - 🇸🇬 D54 新加坡*
-      - 🇺🇸 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享
-      - 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 美国|【注册免费领1TB流量】前往-注册|共享
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - H60 南极 [3]
+      - 🇰🇷 公测|韩国 03 1x 4
+      - 🇭🇰 公测|香港 05 1x
+      - 🇺🇸 美国_Telegram@kxswa 37
+      - 🇰🇷 公测|韩国 04 1x 4
+      - 🇭🇰 公测|香港 03 1x 3
+      - 🇰🇷 公测|韩国 04 1x 5
+      - 🇯🇵 公测|日本 02 1x 2
+      - 🇯🇵 公测|日本 02 1x 3
+      - 🇯🇵 公测|日本 01 1x
+      - 🇰🇷 公测|韩国 02 1x 4
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇰🇷 公测|韩国 02 1x 5
+      - 🇰🇷 公测|韩国 02 1x 6
+      - 🇯🇵 公测|日本 04 1x 6
+      - 🇰🇷 公测|韩国 04 1x 6
+      - 🇯🇵 公测|日本 03 1x 5
+      - 🇰🇷 公测|韩国 05 1x 6
+      - 🇺🇸 美国_Telegram@kxswa 33
+      - 🇯🇵 公测|日本 04 1x 7
       - 🇺🇸 美国|【公共订阅】动态速率油管最低720P保证|GPT+流媒体|共享
-      - 🇨🇳 D14 台湾*
+      - 🇯🇵 日本_Telegram@kxswa 6
+      - 🇭🇰 公测|香港 02 1x
+      - 🇭🇰 公测|香港 03 1x 4
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 公测|韩国 04 1x 7
+      - 🇰🇷 公测|韩国 03 1x 5
+      - 🇯🇵 公测|日本 02 1x 4
+      - 🇺🇸 美国_Telegram@kxswa 35
+      - 🇭🇰 公测|香港 04 1x 2
+      - 🇭🇰 香港_Telegram@kxswa 16
+      - 🇯🇵 公测|日本 02 1x 5
+      - 🇰🇷 公测|韩国 02 1x 7
+      - 🇸🇬 [直连] 新加坡高速 8 C
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 公测|美国 05 1x
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本_Telegram@kxswa 9
-      - 🇷🇺 俄罗斯_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇲🇾 马来西亚_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 33
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇺🇸 美国_Telegram@kxswa 37
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇯🇵 日本_Telegram@kxswa 6
-      - 🇬🇧 英国_Telegram@kxswa 9
-      - 🇹🇭 泰国_Telegram@kxswa
-      - 🇮🇪 爱尔兰_Telegram@kxswa 3
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb
-      - 🇺🇸 美国_Telegram@kxswa 35
-      - 🇫🇷 法国_Telegram@kxswa 28
-      - 🇩🇪 德国_Telegram@kxswa 3
-      - 🇮🇪 爱尔兰_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 34
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 3
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 韩国_Telegram@kxswa 10
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 4
-      - 危地马拉_Telegram@kxswa
-      - 🇯🇵 D20 日本*
-      - 🇭🇰 B07 香港NoAd*
-      - 🇯🇵 D21 日本*
-      - 🇯🇵 D23 日本*
-      - 🇰🇷 B30 韩国
-      - 🇸🇬 B52 新加坡
-      - 🇯🇵 D27 日本P* [3]
-      - 🇯🇵 B20 日本*
-      - 🇯🇵 B21 日本*
-      - 🇺🇸 B40 美国*
-      - 🇸🇬 B51 新加坡*
-      - 🇭🇰 D00 香港P*
-      - 🇨🇳 B10 台湾*
-      - 🇨🇳 B11 台湾
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 B41 美国*
-      - 🇸🇬 B53 新加坡
-      - 🇭🇰 D01 香港P*
-      - 🇭🇰 D02 香港P*
-      - 🇭🇰 D03 香港*
-      - 🇯🇵 D24 日本*
-      - 🇰🇷 D31 韩国
-      - 🇸🇬 B50 新加坡*
-      - 🇯🇵 D25 日本*
-      - 🇯🇵 D22 日本*
-      - 🇺🇸 D40 美国*
-      - 🇭🇰 D04 香港*
-      - 🇭🇰 D08 香港NoAd*
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇱🇺 卢森堡_Telegram@kxswa 6
+      - 🇱🇺 卢森堡_Telegram@kxswa 4
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享
+      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇱🇺 卢森堡_Telegram@kxswa 5
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇱🇺 卢森堡_Telegram@kxswa 23
+      - 🇱🇺 卢森堡_Telegram@kxswa 17
       - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇹🇷 土耳其_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 5
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 8
-      - 🇯🇵 尼日利亚_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 15
       - 🇰🇷 韩国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇳🇱 荷兰_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇸🇪 瑞典_Telegram@kxswa
-      - 🇨🇳 D11 台湾
-      - 🇳🇴 挪威_Telegram@kxswa
       - 🇯🇵 日本_Telegram@kxswa 5 2
-      - 🇲🇴 H60 澳门
-      - 🇨🇳 D13 台湾*
-      - 🇭🇰 B06 香港P*
+      - 🇳🇱 荷兰_Telegram@kxswa 3
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - ❤️ 永久白嫖 https://github.com/CryingMan666/eternal-nodes 收藏本站不迷路 ⚡️4
+      - 🇭🇰 公测|香港 04 1x
       - 🇰🇷 韩国_Telegram@kxswa 4 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_27 |22.39Mb
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 D06 香港*
-      - 🇸🇬 新加坡_Telegram@kxswa 7
+      - 🇰🇷 公测|韩国 05 1x
+      - 🇯🇵 公测|日本 04 1x
+      - 🇯🇵 公测|日本 04 1x 2
+      - 🇯🇵 公测|日本 05 1x
+      - 🇯🇵 公测|日本 03 1x
+      - 🇰🇷 公测|韩国 02 1x
+      - 🇰🇷 公测|韩国 05 1x 2
+      - 🇰🇷 公测|韩国 05 1x 3
+      - 🇯🇵 公测|日本 03 1x 2
       - 🇯🇵 公测|日本 02 1x
-      - 🇭🇰 D07 香港*
+      - 🇭🇰 公测|香港 03 1x
+      - 🇰🇷 公测|韩国 04 1x
+      - 🇰🇷 公测|韩国 05 1x 4
+      - 🇯🇵 公测|日本 04 1x 3
+      - 🇯🇵 公测|日本 05 1x 2
+      - 🇯🇵 公测|日本 05 1x 3
+      - 🇭🇰 公测|香港 03 1x 2
+      - 🇰🇷 公测|韩国 04 1x 2
+      - 🇰🇷 公测|韩国 05 1x 5
+      - 🇯🇵 公测|日本 04 1x 4
+      - 🇰🇷 公测|韩国 02 1x 2
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇰🇷 公测|韩国 02 1x 3
+      - 🇸🇪 瑞典_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇯🇵 公测|日本 04 1x 5
+      - 🇯🇵 公测|日本 03 1x 3
+      - 🇰🇷 公测|韩国 03 1x 2
+      - 🇰🇷 公测|韩国 04 1x 3
+      - 🇯🇵 公测|日本 05 1x 4
+      - 🇰🇷 公测|韩国 03 1x 3
+      - 🇯🇵 公测|日本 03 1x 4
       - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 B02 香港
-      - 🇭🇰 B00 香港
-      - 🇸🇬 D55 新加坡*
-      - 🇭🇰 B04 香港P*
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 D05 香港NoAd*
-      - 🇸🇬 D54 新加坡*
-      - 🇺🇸 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享
-      - 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 美国|【注册免费领1TB流量】前往-注册|共享
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - H60 南极 [3]
+      - 🇰🇷 公测|韩国 03 1x 4
+      - 🇭🇰 公测|香港 05 1x
+      - 🇺🇸 美国_Telegram@kxswa 37
+      - 🇰🇷 公测|韩国 04 1x 4
+      - 🇭🇰 公测|香港 03 1x 3
+      - 🇰🇷 公测|韩国 04 1x 5
+      - 🇯🇵 公测|日本 02 1x 2
+      - 🇯🇵 公测|日本 02 1x 3
+      - 🇯🇵 公测|日本 01 1x
+      - 🇰🇷 公测|韩国 02 1x 4
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇰🇷 公测|韩国 02 1x 5
+      - 🇰🇷 公测|韩国 02 1x 6
+      - 🇯🇵 公测|日本 04 1x 6
+      - 🇰🇷 公测|韩国 04 1x 6
+      - 🇯🇵 公测|日本 03 1x 5
+      - 🇰🇷 公测|韩国 05 1x 6
+      - 🇺🇸 美国_Telegram@kxswa 33
+      - 🇯🇵 公测|日本 04 1x 7
       - 🇺🇸 美国|【公共订阅】动态速率油管最低720P保证|GPT+流媒体|共享
-      - 🇨🇳 D14 台湾*
+      - 🇯🇵 日本_Telegram@kxswa 6
+      - 🇭🇰 公测|香港 02 1x
+      - 🇭🇰 公测|香港 03 1x 4
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 公测|韩国 04 1x 7
+      - 🇰🇷 公测|韩国 03 1x 5
+      - 🇯🇵 公测|日本 02 1x 4
+      - 🇺🇸 美国_Telegram@kxswa 35
+      - 🇭🇰 公测|香港 04 1x 2
+      - 🇭🇰 香港_Telegram@kxswa 16
+      - 🇯🇵 公测|日本 02 1x 5
+      - 🇰🇷 公测|韩国 02 1x 7
+      - 🇸🇬 [直连] 新加坡高速 8 C
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 公测|美国 05 1x
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本_Telegram@kxswa 9
-      - 🇷🇺 俄罗斯_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 9
-      - 🇲🇾 马来西亚_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 33
-      - 🇭🇰 香港_Telegram@kxswa 16
-      - 🇺🇸 美国_Telegram@kxswa 37
-      - 🇭🇰 香港_Telegram@kxswa 14
-      - 🇯🇵 日本_Telegram@kxswa 6
-      - 🇬🇧 英国_Telegram@kxswa 9
-      - 🇹🇭 泰国_Telegram@kxswa
-      - 🇮🇪 爱尔兰_Telegram@kxswa 3
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb
-      - 🇺🇸 美国_Telegram@kxswa 35
-      - 🇫🇷 法国_Telegram@kxswa 28
-      - 🇩🇪 德国_Telegram@kxswa 3
-      - 🇮🇪 爱尔兰_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 34
-      - 🇭🇰 香港_Telegram@kxswa 7
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 3
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 韩国_Telegram@kxswa 10
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_40 |19.29Mb 4
-      - 危地马拉_Telegram@kxswa
-      - 🇯🇵 D20 日本*
-      - 🇭🇰 B07 香港NoAd*
-      - 🇯🇵 D21 日本*
-      - 🇯🇵 D23 日本*
-      - 🇰🇷 B30 韩国
-      - 🇸🇬 B52 新加坡
-      - 🇯🇵 D27 日本P* [3]
-      - 🇯🇵 B20 日本*
-      - 🇯🇵 B21 日本*
-      - 🇺🇸 B40 美国*
-      - 🇸🇬 B51 新加坡*
-      - 🇭🇰 D00 香港P*
-      - 🇨🇳 B10 台湾*
-      - 🇨🇳 B11 台湾
-      - 🇯🇵 B22 日本*
-      - 🇺🇸 B41 美国*
-      - 🇸🇬 B53 新加坡
-      - 🇭🇰 D01 香港P*
-      - 🇭🇰 D02 香港P*
-      - 🇭🇰 D03 香港*
-      - 🇯🇵 D24 日本*
-      - 🇰🇷 D31 韩国
-      - 🇸🇬 B50 新加坡*
-      - 🇯🇵 D25 日本*
-      - 🇯🇵 D22 日本*
-      - 🇺🇸 D40 美国*
-      - 🇭🇰 D04 香港*
-      - 🇭🇰 D08 香港NoAd*
-      - 🇨🇳 台湾_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇯🇵 日本_Telegram@kxswa 10
+      - 🇱🇺 卢森堡_Telegram@kxswa 6
+      - 🇱🇺 卢森堡_Telegram@kxswa 4
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+流媒体|共享
+      - 🇰🇿 哈萨克斯坦_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇱🇺 卢森堡_Telegram@kxswa 5
+      - 🇭🇰 香港KT|@ripaojiedian
+      - 🇱🇺 卢森堡_Telegram@kxswa 23
+      - 🇱🇺 卢森堡_Telegram@kxswa 17
       - 🇭🇰 香港_Telegram@kxswa 18
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇹🇷 土耳其_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 5
-      - 🇯🇵 日本_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 8
-      - 🇯🇵 尼日利亚_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa 7
-      - 🇭🇰 香港_Telegram@kxswa 15
       - 🇰🇷 韩国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇳🇱 荷兰_Telegram@kxswa 3
-      - 🇺🇸 美国_Telegram@kxswa 6
-      - 🇸🇪 瑞典_Telegram@kxswa
-      - 🇨🇳 D11 台湾
-      - 🇳🇴 挪威_Telegram@kxswa
       - 🇯🇵 日本_Telegram@kxswa 5 2
-      - 🇲🇴 H60 澳门
-      - 🇨🇳 D13 台湾*
-      - 🇭🇰 B06 香港P*
+      - 🇳🇱 荷兰_Telegram@kxswa 3
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - ❤️ 永久白嫖 https://github.com/CryingMan666/eternal-nodes 收藏本站不迷路 ⚡️4
+      - 🇭🇰 公测|香港 04 1x
       - 🇰🇷 韩国_Telegram@kxswa 4 2
-      - 🇨🇳 Relay_🇨🇳CN-🇭🇰HK_27 |22.39Mb
-      - 🇭🇰 香港_Telegram@kxswa 3
-      - 🇭🇰 D06 香港*
-      - 🇸🇬 新加坡_Telegram@kxswa 7
+      - 🇰🇷 公测|韩国 05 1x
+      - 🇯🇵 公测|日本 04 1x
+      - 🇯🇵 公测|日本 04 1x 2
+      - 🇯🇵 公测|日本 05 1x
+      - 🇯🇵 公测|日本 03 1x
+      - 🇰🇷 公测|韩国 02 1x
+      - 🇰🇷 公测|韩国 05 1x 2
+      - 🇰🇷 公测|韩国 05 1x 3
+      - 🇯🇵 公测|日本 03 1x 2
       - 🇯🇵 公测|日本 02 1x
-      - 🇭🇰 D07 香港*
+      - 🇭🇰 公测|香港 03 1x
+      - 🇰🇷 公测|韩国 04 1x
+      - 🇰🇷 公测|韩国 05 1x 4
+      - 🇯🇵 公测|日本 04 1x 3
+      - 🇯🇵 公测|日本 05 1x 2
+      - 🇯🇵 公测|日本 05 1x 3
+      - 🇭🇰 公测|香港 03 1x 2
+      - 🇰🇷 公测|韩国 04 1x 2
+      - 🇰🇷 公测|韩国 05 1x 5
+      - 🇯🇵 公测|日本 04 1x 4
+      - 🇰🇷 公测|韩国 02 1x 2
+      - 🇰🇷 公测|韩国 03 1x
+      - 🇰🇷 公测|韩国 02 1x 3
+      - 🇸🇪 瑞典_Telegram@kxswa
+      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇯🇵 公测|日本 04 1x 5
+      - 🇯🇵 公测|日本 03 1x 3
+      - 🇰🇷 公测|韩国 03 1x 2
+      - 🇰🇷 公测|韩国 04 1x 3
+      - 🇯🇵 公测|日本 05 1x 4
+      - 🇰🇷 公测|韩国 03 1x 3
+      - 🇯🇵 公测|日本 03 1x 4
       - 🇭🇰 香港_Telegram@kxswa 13
-      - 🇭🇰 B02 香港
-      - 🇭🇰 B00 香港
-      - 🇸🇬 D55 新加坡*
-      - 🇭🇰 B04 香港P*
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 D05 香港NoAd*
-      - 🇸🇬 D54 新加坡*
-      - 🇺🇸 美国|【节点优先级】按量>[不限量]>[免费]>[公共订阅]|共享
-      - 🏳️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 ️‍🌈 美国|【注册免费领1TB流量】前往-注册|共享
-      - 🇭🇰 香港_Telegram@kxswa 5
-      - H60 南极 [3]
+      - 🇰🇷 公测|韩国 03 1x 4
+      - 🇭🇰 公测|香港 05 1x
+      - 🇺🇸 美国_Telegram@kxswa 37
+      - 🇰🇷 公测|韩国 04 1x 4
+      - 🇭🇰 公测|香港 03 1x 3
+      - 🇰🇷 公测|韩国 04 1x 5
+      - 🇯🇵 公测|日本 02 1x 2
+      - 🇯🇵 公测|日本 02 1x 3
+      - 🇯🇵 公测|日本 01 1x
+      - 🇰🇷 公测|韩国 02 1x 4
+      - 🇯🇵 公测|日本 01 1x 2
+      - 🇰🇷 公测|韩国 02 1x 5
+      - 🇰🇷 公测|韩国 02 1x 6
+      - 🇯🇵 公测|日本 04 1x 6
+      - 🇰🇷 公测|韩国 04 1x 6
+      - 🇯🇵 公测|日本 03 1x 5
+      - 🇰🇷 公测|韩国 05 1x 6
+      - 🇺🇸 美国_Telegram@kxswa 33
+      - 🇯🇵 公测|日本 04 1x 7
       - 🇺🇸 美国|【公共订阅】动态速率油管最低720P保证|GPT+流媒体|共享
-      - 🇨🇳 D14 台湾*
+      - 🇯🇵 日本_Telegram@kxswa 6
+      - 🇭🇰 公测|香港 02 1x
+      - 🇭🇰 公测|香港 03 1x 4
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇰🇷 公测|韩国 04 1x 7
+      - 🇰🇷 公测|韩国 03 1x 5
+      - 🇯🇵 公测|日本 02 1x 4
+      - 🇺🇸 美国_Telegram@kxswa 35
+      - 🇭🇰 公测|香港 04 1x 2
+      - 🇭🇰 香港_Telegram@kxswa 16
+      - 🇯🇵 公测|日本 02 1x 5
+      - 🇰🇷 公测|韩国 02 1x 7
+      - 🇸🇬 [直连] 新加坡高速 8 C
+      - 🇯🇵 日本|@ripaojiedian
+      - 🇺🇸 公测|美国 05 1x
   - name: 🎯 不挂代理
     type: select
     proxies:
