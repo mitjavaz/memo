@@ -1,3 +1,0 @@
-### Intro
-
-Introduce the library, write whatever you want to write...
