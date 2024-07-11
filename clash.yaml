@@ -5,88 +5,138 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本1, server: jp-1-t2bh2lhv.2819v2rhzb56.download, port: 80, type: vmess, uuid: 0d792958-3ded-407e-b1b0-57e624da91a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp-1-t2bh2lhv.2819v2rhzb56.download}}}
-  - {name: 🇯🇵 负载均衡｜日本JP下载线路, server: gd1.chuanping.wang, port: 10597, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 🇺🇸 美国03, server: kfcus03.kfccloud.cc, port: 43013, type: ss, cipher: chacha20-ietf-poly1305, password: d4e11b83-15e8-4c38-b950-cb69e9a49682}
-  - {name: 🇫🇷 法国, server: 85.117.235.107, port: 65123, type: ss, cipher: aes-256-gcm, password: a6fd0116b1bdfcc7}
-  - {name: 🇨🇳 Netflix｜台湾TW解锁B, server: gd3.chuanping.wang, port: 10516, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: Relay_-🇺🇸US_41 |17.35Mb, server: 104.19.47.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 🇫🇷 法国 2, server: 185.22.155.70, port: 65219, type: ss, cipher: aes-256-gcm, password: afe96c75b1061b72}
-  - {name: 🇯🇵 Netflix｜日本JP解锁A, server: gd1.chuanping.wang, port: 10522, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 🇺🇸 负载均衡｜美国US下载线路, server: gd1.chuanping.wang, port: 10599, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇸🇬 Netflix｜新加坡SG解锁A, server: gd3.chuanping.wang, port: 10559, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 🇺🇸 美国02, server: kfcus02.kfccloud.cc, port: 43012, type: ss, cipher: chacha20-ietf-poly1305, password: d4e11b83-15e8-4c38-b950-cb69e9a49682}
-  - {name: 🇨🇦 加拿大6丨电报群@bp520, server: 162.159.133.16, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
-  - {name: 🇺🇸 Netflix｜美国US解锁A, server: gd3.chuanping.wang, port: 10557, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: "🇸🇬 VIP(SG, Singapore)", server: 13.125.231.16, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: ipv6免流-请自行修改host, server: bper8.visaapp.top, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bper8.visaapp.top}}}
-  - {name: 🇬🇧 英国5丨ChatGpt, server: 162.159.134.15, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uk3.889611.com}}}
-  - {name: 🇯🇵 日本2, server: jp-2-t2bh2lhv.2819v2rhzb56.download, port: 80, type: vmess, uuid: 0d792958-3ded-407e-b1b0-57e624da91a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp-2-t2bh2lhv.2819v2rhzb56.download}}}
-  - {name: 🇨🇦 加拿大2丨电报群@bp520, server: 104.18.15.148, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
-  - {name: 🇬🇧 英国2丨ChatGpt, server: 162.159.134.12, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: uk3.889611.com}}}
-  - {name: Relay_🇨🇴CO-🇺🇸US_73 | 7.55Mb, server: 188.114.98.40, port: 80, type: vmess, uuid: f491cbe4-7548-446c-8d3e-64008e3b1325, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl3.127.0.0.1.control.控制.kонтроль.cводкаhовостей.農達懲罰.wonkacapitano.buzz.}}}
-  - {name: 🇰🇷 韩国, server: 85.117.234.80, port: 65421, type: ss, cipher: aes-256-gcm, password: a0daf0e33429fe3f}
-  - {name: 🇨🇳 Netflix｜台湾TW解锁A, server: gd1.chuanping.wang, port: 10521, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇨🇳 VIP｜台湾TW1, server: gd2.chuanping.wang, port: 10572, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 🇺🇸 美国光速4, server: 104.18.15.150, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ustoucjjnid18sj6us.lovebaipiao.com}}}
-  - {name: "🇯🇵 VIP(JP, Osaka)", server: 122.248.226.68, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: 🇸🇬 新加坡3, server: sg-3-pzz03vm5.2819v2rhzb56.download, port: 80, type: vmess, uuid: 0d792958-3ded-407e-b1b0-57e624da91a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg-3-pzz03vm5.2819v2rhzb56.download}}}
-  - {name: 「🇩🇪」EMO | 冰灵果 x1, server: v037.emovpn.xyz, port: 8443, type: vmess, uuid: 50fc331b-df55-4df9-93a5-0132f516e542, alterId: 0, cipher: auto, tls: true, servername: v037.emovpn.xyz, network: ws, ws-opts: {path: /, headers: {Host: v037.emovpn.xyz}}}
-  - {name: 🇷🇺 俄罗斯ss-iPV6, server: bper8.visaapp.top, port: 51753, type: ss, cipher: aes-128-gcm, password: c8f92a11-9760-4574-96f4-d0c5165fef96}
-  - {name: 🇷🇺 俄罗斯-cn2专线-去广告, server: eedp257bubu2wefy.lovebaipiao.net, port: 54321, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iphone, headers: {Host: www.apple.com}}}
-  - {name: 🇷🇺 俄罗斯2-cn2专线-去广告, server: eedp257bubu2wefy2.lovebaipiao.net, port: 54321, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iphone, headers: {Host: www.apple.com}}}
-  - {name: 🇨🇦 加拿大3丨电报群@bp520, server: 162.159.133.13, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.visaapp.top}}}
-  - {name: 🇯🇵 Netflix｜日本JP解锁B, server: gd1.chuanping.wang, port: 10524, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: "🇭🇰 VIP(HK, Kowloon)", server: 3.38.179.87, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: 🇯🇵 日本3, server: jp-3-t2bh2lhv.2819v2rhzb56.download, port: 80, type: vmess, uuid: 0d792958-3ded-407e-b1b0-57e624da91a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp-3-t2bh2lhv.2819v2rhzb56.download}}}
-  - {name: "🇯🇵 VIP(JP, Tokyo)", server: 3.0.103.193, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: 🇺🇸 美国2-baipiaoyes.top, server: 104.19.174.68, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ustoucjjnid18sj6us.lovebaipiao.com}}}
-  - {name: 🇺🇸 Netflix｜美国US解锁A 2, server: gd3.chuanping.wang, port: 10557, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇯🇵 Netflix｜日本JP解锁B 2, server: gd1.chuanping.wang, port: 10524, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 🇯🇵 日本03丨GPT, server: kfcjp03.kfccloud.cc, port: 42003, type: ss, cipher: chacha20-ietf-poly1305, password: d4e11b83-15e8-4c38-b950-cb69e9a49682}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_114 |230.94Mb, server: 172.64.99.32, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb, server: 172.64.167.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 🇭🇰 VIP｜香港HKT, server: gd2.chuanping.wang, port: 10574, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇯🇵 Netflix｜日本JP解锁A 2, server: gd1.chuanping.wang, port: 10522, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇨🇳 Netflix｜台湾TW解锁A 2, server: gd1.chuanping.wang, port: 10521, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 「🇺🇸」EMO | 天元果 x1, server: v033.emovpn.xyz, port: 443, type: vmess, uuid: 50fc331b-df55-4df9-93a5-0132f516e542, alterId: 0, cipher: auto, tls: true, servername: v033.emovpn.xyz, network: ws, ws-opts: {path: /, headers: {Host: v033.emovpn.xyz}}}
-  - {name: 🇭🇰 Netflix｜香港HK解锁A, server: gd3.chuanping.wang, port: 10517, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇸🇬 Netflix｜新加坡SG解锁B, server: gd3.chuanping.wang, port: 10522, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 「🇬🇧」EMO | 红富士 x1, server: v034.emovpn.xyz, port: 8443, type: vmess, uuid: 50fc331b-df55-4df9-93a5-0132f516e542, alterId: 0, cipher: auto, tls: true, servername: v034.emovpn.xyz, network: ws, ws-opts: {path: /, headers: {Host: v034.emovpn.xyz}}}
-  - {name: Relay_-🇺🇸US_09 | 7.42Mb, server: 104.19.46.39, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 🇸🇬 Netflix｜新加坡SG解锁B 2, server: gd3.chuanping.wang, port: 10522, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: "🇨🇦 VIP(CA, Vancouver)", server: 35.87.29.150, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: 🇨🇳 VIP｜台湾TW1 2, server: gd2.chuanping.wang, port: 10572, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇯🇵 负载均衡｜日本JP下载线路 2, server: gd1.chuanping.wang, port: 10597, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇸🇬 Netflix｜新加坡SG解锁C, server: gd3.chuanping.wang, port: 10524, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇺🇸 美国3, server: us-3-a1svnbpi.2819v2rhzb56.download, port: 80, type: vmess, uuid: 0d792958-3ded-407e-b1b0-57e624da91a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-3-a1svnbpi.2819v2rhzb56.download}}}
-  - {name: 🇺🇸 美国光速6, server: 162.159.142.209, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us3.visaapp.top}}}
-  - {name: 🇺🇸 美国优化-01, server: us.bunnyspeedox.online, port: 80, type: vmess, uuid: fe6522fa-bf00-4b22-b553-7ceb77b90e05, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us.bunnyspeedox.online}}}
-  - {name: 🇸🇬 负载均衡｜新加坡SG下载线路, server: gd1.chuanping.wang, port: 10596, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 🇯🇵 日本4, server: jp-4-t2bh2lhv.2819v2rhzb56.download, port: 80, type: vmess, uuid: 0d792958-3ded-407e-b1b0-57e624da91a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp-4-t2bh2lhv.2819v2rhzb56.download}}}
-  - {name: 🇨🇦 加拿大1丨电报群@bp520, server: 104.18.15.147, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca3.889611.com}}}
-  - {name: 🇺🇸 美国1, server: us-1-a1svnbpi.2819v2rhzb56.download, port: 80, type: vmess, uuid: 0d792958-3ded-407e-b1b0-57e624da91a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-1-a1svnbpi.2819v2rhzb56.download}}}
-  - {name: 🇸🇬 新加坡2, server: sg-2-pzz03vm5.2819v2rhzb56.download, port: 80, type: vmess, uuid: 0d792958-3ded-407e-b1b0-57e624da91a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg-2-pzz03vm5.2819v2rhzb56.download}}}
-  - {name: Relay_-🇺🇸US_37 | 9.67Mb, server: 104.19.21.71, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 🇸🇬 Netflix｜新加坡SG解锁A 2, server: gd3.chuanping.wang, port: 10559, type: ss, cipher: aes-128-gcm, password: 558b0889-a54a-401c-a085-022c308623ca}
-  - {name: 🇺🇸 美国光速2, server: 104.18.15.148, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ustoucjjnid18sj6us.lovebaipiao.com}}}
-  - {name: 🇭🇰 VIP｜香港HKT 2, server: gd2.chuanping.wang, port: 10574, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: CO_70 |27.28Mb, server: 188.114.96.3, port: 80, type: vmess, uuid: 43ac3b21-2e9b-4a7c-aef6-2e4b8f73ce2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.kleksacademy.克萊克斯學院.aкадемияkлекс.警笛.wonkacapitano.buzz.}}}
-  - {name: 「🇫🇷」EMO | 冰糖心 x1, server: v035.emovpn.xyz, port: 443, type: vmess, uuid: 50fc331b-df55-4df9-93a5-0132f516e542, alterId: 0, cipher: auto, tls: true, servername: v035.emovpn.xyz, network: ws, ws-opts: {path: /, headers: {Host: v035.emovpn.xyz}}}
-  - {name: 🇺🇸 美国3-baipiaoyes.top, server: 162.159.133.42, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ustoucjjnid18sj6us.lovebaipiao.com}}}
-  - {name: "🇨🇳 VIP(TW, Taipei)", server: 13.125.132.18, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: 🇭🇰 Netflix｜香港HK解锁A 2, server: gd3.chuanping.wang, port: 10517, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 「加入会员解锁流媒体」x5, server: v002.emovpn.xyz, port: 2053, type: vmess, uuid: 50fc331b-df55-4df9-93a5-0132f516e542, alterId: 0, cipher: auto, tls: true, servername: v002.emovpn.xyz, network: ws, ws-opts: {path: /, headers: {Host: v002.emovpn.xyz}}}
-  - {name: Relay_-🇺🇸US_38 |11.37Mb, server: 104.19.47.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 🇷🇺 俄罗斯3-cn2专线-去广告, server: eedp257bubu2wefy3.lovebaipiao.net, port: 80, type: vmess, uuid: c8f92a11-9760-4574-96f4-d0c5165fef96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iphone, headers: {Host: www.apple.com}}}
-  - {name: "🇰🇷 VIP(KR, Incheon)", server: 47.129.42.209, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: 🇺🇸 负载均衡｜美国US下载线路 2, server: gd1.chuanping.wang, port: 10599, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: 🇸🇬 Netflix｜新加坡SG解锁C 2, server: gd3.chuanping.wang, port: 10524, type: ss, cipher: aes-128-gcm, password: 9996ab11-2b26-4667-8315-f0d1e4464a78}
-  - {name: "🇺🇸 VIP(US, California)", server: 52.13.11.118, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: 🇺🇸 美国2, server: us-2-a1svnbpi.2819v2rhzb56.download, port: 80, type: vmess, uuid: 0d792958-3ded-407e-b1b0-57e624da91a6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-2-a1svnbpi.2819v2rhzb56.download}}}
-  - {name: 🇬🇧 英国01, server: kfcuk.kfccloud.cc, port: 43021, type: ss, cipher: chacha20-ietf-poly1305, password: d4e11b83-15e8-4c38-b950-cb69e9a49682}
+  - {name: 免费梯子https://t.me/mftizi, server: 183.240.235.166, port: 31778, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 关注频道https://t.me/mftizi, server: sg1111.156786.xyz, port: 703, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: sg1111.156786.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 长期更新节点@mftizi, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: c712c725-149f-414a-a684-1e17d137fe4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/ibCT6z55, headers: {Host: agzbjszujp4.yofnhkfc.xyz}}}
+  - {name: 关注电报https://t.me/mftizi, server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}}
+  - {name: 🇸🇬 长期更新节点@mftizi 2, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: c712c725-149f-414a-a684-1e17d137fe4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}}
+  - {name: 🇪🇬 埃及｜2x CAI, server: north-africa.1.mint-cloud.co.uk, port: 49497, type: ss, cipher: chacha20-ietf-poly1305, password: 912bfb9e-d029-428f-8175-a3146556ee1d}
+  - {name: "🇸🇬 新加坡 [ 1x ] B", server: a006.standard-nodes-chickenfarms.com, port: 50000, type: ss, cipher: aes-256-gcm, password: 471f819a-7011-4a18-aba9-737fb1221f83}
+  - {name: "🇰🇷 首尔 [ 1x ] B", server: a008.standard-nodes-chickenfarms.com, port: 50000, type: ss, cipher: aes-256-gcm, password: 471f819a-7011-4a18-aba9-737fb1221f83}
+  - {name: "🇰🇷 首尔 [ 1x ] C", server: a017.standard-nodes-chickenfarms.com, port: 50000, type: ss, cipher: aes-256-gcm, password: 471f819a-7011-4a18-aba9-737fb1221f83}
+  - {name: 🇷🇴 罗马尼亚|cf优选, server: www.okcupid.com, port: 443, type: vmess, uuid: cbc5ad2e-8389-4a5a-962e-8ff74045a28f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: hl2.888553.xyz}}}
+  - {name: 🇹🇷 土耳其|cf优选, server: www.okcupid.com, port: 8443, type: vmess, uuid: cbc5ad2e-8389-4a5a-962e-8ff74045a28f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: mutu.888553.xyz}}}
+  - {name: "🇭🇰 [香港] Hong Kong  2", server: mb2.myzf.xyz, port: 16205, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇭🇰 [香港] Hong Kong  3", server: c6.myzf.xyz, port: 38730, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇭🇰 [香港] Hong Kong  5", server: sz.myzf.xyz, port: 14923, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇭🇰 [香港] Hong Kong  6", server: zy.myzf.xyz, port: 14923, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇨🇳 [台湾] Taiwan 1", server: zy.myzf.xyz, port: 23484, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇨🇳 [台湾] Taiwan 2", server: mb2.myzf.xyz, port: 14988, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇯🇵 [日本] Japan 1", server: zy.myzf.xyz, port: 41799, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇯🇵 [日本] Japan 2", server: zz.myzf.xyz, port: 41799, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇸🇬 [新加坡] Singapore 1", server: zy.myzf.xyz, port: 43059, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇰🇭 [柬埔寨] Cambodia 1", server: mb2.myzf.xyz, port: 47997, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇻🇳 [越南] Vietnam 1", server: zy.myzf.xyz, port: 33744, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇮🇩 [印度尼西亚] Indonesia 1", server: zy.myzf.xyz, port: 19409, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇺🇸 [美国] United States 1", server: c6.myzf.xyz, port: 22514, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇺🇸 [美国] United States 2", server: mb2.myzf.xyz, port: 22514, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇺🇸 [美国] United States 3", server: zy.myzf.xyz, port: 46244, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇺🇸 [美国] United States 4", server: zz.myzf.xyz, port: 46244, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇬🇧 [英国] United Kingdom 1", server: zy.myzf.xyz, port: 48375, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇬🇧 [英国] United Kingdom 2", server: mb2.myzf.xyz, port: 11024, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: "🇹🇷 [土耳其] Turkey", server: mb2.myzf.xyz, port: 29707, type: ss, cipher: chacha20-ietf-poly1305, password: c53bbcfa-81b4-4194-a90b-a882130ca6b7}
+  - {name: Relay_-🇺🇸US_35 |37.45Mb, server: 104.19.55.49, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_-🇺🇸US_45 | 2.59Mb, server: 104.19.58.175, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_-🇺🇸US_59 | 2.32Mb, server: 172.64.166.9, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_68 |951.87Mb, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}}
+  - {name: Relay_🇨🇴CO-🇺🇸US_83 |32.90Mb, server: 188.114.98.40, port: 80, type: vmess, uuid: f491cbe4-7548-446c-8d3e-64008e3b1325, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl3.127.0.0.1.control.控制.kонтроль.cводкаhовостей.農達懲罰.wonkacapitano.buzz.}}}
+  - {name: Relay_🇨🇴CO-🇷🇺RU_85 | 3.36Mb, server: 188.114.97.3, port: 80, type: vmess, uuid: b79a6959-6feb-43ba-b3c7-f1afae9ea32c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: Uk2.vmess.site.}}}
+  - {name: 🇳🇱 Relay_🇳🇱NL-🇺🇸US_123 |15.64Mb, server: 45.131.208.228, port: 80, type: vmess, uuid: f491cbe4-7548-446c-8d3e-64008e3b1325, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl3.127.0.0.1.control.控制.kонтроль.cводкаhовостей.農達懲罰.wonkacapitano.buzz.}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 | 3.90Mb, server: 172.64.166.28, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇦UA_158 | 2.06Mb, server: 66.81.247.246, port: 80, type: vmess, uuid: 28f8d51a-0e75-4fc3-a36e-03bf4e4d0910, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.太空學員.jосмическийкадет.spacecadet.安靜的地方第天day0ne.wonkacapitano.buzz.}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_159 | 3.46Mb, server: 172.64.166.33, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_172 | 3.63Mb, server: 172.64.167.35, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_178 | 3.37Mb, server: 172.64.175.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |304.66Mb, server: 172.64.99.32, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb, server: 172.64.166.16, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_197 |18.71Mb, server: 172.64.166.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_202 | 2.06Mb, server: 104.26.0.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: Pool_🇺🇸US_203 |222.17Mb, server: 107.167.20.182, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.15314695.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_204 | 1.86Mb, server: 104.26.7.132, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 | 2.41Mb, server: 172.64.99.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_228 | 2.83Mb, server: 104.19.47.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb, server: 104.20.239.88, port: 80, type: vmess, uuid: 9ac947aa-de86-41c3-9a60-4c061c7c95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl3.plot.cценарий.劇情голов0рез.fir3brand.煽動者追逐雷恩.погонезаpейн.wonkacapitano.buzz.}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_235 | 2.14Mb, server: 104.19.21.63, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb, server: 104.19.55.49, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_241 | 4.56Mb, server: 104.19.42.49, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_244 |31.89Mb, server: 104.19.59.99, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_246 | 1.83Mb, server: 104.19.38.12, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_253 | 2.61Mb, server: 104.19.46.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_257 | 2.05Mb, server: 104.19.47.45, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_258 | 3.48Mb, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb, server: 104.19.57.4, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb, server: 104.19.32.226, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_271 | 3.07Mb, server: 104.19.45.42, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_275 | 1.83Mb, server: 104.20.17.186, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_280 |989.73Mb, server: 104.19.21.71, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_281 | 2.72Mb, server: 104.17.106.151, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇱🇻LV_282 |12.95Mb, server: 104.22.30.97, port: 80, type: vmess, uuid: 2ac4e269-1576-4f41-8c0d-6242e3c5fd8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 1270.0.1.dl3.烏克爾拯救聖誕老人電影.yркельпасаетcанту.фильм.urkel.烏克爾救援.wonkacapitano.buzz.}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb, server: 104.19.123.31, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb, server: 104.18.57.121, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_295 | 2.45Mb, server: 104.19.47.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_296 | 2.66Mb, server: 104.19.46.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: "[直连] 亚太普速 1", server: tls.01.node-for-bigairport.win, port: 11443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.01.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 4", server: tls.04.node-for-bigairport.win, port: 23443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.04.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 6", server: tls.06.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.06.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 8", server: tls.08.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.08.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 9", server: tls.09.node-for-bigairport.win, port: 55443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.09.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 10", server: tls.10.node-for-bigairport.win, port: 11443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.10.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 11", server: tls.11.node-for-bigairport.win, port: 22443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.11.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 13", server: tls.13.node-for-bigairport.win, port: 44443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.13.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 16", server: tls.16.node-for-bigairport.win, port: 12443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.16.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 18", server: tls.18.node-for-bigairport.win, port: 22443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.18.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 19", server: tls.19.node-for-bigairport.win, port: 33443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.19.node-for-bigairport.win}}}
+  - {name: "[直连] 亚太普速 20", server: tls.20.node-for-bigairport.win, port: 44443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.20.node-for-bigairport.win}}}
+  - {name: "🇭🇰 [直连] 香港高速 1 C", server: 0000000000000000000000000061.cgroup-node-for-bigairport.sbs, port: 22351, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000061.cgroup-node-for-bigairport.sbs}}}
+  - {name: "🇯🇵 [直连] 日本高速 2 C", server: 0000000000000000000000000062.cgroup-node-for-bigairport.sbs, port: 42351, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000062.cgroup-node-for-bigairport.sbs}}}
+  - {name: "🇺🇸 [直连] 美国高速 5 C", server: 0000000000000000000000000065.cgroup-node-for-bigairport.sbs, port: 22353, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000065.cgroup-node-for-bigairport.sbs}}}
+  - {name: "🇭🇰 [直连] 香港高速 6 C", server: 0000000000000000000000000066.cgroup-node-for-bigairport.sbs, port: 42353, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000066.cgroup-node-for-bigairport.sbs}}}
+  - {name: "[直连] 下载专用 1", server: tls.81.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.81.node-for-bigairport.win}}}
+  - {name: "[直连] 下载专用 3", server: tls.83.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.83.node-for-bigairport.win}}}
+  - {name: "[直连] 下载专用 5", server: tls.85.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.85.node-for-bigairport.win}}}
+  - {name: "[直连] 下载专用 10", server: tls.90.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.90.node-for-bigairport.win}}}
+  - {name: "[直连] 下载专用 14", server: tls.94.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.94.node-for-bigairport.win}}}
+  - {name: "[直连] 下载专用 15", server: tls.95.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.95.node-for-bigairport.win}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_233 |397.56Mb, server: 104.20.25.146, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 8, server: 183.240.235.162, port: 54882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: Relay_🏁ZZ-🇺🇸US_196 |43.50Mb, server: 104.19.47.36, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_203 |12.59Mb, server: 104.19.45.42, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
   - {name: 🇯🇵 日本, server: 46.17.43.226, port: 65120, type: ss, cipher: aes-256-gcm, password: a1029556716953a9}
-  - {name: 🇨🇳 台湾02, server: kfctw02.kfccloud.cc, port: 48081, type: ss, cipher: chacha20-ietf-poly1305, password: d4e11b83-15e8-4c38-b950-cb69e9a49682}
+  - {name: VPN招代理电报联系@litata2022, server: 183.236.51.23, port: 51707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: TG频道@MFJD666, server: 34.216.37.235, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_131 | 7.97Mb, server: 172.64.167.44, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_-🇺🇸US_41 |17.35Mb, server: 104.19.47.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_200 |25.97Mb, server: 104.19.46.17, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 12, server: 183.240.235.162, port: 36002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: Relay_🏁ZZ-🇨🇦CA_234 |457.45Mb, server: 104.19.123.11, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 🇮🇸 冰岛_Telegram@kxswa, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: Relay_🏁ZZ-🇺🇸US_181 |44.53Mb, server: 104.19.46.103, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
+  - {name: "🇰🇷 VIP(KR, Incheon)", server: 47.129.42.209, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
+  - {name: Relay_-🇺🇸US_37 | 9.67Mb, server: 104.19.21.71, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇭🇰 香港, server: 212.192.15.181, port: 65123, type: ss, cipher: aes-256-gcm, password: a0e33c102179c0b2}
+  - {name: Relay_🏁ZZ-🇺🇸US_235 |39.65Mb, server: 104.19.45.31, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_223 |57.59Mb, server: 104.19.45.50, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}}
+  - {name: "🇯🇵 VIP(JP, Tokyo)", server: 3.0.103.193, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
+  - {name: Relay_🏁ZZ-🇨🇦CA_177 | 8.24Mb, server: 104.19.46.63, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb, server: 172.64.167.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |14.55Mb, server: 172.64.167.29, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_226 |30.50Mb, server: 104.19.45.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_187 |48.40Mb, server: 104.19.46.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇺🇸US_209 | 1.72Mb, server: 104.19.58.175, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: "🇸🇬 VIP(SG, Singapore)", server: 13.125.231.16, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
+  - {name: "🇭🇰 VIP(HK, Kowloon)", server: 3.38.179.87, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
+  - {name: "🇨🇳 VIP(TW, Taipei)", server: 13.125.132.18, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
+  - {name: Relay_🏁ZZ-🇨🇦CA_172 |158.90Mb, server: 104.19.21.73, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_231 |338.83Mb, server: 104.20.17.196, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_127 | 2.75Mb, server: 172.64.166.12, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 |266.72Mb, server: 172.64.175.223, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 43, server: 47.129.0.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: Relay_🏁ZZ-🇨🇦CA_182 |177.61Mb, server: 104.19.42.79, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: 🇫🇷 法国, server: 85.117.235.107, port: 65123, type: ss, cipher: aes-256-gcm, password: a6fd0116b1bdfcc7}
+  - {name: 🇫🇷 法国 2, server: 185.22.155.70, port: 65219, type: ss, cipher: aes-256-gcm, password: afe96c75b1061b72}
+  - {name: 🇰🇷 韩国, server: 85.117.234.80, port: 65421, type: ss, cipher: aes-256-gcm, password: a0daf0e33429fe3f}
+  - {name: Relay_🏁ZZ-🇺🇸US_191 |20.27Mb, server: 104.19.45.35, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 8 2, server: 223.113.54.154, port: 23621, type: trojan, password: RmdXQRXg, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -98,350 +148,550 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇯🇵 日本1
-      - 🇯🇵 负载均衡｜日本JP下载线路
-      - 🇺🇸 美国03
-      - 🇫🇷 法国
-      - 🇨🇳 Netflix｜台湾TW解锁B
-      - Relay_-🇺🇸US_41 |17.35Mb
-      - 🇫🇷 法国 2
-      - 🇯🇵 Netflix｜日本JP解锁A
-      - 🇺🇸 负载均衡｜美国US下载线路
-      - 🇸🇬 Netflix｜新加坡SG解锁A
-      - 🇺🇸 美国02
-      - 🇨🇦 加拿大6丨电报群@bp520
-      - 🇺🇸 Netflix｜美国US解锁A
-      - 🇸🇬 VIP(SG, Singapore)
-      - ipv6免流-请自行修改host
-      - 🇬🇧 英国5丨ChatGpt
-      - 🇯🇵 日本2
-      - 🇨🇦 加拿大2丨电报群@bp520
-      - 🇬🇧 英国2丨ChatGpt
-      - Relay_🇨🇴CO-🇺🇸US_73 | 7.55Mb
-      - 🇰🇷 韩国
-      - 🇨🇳 Netflix｜台湾TW解锁A
-      - 🇨🇳 VIP｜台湾TW1
-      - 🇺🇸 美国光速4
-      - 🇯🇵 VIP(JP, Osaka)
-      - 🇸🇬 新加坡3
-      - 「🇩🇪」EMO | 冰灵果 x1
-      - 🇷🇺 俄罗斯ss-iPV6
-      - 🇷🇺 俄罗斯-cn2专线-去广告
-      - 🇷🇺 俄罗斯2-cn2专线-去广告
-      - 🇨🇦 加拿大3丨电报群@bp520
-      - 🇯🇵 Netflix｜日本JP解锁B
-      - 🇭🇰 VIP(HK, Kowloon)
-      - 🇯🇵 日本3
-      - 🇯🇵 VIP(JP, Tokyo)
-      - 🇺🇸 美国2-baipiaoyes.top
-      - 🇺🇸 Netflix｜美国US解锁A 2
-      - 🇯🇵 Netflix｜日本JP解锁B 2
-      - 🇯🇵 日本03丨GPT
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_114 |230.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb
-      - 🇭🇰 VIP｜香港HKT
-      - 🇯🇵 Netflix｜日本JP解锁A 2
-      - 🇨🇳 Netflix｜台湾TW解锁A 2
-      - 「🇺🇸」EMO | 天元果 x1
-      - 🇭🇰 Netflix｜香港HK解锁A
-      - 🇸🇬 Netflix｜新加坡SG解锁B
-      - 「🇬🇧」EMO | 红富士 x1
-      - Relay_-🇺🇸US_09 | 7.42Mb
-      - 🇸🇬 Netflix｜新加坡SG解锁B 2
-      - 🇨🇦 VIP(CA, Vancouver)
-      - 🇨🇳 VIP｜台湾TW1 2
-      - 🇯🇵 负载均衡｜日本JP下载线路 2
-      - 🇸🇬 Netflix｜新加坡SG解锁C
-      - 🇺🇸 美国3
-      - 🇺🇸 美国光速6
-      - 🇺🇸 美国优化-01
-      - 🇸🇬 负载均衡｜新加坡SG下载线路
-      - 🇯🇵 日本4
-      - 🇨🇦 加拿大1丨电报群@bp520
-      - 🇺🇸 美国1
-      - 🇸🇬 新加坡2
-      - Relay_-🇺🇸US_37 | 9.67Mb
-      - 🇸🇬 Netflix｜新加坡SG解锁A 2
-      - 🇺🇸 美国光速2
-      - 🇭🇰 VIP｜香港HKT 2
-      - CO_70 |27.28Mb
-      - 「🇫🇷」EMO | 冰糖心 x1
-      - 🇺🇸 美国3-baipiaoyes.top
-      - 🇨🇳 VIP(TW, Taipei)
-      - 🇭🇰 Netflix｜香港HK解锁A 2
-      - 「加入会员解锁流媒体」x5
-      - Relay_-🇺🇸US_38 |11.37Mb
-      - 🇷🇺 俄罗斯3-cn2专线-去广告
-      - 🇰🇷 VIP(KR, Incheon)
-      - 🇺🇸 负载均衡｜美国US下载线路 2
-      - 🇸🇬 Netflix｜新加坡SG解锁C 2
-      - 🇺🇸 VIP(US, California)
-      - 🇺🇸 美国2
-      - 🇬🇧 英国01
+      - 免费梯子https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 🇸🇬 长期更新节点@mftizi
+      - 关注电报https://t.me/mftizi
+      - 🇸🇬 长期更新节点@mftizi 2
+      - 🇪🇬 埃及｜2x CAI
+      - 🇸🇬 新加坡 [ 1x ] B
+      - 🇰🇷 首尔 [ 1x ] B
+      - 🇰🇷 首尔 [ 1x ] C
+      - 🇷🇴 罗马尼亚|cf优选
+      - 🇹🇷 土耳其|cf优选
+      - 🇭🇰 [香港] Hong Kong  2
+      - 🇭🇰 [香港] Hong Kong  3
+      - 🇭🇰 [香港] Hong Kong  5
+      - 🇭🇰 [香港] Hong Kong  6
+      - 🇨🇳 [台湾] Taiwan 1
+      - 🇨🇳 [台湾] Taiwan 2
+      - 🇯🇵 [日本] Japan 1
+      - 🇯🇵 [日本] Japan 2
+      - 🇸🇬 [新加坡] Singapore 1
+      - 🇰🇭 [柬埔寨] Cambodia 1
+      - 🇻🇳 [越南] Vietnam 1
+      - 🇮🇩 [印度尼西亚] Indonesia 1
+      - 🇺🇸 [美国] United States 1
+      - 🇺🇸 [美国] United States 2
+      - 🇺🇸 [美国] United States 3
+      - 🇺🇸 [美国] United States 4
+      - 🇬🇧 [英国] United Kingdom 1
+      - 🇬🇧 [英国] United Kingdom 2
+      - 🇹🇷 [土耳其] Turkey
+      - Relay_-🇺🇸US_35 |37.45Mb
+      - Relay_-🇺🇸US_45 | 2.59Mb
+      - Relay_-🇺🇸US_59 | 2.32Mb
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_68 |951.87Mb
+      - Relay_🇨🇴CO-🇺🇸US_83 |32.90Mb
+      - Relay_🇨🇴CO-🇷🇺RU_85 | 3.36Mb
+      - 🇳🇱 Relay_🇳🇱NL-🇺🇸US_123 |15.64Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 | 3.90Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇦UA_158 | 2.06Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_159 | 3.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_172 | 3.63Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_178 | 3.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |304.66Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_197 |18.71Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_202 | 2.06Mb
+      - Pool_🇺🇸US_203 |222.17Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_204 | 1.86Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 | 2.41Mb
+      - Relay_🏁ZZ-🇺🇸US_228 | 2.83Mb
+      - Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb
+      - Relay_🏁ZZ-🇺🇸US_235 | 2.14Mb
+      - Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb
+      - Relay_🏁ZZ-🇺🇸US_241 | 4.56Mb
+      - Relay_🏁ZZ-🇨🇦CA_244 |31.89Mb
+      - Relay_🏁ZZ-🇺🇸US_246 | 1.83Mb
+      - Relay_🏁ZZ-🇺🇸US_253 | 2.61Mb
+      - Relay_🏁ZZ-🇺🇸US_257 | 2.05Mb
+      - Relay_🏁ZZ-🇨🇦CA_258 | 3.48Mb
+      - Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb
+      - Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb
+      - Relay_🏁ZZ-🇺🇸US_271 | 3.07Mb
+      - Relay_🏁ZZ-🇺🇸US_275 | 1.83Mb
+      - Relay_🏁ZZ-🇨🇦CA_280 |989.73Mb
+      - Relay_🏁ZZ-🇺🇸US_281 | 2.72Mb
+      - Relay_🏁ZZ-🇱🇻LV_282 |12.95Mb
+      - Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb
+      - Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb
+      - Relay_🏁ZZ-🇺🇸US_295 | 2.45Mb
+      - Relay_🏁ZZ-🇺🇸US_296 | 2.66Mb
+      - "[直连] 亚太普速 1"
+      - "[直连] 亚太普速 4"
+      - "[直连] 亚太普速 6"
+      - "[直连] 亚太普速 8"
+      - "[直连] 亚太普速 9"
+      - "[直连] 亚太普速 10"
+      - "[直连] 亚太普速 11"
+      - "[直连] 亚太普速 13"
+      - "[直连] 亚太普速 16"
+      - "[直连] 亚太普速 18"
+      - "[直连] 亚太普速 19"
+      - "[直连] 亚太普速 20"
+      - 🇭🇰 [直连] 香港高速 1 C
+      - 🇯🇵 [直连] 日本高速 2 C
+      - 🇺🇸 [直连] 美国高速 5 C
+      - 🇭🇰 [直连] 香港高速 6 C
+      - "[直连] 下载专用 1"
+      - "[直连] 下载专用 3"
+      - "[直连] 下载专用 5"
+      - "[直连] 下载专用 10"
+      - "[直连] 下载专用 14"
+      - "[直连] 下载专用 15"
+      - Relay_🏁ZZ-🇨🇦CA_233 |397.56Mb
+      - 🇭🇰 香港_Telegram@kxswa 8
+      - Relay_🏁ZZ-🇺🇸US_196 |43.50Mb
+      - Relay_🏁ZZ-🇺🇸US_203 |12.59Mb
       - 🇯🇵 日本
-      - 🇨🇳 台湾02
+      - VPN招代理电报联系@litata2022
+      - TG频道@MFJD666
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_131 | 7.97Mb
+      - Relay_-🇺🇸US_41 |17.35Mb
+      - Relay_🏁ZZ-🇺🇸US_200 |25.97Mb
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - Relay_🏁ZZ-🇨🇦CA_234 |457.45Mb
+      - 🇮🇸 冰岛_Telegram@kxswa
+      - Relay_🏁ZZ-🇺🇸US_181 |44.53Mb
+      - 🇰🇷 VIP(KR, Incheon)
+      - Relay_-🇺🇸US_37 | 9.67Mb
+      - 🇭🇰 香港
+      - Relay_🏁ZZ-🇺🇸US_235 |39.65Mb
+      - Relay_🏁ZZ-🇺🇸US_223 |57.59Mb
+      - 🇯🇵 VIP(JP, Tokyo)
+      - Relay_🏁ZZ-🇨🇦CA_177 | 8.24Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |14.55Mb
+      - Relay_🏁ZZ-🇺🇸US_226 |30.50Mb
+      - Relay_🏁ZZ-🇺🇸US_187 |48.40Mb
+      - Relay_🏁ZZ-🇺🇸US_209 | 1.72Mb
+      - 🇸🇬 VIP(SG, Singapore)
+      - 🇭🇰 VIP(HK, Kowloon)
+      - 🇨🇳 VIP(TW, Taipei)
+      - Relay_🏁ZZ-🇨🇦CA_172 |158.90Mb
+      - Relay_🏁ZZ-🇨🇦CA_231 |338.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_127 | 2.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 |266.72Mb
+      - 🇺🇸 美国_Telegram@kxswa 43
+      - Relay_🏁ZZ-🇨🇦CA_182 |177.61Mb
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇰🇷 韩国
+      - Relay_🏁ZZ-🇺🇸US_191 |20.27Mb
+      - 🇭🇰 香港_Telegram@kxswa 8 2
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本1
-      - 🇯🇵 负载均衡｜日本JP下载线路
-      - 🇺🇸 美国03
-      - 🇫🇷 法国
-      - 🇨🇳 Netflix｜台湾TW解锁B
-      - Relay_-🇺🇸US_41 |17.35Mb
-      - 🇫🇷 法国 2
-      - 🇯🇵 Netflix｜日本JP解锁A
-      - 🇺🇸 负载均衡｜美国US下载线路
-      - 🇸🇬 Netflix｜新加坡SG解锁A
-      - 🇺🇸 美国02
-      - 🇨🇦 加拿大6丨电报群@bp520
-      - 🇺🇸 Netflix｜美国US解锁A
-      - 🇸🇬 VIP(SG, Singapore)
-      - ipv6免流-请自行修改host
-      - 🇬🇧 英国5丨ChatGpt
-      - 🇯🇵 日本2
-      - 🇨🇦 加拿大2丨电报群@bp520
-      - 🇬🇧 英国2丨ChatGpt
-      - Relay_🇨🇴CO-🇺🇸US_73 | 7.55Mb
-      - 🇰🇷 韩国
-      - 🇨🇳 Netflix｜台湾TW解锁A
-      - 🇨🇳 VIP｜台湾TW1
-      - 🇺🇸 美国光速4
-      - 🇯🇵 VIP(JP, Osaka)
-      - 🇸🇬 新加坡3
-      - 「🇩🇪」EMO | 冰灵果 x1
-      - 🇷🇺 俄罗斯ss-iPV6
-      - 🇷🇺 俄罗斯-cn2专线-去广告
-      - 🇷🇺 俄罗斯2-cn2专线-去广告
-      - 🇨🇦 加拿大3丨电报群@bp520
-      - 🇯🇵 Netflix｜日本JP解锁B
-      - 🇭🇰 VIP(HK, Kowloon)
-      - 🇯🇵 日本3
-      - 🇯🇵 VIP(JP, Tokyo)
-      - 🇺🇸 美国2-baipiaoyes.top
-      - 🇺🇸 Netflix｜美国US解锁A 2
-      - 🇯🇵 Netflix｜日本JP解锁B 2
-      - 🇯🇵 日本03丨GPT
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_114 |230.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb
-      - 🇭🇰 VIP｜香港HKT
-      - 🇯🇵 Netflix｜日本JP解锁A 2
-      - 🇨🇳 Netflix｜台湾TW解锁A 2
-      - 「🇺🇸」EMO | 天元果 x1
-      - 🇭🇰 Netflix｜香港HK解锁A
-      - 🇸🇬 Netflix｜新加坡SG解锁B
-      - 「🇬🇧」EMO | 红富士 x1
-      - Relay_-🇺🇸US_09 | 7.42Mb
-      - 🇸🇬 Netflix｜新加坡SG解锁B 2
-      - 🇨🇦 VIP(CA, Vancouver)
-      - 🇨🇳 VIP｜台湾TW1 2
-      - 🇯🇵 负载均衡｜日本JP下载线路 2
-      - 🇸🇬 Netflix｜新加坡SG解锁C
-      - 🇺🇸 美国3
-      - 🇺🇸 美国光速6
-      - 🇺🇸 美国优化-01
-      - 🇸🇬 负载均衡｜新加坡SG下载线路
-      - 🇯🇵 日本4
-      - 🇨🇦 加拿大1丨电报群@bp520
-      - 🇺🇸 美国1
-      - 🇸🇬 新加坡2
-      - Relay_-🇺🇸US_37 | 9.67Mb
-      - 🇸🇬 Netflix｜新加坡SG解锁A 2
-      - 🇺🇸 美国光速2
-      - 🇭🇰 VIP｜香港HKT 2
-      - CO_70 |27.28Mb
-      - 「🇫🇷」EMO | 冰糖心 x1
-      - 🇺🇸 美国3-baipiaoyes.top
-      - 🇨🇳 VIP(TW, Taipei)
-      - 🇭🇰 Netflix｜香港HK解锁A 2
-      - 「加入会员解锁流媒体」x5
-      - Relay_-🇺🇸US_38 |11.37Mb
-      - 🇷🇺 俄罗斯3-cn2专线-去广告
-      - 🇰🇷 VIP(KR, Incheon)
-      - 🇺🇸 负载均衡｜美国US下载线路 2
-      - 🇸🇬 Netflix｜新加坡SG解锁C 2
-      - 🇺🇸 VIP(US, California)
-      - 🇺🇸 美国2
-      - 🇬🇧 英国01
+      - 免费梯子https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 🇸🇬 长期更新节点@mftizi
+      - 关注电报https://t.me/mftizi
+      - 🇸🇬 长期更新节点@mftizi 2
+      - 🇪🇬 埃及｜2x CAI
+      - 🇸🇬 新加坡 [ 1x ] B
+      - 🇰🇷 首尔 [ 1x ] B
+      - 🇰🇷 首尔 [ 1x ] C
+      - 🇷🇴 罗马尼亚|cf优选
+      - 🇹🇷 土耳其|cf优选
+      - 🇭🇰 [香港] Hong Kong  2
+      - 🇭🇰 [香港] Hong Kong  3
+      - 🇭🇰 [香港] Hong Kong  5
+      - 🇭🇰 [香港] Hong Kong  6
+      - 🇨🇳 [台湾] Taiwan 1
+      - 🇨🇳 [台湾] Taiwan 2
+      - 🇯🇵 [日本] Japan 1
+      - 🇯🇵 [日本] Japan 2
+      - 🇸🇬 [新加坡] Singapore 1
+      - 🇰🇭 [柬埔寨] Cambodia 1
+      - 🇻🇳 [越南] Vietnam 1
+      - 🇮🇩 [印度尼西亚] Indonesia 1
+      - 🇺🇸 [美国] United States 1
+      - 🇺🇸 [美国] United States 2
+      - 🇺🇸 [美国] United States 3
+      - 🇺🇸 [美国] United States 4
+      - 🇬🇧 [英国] United Kingdom 1
+      - 🇬🇧 [英国] United Kingdom 2
+      - 🇹🇷 [土耳其] Turkey
+      - Relay_-🇺🇸US_35 |37.45Mb
+      - Relay_-🇺🇸US_45 | 2.59Mb
+      - Relay_-🇺🇸US_59 | 2.32Mb
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_68 |951.87Mb
+      - Relay_🇨🇴CO-🇺🇸US_83 |32.90Mb
+      - Relay_🇨🇴CO-🇷🇺RU_85 | 3.36Mb
+      - 🇳🇱 Relay_🇳🇱NL-🇺🇸US_123 |15.64Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 | 3.90Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇦UA_158 | 2.06Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_159 | 3.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_172 | 3.63Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_178 | 3.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |304.66Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_197 |18.71Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_202 | 2.06Mb
+      - Pool_🇺🇸US_203 |222.17Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_204 | 1.86Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 | 2.41Mb
+      - Relay_🏁ZZ-🇺🇸US_228 | 2.83Mb
+      - Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb
+      - Relay_🏁ZZ-🇺🇸US_235 | 2.14Mb
+      - Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb
+      - Relay_🏁ZZ-🇺🇸US_241 | 4.56Mb
+      - Relay_🏁ZZ-🇨🇦CA_244 |31.89Mb
+      - Relay_🏁ZZ-🇺🇸US_246 | 1.83Mb
+      - Relay_🏁ZZ-🇺🇸US_253 | 2.61Mb
+      - Relay_🏁ZZ-🇺🇸US_257 | 2.05Mb
+      - Relay_🏁ZZ-🇨🇦CA_258 | 3.48Mb
+      - Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb
+      - Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb
+      - Relay_🏁ZZ-🇺🇸US_271 | 3.07Mb
+      - Relay_🏁ZZ-🇺🇸US_275 | 1.83Mb
+      - Relay_🏁ZZ-🇨🇦CA_280 |989.73Mb
+      - Relay_🏁ZZ-🇺🇸US_281 | 2.72Mb
+      - Relay_🏁ZZ-🇱🇻LV_282 |12.95Mb
+      - Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb
+      - Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb
+      - Relay_🏁ZZ-🇺🇸US_295 | 2.45Mb
+      - Relay_🏁ZZ-🇺🇸US_296 | 2.66Mb
+      - "[直连] 亚太普速 1"
+      - "[直连] 亚太普速 4"
+      - "[直连] 亚太普速 6"
+      - "[直连] 亚太普速 8"
+      - "[直连] 亚太普速 9"
+      - "[直连] 亚太普速 10"
+      - "[直连] 亚太普速 11"
+      - "[直连] 亚太普速 13"
+      - "[直连] 亚太普速 16"
+      - "[直连] 亚太普速 18"
+      - "[直连] 亚太普速 19"
+      - "[直连] 亚太普速 20"
+      - 🇭🇰 [直连] 香港高速 1 C
+      - 🇯🇵 [直连] 日本高速 2 C
+      - 🇺🇸 [直连] 美国高速 5 C
+      - 🇭🇰 [直连] 香港高速 6 C
+      - "[直连] 下载专用 1"
+      - "[直连] 下载专用 3"
+      - "[直连] 下载专用 5"
+      - "[直连] 下载专用 10"
+      - "[直连] 下载专用 14"
+      - "[直连] 下载专用 15"
+      - Relay_🏁ZZ-🇨🇦CA_233 |397.56Mb
+      - 🇭🇰 香港_Telegram@kxswa 8
+      - Relay_🏁ZZ-🇺🇸US_196 |43.50Mb
+      - Relay_🏁ZZ-🇺🇸US_203 |12.59Mb
       - 🇯🇵 日本
-      - 🇨🇳 台湾02
+      - VPN招代理电报联系@litata2022
+      - TG频道@MFJD666
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_131 | 7.97Mb
+      - Relay_-🇺🇸US_41 |17.35Mb
+      - Relay_🏁ZZ-🇺🇸US_200 |25.97Mb
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - Relay_🏁ZZ-🇨🇦CA_234 |457.45Mb
+      - 🇮🇸 冰岛_Telegram@kxswa
+      - Relay_🏁ZZ-🇺🇸US_181 |44.53Mb
+      - 🇰🇷 VIP(KR, Incheon)
+      - Relay_-🇺🇸US_37 | 9.67Mb
+      - 🇭🇰 香港
+      - Relay_🏁ZZ-🇺🇸US_235 |39.65Mb
+      - Relay_🏁ZZ-🇺🇸US_223 |57.59Mb
+      - 🇯🇵 VIP(JP, Tokyo)
+      - Relay_🏁ZZ-🇨🇦CA_177 | 8.24Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |14.55Mb
+      - Relay_🏁ZZ-🇺🇸US_226 |30.50Mb
+      - Relay_🏁ZZ-🇺🇸US_187 |48.40Mb
+      - Relay_🏁ZZ-🇺🇸US_209 | 1.72Mb
+      - 🇸🇬 VIP(SG, Singapore)
+      - 🇭🇰 VIP(HK, Kowloon)
+      - 🇨🇳 VIP(TW, Taipei)
+      - Relay_🏁ZZ-🇨🇦CA_172 |158.90Mb
+      - Relay_🏁ZZ-🇨🇦CA_231 |338.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_127 | 2.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 |266.72Mb
+      - 🇺🇸 美国_Telegram@kxswa 43
+      - Relay_🏁ZZ-🇨🇦CA_182 |177.61Mb
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇰🇷 韩国
+      - Relay_🏁ZZ-🇺🇸US_191 |20.27Mb
+      - 🇭🇰 香港_Telegram@kxswa 8 2
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本1
-      - 🇯🇵 负载均衡｜日本JP下载线路
-      - 🇺🇸 美国03
-      - 🇫🇷 法国
-      - 🇨🇳 Netflix｜台湾TW解锁B
-      - Relay_-🇺🇸US_41 |17.35Mb
-      - 🇫🇷 法国 2
-      - 🇯🇵 Netflix｜日本JP解锁A
-      - 🇺🇸 负载均衡｜美国US下载线路
-      - 🇸🇬 Netflix｜新加坡SG解锁A
-      - 🇺🇸 美国02
-      - 🇨🇦 加拿大6丨电报群@bp520
-      - 🇺🇸 Netflix｜美国US解锁A
-      - 🇸🇬 VIP(SG, Singapore)
-      - ipv6免流-请自行修改host
-      - 🇬🇧 英国5丨ChatGpt
-      - 🇯🇵 日本2
-      - 🇨🇦 加拿大2丨电报群@bp520
-      - 🇬🇧 英国2丨ChatGpt
-      - Relay_🇨🇴CO-🇺🇸US_73 | 7.55Mb
-      - 🇰🇷 韩国
-      - 🇨🇳 Netflix｜台湾TW解锁A
-      - 🇨🇳 VIP｜台湾TW1
-      - 🇺🇸 美国光速4
-      - 🇯🇵 VIP(JP, Osaka)
-      - 🇸🇬 新加坡3
-      - 「🇩🇪」EMO | 冰灵果 x1
-      - 🇷🇺 俄罗斯ss-iPV6
-      - 🇷🇺 俄罗斯-cn2专线-去广告
-      - 🇷🇺 俄罗斯2-cn2专线-去广告
-      - 🇨🇦 加拿大3丨电报群@bp520
-      - 🇯🇵 Netflix｜日本JP解锁B
-      - 🇭🇰 VIP(HK, Kowloon)
-      - 🇯🇵 日本3
-      - 🇯🇵 VIP(JP, Tokyo)
-      - 🇺🇸 美国2-baipiaoyes.top
-      - 🇺🇸 Netflix｜美国US解锁A 2
-      - 🇯🇵 Netflix｜日本JP解锁B 2
-      - 🇯🇵 日本03丨GPT
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_114 |230.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb
-      - 🇭🇰 VIP｜香港HKT
-      - 🇯🇵 Netflix｜日本JP解锁A 2
-      - 🇨🇳 Netflix｜台湾TW解锁A 2
-      - 「🇺🇸」EMO | 天元果 x1
-      - 🇭🇰 Netflix｜香港HK解锁A
-      - 🇸🇬 Netflix｜新加坡SG解锁B
-      - 「🇬🇧」EMO | 红富士 x1
-      - Relay_-🇺🇸US_09 | 7.42Mb
-      - 🇸🇬 Netflix｜新加坡SG解锁B 2
-      - 🇨🇦 VIP(CA, Vancouver)
-      - 🇨🇳 VIP｜台湾TW1 2
-      - 🇯🇵 负载均衡｜日本JP下载线路 2
-      - 🇸🇬 Netflix｜新加坡SG解锁C
-      - 🇺🇸 美国3
-      - 🇺🇸 美国光速6
-      - 🇺🇸 美国优化-01
-      - 🇸🇬 负载均衡｜新加坡SG下载线路
-      - 🇯🇵 日本4
-      - 🇨🇦 加拿大1丨电报群@bp520
-      - 🇺🇸 美国1
-      - 🇸🇬 新加坡2
-      - Relay_-🇺🇸US_37 | 9.67Mb
-      - 🇸🇬 Netflix｜新加坡SG解锁A 2
-      - 🇺🇸 美国光速2
-      - 🇭🇰 VIP｜香港HKT 2
-      - CO_70 |27.28Mb
-      - 「🇫🇷」EMO | 冰糖心 x1
-      - 🇺🇸 美国3-baipiaoyes.top
-      - 🇨🇳 VIP(TW, Taipei)
-      - 🇭🇰 Netflix｜香港HK解锁A 2
-      - 「加入会员解锁流媒体」x5
-      - Relay_-🇺🇸US_38 |11.37Mb
-      - 🇷🇺 俄罗斯3-cn2专线-去广告
-      - 🇰🇷 VIP(KR, Incheon)
-      - 🇺🇸 负载均衡｜美国US下载线路 2
-      - 🇸🇬 Netflix｜新加坡SG解锁C 2
-      - 🇺🇸 VIP(US, California)
-      - 🇺🇸 美国2
-      - 🇬🇧 英国01
+      - 免费梯子https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 🇸🇬 长期更新节点@mftizi
+      - 关注电报https://t.me/mftizi
+      - 🇸🇬 长期更新节点@mftizi 2
+      - 🇪🇬 埃及｜2x CAI
+      - 🇸🇬 新加坡 [ 1x ] B
+      - 🇰🇷 首尔 [ 1x ] B
+      - 🇰🇷 首尔 [ 1x ] C
+      - 🇷🇴 罗马尼亚|cf优选
+      - 🇹🇷 土耳其|cf优选
+      - 🇭🇰 [香港] Hong Kong  2
+      - 🇭🇰 [香港] Hong Kong  3
+      - 🇭🇰 [香港] Hong Kong  5
+      - 🇭🇰 [香港] Hong Kong  6
+      - 🇨🇳 [台湾] Taiwan 1
+      - 🇨🇳 [台湾] Taiwan 2
+      - 🇯🇵 [日本] Japan 1
+      - 🇯🇵 [日本] Japan 2
+      - 🇸🇬 [新加坡] Singapore 1
+      - 🇰🇭 [柬埔寨] Cambodia 1
+      - 🇻🇳 [越南] Vietnam 1
+      - 🇮🇩 [印度尼西亚] Indonesia 1
+      - 🇺🇸 [美国] United States 1
+      - 🇺🇸 [美国] United States 2
+      - 🇺🇸 [美国] United States 3
+      - 🇺🇸 [美国] United States 4
+      - 🇬🇧 [英国] United Kingdom 1
+      - 🇬🇧 [英国] United Kingdom 2
+      - 🇹🇷 [土耳其] Turkey
+      - Relay_-🇺🇸US_35 |37.45Mb
+      - Relay_-🇺🇸US_45 | 2.59Mb
+      - Relay_-🇺🇸US_59 | 2.32Mb
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_68 |951.87Mb
+      - Relay_🇨🇴CO-🇺🇸US_83 |32.90Mb
+      - Relay_🇨🇴CO-🇷🇺RU_85 | 3.36Mb
+      - 🇳🇱 Relay_🇳🇱NL-🇺🇸US_123 |15.64Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 | 3.90Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇦UA_158 | 2.06Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_159 | 3.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_172 | 3.63Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_178 | 3.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |304.66Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_197 |18.71Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_202 | 2.06Mb
+      - Pool_🇺🇸US_203 |222.17Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_204 | 1.86Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 | 2.41Mb
+      - Relay_🏁ZZ-🇺🇸US_228 | 2.83Mb
+      - Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb
+      - Relay_🏁ZZ-🇺🇸US_235 | 2.14Mb
+      - Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb
+      - Relay_🏁ZZ-🇺🇸US_241 | 4.56Mb
+      - Relay_🏁ZZ-🇨🇦CA_244 |31.89Mb
+      - Relay_🏁ZZ-🇺🇸US_246 | 1.83Mb
+      - Relay_🏁ZZ-🇺🇸US_253 | 2.61Mb
+      - Relay_🏁ZZ-🇺🇸US_257 | 2.05Mb
+      - Relay_🏁ZZ-🇨🇦CA_258 | 3.48Mb
+      - Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb
+      - Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb
+      - Relay_🏁ZZ-🇺🇸US_271 | 3.07Mb
+      - Relay_🏁ZZ-🇺🇸US_275 | 1.83Mb
+      - Relay_🏁ZZ-🇨🇦CA_280 |989.73Mb
+      - Relay_🏁ZZ-🇺🇸US_281 | 2.72Mb
+      - Relay_🏁ZZ-🇱🇻LV_282 |12.95Mb
+      - Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb
+      - Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb
+      - Relay_🏁ZZ-🇺🇸US_295 | 2.45Mb
+      - Relay_🏁ZZ-🇺🇸US_296 | 2.66Mb
+      - "[直连] 亚太普速 1"
+      - "[直连] 亚太普速 4"
+      - "[直连] 亚太普速 6"
+      - "[直连] 亚太普速 8"
+      - "[直连] 亚太普速 9"
+      - "[直连] 亚太普速 10"
+      - "[直连] 亚太普速 11"
+      - "[直连] 亚太普速 13"
+      - "[直连] 亚太普速 16"
+      - "[直连] 亚太普速 18"
+      - "[直连] 亚太普速 19"
+      - "[直连] 亚太普速 20"
+      - 🇭🇰 [直连] 香港高速 1 C
+      - 🇯🇵 [直连] 日本高速 2 C
+      - 🇺🇸 [直连] 美国高速 5 C
+      - 🇭🇰 [直连] 香港高速 6 C
+      - "[直连] 下载专用 1"
+      - "[直连] 下载专用 3"
+      - "[直连] 下载专用 5"
+      - "[直连] 下载专用 10"
+      - "[直连] 下载专用 14"
+      - "[直连] 下载专用 15"
+      - Relay_🏁ZZ-🇨🇦CA_233 |397.56Mb
+      - 🇭🇰 香港_Telegram@kxswa 8
+      - Relay_🏁ZZ-🇺🇸US_196 |43.50Mb
+      - Relay_🏁ZZ-🇺🇸US_203 |12.59Mb
       - 🇯🇵 日本
-      - 🇨🇳 台湾02
+      - VPN招代理电报联系@litata2022
+      - TG频道@MFJD666
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_131 | 7.97Mb
+      - Relay_-🇺🇸US_41 |17.35Mb
+      - Relay_🏁ZZ-🇺🇸US_200 |25.97Mb
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - Relay_🏁ZZ-🇨🇦CA_234 |457.45Mb
+      - 🇮🇸 冰岛_Telegram@kxswa
+      - Relay_🏁ZZ-🇺🇸US_181 |44.53Mb
+      - 🇰🇷 VIP(KR, Incheon)
+      - Relay_-🇺🇸US_37 | 9.67Mb
+      - 🇭🇰 香港
+      - Relay_🏁ZZ-🇺🇸US_235 |39.65Mb
+      - Relay_🏁ZZ-🇺🇸US_223 |57.59Mb
+      - 🇯🇵 VIP(JP, Tokyo)
+      - Relay_🏁ZZ-🇨🇦CA_177 | 8.24Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |14.55Mb
+      - Relay_🏁ZZ-🇺🇸US_226 |30.50Mb
+      - Relay_🏁ZZ-🇺🇸US_187 |48.40Mb
+      - Relay_🏁ZZ-🇺🇸US_209 | 1.72Mb
+      - 🇸🇬 VIP(SG, Singapore)
+      - 🇭🇰 VIP(HK, Kowloon)
+      - 🇨🇳 VIP(TW, Taipei)
+      - Relay_🏁ZZ-🇨🇦CA_172 |158.90Mb
+      - Relay_🏁ZZ-🇨🇦CA_231 |338.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_127 | 2.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 |266.72Mb
+      - 🇺🇸 美国_Telegram@kxswa 43
+      - Relay_🏁ZZ-🇨🇦CA_182 |177.61Mb
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇰🇷 韩国
+      - Relay_🏁ZZ-🇺🇸US_191 |20.27Mb
+      - 🇭🇰 香港_Telegram@kxswa 8 2
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本1
-      - 🇯🇵 负载均衡｜日本JP下载线路
-      - 🇺🇸 美国03
-      - 🇫🇷 法国
-      - 🇨🇳 Netflix｜台湾TW解锁B
-      - Relay_-🇺🇸US_41 |17.35Mb
-      - 🇫🇷 法国 2
-      - 🇯🇵 Netflix｜日本JP解锁A
-      - 🇺🇸 负载均衡｜美国US下载线路
-      - 🇸🇬 Netflix｜新加坡SG解锁A
-      - 🇺🇸 美国02
-      - 🇨🇦 加拿大6丨电报群@bp520
-      - 🇺🇸 Netflix｜美国US解锁A
-      - 🇸🇬 VIP(SG, Singapore)
-      - ipv6免流-请自行修改host
-      - 🇬🇧 英国5丨ChatGpt
-      - 🇯🇵 日本2
-      - 🇨🇦 加拿大2丨电报群@bp520
-      - 🇬🇧 英国2丨ChatGpt
-      - Relay_🇨🇴CO-🇺🇸US_73 | 7.55Mb
-      - 🇰🇷 韩国
-      - 🇨🇳 Netflix｜台湾TW解锁A
-      - 🇨🇳 VIP｜台湾TW1
-      - 🇺🇸 美国光速4
-      - 🇯🇵 VIP(JP, Osaka)
-      - 🇸🇬 新加坡3
-      - 「🇩🇪」EMO | 冰灵果 x1
-      - 🇷🇺 俄罗斯ss-iPV6
-      - 🇷🇺 俄罗斯-cn2专线-去广告
-      - 🇷🇺 俄罗斯2-cn2专线-去广告
-      - 🇨🇦 加拿大3丨电报群@bp520
-      - 🇯🇵 Netflix｜日本JP解锁B
-      - 🇭🇰 VIP(HK, Kowloon)
-      - 🇯🇵 日本3
-      - 🇯🇵 VIP(JP, Tokyo)
-      - 🇺🇸 美国2-baipiaoyes.top
-      - 🇺🇸 Netflix｜美国US解锁A 2
-      - 🇯🇵 Netflix｜日本JP解锁B 2
-      - 🇯🇵 日本03丨GPT
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_114 |230.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb
-      - 🇭🇰 VIP｜香港HKT
-      - 🇯🇵 Netflix｜日本JP解锁A 2
-      - 🇨🇳 Netflix｜台湾TW解锁A 2
-      - 「🇺🇸」EMO | 天元果 x1
-      - 🇭🇰 Netflix｜香港HK解锁A
-      - 🇸🇬 Netflix｜新加坡SG解锁B
-      - 「🇬🇧」EMO | 红富士 x1
-      - Relay_-🇺🇸US_09 | 7.42Mb
-      - 🇸🇬 Netflix｜新加坡SG解锁B 2
-      - 🇨🇦 VIP(CA, Vancouver)
-      - 🇨🇳 VIP｜台湾TW1 2
-      - 🇯🇵 负载均衡｜日本JP下载线路 2
-      - 🇸🇬 Netflix｜新加坡SG解锁C
-      - 🇺🇸 美国3
-      - 🇺🇸 美国光速6
-      - 🇺🇸 美国优化-01
-      - 🇸🇬 负载均衡｜新加坡SG下载线路
-      - 🇯🇵 日本4
-      - 🇨🇦 加拿大1丨电报群@bp520
-      - 🇺🇸 美国1
-      - 🇸🇬 新加坡2
-      - Relay_-🇺🇸US_37 | 9.67Mb
-      - 🇸🇬 Netflix｜新加坡SG解锁A 2
-      - 🇺🇸 美国光速2
-      - 🇭🇰 VIP｜香港HKT 2
-      - CO_70 |27.28Mb
-      - 「🇫🇷」EMO | 冰糖心 x1
-      - 🇺🇸 美国3-baipiaoyes.top
-      - 🇨🇳 VIP(TW, Taipei)
-      - 🇭🇰 Netflix｜香港HK解锁A 2
-      - 「加入会员解锁流媒体」x5
-      - Relay_-🇺🇸US_38 |11.37Mb
-      - 🇷🇺 俄罗斯3-cn2专线-去广告
-      - 🇰🇷 VIP(KR, Incheon)
-      - 🇺🇸 负载均衡｜美国US下载线路 2
-      - 🇸🇬 Netflix｜新加坡SG解锁C 2
-      - 🇺🇸 VIP(US, California)
-      - 🇺🇸 美国2
-      - 🇬🇧 英国01
+      - 免费梯子https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 🇸🇬 长期更新节点@mftizi
+      - 关注电报https://t.me/mftizi
+      - 🇸🇬 长期更新节点@mftizi 2
+      - 🇪🇬 埃及｜2x CAI
+      - 🇸🇬 新加坡 [ 1x ] B
+      - 🇰🇷 首尔 [ 1x ] B
+      - 🇰🇷 首尔 [ 1x ] C
+      - 🇷🇴 罗马尼亚|cf优选
+      - 🇹🇷 土耳其|cf优选
+      - 🇭🇰 [香港] Hong Kong  2
+      - 🇭🇰 [香港] Hong Kong  3
+      - 🇭🇰 [香港] Hong Kong  5
+      - 🇭🇰 [香港] Hong Kong  6
+      - 🇨🇳 [台湾] Taiwan 1
+      - 🇨🇳 [台湾] Taiwan 2
+      - 🇯🇵 [日本] Japan 1
+      - 🇯🇵 [日本] Japan 2
+      - 🇸🇬 [新加坡] Singapore 1
+      - 🇰🇭 [柬埔寨] Cambodia 1
+      - 🇻🇳 [越南] Vietnam 1
+      - 🇮🇩 [印度尼西亚] Indonesia 1
+      - 🇺🇸 [美国] United States 1
+      - 🇺🇸 [美国] United States 2
+      - 🇺🇸 [美国] United States 3
+      - 🇺🇸 [美国] United States 4
+      - 🇬🇧 [英国] United Kingdom 1
+      - 🇬🇧 [英国] United Kingdom 2
+      - 🇹🇷 [土耳其] Turkey
+      - Relay_-🇺🇸US_35 |37.45Mb
+      - Relay_-🇺🇸US_45 | 2.59Mb
+      - Relay_-🇺🇸US_59 | 2.32Mb
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_68 |951.87Mb
+      - Relay_🇨🇴CO-🇺🇸US_83 |32.90Mb
+      - Relay_🇨🇴CO-🇷🇺RU_85 | 3.36Mb
+      - 🇳🇱 Relay_🇳🇱NL-🇺🇸US_123 |15.64Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_150 | 3.90Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇦UA_158 | 2.06Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_159 | 3.46Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_172 | 3.63Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_178 | 3.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |304.66Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_194 | 2.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_197 |18.71Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_202 | 2.06Mb
+      - Pool_🇺🇸US_203 |222.17Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_204 | 1.86Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_207 | 2.41Mb
+      - Relay_🏁ZZ-🇺🇸US_228 | 2.83Mb
+      - Relay_🏁ZZ-🇱🇻LV_231 | 4.00Mb
+      - Relay_🏁ZZ-🇺🇸US_235 | 2.14Mb
+      - Relay_🏁ZZ-🇨🇦CA_239 |50.12Mb
+      - Relay_🏁ZZ-🇺🇸US_241 | 4.56Mb
+      - Relay_🏁ZZ-🇨🇦CA_244 |31.89Mb
+      - Relay_🏁ZZ-🇺🇸US_246 | 1.83Mb
+      - Relay_🏁ZZ-🇺🇸US_253 | 2.61Mb
+      - Relay_🏁ZZ-🇺🇸US_257 | 2.05Mb
+      - Relay_🏁ZZ-🇨🇦CA_258 | 3.48Mb
+      - Relay_🏁ZZ-🇨🇦CA_267 |760.19Mb
+      - Relay_🏁ZZ-🇨🇦CA_268 |332.60Mb
+      - Relay_🏁ZZ-🇺🇸US_271 | 3.07Mb
+      - Relay_🏁ZZ-🇺🇸US_275 | 1.83Mb
+      - Relay_🏁ZZ-🇨🇦CA_280 |989.73Mb
+      - Relay_🏁ZZ-🇺🇸US_281 | 2.72Mb
+      - Relay_🏁ZZ-🇱🇻LV_282 |12.95Mb
+      - Relay_🏁ZZ-🇨🇦CA_284 |397.40Mb
+      - Relay_🏁ZZ-🇨🇦CA_293 |37.13Mb
+      - Relay_🏁ZZ-🇺🇸US_295 | 2.45Mb
+      - Relay_🏁ZZ-🇺🇸US_296 | 2.66Mb
+      - "[直连] 亚太普速 1"
+      - "[直连] 亚太普速 4"
+      - "[直连] 亚太普速 6"
+      - "[直连] 亚太普速 8"
+      - "[直连] 亚太普速 9"
+      - "[直连] 亚太普速 10"
+      - "[直连] 亚太普速 11"
+      - "[直连] 亚太普速 13"
+      - "[直连] 亚太普速 16"
+      - "[直连] 亚太普速 18"
+      - "[直连] 亚太普速 19"
+      - "[直连] 亚太普速 20"
+      - 🇭🇰 [直连] 香港高速 1 C
+      - 🇯🇵 [直连] 日本高速 2 C
+      - 🇺🇸 [直连] 美国高速 5 C
+      - 🇭🇰 [直连] 香港高速 6 C
+      - "[直连] 下载专用 1"
+      - "[直连] 下载专用 3"
+      - "[直连] 下载专用 5"
+      - "[直连] 下载专用 10"
+      - "[直连] 下载专用 14"
+      - "[直连] 下载专用 15"
+      - Relay_🏁ZZ-🇨🇦CA_233 |397.56Mb
+      - 🇭🇰 香港_Telegram@kxswa 8
+      - Relay_🏁ZZ-🇺🇸US_196 |43.50Mb
+      - Relay_🏁ZZ-🇺🇸US_203 |12.59Mb
       - 🇯🇵 日本
-      - 🇨🇳 台湾02
+      - VPN招代理电报联系@litata2022
+      - TG频道@MFJD666
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_131 | 7.97Mb
+      - Relay_-🇺🇸US_41 |17.35Mb
+      - Relay_🏁ZZ-🇺🇸US_200 |25.97Mb
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - Relay_🏁ZZ-🇨🇦CA_234 |457.45Mb
+      - 🇮🇸 冰岛_Telegram@kxswa
+      - Relay_🏁ZZ-🇺🇸US_181 |44.53Mb
+      - 🇰🇷 VIP(KR, Incheon)
+      - Relay_-🇺🇸US_37 | 9.67Mb
+      - 🇭🇰 香港
+      - Relay_🏁ZZ-🇺🇸US_235 |39.65Mb
+      - Relay_🏁ZZ-🇺🇸US_223 |57.59Mb
+      - 🇯🇵 VIP(JP, Tokyo)
+      - Relay_🏁ZZ-🇨🇦CA_177 | 8.24Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_110 | 3.70Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_133 |14.55Mb
+      - Relay_🏁ZZ-🇺🇸US_226 |30.50Mb
+      - Relay_🏁ZZ-🇺🇸US_187 |48.40Mb
+      - Relay_🏁ZZ-🇺🇸US_209 | 1.72Mb
+      - 🇸🇬 VIP(SG, Singapore)
+      - 🇭🇰 VIP(HK, Kowloon)
+      - 🇨🇳 VIP(TW, Taipei)
+      - Relay_🏁ZZ-🇨🇦CA_172 |158.90Mb
+      - Relay_🏁ZZ-🇨🇦CA_231 |338.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_127 | 2.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 |266.72Mb
+      - 🇺🇸 美国_Telegram@kxswa 43
+      - Relay_🏁ZZ-🇨🇦CA_182 |177.61Mb
+      - 🇫🇷 法国
+      - 🇫🇷 法国 2
+      - 🇰🇷 韩国
+      - Relay_🏁ZZ-🇺🇸US_191 |20.27Mb
+      - 🇭🇰 香港_Telegram@kxswa 8 2
   - name: 🎯 不挂代理
     type: select
     proxies:
