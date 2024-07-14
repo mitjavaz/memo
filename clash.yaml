@@ -5,36 +5,41 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[直连] 下载专用 15", server: tls.95.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.95.node-for-bigairport.win}}}
-  - {name: "[直连] 亚太普速 17", server: tls.17.node-for-bigairport.win, port: 11443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.17.node-for-bigairport.win}}}
-  - {name: Relay_🏁ZZ-🇺🇸US_181 |44.53Mb, server: 104.19.46.103, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
-  - {name: "[直连] 亚太普速 15", server: tls.15.node-for-bigairport.win, port: 55443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.15.node-for-bigairport.win}}}
-  - {name: "[直连] 下载专用 2", server: tls.82.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.82.node-for-bigairport.win}}}
-  - {name: "🇺🇸 [直连] 美国高速 10 C", server: 0000000000000000000000000070.cgroup-node-for-bigairport.sbs, port: 42355, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000070.cgroup-node-for-bigairport.sbs}}}
-  - {name: 🇺🇸 美国1, server: jd-mg1.yqh168.top, port: 45215, type: vmess, uuid: 45d2fe72-545d-4014-aa48-65d47df93da2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /websitego, headers: {Host: www.bing.com}}}
-  - {name: "[直连] 亚太普速 8", server: tls.08.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.08.node-for-bigairport.win}}}
-  - {name: "[直连] 下载专用 17", server: tls.97.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.97.node-for-bigairport.win}}}
-  - {name: "[直连] 下载专用 18", server: tls.98.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.98.node-for-bigairport.win}}}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 54.250.63.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本工作专线IPLC5, server: 120.233.128.12, port: 22214, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618}
-  - {name: "[直连] 亚太普速 8 2", server: tls.08.node-for-bigairport.win, port: 443, type: vmess, uuid: 1b98966d-1326-4ca5-9b96-c87e8a2dfa88, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: tls.08.node-for-bigairport.win}}}
-  - {name: "🇸🇬 VIP(SG, Singapore)", server: 13.125.231.16, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: 🇯🇵 日本工作专线IPLC12, server: 120.233.128.12, port: 22221, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618}
-  - {name: 🇯🇵 日本工作12, server: shcua.donghui.tech, port: 14017, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618}
-  - {name: 🇭🇰 HK 02-TG频道@CitizenScyu, server: iepl1.forlive.live, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: ad110273-58b4-3410-99c8-9faa31c14881}
-  - {name: 🇯🇵 日本工作4, server: shcua.donghui.tech, port: 15402, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618}
-  - {name: "🇭🇰 VIP(HK, Kowloon)", server: 3.38.179.87, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
-  - {name: 🇯🇵 日本工作5, server: shcua.donghui.tech, port: 54181, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618}
-  - {name: 🇯🇵 日本工作专线IPLC4, server: 120.233.128.12, port: 22213, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618}
-  - {name: 🇨🇳 台湾 - IEPL - SS/SSR - 02, server: cm1-tw.hutaonode3.top, port: 12552, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 37d1f55456.microsoft.com}}
-  - {name: 🇨🇳 台湾 - IEPL - SS/SSR - 06, server: cm1-tw.hutaonode3.top, port: 12556, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 37d1f55456.microsoft.com}}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇺🇸US_73, server: in06.dns2024.org, port: 63003, type: vmess, uuid: 6cf559be-8e10-3c59-ad8c-7345fa164ab8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾 - IEPL - SS/SSR - 03, server: cm1-tw.hutaonode3.top, port: 12553, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 37d1f55456.microsoft.com}}
-  - {name: 🇯🇵 日本工作3, server: shcua.donghui.tech, port: 61290, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618}
-  - {name: 🇯🇵 日本工作6, server: shcua.donghui.tech, port: 45822, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618}
-  - {name: 🇨🇳 台湾1, server: jd-tw1.yqh168.top, port: 45235, type: vmess, uuid: a97bcaab-e94f-4cc2-bd9b-43a2ffa91212, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /websitego, headers: {Host: www.bing.com}}}
-  - {name: 🇯🇵 JP 下载3-TG频道@CitizenScyu, server: 120.232.153.46, port: 50120, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 35834180:iDjZC8, obfs-param: ""}
-  - {name: 🇯🇵 日本工作专线IPLC10, server: 120.233.128.12, port: 22219, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618}
+  - {name: 🇯🇵 V335U-1x-BGP-JP-NF, server: vjihqbi67my0.nodelist.club, port: 1335, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇸🇬 V354U-2x-BGP-SG-NF, server: keok1v3a3s6t.nodelist.club, port: 1354, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇯🇵 V332U-1x-BGP-JP-NF, server: vjihqbi67my0.nodelist.club, port: 1332, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V327U-4x-BGP-HK-NF, server: kpv07nv7tyzi.nodelist.club, port: 1327, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇯🇵 V334U-1x-BGP-JP-NF, server: vjihqbi67my0.nodelist.club, port: 1334, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V329U-4x-BGP-HK-NF, server: kpv07nv7tyzi.nodelist.club, port: 1329, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V422U-2x-BGP-HK-NF, server: ft64bx3dkoni.nodelist.club, port: 1422, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V305U-1x-BGP-HK-NF, server: ilq2kvjuupzy.nodelist.club, port: 1305, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V328U-4x-BGP-HK-NF, server: kpv07nv7tyzi.nodelist.club, port: 1328, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V409U-1x-BGP-HK-NF, server: 7gzcn2kzaa0b.nodelist.club, port: 1409, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V420U-2x-BGP-HK-NF, server: ft64bx3dkoni.nodelist.club, port: 1420, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V421U-2x-BGP-HK-NF, server: ft64bx3dkoni.nodelist.club, port: 1421, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇸🇬 V352U-1x-BGP-SG-NF, server: keok1v3a3s6t.nodelist.club, port: 1352, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V405U-1x-BGP-HK-NF, server: 7gzcn2kzaa0b.nodelist.club, port: 1405, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇸🇬 V353U-1x-BGP-SG-NF, server: keok1v3a3s6t.nodelist.club, port: 1353, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V323U-2x-BGP-HK-NF, server: b20tox4scvhj.nodelist.club, port: 1323, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V410U-1x-BGP-HK-NF, server: 7gzcn2kzaa0b.nodelist.club, port: 1410, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V326U-4x-BGP-HK-NF, server: kpv07nv7tyzi.nodelist.club, port: 1326, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇯🇵 V333U-1x-BGP-JP-NF, server: vjihqbi67my0.nodelist.club, port: 1333, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V408U-1x-BGP-HK-NF, server: 7gzcn2kzaa0b.nodelist.club, port: 1408, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇸🇬 V355U-2x-BGP-SG-NF, server: keok1v3a3s6t.nodelist.club, port: 1355, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V423U-2x-BGP-HK-NF, server: ft64bx3dkoni.nodelist.club, port: 1423, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 9, server: 54.255.232.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 V336U-2x-BGP-JP-NF, server: vjihqbi67my0.nodelist.club, port: 1336, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V406U-1x-BGP-HK-NF, server: 7gzcn2kzaa0b.nodelist.club, port: 1406, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇯🇵 日本<https://t.me/zhibeii_2, server: 13.125.35.190, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
+  - {name: 🇺🇸 V488U-2x-BGP-US-NF, server: vi7ful3e4n.nodelist.club, port: 1488, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇨🇳 V472U-2x-BGP-TW-NF, server: b20tox4scvhj.nodelist.club, port: 1472, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V310U-1x-BGP-HK-NF, server: 4drzbf7orvs1.nodelist.club, port: 1310, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 香港<https://t.me/zhibeii, server: 52.78.152.180, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
+  - {name: 🇺🇸 V388U-2x-BGP-US-NF, server: vi7ful3e4n.nodelist.club, port: 1388, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇸🇬 V459U-4x-BGP-SG-NF, server: kpv07nv7tyzi.nodelist.club, port: 1459, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇰🇷 韩国<https://t.me/zhibeii, server: 52.79.114.234, port: 80, type: ss, cipher: aes-256-gcm, password: amazonskr05}
+  - {name: 🇯🇵 V436U-2x-BGP-JP-NF, server: vjihqbi67my0.nodelist.club, port: 1436, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
+  - {name: 🇭🇰 V403U-1x-BGP-HK-NF, server: 7gzcn2kzaa0b.nodelist.club, port: 1403, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 25888:Dd112211, obfs-param: ""}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -46,142 +51,162 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - "[直连] 下载专用 15"
-      - "[直连] 亚太普速 17"
-      - Relay_🏁ZZ-🇺🇸US_181 |44.53Mb
-      - "[直连] 亚太普速 15"
-      - "[直连] 下载专用 2"
-      - 🇺🇸 [直连] 美国高速 10 C
-      - 🇺🇸 美国1
-      - "[直连] 亚太普速 8"
-      - "[直连] 下载专用 17"
-      - "[直连] 下载专用 18"
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇯🇵 日本工作专线IPLC5
-      - "[直连] 亚太普速 8 2"
-      - 🇸🇬 VIP(SG, Singapore)
-      - 🇯🇵 日本工作专线IPLC12
-      - 🇯🇵 日本工作12
-      - 🇭🇰 HK 02-TG频道@CitizenScyu
-      - 🇯🇵 日本工作4
-      - 🇭🇰 VIP(HK, Kowloon)
-      - 🇯🇵 日本工作5
-      - 🇯🇵 日本工作专线IPLC4
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 02
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 06
-      - 🇨🇳 Relay_🇹🇼TW-🇺🇸US_73
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 03
-      - 🇯🇵 日本工作3
-      - 🇯🇵 日本工作6
-      - 🇨🇳 台湾1
-      - 🇯🇵 JP 下载3-TG频道@CitizenScyu
-      - 🇯🇵 日本工作专线IPLC10
+      - 🇯🇵 V335U-1x-BGP-JP-NF
+      - 🇸🇬 V354U-2x-BGP-SG-NF
+      - 🇯🇵 V332U-1x-BGP-JP-NF
+      - 🇭🇰 V327U-4x-BGP-HK-NF
+      - 🇯🇵 V334U-1x-BGP-JP-NF
+      - 🇭🇰 V329U-4x-BGP-HK-NF
+      - 🇭🇰 V422U-2x-BGP-HK-NF
+      - 🇭🇰 V305U-1x-BGP-HK-NF
+      - 🇭🇰 V328U-4x-BGP-HK-NF
+      - 🇭🇰 V409U-1x-BGP-HK-NF
+      - 🇭🇰 V420U-2x-BGP-HK-NF
+      - 🇭🇰 V421U-2x-BGP-HK-NF
+      - 🇸🇬 V352U-1x-BGP-SG-NF
+      - 🇭🇰 V405U-1x-BGP-HK-NF
+      - 🇸🇬 V353U-1x-BGP-SG-NF
+      - 🇭🇰 V323U-2x-BGP-HK-NF
+      - 🇭🇰 V410U-1x-BGP-HK-NF
+      - 🇭🇰 V326U-4x-BGP-HK-NF
+      - 🇯🇵 V333U-1x-BGP-JP-NF
+      - 🇭🇰 V408U-1x-BGP-HK-NF
+      - 🇸🇬 V355U-2x-BGP-SG-NF
+      - 🇭🇰 V423U-2x-BGP-HK-NF
+      - 🇸🇬 新加坡_Telegram@kxswa 9
+      - 🇯🇵 V336U-2x-BGP-JP-NF
+      - 🇭🇰 V406U-1x-BGP-HK-NF
+      - 🇯🇵 日本<https://t.me/zhibeii_2
+      - 🇺🇸 V488U-2x-BGP-US-NF
+      - 🇨🇳 V472U-2x-BGP-TW-NF
+      - 🇭🇰 V310U-1x-BGP-HK-NF
+      - 🇭🇰 香港<https://t.me/zhibeii
+      - 🇺🇸 V388U-2x-BGP-US-NF
+      - 🇸🇬 V459U-4x-BGP-SG-NF
+      - 🇰🇷 韩国<https://t.me/zhibeii
+      - 🇯🇵 V436U-2x-BGP-JP-NF
+      - 🇭🇰 V403U-1x-BGP-HK-NF
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - "[直连] 下载专用 15"
-      - "[直连] 亚太普速 17"
-      - Relay_🏁ZZ-🇺🇸US_181 |44.53Mb
-      - "[直连] 亚太普速 15"
-      - "[直连] 下载专用 2"
-      - 🇺🇸 [直连] 美国高速 10 C
-      - 🇺🇸 美国1
-      - "[直连] 亚太普速 8"
-      - "[直连] 下载专用 17"
-      - "[直连] 下载专用 18"
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇯🇵 日本工作专线IPLC5
-      - "[直连] 亚太普速 8 2"
-      - 🇸🇬 VIP(SG, Singapore)
-      - 🇯🇵 日本工作专线IPLC12
-      - 🇯🇵 日本工作12
-      - 🇭🇰 HK 02-TG频道@CitizenScyu
-      - 🇯🇵 日本工作4
-      - 🇭🇰 VIP(HK, Kowloon)
-      - 🇯🇵 日本工作5
-      - 🇯🇵 日本工作专线IPLC4
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 02
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 06
-      - 🇨🇳 Relay_🇹🇼TW-🇺🇸US_73
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 03
-      - 🇯🇵 日本工作3
-      - 🇯🇵 日本工作6
-      - 🇨🇳 台湾1
-      - 🇯🇵 JP 下载3-TG频道@CitizenScyu
-      - 🇯🇵 日本工作专线IPLC10
+      - 🇯🇵 V335U-1x-BGP-JP-NF
+      - 🇸🇬 V354U-2x-BGP-SG-NF
+      - 🇯🇵 V332U-1x-BGP-JP-NF
+      - 🇭🇰 V327U-4x-BGP-HK-NF
+      - 🇯🇵 V334U-1x-BGP-JP-NF
+      - 🇭🇰 V329U-4x-BGP-HK-NF
+      - 🇭🇰 V422U-2x-BGP-HK-NF
+      - 🇭🇰 V305U-1x-BGP-HK-NF
+      - 🇭🇰 V328U-4x-BGP-HK-NF
+      - 🇭🇰 V409U-1x-BGP-HK-NF
+      - 🇭🇰 V420U-2x-BGP-HK-NF
+      - 🇭🇰 V421U-2x-BGP-HK-NF
+      - 🇸🇬 V352U-1x-BGP-SG-NF
+      - 🇭🇰 V405U-1x-BGP-HK-NF
+      - 🇸🇬 V353U-1x-BGP-SG-NF
+      - 🇭🇰 V323U-2x-BGP-HK-NF
+      - 🇭🇰 V410U-1x-BGP-HK-NF
+      - 🇭🇰 V326U-4x-BGP-HK-NF
+      - 🇯🇵 V333U-1x-BGP-JP-NF
+      - 🇭🇰 V408U-1x-BGP-HK-NF
+      - 🇸🇬 V355U-2x-BGP-SG-NF
+      - 🇭🇰 V423U-2x-BGP-HK-NF
+      - 🇸🇬 新加坡_Telegram@kxswa 9
+      - 🇯🇵 V336U-2x-BGP-JP-NF
+      - 🇭🇰 V406U-1x-BGP-HK-NF
+      - 🇯🇵 日本<https://t.me/zhibeii_2
+      - 🇺🇸 V488U-2x-BGP-US-NF
+      - 🇨🇳 V472U-2x-BGP-TW-NF
+      - 🇭🇰 V310U-1x-BGP-HK-NF
+      - 🇭🇰 香港<https://t.me/zhibeii
+      - 🇺🇸 V388U-2x-BGP-US-NF
+      - 🇸🇬 V459U-4x-BGP-SG-NF
+      - 🇰🇷 韩国<https://t.me/zhibeii
+      - 🇯🇵 V436U-2x-BGP-JP-NF
+      - 🇭🇰 V403U-1x-BGP-HK-NF
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - "[直连] 下载专用 15"
-      - "[直连] 亚太普速 17"
-      - Relay_🏁ZZ-🇺🇸US_181 |44.53Mb
-      - "[直连] 亚太普速 15"
-      - "[直连] 下载专用 2"
-      - 🇺🇸 [直连] 美国高速 10 C
-      - 🇺🇸 美国1
-      - "[直连] 亚太普速 8"
-      - "[直连] 下载专用 17"
-      - "[直连] 下载专用 18"
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇯🇵 日本工作专线IPLC5
-      - "[直连] 亚太普速 8 2"
-      - 🇸🇬 VIP(SG, Singapore)
-      - 🇯🇵 日本工作专线IPLC12
-      - 🇯🇵 日本工作12
-      - 🇭🇰 HK 02-TG频道@CitizenScyu
-      - 🇯🇵 日本工作4
-      - 🇭🇰 VIP(HK, Kowloon)
-      - 🇯🇵 日本工作5
-      - 🇯🇵 日本工作专线IPLC4
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 02
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 06
-      - 🇨🇳 Relay_🇹🇼TW-🇺🇸US_73
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 03
-      - 🇯🇵 日本工作3
-      - 🇯🇵 日本工作6
-      - 🇨🇳 台湾1
-      - 🇯🇵 JP 下载3-TG频道@CitizenScyu
-      - 🇯🇵 日本工作专线IPLC10
+      - 🇯🇵 V335U-1x-BGP-JP-NF
+      - 🇸🇬 V354U-2x-BGP-SG-NF
+      - 🇯🇵 V332U-1x-BGP-JP-NF
+      - 🇭🇰 V327U-4x-BGP-HK-NF
+      - 🇯🇵 V334U-1x-BGP-JP-NF
+      - 🇭🇰 V329U-4x-BGP-HK-NF
+      - 🇭🇰 V422U-2x-BGP-HK-NF
+      - 🇭🇰 V305U-1x-BGP-HK-NF
+      - 🇭🇰 V328U-4x-BGP-HK-NF
+      - 🇭🇰 V409U-1x-BGP-HK-NF
+      - 🇭🇰 V420U-2x-BGP-HK-NF
+      - 🇭🇰 V421U-2x-BGP-HK-NF
+      - 🇸🇬 V352U-1x-BGP-SG-NF
+      - 🇭🇰 V405U-1x-BGP-HK-NF
+      - 🇸🇬 V353U-1x-BGP-SG-NF
+      - 🇭🇰 V323U-2x-BGP-HK-NF
+      - 🇭🇰 V410U-1x-BGP-HK-NF
+      - 🇭🇰 V326U-4x-BGP-HK-NF
+      - 🇯🇵 V333U-1x-BGP-JP-NF
+      - 🇭🇰 V408U-1x-BGP-HK-NF
+      - 🇸🇬 V355U-2x-BGP-SG-NF
+      - 🇭🇰 V423U-2x-BGP-HK-NF
+      - 🇸🇬 新加坡_Telegram@kxswa 9
+      - 🇯🇵 V336U-2x-BGP-JP-NF
+      - 🇭🇰 V406U-1x-BGP-HK-NF
+      - 🇯🇵 日本<https://t.me/zhibeii_2
+      - 🇺🇸 V488U-2x-BGP-US-NF
+      - 🇨🇳 V472U-2x-BGP-TW-NF
+      - 🇭🇰 V310U-1x-BGP-HK-NF
+      - 🇭🇰 香港<https://t.me/zhibeii
+      - 🇺🇸 V388U-2x-BGP-US-NF
+      - 🇸🇬 V459U-4x-BGP-SG-NF
+      - 🇰🇷 韩国<https://t.me/zhibeii
+      - 🇯🇵 V436U-2x-BGP-JP-NF
+      - 🇭🇰 V403U-1x-BGP-HK-NF
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - "[直连] 下载专用 15"
-      - "[直连] 亚太普速 17"
-      - Relay_🏁ZZ-🇺🇸US_181 |44.53Mb
-      - "[直连] 亚太普速 15"
-      - "[直连] 下载专用 2"
-      - 🇺🇸 [直连] 美国高速 10 C
-      - 🇺🇸 美国1
-      - "[直连] 亚太普速 8"
-      - "[直连] 下载专用 17"
-      - "[直连] 下载专用 18"
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇯🇵 日本工作专线IPLC5
-      - "[直连] 亚太普速 8 2"
-      - 🇸🇬 VIP(SG, Singapore)
-      - 🇯🇵 日本工作专线IPLC12
-      - 🇯🇵 日本工作12
-      - 🇭🇰 HK 02-TG频道@CitizenScyu
-      - 🇯🇵 日本工作4
-      - 🇭🇰 VIP(HK, Kowloon)
-      - 🇯🇵 日本工作5
-      - 🇯🇵 日本工作专线IPLC4
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 02
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 06
-      - 🇨🇳 Relay_🇹🇼TW-🇺🇸US_73
-      - 🇨🇳 台湾 - IEPL - SS/SSR - 03
-      - 🇯🇵 日本工作3
-      - 🇯🇵 日本工作6
-      - 🇨🇳 台湾1
-      - 🇯🇵 JP 下载3-TG频道@CitizenScyu
-      - 🇯🇵 日本工作专线IPLC10
+      - 🇯🇵 V335U-1x-BGP-JP-NF
+      - 🇸🇬 V354U-2x-BGP-SG-NF
+      - 🇯🇵 V332U-1x-BGP-JP-NF
+      - 🇭🇰 V327U-4x-BGP-HK-NF
+      - 🇯🇵 V334U-1x-BGP-JP-NF
+      - 🇭🇰 V329U-4x-BGP-HK-NF
+      - 🇭🇰 V422U-2x-BGP-HK-NF
+      - 🇭🇰 V305U-1x-BGP-HK-NF
+      - 🇭🇰 V328U-4x-BGP-HK-NF
+      - 🇭🇰 V409U-1x-BGP-HK-NF
+      - 🇭🇰 V420U-2x-BGP-HK-NF
+      - 🇭🇰 V421U-2x-BGP-HK-NF
+      - 🇸🇬 V352U-1x-BGP-SG-NF
+      - 🇭🇰 V405U-1x-BGP-HK-NF
+      - 🇸🇬 V353U-1x-BGP-SG-NF
+      - 🇭🇰 V323U-2x-BGP-HK-NF
+      - 🇭🇰 V410U-1x-BGP-HK-NF
+      - 🇭🇰 V326U-4x-BGP-HK-NF
+      - 🇯🇵 V333U-1x-BGP-JP-NF
+      - 🇭🇰 V408U-1x-BGP-HK-NF
+      - 🇸🇬 V355U-2x-BGP-SG-NF
+      - 🇭🇰 V423U-2x-BGP-HK-NF
+      - 🇸🇬 新加坡_Telegram@kxswa 9
+      - 🇯🇵 V336U-2x-BGP-JP-NF
+      - 🇭🇰 V406U-1x-BGP-HK-NF
+      - 🇯🇵 日本<https://t.me/zhibeii_2
+      - 🇺🇸 V488U-2x-BGP-US-NF
+      - 🇨🇳 V472U-2x-BGP-TW-NF
+      - 🇭🇰 V310U-1x-BGP-HK-NF
+      - 🇭🇰 香港<https://t.me/zhibeii
+      - 🇺🇸 V388U-2x-BGP-US-NF
+      - 🇸🇬 V459U-4x-BGP-SG-NF
+      - 🇰🇷 韩国<https://t.me/zhibeii
+      - 🇯🇵 V436U-2x-BGP-JP-NF
+      - 🇭🇰 V403U-1x-BGP-HK-NF
   - name: 🎯 不挂代理
     type: select
     proxies:
