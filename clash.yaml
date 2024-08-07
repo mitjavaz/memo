@@ -5,229 +5,86 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇦 加拿大-CA-01, server: 34604.kuajing.buzz, port: 34604, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇺🇸 United States-US-1-Rate:1.5, server: us-1.regentgrandvalley.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇭🇰 x1.0 香港 - 中转4, server: e3bac1e1-i.2nvx.com, port: 10045, type: trojan, password: zp7b1Brd, sni: e3bac1e1-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇸🇬 x1.0 新加坡 - 中转6, server: 463b21bf-i.2nvx.com, port: 10147, type: trojan, password: zp7b1Brd, sni: 463b21bf-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇸🇬 AP新加坡1-1 ｜流解, server: alibaba1.xn--z7x16bf6t.com, port: 38922, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇳🇱 荷兰-NL-01, server: 34630.kuajing.buzz, port: 34630, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇰🇷 SC韩国1-1 | 限速 | x2, server: alibaba1.xn--z7x16bf6t.com, port: 20222, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇯🇵 DG日本1-3, server: agoogleyun3.xn--z7x16bf6t.com, port: 18119, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇸🇬 x1.0 新加坡 - 中转5, server: 463b21bf-i.2nvx.com, port: 10146, type: trojan, password: zp7b1Brd, sni: 463b21bf-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇦🇺 Australia-AU-2-Rate:1.0, server: au-2.australiastudio.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 关注𝙏𝙂频道 @𝙈𝙁𝘽𝙋𝙉 防止失联, server: twnode03.oportal.cc, port: 443, type: trojan, password: d74bfcb4-a21e-4475-b83d-7bc413f456dd, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾-TW-03, server: 34609.kuajing.buzz, port: 34609, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇦🇺 Australia-AU-1-Rate:0.5, server: au-1.australiastudio.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇸🇬 x1.0 新加坡 - 中转1, server: e3bac1e1-i.2nvx.com, port: 10142, type: trojan, password: zp7b1Brd, sni: e3bac1e1-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇯🇵 x1.0 日本 - 中转2, server: 166cc49a-i.2nvx.com, port: 10343, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾-TW-01, server: 34607.kuajing.buzz, port: 34607, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇯🇵 Japan-OS-1-Rate:1.0, server: os-1.rise-fuji.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇰🇷 x1.0 韩国 - 中转1, server: 166cc49a-i.2nvx.com, port: 10642, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇯🇵 NT日本1-3 | 流解｜原生, server: agoogleyun3.xn--z7x16bf6t.com, port: 23466, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇦🇺 澳大利亚-AU-01, server: 34617.kuajing.buzz, port: 34617, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港02, server: gg01.6bnw.top, port: 40010, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: 当前网址：v2neo.net, server: 831d4036-f.2nvx.com, port: 10042, type: trojan, password: zp7b1Brd, sni: 831d4036-f.2nvx.com, skip-cert-verify: false}
-  - {name: 🇭🇰 x1.0 香港 - 中转2, server: bb6bcf97-f.2nvx.com, port: 10043, type: trojan, password: zp7b1Brd, sni: bb6bcf97-f.2nvx.com, skip-cert-verify: false}
-  - {name: 🇦🇪 阿联酋-AE-02, server: 34638.kuajing.buzz, port: 34638, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇰🇷 OC韩国1-6, server: aawssb6.xn--z7x16bf6t.com, port: 39311, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇷🇺 AE俄罗斯1-1, server: alibaba1.xn--z7x16bf6t.com, port: 40055, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇺🇸 x1.0 美西 - 中转4, server: 7c610710-i.2nvx.com, port: 10245, type: trojan, password: zp7b1Brd, sni: 7c610710-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇫🇷 OC法国-巴黎1-1, server: alibaba1.xn--z7x16bf6t.com, port: 31188, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇺🇸 United States-US-3-Rate:1.0, server: us-3.regentgrandvalley.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: CA_99, server: tjcu3.bocchi.ooo, port: 33543, type: ss, cipher: aes-128-gcm, password: c15f7586-f1ea-40df-883c-0664c5dc3eaf}
-  - {name: 🇮🇳 UL印度1-1, server: alibaba1.xn--z7x16bf6t.com, port: 38944, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇨🇦 OC加拿大1-6, server: aawssb6.xn--z7x16bf6t.com, port: 41166, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 日本04, server: jpnode04.oportal.cc, port: 443, type: trojan, password: d74bfcb4-a21e-4475-b83d-7bc413f456dd, skip-cert-verify: true}
-  - {name: 🇭🇰 LS香港1-2 | 流解 | 原生, server: ahuaweisb2.xn--z7x16bf6t.com, port: 31142, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇺🇸 United States-US-4-Rate:1.0, server: us-4.regentgrandvalley.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇸🇬 AP新加坡1-5 ｜流解, server: abaidusb5.xn--z7x16bf6t.com, port: 38922, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇯🇵 DG日本1-5, server: abaidusb5.xn--z7x16bf6t.com, port: 18119, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇻🇳 YG越南1-6 | 限速 | x5, server: aawssb6.xn--z7x16bf6t.com, port: 39881, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: DE_916, server: 80.92.204.106, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
-  - {name: 🇰🇷 SC韩国1-6 | 限速 | x2, server: aawssb6.xn--z7x16bf6t.com, port: 20222, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇨🇳 x1.0 台北 - 中转3, server: 166cc49a-i.2nvx.com, port: 10544, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: JP_1192, server: 18.183.186.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: TR_1447, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: SG_1419, server: 54.179.241.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 Japan-OS-3-Rate:1.0, server: os-3.rise-fuji.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: CA_765, server: 198.245.49.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇹🇭 YG泰国1-6 | 流解 | x2, server: aawssb6.xn--z7x16bf6t.com, port: 27844, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇸🇬 新加坡-SG-01, server: 34613.kuajing.buzz, port: 34613, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇲🇾 PL马来西亚1-6 | 限速 | x3, server: aawssb6.xn--z7x16bf6t.com, port: 20620, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: DE_907, server: 80.92.204.106, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
-  - {name: DE_918, server: 80.92.204.106, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH}
-  - {name: DE_102, server: tjcu3.bocchi.ooo, port: 33536, type: ss, cipher: aes-128-gcm, password: c15f7586-f1ea-40df-883c-0664c5dc3eaf}
-  - {name: 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵东京01, server: aa01gg.sssyun.xyz, port: 19529, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 54.169.236.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇮🇳 印度-IN-01, server: 34606.kuajing.buzz, port: 34606, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: JP_1198, server: 3.112.216.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇦🇪 阿联酋-AE-01, server: 34622.kuajing.buzz, port: 34622, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇯🇵 Japan-TY-4-Rate:1.0, server: ty-4.rise-fuji.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇯🇵 OC日本1-1, server: alibaba1.xn--z7x16bf6t.com, port: 27799, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇨🇳 Taiwan-TW-2-Rate:1.0, server: tw-2.chianginc.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇫🇷 JH法国-巴黎1-1 | 限速, server: alibaba1.xn--z7x16bf6t.com, port: 41541, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇭🇰 AL香港1-1｜流解, server: alibaba1.xn--z7x16bf6t.com, port: 26678, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇯🇵 UL日本1-1 | 流解 | x2, server: alibaba1.xn--z7x16bf6t.com, port: 18199, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡01|Web Gpt&Tk, server: aa01gg.sssyun.xyz, port: 39204, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: US_220, server: zjcu3.bocchi.ooo, port: 15734, type: ss, cipher: aes-128-gcm, password: c15f7586-f1ea-40df-883c-0664c5dc3eaf}
-  - {name: 🇺🇸 美国-US-04, server: 34631.kuajing.buzz, port: 34631, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇭🇰 AP香港1-3  | 流解, server: agoogleyun3.xn--z7x16bf6t.com, port: 37798, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: US_1581, server: 52.33.38.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 AP香港2-1 | 流解, server: alibaba1.xn--z7x16bf6t.com, port: 37399, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇭🇰 x1.0 香港 - 中转6, server: e3bac1e1-i.2nvx.com, port: 10047, type: trojan, password: zp7b1Brd, sni: e3bac1e1-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇹🇭 泰国-TH-01, server: 34639.kuajing.buzz, port: 34639, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港06, server: hknode06.oportal.cc, port: 443, type: trojan, password: d74bfcb4-a21e-4475-b83d-7bc413f456dd, skip-cert-verify: true}
-  - {name: KR_1239, server: 43.201.253.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇪🇸 OC西班牙-马德里1-6, server: aawssb6.xn--z7x16bf6t.com, port: 42377, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇺🇸 x1.0 美西 - 中转6, server: 463b21bf-i.2nvx.com, port: 10247, type: trojan, password: zp7b1Brd, sni: 463b21bf-i.2nvx.com, skip-cert-verify: false}
-  - {name: JP_1196, server: 52.69.70.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇬🇧 United Kingdom-UK-1-Rate:1.0, server: uk-1.fishchipsexpress.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇹🇷 土耳其-TR-01, server: 34610.kuajing.buzz, port: 34610, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇸🇬 OC新加坡1-1, server: alibaba1.xn--z7x16bf6t.com, port: 34522, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: JP_1180, server: 18.183.77.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: AR_98, server: tjcu3.bocchi.ooo, port: 41326, type: ss, cipher: aes-128-gcm, password: c15f7586-f1ea-40df-883c-0664c5dc3eaf}
-  - {name: DE_903, server: 80.92.204.106, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf}
-  - {name: US_1951, server: 34.219.154.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 台湾11, server: twnode11.oportal.cc, port: 443, type: trojan, password: d74bfcb4-a21e-4475-b83d-7bc413f456dd, skip-cert-verify: true}
-  - {name: 🇭🇰 AP香港1-5  | 流解, server: abaidusb5.xn--z7x16bf6t.com, port: 37798, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: DE_910, server: 80.92.204.106, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
-  - {name: 🇭🇰 Hong Kong-HK-2-Rate:0.5, server: hk-2.victoriamitrepeak.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: SG_1440, server: bgroup.node3.t.nodelist-airport.com, port: 50001, type: trojan, password: 2155145a-b1b5-443a-8977-670f6bd10f02, skip-cert-verify: true}
-  - {name: 🇯🇵 UL日本1-3  | 流解 | x2, server: agoogleyun3.xn--z7x16bf6t.com, port: 18199, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: SG_1418, server: 47.128.150.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇻🇳 越南-VN-02, server: 34602.kuajing.buzz, port: 34602, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇭🇰 AP香港1-4  | 流解, server: adubaiyun4.xn--z7x16bf6t.com, port: 37798, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: DE_896, server: 80.92.204.106, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: 🇨🇳 TW台湾1-1 | 流媒体｜原生, server: alibaba1.xn--z7x16bf6t.com, port: 30211, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇬🇧 OC英国-伦敦1-6, server: aawssb6.xn--z7x16bf6t.com, port: 49955, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian 2, server: 3.112.220.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: DE_895, server: 80.92.204.106, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: AL_660, server: 31.171.153.182, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: FI_961, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇻🇳 YG越南1-1 | 限速 | x5, server: alibaba1.xn--z7x16bf6t.com, port: 39881, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇭🇰 AL香港1-3｜流解, server: agoogleyun3.xn--z7x16bf6t.com, port: 26678, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇭🇰 香港-HK-05, server: 34635.kuajing.buzz, port: 34635, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: DE_900, server: 80.92.204.106, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
-  - {name: 🇨🇳 x1.0 台北 - 中转2, server: 166cc49a-i.2nvx.com, port: 10543, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 2, server: 18.139.110.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 美国_Telegram@kxswa 12, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇭🇰 x1.0 香港 - 中转3, server: 7c610710-i.2nvx.com, port: 10044, type: trojan, password: zp7b1Brd, sni: 7c610710-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇭🇰 LS香港1-4 | 流解 | 原生, server: adubaiyun4.xn--z7x16bf6t.com, port: 31142, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇦🇱 阿尔巴尼亚_Telegram@kxswa, server: 31.171.153.178, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇦🇺 Australia-AU-3-Rate:1.0, server: au-3.australiastudio.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇵🇭 菲律宾-PH-01, server: 34641.kuajing.buzz, port: 34641, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇸🇬 UL新加坡1-5 | 流解, server: abaidusb5.xn--z7x16bf6t.com, port: 19332, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: TR_193, server: tjcu3.bocchi.ooo, port: 33537, type: ss, cipher: aes-128-gcm, password: c15f7586-f1ea-40df-883c-0664c5dc3eaf}
-  - {name: KZ_1252, server: 213.156.137.67, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇯🇵 x1.0 日本 - 中转4, server: 463b21bf-i.2nvx.com, port: 10345, type: trojan, password: zp7b1Brd, sni: 463b21bf-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇭🇰 AP香港1-1  | 流解, server: alibaba1.xn--z7x16bf6t.com, port: 37798, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇯🇵 DG日本1-1, server: alibaba1.xn--z7x16bf6t.com, port: 18119, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇺🇸 United States-US-5-Rate:1.0, server: us-5.regentgrandvalley.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇫🇷 JH法国-巴黎1-6 | 限速, server: aawssb6.xn--z7x16bf6t.com, port: 41541, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: KR_171, server: zjcu3.bocchi.ooo, port: 33541, type: ss, cipher: aes-128-gcm, password: c15f7586-f1ea-40df-883c-0664c5dc3eaf}
-  - {name: 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾01|全解锁, server: aa01gg.sssyun.xyz, port: 32207, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港01, server: aa01gg.sssyun.xyz, port: 29527, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: 🇸🇬 x1.0 新加坡 - 中转3, server: 7c610710-i.2nvx.com, port: 10144, type: trojan, password: zp7b1Brd, sni: 7c610710-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇭🇰 AL香港1-5｜流解, server: abaidusb5.xn--z7x16bf6t.com, port: 26678, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵日本06|Web Gpt&Tk, server: aa01gg.sssyun.xyz, port: 49207, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: 🇯🇵 UL日本1-5 | x2, server: abaidusb5.xn--z7x16bf6t.com, port: 18199, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: DE_929, server: 80.92.204.106, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9}
-  - {name: TG：@JUZIBAIPIAO|🇰🇷春川06|Web Gpt&Tk, server: aa01gg.sssyun.xyz, port: 39206, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: 🇪🇸 OC西班牙-马德里1-1, server: alibaba1.xn--z7x16bf6t.com, port: 42377, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇸🇬 新加坡 02, server: gdcm081.rennn.ren, port: 20021, type: ss, cipher: chacha20-ietf-poly1305, password: a060c58b-9818-4681-848e-01b1afb263a2}
-  - {name: 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港11|0.8x, server: aa01gg.sssyun.xyz, port: 39301, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: US_2719, server: us004.421421.xyz, port: 20230, type: trojan, password: cf13832b-4ca0-4fee-8e85-2b2411104e75, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡06|Web Gpt&Tk, server: aa01gg.sssyun.xyz, port: 39505, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: 🇯🇵 OC日本1-5, server: abaidusb5.xn--z7x16bf6t.com, port: 27799, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港9, server: 123.88.148.68, port: 36783, type: vmess, uuid: d139cbd7-026a-3714-a1f9-cbff3eb83b18, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港8, server: 123.88.148.68, port: 36784, type: vmess, uuid: d139cbd7-026a-3714-a1f9-cbff3eb83b18, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 TG：@JUZIBAIPIAO|🇨🇦加拿大01, server: aa01gg.sssyun.xyz, port: 39209, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: 🇺🇸 AP美国1-3｜流媒体, server: agoogleyun3.xn--z7x16bf6t.com, port: 38833, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 日本9, server: 123.88.148.68, port: 46780, type: vmess, uuid: d139cbd7-026a-3714-a1f9-cbff3eb83b18, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian 3, server: 13.214.209.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港1, server: 120.232.132.71, port: 7181, type: ssr, cipher: dummy, password: !<str> 123456, protocol: auth_chain_a, obfs: plain, protocol-param: 28092:T7h9v9, obfs-param: tg@mfbpn}
-  - {name: 🇭🇰 香港-vmess-04, server: h04.cloud-port.xyz, port: 20000, type: vmess, uuid: 80a8910a-f561-4f71-b32d-4451d8043993, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: h04.cloud-port.xyz}}}
-  - {name: 🇭🇰 HY香港1-4 | 流解, server: adubaiyun4.xn--z7x16bf6t.com, port: 35622, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: US_1751, server: 35.87.35.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: KR_1238, server: 43.201.254.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 HY香港1-2 | 流解, server: ahuaweisb2.xn--z7x16bf6t.com, port: 35622, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: DE_908, server: 80.92.204.106, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN}
-  - {name: JP_1185, server: 52.69.37.205, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: JP_1193, server: 52.195.207.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 AL香港1-2｜流解, server: ahuaweisb2.xn--z7x16bf6t.com, port: 26678, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇭🇰 LS香港1-5 | 流解 | 原生, server: abaidusb5.xn--z7x16bf6t.com, port: 31142, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: JP_1175, server: 52.194.188.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 LS香港1-3 | 流解 | 原生, server: agoogleyun3.xn--z7x16bf6t.com, port: 31142, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: KR_1241, server: 43.201.254.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 AP香港2-3 | 流解, server: agoogleyun3.xn--z7x16bf6t.com, port: 37399, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: JP_1181, server: 57.180.39.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 HY香港1-1 | 流解, server: alibaba1.xn--z7x16bf6t.com, port: 35622, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇩🇪 JH德国-法兰克福1-1 | 限速, server: alibaba1.xn--z7x16bf6t.com, port: 20369, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇬🇧 OC英国-伦敦1-1, server: alibaba1.xn--z7x16bf6t.com, port: 49955, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇰🇷 x1.0 韩国 - 中转2, server: 166cc49a-i.2nvx.com, port: 10643, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: FR_1053, server: 35.181.233.7, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇯🇵 Japan-OS-2-Rate:1.0, server: os-2.rise-fuji.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: US_223, server: shdx.kd69.vip, port: 49921, type: ss, cipher: aes-128-gcm, password: antmissjk}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 7, server: 18.142.246.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇦🇺 Australia-AU-4-Rate:1.0, server: au-4.australiastudio.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: JP_1206, server: 3.112.237.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: DE_884, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: DE_932, server: 80.92.204.106, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
-  - {name: 🇰🇷 OC韩国1-1, server: alibaba1.xn--z7x16bf6t.com, port: 39311, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇩🇪 Germany-DE-2-Rate:1.0, server: de-2.topeinstein.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: DE_917, server: 80.92.204.106, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
-  - {name: 🇸🇬 新加坡-SG-02, server: 34612.kuajing.buzz, port: 34612, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇨🇳 TW台湾1-6 | 流媒体｜原生, server: aawssb6.xn--z7x16bf6t.com, port: 30211, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇺🇸 United States-V6-US3-Rate:1.0, server: v6-us3.nigirocloud.com, port: 4003, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国-KR-02, server: 34624.kuajing.buzz, port: 34624, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇺🇸 x1.0 美西 - 中转2, server: 166cc49a-i.2nvx.com, port: 10243, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: DE_899, server: 80.92.204.106, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU}
-  - {name: DE_887, server: 80.92.204.106, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
-  - {name: 🇯🇵 日本-JP-02, server: 34615.kuajing.buzz, port: 34615, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾06|動畫瘋&App Gpt&Tk, server: aa01gg.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: 🇺🇸 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 美国03, server: usnode03.oportal.cc, port: 443, type: trojan, password: d74bfcb4-a21e-4475-b83d-7bc413f456dd, skip-cert-verify: true}
-  - {name: DE_920, server: 80.92.204.106, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1228, server: jp005.421421.xyz, port: 20230, type: trojan, password: cf13832b-4ca0-4fee-8e85-2b2411104e75, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: NL_176, server: tjcu3.bocchi.ooo, port: 33539, type: ss, cipher: aes-128-gcm, password: c15f7586-f1ea-40df-883c-0664c5dc3eaf}
-  - {name: 🇮🇩 印尼-ID-01, server: 34605.kuajing.buzz, port: 34605, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇭🇰 AL香港1-4｜流解, server: adubaiyun4.xn--z7x16bf6t.com, port: 26678, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇭🇰 香港-HK-01, server: 34628.kuajing.buzz, port: 34628, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港07, server: hknode07.oportal.cc, port: 443, type: trojan, password: d74bfcb4-a21e-4475-b83d-7bc413f456dd, skip-cert-verify: true}
-  - {name: 🇰🇷 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 韩国02, server: krnode02.oportal.cc, port: 443, type: trojan, password: d74bfcb4-a21e-4475-b83d-7bc413f456dd, skip-cert-verify: true}
-  - {name: 🇺🇸 x1.0 美西 - 中转3, server: 166cc49a-i.2nvx.com, port: 10244, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: DE_904, server: 80.92.204.106, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
-  - {name: 🇲🇾 PL马来西亚1-1 | 限速 | x3, server: alibaba1.xn--z7x16bf6t.com, port: 20620, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇯🇵 日本-JP-01, server: 34614.kuajing.buzz, port: 34614, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇺🇸 x1.0 美西 - 中转1, server: 166cc49a-i.2nvx.com, port: 10242, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
   - {name: 🇯🇵 x1.0 日本 - 中转1, server: 166cc49a-i.2nvx.com, port: 10342, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇯🇵 Japan-TY-1-Rate:1.0, server: ty-1.rise-fuji.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇻🇳 越南-VN-01, server: 34601.kuajing.buzz, port: 34601, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇸🇬 UL新加坡1-1 | 流解, server: alibaba1.xn--z7x16bf6t.com, port: 19332, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇷🇺 AE俄罗斯1-6, server: aawssb6.xn--z7x16bf6t.com, port: 40055, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇯🇵 日本|@ripaojiedian, server: 36.151.195.77, port: 31666, type: trojan, password: MfqALmAJ, skip-cert-verify: true}
-  - {name: 🇯🇵 NT日本1-5 | 流解｜原生, server: abaidusb5.xn--z7x16bf6t.com, port: 23466, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇩🇪 JH德国-法兰克福1-6 | 限速, server: aawssb6.xn--z7x16bf6t.com, port: 20369, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: HK_108, server: gddxc-mm.la-chinata.hk, port: 53972, type: ss, cipher: aes-128-gcm, password: antmissjk}
-  - {name: 🇲🇾 马来西亚-MY-01, server: 34629.kuajing.buzz, port: 34629, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰-NL-02, server: 34636.kuajing.buzz, port: 34636, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡-SG-03, server: 34640.kuajing.buzz, port: 34640, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港16|HKBN动态原生ip, server: aa01gg.sssyun.xyz, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11}
-  - {name: US_221, server: zjcu3.bocchi.ooo, port: 11311, type: ss, cipher: aes-128-gcm, password: c15f7586-f1ea-40df-883c-0664c5dc3eaf}
-  - {name: 🇸🇬 UL新加坡1-3 | 流解, server: agoogleyun3.xn--z7x16bf6t.com, port: 19332, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇹🇭 YG泰国1-1 | 流解 | x2, server: alibaba1.xn--z7x16bf6t.com, port: 27844, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇮🇳 UL印度1-6, server: aawssb6.xn--z7x16bf6t.com, port: 38944, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇨🇦 OC加拿大1-1, server: alibaba1.xn--z7x16bf6t.com, port: 41166, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇨🇳 x1.0 台北 - 中转1, server: 166cc49a-i.2nvx.com, port: 10542, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: US_222, server: zjcu3.bocchi.ooo, port: 17463, type: ss, cipher: aes-128-gcm, password: c15f7586-f1ea-40df-883c-0664c5dc3eaf}
-  - {name: 🇯🇵 日本-JP-03, server: 34637.kuajing.buzz, port: 34637, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇯🇵 OC日本1-3, server: agoogleyun3.xn--z7x16bf6t.com, port: 27799, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇩🇪 德国-DE-01, server: 34611.kuajing.buzz, port: 34611, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇫🇷 法国-FR-01, server: 34616.kuajing.buzz, port: 34616, type: trojan, password: 0fc0e309-7d1a-3a59-b0bf-8206236d2f2b, sni: eplcgame.com, skip-cert-verify: false}
-  - {name: 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯03|下载&防失联|0.1x, server: mugen33.6bnw.top, port: 8080, type: vmess, uuid: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: buyvmus2.6bnw.top}}}
-  - {name: TG：@JUZIBAIPIAO|🇺🇸纽约03|下载&防失联|0.1x, server: mugen33.6bnw.top, port: 8080, type: vmess, uuid: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/cctv?ed=2048", headers: {Host: buyvmus.6bnw.top}}}
-  - {name: 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯04|下载&防失联|0.1x, server: mugen44.6bnw.top, port: 8080, type: vmess, uuid: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: buyvmus2.6bnw.top}}}
-  - {name: 🇺🇸 UL美国1-3 | 流解, server: agoogleyun3.xn--z7x16bf6t.com, port: 25251, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
-  - {name: 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港, server: 14.152.94.40, port: 8181, type: ssr, cipher: dummy, password: !<str> 123456, protocol: auth_chain_a, obfs: plain, protocol-param: 28092:T7h9v9, obfs-param: tg@mfbpn}
-  - {name: 🇯🇵 NCC日本1-1 | 流解 | x2, server: alibaba1.xn--z7x16bf6t.com, port: 18229, type: ss, cipher: aes-128-gcm, password: ab5be08d-d76e-4fb0-b0b1-e88d2d780a66}
+  - {name: 🇺🇸 美国_Telegram@kxswa 64, server: 104.18.57.111, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🇭🇰 香港 Spica, server: ttsh.xissyun.com, port: 43856, type: ss, cipher: chacha20-ietf-poly1305, password: 2b5c86b6-3a35-42a0-b8e7-ffaee131892e}
+  - {name: DE_887, server: 80.92.204.106, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z}
+  - {name: 🇺🇸 United States-V6-US3-Rate:1.0, server: v6-us3.nigirocloud.com, port: 4003, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
+  - {name: DE_932, server: 80.92.204.106, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
+  - {name: 🇭🇰 香港_Telegram@kxswa 13, server: cn1.cdn.xfltd-cdn.top, port: 12005, type: trojan, password: 6c4662f8-9e18-4616-8f32-2dba988f497f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: JP_1181, server: 57.180.39.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 6, server: 13.229.87.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港05｜tg@ghosxtop, server: yd-06.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇨🇳 台湾04｜tg@ghosxtop, server: yd-02.paofunlink.com, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇨🇳 台湾01｜tg@ghosxtop, server: yd-05.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇨🇳 台湾05｜tg@ghosxtop, server: yd-03.paofunlink.com, port: 1075, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: DE_920, server: 80.92.204.106, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga}
+  - {name: 🇺🇸 x1.0 美西 - 中转3, server: 166cc49a-i.2nvx.com, port: 10244, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾2|@ripaojiedian, server: cm1-tw.hutaonode3.top, port: 12555, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇸🇬 新加坡01｜tg@ghosxtop, server: yd-05.paofunlink.com, port: 1090, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian 2, server: 52.197.150.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾07｜tg@ghosxtop, server: yd-03.paofunlink.com, port: 1077, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 关注电报https://t.me/aifenxiang2020, server: 104.26.0.66, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, servername: cdn3.freegradely.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: 🇸🇬 新加坡04｜tg@ghosxtop, server: yd-02.paofunlink.com, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇸🇬 新加坡02｜tg@ghosxtop, server: yd-05.paofunlink.com, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇸🇬 新加坡 - IEPL - SS/SSR - 10, server: cm1-sg.hutaonode3.top, port: 12360, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_249 | 9.21Mb, server: 172.64.233.9, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇸🇬 新加坡03｜tg@ghosxtop, server: yd-02.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: DE_917, server: 80.92.204.106, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt}
+  - {name: 🇯🇵 日本 - IEPL - SS/SSR - 08, server: cm1-jp.hutaonode3.top, port: 12058, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇨🇳 台湾06｜tg@ghosxtop, server: yd-03.paofunlink.com, port: 1076, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇭🇰 香港 - IEPL - SS/SSR - 04, server: cm1-hk.hutaonode3.top, port: 12454, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇸🇬 新加坡 - IEPL - SS/SSR - 09, server: cm1-sg.hutaonode3.top, port: 12359, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇨🇳 台湾08｜tg@ghosxtop, server: yd-03.paofunlink.com, port: 1078, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇭🇰 香港04｜tg@ghosxtop, server: yd-06.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇨🇳 台湾 - IEPL - SS/SSR - 03, server: cm1-tw.hutaonode3.top, port: 12553, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 248, server: 172.67.74.122, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_151 | 5.53Mb, server: 172.64.233.32, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇨🇳 台湾 - IEPL - SS/SSR - 01, server: cm1-tw.hutaonode3.top, port: 12551, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: JP_1175, server: 52.194.188.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港03｜tg@ghosxtop, server: yd-01.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇸🇬 新加坡05｜tg@ghosxtop, server: yd-03.paofunlink.com, port: 1095, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇯🇵 日本 - IEPL - SS/SSR - 01, server: cm1-jp.hutaonode3.top, port: 12051, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_235 | 9.20Mb, server: 172.64.198.249, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: JP_1172, server: 52.194.223.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾 - IEPL - SS/SSR - 06, server: cm1-tw.hutaonode3.top, port: 12556, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇸🇬 新加坡 - IEPL - SS/SSR - 05, server: cm1-sg.hutaonode3.top, port: 12355, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: CN_64, server: 183.236.48.163, port: 36002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 300, server: 104.16.61.8, port: 2095, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: ep-sunset-9b11.kekic13319.workers.dev}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 69, server: 104.20.17.186, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_263 |10.21Mb, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 🇨🇳 台湾 - IEPL - SS/SSR - 04, server: cm1-tw.hutaonode3.top, port: 12554, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 13.212.34.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港 - IEPL - SS/SSR - 10, server: cm1-hk.hutaonode3.top, port: 12460, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇸🇬 新加坡 - IEPL - SS/SSR - 06, server: cm1-sg.hutaonode3.top, port: 12356, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇯🇵 日本04｜tg@ghosxtop, server: yd-02.paofunlink.com, port: 1053, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇭🇰 香港_Telegram@kxswa 14, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 6c4662f8-9e18-4616-8f32-2dba988f497f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: JP_1195, server: 176.34.0.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港_Telegram@kxswa 12, server: cn1.cdn.xfltd-cdn.top, port: 12004, type: trojan, password: 6c4662f8-9e18-4616-8f32-2dba988f497f, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾 - IEPL - SS/SSR - 02, server: cm1-tw.hutaonode3.top, port: 12552, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇭🇰 香港 - IEPL - SS/SSR - 03, server: cm1-hk.hutaonode3.top, port: 12453, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
+  - {name: 🇯🇵 日本03｜tg@ghosxtop, server: yd-02.paofunlink.com, port: 1052, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_139 |11.77Mb, server: 172.64.233.43, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇭🇰 香港HKT, server: f357989d-salr40-sdxdlm-2t4g.hkt.comefromchinatown.com, port: 80, type: vmess, uuid: 9cee4016-cde0-11eb-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.hgcbroadband.com}}}
+  - {name: 🇺🇸 美国01｜tg@ghosxtop, server: yd-05.paofunlink.com, port: 1080, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇨🇳 台湾03｜tg@ghosxtop, server: yd-05.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: 🇺🇸 x1.0 美西 - 中转1, server: 166cc49a-i.2nvx.com, port: 10242, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
+  - {name: 🇺🇸 x1.0 美西 - 中转2, server: 166cc49a-i.2nvx.com, port: 10243, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
+  - {name: JP_1206, server: 3.112.237.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇪 Germany-DE-2-Rate:1.0, server: de-2.topeinstein.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
+  - {name: Relay_-🇨🇦CA_34 | 2.34Mb, server: 23.227.38.13, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 100, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.dtku47.xyz}}}
+  - {name: KR_1241, server: 43.201.254.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 x1.0 韩国 - 中转2, server: 166cc49a-i.2nvx.com, port: 10643, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
+  - {name: Relay_-🇨🇦CA_16 |26.27Mb, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.3196772.xyz}}}
+  - {name: DE_904, server: 80.92.204.106, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_260 |21.75Mb, server: 172.64.233.7, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇯🇵 日本02｜tg@ghosxtop, server: yd-05.paofunlink.com, port: 1051, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 254902:0724Lirrr, obfs-param: 54e00254902.microsoft.com}
+  - {name: Relay_🏁ZZ-🇨🇦CA_280 | 4.23Mb, server: www.visa.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇸🇬 x1.0 新加坡 - 中转5, server: 463b21bf-i.2nvx.com, port: 10146, type: trojan, password: zp7b1Brd, sni: 463b21bf-i.2nvx.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 259, server: 104.16.61.8, port: 2086, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: vmess.taxar71054.workers.dev}}}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -239,914 +96,342 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇨🇦 加拿大-CA-01
-      - 🇺🇸 United States-US-1-Rate:1.5
-      - 🇭🇰 x1.0 香港 - 中转4
-      - 🇸🇬 x1.0 新加坡 - 中转6
-      - 🇸🇬 AP新加坡1-1 ｜流解
-      - 🇳🇱 荷兰-NL-01
-      - 🇰🇷 SC韩国1-1 | 限速 | x2
-      - 🇯🇵 DG日本1-3
-      - 🇸🇬 x1.0 新加坡 - 中转5
-      - 🇦🇺 Australia-AU-2-Rate:1.0
-      - 关注𝙏𝙂频道 @𝙈𝙁𝘽𝙋𝙉 防止失联
-      - 🇨🇳 台湾-TW-03
-      - 🇦🇺 Australia-AU-1-Rate:0.5
-      - 🇸🇬 x1.0 新加坡 - 中转1
-      - 🇯🇵 x1.0 日本 - 中转2
-      - 🇨🇳 台湾-TW-01
-      - 🇯🇵 Japan-OS-1-Rate:1.0
-      - 🇰🇷 x1.0 韩国 - 中转1
-      - 🇯🇵 NT日本1-3 | 流解｜原生
-      - 🇦🇺 澳大利亚-AU-01
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港02
-      - 当前网址：v2neo.net
-      - 🇭🇰 x1.0 香港 - 中转2
-      - 🇦🇪 阿联酋-AE-02
-      - 🇰🇷 OC韩国1-6
-      - 🇷🇺 AE俄罗斯1-1
-      - 🇺🇸 x1.0 美西 - 中转4
-      - 🇫🇷 OC法国-巴黎1-1
-      - 🇺🇸 United States-US-3-Rate:1.0
-      - CA_99
-      - 🇮🇳 UL印度1-1
-      - 🇨🇦 OC加拿大1-6
-      - 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 日本04
-      - 🇭🇰 LS香港1-2 | 流解 | 原生
-      - 🇺🇸 United States-US-4-Rate:1.0
-      - 🇸🇬 AP新加坡1-5 ｜流解
-      - 🇯🇵 DG日本1-5
-      - 🇻🇳 YG越南1-6 | 限速 | x5
-      - DE_916
-      - 🇰🇷 SC韩国1-6 | 限速 | x2
-      - 🇨🇳 x1.0 台北 - 中转3
-      - JP_1192
-      - TR_1447
-      - SG_1419
-      - 🇯🇵 Japan-OS-3-Rate:1.0
-      - CA_765
-      - 🇹🇭 YG泰国1-6 | 流解 | x2
-      - 🇸🇬 新加坡-SG-01
-      - 🇲🇾 PL马来西亚1-6 | 限速 | x3
-      - DE_907
-      - DE_918
-      - DE_102
-      - 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵东京01
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇮🇳 印度-IN-01
-      - JP_1198
-      - 🇦🇪 阿联酋-AE-01
-      - 🇯🇵 Japan-TY-4-Rate:1.0
-      - 🇯🇵 OC日本1-1
-      - 🇨🇳 Taiwan-TW-2-Rate:1.0
-      - 🇫🇷 JH法国-巴黎1-1 | 限速
-      - 🇭🇰 AL香港1-1｜流解
-      - 🇯🇵 UL日本1-1 | 流解 | x2
-      - 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡01|Web Gpt&Tk
-      - US_220
-      - 🇺🇸 美国-US-04
-      - 🇭🇰 AP香港1-3  | 流解
-      - US_1581
-      - 🇭🇰 AP香港2-1 | 流解
-      - 🇭🇰 x1.0 香港 - 中转6
-      - 🇹🇭 泰国-TH-01
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港06
-      - KR_1239
-      - 🇪🇸 OC西班牙-马德里1-6
-      - 🇺🇸 x1.0 美西 - 中转6
-      - JP_1196
-      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
-      - 🇹🇷 土耳其-TR-01
-      - 🇸🇬 OC新加坡1-1
-      - JP_1180
-      - AR_98
-      - DE_903
-      - US_1951
-      - 🇨🇳 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 台湾11
-      - 🇭🇰 AP香港1-5  | 流解
-      - DE_910
-      - 🇭🇰 Hong Kong-HK-2-Rate:0.5
-      - SG_1440
-      - 🇯🇵 UL日本1-3  | 流解 | x2
-      - SG_1418
-      - 🇻🇳 越南-VN-02
-      - 🇭🇰 AP香港1-4  | 流解
-      - DE_896
-      - 🇨🇳 TW台湾1-1 | 流媒体｜原生
-      - 🇬🇧 OC英国-伦敦1-6
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
-      - DE_895
-      - AL_660
-      - FI_961
-      - 🇻🇳 YG越南1-1 | 限速 | x5
-      - 🇭🇰 AL香港1-3｜流解
-      - 🇭🇰 香港-HK-05
-      - DE_900
-      - 🇨🇳 x1.0 台北 - 中转2
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇭🇰 x1.0 香港 - 中转3
-      - 🇭🇰 LS香港1-4 | 流解 | 原生
-      - 🇦🇱 阿尔巴尼亚_Telegram@kxswa
-      - 🇦🇺 Australia-AU-3-Rate:1.0
-      - 🇵🇭 菲律宾-PH-01
-      - 🇸🇬 UL新加坡1-5 | 流解
-      - TR_193
-      - KZ_1252
-      - 🇯🇵 x1.0 日本 - 中转4
-      - 🇭🇰 AP香港1-1  | 流解
-      - 🇯🇵 DG日本1-1
-      - 🇺🇸 United States-US-5-Rate:1.0
-      - 🇫🇷 JH法国-巴黎1-6 | 限速
-      - KR_171
-      - 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾01|全解锁
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港01
-      - 🇸🇬 x1.0 新加坡 - 中转3
-      - 🇭🇰 AL香港1-5｜流解
-      - 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵日本06|Web Gpt&Tk
-      - 🇯🇵 UL日本1-5 | x2
-      - DE_929
-      - TG：@JUZIBAIPIAO|🇰🇷春川06|Web Gpt&Tk
-      - 🇪🇸 OC西班牙-马德里1-1
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港11|0.8x
-      - US_2719
-      - 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡06|Web Gpt&Tk
-      - 🇯🇵 OC日本1-5
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港9
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港8
-      - 🇨🇦 TG：@JUZIBAIPIAO|🇨🇦加拿大01
-      - 🇺🇸 AP美国1-3｜流媒体
-      - 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 日本9
-      - 🇸🇬 狮城特殊|@ripaojiedian 3
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港1
-      - 🇭🇰 香港-vmess-04
-      - 🇭🇰 HY香港1-4 | 流解
-      - US_1751
-      - KR_1238
-      - 🇭🇰 HY香港1-2 | 流解
-      - DE_908
-      - JP_1185
-      - JP_1193
-      - 🇭🇰 AL香港1-2｜流解
-      - 🇭🇰 LS香港1-5 | 流解 | 原生
-      - JP_1175
-      - 🇭🇰 LS香港1-3 | 流解 | 原生
-      - KR_1241
-      - 🇭🇰 AP香港2-3 | 流解
-      - JP_1181
-      - 🇭🇰 HY香港1-1 | 流解
-      - 🇩🇪 JH德国-法兰克福1-1 | 限速
-      - 🇬🇧 OC英国-伦敦1-1
-      - 🇰🇷 x1.0 韩国 - 中转2
-      - FR_1053
-      - 🇯🇵 Japan-OS-2-Rate:1.0
-      - US_223
+      - 🇸🇬 新加坡_Telegram@kxswa 7
       - 🇦🇺 Australia-AU-4-Rate:1.0
-      - JP_1206
-      - DE_884
-      - DE_932
-      - 🇰🇷 OC韩国1-1
-      - 🇩🇪 Germany-DE-2-Rate:1.0
-      - DE_917
-      - 🇸🇬 新加坡-SG-02
-      - 🇨🇳 TW台湾1-6 | 流媒体｜原生
-      - 🇺🇸 United States-V6-US3-Rate:1.0
-      - 🇰🇷 韩国-KR-02
-      - 🇺🇸 x1.0 美西 - 中转2
-      - DE_899
-      - DE_887
-      - 🇯🇵 日本-JP-02
-      - 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾06|動畫瘋&App Gpt&Tk
-      - 🇺🇸 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 美国03
-      - DE_920
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1228
-      - NL_176
-      - 🇮🇩 印尼-ID-01
-      - 🇭🇰 AL香港1-4｜流解
-      - 🇭🇰 香港-HK-01
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港07
-      - 🇰🇷 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 韩国02
-      - 🇺🇸 x1.0 美西 - 中转3
-      - DE_904
-      - 🇲🇾 PL马来西亚1-1 | 限速 | x3
-      - 🇯🇵 日本-JP-01
-      - 🇺🇸 x1.0 美西 - 中转1
       - 🇯🇵 x1.0 日本 - 中转1
-      - 🇯🇵 Japan-TY-1-Rate:1.0
-      - 🇻🇳 越南-VN-01
-      - 🇸🇬 UL新加坡1-1 | 流解
-      - 🇷🇺 AE俄罗斯1-6
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 NT日本1-5 | 流解｜原生
-      - 🇩🇪 JH德国-法兰克福1-6 | 限速
-      - HK_108
-      - 🇲🇾 马来西亚-MY-01
-      - 🇳🇱 荷兰-NL-02
-      - 🇸🇬 新加坡-SG-03
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港16|HKBN动态原生ip
-      - US_221
-      - 🇸🇬 UL新加坡1-3 | 流解
-      - 🇹🇭 YG泰国1-1 | 流解 | x2
-      - 🇮🇳 UL印度1-6
-      - 🇨🇦 OC加拿大1-1
-      - 🇨🇳 x1.0 台北 - 中转1
-      - US_222
-      - 🇯🇵 日本-JP-03
-      - 🇯🇵 OC日本1-3
-      - 🇩🇪 德国-DE-01
-      - 🇫🇷 法国-FR-01
-      - 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯03|下载&防失联|0.1x
-      - TG：@JUZIBAIPIAO|🇺🇸纽约03|下载&防失联|0.1x
-      - 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯04|下载&防失联|0.1x
-      - 🇺🇸 UL美国1-3 | 流解
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港
-      - 🇯🇵 NCC日本1-1 | 流解 | x2
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇭🇰 香港 Spica
+      - DE_887
+      - 🇺🇸 United States-V6-US3-Rate:1.0
+      - DE_932
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - JP_1181
+      - 🇸🇬 新加坡_Telegram@kxswa 6
+      - 🇭🇰 香港05｜tg@ghosxtop
+      - 🇨🇳 台湾04｜tg@ghosxtop
+      - 🇨🇳 台湾01｜tg@ghosxtop
+      - 🇨🇳 台湾05｜tg@ghosxtop
+      - DE_920
+      - 🇺🇸 x1.0 美西 - 中转3
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇸🇬 新加坡01｜tg@ghosxtop
+      - 🇰🇷 韩国特殊|@ripaojiedian 2
+      - 🇨🇳 台湾07｜tg@ghosxtop
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇸🇬 新加坡04｜tg@ghosxtop
+      - 🇸🇬 新加坡02｜tg@ghosxtop
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 10
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_249 | 9.21Mb
+      - 🇸🇬 新加坡03｜tg@ghosxtop
+      - DE_917
+      - 🇯🇵 日本 - IEPL - SS/SSR - 08
+      - 🇨🇳 台湾06｜tg@ghosxtop
+      - 🇭🇰 香港 - IEPL - SS/SSR - 04
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 09
+      - 🇨🇳 台湾08｜tg@ghosxtop
+      - 🇭🇰 香港04｜tg@ghosxtop
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 03
+      - 🇺🇸 美国_Telegram@kxswa 248
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_151 | 5.53Mb
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 01
+      - JP_1175
+      - 🇭🇰 香港03｜tg@ghosxtop
+      - 🇸🇬 新加坡05｜tg@ghosxtop
+      - 🇯🇵 日本 - IEPL - SS/SSR - 01
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_235 | 9.20Mb
+      - JP_1172
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 06
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 05
+      - CN_64
+      - 🇺🇸 美国_Telegram@kxswa 300
+      - 🇺🇸 美国_Telegram@kxswa 69
+      - Relay_🏁ZZ-🇨🇦CA_263 |10.21Mb
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 04
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 香港 - IEPL - SS/SSR - 10
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 06
+      - 🇯🇵 日本04｜tg@ghosxtop
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - JP_1195
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 02
+      - 🇭🇰 香港 - IEPL - SS/SSR - 03
+      - 🇯🇵 日本03｜tg@ghosxtop
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_139 |11.77Mb
+      - 🇭🇰 香港HKT
+      - 🇺🇸 美国01｜tg@ghosxtop
+      - 🇨🇳 台湾03｜tg@ghosxtop
+      - 🇺🇸 x1.0 美西 - 中转1
+      - 🇺🇸 x1.0 美西 - 中转2
+      - JP_1206
+      - 🇩🇪 Germany-DE-2-Rate:1.0
+      - Relay_-🇨🇦CA_34 | 2.34Mb
+      - 🇺🇸 美国_Telegram@kxswa 100
+      - KR_1241
+      - 🇰🇷 x1.0 韩国 - 中转2
+      - Relay_-🇨🇦CA_16 |26.27Mb
+      - DE_904
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_260 |21.75Mb
+      - 🇯🇵 日本02｜tg@ghosxtop
+      - Relay_🏁ZZ-🇨🇦CA_280 | 4.23Mb
+      - 🇸🇬 x1.0 新加坡 - 中转5
+      - 🇺🇸 美国_Telegram@kxswa 259
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 加拿大-CA-01
-      - 🇺🇸 United States-US-1-Rate:1.5
-      - 🇭🇰 x1.0 香港 - 中转4
-      - 🇸🇬 x1.0 新加坡 - 中转6
-      - 🇸🇬 AP新加坡1-1 ｜流解
-      - 🇳🇱 荷兰-NL-01
-      - 🇰🇷 SC韩国1-1 | 限速 | x2
-      - 🇯🇵 DG日本1-3
-      - 🇸🇬 x1.0 新加坡 - 中转5
-      - 🇦🇺 Australia-AU-2-Rate:1.0
-      - 关注𝙏𝙂频道 @𝙈𝙁𝘽𝙋𝙉 防止失联
-      - 🇨🇳 台湾-TW-03
-      - 🇦🇺 Australia-AU-1-Rate:0.5
-      - 🇸🇬 x1.0 新加坡 - 中转1
-      - 🇯🇵 x1.0 日本 - 中转2
-      - 🇨🇳 台湾-TW-01
-      - 🇯🇵 Japan-OS-1-Rate:1.0
-      - 🇰🇷 x1.0 韩国 - 中转1
-      - 🇯🇵 NT日本1-3 | 流解｜原生
-      - 🇦🇺 澳大利亚-AU-01
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港02
-      - 当前网址：v2neo.net
-      - 🇭🇰 x1.0 香港 - 中转2
-      - 🇦🇪 阿联酋-AE-02
-      - 🇰🇷 OC韩国1-6
-      - 🇷🇺 AE俄罗斯1-1
-      - 🇺🇸 x1.0 美西 - 中转4
-      - 🇫🇷 OC法国-巴黎1-1
-      - 🇺🇸 United States-US-3-Rate:1.0
-      - CA_99
-      - 🇮🇳 UL印度1-1
-      - 🇨🇦 OC加拿大1-6
-      - 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 日本04
-      - 🇭🇰 LS香港1-2 | 流解 | 原生
-      - 🇺🇸 United States-US-4-Rate:1.0
-      - 🇸🇬 AP新加坡1-5 ｜流解
-      - 🇯🇵 DG日本1-5
-      - 🇻🇳 YG越南1-6 | 限速 | x5
-      - DE_916
-      - 🇰🇷 SC韩国1-6 | 限速 | x2
-      - 🇨🇳 x1.0 台北 - 中转3
-      - JP_1192
-      - TR_1447
-      - SG_1419
-      - 🇯🇵 Japan-OS-3-Rate:1.0
-      - CA_765
-      - 🇹🇭 YG泰国1-6 | 流解 | x2
-      - 🇸🇬 新加坡-SG-01
-      - 🇲🇾 PL马来西亚1-6 | 限速 | x3
-      - DE_907
-      - DE_918
-      - DE_102
-      - 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵东京01
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇮🇳 印度-IN-01
-      - JP_1198
-      - 🇦🇪 阿联酋-AE-01
-      - 🇯🇵 Japan-TY-4-Rate:1.0
-      - 🇯🇵 OC日本1-1
-      - 🇨🇳 Taiwan-TW-2-Rate:1.0
-      - 🇫🇷 JH法国-巴黎1-1 | 限速
-      - 🇭🇰 AL香港1-1｜流解
-      - 🇯🇵 UL日本1-1 | 流解 | x2
-      - 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡01|Web Gpt&Tk
-      - US_220
-      - 🇺🇸 美国-US-04
-      - 🇭🇰 AP香港1-3  | 流解
-      - US_1581
-      - 🇭🇰 AP香港2-1 | 流解
-      - 🇭🇰 x1.0 香港 - 中转6
-      - 🇹🇭 泰国-TH-01
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港06
-      - KR_1239
-      - 🇪🇸 OC西班牙-马德里1-6
-      - 🇺🇸 x1.0 美西 - 中转6
-      - JP_1196
-      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
-      - 🇹🇷 土耳其-TR-01
-      - 🇸🇬 OC新加坡1-1
-      - JP_1180
-      - AR_98
-      - DE_903
-      - US_1951
-      - 🇨🇳 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 台湾11
-      - 🇭🇰 AP香港1-5  | 流解
-      - DE_910
-      - 🇭🇰 Hong Kong-HK-2-Rate:0.5
-      - SG_1440
-      - 🇯🇵 UL日本1-3  | 流解 | x2
-      - SG_1418
-      - 🇻🇳 越南-VN-02
-      - 🇭🇰 AP香港1-4  | 流解
-      - DE_896
-      - 🇨🇳 TW台湾1-1 | 流媒体｜原生
-      - 🇬🇧 OC英国-伦敦1-6
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
-      - DE_895
-      - AL_660
-      - FI_961
-      - 🇻🇳 YG越南1-1 | 限速 | x5
-      - 🇭🇰 AL香港1-3｜流解
-      - 🇭🇰 香港-HK-05
-      - DE_900
-      - 🇨🇳 x1.0 台北 - 中转2
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇭🇰 x1.0 香港 - 中转3
-      - 🇭🇰 LS香港1-4 | 流解 | 原生
-      - 🇦🇱 阿尔巴尼亚_Telegram@kxswa
-      - 🇦🇺 Australia-AU-3-Rate:1.0
-      - 🇵🇭 菲律宾-PH-01
-      - 🇸🇬 UL新加坡1-5 | 流解
-      - TR_193
-      - KZ_1252
-      - 🇯🇵 x1.0 日本 - 中转4
-      - 🇭🇰 AP香港1-1  | 流解
-      - 🇯🇵 DG日本1-1
-      - 🇺🇸 United States-US-5-Rate:1.0
-      - 🇫🇷 JH法国-巴黎1-6 | 限速
-      - KR_171
-      - 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾01|全解锁
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港01
-      - 🇸🇬 x1.0 新加坡 - 中转3
-      - 🇭🇰 AL香港1-5｜流解
-      - 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵日本06|Web Gpt&Tk
-      - 🇯🇵 UL日本1-5 | x2
-      - DE_929
-      - TG：@JUZIBAIPIAO|🇰🇷春川06|Web Gpt&Tk
-      - 🇪🇸 OC西班牙-马德里1-1
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港11|0.8x
-      - US_2719
-      - 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡06|Web Gpt&Tk
-      - 🇯🇵 OC日本1-5
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港9
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港8
-      - 🇨🇦 TG：@JUZIBAIPIAO|🇨🇦加拿大01
-      - 🇺🇸 AP美国1-3｜流媒体
-      - 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 日本9
-      - 🇸🇬 狮城特殊|@ripaojiedian 3
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港1
-      - 🇭🇰 香港-vmess-04
-      - 🇭🇰 HY香港1-4 | 流解
-      - US_1751
-      - KR_1238
-      - 🇭🇰 HY香港1-2 | 流解
-      - DE_908
-      - JP_1185
-      - JP_1193
-      - 🇭🇰 AL香港1-2｜流解
-      - 🇭🇰 LS香港1-5 | 流解 | 原生
-      - JP_1175
-      - 🇭🇰 LS香港1-3 | 流解 | 原生
-      - KR_1241
-      - 🇭🇰 AP香港2-3 | 流解
-      - JP_1181
-      - 🇭🇰 HY香港1-1 | 流解
-      - 🇩🇪 JH德国-法兰克福1-1 | 限速
-      - 🇬🇧 OC英国-伦敦1-1
-      - 🇰🇷 x1.0 韩国 - 中转2
-      - FR_1053
-      - 🇯🇵 Japan-OS-2-Rate:1.0
-      - US_223
+      - 🇸🇬 新加坡_Telegram@kxswa 7
       - 🇦🇺 Australia-AU-4-Rate:1.0
-      - JP_1206
-      - DE_884
-      - DE_932
-      - 🇰🇷 OC韩国1-1
-      - 🇩🇪 Germany-DE-2-Rate:1.0
-      - DE_917
-      - 🇸🇬 新加坡-SG-02
-      - 🇨🇳 TW台湾1-6 | 流媒体｜原生
-      - 🇺🇸 United States-V6-US3-Rate:1.0
-      - 🇰🇷 韩国-KR-02
-      - 🇺🇸 x1.0 美西 - 中转2
-      - DE_899
-      - DE_887
-      - 🇯🇵 日本-JP-02
-      - 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾06|動畫瘋&App Gpt&Tk
-      - 🇺🇸 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 美国03
-      - DE_920
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1228
-      - NL_176
-      - 🇮🇩 印尼-ID-01
-      - 🇭🇰 AL香港1-4｜流解
-      - 🇭🇰 香港-HK-01
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港07
-      - 🇰🇷 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 韩国02
-      - 🇺🇸 x1.0 美西 - 中转3
-      - DE_904
-      - 🇲🇾 PL马来西亚1-1 | 限速 | x3
-      - 🇯🇵 日本-JP-01
-      - 🇺🇸 x1.0 美西 - 中转1
       - 🇯🇵 x1.0 日本 - 中转1
-      - 🇯🇵 Japan-TY-1-Rate:1.0
-      - 🇻🇳 越南-VN-01
-      - 🇸🇬 UL新加坡1-1 | 流解
-      - 🇷🇺 AE俄罗斯1-6
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 NT日本1-5 | 流解｜原生
-      - 🇩🇪 JH德国-法兰克福1-6 | 限速
-      - HK_108
-      - 🇲🇾 马来西亚-MY-01
-      - 🇳🇱 荷兰-NL-02
-      - 🇸🇬 新加坡-SG-03
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港16|HKBN动态原生ip
-      - US_221
-      - 🇸🇬 UL新加坡1-3 | 流解
-      - 🇹🇭 YG泰国1-1 | 流解 | x2
-      - 🇮🇳 UL印度1-6
-      - 🇨🇦 OC加拿大1-1
-      - 🇨🇳 x1.0 台北 - 中转1
-      - US_222
-      - 🇯🇵 日本-JP-03
-      - 🇯🇵 OC日本1-3
-      - 🇩🇪 德国-DE-01
-      - 🇫🇷 法国-FR-01
-      - 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯03|下载&防失联|0.1x
-      - TG：@JUZIBAIPIAO|🇺🇸纽约03|下载&防失联|0.1x
-      - 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯04|下载&防失联|0.1x
-      - 🇺🇸 UL美国1-3 | 流解
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港
-      - 🇯🇵 NCC日本1-1 | 流解 | x2
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇭🇰 香港 Spica
+      - DE_887
+      - 🇺🇸 United States-V6-US3-Rate:1.0
+      - DE_932
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - JP_1181
+      - 🇸🇬 新加坡_Telegram@kxswa 6
+      - 🇭🇰 香港05｜tg@ghosxtop
+      - 🇨🇳 台湾04｜tg@ghosxtop
+      - 🇨🇳 台湾01｜tg@ghosxtop
+      - 🇨🇳 台湾05｜tg@ghosxtop
+      - DE_920
+      - 🇺🇸 x1.0 美西 - 中转3
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇸🇬 新加坡01｜tg@ghosxtop
+      - 🇰🇷 韩国特殊|@ripaojiedian 2
+      - 🇨🇳 台湾07｜tg@ghosxtop
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇸🇬 新加坡04｜tg@ghosxtop
+      - 🇸🇬 新加坡02｜tg@ghosxtop
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 10
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_249 | 9.21Mb
+      - 🇸🇬 新加坡03｜tg@ghosxtop
+      - DE_917
+      - 🇯🇵 日本 - IEPL - SS/SSR - 08
+      - 🇨🇳 台湾06｜tg@ghosxtop
+      - 🇭🇰 香港 - IEPL - SS/SSR - 04
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 09
+      - 🇨🇳 台湾08｜tg@ghosxtop
+      - 🇭🇰 香港04｜tg@ghosxtop
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 03
+      - 🇺🇸 美国_Telegram@kxswa 248
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_151 | 5.53Mb
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 01
+      - JP_1175
+      - 🇭🇰 香港03｜tg@ghosxtop
+      - 🇸🇬 新加坡05｜tg@ghosxtop
+      - 🇯🇵 日本 - IEPL - SS/SSR - 01
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_235 | 9.20Mb
+      - JP_1172
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 06
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 05
+      - CN_64
+      - 🇺🇸 美国_Telegram@kxswa 300
+      - 🇺🇸 美国_Telegram@kxswa 69
+      - Relay_🏁ZZ-🇨🇦CA_263 |10.21Mb
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 04
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 香港 - IEPL - SS/SSR - 10
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 06
+      - 🇯🇵 日本04｜tg@ghosxtop
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - JP_1195
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 02
+      - 🇭🇰 香港 - IEPL - SS/SSR - 03
+      - 🇯🇵 日本03｜tg@ghosxtop
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_139 |11.77Mb
+      - 🇭🇰 香港HKT
+      - 🇺🇸 美国01｜tg@ghosxtop
+      - 🇨🇳 台湾03｜tg@ghosxtop
+      - 🇺🇸 x1.0 美西 - 中转1
+      - 🇺🇸 x1.0 美西 - 中转2
+      - JP_1206
+      - 🇩🇪 Germany-DE-2-Rate:1.0
+      - Relay_-🇨🇦CA_34 | 2.34Mb
+      - 🇺🇸 美国_Telegram@kxswa 100
+      - KR_1241
+      - 🇰🇷 x1.0 韩国 - 中转2
+      - Relay_-🇨🇦CA_16 |26.27Mb
+      - DE_904
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_260 |21.75Mb
+      - 🇯🇵 日本02｜tg@ghosxtop
+      - Relay_🏁ZZ-🇨🇦CA_280 | 4.23Mb
+      - 🇸🇬 x1.0 新加坡 - 中转5
+      - 🇺🇸 美国_Telegram@kxswa 259
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 加拿大-CA-01
-      - 🇺🇸 United States-US-1-Rate:1.5
-      - 🇭🇰 x1.0 香港 - 中转4
-      - 🇸🇬 x1.0 新加坡 - 中转6
-      - 🇸🇬 AP新加坡1-1 ｜流解
-      - 🇳🇱 荷兰-NL-01
-      - 🇰🇷 SC韩国1-1 | 限速 | x2
-      - 🇯🇵 DG日本1-3
-      - 🇸🇬 x1.0 新加坡 - 中转5
-      - 🇦🇺 Australia-AU-2-Rate:1.0
-      - 关注𝙏𝙂频道 @𝙈𝙁𝘽𝙋𝙉 防止失联
-      - 🇨🇳 台湾-TW-03
-      - 🇦🇺 Australia-AU-1-Rate:0.5
-      - 🇸🇬 x1.0 新加坡 - 中转1
-      - 🇯🇵 x1.0 日本 - 中转2
-      - 🇨🇳 台湾-TW-01
-      - 🇯🇵 Japan-OS-1-Rate:1.0
-      - 🇰🇷 x1.0 韩国 - 中转1
-      - 🇯🇵 NT日本1-3 | 流解｜原生
-      - 🇦🇺 澳大利亚-AU-01
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港02
-      - 当前网址：v2neo.net
-      - 🇭🇰 x1.0 香港 - 中转2
-      - 🇦🇪 阿联酋-AE-02
-      - 🇰🇷 OC韩国1-6
-      - 🇷🇺 AE俄罗斯1-1
-      - 🇺🇸 x1.0 美西 - 中转4
-      - 🇫🇷 OC法国-巴黎1-1
-      - 🇺🇸 United States-US-3-Rate:1.0
-      - CA_99
-      - 🇮🇳 UL印度1-1
-      - 🇨🇦 OC加拿大1-6
-      - 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 日本04
-      - 🇭🇰 LS香港1-2 | 流解 | 原生
-      - 🇺🇸 United States-US-4-Rate:1.0
-      - 🇸🇬 AP新加坡1-5 ｜流解
-      - 🇯🇵 DG日本1-5
-      - 🇻🇳 YG越南1-6 | 限速 | x5
-      - DE_916
-      - 🇰🇷 SC韩国1-6 | 限速 | x2
-      - 🇨🇳 x1.0 台北 - 中转3
-      - JP_1192
-      - TR_1447
-      - SG_1419
-      - 🇯🇵 Japan-OS-3-Rate:1.0
-      - CA_765
-      - 🇹🇭 YG泰国1-6 | 流解 | x2
-      - 🇸🇬 新加坡-SG-01
-      - 🇲🇾 PL马来西亚1-6 | 限速 | x3
-      - DE_907
-      - DE_918
-      - DE_102
-      - 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵东京01
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇮🇳 印度-IN-01
-      - JP_1198
-      - 🇦🇪 阿联酋-AE-01
-      - 🇯🇵 Japan-TY-4-Rate:1.0
-      - 🇯🇵 OC日本1-1
-      - 🇨🇳 Taiwan-TW-2-Rate:1.0
-      - 🇫🇷 JH法国-巴黎1-1 | 限速
-      - 🇭🇰 AL香港1-1｜流解
-      - 🇯🇵 UL日本1-1 | 流解 | x2
-      - 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡01|Web Gpt&Tk
-      - US_220
-      - 🇺🇸 美国-US-04
-      - 🇭🇰 AP香港1-3  | 流解
-      - US_1581
-      - 🇭🇰 AP香港2-1 | 流解
-      - 🇭🇰 x1.0 香港 - 中转6
-      - 🇹🇭 泰国-TH-01
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港06
-      - KR_1239
-      - 🇪🇸 OC西班牙-马德里1-6
-      - 🇺🇸 x1.0 美西 - 中转6
-      - JP_1196
-      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
-      - 🇹🇷 土耳其-TR-01
-      - 🇸🇬 OC新加坡1-1
-      - JP_1180
-      - AR_98
-      - DE_903
-      - US_1951
-      - 🇨🇳 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 台湾11
-      - 🇭🇰 AP香港1-5  | 流解
-      - DE_910
-      - 🇭🇰 Hong Kong-HK-2-Rate:0.5
-      - SG_1440
-      - 🇯🇵 UL日本1-3  | 流解 | x2
-      - SG_1418
-      - 🇻🇳 越南-VN-02
-      - 🇭🇰 AP香港1-4  | 流解
-      - DE_896
-      - 🇨🇳 TW台湾1-1 | 流媒体｜原生
-      - 🇬🇧 OC英国-伦敦1-6
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
-      - DE_895
-      - AL_660
-      - FI_961
-      - 🇻🇳 YG越南1-1 | 限速 | x5
-      - 🇭🇰 AL香港1-3｜流解
-      - 🇭🇰 香港-HK-05
-      - DE_900
-      - 🇨🇳 x1.0 台北 - 中转2
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇭🇰 x1.0 香港 - 中转3
-      - 🇭🇰 LS香港1-4 | 流解 | 原生
-      - 🇦🇱 阿尔巴尼亚_Telegram@kxswa
-      - 🇦🇺 Australia-AU-3-Rate:1.0
-      - 🇵🇭 菲律宾-PH-01
-      - 🇸🇬 UL新加坡1-5 | 流解
-      - TR_193
-      - KZ_1252
-      - 🇯🇵 x1.0 日本 - 中转4
-      - 🇭🇰 AP香港1-1  | 流解
-      - 🇯🇵 DG日本1-1
-      - 🇺🇸 United States-US-5-Rate:1.0
-      - 🇫🇷 JH法国-巴黎1-6 | 限速
-      - KR_171
-      - 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾01|全解锁
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港01
-      - 🇸🇬 x1.0 新加坡 - 中转3
-      - 🇭🇰 AL香港1-5｜流解
-      - 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵日本06|Web Gpt&Tk
-      - 🇯🇵 UL日本1-5 | x2
-      - DE_929
-      - TG：@JUZIBAIPIAO|🇰🇷春川06|Web Gpt&Tk
-      - 🇪🇸 OC西班牙-马德里1-1
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港11|0.8x
-      - US_2719
-      - 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡06|Web Gpt&Tk
-      - 🇯🇵 OC日本1-5
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港9
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港8
-      - 🇨🇦 TG：@JUZIBAIPIAO|🇨🇦加拿大01
-      - 🇺🇸 AP美国1-3｜流媒体
-      - 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 日本9
-      - 🇸🇬 狮城特殊|@ripaojiedian 3
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港1
-      - 🇭🇰 香港-vmess-04
-      - 🇭🇰 HY香港1-4 | 流解
-      - US_1751
-      - KR_1238
-      - 🇭🇰 HY香港1-2 | 流解
-      - DE_908
-      - JP_1185
-      - JP_1193
-      - 🇭🇰 AL香港1-2｜流解
-      - 🇭🇰 LS香港1-5 | 流解 | 原生
-      - JP_1175
-      - 🇭🇰 LS香港1-3 | 流解 | 原生
-      - KR_1241
-      - 🇭🇰 AP香港2-3 | 流解
-      - JP_1181
-      - 🇭🇰 HY香港1-1 | 流解
-      - 🇩🇪 JH德国-法兰克福1-1 | 限速
-      - 🇬🇧 OC英国-伦敦1-1
-      - 🇰🇷 x1.0 韩国 - 中转2
-      - FR_1053
-      - 🇯🇵 Japan-OS-2-Rate:1.0
-      - US_223
+      - 🇸🇬 新加坡_Telegram@kxswa 7
       - 🇦🇺 Australia-AU-4-Rate:1.0
-      - JP_1206
-      - DE_884
-      - DE_932
-      - 🇰🇷 OC韩国1-1
-      - 🇩🇪 Germany-DE-2-Rate:1.0
-      - DE_917
-      - 🇸🇬 新加坡-SG-02
-      - 🇨🇳 TW台湾1-6 | 流媒体｜原生
-      - 🇺🇸 United States-V6-US3-Rate:1.0
-      - 🇰🇷 韩国-KR-02
-      - 🇺🇸 x1.0 美西 - 中转2
-      - DE_899
-      - DE_887
-      - 🇯🇵 日本-JP-02
-      - 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾06|動畫瘋&App Gpt&Tk
-      - 🇺🇸 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 美国03
-      - DE_920
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1228
-      - NL_176
-      - 🇮🇩 印尼-ID-01
-      - 🇭🇰 AL香港1-4｜流解
-      - 🇭🇰 香港-HK-01
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港07
-      - 🇰🇷 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 韩国02
-      - 🇺🇸 x1.0 美西 - 中转3
-      - DE_904
-      - 🇲🇾 PL马来西亚1-1 | 限速 | x3
-      - 🇯🇵 日本-JP-01
-      - 🇺🇸 x1.0 美西 - 中转1
       - 🇯🇵 x1.0 日本 - 中转1
-      - 🇯🇵 Japan-TY-1-Rate:1.0
-      - 🇻🇳 越南-VN-01
-      - 🇸🇬 UL新加坡1-1 | 流解
-      - 🇷🇺 AE俄罗斯1-6
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 NT日本1-5 | 流解｜原生
-      - 🇩🇪 JH德国-法兰克福1-6 | 限速
-      - HK_108
-      - 🇲🇾 马来西亚-MY-01
-      - 🇳🇱 荷兰-NL-02
-      - 🇸🇬 新加坡-SG-03
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港16|HKBN动态原生ip
-      - US_221
-      - 🇸🇬 UL新加坡1-3 | 流解
-      - 🇹🇭 YG泰国1-1 | 流解 | x2
-      - 🇮🇳 UL印度1-6
-      - 🇨🇦 OC加拿大1-1
-      - 🇨🇳 x1.0 台北 - 中转1
-      - US_222
-      - 🇯🇵 日本-JP-03
-      - 🇯🇵 OC日本1-3
-      - 🇩🇪 德国-DE-01
-      - 🇫🇷 法国-FR-01
-      - 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯03|下载&防失联|0.1x
-      - TG：@JUZIBAIPIAO|🇺🇸纽约03|下载&防失联|0.1x
-      - 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯04|下载&防失联|0.1x
-      - 🇺🇸 UL美国1-3 | 流解
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港
-      - 🇯🇵 NCC日本1-1 | 流解 | x2
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇭🇰 香港 Spica
+      - DE_887
+      - 🇺🇸 United States-V6-US3-Rate:1.0
+      - DE_932
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - JP_1181
+      - 🇸🇬 新加坡_Telegram@kxswa 6
+      - 🇭🇰 香港05｜tg@ghosxtop
+      - 🇨🇳 台湾04｜tg@ghosxtop
+      - 🇨🇳 台湾01｜tg@ghosxtop
+      - 🇨🇳 台湾05｜tg@ghosxtop
+      - DE_920
+      - 🇺🇸 x1.0 美西 - 中转3
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇸🇬 新加坡01｜tg@ghosxtop
+      - 🇰🇷 韩国特殊|@ripaojiedian 2
+      - 🇨🇳 台湾07｜tg@ghosxtop
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇸🇬 新加坡04｜tg@ghosxtop
+      - 🇸🇬 新加坡02｜tg@ghosxtop
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 10
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_249 | 9.21Mb
+      - 🇸🇬 新加坡03｜tg@ghosxtop
+      - DE_917
+      - 🇯🇵 日本 - IEPL - SS/SSR - 08
+      - 🇨🇳 台湾06｜tg@ghosxtop
+      - 🇭🇰 香港 - IEPL - SS/SSR - 04
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 09
+      - 🇨🇳 台湾08｜tg@ghosxtop
+      - 🇭🇰 香港04｜tg@ghosxtop
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 03
+      - 🇺🇸 美国_Telegram@kxswa 248
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_151 | 5.53Mb
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 01
+      - JP_1175
+      - 🇭🇰 香港03｜tg@ghosxtop
+      - 🇸🇬 新加坡05｜tg@ghosxtop
+      - 🇯🇵 日本 - IEPL - SS/SSR - 01
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_235 | 9.20Mb
+      - JP_1172
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 06
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 05
+      - CN_64
+      - 🇺🇸 美国_Telegram@kxswa 300
+      - 🇺🇸 美国_Telegram@kxswa 69
+      - Relay_🏁ZZ-🇨🇦CA_263 |10.21Mb
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 04
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 香港 - IEPL - SS/SSR - 10
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 06
+      - 🇯🇵 日本04｜tg@ghosxtop
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - JP_1195
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 02
+      - 🇭🇰 香港 - IEPL - SS/SSR - 03
+      - 🇯🇵 日本03｜tg@ghosxtop
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_139 |11.77Mb
+      - 🇭🇰 香港HKT
+      - 🇺🇸 美国01｜tg@ghosxtop
+      - 🇨🇳 台湾03｜tg@ghosxtop
+      - 🇺🇸 x1.0 美西 - 中转1
+      - 🇺🇸 x1.0 美西 - 中转2
+      - JP_1206
+      - 🇩🇪 Germany-DE-2-Rate:1.0
+      - Relay_-🇨🇦CA_34 | 2.34Mb
+      - 🇺🇸 美国_Telegram@kxswa 100
+      - KR_1241
+      - 🇰🇷 x1.0 韩国 - 中转2
+      - Relay_-🇨🇦CA_16 |26.27Mb
+      - DE_904
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_260 |21.75Mb
+      - 🇯🇵 日本02｜tg@ghosxtop
+      - Relay_🏁ZZ-🇨🇦CA_280 | 4.23Mb
+      - 🇸🇬 x1.0 新加坡 - 中转5
+      - 🇺🇸 美国_Telegram@kxswa 259
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 加拿大-CA-01
-      - 🇺🇸 United States-US-1-Rate:1.5
-      - 🇭🇰 x1.0 香港 - 中转4
-      - 🇸🇬 x1.0 新加坡 - 中转6
-      - 🇸🇬 AP新加坡1-1 ｜流解
-      - 🇳🇱 荷兰-NL-01
-      - 🇰🇷 SC韩国1-1 | 限速 | x2
-      - 🇯🇵 DG日本1-3
-      - 🇸🇬 x1.0 新加坡 - 中转5
-      - 🇦🇺 Australia-AU-2-Rate:1.0
-      - 关注𝙏𝙂频道 @𝙈𝙁𝘽𝙋𝙉 防止失联
-      - 🇨🇳 台湾-TW-03
-      - 🇦🇺 Australia-AU-1-Rate:0.5
-      - 🇸🇬 x1.0 新加坡 - 中转1
-      - 🇯🇵 x1.0 日本 - 中转2
-      - 🇨🇳 台湾-TW-01
-      - 🇯🇵 Japan-OS-1-Rate:1.0
-      - 🇰🇷 x1.0 韩国 - 中转1
-      - 🇯🇵 NT日本1-3 | 流解｜原生
-      - 🇦🇺 澳大利亚-AU-01
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港02
-      - 当前网址：v2neo.net
-      - 🇭🇰 x1.0 香港 - 中转2
-      - 🇦🇪 阿联酋-AE-02
-      - 🇰🇷 OC韩国1-6
-      - 🇷🇺 AE俄罗斯1-1
-      - 🇺🇸 x1.0 美西 - 中转4
-      - 🇫🇷 OC法国-巴黎1-1
-      - 🇺🇸 United States-US-3-Rate:1.0
-      - CA_99
-      - 🇮🇳 UL印度1-1
-      - 🇨🇦 OC加拿大1-6
-      - 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 日本04
-      - 🇭🇰 LS香港1-2 | 流解 | 原生
-      - 🇺🇸 United States-US-4-Rate:1.0
-      - 🇸🇬 AP新加坡1-5 ｜流解
-      - 🇯🇵 DG日本1-5
-      - 🇻🇳 YG越南1-6 | 限速 | x5
-      - DE_916
-      - 🇰🇷 SC韩国1-6 | 限速 | x2
-      - 🇨🇳 x1.0 台北 - 中转3
-      - JP_1192
-      - TR_1447
-      - SG_1419
-      - 🇯🇵 Japan-OS-3-Rate:1.0
-      - CA_765
-      - 🇹🇭 YG泰国1-6 | 流解 | x2
-      - 🇸🇬 新加坡-SG-01
-      - 🇲🇾 PL马来西亚1-6 | 限速 | x3
-      - DE_907
-      - DE_918
-      - DE_102
-      - 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵东京01
-      - 🇸🇬 狮城特殊|@ripaojiedian
-      - 🇮🇳 印度-IN-01
-      - JP_1198
-      - 🇦🇪 阿联酋-AE-01
-      - 🇯🇵 Japan-TY-4-Rate:1.0
-      - 🇯🇵 OC日本1-1
-      - 🇨🇳 Taiwan-TW-2-Rate:1.0
-      - 🇫🇷 JH法国-巴黎1-1 | 限速
-      - 🇭🇰 AL香港1-1｜流解
-      - 🇯🇵 UL日本1-1 | 流解 | x2
-      - 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡01|Web Gpt&Tk
-      - US_220
-      - 🇺🇸 美国-US-04
-      - 🇭🇰 AP香港1-3  | 流解
-      - US_1581
-      - 🇭🇰 AP香港2-1 | 流解
-      - 🇭🇰 x1.0 香港 - 中转6
-      - 🇹🇭 泰国-TH-01
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港06
-      - KR_1239
-      - 🇪🇸 OC西班牙-马德里1-6
-      - 🇺🇸 x1.0 美西 - 中转6
-      - JP_1196
-      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
-      - 🇹🇷 土耳其-TR-01
-      - 🇸🇬 OC新加坡1-1
-      - JP_1180
-      - AR_98
-      - DE_903
-      - US_1951
-      - 🇨🇳 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 台湾11
-      - 🇭🇰 AP香港1-5  | 流解
-      - DE_910
-      - 🇭🇰 Hong Kong-HK-2-Rate:0.5
-      - SG_1440
-      - 🇯🇵 UL日本1-3  | 流解 | x2
-      - SG_1418
-      - 🇻🇳 越南-VN-02
-      - 🇭🇰 AP香港1-4  | 流解
-      - DE_896
-      - 🇨🇳 TW台湾1-1 | 流媒体｜原生
-      - 🇬🇧 OC英国-伦敦1-6
-      - 🇸🇬 狮城特殊|@ripaojiedian 2
-      - DE_895
-      - AL_660
-      - FI_961
-      - 🇻🇳 YG越南1-1 | 限速 | x5
-      - 🇭🇰 AL香港1-3｜流解
-      - 🇭🇰 香港-HK-05
-      - DE_900
-      - 🇨🇳 x1.0 台北 - 中转2
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇭🇰 x1.0 香港 - 中转3
-      - 🇭🇰 LS香港1-4 | 流解 | 原生
-      - 🇦🇱 阿尔巴尼亚_Telegram@kxswa
-      - 🇦🇺 Australia-AU-3-Rate:1.0
-      - 🇵🇭 菲律宾-PH-01
-      - 🇸🇬 UL新加坡1-5 | 流解
-      - TR_193
-      - KZ_1252
-      - 🇯🇵 x1.0 日本 - 中转4
-      - 🇭🇰 AP香港1-1  | 流解
-      - 🇯🇵 DG日本1-1
-      - 🇺🇸 United States-US-5-Rate:1.0
-      - 🇫🇷 JH法国-巴黎1-6 | 限速
-      - KR_171
-      - 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾01|全解锁
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港01
-      - 🇸🇬 x1.0 新加坡 - 中转3
-      - 🇭🇰 AL香港1-5｜流解
-      - 🇯🇵 TG：@JUZIBAIPIAO|🇯🇵日本06|Web Gpt&Tk
-      - 🇯🇵 UL日本1-5 | x2
-      - DE_929
-      - TG：@JUZIBAIPIAO|🇰🇷春川06|Web Gpt&Tk
-      - 🇪🇸 OC西班牙-马德里1-1
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港11|0.8x
-      - US_2719
-      - 🇸🇬 TG：@JUZIBAIPIAO|🇸🇬新加坡06|Web Gpt&Tk
-      - 🇯🇵 OC日本1-5
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港9
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港8
-      - 🇨🇦 TG：@JUZIBAIPIAO|🇨🇦加拿大01
-      - 🇺🇸 AP美国1-3｜流媒体
-      - 🇯🇵 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 日本9
-      - 🇸🇬 狮城特殊|@ripaojiedian 3
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港1
-      - 🇭🇰 香港-vmess-04
-      - 🇭🇰 HY香港1-4 | 流解
-      - US_1751
-      - KR_1238
-      - 🇭🇰 HY香港1-2 | 流解
-      - DE_908
-      - JP_1185
-      - JP_1193
-      - 🇭🇰 AL香港1-2｜流解
-      - 🇭🇰 LS香港1-5 | 流解 | 原生
-      - JP_1175
-      - 🇭🇰 LS香港1-3 | 流解 | 原生
-      - KR_1241
-      - 🇭🇰 AP香港2-3 | 流解
-      - JP_1181
-      - 🇭🇰 HY香港1-1 | 流解
-      - 🇩🇪 JH德国-法兰克福1-1 | 限速
-      - 🇬🇧 OC英国-伦敦1-1
-      - 🇰🇷 x1.0 韩国 - 中转2
-      - FR_1053
-      - 🇯🇵 Japan-OS-2-Rate:1.0
-      - US_223
+      - 🇸🇬 新加坡_Telegram@kxswa 7
       - 🇦🇺 Australia-AU-4-Rate:1.0
-      - JP_1206
-      - DE_884
-      - DE_932
-      - 🇰🇷 OC韩国1-1
-      - 🇩🇪 Germany-DE-2-Rate:1.0
-      - DE_917
-      - 🇸🇬 新加坡-SG-02
-      - 🇨🇳 TW台湾1-6 | 流媒体｜原生
-      - 🇺🇸 United States-V6-US3-Rate:1.0
-      - 🇰🇷 韩国-KR-02
-      - 🇺🇸 x1.0 美西 - 中转2
-      - DE_899
-      - DE_887
-      - 🇯🇵 日本-JP-02
-      - 🇨🇳 TG：@JUZIBAIPIAO|🇨🇳台湾06|動畫瘋&App Gpt&Tk
-      - 🇺🇸 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 美国03
-      - DE_920
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1228
-      - NL_176
-      - 🇮🇩 印尼-ID-01
-      - 🇭🇰 AL香港1-4｜流解
-      - 🇭🇰 香港-HK-01
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 香港07
-      - 🇰🇷 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 | 韩国02
-      - 🇺🇸 x1.0 美西 - 中转3
-      - DE_904
-      - 🇲🇾 PL马来西亚1-1 | 限速 | x3
-      - 🇯🇵 日本-JP-01
-      - 🇺🇸 x1.0 美西 - 中转1
       - 🇯🇵 x1.0 日本 - 中转1
-      - 🇯🇵 Japan-TY-1-Rate:1.0
-      - 🇻🇳 越南-VN-01
-      - 🇸🇬 UL新加坡1-1 | 流解
-      - 🇷🇺 AE俄罗斯1-6
-      - 🇯🇵 日本|@ripaojiedian
-      - 🇯🇵 NT日本1-5 | 流解｜原生
-      - 🇩🇪 JH德国-法兰克福1-6 | 限速
-      - HK_108
-      - 🇲🇾 马来西亚-MY-01
-      - 🇳🇱 荷兰-NL-02
-      - 🇸🇬 新加坡-SG-03
-      - 🇭🇰 TG：@JUZIBAIPIAO|🇭🇰香港16|HKBN动态原生ip
-      - US_221
-      - 🇸🇬 UL新加坡1-3 | 流解
-      - 🇹🇭 YG泰国1-1 | 流解 | x2
-      - 🇮🇳 UL印度1-6
-      - 🇨🇦 OC加拿大1-1
-      - 🇨🇳 x1.0 台北 - 中转1
-      - US_222
-      - 🇯🇵 日本-JP-03
-      - 🇯🇵 OC日本1-3
-      - 🇩🇪 德国-DE-01
-      - 🇫🇷 法国-FR-01
-      - 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯03|下载&防失联|0.1x
-      - TG：@JUZIBAIPIAO|🇺🇸纽约03|下载&防失联|0.1x
-      - 🇺🇸 TG：@JUZIBAIPIAO|🇺🇸拉斯维加斯04|下载&防失联|0.1x
-      - 🇺🇸 UL美国1-3 | 流解
-      - 🇭🇰 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 香港
-      - 🇯🇵 NCC日本1-1 | 流解 | x2
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇭🇰 香港 Spica
+      - DE_887
+      - 🇺🇸 United States-V6-US3-Rate:1.0
+      - DE_932
+      - 🇭🇰 香港_Telegram@kxswa 13
+      - JP_1181
+      - 🇸🇬 新加坡_Telegram@kxswa 6
+      - 🇭🇰 香港05｜tg@ghosxtop
+      - 🇨🇳 台湾04｜tg@ghosxtop
+      - 🇨🇳 台湾01｜tg@ghosxtop
+      - 🇨🇳 台湾05｜tg@ghosxtop
+      - DE_920
+      - 🇺🇸 x1.0 美西 - 中转3
+      - 🇨🇳 台湾2|@ripaojiedian
+      - 🇸🇬 新加坡01｜tg@ghosxtop
+      - 🇰🇷 韩国特殊|@ripaojiedian 2
+      - 🇨🇳 台湾07｜tg@ghosxtop
+      - 关注电报https://t.me/aifenxiang2020
+      - 🇸🇬 新加坡04｜tg@ghosxtop
+      - 🇸🇬 新加坡02｜tg@ghosxtop
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 10
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_249 | 9.21Mb
+      - 🇸🇬 新加坡03｜tg@ghosxtop
+      - DE_917
+      - 🇯🇵 日本 - IEPL - SS/SSR - 08
+      - 🇨🇳 台湾06｜tg@ghosxtop
+      - 🇭🇰 香港 - IEPL - SS/SSR - 04
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 09
+      - 🇨🇳 台湾08｜tg@ghosxtop
+      - 🇭🇰 香港04｜tg@ghosxtop
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 03
+      - 🇺🇸 美国_Telegram@kxswa 248
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_151 | 5.53Mb
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 01
+      - JP_1175
+      - 🇭🇰 香港03｜tg@ghosxtop
+      - 🇸🇬 新加坡05｜tg@ghosxtop
+      - 🇯🇵 日本 - IEPL - SS/SSR - 01
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_235 | 9.20Mb
+      - JP_1172
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 06
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 05
+      - CN_64
+      - 🇺🇸 美国_Telegram@kxswa 300
+      - 🇺🇸 美国_Telegram@kxswa 69
+      - Relay_🏁ZZ-🇨🇦CA_263 |10.21Mb
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 04
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 香港 - IEPL - SS/SSR - 10
+      - 🇸🇬 新加坡 - IEPL - SS/SSR - 06
+      - 🇯🇵 日本04｜tg@ghosxtop
+      - 🇭🇰 香港_Telegram@kxswa 14
+      - JP_1195
+      - 🇭🇰 香港_Telegram@kxswa 12
+      - 🇨🇳 台湾 - IEPL - SS/SSR - 02
+      - 🇭🇰 香港 - IEPL - SS/SSR - 03
+      - 🇯🇵 日本03｜tg@ghosxtop
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_139 |11.77Mb
+      - 🇭🇰 香港HKT
+      - 🇺🇸 美国01｜tg@ghosxtop
+      - 🇨🇳 台湾03｜tg@ghosxtop
+      - 🇺🇸 x1.0 美西 - 中转1
+      - 🇺🇸 x1.0 美西 - 中转2
+      - JP_1206
+      - 🇩🇪 Germany-DE-2-Rate:1.0
+      - Relay_-🇨🇦CA_34 | 2.34Mb
+      - 🇺🇸 美国_Telegram@kxswa 100
+      - KR_1241
+      - 🇰🇷 x1.0 韩国 - 中转2
+      - Relay_-🇨🇦CA_16 |26.27Mb
+      - DE_904
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_260 |21.75Mb
+      - 🇯🇵 日本02｜tg@ghosxtop
+      - Relay_🏁ZZ-🇨🇦CA_280 | 4.23Mb
+      - 🇸🇬 x1.0 新加坡 - 中转5
+      - 🇺🇸 美国_Telegram@kxswa 259
   - name: 🎯 不挂代理
     type: select
     proxies:
