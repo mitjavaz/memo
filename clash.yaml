@@ -5,92 +5,230 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 x1.0 香港 1, server: 35c0f45d-i.2nvx.com, port: 10045, type: trojan, password: zp7b1Brd, sni: 35c0f45d-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇺🇸 美国04|1x, server: u-s04.love-english-edu.com, port: 35016, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇨🇳 台湾-2｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26010, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: JP_1198, server: 3.112.216.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇮🇩 印尼｜中转｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26030, type: ss, cipher: aes-128-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇰🇷 韩国｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26020, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇺🇸 美国_Telegram@kxswa 106, server: 104.19.46.233, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}}
-  - {name: VN_2725, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇭🇰 x1.0 香港 2, server: 35c0f45d-i.2nvx.com, port: 10046, type: trojan, password: zp7b1Brd, sni: 35c0f45d-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇺🇸 x1.0 美西 - 中转4, server: 7c610710-i.2nvx.com, port: 10245, type: trojan, password: zp7b1Brd, sni: 7c610710-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 13.212.34.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇷🇺 俄罗斯｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26044, type: ss, cipher: aes-128-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇸🇬 新加坡-1｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26005, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇭🇰 香港 - IEPL - SS/SSR - 10, server: cm1-hk.hutaonode3.top, port: 12460, type: ss, cipher: chacha20-ietf, password: HuTaoCloud, plugin: obfs, plugin-opts: {mode: http, host: 32d5932505.microsoft.com}}
-  - {name: 🇹🇭 泰国-2｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26018, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇺🇸 美国04, server: us004.421421.xyz, port: 20230, type: trojan, password: 4aa9ee7a-ffee-4ca4-a588-f5fa9e979c38, sni: 421421.xyz, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国03|1x, server: k-r03.love-english-edu.com, port: 35023, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇭🇰 香港02|1x, server: h-k02.love-english-edu.com, port: 35006, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇬🇧 英国01|1x, server: u-k01.love-english-edu.com, port: 35029, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇹🇷 土耳其｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26016, type: ss, cipher: aes-128-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇨🇳 台湾04|1x, server: t-wn04.love-english-edu.com, port: 35020, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇸🇬 新加坡01|1x, server: s-g01.love-english-edu.com, port: 35025, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇮🇸 冰岛｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26038, type: ss, cipher: aes-128-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 如无法使用请在网站发工单取得帮助, server: gonggao04.love-english-edu.com, port: 35004, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇨🇳 台湾01|1x, server: t-wn01.love-english-edu.com, port: 35017, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇸🇬 新加坡03|1x, server: s-g03.love-english-edu.com, port: 35027, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
+  - {name: KR_1239, server: 43.201.253.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉, server: 54.245.213.63, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 43.201.254.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_160 |13.05Mb, server: 104.26.5.103, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 2, server: tacm.ix2.edge.kunlunae.com, port: 50129, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
   - {name: 🇬🇧 United Kingdom-UK-1-Rate:1.0, server: uk-1.fishchipsexpress.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡-3｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26023, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇯🇵 日本04|1x, server: j-p04.love-english-edu.com, port: 35012, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇭🇰 香港04|1x, server: h-k04.love-english-edu.com, port: 35008, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇸🇬 新加坡02|1x, server: s-g02.love-english-edu.com, port: 35026, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇯🇵 日本-3｜IEPL｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26019, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇨🇳 台湾-1｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26009, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇭🇰 x1.0 香港 - 中转2, server: bb6bcf97-f.2nvx.com, port: 10043, type: trojan, password: zp7b1Brd, sni: bb6bcf97-f.2nvx.com, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国01|1x, server: k-r01.love-english-edu.com, port: 35021, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇭🇰 香港-4｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26026, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇯🇵 日本-4｜IEPL｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26033, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇺🇸 美国02|1x, server: u-s02.love-english-edu.com, port: 35014, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇩🇪 德国｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26015, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 当前网址：v2neo.net, server: 831d4036-f.2nvx.com, port: 10042, type: trojan, password: zp7b1Brd, sni: 831d4036-f.2nvx.com, skip-cert-verify: false}
-  - {name: 🇯🇵 Japan-TY-2-Rate:1.0, server: ty-2.rise-fuji.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇺🇸 United States-US-3-Rate:1.0, server: us-3.regentgrandvalley.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇨🇳 x1.0 台北 - 中转3, server: 166cc49a-i.2nvx.com, port: 10544, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港-2｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26004, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇬🇧 英国02|1x, server: u-k02.love-english-edu.com, port: 35030, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇭🇰 x1.0 香港 - 中转4, server: e3bac1e1-i.2nvx.com, port: 10045, type: trojan, password: zp7b1Brd, sni: e3bac1e1-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong-HK-2-Rate:0.5, server: hk-2.victoriamitrepeak.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: JP_1191, server: 52.194.250.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 台湾-3｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26034, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇯🇵 日本01|1x, server: j-p01.love-english-edu.com, port: 35009, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇸🇬 新加坡-2｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26006, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇨🇭 瑞士｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26043, type: ss, cipher: aes-128-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇸🇬 建议每天更新订阅, server: gonggao03.love-english-edu.com, port: 35003, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇪🇸 西班牙｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26037, type: ss, cipher: aes-128-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇭🇺 匈牙利｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26028, type: ss, cipher: aes-128-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇭🇰 香港03|1x, server: h-k03.love-english-edu.com, port: 35007, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇹🇭 泰国-1｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26017, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇭🇰 香港01|1x, server: h-k01.love-english-edu.com, port: 35005, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 乌克兰｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26035, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇯🇵 日本-1｜IEPL｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26007, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇨🇳 台湾02|1x, server: t-wn02.love-english-edu.com, port: 35018, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇸🇬 新加坡04|1x, server: s-g04.love-english-edu.com, port: 35028, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇰🇷 韩国02|1x, server: k-r02.love-english-edu.com, port: 35022, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇺🇸 美国01|1x, server: u-s01.love-english-edu.com, port: 35013, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇨🇳 台湾03|1x, server: t-wn03.love-english-edu.com, port: 35019, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇯🇵 日本-2｜IEPL｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26008, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇯🇵 日本03|1x, server: j-p03.love-english-edu.com, port: 35011, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇨🇦 加拿大｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26042, type: ss, cipher: aes-128-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇱🇹 立陶宛｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26048, type: ss, cipher: aes-128-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇫🇷 法国｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26027, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇺🇸 美国03|1x, server: u-s03.love-english-edu.com, port: 35015, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: US_1751, server: 35.87.35.207, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港-3｜IEPL｜解锁流媒体, server: zthdynbz8tlevo-mku.bgp.skin, port: 26025, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
-  - {name: 🇰🇷 韩国04|1x, server: k-r04.love-english-edu.com, port: 35024, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇯🇵 日本02|1x, server: j-p02.love-english-edu.com, port: 35010, type: ss, cipher: chacha20-ietf-poly1305, password: 3df2563e-001d-48c1-8bc4-d1e396dff341}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian 3 2, server: 13.214.209.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 x1.0 新加坡 - 中转3, server: 7c610710-i.2nvx.com, port: 10144, type: trojan, password: zp7b1Brd, sni: 7c610710-i.2nvx.com, skip-cert-verify: false}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian 3, server: 34.217.126.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: JP_1181, server: 57.180.39.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 13.229.87.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: SG_1418, server: 47.128.150.72, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 Taiwan-TW-1-Rate:1.0, server: tw-1.chianginc.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
-  - {name: 🇬🇧 英国-1｜中转｜解锁流媒体, server: znrwpoyd5zkcufg-xth.bgp.skin, port: 26021, type: ss, cipher: aes-256-gcm, password: dfcde26c-d285-4ad7-a3bb-7479a79a1a1c}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_110 | 7.63Mb, server: 172.64.233.32, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_225 | 8.05Mb, server: 162.159.140.45, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 3, server: tacm.ix2.edge.kunlunae.com, port: 50133, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇹🇭 V2-泰国01∣K45线路∣1.5x, server: 120.232.217.96, port: 21346, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k45.tudou211.com, skip-cert-verify: true}
   - {name: 🇨🇳 x1.0 台北 - 中转1, server: 166cc49a-i.2nvx.com, port: 10542, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
-  - {name: JP_1196, server: 52.69.70.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 54.169.236.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 10, server: cn2.cdn.xfltd-cdn.top, port: 12024, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇦 V2-沙特03∣K50线路∣1.5x, server: 120.232.217.96, port: 21060, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k50.tudou211.com, skip-cert-verify: true}
+  - {name: 🇦🇷 阿根廷_Telegram@kxswa, server: cn2.cdn.xfltd-cdn.top, port: 12066, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾_Telegram@kxswa 3, server: cn1.cdn.xfltd-cdn.top, port: 12011, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇮🇳 IN印度-移动优化, server: gtm1.ktmwan.com, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇲🇾 马来西亚_Telegram@kxswa 2, server: cn2.cdn.xfltd-cdn.top, port: 12067, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 3, server: 52.197.150.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP_1198, server: 3.112.216.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 V1-香港04∣K4线路∣1.5x, server: 103.6.220.71, port: 21061, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k4.tudou211.com, skip-cert-verify: true}
+  - {name: 🇦🇺 澳大利亚_Telegram@kxswa 2, server: cn2.cdn.xfltd-cdn.top, port: 12068, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国_Telegram@kxswa 78, server: cn2.cdn.xfltd-cdn.top, port: 12052, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇹🇷 土耳其_Telegram@kxswa 3, server: cn2.cdn.xfltd-cdn.top, port: 12064, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇫🇷 法国_Telegram@kxswa 4, server: cn2.cdn.xfltd-cdn.top, port: 12065, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_11 |640.01Mb, server: 23.227.38.3, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 9, server: 13.229.243.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: Relay_🏁ZZ-🇨🇦CA_200 |11.24Mb, server: 104.19.46.42, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇯🇵 日本_Telegram@kxswa 14, server: xjjp.zf.edu.ge, port: 443, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: xjjp.zf.edu.ge, skip-cert-verify: true}
+  - {name: 🇺🇸 美国_Telegram@kxswa 104, server: 104.19.46.33, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇯🇵 Japan-TY-3-Rate:1.0, server: ty-3.rise-fuji.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 4, server: tacm.ix2.edge.kunlunae.com, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇰🇷 V2-韩国02∣K15线路∣1.5x, server: 120.232.217.96, port: 21003, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k15.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 V2-美国01∣K21线路∣1.5x, server: 103.6.220.71, port: 21019, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k21.tudou211.com, skip-cert-verify: true}
+  - {name: 🇮🇩 印尼_Telegram@kxswa 2, server: cn2.cdn.xfltd-cdn.top, port: 12061, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 5, server: tacm.ix2.edge.kunlunae.com, port: 50130, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 6, server: tacm.ix2.edge.kunlunae.com, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: Relay_🏁ZZ-🇺🇸US_227, server: 104.19.45.190, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇺🇸 V3-美国02∣K62线路∣1.5x, server: 120.232.217.96, port: 59599, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k62.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 US<https://t.me/zhibeii_2, server: 142.202.49.121, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇯🇵 日本_Telegram@kxswa 11, server: cn2.cdn.xfltd-cdn.top, port: 12033, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 V3-美国03∣K63线路∣1.5x, server: 120.232.217.96, port: 21148, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k63.tudou211.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 9 2, server: cn2.cdn.xfltd-cdn.top, port: 12023, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇹🇭 TH泰国-移动优化, server: gtm1.ktmwan.com, port: 27275, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: Relay_🏁ZZ-🇨🇦CA_195 |11.52Mb, server: 162.159.140.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇸🇦 V2-沙特02∣K49线路∣1.5x, server: 120.232.217.96, port: 21009, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k49.tudou211.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 7, server: tacm.ix2.edge.kunlunae.com, port: 50121, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_125 | 7.70Mb, server: 104.26.5.113, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_145 | 8.01Mb, server: 104.26.5.67, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇸🇬 V2-新加坡03∣K38线路∣1.5x, server: 103.6.220.71, port: 21194, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k38.tudou211.com, skip-cert-verify: true}
+  - {name: Relay_🏁ZZ-🇨🇦CA_170 |13.47Mb, server: 162.159.140.77, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_116 |11.72Mb, server: 172.64.233.24, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 8, server: tacm.ix2.edge.kunlunae.com, port: 50135, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇸🇬 新加坡中转✈02, server: gstdnb.myfczy168.top, port: 26198, type: ss, cipher: chacha20-ietf-poly1305, password: 0f858887-dd1f-4043-8ea0-bde3e600ecba}
+  - {name: 🇸🇬 长期更新节点@mftizi, server: mmde92.micloud.buzz, port: 46092, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmde92.micloud.buzz}}}
+  - {name: 🇭🇰 V1-香港03∣K3线路∣1.5x, server: 103.6.220.71, port: 21042, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k3.tudou211.com, skip-cert-verify: true}
+  - {name: 🇯🇵 V2-日本02∣K12线路∣1.5x, server: 120.232.217.96, port: 21125, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k12.tudou211.com, skip-cert-verify: true}
+  - {name: 🇩🇪 V1-德国04∣K28线路∣1.5x, server: 103.6.220.71, port: 21102, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k28.tudou211.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港2-None, server: 8fu3x8ukooftpiqf.fly64jfgwhale.xyz, port: 54876, type: ss, cipher: aes-128-gcm, password: 55696d72-2bfe-437f-9162-41da1037485d}
+  - {name: 🇨🇦 CA加拿大-移动优化, server: gtm1.ktmwan.com, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 7, server: cn2.cdn.xfltd-cdn.top, port: 12021, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇻🇳 V2-越南02∣K52线路∣1.5x, server: 120.232.217.96, port: 21132, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k52.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 |278.13Mb, server: 104.26.5.123, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇻🇳 VN越南-移动优化, server: gtm1.ktmwan.com, port: 27277, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_42, server: indiavideo.sbs, port: 443, type: vmess, uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: indiavideo.sbs}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_124 | 7.80Mb, server: 104.26.5.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_113 | 5.31Mb, server: 172.64.233.17, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇯🇵 JP日本2-移动优化, server: gtm1.ktmwan.com, port: 27264, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_121 | 6.38Mb, server: 172.64.233.43, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 US<https://t.me/zhibeii_4, server: 142.202.49.121, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇭🇰 V1-香港02∣K2线路∣1.5x, server: 103.6.220.71, port: 21011, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k2.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 V3-美国01∣K61线路∣1.5x, server: 120.232.217.96, port: 21603, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k61.tudou211.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本_Telegram@kxswa 12, server: cn2.cdn.xfltd-cdn.top, port: 12034, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 US<https://t.me/zhibeii_9, server: 142.202.49.121, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 关注电报https://t.me/aifenxiang2020, server: mmde92.micloud.buzz, port: 46092, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmde92.micloud.buzz}}}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 9, server: tacm.ix2.edge.kunlunae.com, port: 50128, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_142 | 7.16Mb, server: 172.64.233.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_167 |10.36Mb, server: icook.tw, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇭🇰 x1.0 香港 2, server: 35c0f45d-i.2nvx.com, port: 10046, type: trojan, password: zp7b1Brd, sni: 35c0f45d-i.2nvx.com, skip-cert-verify: false}
+  - {name: 🇲🇾 V2-马来西亚01∣K31线路∣1.5x, server: 103.6.220.71, port: 21181, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k31.tudou211.com, skip-cert-verify: true}
+  - {name: 关注电报https://t.me/aifenxiang2020 2, server: 23.227.38.5, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, servername: ip006.freegradely.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.freegradely.xyz}}}
+  - {name: 🇫🇷 FR法国-移动优化, server: gtm1.ktmwan.com, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇯🇵 Japan-OS-1-Rate:1.0, server: os-1.rise-fuji.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_135 | 7.27Mb, server: 172.64.233.35, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 | 4.58Mb, server: 104.26.5.145, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 10, server: tacm.ix2.edge.kunlunae.com, port: 50120, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: VN_2725, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇨🇳 V2-台湾01∣K7线路∣1.5x, server: 103.6.220.71, port: 21004, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k7.tudou211.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 11, server: tacm.ix2.edge.kunlunae.com, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_111 |239.23Mb, server: malaysia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_108 | 7.65Mb, server: 104.26.5.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇯🇵 V1-日本05∣K44线路∣1.5x, server: 120.232.217.96, port: 21014, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k44.tudou211.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 12, server: 35.94.59.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_112 | 6.98Mb, server: 172.64.233.7, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_197 | 8.36Mb, server: 162.159.140.91, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇯🇵 JP日本-移动优化, server: gtm1.ktmwan.com, port: 27251, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇭🇰 x1.0 香港 - 中转6, server: e3bac1e1-i.2nvx.com, port: 10047, type: trojan, password: zp7b1Brd, sni: e3bac1e1-i.2nvx.com, skip-cert-verify: false}
+  - {name: Relay_🏁ZZ-🇨🇦CA_209 |810.64Mb, server: 104.19.38.12, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 13.212.34.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇲🇾 V2-马来西亚02∣K32线路∣1.5x, server: 103.6.220.71, port: 21079, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k32.tudou211.com, skip-cert-verify: true}
+  - {name: 🇲🇾 V2-马来西亚02∣K54线路∣1.5x, server: 103.6.220.71, port: 21031, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k54.tudou211.com, skip-cert-verify: true}
+  - {name: Relay_ |12.71Mb, server: 162.159.140.93, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇸🇬 ✪每周更新订阅获取最新节点, server: shcm082.rennn.ren, port: 21165, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k35.tudou211.com, skip-cert-verify: true}
+  - {name: 🇨🇳 V2-台湾03∣K40线路∣1.5x, server: 103.6.220.71, port: 21002, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k40.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 |10.37Mb, server: 104.26.5.90, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_126 |10.28Mb, server: 172.67.74.112, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🇰🇷 x1.0 韩国 - 中转1, server: 166cc49a-i.2nvx.com, port: 10642, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
+  - {name: 🇸🇬 V2-新加坡01∣K36线路∣1.5x, server: 103.6.220.71, port: 18147, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k36.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国_Telegram@kxswa 102, server: 104.19.47.80, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian 3 2, server: 13.214.209.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 关注电报https://t.me/aifenxiang2020 3, server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, servername: ip006.freegradely.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.freegradely.xyz}}}
+  - {name: 🇯🇵 V2-日本04∣K74线路∣1.5x, server: 120.232.217.96, port: 47479, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k74.tudou211.com, skip-cert-verify: true}
+  - {name: Relay_🏁ZZ-🇨🇦CA_205 |351.56Mb, server: 104.19.46.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian 2, server: 54.169.236.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 13, server: 43.201.254.211, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_107 | 7.64Mb, server: 104.26.5.66, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇯🇵 V2-日本03∣K73线路∣1.5x, server: 120.232.217.96, port: 16233, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k73.tudou211.com, skip-cert-verify: true}
+  - {name: 🇹🇭 V2-泰国03∣K47L线路∣1.5x, server: 120.232.217.96, port: 21064, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k47.tudou211.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 14, server: tacm.ix2.edge.kunlunae.com, port: 50127, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: US_1581, server: 52.33.38.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: Relay_🏁ZZ-🇨🇦CA_206 | 5.71Mb, server: fbi.gov, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇺🇸 V1-美国02∣K19线路∣1.5x, server: shcm082.rennn.ren, port: 21134, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k19.tudou211.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 15, server: tacm.ix2.edge.kunlunae.com, port: 50125, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_129 |198.61Mb, server: russia.com, port: 8880, type: vmess, uuid: 06d65689-a12a-467c-9ff8-0363fe90c0b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 16, server: tacm.ix2.edge.kunlunae.com, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇷🇺 Relay_🇷🇺RU-🇺🇸US_66 | 8.40Mb, server: 5.252.22.108, port: 2096, type: vmess, uuid: 81a692ee-7694-421d-8069-6b0d532c7f77, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK香港2--移动优化, server: gtm1.ktmwan.com, port: 27263, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇯🇵 x1.0 日本 - 中转2, server: 166cc49a-i.2nvx.com, port: 10343, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 8, server: cn2.cdn.xfltd-cdn.top, port: 12022, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇨🇳 x1.0 台北 - 中转2, server: 166cc49a-i.2nvx.com, port: 10543, type: trojan, password: zp7b1Brd, sni: 166cc49a-i.2nvx.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国03, server: us003.421421.xyz, port: 20230, type: trojan, password: 4aa9ee7a-ffee-4ca4-a588-f5fa9e979c38, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 V1-香港05∣K10线路∣1.5x, server: 103.6.220.71, port: 21386, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k10.tudou211.com, skip-cert-verify: true}
+  - {name: 🇭🇰 x1.0 香港 - 中转2, server: bb6bcf97-f.2nvx.com, port: 10043, type: trojan, password: zp7b1Brd, sni: bb6bcf97-f.2nvx.com, skip-cert-verify: false}
+  - {name: 🇺🇸 V1-美国01∣K18线路∣1.5x, server: shcm082.rennn.ren, port: 21110, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k18.tudou211.com, skip-cert-verify: true}
+  - {name: 🇭🇰 V1-香港01∣K1线路∣1.5x, server: 103.6.220.71, port: 21135, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k1.tudou211.com, skip-cert-verify: true}
+  - {name: 🇬🇧 V2-英国02∣K30线路∣1.5x, server: 103.6.220.71, port: 21179, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k30.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_155 | 5.56Mb, server: russia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇺🇸 美国04, server: us004.421421.xyz, port: 20230, type: trojan, password: 4aa9ee7a-ffee-4ca4-a588-f5fa9e979c38, sni: 421421.xyz, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯<https://t.me/zhibeii, server: 5.252.22.108, port: 2096, type: vmess, uuid: 81a692ee-7694-421d-8069-6b0d532c7f77, alterId: 0, cipher: auto, tls: false}
+  - {name: 关注电报https://t.me/mftizi, server: mmhk01.micloud.buzz, port: 46001, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhk01.micloud.buzz}}}
+  - {name: SG_1419, server: 54.179.241.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_109 |10.37Mb, server: 172.64.233.37, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 | 8.67Mb, server: 104.26.8.156, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_17 |18.73Mb, server: 23.227.38.3, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
+  - {name: 🇸🇬 SG新加坡2-移动优化, server: gtm1.ktmwan.com, port: 27261, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_120 |298.72Mb, server: 104.26.7.132, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇮🇩 V2-印尼01∣K56线路∣1.5x, server: 120.232.217.96, port: 21168, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k56.tudou211.com, skip-cert-verify: true}
+  - {name: 🇭🇰 x1.0 香港 1, server: 35c0f45d-i.2nvx.com, port: 10045, type: trojan, password: zp7b1Brd, sni: 35c0f45d-i.2nvx.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国_Telegram@kxswa 2, server: cn2.cdn.xfltd-cdn.top, port: 12041, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_132 | 7.91Mb, server: 104.26.9.156, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇭🇰 香港_Telegram@kxswa 20, server: cn1.cdn.xfltd-cdn.top, port: 12006, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 V1-日本04∣K43线路∣1.5x, server: 120.232.217.96, port: 21015, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k43.tudou211.com, skip-cert-verify: true}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 13.229.87.253, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 17, server: 34.209.139.121, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇬🇧 英国_Telegram@kxswa 4, server: cn2.cdn.xfltd-cdn.top, port: 12069, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇮🇳 印度_Telegram@kxswa 2, server: 103.113.70.81, port: 37043, type: ss, cipher: chacha20-ietf-poly1305, password: ieRF5wPYmdPaOatxvLjhFo}
+  - {name: 🇭🇰 香港_Telegram@kxswa 17, server: cn1.cdn.xfltd-cdn.top, port: 12003, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港<https://t.me/zhibeii, server: hk.lianjianode.cc, port: 21031, type: vmess, uuid: 89167a63-4544-437a-b24d-05b7d3377784, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hongkong, headers: {Host: hk.lianjianode.cc}}}
+  - {name: 🇨🇳 CN<https://t.me/zhibeii, server: hk1.mhw7e2.online, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d}
+  - {name: 🇸🇬 新加坡<https://t.me/zhibeii, server: sg.lianjianode.cc, port: 21021, type: vmess, uuid: 89167a63-4544-437a-b24d-05b7d3377784, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /singapore, headers: {Host: sg1.luodi.xyz}}}
+  - {name: 🇩🇪 德国_Telegram@kxswa 3, server: cn2.cdn.xfltd-cdn.top, port: 12070, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 <https://t.me/zhibeii, server: hk.lianjianode.cc, port: 21033, type: vmess, uuid: 89167a63-4544-437a-b24d-05b7d3377784, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hongkong, headers: {Host: hk1.luodi.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_144 | 7.59Mb, server: 104.26.7.132, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
+  - {name: UA乌克兰-移动优化, server: gtm1.ktmwan.com, port: 27268, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇩🇪 V1-德国03∣K27线路∣1.5x, server: 103.6.220.71, port: 21185, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k27.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国_Telegram@kxswa 77, server: cn2.cdn.xfltd-cdn.top, port: 12051, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国_Telegram@kxswa 97, server: 104.19.47.32, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 18, server: 54.188.30.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 V2-韩国03∣K16线路∣1.5x, server: 120.232.217.96, port: 21017, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k16.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_130 | 7.27Mb, server: 172.64.233.9, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 关注电报https://t.me/aifenxiang2020 4, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, servername: ip006.3196772.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.3196772.xyz}}}
+  - {name: 🇸🇬 V2-新加坡04∣K39线路∣1.5x, server: 103.6.220.71, port: 21170, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k39.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_106 |293.04Mb, server: 172.67.71.187, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 79, server: cn2.cdn.xfltd-cdn.top, port: 12053, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇯🇵 V1-日本03∣K42线路∣1.5x, server: 120.232.217.96, port: 21183, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k42.tudou211.com, skip-cert-verify: true}
+  - {name: 🇮🇩 V2-印尼03∣K58线路∣1.5x, server: 120.232.217.96, port: 21273, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k58.tudou211.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 19, server: tacm.ix2.edge.kunlunae.com, port: 50123, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇸🇬 新加坡中转✈01, server: gstdnb.myfczy168.top, port: 11155, type: ss, cipher: chacha20-ietf-poly1305, password: 0f858887-dd1f-4043-8ea0-bde3e600ecba}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_150 | 8.12Mb, server: 104.26.0.50, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip5-4.freegradely.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_131 | 7.11Mb, server: 172.64.233.15, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇬🇧 V2-英国01∣K29线路∣1.5x, server: 103.6.220.71, port: 21154, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k29.tudou211.com, skip-cert-verify: true}
+  - {name: 🇯🇵 V2-日本01∣K11线路∣1.5x, server: 120.232.217.96, port: 21146, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k11.tudou211.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港3-None, server: gtmyjybtpmsy4mmb.fly64jfgwhale.xyz, port: 54876, type: ss, cipher: aes-128-gcm, password: 55696d72-2bfe-437f-9162-41da1037485d}
+  - {name: ✪有问题请咨询网站在线客服, server: shcm082.rennn.ren, port: 21008, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k34.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国3-None, server: gtmyjybtpmsy4mmb.fly64jfgwhale.xyz, port: 19747, type: ss, cipher: aes-128-gcm, password: 55696d72-2bfe-437f-9162-41da1037485d}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 20, server: tacm.ix2.edge.kunlunae.com, port: 50124, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇨🇳 V2-台湾04∣K41线路∣1.5x, server: 103.6.220.71, port: 21156, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k41.tudou211.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 21, server: tacm.ix2.edge.kunlunae.com, port: 50126, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇹🇭 V2-泰国02∣K46线路∣1.5x, server: 120.232.217.96, port: 21012, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k46.tudou211.com, skip-cert-verify: true}
+  - {name: 🇦🇺 AU澳大利亚-移动优化, server: gtm1.ktmwan.com, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇰🇷 KR韩国--移动优化, server: gtm1.ktmwan.com, port: 27262, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇩🇪 DE德国-移动优化, server: gtm1.ktmwan.com, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 🇩🇪 V1-德国01∣K25线路∣1.5x, server: 103.6.220.71, port: 21188, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k25.tudou211.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 22, server: 13.231.36.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇪 V1-德国02∣K26线路∣1.5x, server: 103.6.220.71, port: 21126, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k26.tudou211.com, skip-cert-verify: true}
+  - {name: 🇻🇳 V2-越南03∣K53线路∣1.5x, server: 120.232.217.96, port: 44248, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k53.tudou211.com, skip-cert-verify: true}
+  - {name: 🇨🇳 V2-台湾02∣K9线路∣1.5x, server: 103.6.220.71, port: 21083, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k9.tudou211.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 23, server: 3.112.237.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本_Telegram@kxswa 13, server: cn2.cdn.xfltd-cdn.top, port: 12035, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇻🇳 V2-越南01∣K51线路∣1.5x, server: 120.232.217.96, port: 21048, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k51.tudou211.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港<https://t.me/zhibeii 2, server: h04.cloud-port.xyz, port: 20000, type: vmess, uuid: 80a8910a-f561-4f71-b32d-4451d8043993, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: h04.cloud-port.xyz}}}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_56 |82.40Mb, server: 3h-philippines1.09vpn.com, port: 80, type: vmess, uuid: e7d6a050-e52a-4d85-ac26-95f85e44e8f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: 3h-philippines1.09vpn.com}}}
+  - {name: 🇸🇬 x1.0 新加坡 - 中转3, server: 7c610710-i.2nvx.com, port: 10144, type: trojan, password: zp7b1Brd, sni: 7c610710-i.2nvx.com, skip-cert-verify: false}
+  - {name: 🇺🇸 V3-美国04∣K64线路∣1.5x, server: 120.232.217.96, port: 21275, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k64.tudou211.com, skip-cert-verify: true}
+  - {name: 🇨🇳 Taiwan-TW-1-Rate:1.0, server: tw-1.chianginc.com, port: 443, type: trojan, password: W8U8DBPYuGByyq8nrM, skip-cert-verify: true}
+  - {name: Relay_ |18.25Mb, server: ip.sb, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 24, server: tacm.ix2.edge.kunlunae.com, port: 50132, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 25, server: tacm.ix2.edge.kunlunae.com, port: 50134, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 11, server: cn2.cdn.xfltd-cdn.top, port: 12025, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 26, server: tacm.ix2.edge.kunlunae.com, port: 50131, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: Relay_🏁ZZ-🇨🇦CA_171 | 8.26Mb, server: www.visa.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇰🇷 V2-韩国01∣K14线路∣1.5x, server: 120.232.217.96, port: 21056, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k14.tudou211.com, skip-cert-verify: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 | 7.97Mb, server: 104.26.5.112, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇮🇩 V2-印尼02∣K57线路∣1.5x, server: 120.232.217.96, port: 21362, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k57.tudou211.com, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯_Telegram@kxswa 4, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: Relay_🏁ZZ-🇨🇦CA_209 | 7.86Mb, server: 162.159.140.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}}
+  - {name: 🇰🇷 V2-韩国04∣K17线路∣1.5x, server: 120.232.217.96, port: 21118, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k17.tudou211.com, skip-cert-verify: false}
+  - {name: 🇹🇷 TR土耳其-移动优化, server: gtm1.ktmwan.com, port: 27267, type: ss, cipher: chacha20-ietf-poly1305, password: 7411ae4b-30db-421f-83da-bcf454c2aff7}
+  - {name: 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 27, server: tacm.ix2.edge.kunlunae.com, port: 50122, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 37951498:Zd1Scu, obfs-param: ""}
+  - {name: 🇸🇦 V2-沙特01∣K48线路∣1.5x, server: 120.232.217.96, port: 21192, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k48.tudou211.com, skip-cert-verify: true}
+  - {name: 🇸🇬 V2-新加坡02∣K37线路∣1.5x, server: 103.6.220.71, port: 21178, type: trojan, password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b, sni: k37.tudou211.com, skip-cert-verify: true}
+  - {name: 关注电报https://t.me/aifenxiang2020 5, server: 23.227.38.6, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, servername: ip005.3196772.xyz, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.3196772.xyz}}}
+  - {name: 🇯🇵 日本<https://t.me/zhibeii_2, server: jp.lianjianode.cc, port: 21011, type: vmess, uuid: 89167a63-4544-437a-b24d-05b7d3377784, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /japan, headers: {Host: jp.lianjianode.cc}}}
+  - {name: 🇳🇱 荷兰_Telegram@kxswa 3, server: cn2.cdn.xfltd-cdn.top, port: 12074, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian 3, server: 34.217.126.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -102,366 +240,918 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇭🇰 x1.0 香港 1
-      - 🇺🇸 美国04|1x
-      - 🇨🇳 台湾-2｜IEPL｜解锁流媒体
-      - JP_1198
-      - 🇮🇩 印尼｜中转｜解锁流媒体
-      - 🇰🇷 韩国｜中转｜解锁流媒体
-      - 🇺🇸 美国_Telegram@kxswa 106
-      - VN_2725
-      - 🇭🇰 x1.0 香港 2
-      - 🇺🇸 x1.0 美西 - 中转4
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇷🇺 俄罗斯｜中转｜解锁流媒体
-      - 🇸🇬 新加坡-1｜IEPL｜解锁流媒体
-      - 🇭🇰 香港 - IEPL - SS/SSR - 10
-      - 🇹🇭 泰国-2｜IEPL｜解锁流媒体
-      - 🇺🇸 美国04
-      - 🇰🇷 韩国03|1x
-      - 🇭🇰 香港02|1x
-      - 🇬🇧 英国01|1x
-      - 🇹🇷 土耳其｜中转｜解锁流媒体
-      - 🇨🇳 台湾04|1x
-      - 🇸🇬 新加坡01|1x
-      - 🇮🇸 冰岛｜中转｜解锁流媒体
-      - 如无法使用请在网站发工单取得帮助
-      - 🇨🇳 台湾01|1x
-      - 🇸🇬 新加坡03|1x
-      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
-      - 🇸🇬 新加坡-3｜IEPL｜解锁流媒体
-      - 🇯🇵 日本04|1x
-      - 🇭🇰 香港04|1x
-      - 🇸🇬 新加坡02|1x
-      - 🇯🇵 日本-3｜IEPL｜解锁流媒体
-      - 🇨🇳 台湾-1｜IEPL｜解锁流媒体
-      - 🇭🇰 x1.0 香港 - 中转2
-      - 🇰🇷 韩国01|1x
-      - 🇭🇰 香港-4｜IEPL｜解锁流媒体
-      - 🇯🇵 日本-4｜IEPL｜解锁流媒体
-      - 🇺🇸 美国02|1x
-      - 🇩🇪 德国｜中转｜解锁流媒体
-      - 当前网址：v2neo.net
-      - 🇯🇵 Japan-TY-2-Rate:1.0
-      - 🇺🇸 United States-US-3-Rate:1.0
-      - 🇨🇳 x1.0 台北 - 中转3
-      - 🇭🇰 香港-2｜IEPL｜解锁流媒体
-      - 🇬🇧 英国02|1x
-      - 🇭🇰 x1.0 香港 - 中转4
-      - 🇭🇰 Hong Kong-HK-2-Rate:0.5
-      - JP_1191
-      - 🇨🇳 台湾-3｜IEPL｜解锁流媒体
-      - 🇯🇵 日本01|1x
-      - 🇸🇬 新加坡-2｜IEPL｜解锁流媒体
-      - 🇨🇭 瑞士｜中转｜解锁流媒体
-      - 🇸🇬 建议每天更新订阅
-      - 🇪🇸 西班牙｜中转｜解锁流媒体
-      - 🇭🇺 匈牙利｜中转｜解锁流媒体
-      - 🇭🇰 香港03|1x
-      - 🇹🇭 泰国-1｜IEPL｜解锁流媒体
-      - 🇭🇰 香港01|1x
-      - 乌克兰｜中转｜解锁流媒体
-      - 🇯🇵 日本-1｜IEPL｜解锁流媒体
-      - 🇨🇳 台湾02|1x
-      - 🇸🇬 新加坡04|1x
-      - 🇰🇷 韩国02|1x
-      - 🇺🇸 美国01|1x
-      - 🇨🇳 台湾03|1x
-      - 🇯🇵 日本-2｜IEPL｜解锁流媒体
-      - 🇯🇵 日本03|1x
-      - 🇨🇦 加拿大｜中转｜解锁流媒体
-      - 🇱🇹 立陶宛｜中转｜解锁流媒体
-      - 🇫🇷 法国｜中转｜解锁流媒体
-      - 🇺🇸 美国03|1x
-      - US_1751
-      - 🇭🇰 香港-3｜IEPL｜解锁流媒体
-      - 🇰🇷 韩国04|1x
-      - 🇯🇵 日本02|1x
-      - 🇸🇬 狮城特殊|@ripaojiedian 3 2
-      - 🇸🇬 x1.0 新加坡 - 中转3
-      - 🇸🇬 狮城特殊|@ripaojiedian 3
-      - JP_1181
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - SG_1418
-      - 🇨🇳 Taiwan-TW-1-Rate:1.0
-      - 🇬🇧 英国-1｜中转｜解锁流媒体
-      - 🇨🇳 x1.0 台北 - 中转1
-      - JP_1196
+      - KR_1239
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉
       - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_160 |13.05Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 2
+      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_110 | 7.63Mb
+      - Relay_🏁ZZ-🇨🇦CA_225 | 8.05Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 3
+      - 🇹🇭 V2-泰国01∣K45线路∣1.5x
+      - 🇨🇳 x1.0 台北 - 中转1
+      - 🇸🇬 新加坡_Telegram@kxswa 10
+      - 🇸🇦 V2-沙特03∣K50线路∣1.5x
+      - 🇦🇷 阿根廷_Telegram@kxswa
+      - 🇨🇳 台湾_Telegram@kxswa 3
+      - 🇮🇳 IN印度-移动优化
+      - 🇲🇾 马来西亚_Telegram@kxswa 2
+      - 🇯🇵 日本_Telegram@kxswa 3
+      - JP_1198
+      - 🇭🇰 V1-香港04∣K4线路∣1.5x
+      - 🇦🇺 澳大利亚_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 78
+      - 🇹🇷 土耳其_Telegram@kxswa 3
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_11 |640.01Mb
+      - 🇸🇬 新加坡_Telegram@kxswa 9
+      - Relay_🏁ZZ-🇨🇦CA_200 |11.24Mb
+      - 🇯🇵 日本_Telegram@kxswa 14
+      - 🇺🇸 美国_Telegram@kxswa 104
+      - 🇯🇵 Japan-TY-3-Rate:1.0
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 4
+      - 🇰🇷 V2-韩国02∣K15线路∣1.5x
+      - 🇺🇸 V2-美国01∣K21线路∣1.5x
+      - 🇮🇩 印尼_Telegram@kxswa 2
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 5
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 6
+      - Relay_🏁ZZ-🇺🇸US_227
+      - 🇺🇸 V3-美国02∣K62线路∣1.5x
+      - 🇺🇸 US<https://t.me/zhibeii_2
+      - 🇯🇵 日本_Telegram@kxswa 11
+      - 🇺🇸 V3-美国03∣K63线路∣1.5x
+      - 🇸🇬 新加坡_Telegram@kxswa 9 2
+      - 🇹🇭 TH泰国-移动优化
+      - Relay_🏁ZZ-🇨🇦CA_195 |11.52Mb
+      - 🇸🇦 V2-沙特02∣K49线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 7
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_125 | 7.70Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_145 | 8.01Mb
+      - 🇸🇬 V2-新加坡03∣K38线路∣1.5x
+      - Relay_🏁ZZ-🇨🇦CA_170 |13.47Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_116 |11.72Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 8
+      - 🇸🇬 新加坡中转✈02
+      - 🇸🇬 长期更新节点@mftizi
+      - 🇭🇰 V1-香港03∣K3线路∣1.5x
+      - 🇯🇵 V2-日本02∣K12线路∣1.5x
+      - 🇩🇪 V1-德国04∣K28线路∣1.5x
+      - 🇭🇰 香港2-None
+      - 🇨🇦 CA加拿大-移动优化
+      - 🇸🇬 新加坡_Telegram@kxswa 7
+      - 🇻🇳 V2-越南02∣K52线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 |278.13Mb
+      - 🇻🇳 VN越南-移动优化
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_42
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_124 | 7.80Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_113 | 5.31Mb
+      - 🇯🇵 JP日本2-移动优化
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_121 | 6.38Mb
+      - 🇺🇸 US<https://t.me/zhibeii_4
+      - 🇭🇰 V1-香港02∣K2线路∣1.5x
+      - 🇺🇸 V3-美国01∣K61线路∣1.5x
+      - 🇯🇵 日本_Telegram@kxswa 12
+      - 🇺🇸 US<https://t.me/zhibeii_9
+      - 关注电报https://t.me/aifenxiang2020
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 9
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_142 | 7.16Mb
+      - Relay_🏁ZZ-🇨🇦CA_167 |10.36Mb
+      - 🇭🇰 x1.0 香港 2
+      - 🇲🇾 V2-马来西亚01∣K31线路∣1.5x
+      - 关注电报https://t.me/aifenxiang2020 2
+      - 🇫🇷 FR法国-移动优化
+      - 🇯🇵 Japan-OS-1-Rate:1.0
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_135 | 7.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 | 4.58Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 10
+      - VN_2725
+      - 🇨🇳 V2-台湾01∣K7线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 11
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_111 |239.23Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_108 | 7.65Mb
+      - 🇯🇵 V1-日本05∣K44线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 12
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_112 | 6.98Mb
+      - Relay_🏁ZZ-🇨🇦CA_197 | 8.36Mb
+      - 🇯🇵 JP日本-移动优化
+      - 🇭🇰 x1.0 香港 - 中转6
+      - Relay_🏁ZZ-🇨🇦CA_209 |810.64Mb
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇲🇾 V2-马来西亚02∣K32线路∣1.5x
+      - 🇲🇾 V2-马来西亚02∣K54线路∣1.5x
+      - Relay_ |12.71Mb
+      - 🇸🇬 ✪每周更新订阅获取最新节点
+      - 🇨🇳 V2-台湾03∣K40线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 |10.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_126 |10.28Mb
+      - 🇰🇷 x1.0 韩国 - 中转1
+      - 🇸🇬 V2-新加坡01∣K36线路∣1.5x
+      - 🇺🇸 美国_Telegram@kxswa 102
+      - 🇸🇬 狮城特殊|@ripaojiedian 3 2
+      - 关注电报https://t.me/aifenxiang2020 3
+      - 🇯🇵 V2-日本04∣K74线路∣1.5x
+      - Relay_🏁ZZ-🇨🇦CA_205 |351.56Mb
+      - 🇸🇬 狮城特殊|@ripaojiedian 2
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 13
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_107 | 7.64Mb
+      - 🇯🇵 V2-日本03∣K73线路∣1.5x
+      - 🇹🇭 V2-泰国03∣K47L线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 14
+      - US_1581
+      - Relay_🏁ZZ-🇨🇦CA_206 | 5.71Mb
+      - 🇺🇸 V1-美国02∣K19线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_129 |198.61Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 16
+      - 🇷🇺 Relay_🇷🇺RU-🇺🇸US_66 | 8.40Mb
+      - 🇭🇰 HK香港2--移动优化
+      - 🇯🇵 x1.0 日本 - 中转2
+      - 🇸🇬 新加坡_Telegram@kxswa 8
+      - 🇨🇳 x1.0 台北 - 中转2
+      - 🇺🇸 美国03
+      - 🇭🇰 V1-香港05∣K10线路∣1.5x
+      - 🇭🇰 x1.0 香港 - 中转2
+      - 🇺🇸 V1-美国01∣K18线路∣1.5x
+      - 🇭🇰 V1-香港01∣K1线路∣1.5x
+      - 🇬🇧 V2-英国02∣K30线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_155 | 5.56Mb
+      - 🇺🇸 美国04
+      - 🇷🇺 俄罗斯<https://t.me/zhibeii
+      - 关注电报https://t.me/mftizi
+      - SG_1419
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_109 |10.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 | 8.67Mb
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_17 |18.73Mb
+      - 🇸🇬 SG新加坡2-移动优化
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_120 |298.72Mb
+      - 🇮🇩 V2-印尼01∣K56线路∣1.5x
+      - 🇭🇰 x1.0 香港 1
+      - 🇰🇷 韩国_Telegram@kxswa 2
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_132 | 7.91Mb
+      - 🇭🇰 香港_Telegram@kxswa 20
+      - 🇯🇵 V1-日本04∣K43线路∣1.5x
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 17
+      - 🇬🇧 英国_Telegram@kxswa 4
+      - 🇮🇳 印度_Telegram@kxswa 2
+      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇭🇰 香港<https://t.me/zhibeii
+      - 🇨🇳 CN<https://t.me/zhibeii
+      - 🇸🇬 新加坡<https://t.me/zhibeii
+      - 🇩🇪 德国_Telegram@kxswa 3
+      - 🇭🇰 香港 <https://t.me/zhibeii
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_144 | 7.59Mb
+      - UA乌克兰-移动优化
+      - 🇩🇪 V1-德国03∣K27线路∣1.5x
+      - 🇺🇸 美国_Telegram@kxswa 77
+      - 🇺🇸 美国_Telegram@kxswa 97
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 18
+      - 🇰🇷 V2-韩国03∣K16线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_130 | 7.27Mb
+      - 关注电报https://t.me/aifenxiang2020 4
+      - 🇸🇬 V2-新加坡04∣K39线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_106 |293.04Mb
+      - 🇺🇸 美国_Telegram@kxswa 79
+      - 🇯🇵 V1-日本03∣K42线路∣1.5x
+      - 🇮🇩 V2-印尼03∣K58线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 19
+      - 🇸🇬 新加坡中转✈01
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_150 | 8.12Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_131 | 7.11Mb
+      - 🇬🇧 V2-英国01∣K29线路∣1.5x
+      - 🇯🇵 V2-日本01∣K11线路∣1.5x
+      - 🇭🇰 香港3-None
+      - ✪有问题请咨询网站在线客服
+      - 🇺🇸 美国3-None
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 20
+      - 🇨🇳 V2-台湾04∣K41线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 21
+      - 🇹🇭 V2-泰国02∣K46线路∣1.5x
+      - 🇦🇺 AU澳大利亚-移动优化
+      - 🇰🇷 KR韩国--移动优化
+      - 🇩🇪 DE德国-移动优化
+      - 🇩🇪 V1-德国01∣K25线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 22
+      - 🇩🇪 V1-德国02∣K26线路∣1.5x
+      - 🇻🇳 V2-越南03∣K53线路∣1.5x
+      - 🇨🇳 V2-台湾02∣K9线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 23
+      - 🇯🇵 日本_Telegram@kxswa 13
+      - 🇻🇳 V2-越南01∣K51线路∣1.5x
+      - 🇭🇰 香港<https://t.me/zhibeii 2
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_56 |82.40Mb
+      - 🇸🇬 x1.0 新加坡 - 中转3
+      - 🇺🇸 V3-美国04∣K64线路∣1.5x
+      - 🇨🇳 Taiwan-TW-1-Rate:1.0
+      - Relay_ |18.25Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 24
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 25
+      - 🇸🇬 新加坡_Telegram@kxswa 11
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 26
+      - Relay_🏁ZZ-🇨🇦CA_171 | 8.26Mb
+      - 🇰🇷 V2-韩国01∣K14线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 | 7.97Mb
+      - 🇮🇩 V2-印尼02∣K57线路∣1.5x
+      - 🇷🇺 俄罗斯_Telegram@kxswa 4
+      - Relay_🏁ZZ-🇨🇦CA_209 | 7.86Mb
+      - 🇰🇷 V2-韩国04∣K17线路∣1.5x
+      - 🇹🇷 TR土耳其-移动优化
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 27
+      - 🇸🇦 V2-沙特01∣K48线路∣1.5x
+      - 🇸🇬 V2-新加坡02∣K37线路∣1.5x
+      - 关注电报https://t.me/aifenxiang2020 5
+      - 🇯🇵 日本<https://t.me/zhibeii_2
+      - 🇳🇱 荷兰_Telegram@kxswa 3
+      - 🇸🇬 狮城特殊|@ripaojiedian 3
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 x1.0 香港 1
-      - 🇺🇸 美国04|1x
-      - 🇨🇳 台湾-2｜IEPL｜解锁流媒体
-      - JP_1198
-      - 🇮🇩 印尼｜中转｜解锁流媒体
-      - 🇰🇷 韩国｜中转｜解锁流媒体
-      - 🇺🇸 美国_Telegram@kxswa 106
-      - VN_2725
-      - 🇭🇰 x1.0 香港 2
-      - 🇺🇸 x1.0 美西 - 中转4
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇷🇺 俄罗斯｜中转｜解锁流媒体
-      - 🇸🇬 新加坡-1｜IEPL｜解锁流媒体
-      - 🇭🇰 香港 - IEPL - SS/SSR - 10
-      - 🇹🇭 泰国-2｜IEPL｜解锁流媒体
-      - 🇺🇸 美国04
-      - 🇰🇷 韩国03|1x
-      - 🇭🇰 香港02|1x
-      - 🇬🇧 英国01|1x
-      - 🇹🇷 土耳其｜中转｜解锁流媒体
-      - 🇨🇳 台湾04|1x
-      - 🇸🇬 新加坡01|1x
-      - 🇮🇸 冰岛｜中转｜解锁流媒体
-      - 如无法使用请在网站发工单取得帮助
-      - 🇨🇳 台湾01|1x
-      - 🇸🇬 新加坡03|1x
-      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
-      - 🇸🇬 新加坡-3｜IEPL｜解锁流媒体
-      - 🇯🇵 日本04|1x
-      - 🇭🇰 香港04|1x
-      - 🇸🇬 新加坡02|1x
-      - 🇯🇵 日本-3｜IEPL｜解锁流媒体
-      - 🇨🇳 台湾-1｜IEPL｜解锁流媒体
-      - 🇭🇰 x1.0 香港 - 中转2
-      - 🇰🇷 韩国01|1x
-      - 🇭🇰 香港-4｜IEPL｜解锁流媒体
-      - 🇯🇵 日本-4｜IEPL｜解锁流媒体
-      - 🇺🇸 美国02|1x
-      - 🇩🇪 德国｜中转｜解锁流媒体
-      - 当前网址：v2neo.net
-      - 🇯🇵 Japan-TY-2-Rate:1.0
-      - 🇺🇸 United States-US-3-Rate:1.0
-      - 🇨🇳 x1.0 台北 - 中转3
-      - 🇭🇰 香港-2｜IEPL｜解锁流媒体
-      - 🇬🇧 英国02|1x
-      - 🇭🇰 x1.0 香港 - 中转4
-      - 🇭🇰 Hong Kong-HK-2-Rate:0.5
-      - JP_1191
-      - 🇨🇳 台湾-3｜IEPL｜解锁流媒体
-      - 🇯🇵 日本01|1x
-      - 🇸🇬 新加坡-2｜IEPL｜解锁流媒体
-      - 🇨🇭 瑞士｜中转｜解锁流媒体
-      - 🇸🇬 建议每天更新订阅
-      - 🇪🇸 西班牙｜中转｜解锁流媒体
-      - 🇭🇺 匈牙利｜中转｜解锁流媒体
-      - 🇭🇰 香港03|1x
-      - 🇹🇭 泰国-1｜IEPL｜解锁流媒体
-      - 🇭🇰 香港01|1x
-      - 乌克兰｜中转｜解锁流媒体
-      - 🇯🇵 日本-1｜IEPL｜解锁流媒体
-      - 🇨🇳 台湾02|1x
-      - 🇸🇬 新加坡04|1x
-      - 🇰🇷 韩国02|1x
-      - 🇺🇸 美国01|1x
-      - 🇨🇳 台湾03|1x
-      - 🇯🇵 日本-2｜IEPL｜解锁流媒体
-      - 🇯🇵 日本03|1x
-      - 🇨🇦 加拿大｜中转｜解锁流媒体
-      - 🇱🇹 立陶宛｜中转｜解锁流媒体
-      - 🇫🇷 法国｜中转｜解锁流媒体
-      - 🇺🇸 美国03|1x
-      - US_1751
-      - 🇭🇰 香港-3｜IEPL｜解锁流媒体
-      - 🇰🇷 韩国04|1x
-      - 🇯🇵 日本02|1x
-      - 🇸🇬 狮城特殊|@ripaojiedian 3 2
-      - 🇸🇬 x1.0 新加坡 - 中转3
-      - 🇸🇬 狮城特殊|@ripaojiedian 3
-      - JP_1181
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - SG_1418
-      - 🇨🇳 Taiwan-TW-1-Rate:1.0
-      - 🇬🇧 英国-1｜中转｜解锁流媒体
-      - 🇨🇳 x1.0 台北 - 中转1
-      - JP_1196
+      - KR_1239
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉
       - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_160 |13.05Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 2
+      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_110 | 7.63Mb
+      - Relay_🏁ZZ-🇨🇦CA_225 | 8.05Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 3
+      - 🇹🇭 V2-泰国01∣K45线路∣1.5x
+      - 🇨🇳 x1.0 台北 - 中转1
+      - 🇸🇬 新加坡_Telegram@kxswa 10
+      - 🇸🇦 V2-沙特03∣K50线路∣1.5x
+      - 🇦🇷 阿根廷_Telegram@kxswa
+      - 🇨🇳 台湾_Telegram@kxswa 3
+      - 🇮🇳 IN印度-移动优化
+      - 🇲🇾 马来西亚_Telegram@kxswa 2
+      - 🇯🇵 日本_Telegram@kxswa 3
+      - JP_1198
+      - 🇭🇰 V1-香港04∣K4线路∣1.5x
+      - 🇦🇺 澳大利亚_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 78
+      - 🇹🇷 土耳其_Telegram@kxswa 3
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_11 |640.01Mb
+      - 🇸🇬 新加坡_Telegram@kxswa 9
+      - Relay_🏁ZZ-🇨🇦CA_200 |11.24Mb
+      - 🇯🇵 日本_Telegram@kxswa 14
+      - 🇺🇸 美国_Telegram@kxswa 104
+      - 🇯🇵 Japan-TY-3-Rate:1.0
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 4
+      - 🇰🇷 V2-韩国02∣K15线路∣1.5x
+      - 🇺🇸 V2-美国01∣K21线路∣1.5x
+      - 🇮🇩 印尼_Telegram@kxswa 2
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 5
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 6
+      - Relay_🏁ZZ-🇺🇸US_227
+      - 🇺🇸 V3-美国02∣K62线路∣1.5x
+      - 🇺🇸 US<https://t.me/zhibeii_2
+      - 🇯🇵 日本_Telegram@kxswa 11
+      - 🇺🇸 V3-美国03∣K63线路∣1.5x
+      - 🇸🇬 新加坡_Telegram@kxswa 9 2
+      - 🇹🇭 TH泰国-移动优化
+      - Relay_🏁ZZ-🇨🇦CA_195 |11.52Mb
+      - 🇸🇦 V2-沙特02∣K49线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 7
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_125 | 7.70Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_145 | 8.01Mb
+      - 🇸🇬 V2-新加坡03∣K38线路∣1.5x
+      - Relay_🏁ZZ-🇨🇦CA_170 |13.47Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_116 |11.72Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 8
+      - 🇸🇬 新加坡中转✈02
+      - 🇸🇬 长期更新节点@mftizi
+      - 🇭🇰 V1-香港03∣K3线路∣1.5x
+      - 🇯🇵 V2-日本02∣K12线路∣1.5x
+      - 🇩🇪 V1-德国04∣K28线路∣1.5x
+      - 🇭🇰 香港2-None
+      - 🇨🇦 CA加拿大-移动优化
+      - 🇸🇬 新加坡_Telegram@kxswa 7
+      - 🇻🇳 V2-越南02∣K52线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 |278.13Mb
+      - 🇻🇳 VN越南-移动优化
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_42
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_124 | 7.80Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_113 | 5.31Mb
+      - 🇯🇵 JP日本2-移动优化
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_121 | 6.38Mb
+      - 🇺🇸 US<https://t.me/zhibeii_4
+      - 🇭🇰 V1-香港02∣K2线路∣1.5x
+      - 🇺🇸 V3-美国01∣K61线路∣1.5x
+      - 🇯🇵 日本_Telegram@kxswa 12
+      - 🇺🇸 US<https://t.me/zhibeii_9
+      - 关注电报https://t.me/aifenxiang2020
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 9
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_142 | 7.16Mb
+      - Relay_🏁ZZ-🇨🇦CA_167 |10.36Mb
+      - 🇭🇰 x1.0 香港 2
+      - 🇲🇾 V2-马来西亚01∣K31线路∣1.5x
+      - 关注电报https://t.me/aifenxiang2020 2
+      - 🇫🇷 FR法国-移动优化
+      - 🇯🇵 Japan-OS-1-Rate:1.0
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_135 | 7.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 | 4.58Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 10
+      - VN_2725
+      - 🇨🇳 V2-台湾01∣K7线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 11
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_111 |239.23Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_108 | 7.65Mb
+      - 🇯🇵 V1-日本05∣K44线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 12
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_112 | 6.98Mb
+      - Relay_🏁ZZ-🇨🇦CA_197 | 8.36Mb
+      - 🇯🇵 JP日本-移动优化
+      - 🇭🇰 x1.0 香港 - 中转6
+      - Relay_🏁ZZ-🇨🇦CA_209 |810.64Mb
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇲🇾 V2-马来西亚02∣K32线路∣1.5x
+      - 🇲🇾 V2-马来西亚02∣K54线路∣1.5x
+      - Relay_ |12.71Mb
+      - 🇸🇬 ✪每周更新订阅获取最新节点
+      - 🇨🇳 V2-台湾03∣K40线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 |10.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_126 |10.28Mb
+      - 🇰🇷 x1.0 韩国 - 中转1
+      - 🇸🇬 V2-新加坡01∣K36线路∣1.5x
+      - 🇺🇸 美国_Telegram@kxswa 102
+      - 🇸🇬 狮城特殊|@ripaojiedian 3 2
+      - 关注电报https://t.me/aifenxiang2020 3
+      - 🇯🇵 V2-日本04∣K74线路∣1.5x
+      - Relay_🏁ZZ-🇨🇦CA_205 |351.56Mb
+      - 🇸🇬 狮城特殊|@ripaojiedian 2
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 13
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_107 | 7.64Mb
+      - 🇯🇵 V2-日本03∣K73线路∣1.5x
+      - 🇹🇭 V2-泰国03∣K47L线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 14
+      - US_1581
+      - Relay_🏁ZZ-🇨🇦CA_206 | 5.71Mb
+      - 🇺🇸 V1-美国02∣K19线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_129 |198.61Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 16
+      - 🇷🇺 Relay_🇷🇺RU-🇺🇸US_66 | 8.40Mb
+      - 🇭🇰 HK香港2--移动优化
+      - 🇯🇵 x1.0 日本 - 中转2
+      - 🇸🇬 新加坡_Telegram@kxswa 8
+      - 🇨🇳 x1.0 台北 - 中转2
+      - 🇺🇸 美国03
+      - 🇭🇰 V1-香港05∣K10线路∣1.5x
+      - 🇭🇰 x1.0 香港 - 中转2
+      - 🇺🇸 V1-美国01∣K18线路∣1.5x
+      - 🇭🇰 V1-香港01∣K1线路∣1.5x
+      - 🇬🇧 V2-英国02∣K30线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_155 | 5.56Mb
+      - 🇺🇸 美国04
+      - 🇷🇺 俄罗斯<https://t.me/zhibeii
+      - 关注电报https://t.me/mftizi
+      - SG_1419
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_109 |10.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 | 8.67Mb
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_17 |18.73Mb
+      - 🇸🇬 SG新加坡2-移动优化
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_120 |298.72Mb
+      - 🇮🇩 V2-印尼01∣K56线路∣1.5x
+      - 🇭🇰 x1.0 香港 1
+      - 🇰🇷 韩国_Telegram@kxswa 2
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_132 | 7.91Mb
+      - 🇭🇰 香港_Telegram@kxswa 20
+      - 🇯🇵 V1-日本04∣K43线路∣1.5x
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 17
+      - 🇬🇧 英国_Telegram@kxswa 4
+      - 🇮🇳 印度_Telegram@kxswa 2
+      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇭🇰 香港<https://t.me/zhibeii
+      - 🇨🇳 CN<https://t.me/zhibeii
+      - 🇸🇬 新加坡<https://t.me/zhibeii
+      - 🇩🇪 德国_Telegram@kxswa 3
+      - 🇭🇰 香港 <https://t.me/zhibeii
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_144 | 7.59Mb
+      - UA乌克兰-移动优化
+      - 🇩🇪 V1-德国03∣K27线路∣1.5x
+      - 🇺🇸 美国_Telegram@kxswa 77
+      - 🇺🇸 美国_Telegram@kxswa 97
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 18
+      - 🇰🇷 V2-韩国03∣K16线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_130 | 7.27Mb
+      - 关注电报https://t.me/aifenxiang2020 4
+      - 🇸🇬 V2-新加坡04∣K39线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_106 |293.04Mb
+      - 🇺🇸 美国_Telegram@kxswa 79
+      - 🇯🇵 V1-日本03∣K42线路∣1.5x
+      - 🇮🇩 V2-印尼03∣K58线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 19
+      - 🇸🇬 新加坡中转✈01
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_150 | 8.12Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_131 | 7.11Mb
+      - 🇬🇧 V2-英国01∣K29线路∣1.5x
+      - 🇯🇵 V2-日本01∣K11线路∣1.5x
+      - 🇭🇰 香港3-None
+      - ✪有问题请咨询网站在线客服
+      - 🇺🇸 美国3-None
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 20
+      - 🇨🇳 V2-台湾04∣K41线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 21
+      - 🇹🇭 V2-泰国02∣K46线路∣1.5x
+      - 🇦🇺 AU澳大利亚-移动优化
+      - 🇰🇷 KR韩国--移动优化
+      - 🇩🇪 DE德国-移动优化
+      - 🇩🇪 V1-德国01∣K25线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 22
+      - 🇩🇪 V1-德国02∣K26线路∣1.5x
+      - 🇻🇳 V2-越南03∣K53线路∣1.5x
+      - 🇨🇳 V2-台湾02∣K9线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 23
+      - 🇯🇵 日本_Telegram@kxswa 13
+      - 🇻🇳 V2-越南01∣K51线路∣1.5x
+      - 🇭🇰 香港<https://t.me/zhibeii 2
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_56 |82.40Mb
+      - 🇸🇬 x1.0 新加坡 - 中转3
+      - 🇺🇸 V3-美国04∣K64线路∣1.5x
+      - 🇨🇳 Taiwan-TW-1-Rate:1.0
+      - Relay_ |18.25Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 24
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 25
+      - 🇸🇬 新加坡_Telegram@kxswa 11
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 26
+      - Relay_🏁ZZ-🇨🇦CA_171 | 8.26Mb
+      - 🇰🇷 V2-韩国01∣K14线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 | 7.97Mb
+      - 🇮🇩 V2-印尼02∣K57线路∣1.5x
+      - 🇷🇺 俄罗斯_Telegram@kxswa 4
+      - Relay_🏁ZZ-🇨🇦CA_209 | 7.86Mb
+      - 🇰🇷 V2-韩国04∣K17线路∣1.5x
+      - 🇹🇷 TR土耳其-移动优化
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 27
+      - 🇸🇦 V2-沙特01∣K48线路∣1.5x
+      - 🇸🇬 V2-新加坡02∣K37线路∣1.5x
+      - 关注电报https://t.me/aifenxiang2020 5
+      - 🇯🇵 日本<https://t.me/zhibeii_2
+      - 🇳🇱 荷兰_Telegram@kxswa 3
+      - 🇸🇬 狮城特殊|@ripaojiedian 3
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 x1.0 香港 1
-      - 🇺🇸 美国04|1x
-      - 🇨🇳 台湾-2｜IEPL｜解锁流媒体
-      - JP_1198
-      - 🇮🇩 印尼｜中转｜解锁流媒体
-      - 🇰🇷 韩国｜中转｜解锁流媒体
-      - 🇺🇸 美国_Telegram@kxswa 106
-      - VN_2725
-      - 🇭🇰 x1.0 香港 2
-      - 🇺🇸 x1.0 美西 - 中转4
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇷🇺 俄罗斯｜中转｜解锁流媒体
-      - 🇸🇬 新加坡-1｜IEPL｜解锁流媒体
-      - 🇭🇰 香港 - IEPL - SS/SSR - 10
-      - 🇹🇭 泰国-2｜IEPL｜解锁流媒体
-      - 🇺🇸 美国04
-      - 🇰🇷 韩国03|1x
-      - 🇭🇰 香港02|1x
-      - 🇬🇧 英国01|1x
-      - 🇹🇷 土耳其｜中转｜解锁流媒体
-      - 🇨🇳 台湾04|1x
-      - 🇸🇬 新加坡01|1x
-      - 🇮🇸 冰岛｜中转｜解锁流媒体
-      - 如无法使用请在网站发工单取得帮助
-      - 🇨🇳 台湾01|1x
-      - 🇸🇬 新加坡03|1x
-      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
-      - 🇸🇬 新加坡-3｜IEPL｜解锁流媒体
-      - 🇯🇵 日本04|1x
-      - 🇭🇰 香港04|1x
-      - 🇸🇬 新加坡02|1x
-      - 🇯🇵 日本-3｜IEPL｜解锁流媒体
-      - 🇨🇳 台湾-1｜IEPL｜解锁流媒体
-      - 🇭🇰 x1.0 香港 - 中转2
-      - 🇰🇷 韩国01|1x
-      - 🇭🇰 香港-4｜IEPL｜解锁流媒体
-      - 🇯🇵 日本-4｜IEPL｜解锁流媒体
-      - 🇺🇸 美国02|1x
-      - 🇩🇪 德国｜中转｜解锁流媒体
-      - 当前网址：v2neo.net
-      - 🇯🇵 Japan-TY-2-Rate:1.0
-      - 🇺🇸 United States-US-3-Rate:1.0
-      - 🇨🇳 x1.0 台北 - 中转3
-      - 🇭🇰 香港-2｜IEPL｜解锁流媒体
-      - 🇬🇧 英国02|1x
-      - 🇭🇰 x1.0 香港 - 中转4
-      - 🇭🇰 Hong Kong-HK-2-Rate:0.5
-      - JP_1191
-      - 🇨🇳 台湾-3｜IEPL｜解锁流媒体
-      - 🇯🇵 日本01|1x
-      - 🇸🇬 新加坡-2｜IEPL｜解锁流媒体
-      - 🇨🇭 瑞士｜中转｜解锁流媒体
-      - 🇸🇬 建议每天更新订阅
-      - 🇪🇸 西班牙｜中转｜解锁流媒体
-      - 🇭🇺 匈牙利｜中转｜解锁流媒体
-      - 🇭🇰 香港03|1x
-      - 🇹🇭 泰国-1｜IEPL｜解锁流媒体
-      - 🇭🇰 香港01|1x
-      - 乌克兰｜中转｜解锁流媒体
-      - 🇯🇵 日本-1｜IEPL｜解锁流媒体
-      - 🇨🇳 台湾02|1x
-      - 🇸🇬 新加坡04|1x
-      - 🇰🇷 韩国02|1x
-      - 🇺🇸 美国01|1x
-      - 🇨🇳 台湾03|1x
-      - 🇯🇵 日本-2｜IEPL｜解锁流媒体
-      - 🇯🇵 日本03|1x
-      - 🇨🇦 加拿大｜中转｜解锁流媒体
-      - 🇱🇹 立陶宛｜中转｜解锁流媒体
-      - 🇫🇷 法国｜中转｜解锁流媒体
-      - 🇺🇸 美国03|1x
-      - US_1751
-      - 🇭🇰 香港-3｜IEPL｜解锁流媒体
-      - 🇰🇷 韩国04|1x
-      - 🇯🇵 日本02|1x
-      - 🇸🇬 狮城特殊|@ripaojiedian 3 2
-      - 🇸🇬 x1.0 新加坡 - 中转3
-      - 🇸🇬 狮城特殊|@ripaojiedian 3
-      - JP_1181
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - SG_1418
-      - 🇨🇳 Taiwan-TW-1-Rate:1.0
-      - 🇬🇧 英国-1｜中转｜解锁流媒体
-      - 🇨🇳 x1.0 台北 - 中转1
-      - JP_1196
+      - KR_1239
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉
       - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_160 |13.05Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 2
+      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_110 | 7.63Mb
+      - Relay_🏁ZZ-🇨🇦CA_225 | 8.05Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 3
+      - 🇹🇭 V2-泰国01∣K45线路∣1.5x
+      - 🇨🇳 x1.0 台北 - 中转1
+      - 🇸🇬 新加坡_Telegram@kxswa 10
+      - 🇸🇦 V2-沙特03∣K50线路∣1.5x
+      - 🇦🇷 阿根廷_Telegram@kxswa
+      - 🇨🇳 台湾_Telegram@kxswa 3
+      - 🇮🇳 IN印度-移动优化
+      - 🇲🇾 马来西亚_Telegram@kxswa 2
+      - 🇯🇵 日本_Telegram@kxswa 3
+      - JP_1198
+      - 🇭🇰 V1-香港04∣K4线路∣1.5x
+      - 🇦🇺 澳大利亚_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 78
+      - 🇹🇷 土耳其_Telegram@kxswa 3
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_11 |640.01Mb
+      - 🇸🇬 新加坡_Telegram@kxswa 9
+      - Relay_🏁ZZ-🇨🇦CA_200 |11.24Mb
+      - 🇯🇵 日本_Telegram@kxswa 14
+      - 🇺🇸 美国_Telegram@kxswa 104
+      - 🇯🇵 Japan-TY-3-Rate:1.0
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 4
+      - 🇰🇷 V2-韩国02∣K15线路∣1.5x
+      - 🇺🇸 V2-美国01∣K21线路∣1.5x
+      - 🇮🇩 印尼_Telegram@kxswa 2
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 5
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 6
+      - Relay_🏁ZZ-🇺🇸US_227
+      - 🇺🇸 V3-美国02∣K62线路∣1.5x
+      - 🇺🇸 US<https://t.me/zhibeii_2
+      - 🇯🇵 日本_Telegram@kxswa 11
+      - 🇺🇸 V3-美国03∣K63线路∣1.5x
+      - 🇸🇬 新加坡_Telegram@kxswa 9 2
+      - 🇹🇭 TH泰国-移动优化
+      - Relay_🏁ZZ-🇨🇦CA_195 |11.52Mb
+      - 🇸🇦 V2-沙特02∣K49线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 7
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_125 | 7.70Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_145 | 8.01Mb
+      - 🇸🇬 V2-新加坡03∣K38线路∣1.5x
+      - Relay_🏁ZZ-🇨🇦CA_170 |13.47Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_116 |11.72Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 8
+      - 🇸🇬 新加坡中转✈02
+      - 🇸🇬 长期更新节点@mftizi
+      - 🇭🇰 V1-香港03∣K3线路∣1.5x
+      - 🇯🇵 V2-日本02∣K12线路∣1.5x
+      - 🇩🇪 V1-德国04∣K28线路∣1.5x
+      - 🇭🇰 香港2-None
+      - 🇨🇦 CA加拿大-移动优化
+      - 🇸🇬 新加坡_Telegram@kxswa 7
+      - 🇻🇳 V2-越南02∣K52线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 |278.13Mb
+      - 🇻🇳 VN越南-移动优化
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_42
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_124 | 7.80Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_113 | 5.31Mb
+      - 🇯🇵 JP日本2-移动优化
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_121 | 6.38Mb
+      - 🇺🇸 US<https://t.me/zhibeii_4
+      - 🇭🇰 V1-香港02∣K2线路∣1.5x
+      - 🇺🇸 V3-美国01∣K61线路∣1.5x
+      - 🇯🇵 日本_Telegram@kxswa 12
+      - 🇺🇸 US<https://t.me/zhibeii_9
+      - 关注电报https://t.me/aifenxiang2020
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 9
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_142 | 7.16Mb
+      - Relay_🏁ZZ-🇨🇦CA_167 |10.36Mb
+      - 🇭🇰 x1.0 香港 2
+      - 🇲🇾 V2-马来西亚01∣K31线路∣1.5x
+      - 关注电报https://t.me/aifenxiang2020 2
+      - 🇫🇷 FR法国-移动优化
+      - 🇯🇵 Japan-OS-1-Rate:1.0
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_135 | 7.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 | 4.58Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 10
+      - VN_2725
+      - 🇨🇳 V2-台湾01∣K7线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 11
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_111 |239.23Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_108 | 7.65Mb
+      - 🇯🇵 V1-日本05∣K44线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 12
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_112 | 6.98Mb
+      - Relay_🏁ZZ-🇨🇦CA_197 | 8.36Mb
+      - 🇯🇵 JP日本-移动优化
+      - 🇭🇰 x1.0 香港 - 中转6
+      - Relay_🏁ZZ-🇨🇦CA_209 |810.64Mb
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇲🇾 V2-马来西亚02∣K32线路∣1.5x
+      - 🇲🇾 V2-马来西亚02∣K54线路∣1.5x
+      - Relay_ |12.71Mb
+      - 🇸🇬 ✪每周更新订阅获取最新节点
+      - 🇨🇳 V2-台湾03∣K40线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 |10.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_126 |10.28Mb
+      - 🇰🇷 x1.0 韩国 - 中转1
+      - 🇸🇬 V2-新加坡01∣K36线路∣1.5x
+      - 🇺🇸 美国_Telegram@kxswa 102
+      - 🇸🇬 狮城特殊|@ripaojiedian 3 2
+      - 关注电报https://t.me/aifenxiang2020 3
+      - 🇯🇵 V2-日本04∣K74线路∣1.5x
+      - Relay_🏁ZZ-🇨🇦CA_205 |351.56Mb
+      - 🇸🇬 狮城特殊|@ripaojiedian 2
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 13
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_107 | 7.64Mb
+      - 🇯🇵 V2-日本03∣K73线路∣1.5x
+      - 🇹🇭 V2-泰国03∣K47L线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 14
+      - US_1581
+      - Relay_🏁ZZ-🇨🇦CA_206 | 5.71Mb
+      - 🇺🇸 V1-美国02∣K19线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_129 |198.61Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 16
+      - 🇷🇺 Relay_🇷🇺RU-🇺🇸US_66 | 8.40Mb
+      - 🇭🇰 HK香港2--移动优化
+      - 🇯🇵 x1.0 日本 - 中转2
+      - 🇸🇬 新加坡_Telegram@kxswa 8
+      - 🇨🇳 x1.0 台北 - 中转2
+      - 🇺🇸 美国03
+      - 🇭🇰 V1-香港05∣K10线路∣1.5x
+      - 🇭🇰 x1.0 香港 - 中转2
+      - 🇺🇸 V1-美国01∣K18线路∣1.5x
+      - 🇭🇰 V1-香港01∣K1线路∣1.5x
+      - 🇬🇧 V2-英国02∣K30线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_155 | 5.56Mb
+      - 🇺🇸 美国04
+      - 🇷🇺 俄罗斯<https://t.me/zhibeii
+      - 关注电报https://t.me/mftizi
+      - SG_1419
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_109 |10.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 | 8.67Mb
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_17 |18.73Mb
+      - 🇸🇬 SG新加坡2-移动优化
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_120 |298.72Mb
+      - 🇮🇩 V2-印尼01∣K56线路∣1.5x
+      - 🇭🇰 x1.0 香港 1
+      - 🇰🇷 韩国_Telegram@kxswa 2
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_132 | 7.91Mb
+      - 🇭🇰 香港_Telegram@kxswa 20
+      - 🇯🇵 V1-日本04∣K43线路∣1.5x
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 17
+      - 🇬🇧 英国_Telegram@kxswa 4
+      - 🇮🇳 印度_Telegram@kxswa 2
+      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇭🇰 香港<https://t.me/zhibeii
+      - 🇨🇳 CN<https://t.me/zhibeii
+      - 🇸🇬 新加坡<https://t.me/zhibeii
+      - 🇩🇪 德国_Telegram@kxswa 3
+      - 🇭🇰 香港 <https://t.me/zhibeii
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_144 | 7.59Mb
+      - UA乌克兰-移动优化
+      - 🇩🇪 V1-德国03∣K27线路∣1.5x
+      - 🇺🇸 美国_Telegram@kxswa 77
+      - 🇺🇸 美国_Telegram@kxswa 97
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 18
+      - 🇰🇷 V2-韩国03∣K16线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_130 | 7.27Mb
+      - 关注电报https://t.me/aifenxiang2020 4
+      - 🇸🇬 V2-新加坡04∣K39线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_106 |293.04Mb
+      - 🇺🇸 美国_Telegram@kxswa 79
+      - 🇯🇵 V1-日本03∣K42线路∣1.5x
+      - 🇮🇩 V2-印尼03∣K58线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 19
+      - 🇸🇬 新加坡中转✈01
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_150 | 8.12Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_131 | 7.11Mb
+      - 🇬🇧 V2-英国01∣K29线路∣1.5x
+      - 🇯🇵 V2-日本01∣K11线路∣1.5x
+      - 🇭🇰 香港3-None
+      - ✪有问题请咨询网站在线客服
+      - 🇺🇸 美国3-None
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 20
+      - 🇨🇳 V2-台湾04∣K41线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 21
+      - 🇹🇭 V2-泰国02∣K46线路∣1.5x
+      - 🇦🇺 AU澳大利亚-移动优化
+      - 🇰🇷 KR韩国--移动优化
+      - 🇩🇪 DE德国-移动优化
+      - 🇩🇪 V1-德国01∣K25线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 22
+      - 🇩🇪 V1-德国02∣K26线路∣1.5x
+      - 🇻🇳 V2-越南03∣K53线路∣1.5x
+      - 🇨🇳 V2-台湾02∣K9线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 23
+      - 🇯🇵 日本_Telegram@kxswa 13
+      - 🇻🇳 V2-越南01∣K51线路∣1.5x
+      - 🇭🇰 香港<https://t.me/zhibeii 2
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_56 |82.40Mb
+      - 🇸🇬 x1.0 新加坡 - 中转3
+      - 🇺🇸 V3-美国04∣K64线路∣1.5x
+      - 🇨🇳 Taiwan-TW-1-Rate:1.0
+      - Relay_ |18.25Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 24
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 25
+      - 🇸🇬 新加坡_Telegram@kxswa 11
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 26
+      - Relay_🏁ZZ-🇨🇦CA_171 | 8.26Mb
+      - 🇰🇷 V2-韩国01∣K14线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 | 7.97Mb
+      - 🇮🇩 V2-印尼02∣K57线路∣1.5x
+      - 🇷🇺 俄罗斯_Telegram@kxswa 4
+      - Relay_🏁ZZ-🇨🇦CA_209 | 7.86Mb
+      - 🇰🇷 V2-韩国04∣K17线路∣1.5x
+      - 🇹🇷 TR土耳其-移动优化
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 27
+      - 🇸🇦 V2-沙特01∣K48线路∣1.5x
+      - 🇸🇬 V2-新加坡02∣K37线路∣1.5x
+      - 关注电报https://t.me/aifenxiang2020 5
+      - 🇯🇵 日本<https://t.me/zhibeii_2
+      - 🇳🇱 荷兰_Telegram@kxswa 3
+      - 🇸🇬 狮城特殊|@ripaojiedian 3
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 x1.0 香港 1
-      - 🇺🇸 美国04|1x
-      - 🇨🇳 台湾-2｜IEPL｜解锁流媒体
-      - JP_1198
-      - 🇮🇩 印尼｜中转｜解锁流媒体
-      - 🇰🇷 韩国｜中转｜解锁流媒体
-      - 🇺🇸 美国_Telegram@kxswa 106
-      - VN_2725
-      - 🇭🇰 x1.0 香港 2
-      - 🇺🇸 x1.0 美西 - 中转4
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇷🇺 俄罗斯｜中转｜解锁流媒体
-      - 🇸🇬 新加坡-1｜IEPL｜解锁流媒体
-      - 🇭🇰 香港 - IEPL - SS/SSR - 10
-      - 🇹🇭 泰国-2｜IEPL｜解锁流媒体
-      - 🇺🇸 美国04
-      - 🇰🇷 韩国03|1x
-      - 🇭🇰 香港02|1x
-      - 🇬🇧 英国01|1x
-      - 🇹🇷 土耳其｜中转｜解锁流媒体
-      - 🇨🇳 台湾04|1x
-      - 🇸🇬 新加坡01|1x
-      - 🇮🇸 冰岛｜中转｜解锁流媒体
-      - 如无法使用请在网站发工单取得帮助
-      - 🇨🇳 台湾01|1x
-      - 🇸🇬 新加坡03|1x
-      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
-      - 🇸🇬 新加坡-3｜IEPL｜解锁流媒体
-      - 🇯🇵 日本04|1x
-      - 🇭🇰 香港04|1x
-      - 🇸🇬 新加坡02|1x
-      - 🇯🇵 日本-3｜IEPL｜解锁流媒体
-      - 🇨🇳 台湾-1｜IEPL｜解锁流媒体
-      - 🇭🇰 x1.0 香港 - 中转2
-      - 🇰🇷 韩国01|1x
-      - 🇭🇰 香港-4｜IEPL｜解锁流媒体
-      - 🇯🇵 日本-4｜IEPL｜解锁流媒体
-      - 🇺🇸 美国02|1x
-      - 🇩🇪 德国｜中转｜解锁流媒体
-      - 当前网址：v2neo.net
-      - 🇯🇵 Japan-TY-2-Rate:1.0
-      - 🇺🇸 United States-US-3-Rate:1.0
-      - 🇨🇳 x1.0 台北 - 中转3
-      - 🇭🇰 香港-2｜IEPL｜解锁流媒体
-      - 🇬🇧 英国02|1x
-      - 🇭🇰 x1.0 香港 - 中转4
-      - 🇭🇰 Hong Kong-HK-2-Rate:0.5
-      - JP_1191
-      - 🇨🇳 台湾-3｜IEPL｜解锁流媒体
-      - 🇯🇵 日本01|1x
-      - 🇸🇬 新加坡-2｜IEPL｜解锁流媒体
-      - 🇨🇭 瑞士｜中转｜解锁流媒体
-      - 🇸🇬 建议每天更新订阅
-      - 🇪🇸 西班牙｜中转｜解锁流媒体
-      - 🇭🇺 匈牙利｜中转｜解锁流媒体
-      - 🇭🇰 香港03|1x
-      - 🇹🇭 泰国-1｜IEPL｜解锁流媒体
-      - 🇭🇰 香港01|1x
-      - 乌克兰｜中转｜解锁流媒体
-      - 🇯🇵 日本-1｜IEPL｜解锁流媒体
-      - 🇨🇳 台湾02|1x
-      - 🇸🇬 新加坡04|1x
-      - 🇰🇷 韩国02|1x
-      - 🇺🇸 美国01|1x
-      - 🇨🇳 台湾03|1x
-      - 🇯🇵 日本-2｜IEPL｜解锁流媒体
-      - 🇯🇵 日本03|1x
-      - 🇨🇦 加拿大｜中转｜解锁流媒体
-      - 🇱🇹 立陶宛｜中转｜解锁流媒体
-      - 🇫🇷 法国｜中转｜解锁流媒体
-      - 🇺🇸 美国03|1x
-      - US_1751
-      - 🇭🇰 香港-3｜IEPL｜解锁流媒体
-      - 🇰🇷 韩国04|1x
-      - 🇯🇵 日本02|1x
-      - 🇸🇬 狮城特殊|@ripaojiedian 3 2
-      - 🇸🇬 x1.0 新加坡 - 中转3
-      - 🇸🇬 狮城特殊|@ripaojiedian 3
-      - JP_1181
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - SG_1418
-      - 🇨🇳 Taiwan-TW-1-Rate:1.0
-      - 🇬🇧 英国-1｜中转｜解锁流媒体
-      - 🇨🇳 x1.0 台北 - 中转1
-      - JP_1196
+      - KR_1239
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉
       - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_160 |13.05Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 2
+      - 🇬🇧 United Kingdom-UK-1-Rate:1.0
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_110 | 7.63Mb
+      - Relay_🏁ZZ-🇨🇦CA_225 | 8.05Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 3
+      - 🇹🇭 V2-泰国01∣K45线路∣1.5x
+      - 🇨🇳 x1.0 台北 - 中转1
+      - 🇸🇬 新加坡_Telegram@kxswa 10
+      - 🇸🇦 V2-沙特03∣K50线路∣1.5x
+      - 🇦🇷 阿根廷_Telegram@kxswa
+      - 🇨🇳 台湾_Telegram@kxswa 3
+      - 🇮🇳 IN印度-移动优化
+      - 🇲🇾 马来西亚_Telegram@kxswa 2
+      - 🇯🇵 日本_Telegram@kxswa 3
+      - JP_1198
+      - 🇭🇰 V1-香港04∣K4线路∣1.5x
+      - 🇦🇺 澳大利亚_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 78
+      - 🇹🇷 土耳其_Telegram@kxswa 3
+      - 🇫🇷 法国_Telegram@kxswa 4
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_11 |640.01Mb
+      - 🇸🇬 新加坡_Telegram@kxswa 9
+      - Relay_🏁ZZ-🇨🇦CA_200 |11.24Mb
+      - 🇯🇵 日本_Telegram@kxswa 14
+      - 🇺🇸 美国_Telegram@kxswa 104
+      - 🇯🇵 Japan-TY-3-Rate:1.0
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 4
+      - 🇰🇷 V2-韩国02∣K15线路∣1.5x
+      - 🇺🇸 V2-美国01∣K21线路∣1.5x
+      - 🇮🇩 印尼_Telegram@kxswa 2
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 5
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 6
+      - Relay_🏁ZZ-🇺🇸US_227
+      - 🇺🇸 V3-美国02∣K62线路∣1.5x
+      - 🇺🇸 US<https://t.me/zhibeii_2
+      - 🇯🇵 日本_Telegram@kxswa 11
+      - 🇺🇸 V3-美国03∣K63线路∣1.5x
+      - 🇸🇬 新加坡_Telegram@kxswa 9 2
+      - 🇹🇭 TH泰国-移动优化
+      - Relay_🏁ZZ-🇨🇦CA_195 |11.52Mb
+      - 🇸🇦 V2-沙特02∣K49线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 7
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_125 | 7.70Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_145 | 8.01Mb
+      - 🇸🇬 V2-新加坡03∣K38线路∣1.5x
+      - Relay_🏁ZZ-🇨🇦CA_170 |13.47Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_116 |11.72Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 8
+      - 🇸🇬 新加坡中转✈02
+      - 🇸🇬 长期更新节点@mftizi
+      - 🇭🇰 V1-香港03∣K3线路∣1.5x
+      - 🇯🇵 V2-日本02∣K12线路∣1.5x
+      - 🇩🇪 V1-德国04∣K28线路∣1.5x
+      - 🇭🇰 香港2-None
+      - 🇨🇦 CA加拿大-移动优化
+      - 🇸🇬 新加坡_Telegram@kxswa 7
+      - 🇻🇳 V2-越南02∣K52线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 |278.13Mb
+      - 🇻🇳 VN越南-移动优化
+      - 🇫🇷 Relay_🇫🇷FR-🇫🇷FR_42
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_124 | 7.80Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_113 | 5.31Mb
+      - 🇯🇵 JP日本2-移动优化
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_121 | 6.38Mb
+      - 🇺🇸 US<https://t.me/zhibeii_4
+      - 🇭🇰 V1-香港02∣K2线路∣1.5x
+      - 🇺🇸 V3-美国01∣K61线路∣1.5x
+      - 🇯🇵 日本_Telegram@kxswa 12
+      - 🇺🇸 US<https://t.me/zhibeii_9
+      - 关注电报https://t.me/aifenxiang2020
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 9
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_142 | 7.16Mb
+      - Relay_🏁ZZ-🇨🇦CA_167 |10.36Mb
+      - 🇭🇰 x1.0 香港 2
+      - 🇲🇾 V2-马来西亚01∣K31线路∣1.5x
+      - 关注电报https://t.me/aifenxiang2020 2
+      - 🇫🇷 FR法国-移动优化
+      - 🇯🇵 Japan-OS-1-Rate:1.0
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_135 | 7.27Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 | 4.58Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 10
+      - VN_2725
+      - 🇨🇳 V2-台湾01∣K7线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 11
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_111 |239.23Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_108 | 7.65Mb
+      - 🇯🇵 V1-日本05∣K44线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 12
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_112 | 6.98Mb
+      - Relay_🏁ZZ-🇨🇦CA_197 | 8.36Mb
+      - 🇯🇵 JP日本-移动优化
+      - 🇭🇰 x1.0 香港 - 中转6
+      - Relay_🏁ZZ-🇨🇦CA_209 |810.64Mb
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇲🇾 V2-马来西亚02∣K32线路∣1.5x
+      - 🇲🇾 V2-马来西亚02∣K54线路∣1.5x
+      - Relay_ |12.71Mb
+      - 🇸🇬 ✪每周更新订阅获取最新节点
+      - 🇨🇳 V2-台湾03∣K40线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_122 |10.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_126 |10.28Mb
+      - 🇰🇷 x1.0 韩国 - 中转1
+      - 🇸🇬 V2-新加坡01∣K36线路∣1.5x
+      - 🇺🇸 美国_Telegram@kxswa 102
+      - 🇸🇬 狮城特殊|@ripaojiedian 3 2
+      - 关注电报https://t.me/aifenxiang2020 3
+      - 🇯🇵 V2-日本04∣K74线路∣1.5x
+      - Relay_🏁ZZ-🇨🇦CA_205 |351.56Mb
+      - 🇸🇬 狮城特殊|@ripaojiedian 2
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 13
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_107 | 7.64Mb
+      - 🇯🇵 V2-日本03∣K73线路∣1.5x
+      - 🇹🇭 V2-泰国03∣K47L线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 14
+      - US_1581
+      - Relay_🏁ZZ-🇨🇦CA_206 | 5.71Mb
+      - 🇺🇸 V1-美国02∣K19线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 15
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_129 |198.61Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 16
+      - 🇷🇺 Relay_🇷🇺RU-🇺🇸US_66 | 8.40Mb
+      - 🇭🇰 HK香港2--移动优化
+      - 🇯🇵 x1.0 日本 - 中转2
+      - 🇸🇬 新加坡_Telegram@kxswa 8
+      - 🇨🇳 x1.0 台北 - 中转2
+      - 🇺🇸 美国03
+      - 🇭🇰 V1-香港05∣K10线路∣1.5x
+      - 🇭🇰 x1.0 香港 - 中转2
+      - 🇺🇸 V1-美国01∣K18线路∣1.5x
+      - 🇭🇰 V1-香港01∣K1线路∣1.5x
+      - 🇬🇧 V2-英国02∣K30线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_155 | 5.56Mb
+      - 🇺🇸 美国04
+      - 🇷🇺 俄罗斯<https://t.me/zhibeii
+      - 关注电报https://t.me/mftizi
+      - SG_1419
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_109 |10.37Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_117 | 8.67Mb
+      - 🇨🇦 Relay_🇨🇦CA-🇨🇦CA_17 |18.73Mb
+      - 🇸🇬 SG新加坡2-移动优化
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_120 |298.72Mb
+      - 🇮🇩 V2-印尼01∣K56线路∣1.5x
+      - 🇭🇰 x1.0 香港 1
+      - 🇰🇷 韩国_Telegram@kxswa 2
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_132 | 7.91Mb
+      - 🇭🇰 香港_Telegram@kxswa 20
+      - 🇯🇵 V1-日本04∣K43线路∣1.5x
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 17
+      - 🇬🇧 英国_Telegram@kxswa 4
+      - 🇮🇳 印度_Telegram@kxswa 2
+      - 🇭🇰 香港_Telegram@kxswa 17
+      - 🇭🇰 香港<https://t.me/zhibeii
+      - 🇨🇳 CN<https://t.me/zhibeii
+      - 🇸🇬 新加坡<https://t.me/zhibeii
+      - 🇩🇪 德国_Telegram@kxswa 3
+      - 🇭🇰 香港 <https://t.me/zhibeii
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_144 | 7.59Mb
+      - UA乌克兰-移动优化
+      - 🇩🇪 V1-德国03∣K27线路∣1.5x
+      - 🇺🇸 美国_Telegram@kxswa 77
+      - 🇺🇸 美国_Telegram@kxswa 97
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 18
+      - 🇰🇷 V2-韩国03∣K16线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_130 | 7.27Mb
+      - 关注电报https://t.me/aifenxiang2020 4
+      - 🇸🇬 V2-新加坡04∣K39线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_106 |293.04Mb
+      - 🇺🇸 美国_Telegram@kxswa 79
+      - 🇯🇵 V1-日本03∣K42线路∣1.5x
+      - 🇮🇩 V2-印尼03∣K58线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 19
+      - 🇸🇬 新加坡中转✈01
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_150 | 8.12Mb
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_131 | 7.11Mb
+      - 🇬🇧 V2-英国01∣K29线路∣1.5x
+      - 🇯🇵 V2-日本01∣K11线路∣1.5x
+      - 🇭🇰 香港3-None
+      - ✪有问题请咨询网站在线客服
+      - 🇺🇸 美国3-None
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 20
+      - 🇨🇳 V2-台湾04∣K41线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 21
+      - 🇹🇭 V2-泰国02∣K46线路∣1.5x
+      - 🇦🇺 AU澳大利亚-移动优化
+      - 🇰🇷 KR韩国--移动优化
+      - 🇩🇪 DE德国-移动优化
+      - 🇩🇪 V1-德国01∣K25线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 22
+      - 🇩🇪 V1-德国02∣K26线路∣1.5x
+      - 🇻🇳 V2-越南03∣K53线路∣1.5x
+      - 🇨🇳 V2-台湾02∣K9线路∣1.5x
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 23
+      - 🇯🇵 日本_Telegram@kxswa 13
+      - 🇻🇳 V2-越南01∣K51线路∣1.5x
+      - 🇭🇰 香港<https://t.me/zhibeii 2
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_56 |82.40Mb
+      - 🇸🇬 x1.0 新加坡 - 中转3
+      - 🇺🇸 V3-美国04∣K64线路∣1.5x
+      - 🇨🇳 Taiwan-TW-1-Rate:1.0
+      - Relay_ |18.25Mb
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 24
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 25
+      - 🇸🇬 新加坡_Telegram@kxswa 11
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 26
+      - Relay_🏁ZZ-🇨🇦CA_171 | 8.26Mb
+      - 🇰🇷 V2-韩国01∣K14线路∣1.5x
+      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_119 | 7.97Mb
+      - 🇮🇩 V2-印尼02∣K57线路∣1.5x
+      - 🇷🇺 俄罗斯_Telegram@kxswa 4
+      - Relay_🏁ZZ-🇨🇦CA_209 | 7.86Mb
+      - 🇰🇷 V2-韩国04∣K17线路∣1.5x
+      - 🇹🇷 TR土耳其-移动优化
+      - 𝙏𝙂@𝙈𝙁𝘽𝙋𝙉 27
+      - 🇸🇦 V2-沙特01∣K48线路∣1.5x
+      - 🇸🇬 V2-新加坡02∣K37线路∣1.5x
+      - 关注电报https://t.me/aifenxiang2020 5
+      - 🇯🇵 日本<https://t.me/zhibeii_2
+      - 🇳🇱 荷兰_Telegram@kxswa 3
+      - 🇸🇬 狮城特殊|@ripaojiedian 3
   - name: 🎯 不挂代理
     type: select
     proxies:
