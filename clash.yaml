@@ -5,45 +5,131 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇭🇰 Hong Kong 02 [HA]", server: qwerabchk.cfprefer1.xyz, port: 443, type: vmess, uuid: 3b3d8cfb-e0a5-4994-9204-354e7499c3dc, alterId: 0, cipher: auto, tls: true, servername: qwerabchk.355m.cn, network: ws, ws-opts: {path: "/stream_1?ed=2048", headers: {Host: qwerabchk.355m.cn}}}
-  - {name: "🇭🇰 Hong Kong 03 [HA]", server: qwerabchk.cfprefer1.xyz, port: 443, type: vmess, uuid: 3b3d8cfb-e0a5-4994-9204-354e7499c3dc, alterId: 0, cipher: auto, tls: true, servername: qwerabchk.355m.cn, network: ws, ws-opts: {path: "/stream_2?ed=2048", headers: {Host: qwerabchk.355m.cn}}}
-  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: <https://t.me/zhibeii_5, server: gdcub.yunnode.win, port: 31636, type: ss, cipher: chacha20-ietf-poly1305, password: 0f3380d6-bac3-4f35-9cdc-7e7122886739}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 18.176.53.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港_Telegram@kxswa 6, server: 36.50.134.29, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true}
-  - {name: 🇭🇰 香港4|@ripaojiedian, server: hkt2.bika.hk, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 54.254.7.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港_Telegram@kxswa, server: 1.65.205.116, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 07 NTT/HKIX, server: select-hk.0000000000.download, port: 9008, type: vmess, uuid: ac59a7cd-11af-3e35-a098-b785688ec627, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 果宝特攻-免费节点-美国02, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 375987db-5788-4085-a54c-1b686f9bb137}
-  - {name: <https://t.me/zhibeii_7, server: gdcub.yunnode.win, port: 35632, type: ss, cipher: chacha20-ietf-poly1305, password: 30475ecf-6e30-4e71-8840-c8ca470a1d82}
-  - {name: <https://t.me/zhibeii_8, server: c.baodesign.top, port: 25007, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: <https://t.me/zhibeii_1, server: gdcub.yunnode.win, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: 30475ecf-6e30-4e71-8840-c8ca470a1d82}
-  - {name: 🇨🇳 台湾02-主线路, server: b.baodesign.top, port: 25010, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
-  - {name: <https://t.me/zhibeii, server: c.baodesign.top, port: 25007, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国|@ripaojiedian, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本01-主线路, server: c.baodesign.top, port: 25003, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2, server: 183.238.202.173, port: 39041, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: <https://t.me/zhibeii_2, server: gdcub.yunnode.win, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: 30475ecf-6e30-4e71-8840-c8ca470a1d82}
-  - {name: <https://t.me/zhibeii_4, server: gdcub.yunnode.win, port: 31642, type: ss, cipher: chacha20-ietf-poly1305, password: 0f3380d6-bac3-4f35-9cdc-7e7122886739}
-  - {name: <https://t.me/zhibeii_6, server: a.baodesign.top, port: 25009, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 31, server: 38.75.136.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国_Telegram@kxswa 88, server: 38.114.114.46, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国_Telegram@kxswa 15, server: 169.197.142.216, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: US_145 |232.25Mb, server: 198.2.218.108, port: 41400, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 22, server: 38.75.137.42, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 香港_Telegram@kxswa, server: hkt2.bika.hk, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 狮城特殊|@ripaojiedian, server: 47.129.174.107, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 >🇭🇰 HK|Ms|0720|TG@FProxies| 3, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 美国_Telegram@kxswa 30, server: 38.75.136.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: 🇺🇸 美国|@ripaojiedian 2, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: <https://t.me/zhibeii_11, server: b.baodesign.top, port: 25006, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
-  - {name: <https://t.me/zhibeii 2, server: a.baodesign.top, port: 25009, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 5, server: 12372.96110.one, port: 23872, type: trojan, password: ee49f969-8201-4b9e-8db3-40f660588264, sni: 12372.96110.one, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾02-主线路, server: b.baodesign.top, port: 25010, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡02-主线路, server: d.baodesign.top, port: 25008, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
-  - {name: <https://t.me/zhibeii_14, server: gdcub.yunnode.win, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: 0f3380d6-bac3-4f35-9cdc-7e7122886739}
-  - {name: 🇭🇰 香港 10 NTT/HKIX, server: select-hk.0000000000.download, port: 9011, type: vmess, uuid: ac59a7cd-11af-3e35-a098-b785688ec627, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇰 丹麦_Telegram@kxswa, server: go.alipay.ovh, port: 80, type: vmess, uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: open.alipay.ovh}}}
-  - {name: 🇸🇪 瑞典 01 斯德哥尔摩, server: board-01.0000000000.download, port: 11920, type: vmess, uuid: ac59a7cd-11af-3e35-a098-b785688ec627, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 19, server: 216.128.147.13, port: 443, type: trojan, password: wkmY1R4EcP, skip-cert-verify: true}
-  - {name: 🇺🇸 美国_Telegram@kxswa 20, server: 38.86.135.141, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇱🇹 立陶宛 02 维尔纽斯县, server: board-02.0000000000.download, port: 11944, type: vmess, uuid: ac59a7cd-11af-3e35-a098-b785688ec627, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 54.169.216.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡三线 @mfbpn, server: kajp1130a.iamgone.top, port: 20048, type: trojan, password: tW8tHO8tfI, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 59, server: 38.114.114.46, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 20, server: 142.202.49.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 13.213.30.242, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 美国 05 BlackMesa, server: select-us.0000000000.download, port: 9026, type: vmess, uuid: ac59a7cd-11af-3e35-a098-b785688ec627, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾 06 中華電信, server: select-tw.0000000000.download, port: 9017, type: vmess, uuid: ac59a7cd-11af-3e35-a098-b785688ec627, alterId: 0, cipher: auto, tls: false}
-  - {name: <https://t.me/zhibeii_3, server: gdcub.yunnode.win, port: 35532, type: ss, cipher: chacha20-ietf-poly1305, password: 30475ecf-6e30-4e71-8840-c8ca470a1d82}
+  - {name: PP|@Zyw_Channel, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa, server: 38.110.1.102, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 13 2, server: 69.50.95.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: <https://t.me/zhibeii 2, server: bestip.2024921.xyz, port: 443, type: vmess, uuid: 00759fb3-bf4d-4b31-ac07-e77353592813, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /.cachefiles/89d86e07-f6a8-4aa9-9ba0-fafd2dc17300/, headers: {Host: pipeops01.vps-jdkz.cf}}}
+  - {name: 🇭🇰 香港<https://t.me/zhibeii_5, server: hkt2.bika.hk, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 >🇰🇷 KR|Ms|1013|TG@FProxies| 2, server: 120.232.217.96, port: 21017, type: trojan, password: 0e6dc261-9a31-4b5b-9a22-6cad07050e8a, skip-cert-verify: true}
+  - {name: 🇰🇷 KR<https://t.me/zhibeii, server: sui.forlive.live, port: 32460, type: vmess, uuid: 9e18792f-c137-406b-b735-9b7af89ad4bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 19, server: 216.128.147.13, port: 443, type: trojan, password: wkmY1R4EcP, skip-cert-verify: true}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0914|TG@FProxies| 8, server: 7438974b54cf5c57.cdn.jiashule.com, port: 40211, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 86416:SlZFuy, obfs-param: 8195986416.6602b8463464108506.microsoft.com}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian 2, server: 54.185.199.99, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 >🇸🇬 SG|Ls|0914|TG@FProxies| 6, server: 95b1cd85a0968ff2.cdn.jiashule.com, port: 40251, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 74592:o4fbeopsgcf, obfs-param: cd5ed74592.6602b8463464108506.microsoft.com}
+  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国|@ripaojiedian 2 2, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 19 2, server: 142.202.49.74, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 34, server: 38.75.136.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国_Telegram@kxswa 2 2, server: 69.50.93.113, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: <https://t.me/zhibeii_10, server: 38.68.134.9, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11, server: 183.238.202.173, port: 39041, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 63, server: 38.114.114.46, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国_Telegram@kxswa 65, server: 38.114.114.46, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: hkt2.bika.hk, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 4, server: 172.64.198.249, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip15.6016725.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 51, server: 38.75.136.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian 3, server: 52.198.194.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国_Telegram@kxswa 69, server: 38.114.114.46, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国_Telegram@kxswa 39, server: 38.75.136.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国_Telegram@kxswa 58, server: 38.114.114.46, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 17, server: 13.212.252.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 4, server: 183.238.202.173, port: 39041, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 2, server: 183.238.202.173, port: 39041, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 41, server: 38.75.136.21, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 87, server: 38.114.114.46, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 6, server: 104.19.47.65, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip15.6016725.xyz}}}
+  - {name: 🇭🇰 香港二线 @mfbpn, server: ldhk9527a.iamback.top, port: 20015, type: trojan, password: gZwP3DXCZH, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 26, server: 38.75.136.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国_Telegram@kxswa 15 2, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国_Telegram@kxswa 26 2, server: 142.202.49.74, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇭🇰 香港4|@ripaojiedian 2, server: hkt2.bika.hk, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: <https://t.me/zhibeii_11, server: 23.166.88.5, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 74, server: 38.114.114.46, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇭🇰 香港_Telegram@kxswa 2, server: 1.65.205.116, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡02-主线路 2, server: d.baodesign.top, port: 25008, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 25, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇩🇪 德国|@ripaojiedian, server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_Telegram@kxswa 3, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
+  - {name: 🇭🇰 香港4|@ripaojiedian 3, server: hkt2.bika.hk, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 47, server: 38.75.136.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 62, server: 38.114.114.46, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国_Telegram@kxswa 32, server: 38.75.136.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 75, server: 38.75.136.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: US_155 |67.95Mb, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国|@ripaojiedian 5 2, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_Telegram@kxswa, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
+  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 3, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 61, server: 38.114.114.46, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 48, server: 38.75.136.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国_Telegram@kxswa 11, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国_Telegram@kxswa 46, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 |135.29Mb, server: 172.67.220.83, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linja05.hwcar.sbs}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 57, server: 38.114.114.46, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 美国_Telegram@kxswa 14, server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 德国_Telegram@kxswa 3 2, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
+  - {name: 🇺🇸 美国_Telegram@kxswa 68, server: 38.114.114.46, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国01-主线路, server: a.baodesign.top, port: 25005, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 40, server: 38.75.136.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38, server: 183.238.202.173, port: 39041, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 14 2, server: 169.197.142.216, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国_Telegram@kxswa 64, server: 38.114.114.46, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 38, server: 38.75.136.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 +香港_Telegram@kxswa+9, server: 103.36.91.23, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
+  - {name: 🇺🇸 美国_Telegram@kxswa 27, server: 142.202.49.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国_Telegram@kxswa 3, server: 172.64.167.25, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 45, server: 38.75.136.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 12, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国_Telegram@kxswa 80, server: 38.114.114.46, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 6 2, server: 183.238.202.173, port: 39041, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 78, server: 38.75.136.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 美国_Telegram@kxswa 33, server: 38.75.136.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇳 中国_101, server: b.baodesign.top, port: 25006, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 79, server: 38.114.114.46, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 美国_Telegram@kxswa 18, server: 142.202.49.74, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇳 中国_47, server: c.baodesign.top, port: 25003, type: vmess, uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_Telegram@kxswa 2 2, server: hkt2.bika.hk, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 81, server: 38.114.114.46, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 3, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2 2, server: 183.238.202.173, port: 39041, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 >🇸🇬 SG|Ls|1013|TG@FProxies|, server: 143.92.42.65, port: 2902, type: vmess, uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc]}}}
+  - {name: 🇩🇪 德国_Telegram@kxswa 2, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg}
+  - {name: 🇺🇸 美国_Telegram@kxswa 4, server: 169.197.142.216, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国_Telegram@kxswa 44, server: 38.75.136.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 美国|@ripaojiedian 3, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国三线 @mfbpn, server: lsus9527a.iamgone.top, port: 20144, type: trojan, password: dfe84fea34ff47ab, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 36, server: 38.75.136.21, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 4, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 49, server: 38.86.135.211, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 美国_Telegram@kxswa 60, server: 38.114.114.46, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: 🇺🇸 美国_Telegram@kxswa 24, server: 38.75.136.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇭🇰 香港_Telegram@kxswa 5, server: 1.65.205.116, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 5, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国|@ripaojiedian 2 3, server: 183.236.51.23, port: 52112, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 0b94687a-2628-4ef1-a677-aab2431e2182}
+  - {name: 🇨🇳 台湾|@ripaojiedian, server: hzhz1.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: f2a7baac-c6d4-4d29-aab2-02426814f0ce}
+  - {name: 🇭🇰 香港3|@ripaojiedian, server: 183.240.188.43, port: 12003, type: ss, cipher: chacha20-ietf-poly1305, password: 0b94687a-2628-4ef1-a677-aab2431e2182}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -55,178 +141,522 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇭🇰 Hong Kong 02 [HA]
-      - 🇭🇰 Hong Kong 03 [HA]
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian
-      - <https://t.me/zhibeii_5
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 美国_Telegram@kxswa 31
+      - 🇺🇸 美国_Telegram@kxswa 88
+      - 🇺🇸 美国_Telegram@kxswa 15
+      - US_145 |232.25Mb
+      - 🇺🇸 美国_Telegram@kxswa 22
       - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港 07 NTT/HKIX
-      - 🇺🇸 果宝特攻-免费节点-美国02
-      - <https://t.me/zhibeii_7
-      - <https://t.me/zhibeii_8
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2
-      - <https://t.me/zhibeii_1
-      - 🇨🇳 台湾02-主线路
-      - <https://t.me/zhibeii
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇯🇵 日本01-主线路
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2
-      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2
-      - <https://t.me/zhibeii_2
-      - <https://t.me/zhibeii_4
-      - <https://t.me/zhibeii_6
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇭🇰 >🇭🇰 HK|Ms|0720|TG@FProxies| 3
+      - 🇺🇸 美国_Telegram@kxswa 30
       - 🇺🇸 美国|@ripaojiedian 2
-      - <https://t.me/zhibeii_11
-      - <https://t.me/zhibeii 2
-      - 🇭🇰 香港_Telegram@kxswa 5
+      - 🇨🇳 台湾02-主线路
       - 🇸🇬 新加坡02-主线路
-      - <https://t.me/zhibeii_14
-      - 🇭🇰 香港 10 NTT/HKIX
-      - 🇩🇰 丹麦_Telegram@kxswa
-      - 🇸🇪 瑞典 01 斯德哥尔摩
-      - 🇺🇸 美国_Telegram@kxswa 19
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇸🇬 新加坡三线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 59
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian
       - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇱🇹 立陶宛 02 维尔纽斯县
+      - 🇰🇷 韩国特殊|@ripaojiedian
       - 🇺🇸 美国 05 BlackMesa
-      - 🇨🇳 台湾 06 中華電信
-      - <https://t.me/zhibeii_3
+      - PP|@Zyw_Channel
+      - 🇺🇸 美国_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 13 2
+      - <https://t.me/zhibeii 2
+      - 🇭🇰 香港<https://t.me/zhibeii_5
+      - 🇰🇷 >🇰🇷 KR|Ms|1013|TG@FProxies| 2
+      - 🇰🇷 KR<https://t.me/zhibeii
+      - 🇺🇸 美国_Telegram@kxswa 19
+      - 🇺🇸 >🇺🇸 US|Ls|0914|TG@FProxies| 8
+      - 🇰🇷 韩国特殊|@ripaojiedian 2
+      - 🇸🇬 >🇸🇬 SG|Ls|0914|TG@FProxies| 6
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2
+      - 🇺🇸 美国|@ripaojiedian 2 2
+      - 🇺🇸 美国_Telegram@kxswa 19 2
+      - 🇺🇸 美国_Telegram@kxswa 34
+      - 🇺🇸 美国_Telegram@kxswa 2 2
+      - <https://t.me/zhibeii_10
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11
+      - 🇺🇸 美国_Telegram@kxswa 63
+      - 🇺🇸 美国_Telegram@kxswa 65
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 4
+      - 🇺🇸 美国_Telegram@kxswa 51
+      - 🇰🇷 韩国特殊|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 69
+      - 🇺🇸 美国_Telegram@kxswa 39
+      - 🇺🇸 美国_Telegram@kxswa 58
+      - 🇺🇸 美国_Telegram@kxswa 17
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 4
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国_Telegram@kxswa 41
+      - 🇺🇸 美国_Telegram@kxswa 87
+      - 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 6
+      - 🇭🇰 香港二线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 26
+      - 🇺🇸 美国_Telegram@kxswa 15 2
+      - 🇺🇸 美国_Telegram@kxswa 26 2
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - <https://t.me/zhibeii_11
+      - 🇺🇸 美国_Telegram@kxswa 74
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇸🇬 新加坡02-主线路 2
+      - 🇺🇸 美国_Telegram@kxswa 25
+      - 🇩🇪 德国|@ripaojiedian
+      - 🇩🇪 德国_Telegram@kxswa 3
+      - 🇭🇰 香港4|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 47
+      - 🇺🇸 美国_Telegram@kxswa 62
+      - 🇺🇸 美国_Telegram@kxswa 32
+      - 🇺🇸 美国_Telegram@kxswa 75
+      - US_155 |67.95Mb
+      - 🇺🇸 美国|@ripaojiedian 5 2
+      - 🇩🇪 德国_Telegram@kxswa
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 61
+      - 🇺🇸 美国_Telegram@kxswa 48
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇺🇸 美国_Telegram@kxswa 46
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 |135.29Mb
+      - 🇺🇸 美国_Telegram@kxswa 57
+      - 🇺🇸 美国_Telegram@kxswa 14
+      - 🇩🇪 德国_Telegram@kxswa 3 2
+      - 🇺🇸 美国_Telegram@kxswa 68
+      - 🇺🇸 美国01-主线路
+      - 🇺🇸 美国_Telegram@kxswa 40
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38
+      - 🇺🇸 美国_Telegram@kxswa 14 2
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇺🇸 美国_Telegram@kxswa 38
+      - 🇭🇰 +香港_Telegram@kxswa+9
+      - 🇺🇸 美国_Telegram@kxswa 27
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 美国_Telegram@kxswa 45
+      - 🇺🇸 美国_Telegram@kxswa 12
+      - 🇺🇸 美国_Telegram@kxswa 80
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 6 2
+      - 🇺🇸 美国_Telegram@kxswa 78
+      - 🇺🇸 美国_Telegram@kxswa 33
+      - 🇨🇳 中国_101
+      - 🇺🇸 美国_Telegram@kxswa 79
+      - 🇺🇸 美国_Telegram@kxswa 18
+      - 🇨🇳 中国_47
+      - 🇭🇰 香港_Telegram@kxswa 2 2
+      - 🇺🇸 美国_Telegram@kxswa 81
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 3
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2 2
+      - 🇸🇬 >🇸🇬 SG|Ls|1013|TG@FProxies|
+      - 🇩🇪 德国_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 美国_Telegram@kxswa 44
+      - 🇺🇸 美国|@ripaojiedian 3
+      - 🇺🇸 美国三线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 36
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 4
+      - 🇺🇸 美国_Telegram@kxswa 49
+      - 🇺🇸 美国_Telegram@kxswa 60
+      - 🇺🇸 美国_Telegram@kxswa 24
+      - 🇭🇰 香港_Telegram@kxswa 5
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 5
+      - 🇺🇸 美国|@ripaojiedian 2 3
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 Hong Kong 02 [HA]
-      - 🇭🇰 Hong Kong 03 [HA]
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian
-      - <https://t.me/zhibeii_5
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 美国_Telegram@kxswa 31
+      - 🇺🇸 美国_Telegram@kxswa 88
+      - 🇺🇸 美国_Telegram@kxswa 15
+      - US_145 |232.25Mb
+      - 🇺🇸 美国_Telegram@kxswa 22
       - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港 07 NTT/HKIX
-      - 🇺🇸 果宝特攻-免费节点-美国02
-      - <https://t.me/zhibeii_7
-      - <https://t.me/zhibeii_8
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2
-      - <https://t.me/zhibeii_1
-      - 🇨🇳 台湾02-主线路
-      - <https://t.me/zhibeii
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇯🇵 日本01-主线路
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2
-      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2
-      - <https://t.me/zhibeii_2
-      - <https://t.me/zhibeii_4
-      - <https://t.me/zhibeii_6
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇭🇰 >🇭🇰 HK|Ms|0720|TG@FProxies| 3
+      - 🇺🇸 美国_Telegram@kxswa 30
       - 🇺🇸 美国|@ripaojiedian 2
-      - <https://t.me/zhibeii_11
-      - <https://t.me/zhibeii 2
-      - 🇭🇰 香港_Telegram@kxswa 5
+      - 🇨🇳 台湾02-主线路
       - 🇸🇬 新加坡02-主线路
-      - <https://t.me/zhibeii_14
-      - 🇭🇰 香港 10 NTT/HKIX
-      - 🇩🇰 丹麦_Telegram@kxswa
-      - 🇸🇪 瑞典 01 斯德哥尔摩
-      - 🇺🇸 美国_Telegram@kxswa 19
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇸🇬 新加坡三线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 59
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian
       - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇱🇹 立陶宛 02 维尔纽斯县
+      - 🇰🇷 韩国特殊|@ripaojiedian
       - 🇺🇸 美国 05 BlackMesa
-      - 🇨🇳 台湾 06 中華電信
-      - <https://t.me/zhibeii_3
+      - PP|@Zyw_Channel
+      - 🇺🇸 美国_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 13 2
+      - <https://t.me/zhibeii 2
+      - 🇭🇰 香港<https://t.me/zhibeii_5
+      - 🇰🇷 >🇰🇷 KR|Ms|1013|TG@FProxies| 2
+      - 🇰🇷 KR<https://t.me/zhibeii
+      - 🇺🇸 美国_Telegram@kxswa 19
+      - 🇺🇸 >🇺🇸 US|Ls|0914|TG@FProxies| 8
+      - 🇰🇷 韩国特殊|@ripaojiedian 2
+      - 🇸🇬 >🇸🇬 SG|Ls|0914|TG@FProxies| 6
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2
+      - 🇺🇸 美国|@ripaojiedian 2 2
+      - 🇺🇸 美国_Telegram@kxswa 19 2
+      - 🇺🇸 美国_Telegram@kxswa 34
+      - 🇺🇸 美国_Telegram@kxswa 2 2
+      - <https://t.me/zhibeii_10
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11
+      - 🇺🇸 美国_Telegram@kxswa 63
+      - 🇺🇸 美国_Telegram@kxswa 65
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 4
+      - 🇺🇸 美国_Telegram@kxswa 51
+      - 🇰🇷 韩国特殊|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 69
+      - 🇺🇸 美国_Telegram@kxswa 39
+      - 🇺🇸 美国_Telegram@kxswa 58
+      - 🇺🇸 美国_Telegram@kxswa 17
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 4
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国_Telegram@kxswa 41
+      - 🇺🇸 美国_Telegram@kxswa 87
+      - 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 6
+      - 🇭🇰 香港二线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 26
+      - 🇺🇸 美国_Telegram@kxswa 15 2
+      - 🇺🇸 美国_Telegram@kxswa 26 2
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - <https://t.me/zhibeii_11
+      - 🇺🇸 美国_Telegram@kxswa 74
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇸🇬 新加坡02-主线路 2
+      - 🇺🇸 美国_Telegram@kxswa 25
+      - 🇩🇪 德国|@ripaojiedian
+      - 🇩🇪 德国_Telegram@kxswa 3
+      - 🇭🇰 香港4|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 47
+      - 🇺🇸 美国_Telegram@kxswa 62
+      - 🇺🇸 美国_Telegram@kxswa 32
+      - 🇺🇸 美国_Telegram@kxswa 75
+      - US_155 |67.95Mb
+      - 🇺🇸 美国|@ripaojiedian 5 2
+      - 🇩🇪 德国_Telegram@kxswa
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 61
+      - 🇺🇸 美国_Telegram@kxswa 48
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇺🇸 美国_Telegram@kxswa 46
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 |135.29Mb
+      - 🇺🇸 美国_Telegram@kxswa 57
+      - 🇺🇸 美国_Telegram@kxswa 14
+      - 🇩🇪 德国_Telegram@kxswa 3 2
+      - 🇺🇸 美国_Telegram@kxswa 68
+      - 🇺🇸 美国01-主线路
+      - 🇺🇸 美国_Telegram@kxswa 40
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38
+      - 🇺🇸 美国_Telegram@kxswa 14 2
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇺🇸 美国_Telegram@kxswa 38
+      - 🇭🇰 +香港_Telegram@kxswa+9
+      - 🇺🇸 美国_Telegram@kxswa 27
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 美国_Telegram@kxswa 45
+      - 🇺🇸 美国_Telegram@kxswa 12
+      - 🇺🇸 美国_Telegram@kxswa 80
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 6 2
+      - 🇺🇸 美国_Telegram@kxswa 78
+      - 🇺🇸 美国_Telegram@kxswa 33
+      - 🇨🇳 中国_101
+      - 🇺🇸 美国_Telegram@kxswa 79
+      - 🇺🇸 美国_Telegram@kxswa 18
+      - 🇨🇳 中国_47
+      - 🇭🇰 香港_Telegram@kxswa 2 2
+      - 🇺🇸 美国_Telegram@kxswa 81
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 3
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2 2
+      - 🇸🇬 >🇸🇬 SG|Ls|1013|TG@FProxies|
+      - 🇩🇪 德国_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 美国_Telegram@kxswa 44
+      - 🇺🇸 美国|@ripaojiedian 3
+      - 🇺🇸 美国三线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 36
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 4
+      - 🇺🇸 美国_Telegram@kxswa 49
+      - 🇺🇸 美国_Telegram@kxswa 60
+      - 🇺🇸 美国_Telegram@kxswa 24
+      - 🇭🇰 香港_Telegram@kxswa 5
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 5
+      - 🇺🇸 美国|@ripaojiedian 2 3
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 Hong Kong 02 [HA]
-      - 🇭🇰 Hong Kong 03 [HA]
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian
-      - <https://t.me/zhibeii_5
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 美国_Telegram@kxswa 31
+      - 🇺🇸 美国_Telegram@kxswa 88
+      - 🇺🇸 美国_Telegram@kxswa 15
+      - US_145 |232.25Mb
+      - 🇺🇸 美国_Telegram@kxswa 22
       - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港 07 NTT/HKIX
-      - 🇺🇸 果宝特攻-免费节点-美国02
-      - <https://t.me/zhibeii_7
-      - <https://t.me/zhibeii_8
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2
-      - <https://t.me/zhibeii_1
-      - 🇨🇳 台湾02-主线路
-      - <https://t.me/zhibeii
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇯🇵 日本01-主线路
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2
-      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2
-      - <https://t.me/zhibeii_2
-      - <https://t.me/zhibeii_4
-      - <https://t.me/zhibeii_6
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇭🇰 >🇭🇰 HK|Ms|0720|TG@FProxies| 3
+      - 🇺🇸 美国_Telegram@kxswa 30
       - 🇺🇸 美国|@ripaojiedian 2
-      - <https://t.me/zhibeii_11
-      - <https://t.me/zhibeii 2
-      - 🇭🇰 香港_Telegram@kxswa 5
+      - 🇨🇳 台湾02-主线路
       - 🇸🇬 新加坡02-主线路
-      - <https://t.me/zhibeii_14
-      - 🇭🇰 香港 10 NTT/HKIX
-      - 🇩🇰 丹麦_Telegram@kxswa
-      - 🇸🇪 瑞典 01 斯德哥尔摩
-      - 🇺🇸 美国_Telegram@kxswa 19
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇸🇬 新加坡三线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 59
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian
       - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇱🇹 立陶宛 02 维尔纽斯县
+      - 🇰🇷 韩国特殊|@ripaojiedian
       - 🇺🇸 美国 05 BlackMesa
-      - 🇨🇳 台湾 06 中華電信
-      - <https://t.me/zhibeii_3
+      - PP|@Zyw_Channel
+      - 🇺🇸 美国_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 13 2
+      - <https://t.me/zhibeii 2
+      - 🇭🇰 香港<https://t.me/zhibeii_5
+      - 🇰🇷 >🇰🇷 KR|Ms|1013|TG@FProxies| 2
+      - 🇰🇷 KR<https://t.me/zhibeii
+      - 🇺🇸 美国_Telegram@kxswa 19
+      - 🇺🇸 >🇺🇸 US|Ls|0914|TG@FProxies| 8
+      - 🇰🇷 韩国特殊|@ripaojiedian 2
+      - 🇸🇬 >🇸🇬 SG|Ls|0914|TG@FProxies| 6
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2
+      - 🇺🇸 美国|@ripaojiedian 2 2
+      - 🇺🇸 美国_Telegram@kxswa 19 2
+      - 🇺🇸 美国_Telegram@kxswa 34
+      - 🇺🇸 美国_Telegram@kxswa 2 2
+      - <https://t.me/zhibeii_10
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11
+      - 🇺🇸 美国_Telegram@kxswa 63
+      - 🇺🇸 美国_Telegram@kxswa 65
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 4
+      - 🇺🇸 美国_Telegram@kxswa 51
+      - 🇰🇷 韩国特殊|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 69
+      - 🇺🇸 美国_Telegram@kxswa 39
+      - 🇺🇸 美国_Telegram@kxswa 58
+      - 🇺🇸 美国_Telegram@kxswa 17
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 4
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国_Telegram@kxswa 41
+      - 🇺🇸 美国_Telegram@kxswa 87
+      - 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 6
+      - 🇭🇰 香港二线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 26
+      - 🇺🇸 美国_Telegram@kxswa 15 2
+      - 🇺🇸 美国_Telegram@kxswa 26 2
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - <https://t.me/zhibeii_11
+      - 🇺🇸 美国_Telegram@kxswa 74
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇸🇬 新加坡02-主线路 2
+      - 🇺🇸 美国_Telegram@kxswa 25
+      - 🇩🇪 德国|@ripaojiedian
+      - 🇩🇪 德国_Telegram@kxswa 3
+      - 🇭🇰 香港4|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 47
+      - 🇺🇸 美国_Telegram@kxswa 62
+      - 🇺🇸 美国_Telegram@kxswa 32
+      - 🇺🇸 美国_Telegram@kxswa 75
+      - US_155 |67.95Mb
+      - 🇺🇸 美国|@ripaojiedian 5 2
+      - 🇩🇪 德国_Telegram@kxswa
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 61
+      - 🇺🇸 美国_Telegram@kxswa 48
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇺🇸 美国_Telegram@kxswa 46
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 |135.29Mb
+      - 🇺🇸 美国_Telegram@kxswa 57
+      - 🇺🇸 美国_Telegram@kxswa 14
+      - 🇩🇪 德国_Telegram@kxswa 3 2
+      - 🇺🇸 美国_Telegram@kxswa 68
+      - 🇺🇸 美国01-主线路
+      - 🇺🇸 美国_Telegram@kxswa 40
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38
+      - 🇺🇸 美国_Telegram@kxswa 14 2
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇺🇸 美国_Telegram@kxswa 38
+      - 🇭🇰 +香港_Telegram@kxswa+9
+      - 🇺🇸 美国_Telegram@kxswa 27
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 美国_Telegram@kxswa 45
+      - 🇺🇸 美国_Telegram@kxswa 12
+      - 🇺🇸 美国_Telegram@kxswa 80
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 6 2
+      - 🇺🇸 美国_Telegram@kxswa 78
+      - 🇺🇸 美国_Telegram@kxswa 33
+      - 🇨🇳 中国_101
+      - 🇺🇸 美国_Telegram@kxswa 79
+      - 🇺🇸 美国_Telegram@kxswa 18
+      - 🇨🇳 中国_47
+      - 🇭🇰 香港_Telegram@kxswa 2 2
+      - 🇺🇸 美国_Telegram@kxswa 81
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 3
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2 2
+      - 🇸🇬 >🇸🇬 SG|Ls|1013|TG@FProxies|
+      - 🇩🇪 德国_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 美国_Telegram@kxswa 44
+      - 🇺🇸 美国|@ripaojiedian 3
+      - 🇺🇸 美国三线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 36
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 4
+      - 🇺🇸 美国_Telegram@kxswa 49
+      - 🇺🇸 美国_Telegram@kxswa 60
+      - 🇺🇸 美国_Telegram@kxswa 24
+      - 🇭🇰 香港_Telegram@kxswa 5
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 5
+      - 🇺🇸 美国|@ripaojiedian 2 3
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 Hong Kong 02 [HA]
-      - 🇭🇰 Hong Kong 03 [HA]
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian
-      - <https://t.me/zhibeii_5
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - 🇭🇰 香港_Telegram@kxswa 6
-      - 🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇺🇸 美国_Telegram@kxswa 31
+      - 🇺🇸 美国_Telegram@kxswa 88
+      - 🇺🇸 美国_Telegram@kxswa 15
+      - US_145 |232.25Mb
+      - 🇺🇸 美国_Telegram@kxswa 22
       - 🇭🇰 香港_Telegram@kxswa
-      - 🇭🇰 香港 07 NTT/HKIX
-      - 🇺🇸 果宝特攻-免费节点-美国02
-      - <https://t.me/zhibeii_7
-      - <https://t.me/zhibeii_8
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2
-      - <https://t.me/zhibeii_1
-      - 🇨🇳 台湾02-主线路
-      - <https://t.me/zhibeii
-      - 🇺🇸 美国|@ripaojiedian
-      - 🇯🇵 日本01-主线路
-      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2
-      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2
-      - <https://t.me/zhibeii_2
-      - <https://t.me/zhibeii_4
-      - <https://t.me/zhibeii_6
+      - 🇸🇬 狮城特殊|@ripaojiedian
+      - 🇭🇰 >🇭🇰 HK|Ms|0720|TG@FProxies| 3
+      - 🇺🇸 美国_Telegram@kxswa 30
       - 🇺🇸 美国|@ripaojiedian 2
-      - <https://t.me/zhibeii_11
-      - <https://t.me/zhibeii 2
-      - 🇭🇰 香港_Telegram@kxswa 5
+      - 🇨🇳 台湾02-主线路
       - 🇸🇬 新加坡02-主线路
-      - <https://t.me/zhibeii_14
-      - 🇭🇰 香港 10 NTT/HKIX
-      - 🇩🇰 丹麦_Telegram@kxswa
-      - 🇸🇪 瑞典 01 斯德哥尔摩
-      - 🇺🇸 美国_Telegram@kxswa 19
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - 🇸🇬 新加坡三线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 59
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian
       - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇱🇹 立陶宛 02 维尔纽斯县
+      - 🇰🇷 韩国特殊|@ripaojiedian
       - 🇺🇸 美国 05 BlackMesa
-      - 🇨🇳 台湾 06 中華電信
-      - <https://t.me/zhibeii_3
+      - PP|@Zyw_Channel
+      - 🇺🇸 美国_Telegram@kxswa
+      - 🇺🇸 美国_Telegram@kxswa 13 2
+      - <https://t.me/zhibeii 2
+      - 🇭🇰 香港<https://t.me/zhibeii_5
+      - 🇰🇷 >🇰🇷 KR|Ms|1013|TG@FProxies| 2
+      - 🇰🇷 KR<https://t.me/zhibeii
+      - 🇺🇸 美国_Telegram@kxswa 19
+      - 🇺🇸 >🇺🇸 US|Ls|0914|TG@FProxies| 8
+      - 🇰🇷 韩国特殊|@ripaojiedian 2
+      - 🇸🇬 >🇸🇬 SG|Ls|0914|TG@FProxies| 6
+      - 🇺🇸 美国_Telegram@kxswa 2
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 2
+      - 🇺🇸 美国|@ripaojiedian 2 2
+      - 🇺🇸 美国_Telegram@kxswa 19 2
+      - 🇺🇸 美国_Telegram@kxswa 34
+      - 🇺🇸 美国_Telegram@kxswa 2 2
+      - <https://t.me/zhibeii_10
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11
+      - 🇺🇸 美国_Telegram@kxswa 63
+      - 🇺🇸 美国_Telegram@kxswa 65
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 4
+      - 🇺🇸 美国_Telegram@kxswa 51
+      - 🇰🇷 韩国特殊|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 69
+      - 🇺🇸 美国_Telegram@kxswa 39
+      - 🇺🇸 美国_Telegram@kxswa 58
+      - 🇺🇸 美国_Telegram@kxswa 17
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 4
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 11 2
+      - 🇺🇸 美国|@ripaojiedian
+      - 🇺🇸 美国_Telegram@kxswa 41
+      - 🇺🇸 美国_Telegram@kxswa 87
+      - 🇺🇸 美国 - 洛杉矶 - Psychz Networks - 6
+      - 🇭🇰 香港二线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 26
+      - 🇺🇸 美国_Telegram@kxswa 15 2
+      - 🇺🇸 美国_Telegram@kxswa 26 2
+      - 🇭🇰 香港4|@ripaojiedian 2
+      - <https://t.me/zhibeii_11
+      - 🇺🇸 美国_Telegram@kxswa 74
+      - 🇭🇰 香港_Telegram@kxswa 2
+      - 🇸🇬 新加坡02-主线路 2
+      - 🇺🇸 美国_Telegram@kxswa 25
+      - 🇩🇪 德国|@ripaojiedian
+      - 🇩🇪 德国_Telegram@kxswa 3
+      - 🇭🇰 香港4|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 47
+      - 🇺🇸 美国_Telegram@kxswa 62
+      - 🇺🇸 美国_Telegram@kxswa 32
+      - 🇺🇸 美国_Telegram@kxswa 75
+      - US_155 |67.95Mb
+      - 🇺🇸 美国|@ripaojiedian 5 2
+      - 🇩🇪 德国_Telegram@kxswa
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 3
+      - 🇺🇸 美国_Telegram@kxswa 61
+      - 🇺🇸 美国_Telegram@kxswa 48
+      - 🇺🇸 美国_Telegram@kxswa 11
+      - 🇺🇸 美国_Telegram@kxswa 46
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_135 |135.29Mb
+      - 🇺🇸 美国_Telegram@kxswa 57
+      - 🇺🇸 美国_Telegram@kxswa 14
+      - 🇩🇪 德国_Telegram@kxswa 3 2
+      - 🇺🇸 美国_Telegram@kxswa 68
+      - 🇺🇸 美国01-主线路
+      - 🇺🇸 美国_Telegram@kxswa 40
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38
+      - 🇺🇸 美国_Telegram@kxswa 14 2
+      - 🇺🇸 美国_Telegram@kxswa 64
+      - 🇺🇸 美国_Telegram@kxswa 38
+      - 🇭🇰 +香港_Telegram@kxswa+9
+      - 🇺🇸 美国_Telegram@kxswa 27
+      - 🇺🇸 美国_Telegram@kxswa 3
+      - 🇺🇸 美国_Telegram@kxswa 45
+      - 🇺🇸 美国_Telegram@kxswa 12
+      - 🇺🇸 美国_Telegram@kxswa 80
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 6 2
+      - 🇺🇸 美国_Telegram@kxswa 78
+      - 🇺🇸 美国_Telegram@kxswa 33
+      - 🇨🇳 中国_101
+      - 🇺🇸 美国_Telegram@kxswa 79
+      - 🇺🇸 美国_Telegram@kxswa 18
+      - 🇨🇳 中国_47
+      - 🇭🇰 香港_Telegram@kxswa 2 2
+      - 🇺🇸 美国_Telegram@kxswa 81
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 2 3
+      - 🇺🇸 >🇺🇸 US|Ls|0713|TG@FProxies| 38 2 2
+      - 🇸🇬 >🇸🇬 SG|Ls|1013|TG@FProxies|
+      - 🇩🇪 德国_Telegram@kxswa 2
+      - 🇺🇸 美国_Telegram@kxswa 4
+      - 🇺🇸 美国_Telegram@kxswa 44
+      - 🇺🇸 美国|@ripaojiedian 3
+      - 🇺🇸 美国三线 @mfbpn
+      - 🇺🇸 美国_Telegram@kxswa 36
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 4
+      - 🇺🇸 美国_Telegram@kxswa 49
+      - 🇺🇸 美国_Telegram@kxswa 60
+      - 🇺🇸 美国_Telegram@kxswa 24
+      - 🇭🇰 香港_Telegram@kxswa 5
+      - 🇺🇸 178-🇺🇸 14|美国|@ripaojiedian 5
+      - 🇺🇸 美国|@ripaojiedian 2 3
+      - 🇭🇰 香港2|@ripaojiedian
+      - 🇨🇳 台湾|@ripaojiedian
+      - 🇭🇰 香港3|@ripaojiedian
   - name: 🎯 不挂代理
     type: select
     proxies:
