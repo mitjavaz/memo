@@ -5,106 +5,88 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: PP|@Zyw_Channel, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: KR_66 |24.84Mb 4 3, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: "|21.77Mb 5", server: 5.104.82.173, port: 35976, type: vmess, uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc, alterId: 0, cipher: auto, tls: false}
-  - {name: "|252.74Mb 3", server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: "|21.77Mb 3 3", server: 5.104.82.173, port: 35976, type: vmess, uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 14, server: 69.50.95.53, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_395 | 7.60Mb, server: 172.64.166.20, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: "|60.28Mb 2 2", server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 >🇭🇰 HK|Ls|1115|TG@FProxies| 2, server: 34.92.66.193, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_15 |76.10Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: FI_42 |30.74Mb 3, server: 5.104.82.173, port: 35976, type: vmess, uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc, alterId: 0, cipher: auto, tls: false}
-  - {name: "|252.74Mb 5 2", server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_347 |33.80Mb, server: 172.64.166.32, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip11.6016725.xyz}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa 10 2 3, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 6 4 3 2 2, server: 1.65.205.116, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
-  - {name: US_160 |193.95Mb 2, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 26, server: 142.202.49.122, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国_Telegram@kxswa 11, server: 69.50.95.53, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_305 |46.85Mb, server: russia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: 🇲🇾 MY_94 4, server: 101.99.91.234, port: 24474, type: vmess, uuid: 990047b1-2ac0-4141-862c-b6c9e24cdac5, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_ |118.27Mb, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇲🇾 MY_109, server: 101.99.91.234, port: 24474, type: vmess, uuid: 990047b1-2ac0-4141-862c-b6c9e24cdac5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 60, server: 38.33.0.237, port: 38001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1728552419579, headers: {Host: www.30448644.xyz}}}
-  - {name: "|21.77Mb 2 2", server: 5.104.82.173, port: 35976, type: vmess, uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_278 |16.56Mb, server: 104.26.5.112, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: "|252.74Mb 3 2", server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇲🇾 MY_94 5, server: 101.99.91.234, port: 24474, type: vmess, uuid: 990047b1-2ac0-4141-862c-b6c9e24cdac5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 7 2, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 >🇸🇬 SG|Ls|1123|TG@FProxies| 11, server: 52.77.209.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_155 |67.95Mb 2 2 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 +美国<https://t.me/zhibeii+2, server: 69.50.95.218, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_88 @WangCai_8, server: 154.197.88.88, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip18.6929198.xyz}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_246 |35.56Mb, server: 172.64.233.15, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip8.6016725.xyz}}}
-  - {name: PP|@Zyw_Channel 2 6, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: JP_75 |20.11Mb 2, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: "|60.28Mb 4", server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_371 | 3.52Mb, server: 104.26.5.112, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: "|29.38Mb", server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_15 |76.10Mb 5, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: PP|@Zyw_Channel 2, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🇨🇦CA_487 |13.80Mb, server: 104.19.45.19, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_353 |187.86Mb, server: 172.64.166.28, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: 🇯🇵 家宽日本 2 5, server: 210.230.206.18, port: 44330, type: vmess, uuid: f96a5e28-d8da-888a-1ff2-edaaceb82b68, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 14 3, server: 142.202.49.119, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇸 >🇺🇸 US|Ls|1123|TG@FProxies| 26, server: www.tifafaya.top, port: 21586, type: vmess, uuid: c7c21f96-8356-49a1-835f-f3ef4a274514, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /yyopvws, headers: {Host: www.tifafaya.top}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 19, server: 69.50.95.53, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: <https://t.me/zhibeii 4, server: 34.92.66.193, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_281 |150.90Mb, server: 172.64.167.22, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip15.6016725.xyz}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |21.66Mb, server: 172.64.233.37, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip5.6016725.xyz}}}
-  - {name: ">🇻🇳 VN|Ls|1123|TG@FProxies|", server: cmc5.5gsieuvip.vn, port: 443, type: trojan, password: 25a0ffa0-725c-4d6f-b0d5-c74579753075, skip-cert-verify: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_288 |21.49Mb, server: 104.26.0.56, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: "|21.77Mb 3", server: 5.104.82.173, port: 35976, type: vmess, uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇲🇾 MY_94 3, server: 101.99.91.234, port: 24474, type: vmess, uuid: 990047b1-2ac0-4141-862c-b6c9e24cdac5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 3, server: 38.33.47.92, port: 38002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1728552419579, headers: {Host: www.61974602.xyz}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_262 |10.16Mb, server: 104.26.5.123, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: Pool_ |14.30Mb, server: 1.65.205.116, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
-  - {name: ">🇻🇳 VN|Ms|1123|TG@FProxies| 4", server: Cmc3.5gsieuvip.vn, port: 80, type: vmess, uuid: 25a0ffa0-725c-4d6f-b0d5-c74579753075, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 5gsieuvip, headers: {Host: m.tiktok.com}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_268 |104.57Mb, server: 172.64.166.12, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}}
-  - {name: FI_54 |22.04Mb, server: 5.104.82.173, port: 35976, type: vmess, uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_ |240.89Mb, server: japan.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip20.6016725.xyz}}}
-  - {name: Relay_ | 4.23Mb, server: 172.64.167.25, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: KR_74 |11.11Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🇨🇦CA_579 |14.47Mb, server: 162.159.140.91, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: "|60.28Mb 6", server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇲🇾 MY_94 2 3, server: 101.99.91.234, port: 24474, type: vmess, uuid: 990047b1-2ac0-4141-862c-b6c9e24cdac5, alterId: 0, cipher: auto, tls: false}
-  - {name: "|60.20Mb 2 2 2", server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国<https://t.me/zhibeii 2, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 美国_Telegram@kxswa 18, server: 142.202.49.119, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 美国_Telegram@kxswa 10 3, server: 54.37.12.219, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国_Telegram@kxswa 17 2 2, server: 38.75.137.105, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: KR_66 |24.84Mb 3, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: "|252.74Mb", server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_321 | 6.33Mb, server: 172.64.166.22, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 🇲🇾 MY_94 3 2, server: 101.99.91.234, port: 24474, type: vmess, uuid: 990047b1-2ac0-4141-862c-b6c9e24cdac5, alterId: 0, cipher: auto, tls: false}
-  - {name: "|29.38Mb 2", server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-东京-A, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: Relay_ |11.76Mb, server: ip.sb, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip8.6016725.xyz}}}
+  - {name: 🇭🇰 香港 |1.4x | A南京B.系统, server: jsgjc.yy9866.com, port: 39037, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本N | 1.5x | z湖南BAI1 | ChatGPT, server: exofhnyd.ebears.top, port: 11249, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇺🇸 北美-加拿大-A, server: hk.bazhuayujiasu.cc, port: 12355, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 香港 | 1.4x | z湖南移動B.BOX0 | Netflix(BGP) | UDP, server: exofhnyd.ebears.top, port: 17999, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇭🇰 美國H | 1.0x | w北京Ankjsdh(HGC), server: bj.xissyun.com, port: 46595, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇪🇺 欧洲-意大利-A, server: hk.bazhuayujiasu.cc, port: 12363, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 香港 | 1.4x | IEPL.H1rab | Netflix, server: pankon.sic.hk, port: 49689, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 网址发布 neko77web.top 1.4x, server: mmt-shyd.iwe.la, port: 28304, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本1 | 1.5x | f广移B | ChatGPT (US), server: mmt-gybb.zhangwei.li, port: 17340, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 美國原生住宅 | 1.9x | f廣州移動Aclock0.9929, server: gygyd.mmt.zhangwei.li, port: 18273, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇸🇬 新加坡 | 1.0x | f杭州移動C18 now0 | Netflix, server: biedazjyd.zhangwei.li, port: 28890, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇭🇰 香港 R01, server: x-jiangsu-cdn-01.o-airport.net, port: 32592, type: ss, cipher: rc4-md5, password: 9rLHtN, plugin: obfs, plugin-opts: {mode: http, host: 018085824a.microsoft.com}}
+  - {name: 🇨🇳 中国_5, server: 183.236.51.23, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: KR_66 |24.84Mb 3 2, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 | 1.4x | n湖南一带B.转动 | Netflix, server: exofhnyd.ebears.top, port: 33307, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本H | 1.5x | x江苏B | ChatGPT (US), server: cu1.guguyun.xyz, port: 13335, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本 | 1.5x | xA四川.carnage | ChatGPT美國, server: gzct.guguyun.xyz, port: 22716, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本 | 1.2x | f喵移动Aapple2| ChatGPT(US), server: mmt-shyd.iwe.la, port: 26392, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇸🇬 新加坡 01, server: x-jiangsu-cdn-03.o-airport.net, port: 37253, type: ss, cipher: rc4-md5, password: 9rLHtN, plugin: obfs, plugin-opts: {mode: http, host: 018085824a.microsoft.com}}
+  - {name: <https://t.me/zhibeii_3, server: 149.34.244.77, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 美国-纽约-A, server: hk.bazhuayujiasu.cc, port: 12357, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇨🇳 台灣  | 1.5x | f广州移动A | Netflix, server: mmt.gya.zhangwei.li, port: 20546, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本原生T | 1.5x | f广州移动AI6ab17 | ChatGPT, server: mmt.gya.zhangwei.li, port: 43573, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: Pool_🇭🇰HK_63 |12.95Mb 3, server: 34.92.66.193, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 >🇹🇼 TW|Ls|1123|TG@FProxies| 3, server: gy.58n.net, port: 33323, type: trojan, password: fbe40e4a-501d-3d77-8297-7bdffcd0df8e, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-达拉斯-A, server: hk.bazhuayujiasu.cc, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇸🇬 亚洲-新加坡-A, server: hk.bazhuayujiasu.cc, port: 11008, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇦🇺 澳大利亚-悉尼-A, server: hk.bazhuayujiasu.cc, port: 12354, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 距离下次重置剩余：25 天, server: pankon.sic.hk, port: 35443, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇨🇳 美國 | 1.0x | x江苏電信01B.Spring, server: cu1.guguyun.xyz, port: 23733, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: "|52.47Mb", server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇪🇺 欧洲-英国-B, server: hk.bazhuayujiasu.cc, port: 12364, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇪🇺 欧洲-荷兰-A, server: hk.bazhuayujiasu.cc, port: 12361, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 香港n.F广州电信A一 1.4x, server: mm-gzdxaa.la-chinata.hk, port: 11113, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇭🇰 香港 | 1.4x | f杭州 | Netflix, server: biedazjyd.zhangwei.li, port: 27513, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇨🇳 台灣 | 1.5x | f广州移动B.桃子, server: mmt-gybb.zhangwei.li, port: 37696, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本 R01, server: x-jiangsu-cdn-01.o-airport.net, port: 32632, type: ss, cipher: rc4-md5, password: 9rLHtN, plugin: obfs, plugin-opts: {mode: http, host: 018085824a.microsoft.com}}
+  - {name: US_155 |67.95Mb 4 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇮🇳 >🇮🇳 IN|Hs|1123|TG@FProxies|, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: d9760c3c-2e9c-47d7-82fe-f0a3c3f0faad}
+  - {name: 🇺🇸 美国-芝加哥-A, server: hk.bazhuayujiasu.cc, port: 12362, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇩🇪 欧洲-德国-A, server: hk.bazhuayujiasu.cc, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇪🇺 欧洲-英国-A, server: hk.bazhuayujiasu.cc, port: 11006, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 香港 | 1.4x | x四川C.夜色朦胧 | Netflix | UDP, server: gzct.guguyun.xyz, port: 51357, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇭🇰 香港N | 1.4x | f杭州一带AB.MASTER | Netflix, server: biedazjyd.zhangwei.li, port: 33389, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇭🇰 香港A | 1.4x | w上海B01A.bot1, server: ttsh.xissyun.com, port: 31838, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本  | 1.5x | w北京zi1, server: bj.xissyun.com, port: 49473, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本原生T | 1.5x | f广州移动Bcyn0 | ChatGPT, server: mmt-gybb.zhangwei.li, port: 44399, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇸🇬 新加坡 | 1.0x | f广州移動ACberry5 | Netflix, server: mmt.gya.zhangwei.li, port: 18704, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇨🇳 台湾 R01, server: x-jiangsu-cdn-01.o-airport.net, port: 32602, type: ss, cipher: rc4-md5, password: 9rLHtN, plugin: obfs, plugin-opts: {mode: http, host: 018085824a.microsoft.com}}
+  - {name: 🇯🇵 日本 01, server: x-jiangsu-cdn-03.o-airport.net, port: 37259, type: ss, cipher: rc4-md5, password: 9rLHtN, plugin: obfs, plugin-opts: {mode: http, host: 018085824a.microsoft.com}}
+  - {name: 🇺🇸 美国-洛杉矶-A, server: 183.232.229.164, port: 12353, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇪🇺 欧洲-法国-A, server: hk.bazhuayujiasu.cc, port: 12358, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 香港 | 1.4x | IEPL.H01 | Netflix, server: pankon.sic.hk, port: 44071, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇭🇰 香港 |1.4x | f上海联通AB.Baddie, server: shcua.donghui.tech, port: 29463, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇭🇰 香港A | 1.4x | x江苏.Kaito1 | Netflix, server: cu1.guguyun.xyz, port: 52550, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇬🇧 台灣 | 1.5x | f上海联通A.夏英 | Netflix, server: shcua.donghui.tech, port: 48881, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇸🇬 新加坡 | 1.0x | x四川移动A.love0 | Netflix, server: gzct.guguyun.xyz, port: 28727, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇨🇳 台湾 01, server: x-jiangsu-cdn-03.o-airport.net, port: 37247, type: ss, cipher: rc4-md5, password: 9rLHtN, plugin: obfs, plugin-opts: {mode: http, host: 018085824a.microsoft.com}}
+  - {name: "|29.38Mb 7", server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-东京-C, server: 61.172.235.22, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 香港 | 1.2x | f上海移动A.lovebot, server: mmt-shyd.iwe.la, port: 43669, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 全局模式进被墙网址 1.2x, server: mmt.gya.zhangwei.li, port: 53659, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇭🇰 香港_Telegram@kxswa 11, server: 95b1cd85a0968ff2.cdn.jiashule.com, port: 40202, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 112598:vcy7qi, obfs-param: 255e7112598.6602b8463464108506.microsoft.com}
+  - {name: 🇭🇰 香港 | 1.2x | f广东移动A.Neover, server: mmt.gya.zhangwei.li, port: 42912, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇨🇳 台灣 | 1.5x | f上海移动A.夏恋慕 | Netflix |, server: mmt-shyd.iwe.la, port: 28655, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇯🇵 日本H | 1.5x | X江苏A.bunny | ChatGPT(US), server: cu1.guguyun.xyz, port: 35817, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: 🇪🇺 欧洲-塞尔维亚-A, server: hk.bazhuayujiasu.cc, port: 12366, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 香港 | 1.4x | w北京移动C608CC01 Ccolor.bot1 | Netflix, server: bj.xissyun.com, port: 41737, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
+  - {name: Pool_ | 7.21Mb, server: 34.92.66.193, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-东京-B, server: 61.172.235.22, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 香港 | 1.4x | f广州移动B.Scher, server: mmt-gybb.zhangwei.li, port: 64618, type: ss, cipher: aes-128-gcm, password: 4e6864cb-6218-4f52-9199-3d3538898160}
   - {name: Pool_🇭🇰HK_98 |15.49Mb, server: 34.92.66.193, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false}
   - {name: US_160 |193.95Mb, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🇨🇦CA_555 |40.59Mb, server: 104.19.58.175, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip19.6929198.xyz}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_348 |205.48Mb, server: 104.26.13.140, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 10 2 2 2, server: 139.64.164.15, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_200 |27.56Mb, server: 172.64.175.213, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip9.6016725.xyz}}}
-  - {name: 🇯🇵 家宽日本, server: 210.230.206.18, port: 44330, type: vmess, uuid: f96a5e28-d8da-888a-1ff2-edaaceb82b68, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 3 2 2, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_351 |14.39Mb, server: 172.64.166.9, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: Relay_ |21.57Mb, server: 172.64.166.8, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇨🇦CA_324 |23.38Mb, server: 104.26.5.103, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.6016725.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 39, server: 38.110.1.105, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 US美国<https://t.me/zhibeii, server: 183.236.51.23, port: 56601, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 >🇰🇷 KR|Ms|1123|TG@FProxies|, server: chuncheon03.zgjok.com, port: 443, type: vmess, uuid: 81d5cac4-d039-4874-9a20-c391f580012d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: chuncheon03.zgjok.com}}}
-  - {name: 关注电报https://t.me/mftizi, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "|60.20Mb 2", server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 >🇩🇪 DE|Hs|1123|TG@FProxies| 10, server: luckyeuserv.luckyjohnny.top, port: 443, type: vmess, uuid: cb4bcdc3-bd31-40c9-e32e-5ab56dd03faf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /euserv, headers: {Host: luckyeuserv.luckyjohnny.top}}}
-  - {name: KR_106 |35.83Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: PP|@Zyw_Channel 2 2 2 2 2, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 家宽日本 5, server: 210.230.206.18, port: 44330, type: vmess, uuid: f96a5e28-d8da-888a-1ff2-edaaceb82b68, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港2|@ripaojiedian, server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
+  - {name: KR_74 |11.11Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
   - {name: US_160 |193.95Mb 4, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 3 2, server: 120.232.153.27, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "|252.74Mb 4 2", server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: FI_42 |30.74Mb 2, server: 5.104.82.173, port: 35976, type: vmess, uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_ |22.79Mb, server: 104.19.21.63, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip21.6016725.xyz}}}
+  - {name: 🇭🇰 高速-香港-C, server: 183.232.229.165, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 高速-香港-B, server: 183.232.229.164, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 中国-香港-D, server: hk.bazhuayujiasu.cc, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
+  - {name: 🇭🇰 中国-香港-E, server: 58.254.183.32, port: 12002, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -116,422 +98,350 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - PP|@Zyw_Channel
-      - KR_66 |24.84Mb 4 3
-      - "|21.77Mb 5"
-      - "|252.74Mb 3"
-      - "|21.77Mb 3 3"
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_395 | 7.60Mb
-      - "|60.28Mb 2 2"
-      - 🇭🇰 >🇭🇰 HK|Ls|1115|TG@FProxies| 2
-      - CN_15 |76.10Mb
-      - FI_42 |30.74Mb 3
-      - "|252.74Mb 5 2"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_347 |33.80Mb
-      - 🇭🇰 香港_Telegram@kxswa 10 2 3
-      - 🇭🇰 香港_Telegram@kxswa 6 4 3 2 2
-      - US_160 |193.95Mb 2
-      - 🇺🇸 美国_Telegram@kxswa 26
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_305 |46.85Mb
-      - 🇲🇾 MY_94 4
-      - Relay_ |118.27Mb
-      - 🇲🇾 MY_109
-      - 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 60
-      - "|21.77Mb 2 2"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_278 |16.56Mb
-      - "|252.74Mb 3 2"
-      - 🇲🇾 MY_94 5
-      - 🇭🇰 香港_Telegram@kxswa 7 2
-      - 🇸🇬 >🇸🇬 SG|Ls|1123|TG@FProxies| 11
-      - US_155 |67.95Mb 2 2 2
-      - 🇺🇸 +美国<https://t.me/zhibeii+2
-      - US_88 @WangCai_8
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_246 |35.56Mb
-      - PP|@Zyw_Channel 2 6
-      - JP_75 |20.11Mb 2
-      - "|60.28Mb 4"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_371 | 3.52Mb
-      - "|29.38Mb"
-      - CN_15 |76.10Mb 5
-      - PP|@Zyw_Channel 2
-      - Relay_🏁ZZ-🇨🇦CA_487 |13.80Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_353 |187.86Mb
-      - 🇯🇵 家宽日本 2 5
-      - 🇺🇸 美国_Telegram@kxswa 14 3
-      - 🇺🇸 >🇺🇸 US|Ls|1123|TG@FProxies| 26
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - <https://t.me/zhibeii 4
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_281 |150.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |21.66Mb
-      - ">🇻🇳 VN|Ls|1123|TG@FProxies|"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_288 |21.49Mb
-      - "|21.77Mb 3"
-      - 🇲🇾 MY_94 3
-      - 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 3
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_262 |10.16Mb
-      - Pool_ |14.30Mb
-      - ">🇻🇳 VN|Ms|1123|TG@FProxies| 4"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_268 |104.57Mb
-      - FI_54 |22.04Mb
-      - Relay_ |240.89Mb
-      - Relay_ | 4.23Mb
-      - KR_74 |11.11Mb
-      - Relay_🏁ZZ-🇨🇦CA_579 |14.47Mb
-      - "|60.28Mb 6"
-      - 🇲🇾 MY_94 2 3
-      - "|60.20Mb 2 2 2"
-      - 🇺🇸 美国<https://t.me/zhibeii 2
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇺🇸 美国_Telegram@kxswa 10 3
-      - 🇺🇸 美国_Telegram@kxswa 17 2 2
-      - KR_66 |24.84Mb 3
-      - "|252.74Mb"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_321 | 6.33Mb
-      - 🇲🇾 MY_94 3 2
-      - "|29.38Mb 2"
+      - 🇯🇵 日本-东京-A
+      - Relay_ |11.76Mb
+      - 🇭🇰 香港 |1.4x | A南京B.系统
+      - 🇯🇵 日本N | 1.5x | z湖南BAI1 | ChatGPT
+      - 🇺🇸 北美-加拿大-A
+      - 🇭🇰 香港 | 1.4x | z湖南移動B.BOX0 | Netflix(BGP) | UDP
+      - 🇭🇰 美國H | 1.0x | w北京Ankjsdh(HGC)
+      - 🇪🇺 欧洲-意大利-A
+      - 🇭🇰 香港 | 1.4x | IEPL.H1rab | Netflix
+      - 网址发布 neko77web.top 1.4x
+      - 🇯🇵 日本1 | 1.5x | f广移B | ChatGPT (US)
+      - 美國原生住宅 | 1.9x | f廣州移動Aclock0.9929
+      - 🇸🇬 新加坡 | 1.0x | f杭州移動C18 now0 | Netflix
+      - 🇭🇰 香港 R01
+      - 🇨🇳 中国_5
+      - KR_66 |24.84Mb 3 2
+      - 🇭🇰 香港 | 1.4x | n湖南一带B.转动 | Netflix
+      - 🇯🇵 日本H | 1.5x | x江苏B | ChatGPT (US)
+      - 🇯🇵 日本 | 1.5x | xA四川.carnage | ChatGPT美國
+      - 🇯🇵 日本 | 1.2x | f喵移动Aapple2| ChatGPT(US)
+      - 🇸🇬 新加坡 01
+      - <https://t.me/zhibeii_3
+      - 🇺🇸 美国-纽约-A
+      - 🇨🇳 台灣  | 1.5x | f广州移动A | Netflix
+      - 🇯🇵 日本原生T | 1.5x | f广州移动AI6ab17 | ChatGPT
+      - Pool_🇭🇰HK_63 |12.95Mb 3
+      - 🇨🇳 >🇹🇼 TW|Ls|1123|TG@FProxies| 3
+      - 🇺🇸 美国-达拉斯-A
+      - 🇸🇬 亚洲-新加坡-A
+      - 🇦🇺 澳大利亚-悉尼-A
+      - 距离下次重置剩余：25 天
+      - 🇨🇳 美國 | 1.0x | x江苏電信01B.Spring
+      - "|52.47Mb"
+      - 🇪🇺 欧洲-英国-B
+      - 🇪🇺 欧洲-荷兰-A
+      - 🇭🇰 香港n.F广州电信A一 1.4x
+      - 🇭🇰 香港 | 1.4x | f杭州 | Netflix
+      - 🇨🇳 台灣 | 1.5x | f广州移动B.桃子
+      - 🇯🇵 日本 R01
+      - US_155 |67.95Mb 4 2
+      - 🇮🇳 >🇮🇳 IN|Hs|1123|TG@FProxies|
+      - 🇺🇸 美国-芝加哥-A
+      - 🇩🇪 欧洲-德国-A
+      - 🇪🇺 欧洲-英国-A
+      - 🇭🇰 香港 | 1.4x | x四川C.夜色朦胧 | Netflix | UDP
+      - 🇭🇰 香港N | 1.4x | f杭州一带AB.MASTER | Netflix
+      - 🇭🇰 香港A | 1.4x | w上海B01A.bot1
+      - 🇯🇵 日本  | 1.5x | w北京zi1
+      - 🇯🇵 日本原生T | 1.5x | f广州移动Bcyn0 | ChatGPT
+      - 🇸🇬 新加坡 | 1.0x | f广州移動ACberry5 | Netflix
+      - 🇨🇳 台湾 R01
+      - 🇯🇵 日本 01
+      - 🇺🇸 美国-洛杉矶-A
+      - 🇪🇺 欧洲-法国-A
+      - 🇭🇰 香港 | 1.4x | IEPL.H01 | Netflix
+      - 🇭🇰 香港 |1.4x | f上海联通AB.Baddie
+      - 🇭🇰 香港A | 1.4x | x江苏.Kaito1 | Netflix
+      - 🇬🇧 台灣 | 1.5x | f上海联通A.夏英 | Netflix
+      - 🇸🇬 新加坡 | 1.0x | x四川移动A.love0 | Netflix
+      - 🇨🇳 台湾 01
+      - "|29.38Mb 7"
+      - 🇯🇵 日本-东京-C
+      - 🇭🇰 香港 | 1.2x | f上海移动A.lovebot
+      - 全局模式进被墙网址 1.2x
+      - 🇭🇰 香港_Telegram@kxswa 11
+      - 🇭🇰 香港 | 1.2x | f广东移动A.Neover
+      - 🇨🇳 台灣 | 1.5x | f上海移动A.夏恋慕 | Netflix |
+      - 🇯🇵 日本H | 1.5x | X江苏A.bunny | ChatGPT(US)
+      - 🇪🇺 欧洲-塞尔维亚-A
+      - 🇭🇰 香港 | 1.4x | w北京移动C608CC01 Ccolor.bot1 | Netflix
+      - Pool_ | 7.21Mb
+      - 🇯🇵 日本-东京-B
+      - 🇭🇰 香港 | 1.4x | f广州移动B.Scher
       - Pool_🇭🇰HK_98 |15.49Mb
       - US_160 |193.95Mb
-      - Relay_🏁ZZ-🇨🇦CA_555 |40.59Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_348 |205.48Mb
-      - 🇺🇸 美国_Telegram@kxswa 10 2 2 2
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_200 |27.56Mb
-      - 🇯🇵 家宽日本
-      - 🇭🇰 香港_Telegram@kxswa 3 2 2
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_351 |14.39Mb
-      - Relay_ |21.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_324 |23.38Mb
-      - 🇺🇸 美国_Telegram@kxswa 39
-      - 🇺🇸 US美国<https://t.me/zhibeii
-      - 🇰🇷 >🇰🇷 KR|Ms|1123|TG@FProxies|
-      - 关注电报https://t.me/mftizi
-      - "|60.20Mb 2"
-      - 🇩🇪 >🇩🇪 DE|Hs|1123|TG@FProxies| 10
-      - KR_106 |35.83Mb
-      - PP|@Zyw_Channel 2 2 2 2 2
-      - 🇯🇵 家宽日本 5
+      - 🇭🇰 香港2|@ripaojiedian
+      - KR_74 |11.11Mb
       - US_160 |193.95Mb 4
-      - 🇭🇰 香港_Telegram@kxswa 3 2
-      - "|252.74Mb 4 2"
-      - FI_42 |30.74Mb 2
-      - Relay_ |22.79Mb
+      - 🇭🇰 高速-香港-C
+      - 🇭🇰 高速-香港-B
+      - 🇭🇰 中国-香港-D
+      - 🇭🇰 中国-香港-E
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - PP|@Zyw_Channel
-      - KR_66 |24.84Mb 4 3
-      - "|21.77Mb 5"
-      - "|252.74Mb 3"
-      - "|21.77Mb 3 3"
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_395 | 7.60Mb
-      - "|60.28Mb 2 2"
-      - 🇭🇰 >🇭🇰 HK|Ls|1115|TG@FProxies| 2
-      - CN_15 |76.10Mb
-      - FI_42 |30.74Mb 3
-      - "|252.74Mb 5 2"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_347 |33.80Mb
-      - 🇭🇰 香港_Telegram@kxswa 10 2 3
-      - 🇭🇰 香港_Telegram@kxswa 6 4 3 2 2
-      - US_160 |193.95Mb 2
-      - 🇺🇸 美国_Telegram@kxswa 26
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_305 |46.85Mb
-      - 🇲🇾 MY_94 4
-      - Relay_ |118.27Mb
-      - 🇲🇾 MY_109
-      - 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 60
-      - "|21.77Mb 2 2"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_278 |16.56Mb
-      - "|252.74Mb 3 2"
-      - 🇲🇾 MY_94 5
-      - 🇭🇰 香港_Telegram@kxswa 7 2
-      - 🇸🇬 >🇸🇬 SG|Ls|1123|TG@FProxies| 11
-      - US_155 |67.95Mb 2 2 2
-      - 🇺🇸 +美国<https://t.me/zhibeii+2
-      - US_88 @WangCai_8
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_246 |35.56Mb
-      - PP|@Zyw_Channel 2 6
-      - JP_75 |20.11Mb 2
-      - "|60.28Mb 4"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_371 | 3.52Mb
-      - "|29.38Mb"
-      - CN_15 |76.10Mb 5
-      - PP|@Zyw_Channel 2
-      - Relay_🏁ZZ-🇨🇦CA_487 |13.80Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_353 |187.86Mb
-      - 🇯🇵 家宽日本 2 5
-      - 🇺🇸 美国_Telegram@kxswa 14 3
-      - 🇺🇸 >🇺🇸 US|Ls|1123|TG@FProxies| 26
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - <https://t.me/zhibeii 4
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_281 |150.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |21.66Mb
-      - ">🇻🇳 VN|Ls|1123|TG@FProxies|"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_288 |21.49Mb
-      - "|21.77Mb 3"
-      - 🇲🇾 MY_94 3
-      - 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 3
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_262 |10.16Mb
-      - Pool_ |14.30Mb
-      - ">🇻🇳 VN|Ms|1123|TG@FProxies| 4"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_268 |104.57Mb
-      - FI_54 |22.04Mb
-      - Relay_ |240.89Mb
-      - Relay_ | 4.23Mb
-      - KR_74 |11.11Mb
-      - Relay_🏁ZZ-🇨🇦CA_579 |14.47Mb
-      - "|60.28Mb 6"
-      - 🇲🇾 MY_94 2 3
-      - "|60.20Mb 2 2 2"
-      - 🇺🇸 美国<https://t.me/zhibeii 2
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇺🇸 美国_Telegram@kxswa 10 3
-      - 🇺🇸 美国_Telegram@kxswa 17 2 2
-      - KR_66 |24.84Mb 3
-      - "|252.74Mb"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_321 | 6.33Mb
-      - 🇲🇾 MY_94 3 2
-      - "|29.38Mb 2"
+      - 🇯🇵 日本-东京-A
+      - Relay_ |11.76Mb
+      - 🇭🇰 香港 |1.4x | A南京B.系统
+      - 🇯🇵 日本N | 1.5x | z湖南BAI1 | ChatGPT
+      - 🇺🇸 北美-加拿大-A
+      - 🇭🇰 香港 | 1.4x | z湖南移動B.BOX0 | Netflix(BGP) | UDP
+      - 🇭🇰 美國H | 1.0x | w北京Ankjsdh(HGC)
+      - 🇪🇺 欧洲-意大利-A
+      - 🇭🇰 香港 | 1.4x | IEPL.H1rab | Netflix
+      - 网址发布 neko77web.top 1.4x
+      - 🇯🇵 日本1 | 1.5x | f广移B | ChatGPT (US)
+      - 美國原生住宅 | 1.9x | f廣州移動Aclock0.9929
+      - 🇸🇬 新加坡 | 1.0x | f杭州移動C18 now0 | Netflix
+      - 🇭🇰 香港 R01
+      - 🇨🇳 中国_5
+      - KR_66 |24.84Mb 3 2
+      - 🇭🇰 香港 | 1.4x | n湖南一带B.转动 | Netflix
+      - 🇯🇵 日本H | 1.5x | x江苏B | ChatGPT (US)
+      - 🇯🇵 日本 | 1.5x | xA四川.carnage | ChatGPT美國
+      - 🇯🇵 日本 | 1.2x | f喵移动Aapple2| ChatGPT(US)
+      - 🇸🇬 新加坡 01
+      - <https://t.me/zhibeii_3
+      - 🇺🇸 美国-纽约-A
+      - 🇨🇳 台灣  | 1.5x | f广州移动A | Netflix
+      - 🇯🇵 日本原生T | 1.5x | f广州移动AI6ab17 | ChatGPT
+      - Pool_🇭🇰HK_63 |12.95Mb 3
+      - 🇨🇳 >🇹🇼 TW|Ls|1123|TG@FProxies| 3
+      - 🇺🇸 美国-达拉斯-A
+      - 🇸🇬 亚洲-新加坡-A
+      - 🇦🇺 澳大利亚-悉尼-A
+      - 距离下次重置剩余：25 天
+      - 🇨🇳 美國 | 1.0x | x江苏電信01B.Spring
+      - "|52.47Mb"
+      - 🇪🇺 欧洲-英国-B
+      - 🇪🇺 欧洲-荷兰-A
+      - 🇭🇰 香港n.F广州电信A一 1.4x
+      - 🇭🇰 香港 | 1.4x | f杭州 | Netflix
+      - 🇨🇳 台灣 | 1.5x | f广州移动B.桃子
+      - 🇯🇵 日本 R01
+      - US_155 |67.95Mb 4 2
+      - 🇮🇳 >🇮🇳 IN|Hs|1123|TG@FProxies|
+      - 🇺🇸 美国-芝加哥-A
+      - 🇩🇪 欧洲-德国-A
+      - 🇪🇺 欧洲-英国-A
+      - 🇭🇰 香港 | 1.4x | x四川C.夜色朦胧 | Netflix | UDP
+      - 🇭🇰 香港N | 1.4x | f杭州一带AB.MASTER | Netflix
+      - 🇭🇰 香港A | 1.4x | w上海B01A.bot1
+      - 🇯🇵 日本  | 1.5x | w北京zi1
+      - 🇯🇵 日本原生T | 1.5x | f广州移动Bcyn0 | ChatGPT
+      - 🇸🇬 新加坡 | 1.0x | f广州移動ACberry5 | Netflix
+      - 🇨🇳 台湾 R01
+      - 🇯🇵 日本 01
+      - 🇺🇸 美国-洛杉矶-A
+      - 🇪🇺 欧洲-法国-A
+      - 🇭🇰 香港 | 1.4x | IEPL.H01 | Netflix
+      - 🇭🇰 香港 |1.4x | f上海联通AB.Baddie
+      - 🇭🇰 香港A | 1.4x | x江苏.Kaito1 | Netflix
+      - 🇬🇧 台灣 | 1.5x | f上海联通A.夏英 | Netflix
+      - 🇸🇬 新加坡 | 1.0x | x四川移动A.love0 | Netflix
+      - 🇨🇳 台湾 01
+      - "|29.38Mb 7"
+      - 🇯🇵 日本-东京-C
+      - 🇭🇰 香港 | 1.2x | f上海移动A.lovebot
+      - 全局模式进被墙网址 1.2x
+      - 🇭🇰 香港_Telegram@kxswa 11
+      - 🇭🇰 香港 | 1.2x | f广东移动A.Neover
+      - 🇨🇳 台灣 | 1.5x | f上海移动A.夏恋慕 | Netflix |
+      - 🇯🇵 日本H | 1.5x | X江苏A.bunny | ChatGPT(US)
+      - 🇪🇺 欧洲-塞尔维亚-A
+      - 🇭🇰 香港 | 1.4x | w北京移动C608CC01 Ccolor.bot1 | Netflix
+      - Pool_ | 7.21Mb
+      - 🇯🇵 日本-东京-B
+      - 🇭🇰 香港 | 1.4x | f广州移动B.Scher
       - Pool_🇭🇰HK_98 |15.49Mb
       - US_160 |193.95Mb
-      - Relay_🏁ZZ-🇨🇦CA_555 |40.59Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_348 |205.48Mb
-      - 🇺🇸 美国_Telegram@kxswa 10 2 2 2
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_200 |27.56Mb
-      - 🇯🇵 家宽日本
-      - 🇭🇰 香港_Telegram@kxswa 3 2 2
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_351 |14.39Mb
-      - Relay_ |21.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_324 |23.38Mb
-      - 🇺🇸 美国_Telegram@kxswa 39
-      - 🇺🇸 US美国<https://t.me/zhibeii
-      - 🇰🇷 >🇰🇷 KR|Ms|1123|TG@FProxies|
-      - 关注电报https://t.me/mftizi
-      - "|60.20Mb 2"
-      - 🇩🇪 >🇩🇪 DE|Hs|1123|TG@FProxies| 10
-      - KR_106 |35.83Mb
-      - PP|@Zyw_Channel 2 2 2 2 2
-      - 🇯🇵 家宽日本 5
+      - 🇭🇰 香港2|@ripaojiedian
+      - KR_74 |11.11Mb
       - US_160 |193.95Mb 4
-      - 🇭🇰 香港_Telegram@kxswa 3 2
-      - "|252.74Mb 4 2"
-      - FI_42 |30.74Mb 2
-      - Relay_ |22.79Mb
+      - 🇭🇰 高速-香港-C
+      - 🇭🇰 高速-香港-B
+      - 🇭🇰 中国-香港-D
+      - 🇭🇰 中国-香港-E
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - PP|@Zyw_Channel
-      - KR_66 |24.84Mb 4 3
-      - "|21.77Mb 5"
-      - "|252.74Mb 3"
-      - "|21.77Mb 3 3"
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_395 | 7.60Mb
-      - "|60.28Mb 2 2"
-      - 🇭🇰 >🇭🇰 HK|Ls|1115|TG@FProxies| 2
-      - CN_15 |76.10Mb
-      - FI_42 |30.74Mb 3
-      - "|252.74Mb 5 2"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_347 |33.80Mb
-      - 🇭🇰 香港_Telegram@kxswa 10 2 3
-      - 🇭🇰 香港_Telegram@kxswa 6 4 3 2 2
-      - US_160 |193.95Mb 2
-      - 🇺🇸 美国_Telegram@kxswa 26
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_305 |46.85Mb
-      - 🇲🇾 MY_94 4
-      - Relay_ |118.27Mb
-      - 🇲🇾 MY_109
-      - 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 60
-      - "|21.77Mb 2 2"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_278 |16.56Mb
-      - "|252.74Mb 3 2"
-      - 🇲🇾 MY_94 5
-      - 🇭🇰 香港_Telegram@kxswa 7 2
-      - 🇸🇬 >🇸🇬 SG|Ls|1123|TG@FProxies| 11
-      - US_155 |67.95Mb 2 2 2
-      - 🇺🇸 +美国<https://t.me/zhibeii+2
-      - US_88 @WangCai_8
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_246 |35.56Mb
-      - PP|@Zyw_Channel 2 6
-      - JP_75 |20.11Mb 2
-      - "|60.28Mb 4"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_371 | 3.52Mb
-      - "|29.38Mb"
-      - CN_15 |76.10Mb 5
-      - PP|@Zyw_Channel 2
-      - Relay_🏁ZZ-🇨🇦CA_487 |13.80Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_353 |187.86Mb
-      - 🇯🇵 家宽日本 2 5
-      - 🇺🇸 美国_Telegram@kxswa 14 3
-      - 🇺🇸 >🇺🇸 US|Ls|1123|TG@FProxies| 26
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - <https://t.me/zhibeii 4
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_281 |150.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |21.66Mb
-      - ">🇻🇳 VN|Ls|1123|TG@FProxies|"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_288 |21.49Mb
-      - "|21.77Mb 3"
-      - 🇲🇾 MY_94 3
-      - 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 3
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_262 |10.16Mb
-      - Pool_ |14.30Mb
-      - ">🇻🇳 VN|Ms|1123|TG@FProxies| 4"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_268 |104.57Mb
-      - FI_54 |22.04Mb
-      - Relay_ |240.89Mb
-      - Relay_ | 4.23Mb
-      - KR_74 |11.11Mb
-      - Relay_🏁ZZ-🇨🇦CA_579 |14.47Mb
-      - "|60.28Mb 6"
-      - 🇲🇾 MY_94 2 3
-      - "|60.20Mb 2 2 2"
-      - 🇺🇸 美国<https://t.me/zhibeii 2
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇺🇸 美国_Telegram@kxswa 10 3
-      - 🇺🇸 美国_Telegram@kxswa 17 2 2
-      - KR_66 |24.84Mb 3
-      - "|252.74Mb"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_321 | 6.33Mb
-      - 🇲🇾 MY_94 3 2
-      - "|29.38Mb 2"
+      - 🇯🇵 日本-东京-A
+      - Relay_ |11.76Mb
+      - 🇭🇰 香港 |1.4x | A南京B.系统
+      - 🇯🇵 日本N | 1.5x | z湖南BAI1 | ChatGPT
+      - 🇺🇸 北美-加拿大-A
+      - 🇭🇰 香港 | 1.4x | z湖南移動B.BOX0 | Netflix(BGP) | UDP
+      - 🇭🇰 美國H | 1.0x | w北京Ankjsdh(HGC)
+      - 🇪🇺 欧洲-意大利-A
+      - 🇭🇰 香港 | 1.4x | IEPL.H1rab | Netflix
+      - 网址发布 neko77web.top 1.4x
+      - 🇯🇵 日本1 | 1.5x | f广移B | ChatGPT (US)
+      - 美國原生住宅 | 1.9x | f廣州移動Aclock0.9929
+      - 🇸🇬 新加坡 | 1.0x | f杭州移動C18 now0 | Netflix
+      - 🇭🇰 香港 R01
+      - 🇨🇳 中国_5
+      - KR_66 |24.84Mb 3 2
+      - 🇭🇰 香港 | 1.4x | n湖南一带B.转动 | Netflix
+      - 🇯🇵 日本H | 1.5x | x江苏B | ChatGPT (US)
+      - 🇯🇵 日本 | 1.5x | xA四川.carnage | ChatGPT美國
+      - 🇯🇵 日本 | 1.2x | f喵移动Aapple2| ChatGPT(US)
+      - 🇸🇬 新加坡 01
+      - <https://t.me/zhibeii_3
+      - 🇺🇸 美国-纽约-A
+      - 🇨🇳 台灣  | 1.5x | f广州移动A | Netflix
+      - 🇯🇵 日本原生T | 1.5x | f广州移动AI6ab17 | ChatGPT
+      - Pool_🇭🇰HK_63 |12.95Mb 3
+      - 🇨🇳 >🇹🇼 TW|Ls|1123|TG@FProxies| 3
+      - 🇺🇸 美国-达拉斯-A
+      - 🇸🇬 亚洲-新加坡-A
+      - 🇦🇺 澳大利亚-悉尼-A
+      - 距离下次重置剩余：25 天
+      - 🇨🇳 美國 | 1.0x | x江苏電信01B.Spring
+      - "|52.47Mb"
+      - 🇪🇺 欧洲-英国-B
+      - 🇪🇺 欧洲-荷兰-A
+      - 🇭🇰 香港n.F广州电信A一 1.4x
+      - 🇭🇰 香港 | 1.4x | f杭州 | Netflix
+      - 🇨🇳 台灣 | 1.5x | f广州移动B.桃子
+      - 🇯🇵 日本 R01
+      - US_155 |67.95Mb 4 2
+      - 🇮🇳 >🇮🇳 IN|Hs|1123|TG@FProxies|
+      - 🇺🇸 美国-芝加哥-A
+      - 🇩🇪 欧洲-德国-A
+      - 🇪🇺 欧洲-英国-A
+      - 🇭🇰 香港 | 1.4x | x四川C.夜色朦胧 | Netflix | UDP
+      - 🇭🇰 香港N | 1.4x | f杭州一带AB.MASTER | Netflix
+      - 🇭🇰 香港A | 1.4x | w上海B01A.bot1
+      - 🇯🇵 日本  | 1.5x | w北京zi1
+      - 🇯🇵 日本原生T | 1.5x | f广州移动Bcyn0 | ChatGPT
+      - 🇸🇬 新加坡 | 1.0x | f广州移動ACberry5 | Netflix
+      - 🇨🇳 台湾 R01
+      - 🇯🇵 日本 01
+      - 🇺🇸 美国-洛杉矶-A
+      - 🇪🇺 欧洲-法国-A
+      - 🇭🇰 香港 | 1.4x | IEPL.H01 | Netflix
+      - 🇭🇰 香港 |1.4x | f上海联通AB.Baddie
+      - 🇭🇰 香港A | 1.4x | x江苏.Kaito1 | Netflix
+      - 🇬🇧 台灣 | 1.5x | f上海联通A.夏英 | Netflix
+      - 🇸🇬 新加坡 | 1.0x | x四川移动A.love0 | Netflix
+      - 🇨🇳 台湾 01
+      - "|29.38Mb 7"
+      - 🇯🇵 日本-东京-C
+      - 🇭🇰 香港 | 1.2x | f上海移动A.lovebot
+      - 全局模式进被墙网址 1.2x
+      - 🇭🇰 香港_Telegram@kxswa 11
+      - 🇭🇰 香港 | 1.2x | f广东移动A.Neover
+      - 🇨🇳 台灣 | 1.5x | f上海移动A.夏恋慕 | Netflix |
+      - 🇯🇵 日本H | 1.5x | X江苏A.bunny | ChatGPT(US)
+      - 🇪🇺 欧洲-塞尔维亚-A
+      - 🇭🇰 香港 | 1.4x | w北京移动C608CC01 Ccolor.bot1 | Netflix
+      - Pool_ | 7.21Mb
+      - 🇯🇵 日本-东京-B
+      - 🇭🇰 香港 | 1.4x | f广州移动B.Scher
       - Pool_🇭🇰HK_98 |15.49Mb
       - US_160 |193.95Mb
-      - Relay_🏁ZZ-🇨🇦CA_555 |40.59Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_348 |205.48Mb
-      - 🇺🇸 美国_Telegram@kxswa 10 2 2 2
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_200 |27.56Mb
-      - 🇯🇵 家宽日本
-      - 🇭🇰 香港_Telegram@kxswa 3 2 2
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_351 |14.39Mb
-      - Relay_ |21.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_324 |23.38Mb
-      - 🇺🇸 美国_Telegram@kxswa 39
-      - 🇺🇸 US美国<https://t.me/zhibeii
-      - 🇰🇷 >🇰🇷 KR|Ms|1123|TG@FProxies|
-      - 关注电报https://t.me/mftizi
-      - "|60.20Mb 2"
-      - 🇩🇪 >🇩🇪 DE|Hs|1123|TG@FProxies| 10
-      - KR_106 |35.83Mb
-      - PP|@Zyw_Channel 2 2 2 2 2
-      - 🇯🇵 家宽日本 5
+      - 🇭🇰 香港2|@ripaojiedian
+      - KR_74 |11.11Mb
       - US_160 |193.95Mb 4
-      - 🇭🇰 香港_Telegram@kxswa 3 2
-      - "|252.74Mb 4 2"
-      - FI_42 |30.74Mb 2
-      - Relay_ |22.79Mb
+      - 🇭🇰 高速-香港-C
+      - 🇭🇰 高速-香港-B
+      - 🇭🇰 中国-香港-D
+      - 🇭🇰 中国-香港-E
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - PP|@Zyw_Channel
-      - KR_66 |24.84Mb 4 3
-      - "|21.77Mb 5"
-      - "|252.74Mb 3"
-      - "|21.77Mb 3 3"
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_395 | 7.60Mb
-      - "|60.28Mb 2 2"
-      - 🇭🇰 >🇭🇰 HK|Ls|1115|TG@FProxies| 2
-      - CN_15 |76.10Mb
-      - FI_42 |30.74Mb 3
-      - "|252.74Mb 5 2"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_347 |33.80Mb
-      - 🇭🇰 香港_Telegram@kxswa 10 2 3
-      - 🇭🇰 香港_Telegram@kxswa 6 4 3 2 2
-      - US_160 |193.95Mb 2
-      - 🇺🇸 美国_Telegram@kxswa 26
-      - 🇺🇸 美国_Telegram@kxswa 11
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_305 |46.85Mb
-      - 🇲🇾 MY_94 4
-      - Relay_ |118.27Mb
-      - 🇲🇾 MY_109
-      - 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 60
-      - "|21.77Mb 2 2"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_278 |16.56Mb
-      - "|252.74Mb 3 2"
-      - 🇲🇾 MY_94 5
-      - 🇭🇰 香港_Telegram@kxswa 7 2
-      - 🇸🇬 >🇸🇬 SG|Ls|1123|TG@FProxies| 11
-      - US_155 |67.95Mb 2 2 2
-      - 🇺🇸 +美国<https://t.me/zhibeii+2
-      - US_88 @WangCai_8
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_246 |35.56Mb
-      - PP|@Zyw_Channel 2 6
-      - JP_75 |20.11Mb 2
-      - "|60.28Mb 4"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_371 | 3.52Mb
-      - "|29.38Mb"
-      - CN_15 |76.10Mb 5
-      - PP|@Zyw_Channel 2
-      - Relay_🏁ZZ-🇨🇦CA_487 |13.80Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_353 |187.86Mb
-      - 🇯🇵 家宽日本 2 5
-      - 🇺🇸 美国_Telegram@kxswa 14 3
-      - 🇺🇸 >🇺🇸 US|Ls|1123|TG@FProxies| 26
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - <https://t.me/zhibeii 4
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_281 |150.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_183 |21.66Mb
-      - ">🇻🇳 VN|Ls|1123|TG@FProxies|"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_288 |21.49Mb
-      - "|21.77Mb 3"
-      - 🇲🇾 MY_94 3
-      - 🇺🇸 >🇺🇸 US|Hs|1123|TG@FProxies| 3
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_262 |10.16Mb
-      - Pool_ |14.30Mb
-      - ">🇻🇳 VN|Ms|1123|TG@FProxies| 4"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_268 |104.57Mb
-      - FI_54 |22.04Mb
-      - Relay_ |240.89Mb
-      - Relay_ | 4.23Mb
-      - KR_74 |11.11Mb
-      - Relay_🏁ZZ-🇨🇦CA_579 |14.47Mb
-      - "|60.28Mb 6"
-      - 🇲🇾 MY_94 2 3
-      - "|60.20Mb 2 2 2"
-      - 🇺🇸 美国<https://t.me/zhibeii 2
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇺🇸 美国_Telegram@kxswa 10 3
-      - 🇺🇸 美国_Telegram@kxswa 17 2 2
-      - KR_66 |24.84Mb 3
-      - "|252.74Mb"
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_321 | 6.33Mb
-      - 🇲🇾 MY_94 3 2
-      - "|29.38Mb 2"
+      - 🇯🇵 日本-东京-A
+      - Relay_ |11.76Mb
+      - 🇭🇰 香港 |1.4x | A南京B.系统
+      - 🇯🇵 日本N | 1.5x | z湖南BAI1 | ChatGPT
+      - 🇺🇸 北美-加拿大-A
+      - 🇭🇰 香港 | 1.4x | z湖南移動B.BOX0 | Netflix(BGP) | UDP
+      - 🇭🇰 美國H | 1.0x | w北京Ankjsdh(HGC)
+      - 🇪🇺 欧洲-意大利-A
+      - 🇭🇰 香港 | 1.4x | IEPL.H1rab | Netflix
+      - 网址发布 neko77web.top 1.4x
+      - 🇯🇵 日本1 | 1.5x | f广移B | ChatGPT (US)
+      - 美國原生住宅 | 1.9x | f廣州移動Aclock0.9929
+      - 🇸🇬 新加坡 | 1.0x | f杭州移動C18 now0 | Netflix
+      - 🇭🇰 香港 R01
+      - 🇨🇳 中国_5
+      - KR_66 |24.84Mb 3 2
+      - 🇭🇰 香港 | 1.4x | n湖南一带B.转动 | Netflix
+      - 🇯🇵 日本H | 1.5x | x江苏B | ChatGPT (US)
+      - 🇯🇵 日本 | 1.5x | xA四川.carnage | ChatGPT美國
+      - 🇯🇵 日本 | 1.2x | f喵移动Aapple2| ChatGPT(US)
+      - 🇸🇬 新加坡 01
+      - <https://t.me/zhibeii_3
+      - 🇺🇸 美国-纽约-A
+      - 🇨🇳 台灣  | 1.5x | f广州移动A | Netflix
+      - 🇯🇵 日本原生T | 1.5x | f广州移动AI6ab17 | ChatGPT
+      - Pool_🇭🇰HK_63 |12.95Mb 3
+      - 🇨🇳 >🇹🇼 TW|Ls|1123|TG@FProxies| 3
+      - 🇺🇸 美国-达拉斯-A
+      - 🇸🇬 亚洲-新加坡-A
+      - 🇦🇺 澳大利亚-悉尼-A
+      - 距离下次重置剩余：25 天
+      - 🇨🇳 美國 | 1.0x | x江苏電信01B.Spring
+      - "|52.47Mb"
+      - 🇪🇺 欧洲-英国-B
+      - 🇪🇺 欧洲-荷兰-A
+      - 🇭🇰 香港n.F广州电信A一 1.4x
+      - 🇭🇰 香港 | 1.4x | f杭州 | Netflix
+      - 🇨🇳 台灣 | 1.5x | f广州移动B.桃子
+      - 🇯🇵 日本 R01
+      - US_155 |67.95Mb 4 2
+      - 🇮🇳 >🇮🇳 IN|Hs|1123|TG@FProxies|
+      - 🇺🇸 美国-芝加哥-A
+      - 🇩🇪 欧洲-德国-A
+      - 🇪🇺 欧洲-英国-A
+      - 🇭🇰 香港 | 1.4x | x四川C.夜色朦胧 | Netflix | UDP
+      - 🇭🇰 香港N | 1.4x | f杭州一带AB.MASTER | Netflix
+      - 🇭🇰 香港A | 1.4x | w上海B01A.bot1
+      - 🇯🇵 日本  | 1.5x | w北京zi1
+      - 🇯🇵 日本原生T | 1.5x | f广州移动Bcyn0 | ChatGPT
+      - 🇸🇬 新加坡 | 1.0x | f广州移動ACberry5 | Netflix
+      - 🇨🇳 台湾 R01
+      - 🇯🇵 日本 01
+      - 🇺🇸 美国-洛杉矶-A
+      - 🇪🇺 欧洲-法国-A
+      - 🇭🇰 香港 | 1.4x | IEPL.H01 | Netflix
+      - 🇭🇰 香港 |1.4x | f上海联通AB.Baddie
+      - 🇭🇰 香港A | 1.4x | x江苏.Kaito1 | Netflix
+      - 🇬🇧 台灣 | 1.5x | f上海联通A.夏英 | Netflix
+      - 🇸🇬 新加坡 | 1.0x | x四川移动A.love0 | Netflix
+      - 🇨🇳 台湾 01
+      - "|29.38Mb 7"
+      - 🇯🇵 日本-东京-C
+      - 🇭🇰 香港 | 1.2x | f上海移动A.lovebot
+      - 全局模式进被墙网址 1.2x
+      - 🇭🇰 香港_Telegram@kxswa 11
+      - 🇭🇰 香港 | 1.2x | f广东移动A.Neover
+      - 🇨🇳 台灣 | 1.5x | f上海移动A.夏恋慕 | Netflix |
+      - 🇯🇵 日本H | 1.5x | X江苏A.bunny | ChatGPT(US)
+      - 🇪🇺 欧洲-塞尔维亚-A
+      - 🇭🇰 香港 | 1.4x | w北京移动C608CC01 Ccolor.bot1 | Netflix
+      - Pool_ | 7.21Mb
+      - 🇯🇵 日本-东京-B
+      - 🇭🇰 香港 | 1.4x | f广州移动B.Scher
       - Pool_🇭🇰HK_98 |15.49Mb
       - US_160 |193.95Mb
-      - Relay_🏁ZZ-🇨🇦CA_555 |40.59Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_348 |205.48Mb
-      - 🇺🇸 美国_Telegram@kxswa 10 2 2 2
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_200 |27.56Mb
-      - 🇯🇵 家宽日本
-      - 🇭🇰 香港_Telegram@kxswa 3 2 2
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_351 |14.39Mb
-      - Relay_ |21.57Mb
-      - 🇺🇸 Relay_🇺🇸US-🇨🇦CA_324 |23.38Mb
-      - 🇺🇸 美国_Telegram@kxswa 39
-      - 🇺🇸 US美国<https://t.me/zhibeii
-      - 🇰🇷 >🇰🇷 KR|Ms|1123|TG@FProxies|
-      - 关注电报https://t.me/mftizi
-      - "|60.20Mb 2"
-      - 🇩🇪 >🇩🇪 DE|Hs|1123|TG@FProxies| 10
-      - KR_106 |35.83Mb
-      - PP|@Zyw_Channel 2 2 2 2 2
-      - 🇯🇵 家宽日本 5
+      - 🇭🇰 香港2|@ripaojiedian
+      - KR_74 |11.11Mb
       - US_160 |193.95Mb 4
-      - 🇭🇰 香港_Telegram@kxswa 3 2
-      - "|252.74Mb 4 2"
-      - FI_42 |30.74Mb 2
-      - Relay_ |22.79Mb
+      - 🇭🇰 高速-香港-C
+      - 🇭🇰 高速-香港-B
+      - 🇭🇰 中国-香港-D
+      - 🇭🇰 中国-香港-E
   - name: 🎯 不挂代理
     type: select
     proxies:
