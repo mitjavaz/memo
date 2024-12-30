@@ -5,116 +5,53 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本02-1B, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: f139e5a6-5b42-4cc6-8654-b90726768090}
-  - {name: 🇭🇰 香港 | 02-1B, server: 156.226.173.218, port: 8010, type: vmess, uuid: 7fff60ed-59db-4cc6-a5ad-cf4274e57a50, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wada12222}}
-  - {name: 🇨🇭 瑞士04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 26436, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇩🇪 德国04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 18779, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 18739, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇳🇱 荷兰05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 18749, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国_Telegram@kxswa 10, server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇩🇪 德国05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 18779, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇫🇷 >🇫🇷 FR|Ns|1221|TG@FProxies|, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /link, headers: {Host: az05.beyondy.cfd}}}
-  - {name: 🇬🇧 英国_Telegram@kxswa 4, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇦🇺 澳洲05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 19254, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇬🇧 英国05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 18769, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国_Telegram@kxswa 22, server: 38.75.137.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 香港 | 02-1C, server: 156.226.173.218, port: 8010, type: vmess, uuid: 0de95edf-895c-4eaa-a4de-c81aa2339317, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wada12222}}
-  - {name: 🇳🇴 挪威05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 56315, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇦🇺 澳洲04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 19254, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国_Telegram@kxswa 13, server: 38.75.137.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_121 | 9.18Mb, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇧🇷 巴西05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 32481, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国_Telegram@kxswa 12, server: 38.75.137.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇸🇬 新加坡05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 18759, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
+  - {name: CN_29 |74.92Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb, server: 193.29.107.234, port: 49020, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: false}
   - {name: 🇭🇰 香港8|@ripaojiedian, server: 183.236.51.23, port: 41020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 18749, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇱🇺 卢森堡05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 27564, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇪🇸 西班牙04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 45719, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇮🇹 意大利05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 25971, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇨🇦 加拿大04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 18789, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇱🇺 卢森堡04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 27564, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇨🇿 捷克04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 26415, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇧🇷 巴西05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 32481, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇮🇳 印度04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 18799, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇳🇴 挪威04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 56315, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 18739, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇰🇷 韩国04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 18119, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇧🇷 巴西04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 32481, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇯🇵 日本02-1A, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: c89dcf9c-7014-4323-950a-d034291e2253}
-  - {name: 🇧🇬 保加利亚05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 30571, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇧🇷 巴西04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 32481, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇸🇬 新加坡04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 18759, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|, server: 120.232.81.50, port: 16088, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 🇺🇸 美国_Telegram@kxswa 21, server: 38.75.137.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: SCP-NSC 05, server: tw.ssrxray.click, port: 36918, type: ss, cipher: aes-256-gcm, password: uoXctIQ4L89ykUZwn17Pn3CzNDNcZSRabCgN5hyNV7JQ}
+  - {name: 🇺🇸 美国|@ripaojiedian, server: console.02.aliyun.aq.kunlunaqs.com, port: 45938, type: ss, cipher: aes-128-gcm, password: 3938bfae997974860251, plugin: obfs, plugin-opts: {mode: http, host: 215996dd9f1c3db1e54b.microsoft.com}}
+  - {name: US_421 |21.04Mb 2, server: 38.99.82.128, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_12 |79.01Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-012-2G, server: 195.58.49.86, port: 43901, type: vmess, uuid: 6de325c2-0ddd-49cf-ab1b-485121f60f5e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: KR_81 |22.37Mb 2, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US美国(tg群:https://t.me/zhibeii_4, server: 120.232.153.63, port: 40972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false}
+  - {name: FR_186 | 1.01Mb, server: 141.11.251.231, port: 52728, type: vmess, uuid: d5e16b83-7b5c-45ea-d749-d6f6ad214447, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_140 |53.62Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: KR_81 |22.37Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇪🇸 西班牙05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 45719, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇮🇹 意大利05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 25971, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: CZ_33 |64.13Mb, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 18799, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇭🇰 香港05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 43812, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国_Telegram@kxswa 15, server: 38.75.137.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇬🇧 英国04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 18769, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国_Telegram@kxswa 14, server: 38.75.137.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇷🇺 俄罗斯_Telegram@kxswa 2, server: 217.30.10.18, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: 🇧🇬 保加利亚04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 30571, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇩🇰 丹麦05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 55003, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇮🇳 印度04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 18799, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇺🇸 美国_Telegram@kxswa 17, server: 38.75.137.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 美国_Telegram@kxswa 19, server: 38.75.137.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇩🇪 德国04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 18779, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇦🇪 迪拜04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 22349, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇰🇷 韩国05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 18119, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇩🇰 丹麦_Telegram@kxswa, server: www.csgo.com, port: 443, type: vmess, uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: kr.cfyyds.filegear-sg.me}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 18, server: 38.75.137.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇩🇰 丹麦04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 55003, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇹🇷 土耳其05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 27192, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇮🇳 印度05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 18799, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇨🇿 捷克04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 26415, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇺🇸 美国_Telegram@kxswa 20, server: 38.75.137.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇦🇪 迪拜05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 22349, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇹🇭 泰国04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 26543, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国_Telegram@kxswa 16, server: 38.75.137.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇹🇷 土耳其04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 27192, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇺🇸 美国_Telegram@kxswa 23, server: 151.101.2.216, port: 80, type: vmess, uuid: 545485da-9ff4-48c5-ae94-45e6e4ee7d26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /racevpn, headers: {Host: 6606.com}}}
-  - {name: ">Beta|🇺🇳 FP|Ns|1221|TG@FProxies|", server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: eb34e175-5fad-4e88-bcc6-c236eabcc6ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}}
-  - {name: 🇷🇸 塞尔维亚05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 23984, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇦🇪 迪拜05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 22349, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇩🇰 丹麦05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 55003, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇷🇴 罗马尼亚05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 23781, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇷🇴 罗马尼亚04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 23781, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇭🇷 克罗地亚04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 26984, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇭🇰 香港2|@ripaojiedian, server: 36.151.192.239, port: 42395, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
-  - {name: 🇬🇧 英国05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 18769, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇨🇿 捷克05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 26415, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇮🇹 意大利04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 25971, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇹🇭 泰国05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 26543, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇭🇰 香港04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 43812, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇨🇦 加拿大04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 18789, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇨🇿 捷克05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 26415, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇩🇰 丹麦04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 55003, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇨🇦 加拿大05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 18789, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇺🇸 美国_Telegram@kxswa 7, server: 52.32.68.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇦🇺 澳洲05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 19254, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇰🇷 >🇰🇷 KR|Hs|1221|TG@FProxies|, server: 120.232.217.96, port: 21056, type: trojan, password: ffa68efa-e282-4fae-a4c4-5f1fdaa76d81, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 18749, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇬🇧 英国04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 18769, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇷🇸 塞尔维亚04|流媒体|专线2-569, server: zx2.1010520.xyz, port: 23984, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇦🇺 澳洲04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 19254, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇩🇪 德国05|流媒体|专线3-569 2, server: zx3.1010520.xyz, port: 18779, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇮🇹 意大利04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 25971, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇭🇷 克罗地亚05|流媒体|专线3-569, server: zx3.1010520.xyz, port: 26984, type: ss, cipher: chacha20-ietf-poly1305, password: 8a3b7d4b-39c4-4bb3-8775-56bd65b771da}
-  - {name: 🇯🇵 日本_Telegram@kxswa, server: 52.68.44.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: Relay_-🇭🇰HK_207 |18.01Mb, server: 223.113.54.149, port: 2524, type: trojan, password: lidnBTGb, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa 3, server: 13.114.67.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇳🇱 荷兰04|流媒体|专线2-569 2, server: zx2.1010520.xyz, port: 18749, type: ss, cipher: chacha20-ietf-poly1305, password: 5803c45f-044f-4652-b6ac-bce1911d434d}
-  - {name: 🇵🇱 波兰, server: ip.sb, port: 443, type: vmess, uuid: 9fc77e5c-7621-403d-8bd2-959eaa1167e8, alterId: 0, cipher: auto, tls: true, servername: 00.orangelightyo.us.kg, network: ws, ws-opts: {path: "/serv00?ed=2048", headers: {Host: 00.orangelightyo.us.kg}}}
-  - {name: 🇯🇵 日本_Telegram@kxswa 2, server: 18.179.197.216, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇺🇸 TG:@hkaa0|美国_91\r", server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇭🇰 香港2|@ripaojiedian 2, server: 36.151.192.242, port: 18682, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
-  - {name: 🇺🇸 美国_Telegram@kxswa 4, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇺🇸 美国_Telegram@kxswa 7 2, server: 3.38.212.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港 | 01-1G, server: 154.83.88.106, port: 8888, type: vmess, uuid: 7fff60ed-59db-4cc6-a5ad-cf4274e57a50, alterId: 0, cipher: auto, tls: false}
+  - {name: US_390 |33.76Mb 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 | 01-1G 2, server: 154.83.88.106, port: 8888, type: vmess, uuid: 7fff60ed-59db-4cc6-a5ad-cf4274e57a50, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_147 |59.55Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: KR_81 |22.37Mb 2 2, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
+  - {name: ZZ_449 |45.05Mb, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_28 |60.65Mb 2, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-014-2E, server: 195.58.49.50, port: 43901, type: vmess, uuid: 7faafddc-24ae-4eb1-9d45-6291e9d46af5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: CN_30 |48.50Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_390 |33.76Mb, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_421 |21.04Mb, server: 38.99.82.128, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: US_121 | 9.18Mb, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-013-1M, server: 194.87.69.52, port: 43901, type: vmess, uuid: 38e0d11d-a846-497b-ae54-da0f40c540e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-012-1A, server: 195.58.49.86, port: 43901, type: vmess, uuid: 8feb63cc-a41e-4c30-8926-deff6dddd4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: KR_81 |22.37Mb 3, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa, server: 52.221.190.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: CN_30 |48.50Mb 2, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港8|@ripaojiedian 2, server: 183.236.51.23, port: 41020, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_150 |167.00Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-012-2L, server: 195.58.49.86, port: 43901, type: vmess, uuid: fbb52678-05c5-4790-ab01-0145ed8cc071, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: CN_25 |61.96Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港4|@ripaojiedian, server: 120.198.71.214, port: 34493, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_121 | 9.18Mb 3, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯-圣彼得堡-015-1P, server: 195.58.49.42, port: 43901, type: vmess, uuid: 3a0c3c58-df63-4084-aa9b-18dfe2fe3b26, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: ️_未知_4, server: h-k01.loveroise.com, port: 54000, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84}
+  - {name: 🇯🇵 >🇯🇵 JP|Ns|1221|TG@FProxies|, server: jp05-vm0.entry.srthdw.art, port: 46485, type: vmess, uuid: 5f9cbf6c-e16c-3d9d-b4e2-67f5acbe1da5, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯中转, server: 110.40.38.205, port: 12234, type: vmess, uuid: 1602831a-80f5-403b-a371-fcbdbf0953a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb 2, server: 193.29.107.234, port: 49020, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_148 |61.97Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_121 | 9.18Mb 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_121 | 9.18Mb 4, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CZ_33 |64.13Mb 3, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
+  - {name: US_121 | 9.18Mb 5, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -126,462 +63,210 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港 | 02-1B
-      - 🇨🇭 瑞士04|流媒体|专线2-569
-      - 🇩🇪 德国04|流媒体|专线2-569
-      - 🇺🇸 美国04|流媒体|专线2-569
-      - 🇳🇱 荷兰05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇩🇪 德国05|流媒体|专线3-569
-      - 🇫🇷 >🇫🇷 FR|Ns|1221|TG@FProxies|
-      - 🇬🇧 英国_Telegram@kxswa 4
-      - 🇦🇺 澳洲05|流媒体|专线3-569
-      - 🇬🇧 英国05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 22
-      - 🇭🇰 香港 | 02-1C
-      - 🇳🇴 挪威05|流媒体|专线3-569
-      - 🇦🇺 澳洲04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - US_121 | 9.18Mb
-      - 🇧🇷 巴西05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇸🇬 新加坡05|流媒体|专线3-569
+      - CN_29 |74.92Mb
+      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb
       - 🇭🇰 香港8|@ripaojiedian
-      - 🇳🇱 荷兰04|流媒体|专线2-569
-      - 🇱🇺 卢森堡05|流媒体|专线3-569
-      - 🇪🇸 西班牙04|流媒体|专线2-569
-      - 🇮🇹 意大利05|流媒体|专线3-569
-      - 🇨🇦 加拿大04|流媒体|专线2-569
-      - 🇱🇺 卢森堡04|流媒体|专线2-569
-      - 🇨🇿 捷克04|流媒体|专线2-569
-      - 🇧🇷 巴西05|流媒体|专线3-569 2
-      - 🇮🇳 印度04|流媒体|专线2-569
-      - 🇳🇴 挪威04|流媒体|专线2-569
-      - 🇺🇸 美国05|流媒体|专线3-569
-      - 🇰🇷 韩国04|流媒体|专线2-569
-      - 🇧🇷 巴西04|流媒体|专线2-569
-      - 🇯🇵 日本02-1A
-      - 🇧🇬 保加利亚05|流媒体|专线3-569
-      - 🇧🇷 巴西04|流媒体|专线2-569 2
-      - 🇸🇬 新加坡04|流媒体|专线2-569
-      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - SCP-NSC 05
+      - 🇺🇸 美国|@ripaojiedian
+      - US_421 |21.04Mb 2
+      - CN_12 |79.01Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-012-2G
+      - KR_81 |22.37Mb 2
+      - 🇺🇸 US美国(tg群:https://t.me/zhibeii_4
+      - FR_186 | 1.01Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_140 |53.62Mb
       - KR_81 |22.37Mb
-      - 🇪🇸 西班牙05|流媒体|专线3-569
-      - 🇮🇹 意大利05|流媒体|专线3-569 2
-      - CZ_33 |64.13Mb
-      - 🇮🇳 印度05|流媒体|专线3-569
-      - 🇭🇰 香港05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇬🇧 英国04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇷🇺 俄罗斯_Telegram@kxswa 2
-      - 🇧🇬 保加利亚04|流媒体|专线2-569
-      - 🇩🇰 丹麦05|流媒体|专线3-569
-      - 🇮🇳 印度04|流媒体|专线2-569 2
-      - 🇺🇸 美国_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - 🇩🇪 德国04|流媒体|专线2-569 2
-      - 🇦🇪 迪拜04|流媒体|专线2-569
-      - 🇰🇷 韩国05|流媒体|专线3-569
-      - 🇩🇰 丹麦_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇩🇰 丹麦04|流媒体|专线2-569
-      - 🇹🇷 土耳其05|流媒体|专线3-569
-      - 🇮🇳 印度05|流媒体|专线3-569 2
-      - 🇨🇿 捷克04|流媒体|专线2-569 2
-      - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇦🇪 迪拜05|流媒体|专线3-569
-      - 🇹🇭 泰国04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇹🇷 土耳其04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 23
-      - ">Beta|🇺🇳 FP|Ns|1221|TG@FProxies|"
-      - 🇷🇸 塞尔维亚05|流媒体|专线3-569
-      - 🇦🇪 迪拜05|流媒体|专线3-569 2
-      - 🇩🇰 丹麦05|流媒体|专线3-569 2
-      - 🇷🇴 罗马尼亚05|流媒体|专线3-569
-      - 🇷🇴 罗马尼亚04|流媒体|专线2-569
-      - 🇭🇷 克罗地亚04|流媒体|专线2-569
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇬🇧 英国05|流媒体|专线3-569 2
-      - 🇨🇿 捷克05|流媒体|专线3-569
-      - 🇮🇹 意大利04|流媒体|专线2-569
-      - 🇹🇭 泰国05|流媒体|专线3-569
-      - 🇭🇰 香港04|流媒体|专线2-569
-      - 🇨🇦 加拿大04|流媒体|专线2-569 2
-      - 🇨🇿 捷克05|流媒体|专线3-569 2
-      - 🇩🇰 丹麦04|流媒体|专线2-569 2
-      - 🇨🇦 加拿大05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇦🇺 澳洲05|流媒体|专线3-569 2
-      - 🇰🇷 >🇰🇷 KR|Hs|1221|TG@FProxies|
-      - 🇳🇱 荷兰05|流媒体|专线3-569 2
-      - 🇬🇧 英国04|流媒体|专线2-569 2
-      - 🇷🇸 塞尔维亚04|流媒体|专线2-569
-      - 🇦🇺 澳洲04|流媒体|专线2-569 2
-      - 🇩🇪 德国05|流媒体|专线3-569 2
-      - 🇮🇹 意大利04|流媒体|专线2-569 2
-      - 🇭🇷 克罗地亚05|流媒体|专线3-569
-      - 🇯🇵 日本_Telegram@kxswa
-      - Relay_-🇭🇰HK_207 |18.01Mb
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇳🇱 荷兰04|流媒体|专线2-569 2
-      - 🇵🇱 波兰
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - "🇺🇸 TG:@hkaa0|美国_91\r"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 7 2
+      - 🇭🇰 香港 | 01-1G
+      - US_390 |33.76Mb 2
+      - 🇭🇰 香港 | 01-1G 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_147 |59.55Mb
+      - KR_81 |22.37Mb 2 2
+      - ZZ_449 |45.05Mb
+      - CN_28 |60.65Mb 2
+      - 🇷🇺 俄罗斯-圣彼得堡-014-2E
+      - CN_30 |48.50Mb
+      - US_390 |33.76Mb
+      - US_421 |21.04Mb
+      - US_121 | 9.18Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-013-1M
+      - 🇷🇺 俄罗斯-圣彼得堡-012-1A
+      - KR_81 |22.37Mb 3
+      - 🇸🇬 新加坡_Telegram@kxswa
+      - CN_30 |48.50Mb 2
+      - 🇭🇰 香港8|@ripaojiedian 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_150 |167.00Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-012-2L
+      - CN_25 |61.96Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
+      - US_121 | 9.18Mb 3
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1P
+      - ️_未知_4
+      - 🇯🇵 >🇯🇵 JP|Ns|1221|TG@FProxies|
+      - 🇷🇺 俄罗斯中转
+      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_148 |61.97Mb
+      - US_121 | 9.18Mb 2
+      - US_121 | 9.18Mb 4
+      - CZ_33 |64.13Mb 3
+      - US_121 | 9.18Mb 5
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港 | 02-1B
-      - 🇨🇭 瑞士04|流媒体|专线2-569
-      - 🇩🇪 德国04|流媒体|专线2-569
-      - 🇺🇸 美国04|流媒体|专线2-569
-      - 🇳🇱 荷兰05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇩🇪 德国05|流媒体|专线3-569
-      - 🇫🇷 >🇫🇷 FR|Ns|1221|TG@FProxies|
-      - 🇬🇧 英国_Telegram@kxswa 4
-      - 🇦🇺 澳洲05|流媒体|专线3-569
-      - 🇬🇧 英国05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 22
-      - 🇭🇰 香港 | 02-1C
-      - 🇳🇴 挪威05|流媒体|专线3-569
-      - 🇦🇺 澳洲04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - US_121 | 9.18Mb
-      - 🇧🇷 巴西05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇸🇬 新加坡05|流媒体|专线3-569
+      - CN_29 |74.92Mb
+      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb
       - 🇭🇰 香港8|@ripaojiedian
-      - 🇳🇱 荷兰04|流媒体|专线2-569
-      - 🇱🇺 卢森堡05|流媒体|专线3-569
-      - 🇪🇸 西班牙04|流媒体|专线2-569
-      - 🇮🇹 意大利05|流媒体|专线3-569
-      - 🇨🇦 加拿大04|流媒体|专线2-569
-      - 🇱🇺 卢森堡04|流媒体|专线2-569
-      - 🇨🇿 捷克04|流媒体|专线2-569
-      - 🇧🇷 巴西05|流媒体|专线3-569 2
-      - 🇮🇳 印度04|流媒体|专线2-569
-      - 🇳🇴 挪威04|流媒体|专线2-569
-      - 🇺🇸 美国05|流媒体|专线3-569
-      - 🇰🇷 韩国04|流媒体|专线2-569
-      - 🇧🇷 巴西04|流媒体|专线2-569
-      - 🇯🇵 日本02-1A
-      - 🇧🇬 保加利亚05|流媒体|专线3-569
-      - 🇧🇷 巴西04|流媒体|专线2-569 2
-      - 🇸🇬 新加坡04|流媒体|专线2-569
-      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - SCP-NSC 05
+      - 🇺🇸 美国|@ripaojiedian
+      - US_421 |21.04Mb 2
+      - CN_12 |79.01Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-012-2G
+      - KR_81 |22.37Mb 2
+      - 🇺🇸 US美国(tg群:https://t.me/zhibeii_4
+      - FR_186 | 1.01Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_140 |53.62Mb
       - KR_81 |22.37Mb
-      - 🇪🇸 西班牙05|流媒体|专线3-569
-      - 🇮🇹 意大利05|流媒体|专线3-569 2
-      - CZ_33 |64.13Mb
-      - 🇮🇳 印度05|流媒体|专线3-569
-      - 🇭🇰 香港05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇬🇧 英国04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇷🇺 俄罗斯_Telegram@kxswa 2
-      - 🇧🇬 保加利亚04|流媒体|专线2-569
-      - 🇩🇰 丹麦05|流媒体|专线3-569
-      - 🇮🇳 印度04|流媒体|专线2-569 2
-      - 🇺🇸 美国_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - 🇩🇪 德国04|流媒体|专线2-569 2
-      - 🇦🇪 迪拜04|流媒体|专线2-569
-      - 🇰🇷 韩国05|流媒体|专线3-569
-      - 🇩🇰 丹麦_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇩🇰 丹麦04|流媒体|专线2-569
-      - 🇹🇷 土耳其05|流媒体|专线3-569
-      - 🇮🇳 印度05|流媒体|专线3-569 2
-      - 🇨🇿 捷克04|流媒体|专线2-569 2
-      - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇦🇪 迪拜05|流媒体|专线3-569
-      - 🇹🇭 泰国04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇹🇷 土耳其04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 23
-      - ">Beta|🇺🇳 FP|Ns|1221|TG@FProxies|"
-      - 🇷🇸 塞尔维亚05|流媒体|专线3-569
-      - 🇦🇪 迪拜05|流媒体|专线3-569 2
-      - 🇩🇰 丹麦05|流媒体|专线3-569 2
-      - 🇷🇴 罗马尼亚05|流媒体|专线3-569
-      - 🇷🇴 罗马尼亚04|流媒体|专线2-569
-      - 🇭🇷 克罗地亚04|流媒体|专线2-569
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇬🇧 英国05|流媒体|专线3-569 2
-      - 🇨🇿 捷克05|流媒体|专线3-569
-      - 🇮🇹 意大利04|流媒体|专线2-569
-      - 🇹🇭 泰国05|流媒体|专线3-569
-      - 🇭🇰 香港04|流媒体|专线2-569
-      - 🇨🇦 加拿大04|流媒体|专线2-569 2
-      - 🇨🇿 捷克05|流媒体|专线3-569 2
-      - 🇩🇰 丹麦04|流媒体|专线2-569 2
-      - 🇨🇦 加拿大05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇦🇺 澳洲05|流媒体|专线3-569 2
-      - 🇰🇷 >🇰🇷 KR|Hs|1221|TG@FProxies|
-      - 🇳🇱 荷兰05|流媒体|专线3-569 2
-      - 🇬🇧 英国04|流媒体|专线2-569 2
-      - 🇷🇸 塞尔维亚04|流媒体|专线2-569
-      - 🇦🇺 澳洲04|流媒体|专线2-569 2
-      - 🇩🇪 德国05|流媒体|专线3-569 2
-      - 🇮🇹 意大利04|流媒体|专线2-569 2
-      - 🇭🇷 克罗地亚05|流媒体|专线3-569
-      - 🇯🇵 日本_Telegram@kxswa
-      - Relay_-🇭🇰HK_207 |18.01Mb
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇳🇱 荷兰04|流媒体|专线2-569 2
-      - 🇵🇱 波兰
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - "🇺🇸 TG:@hkaa0|美国_91\r"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 7 2
+      - 🇭🇰 香港 | 01-1G
+      - US_390 |33.76Mb 2
+      - 🇭🇰 香港 | 01-1G 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_147 |59.55Mb
+      - KR_81 |22.37Mb 2 2
+      - ZZ_449 |45.05Mb
+      - CN_28 |60.65Mb 2
+      - 🇷🇺 俄罗斯-圣彼得堡-014-2E
+      - CN_30 |48.50Mb
+      - US_390 |33.76Mb
+      - US_421 |21.04Mb
+      - US_121 | 9.18Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-013-1M
+      - 🇷🇺 俄罗斯-圣彼得堡-012-1A
+      - KR_81 |22.37Mb 3
+      - 🇸🇬 新加坡_Telegram@kxswa
+      - CN_30 |48.50Mb 2
+      - 🇭🇰 香港8|@ripaojiedian 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_150 |167.00Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-012-2L
+      - CN_25 |61.96Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
+      - US_121 | 9.18Mb 3
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1P
+      - ️_未知_4
+      - 🇯🇵 >🇯🇵 JP|Ns|1221|TG@FProxies|
+      - 🇷🇺 俄罗斯中转
+      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_148 |61.97Mb
+      - US_121 | 9.18Mb 2
+      - US_121 | 9.18Mb 4
+      - CZ_33 |64.13Mb 3
+      - US_121 | 9.18Mb 5
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港 | 02-1B
-      - 🇨🇭 瑞士04|流媒体|专线2-569
-      - 🇩🇪 德国04|流媒体|专线2-569
-      - 🇺🇸 美国04|流媒体|专线2-569
-      - 🇳🇱 荷兰05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇩🇪 德国05|流媒体|专线3-569
-      - 🇫🇷 >🇫🇷 FR|Ns|1221|TG@FProxies|
-      - 🇬🇧 英国_Telegram@kxswa 4
-      - 🇦🇺 澳洲05|流媒体|专线3-569
-      - 🇬🇧 英国05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 22
-      - 🇭🇰 香港 | 02-1C
-      - 🇳🇴 挪威05|流媒体|专线3-569
-      - 🇦🇺 澳洲04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - US_121 | 9.18Mb
-      - 🇧🇷 巴西05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇸🇬 新加坡05|流媒体|专线3-569
+      - CN_29 |74.92Mb
+      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb
       - 🇭🇰 香港8|@ripaojiedian
-      - 🇳🇱 荷兰04|流媒体|专线2-569
-      - 🇱🇺 卢森堡05|流媒体|专线3-569
-      - 🇪🇸 西班牙04|流媒体|专线2-569
-      - 🇮🇹 意大利05|流媒体|专线3-569
-      - 🇨🇦 加拿大04|流媒体|专线2-569
-      - 🇱🇺 卢森堡04|流媒体|专线2-569
-      - 🇨🇿 捷克04|流媒体|专线2-569
-      - 🇧🇷 巴西05|流媒体|专线3-569 2
-      - 🇮🇳 印度04|流媒体|专线2-569
-      - 🇳🇴 挪威04|流媒体|专线2-569
-      - 🇺🇸 美国05|流媒体|专线3-569
-      - 🇰🇷 韩国04|流媒体|专线2-569
-      - 🇧🇷 巴西04|流媒体|专线2-569
-      - 🇯🇵 日本02-1A
-      - 🇧🇬 保加利亚05|流媒体|专线3-569
-      - 🇧🇷 巴西04|流媒体|专线2-569 2
-      - 🇸🇬 新加坡04|流媒体|专线2-569
-      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - SCP-NSC 05
+      - 🇺🇸 美国|@ripaojiedian
+      - US_421 |21.04Mb 2
+      - CN_12 |79.01Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-012-2G
+      - KR_81 |22.37Mb 2
+      - 🇺🇸 US美国(tg群:https://t.me/zhibeii_4
+      - FR_186 | 1.01Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_140 |53.62Mb
       - KR_81 |22.37Mb
-      - 🇪🇸 西班牙05|流媒体|专线3-569
-      - 🇮🇹 意大利05|流媒体|专线3-569 2
-      - CZ_33 |64.13Mb
-      - 🇮🇳 印度05|流媒体|专线3-569
-      - 🇭🇰 香港05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇬🇧 英国04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇷🇺 俄罗斯_Telegram@kxswa 2
-      - 🇧🇬 保加利亚04|流媒体|专线2-569
-      - 🇩🇰 丹麦05|流媒体|专线3-569
-      - 🇮🇳 印度04|流媒体|专线2-569 2
-      - 🇺🇸 美国_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - 🇩🇪 德国04|流媒体|专线2-569 2
-      - 🇦🇪 迪拜04|流媒体|专线2-569
-      - 🇰🇷 韩国05|流媒体|专线3-569
-      - 🇩🇰 丹麦_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇩🇰 丹麦04|流媒体|专线2-569
-      - 🇹🇷 土耳其05|流媒体|专线3-569
-      - 🇮🇳 印度05|流媒体|专线3-569 2
-      - 🇨🇿 捷克04|流媒体|专线2-569 2
-      - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇦🇪 迪拜05|流媒体|专线3-569
-      - 🇹🇭 泰国04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇹🇷 土耳其04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 23
-      - ">Beta|🇺🇳 FP|Ns|1221|TG@FProxies|"
-      - 🇷🇸 塞尔维亚05|流媒体|专线3-569
-      - 🇦🇪 迪拜05|流媒体|专线3-569 2
-      - 🇩🇰 丹麦05|流媒体|专线3-569 2
-      - 🇷🇴 罗马尼亚05|流媒体|专线3-569
-      - 🇷🇴 罗马尼亚04|流媒体|专线2-569
-      - 🇭🇷 克罗地亚04|流媒体|专线2-569
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇬🇧 英国05|流媒体|专线3-569 2
-      - 🇨🇿 捷克05|流媒体|专线3-569
-      - 🇮🇹 意大利04|流媒体|专线2-569
-      - 🇹🇭 泰国05|流媒体|专线3-569
-      - 🇭🇰 香港04|流媒体|专线2-569
-      - 🇨🇦 加拿大04|流媒体|专线2-569 2
-      - 🇨🇿 捷克05|流媒体|专线3-569 2
-      - 🇩🇰 丹麦04|流媒体|专线2-569 2
-      - 🇨🇦 加拿大05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇦🇺 澳洲05|流媒体|专线3-569 2
-      - 🇰🇷 >🇰🇷 KR|Hs|1221|TG@FProxies|
-      - 🇳🇱 荷兰05|流媒体|专线3-569 2
-      - 🇬🇧 英国04|流媒体|专线2-569 2
-      - 🇷🇸 塞尔维亚04|流媒体|专线2-569
-      - 🇦🇺 澳洲04|流媒体|专线2-569 2
-      - 🇩🇪 德国05|流媒体|专线3-569 2
-      - 🇮🇹 意大利04|流媒体|专线2-569 2
-      - 🇭🇷 克罗地亚05|流媒体|专线3-569
-      - 🇯🇵 日本_Telegram@kxswa
-      - Relay_-🇭🇰HK_207 |18.01Mb
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇳🇱 荷兰04|流媒体|专线2-569 2
-      - 🇵🇱 波兰
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - "🇺🇸 TG:@hkaa0|美国_91\r"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 7 2
+      - 🇭🇰 香港 | 01-1G
+      - US_390 |33.76Mb 2
+      - 🇭🇰 香港 | 01-1G 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_147 |59.55Mb
+      - KR_81 |22.37Mb 2 2
+      - ZZ_449 |45.05Mb
+      - CN_28 |60.65Mb 2
+      - 🇷🇺 俄罗斯-圣彼得堡-014-2E
+      - CN_30 |48.50Mb
+      - US_390 |33.76Mb
+      - US_421 |21.04Mb
+      - US_121 | 9.18Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-013-1M
+      - 🇷🇺 俄罗斯-圣彼得堡-012-1A
+      - KR_81 |22.37Mb 3
+      - 🇸🇬 新加坡_Telegram@kxswa
+      - CN_30 |48.50Mb 2
+      - 🇭🇰 香港8|@ripaojiedian 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_150 |167.00Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-012-2L
+      - CN_25 |61.96Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
+      - US_121 | 9.18Mb 3
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1P
+      - ️_未知_4
+      - 🇯🇵 >🇯🇵 JP|Ns|1221|TG@FProxies|
+      - 🇷🇺 俄罗斯中转
+      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_148 |61.97Mb
+      - US_121 | 9.18Mb 2
+      - US_121 | 9.18Mb 4
+      - CZ_33 |64.13Mb 3
+      - US_121 | 9.18Mb 5
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本02-1B
-      - 🇭🇰 香港 | 02-1B
-      - 🇨🇭 瑞士04|流媒体|专线2-569
-      - 🇩🇪 德国04|流媒体|专线2-569
-      - 🇺🇸 美国04|流媒体|专线2-569
-      - 🇳🇱 荷兰05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - 🇩🇪 德国05|流媒体|专线3-569
-      - 🇫🇷 >🇫🇷 FR|Ns|1221|TG@FProxies|
-      - 🇬🇧 英国_Telegram@kxswa 4
-      - 🇦🇺 澳洲05|流媒体|专线3-569
-      - 🇬🇧 英国05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 22
-      - 🇭🇰 香港 | 02-1C
-      - 🇳🇴 挪威05|流媒体|专线3-569
-      - 🇦🇺 澳洲04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 13
-      - US_121 | 9.18Mb
-      - 🇧🇷 巴西05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇸🇬 新加坡05|流媒体|专线3-569
+      - CN_29 |74.92Mb
+      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb
       - 🇭🇰 香港8|@ripaojiedian
-      - 🇳🇱 荷兰04|流媒体|专线2-569
-      - 🇱🇺 卢森堡05|流媒体|专线3-569
-      - 🇪🇸 西班牙04|流媒体|专线2-569
-      - 🇮🇹 意大利05|流媒体|专线3-569
-      - 🇨🇦 加拿大04|流媒体|专线2-569
-      - 🇱🇺 卢森堡04|流媒体|专线2-569
-      - 🇨🇿 捷克04|流媒体|专线2-569
-      - 🇧🇷 巴西05|流媒体|专线3-569 2
-      - 🇮🇳 印度04|流媒体|专线2-569
-      - 🇳🇴 挪威04|流媒体|专线2-569
-      - 🇺🇸 美国05|流媒体|专线3-569
-      - 🇰🇷 韩国04|流媒体|专线2-569
-      - 🇧🇷 巴西04|流媒体|专线2-569
-      - 🇯🇵 日本02-1A
-      - 🇧🇬 保加利亚05|流媒体|专线3-569
-      - 🇧🇷 巴西04|流媒体|专线2-569 2
-      - 🇸🇬 新加坡04|流媒体|专线2-569
-      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - SCP-NSC 05
+      - 🇺🇸 美国|@ripaojiedian
+      - US_421 |21.04Mb 2
+      - CN_12 |79.01Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-012-2G
+      - KR_81 |22.37Mb 2
+      - 🇺🇸 US美国(tg群:https://t.me/zhibeii_4
+      - FR_186 | 1.01Mb
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_140 |53.62Mb
       - KR_81 |22.37Mb
-      - 🇪🇸 西班牙05|流媒体|专线3-569
-      - 🇮🇹 意大利05|流媒体|专线3-569 2
-      - CZ_33 |64.13Mb
-      - 🇮🇳 印度05|流媒体|专线3-569
-      - 🇭🇰 香港05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 15
-      - 🇬🇧 英国04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 14
-      - 🇷🇺 俄罗斯_Telegram@kxswa 2
-      - 🇧🇬 保加利亚04|流媒体|专线2-569
-      - 🇩🇰 丹麦05|流媒体|专线3-569
-      - 🇮🇳 印度04|流媒体|专线2-569 2
-      - 🇺🇸 美国_Telegram@kxswa 17
-      - 🇺🇸 美国_Telegram@kxswa 19
-      - 🇩🇪 德国04|流媒体|专线2-569 2
-      - 🇦🇪 迪拜04|流媒体|专线2-569
-      - 🇰🇷 韩国05|流媒体|专线3-569
-      - 🇩🇰 丹麦_Telegram@kxswa
-      - 🇺🇸 美国_Telegram@kxswa 18
-      - 🇩🇰 丹麦04|流媒体|专线2-569
-      - 🇹🇷 土耳其05|流媒体|专线3-569
-      - 🇮🇳 印度05|流媒体|专线3-569 2
-      - 🇨🇿 捷克04|流媒体|专线2-569 2
-      - 🇺🇸 美国_Telegram@kxswa 20
-      - 🇦🇪 迪拜05|流媒体|专线3-569
-      - 🇹🇭 泰国04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇹🇷 土耳其04|流媒体|专线2-569
-      - 🇺🇸 美国_Telegram@kxswa 23
-      - ">Beta|🇺🇳 FP|Ns|1221|TG@FProxies|"
-      - 🇷🇸 塞尔维亚05|流媒体|专线3-569
-      - 🇦🇪 迪拜05|流媒体|专线3-569 2
-      - 🇩🇰 丹麦05|流媒体|专线3-569 2
-      - 🇷🇴 罗马尼亚05|流媒体|专线3-569
-      - 🇷🇴 罗马尼亚04|流媒体|专线2-569
-      - 🇭🇷 克罗地亚04|流媒体|专线2-569
-      - 🇭🇰 香港2|@ripaojiedian
-      - 🇬🇧 英国05|流媒体|专线3-569 2
-      - 🇨🇿 捷克05|流媒体|专线3-569
-      - 🇮🇹 意大利04|流媒体|专线2-569
-      - 🇹🇭 泰国05|流媒体|专线3-569
-      - 🇭🇰 香港04|流媒体|专线2-569
-      - 🇨🇦 加拿大04|流媒体|专线2-569 2
-      - 🇨🇿 捷克05|流媒体|专线3-569 2
-      - 🇩🇰 丹麦04|流媒体|专线2-569 2
-      - 🇨🇦 加拿大05|流媒体|专线3-569
-      - 🇺🇸 美国_Telegram@kxswa 7
-      - 🇦🇺 澳洲05|流媒体|专线3-569 2
-      - 🇰🇷 >🇰🇷 KR|Hs|1221|TG@FProxies|
-      - 🇳🇱 荷兰05|流媒体|专线3-569 2
-      - 🇬🇧 英国04|流媒体|专线2-569 2
-      - 🇷🇸 塞尔维亚04|流媒体|专线2-569
-      - 🇦🇺 澳洲04|流媒体|专线2-569 2
-      - 🇩🇪 德国05|流媒体|专线3-569 2
-      - 🇮🇹 意大利04|流媒体|专线2-569 2
-      - 🇭🇷 克罗地亚05|流媒体|专线3-569
-      - 🇯🇵 日本_Telegram@kxswa
-      - Relay_-🇭🇰HK_207 |18.01Mb
-      - 🇯🇵 日本_Telegram@kxswa 3
-      - 🇳🇱 荷兰04|流媒体|专线2-569 2
-      - 🇵🇱 波兰
-      - 🇯🇵 日本_Telegram@kxswa 2
-      - "🇺🇸 TG:@hkaa0|美国_91\r"
-      - 🇭🇰 香港2|@ripaojiedian 2
-      - 🇺🇸 美国_Telegram@kxswa 4
-      - 🇺🇸 美国_Telegram@kxswa 7 2
+      - 🇭🇰 香港 | 01-1G
+      - US_390 |33.76Mb 2
+      - 🇭🇰 香港 | 01-1G 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_147 |59.55Mb
+      - KR_81 |22.37Mb 2 2
+      - ZZ_449 |45.05Mb
+      - CN_28 |60.65Mb 2
+      - 🇷🇺 俄罗斯-圣彼得堡-014-2E
+      - CN_30 |48.50Mb
+      - US_390 |33.76Mb
+      - US_421 |21.04Mb
+      - US_121 | 9.18Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-013-1M
+      - 🇷🇺 俄罗斯-圣彼得堡-012-1A
+      - KR_81 |22.37Mb 3
+      - 🇸🇬 新加坡_Telegram@kxswa
+      - CN_30 |48.50Mb 2
+      - 🇭🇰 香港8|@ripaojiedian 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_150 |167.00Mb
+      - 🇷🇺 俄罗斯-圣彼得堡-012-2L
+      - CN_25 |61.96Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - 🇭🇰 香港4|@ripaojiedian
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
+      - US_121 | 9.18Mb 3
+      - 🇷🇺 俄罗斯-圣彼得堡-015-1P
+      - ️_未知_4
+      - 🇯🇵 >🇯🇵 JP|Ns|1221|TG@FProxies|
+      - 🇷🇺 俄罗斯中转
+      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_163 |30.73Mb 2
+      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_148 |61.97Mb
+      - US_121 | 9.18Mb 2
+      - US_121 | 9.18Mb 4
+      - CZ_33 |64.13Mb 3
+      - US_121 | 9.18Mb 5
   - name: 🎯 不挂代理
     type: select
     proxies:
