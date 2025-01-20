@@ -5,257 +5,96 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US2, server: jp.kaigai.softbank.best, port: 33967, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: CN_126 |18.32Mb, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_449 | 5.37Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: CZ_33 |64.13Mb 2 3, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: US_305 |215.52Mb, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "Antarctica [WARP] 1.5x", server: hk.kaigai.softbank.best, port: 37223, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 白嫖 8, server: 4.api-catssr.catcloud.host, port: 49897, type: ss, cipher: chacha20-ietf-poly1305, password: 2a167710-f1be-4201-ba87-b60136e0d8a6}
+  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇺🇸 TG:@hkaa0|美国_80\r", server: 38.121.43.27, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: CN_25 |61.96Mb 2, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: HK_241 | 0.74Mb, server: 118.193.33.237, port: 40908, type: vmess, uuid: 43740b3d-16b7-4d31-cf20-f1eab5e35bc9, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_134 | 8.72Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CN_bb060_0002, server: 183.236.51.23, port: 48109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _美国_17 2, server: 38.110.1.105, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
+  - {name: "🇺🇸 TG:@hkaa0|美国_72\r", server: 38.68.134.202, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇯🇵 普通节点-日本A-02, server: 1.linkhub.degree, port: 40202, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_580 |16.52Mb, server: sgfqkqmltcy.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: sgfqkqmltcy.site}}}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|, server: 120.232.81.50, port: 16088, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: US_390 |33.76Mb 3, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡L, server: jq8wh4wq.gym0boy.com, port: 55477, type: ss, cipher: chacha20-ietf-poly1305, password: c152af8c9b8e2d691b40b6d747f335fe}
-  - {name: CN_e13c7_0002, server: 183.236.51.23, port: 48109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 未知_Telegram@kxswa, server: naiu-other.05vr9nyqg5.download, port: 13035, type: trojan, password: e279c494-c426-443a-a034-a04516409242, sni: naiu-other.05vr9nyqg5.download, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_Telegram@kxswa, server: 54.199.148.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: US_655 |26.55Mb, server: 137.175.20.81, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_160 |326.12Mb, server: 107.148.207.249, port: 48712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: HK3, server: hk.kaigai.softbank.best, port: 49004, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 「🇭🇰」小极宫「超」x3, server: v17.emovpn.buzz, port: 1452, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_240 | 5.82Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: 「🇸🇬」寿元果 x2, server: t8.emovpn.buzz, port: 1275, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: HK6, server: hk.kaigai.softbank.best, port: 26296, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: JP_@juzibaipiao 橘子分享_129, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3FB23A19-9424-40C7-9139-3540228283FA}
-  - {name: "电报群: https://t.me/emovpn x3", server: t38.emoyes.top, port: 259, type: trojan, password: aad6d7ff-91f3-4835-8272-973b0dbd780f, sni: www.python.org, skip-cert-verify: true}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 「🇭🇰」香港14「超」x2, server: t30.emovpn.buzz, port: 3093, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: HK2, server: hk.kaigai.softbank.best, port: 46152, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 「🇭🇰」云梦阁「超」x3, server: v59.emovpn.buzz, port: 2271, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v59.emovpn.buzz}}}
-  - {name: ZZ_727 | 5.14Mb, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_25 |61.96Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇸🇬」龙蛇果 - 免流 | NF | D+ x2, server: v40.emovpn.buzz, port: 8286, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: CN_@juzibaipiao 橘子分享_3, server: 223.111.144.12, port: 21673, type: trojan, password: phXKwfrd, skip-cert-verify: true}
-  - {name: US_659 |21.78Mb, server: 137.175.20.84, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾-01, server: tw1.ydso.xyz, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: a81b96c6-d133-4458-b254-308c6bc49127}
-  - {name: 🇺🇸 美国 - 波特蘭 - Amazon.com, server: 54.218.237.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 「🇯🇵」日本09「普」x2, server: t28.emovpn.buzz, port: 6101, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇬🇧 _英国_5, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: "Bermuda [WARP] 1.5x", server: hk.kaigai.softbank.best, port: 33521, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_25 |61.96Mb 2, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_135 | 5.41Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: SG2 0.7x, server: sg.kaigai.softbank.best, port: 49636, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: JP_456 | 2.38Mb, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: 白嫖 5, server: 4.api-catssr.catcloud.host, port: 39550, type: ss, cipher: chacha20-ietf-poly1305, password: 2a167710-f1be-4201-ba87-b60136e0d8a6}
-  - {name: KR_80 |15.22Mb 2, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇲🇴 「🇲🇴」澳门03「超」| 油管无广告 x2, server: mo69.emovpn.buzz, port: 6080, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_ | 2.06Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119, server: 38.121.43.27, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_282 |13.74Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 「🇨🇳」台湾03「超」| 来看台妹 x2, server: tw66.emovpn.buzz, port: 2166, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
   - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:7001, server: 38.121.43.27, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 「🇸🇬」无边海「超」x1, server: t12.emovpn.buzz, port: 1850, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 「🇰🇷」番石榴 - 免流 x3, server: v55.emovpn.buzz, port: 8250, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇲🇽 Mexico, server: jp.kaigai.softbank.best, port: 49275, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
+  - {name: "🇺🇸 TG:@hkaa0|美国_75\r", server: 38.121.43.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇩🇪 德国1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 57001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇨🇳 果宝特攻-免费线路-台湾-长期, server: gdgs.tarioblink.me, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 5cc14127-cf4e-4e6b-a222-beeddb02ff66}
   - {name: Relay_-🇺🇸US_80 |26.75Mb, server: 104.17.213.241, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 普通节点-香港C-01, server: 3.link-hub.click, port: 40238, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: "🇹🇭 Thailand [ISP] 1.5x", server: hk.kaigai.softbank.best, port: 44634, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇭🇰」玉矶阁「超」x3, server: v58.emovpn.buzz, port: 2181, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v58.emovpn.buzz}}}
-  - {name: "🇰🇭 Cambodia [ISP] 2x", server: sg.kaigai.softbank.best, port: 22958, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇯🇵」翠玉梨 - 免流 x1, server: v3.emovpn.buzz, port: 3188, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 4, server: 54.95.11.184, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8008, server: 38.121.43.27, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: JP1, server: jp.kaigai.softbank.best, port: 40975, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: United Arab Emirates, server: sg.kaigai.softbank.best, port: 45816, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: "🇨🇳 TG:@hkaa0|中国_1\r", server: 203.23.128.33, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇭🇰 「🇭🇰」香港08「超」x2, server: t21.emovpn.buzz, port: 3094, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 「🇯🇵」EMO | 冰灵果 x3, server: t39.emoyes.top, port: 658, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.python.org, skip-cert-verify: true}
-  - {name: 🇯🇵 「🇯🇵」日本06「普」x2, server: v85.emovpn.buzz, port: 6158, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "Macau [WARP] 1.5x", server: hk.kaigai.softbank.best, port: 46221, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 「🇭🇰」香港06「普」x2, server: v88.emovpn.buzz, port: 8158, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇨🇳 台湾2, server: jq8wh4wq.gym0boy.com, port: 34969, type: ss, cipher: chacha20-ietf-poly1305, password: c152af8c9b8e2d691b40b6d747f335fe}
-  - {name: 🇫🇷 France, server: eu.kaigai.softbank.best, port: 28937, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: "🇵🇱 Poland [Edu]", server: eu.kaigai.softbank.best, port: 50799, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾1, server: jq8wh4wq.gym0boy.com, port: 18909, type: ss, cipher: chacha20-ietf-poly1305, password: c152af8c9b8e2d691b40b6d747f335fe}
-  - {name: 🇯🇵 日本, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)80b6690:72938}}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 - Jowon-dong - Korea Telecom - 9, server: p232.panda004.net, port: 59686, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 52.11.79.56:443, server: 52.11.79.56, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: ZZ_433 | 6.68Mb, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 「🇭🇰」虚天殿「超」x2, server: v12.emovpn.buzz, port: 8226, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 白嫖 1, server: 2.api-catssr.catcloud.host, port: 19682, type: ss, cipher: chacha20-ietf-poly1305, password: 2a167710-f1be-4201-ba87-b60136e0d8a6}
-  - {name: JP2, server: jp.kaigai.softbank.best, port: 57290, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: "🇬🇧 United Kingdom [Home]", server: eu.kaigai.softbank.best, port: 40773, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_390 |33.76Mb 3 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: KR_226 |26.61Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇸🇬」牛奶果 - 免流 | NF | D+ x2, server: v39.emovpn.buzz, port: 4355, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: "US3 [Home]", server: jp.kaigai.softbank.best, port: 13884, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: KR_469 |36.43Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: 「🇯🇵」内星海「超」x1, server: t2.emovpn.buzz, port: 4534, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "🇺🇸 TG:@hkaa0|美国_77\r", server: 38.75.136.117, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 2, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 「🇭🇰」香港03「普」x2, server: v79.emovpn.buzz, port: 6157, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇭🇰 「🇭🇰」香港15「普」x2, server: t29.emovpn.buzz, port: 6093, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: CZ_33 |64.13Mb 2 3 2, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🇺🇸US_508 |24.95Mb, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: "|11.88Mb", server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: US_390 |33.76Mb 3 3, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇯🇵」翠冠梨 - 免流 x3, server: v6.emovpn.buzz, port: 2342, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 「🇯🇵」外星海「超」x1, server: t3.emovpn.buzz, port: 5482, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: HK4, server: hk.kaigai.softbank.best, port: 48183, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: "HK7 [Home]", server: hk.kaigai.softbank.best, port: 52215, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 「🇸🇬」秋月梨 x3, server: t14.emovpn.buzz, port: 161, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇭🇰 「🇭🇰」香港02「超」x2, server: v78.emovpn.buzz, port: 5154, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 「🇯🇵」香水梨 - 免流 | NF | D+ x2, server: v43.emovpn.buzz, port: 6507, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: Relay_ | 2.06Mb 2, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 普通节点-美国B-02, server: 2.hublink.pro, port: 40211, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: DE_311 |33.29Mb, server: 64.225.109.206, port: 2082, type: vmess, uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇭🇰 普通节点-香港C-02, server: 3.link-hub.click, port: 40239, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: CN_125 |15.71Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇭🇰」洗心殿「超」x3, server: v56.emovpn.buzz, port: 8524, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v56.emovpn.buzz}}}
-  - {name: "电报群: https://t.me/emovpn x3 2", server: t38.emoyes.top, port: 259, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.python.org, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡 - 新加坡 - DigitalOcean, server: 68.183.227.45, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|, server: 120.232.81.50, port: 16088, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 🇭🇰 香港_Telegram@kxswa 2, server: 156.244.9.92, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇮🇹 Italy, server: eu.kaigai.softbank.best, port: 37162, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇳🇱 Netherlands 0.8x, server: eu.kaigai.softbank.best, port: 21304, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇯🇵 普通节点-日本A-01, server: 1.linkhub.degree, port: 40200, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: _88 |11.09Mb, server: 20.213.20.185, port: 17718, type: vmess, uuid: c206e022-34c6-4fe3-a232-b9c07ba3165d, alterId: 0, cipher: auto, tls: false}
-  - {name: SG3, server: sg.kaigai.softbank.best, port: 46156, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 「🇸🇬」金灵子 x2, server: t9.emovpn.buzz, port: 2322, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 「🇭🇰」香港11「超」x2, server: v81.emovpn.buzz, port: 5148, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379, server: 38.121.43.27, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇰🇷 韩国_Telegram@kxswa 2, server: 13.125.6.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 Germany 0.8x, server: eu.kaigai.softbank.best, port: 13037, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: CN_219 |341.53Mb, server: 107.148.207.249, port: 48712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |88.39Mb, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US1, server: jp.kaigai.softbank.best, port: 36889, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 6, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: SG1 0.7x, server: sg.kaigai.softbank.best, port: 59185, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: JP_249 | 6.30Mb, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇯🇵」EMO | 冰灵果 x3 2, server: t39.emoyes.top, port: 658, type: trojan, password: aad6d7ff-91f3-4835-8272-973b0dbd780f, sni: www.python.org, skip-cert-verify: true}
-  - {name: HK5, server: hk.kaigai.softbank.best, port: 11566, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇸🇬 新加坡-C2, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 3164812a-caea-4cd7-acad-9cf0627aac08}
-  - {name: DE_312 |49.02Mb, server: 188.245.218.62, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡-A1, server: 68.183.225.139, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: a81b96c6-d133-4458-b254-308c6bc49127}
-  - {name: 「🇸🇬」青脆李 - 免流 x1, server: v1.emovpn.buzz, port: 3287, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇺🇸 「🇰🇷」南美梨 - 免流 x3, server: v54.emovpn.buzz, port: 4575, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 7, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 普通节点-日本B-02, server: 2.hublink.pro, port: 40219, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: Relay_🏁ZZ-🇺🇸US_509 |26.85Mb, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_258 | 1.76Mb, server: 118.193.33.237, port: 40908, type: vmess, uuid: 43740b3d-16b7-4d31-cf20-f1eab5e35bc9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: "JP4 [ISP]", server: jp.kaigai.softbank.best, port: 37221, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 「🇰🇷」七灵海「超」x1, server: t5.emovpn.buzz, port: 1343, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: "|11.88Mb 2", server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: 「🇸🇬」水晶梨 x3, server: t13.emovpn.buzz, port: 1734, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国_Telegram@kxswa 21, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_213 |82.54Mb, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇸🇬」沙糖桔 - 免流 x1, server: v8.emovpn.buzz, port: 1382, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: US_630 |37.25Mb, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_121 | 9.18Mb 4, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: CN_30 |48.50Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: KR_226 |26.61Mb 2, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443, server: 38.121.43.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾-2, server: gdgs.tarioblink.me, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: a81b96c6-d133-4458-b254-308c6bc49127}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_389 |16.09Mb, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false}
-  - {name: US_635 | 2.20Mb, server: 154.47.21.27, port: 8099, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇭🇰」星空殿「超」x3, server: v57.emovpn.buzz, port: 2135, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v57.emovpn.buzz}}}
-  - {name: HK_241 | 0.74Mb, server: 118.193.33.237, port: 40908, type: vmess, uuid: 43740b3d-16b7-4d31-cf20-f1eab5e35bc9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_447 | 6.65Mb, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇭🇰」登仙阁「超」x3, server: v13.emovpn.buzz, port: 3110, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: HK_242 | 4.29Mb, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_29 |74.92Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 10, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN |82.50Mb, server: 107.148.207.249, port: 48712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 「🇯🇵」日本05「超」x2, server: v84.emovpn.buzz, port: 5157, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇸🇬 新加坡-C1, server: 68.183.225.139, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 3164812a-caea-4cd7-acad-9cf0627aac08}
-  - {name: "🇰🇷 South Korea [Home]", server: jp.kaigai.softbank.best, port: 40196, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇸🇬 新加坡-A2, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: a81b96c6-d133-4458-b254-308c6bc49127}
-  - {name: SG4, server: sg.kaigai.softbank.best, port: 46417, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2 2, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: KR_81 |22.37Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港1, server: jq8wh4wq.gym0boy.com, port: 47429, type: ss, cipher: chacha20-ietf-poly1305, password: c152af8c9b8e2d691b40b6d747f335fe}
-  - {name: 「🇰🇷」乱星海「超」x1, server: t4.emovpn.buzz, port: 8155, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 管理员B, server: 183.236.48.163, port: 54882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 Netherlands 0.7x, server: eu.kaigai.softbank.best, port: 28164, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇵🇭 Philippines [ISP] 2x", server: sg.kaigai.softbank.best, port: 24362, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: Turkiye, server: eu.kaigai.softbank.best, port: 64082, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: CN_133 |11.91Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: "🇺🇸 TG:@hkaa0|美国_91\r", server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: "🇻🇳 Vietnam [Home] 1.5x", server: hk.kaigai.softbank.best, port: 38169, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 34.221.178.146:443, server: 34.221.178.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: CN_132 |19.40Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 211.178.105.134:51633, server: 211.178.105.134, port: 51633, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: "🇺🇸 TG:@hkaa0|美国_38\r", server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb 2, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: DE_314 | 7.23Mb, server: 188.245.217.122, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
-  - {name: CZ_33 |64.13Mb, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: 「🇭🇰」灵缈园「超」x3, server: v21.emovpn.buzz, port: 1336, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 4, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: JP3, server: jp.kaigai.softbank.best, port: 31859, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: "TW1 [Home] 0.7x", server: hk.kaigai.softbank.best, port: 55702, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 「🇯🇵」可可果 - 免流 x1, server: v10.emovpn.buzz, port: 6871, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 「🇸🇬」雪莲果 | NF x1, server: t1.emovpn.buzz, port: 1405, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true}
-  - {name: 🇦🇺 Australia, server: sg.kaigai.softbank.best, port: 47050, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇸🇬 新加坡_Telegram@kxswa 2, server: 54.179.76.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 普通节点-日本A-02, server: 1.linkhub.degree, port: 40202, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 5, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 12, server: 36.150.215.220, port: 42293, type: trojan, password: phXKwfrd, skip-cert-verify: true}
-  - {name: 🇱🇺 Luxemburg 0.8x, server: eu.kaigai.softbank.best, port: 24643, type: ss, cipher: chacha20-ietf-poly1305, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_25 |61.96Mb 3, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 普通节点-美国B-01, server: 2.hublink.pro, port: 40210, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 4, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443, server: 38.121.43.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 乌克兰1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 51701, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 普通节点-美国B-02, server: 2.hublink.pro, port: 40211, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
+  - {name: US_561 | 2.44Mb, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_Telegram@kxswa 23, server: 185.189.160.98, port: 64759, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 「🇯🇵」黑加仑 - 免流 | NF | D+ x2, server: v44.emovpn.buzz, port: 8256, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: CN_29 |74.92Mb 2, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇰🇷 North Korea [WARP] 1.5x", server: hk.kaigai.softbank.best, port: 51346, type: ss, cipher: aes-128-gcm, password: ab6d0bac-0c75-4684-9628-16288f0229c2}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_171 |58.72Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国2, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 54002, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: "🇺🇸 TG:@hkaa0|美国_71\r", server: 38.68.134.202, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇸 美国1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 54001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: CZ_138 |78.54Mb, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
+  - {name: CN_e13c7_0002, server: 183.236.51.23, port: 48109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: JP_456 | 2.38Mb, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
+  - {name: Relay_ | 2.06Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_390 |33.76Mb 3 3, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379, server: 38.121.43.27, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 34.221.178.146:443, server: 34.221.178.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _美国_7, server: 38.110.1.105, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CN_125 |21.19Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_390 |33.76Mb 3 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _中国_8, server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: HK_401 | 3.71Mb, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
+  - {name: US_659 |21.78Mb, server: 137.175.20.84, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: HK_240 | 5.82Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 21, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 🇸🇬 SG 新加坡 01, server: hzz9.fgmcx.top, port: 23909, type: vmess, uuid: 9f79211a-45c0-4810-80e0-0768f686a1da, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: szsg.mmaccc.top}}}
+  - {name: 🇮🇳 印度1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 51301, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国3, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 54003, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: "🇺🇸 TG:@hkaa0|美国_77\r", server: 38.75.136.117, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: CN_bb060_0024, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 25, server: 38.110.1.46, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇬🇧 英国1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 56001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇯🇵 日本3, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 53003, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: CZ_33 |64.13Mb 2 3 2, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 TG:@hkaa0|美国_81\r", server: 38.121.43.27, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇯🇵 普通节点-日本A-01, server: 1.linkhub.degree, port: 40200, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
+  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇺🇸 TG:@hkaa0|美国_39\r", server: 38.68.134.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 5, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 CN-50Mbps-100G, server: dxv4.pai50288.uk, port: 14100, type: vmess, uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 TG:@hkaa0|美国_78\r", server: 38.121.43.27, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: CZ_33 |64.13Mb 2 3, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CN_126 | 8.84Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: CN_4b173_0009, server: 183.236.51.23, port: 54104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: "🇺🇸 TG:@hkaa0|美国_79\r", server: 38.121.43.27, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 「🇯🇵」冰糖橙 - 免流 x1, server: v9.emovpn.buzz, port: 3730, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: 🇭🇰 「🇭🇰」香港12「普」x2, server: v81.emovpn.buzz, port: 6156, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}}
-  - {name: CN_e13c7_0006, server: 183.236.48.158, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "", server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, servername: vc.fly.dev, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_621 |27.63Mb, server: 77.83.141.171, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: ZZ | 5.80Mb, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_655 |26.55Mb, server: 137.175.20.81, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港10, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 21002, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇸🇬 新加坡2, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 52002, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇭🇰 香港9, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 21001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇯🇵 日本2, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 53002, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇺🇸 美国4, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 54004, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇨🇦 加拿大1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 51401, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇸🇬 新加坡1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 52001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇯🇵 日本4, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 53004, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇨🇳 台湾2, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 51002, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇯🇵 日本1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 53001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇲🇾 马来西亚1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 59001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇻🇳 越南1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 58001, type: ss, cipher: aes-128-gcm, password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3}
+  - {name: 🇹🇭 泰国1, server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv, port: 33031, type: vmess, uuid: 64ddb7e7-618b-4413-bd14-8b28372cc2a3, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 TG:@hkaa0|美国_38\r", server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -267,1026 +106,382 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - US2
-      - CN_126 |18.32Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|
-      - HK_449 | 5.37Mb
-      - CZ_33 |64.13Mb 2 3
-      - US_305 |215.52Mb
-      - 🇸🇬 新加坡
-      - Antarctica [WARP] 1.5x
-      - 白嫖 8
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3
+      - "🇺🇸 TG:@hkaa0|美国_80\r"
+      - CN_25 |61.96Mb 2
+      - HK_241 | 0.74Mb
+      - CN_134 | 8.72Mb
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2
+      - CN_bb060_0002
+      - 🇺🇸 _美国_17 2
+      - "🇺🇸 TG:@hkaa0|美国_72\r"
+      - 🇯🇵 普通节点-日本A-02
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_580 |16.52Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4
       - US_390 |33.76Mb 3
-      - 🇸🇬 新加坡L
-      - CN_e13c7_0002
-      - 未知_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - US_655 |26.55Mb
-      - CN_160 |326.12Mb
-      - HK3
-      - 「🇭🇰」小极宫「超」x3
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2
-      - HK_240 | 5.82Mb
-      - 「🇸🇬」寿元果 x2
-      - HK6
-      - JP_@juzibaipiao 橘子分享_129
-      - "电报群: https://t.me/emovpn x3"
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
-      - 🇭🇰 「🇭🇰」香港14「超」x2
-      - HK2
-      - 「🇭🇰」云梦阁「超」x3
-      - ZZ_727 | 5.14Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
-      - CN_25 |61.96Mb
-      - 「🇸🇬」龙蛇果 - 免流 | NF | D+ x2
-      - CN_@juzibaipiao 橘子分享_3
-      - US_659 |21.78Mb
-      - 🇨🇳 台湾-01
-      - 🇺🇸 美国 - 波特蘭 - Amazon.com
-      - 🇯🇵 「🇯🇵」日本09「普」x2
-      - 🇬🇧 _英国_5
-      - Bermuda [WARP] 1.5x
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3
-      - CN_25 |61.96Mb 2
-      - CN_135 | 5.41Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
-      - SG2 0.7x
-      - JP_456 | 2.38Mb
-      - 白嫖 5
-      - KR_80 |15.22Mb 2
-      - 🇲🇴 「🇲🇴」澳门03「超」| 油管无广告 x2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2
-      - Relay_ | 2.06Mb
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2
-      - HK_282 |13.74Mb
-      - 🇨🇳 「🇨🇳」台湾03「超」| 来看台妹 x2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:7001
-      - 「🇸🇬」无边海「超」x1
-      - 「🇰🇷」番石榴 - 免流 x3
-      - 🇲🇽 Mexico
+      - "🇺🇸 TG:@hkaa0|美国_75\r"
+      - 🇩🇪 德国1
+      - 🇨🇳 果宝特攻-免费线路-台湾-长期
       - Relay_-🇺🇸US_80 |26.75Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2
-      - 🇭🇰 普通节点-香港C-01
-      - 🇹🇭 Thailand [ISP] 1.5x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb
-      - 「🇭🇰」玉矶阁「超」x3
-      - 🇰🇭 Cambodia [ISP] 2x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3
-      - 「🇯🇵」翠玉梨 - 免流 x1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 4
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8008
-      - JP1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5
-      - United Arab Emirates
-      - "🇨🇳 TG:@hkaa0|中国_1\r"
-      - 🇭🇰 「🇭🇰」香港08「超」x2
-      - 「🇯🇵」EMO | 冰灵果 x3
-      - 🇯🇵 「🇯🇵」日本06「普」x2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3
-      - Macau [WARP] 1.5x
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3
-      - 🇭🇰 「🇭🇰」香港06「普」x2
-      - 🇨🇳 台湾2
-      - 🇫🇷 France
-      - 🇵🇱 Poland [Edu]
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2
-      - 🇨🇳 台湾1
-      - 🇯🇵 日本
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 3
-      - 🇰🇷 韩国 - Jowon-dong - Korea Telecom - 9
-      - 52.11.79.56:443
-      - ZZ_433 | 6.68Mb
-      - 「🇭🇰」虚天殿「超」x2
-      - 白嫖 1
-      - JP2
-      - 🇬🇧 United Kingdom [Home]
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2 2
-      - US_390 |33.76Mb 3 2
-      - KR_226 |26.61Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2
-      - 「🇸🇬」牛奶果 - 免流 | NF | D+ x2
-      - US3 [Home]
-      - KR_469 |36.43Mb
-      - 「🇯🇵」内星海「超」x1
-      - "🇺🇸 TG:@hkaa0|美国_77\r"
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
-      - 🇭🇰 「🇭🇰」香港03「普」x2
-      - 🇭🇰 「🇭🇰」香港15「普」x2
-      - CZ_33 |64.13Mb 2 3 2
-      - Relay_🏁ZZ-🇺🇸US_508 |24.95Mb
-      - "|11.88Mb"
-      - US_390 |33.76Mb 3 3
-      - 「🇯🇵」翠冠梨 - 免流 x3
-      - 「🇯🇵」外星海「超」x1
-      - HK4
-      - HK7 [Home]
-      - 「🇸🇬」秋月梨 x3
-      - 🇭🇰 「🇭🇰」香港02「超」x2
-      - 「🇯🇵」香水梨 - 免流 | NF | D+ x2
-      - Relay_ | 2.06Mb 2
-      - 🇺🇸 普通节点-美国B-02
-      - DE_311 |33.29Mb
-      - 🇭🇰 普通节点-香港C-02
-      - CN_125 |15.71Mb
-      - 「🇭🇰」洗心殿「超」x3
-      - "电报群: https://t.me/emovpn x3 2"
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean
-      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇮🇹 Italy
-      - 🇳🇱 Netherlands 0.8x
-      - 🇯🇵 普通节点-日本A-01
-      - _88 |11.09Mb
-      - SG3
-      - 「🇸🇬」金灵子 x2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4
-      - 🇭🇰 「🇭🇰」香港11「超」x2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2
-      - 🇩🇪 Germany 0.8x
-      - CN_219 |341.53Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |88.39Mb
-      - US1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 6
-      - SG1 0.7x
-      - JP_249 | 6.30Mb
-      - 「🇯🇵」EMO | 冰灵果 x3 2
-      - HK5
-      - 🇸🇬 新加坡-C2
-      - DE_312 |49.02Mb
-      - 🇸🇬 新加坡-A1
-      - 「🇸🇬」青脆李 - 免流 x1
-      - 🇺🇸 「🇰🇷」南美梨 - 免流 x3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 7
-      - 🇯🇵 普通节点-日本B-02
-      - Relay_🏁ZZ-🇺🇸US_509 |26.85Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb
-      - HK_258 | 1.76Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2
-      - JP4 [ISP]
-      - 「🇰🇷」七灵海「超」x1
-      - "|11.88Mb 2"
-      - 「🇸🇬」水晶梨 x3
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_213 |82.54Mb
-      - 「🇸🇬」沙糖桔 - 免流 x1
-      - US_630 |37.25Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3 2
-      - US_121 | 9.18Mb 4
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3
-      - CN_30 |48.50Mb
-      - KR_226 |26.61Mb 2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
-      - 🇨🇳 台湾-2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2 2
-      - US_389 |16.09Mb
-      - US_635 | 2.20Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb
-      - 「🇭🇰」星空殿「超」x3
-      - HK_241 | 0.74Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3
-      - HK_447 | 6.65Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
-      - 「🇭🇰」登仙阁「超」x3
-      - HK_242 | 4.29Mb
-      - CN_29 |74.92Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 10
-      - 🇨🇳 CN |82.50Mb
-      - 🇯🇵 「🇯🇵」日本05「超」x2
-      - 🇸🇬 新加坡-C1
-      - 🇰🇷 South Korea [Home]
-      - 🇸🇬 新加坡-A2
-      - SG4
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2 2
-      - KR_81 |22.37Mb
-      - 🇭🇰 香港1
-      - 「🇰🇷」乱星海「超」x1
-      - 管理员B
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5 2
-      - 🇳🇱 Netherlands 0.7x
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4
-      - 🇵🇭 Philippines [ISP] 2x
-      - Turkiye
-      - CN_133 |11.91Mb
       - "🇺🇸 TG:@hkaa0|美国_91\r"
-      - 🇻🇳 Vietnam [Home] 1.5x
-      - 34.221.178.146:443
-      - CN_132 |19.40Mb
-      - 211.178.105.134:51633
-      - "🇺🇸 TG:@hkaa0|美国_38\r"
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb 2
-      - DE_314 | 7.23Mb
-      - CZ_33 |64.13Mb
-      - 「🇭🇰」灵缈园「超」x3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 4
-      - JP3
-      - TW1 [Home] 0.7x
-      - 「🇯🇵」可可果 - 免流 x1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3
-      - 「🇸🇬」雪莲果 | NF x1
-      - 🇦🇺 Australia
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇯🇵 普通节点-日本A-02
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 5
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇱🇺 Luxemburg 0.8x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2
-      - CN_25 |61.96Mb 3
-      - 🇺🇸 普通节点-美国B-01
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 4
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
+      - 乌克兰1
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2
+      - 🇺🇸 普通节点-美国B-02
+      - US_561 | 2.44Mb
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4
       - 🇭🇰 香港_Telegram@kxswa 23
-      - 「🇯🇵」黑加仑 - 免流 | NF | D+ x2
-      - CN_29 |74.92Mb 2
-      - 🇰🇷 North Korea [WARP] 1.5x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_171 |58.72Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3
+      - 🇺🇸 美国2
+      - "🇺🇸 TG:@hkaa0|美国_71\r"
+      - 🇺🇸 美国1
+      - CZ_138 |78.54Mb
+      - CN_e13c7_0002
+      - JP_456 | 2.38Mb
+      - Relay_ | 2.06Mb
+      - US_390 |33.76Mb 3 3
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3
+      - 34.221.178.146:443
+      - 🇺🇸 _美国_7
+      - CN_125 |21.19Mb
+      - US_390 |33.76Mb 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
+      - 🇨🇳 _中国_8
+      - HK_401 | 3.71Mb
+      - US_659 |21.78Mb
+      - HK_240 | 5.82Mb
+      - 🇺🇸 美国_Telegram@kxswa 21
+      - 🇸🇬 SG 新加坡 01
+      - 🇮🇳 印度1
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4
+      - 🇺🇸 美国3
+      - "🇺🇸 TG:@hkaa0|美国_77\r"
+      - CN_bb060_0024
+      - 🇺🇸 美国_Telegram@kxswa 25
+      - 🇬🇧 英国1
+      - 🇯🇵 日本3
+      - CZ_33 |64.13Mb 2 3 2
+      - "🇺🇸 TG:@hkaa0|美国_81\r"
+      - 🇯🇵 普通节点-日本A-01
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|
+      - "🇺🇸 TG:@hkaa0|美国_39\r"
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 5
+      - 🇨🇳 CN-50Mbps-100G
+      - "🇺🇸 TG:@hkaa0|美国_78\r"
+      - CZ_33 |64.13Mb 2 3
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2
+      - CN_126 | 8.84Mb
+      - CN_4b173_0009
       - "🇺🇸 TG:@hkaa0|美国_79\r"
-      - 「🇯🇵」冰糖橙 - 免流 x1
-      - 🇭🇰 「🇭🇰」香港12「普」x2
-      - CN_e13c7_0006
-      - ""
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_621 |27.63Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
-      - ZZ | 5.80Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb
+      - US_655 |26.55Mb
+      - 🇭🇰 香港10
+      - 🇸🇬 新加坡2
+      - 🇭🇰 香港9
+      - 🇯🇵 日本2
+      - 🇺🇸 美国4
+      - 🇨🇦 加拿大1
+      - 🇸🇬 新加坡1
+      - 🇯🇵 日本4
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本1
+      - 🇲🇾 马来西亚1
+      - 🇻🇳 越南1
+      - 🇹🇭 泰国1
+      - "🇺🇸 TG:@hkaa0|美国_38\r"
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - US2
-      - CN_126 |18.32Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|
-      - HK_449 | 5.37Mb
-      - CZ_33 |64.13Mb 2 3
-      - US_305 |215.52Mb
-      - 🇸🇬 新加坡
-      - Antarctica [WARP] 1.5x
-      - 白嫖 8
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3
+      - "🇺🇸 TG:@hkaa0|美国_80\r"
+      - CN_25 |61.96Mb 2
+      - HK_241 | 0.74Mb
+      - CN_134 | 8.72Mb
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2
+      - CN_bb060_0002
+      - 🇺🇸 _美国_17 2
+      - "🇺🇸 TG:@hkaa0|美国_72\r"
+      - 🇯🇵 普通节点-日本A-02
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_580 |16.52Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4
       - US_390 |33.76Mb 3
-      - 🇸🇬 新加坡L
-      - CN_e13c7_0002
-      - 未知_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - US_655 |26.55Mb
-      - CN_160 |326.12Mb
-      - HK3
-      - 「🇭🇰」小极宫「超」x3
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2
-      - HK_240 | 5.82Mb
-      - 「🇸🇬」寿元果 x2
-      - HK6
-      - JP_@juzibaipiao 橘子分享_129
-      - "电报群: https://t.me/emovpn x3"
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
-      - 🇭🇰 「🇭🇰」香港14「超」x2
-      - HK2
-      - 「🇭🇰」云梦阁「超」x3
-      - ZZ_727 | 5.14Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
-      - CN_25 |61.96Mb
-      - 「🇸🇬」龙蛇果 - 免流 | NF | D+ x2
-      - CN_@juzibaipiao 橘子分享_3
-      - US_659 |21.78Mb
-      - 🇨🇳 台湾-01
-      - 🇺🇸 美国 - 波特蘭 - Amazon.com
-      - 🇯🇵 「🇯🇵」日本09「普」x2
-      - 🇬🇧 _英国_5
-      - Bermuda [WARP] 1.5x
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3
-      - CN_25 |61.96Mb 2
-      - CN_135 | 5.41Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
-      - SG2 0.7x
-      - JP_456 | 2.38Mb
-      - 白嫖 5
-      - KR_80 |15.22Mb 2
-      - 🇲🇴 「🇲🇴」澳门03「超」| 油管无广告 x2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2
-      - Relay_ | 2.06Mb
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2
-      - HK_282 |13.74Mb
-      - 🇨🇳 「🇨🇳」台湾03「超」| 来看台妹 x2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:7001
-      - 「🇸🇬」无边海「超」x1
-      - 「🇰🇷」番石榴 - 免流 x3
-      - 🇲🇽 Mexico
+      - "🇺🇸 TG:@hkaa0|美国_75\r"
+      - 🇩🇪 德国1
+      - 🇨🇳 果宝特攻-免费线路-台湾-长期
       - Relay_-🇺🇸US_80 |26.75Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2
-      - 🇭🇰 普通节点-香港C-01
-      - 🇹🇭 Thailand [ISP] 1.5x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb
-      - 「🇭🇰」玉矶阁「超」x3
-      - 🇰🇭 Cambodia [ISP] 2x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3
-      - 「🇯🇵」翠玉梨 - 免流 x1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 4
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8008
-      - JP1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5
-      - United Arab Emirates
-      - "🇨🇳 TG:@hkaa0|中国_1\r"
-      - 🇭🇰 「🇭🇰」香港08「超」x2
-      - 「🇯🇵」EMO | 冰灵果 x3
-      - 🇯🇵 「🇯🇵」日本06「普」x2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3
-      - Macau [WARP] 1.5x
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3
-      - 🇭🇰 「🇭🇰」香港06「普」x2
-      - 🇨🇳 台湾2
-      - 🇫🇷 France
-      - 🇵🇱 Poland [Edu]
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2
-      - 🇨🇳 台湾1
-      - 🇯🇵 日本
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 3
-      - 🇰🇷 韩国 - Jowon-dong - Korea Telecom - 9
-      - 52.11.79.56:443
-      - ZZ_433 | 6.68Mb
-      - 「🇭🇰」虚天殿「超」x2
-      - 白嫖 1
-      - JP2
-      - 🇬🇧 United Kingdom [Home]
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2 2
-      - US_390 |33.76Mb 3 2
-      - KR_226 |26.61Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2
-      - 「🇸🇬」牛奶果 - 免流 | NF | D+ x2
-      - US3 [Home]
-      - KR_469 |36.43Mb
-      - 「🇯🇵」内星海「超」x1
-      - "🇺🇸 TG:@hkaa0|美国_77\r"
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
-      - 🇭🇰 「🇭🇰」香港03「普」x2
-      - 🇭🇰 「🇭🇰」香港15「普」x2
-      - CZ_33 |64.13Mb 2 3 2
-      - Relay_🏁ZZ-🇺🇸US_508 |24.95Mb
-      - "|11.88Mb"
-      - US_390 |33.76Mb 3 3
-      - 「🇯🇵」翠冠梨 - 免流 x3
-      - 「🇯🇵」外星海「超」x1
-      - HK4
-      - HK7 [Home]
-      - 「🇸🇬」秋月梨 x3
-      - 🇭🇰 「🇭🇰」香港02「超」x2
-      - 「🇯🇵」香水梨 - 免流 | NF | D+ x2
-      - Relay_ | 2.06Mb 2
-      - 🇺🇸 普通节点-美国B-02
-      - DE_311 |33.29Mb
-      - 🇭🇰 普通节点-香港C-02
-      - CN_125 |15.71Mb
-      - 「🇭🇰」洗心殿「超」x3
-      - "电报群: https://t.me/emovpn x3 2"
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean
-      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇮🇹 Italy
-      - 🇳🇱 Netherlands 0.8x
-      - 🇯🇵 普通节点-日本A-01
-      - _88 |11.09Mb
-      - SG3
-      - 「🇸🇬」金灵子 x2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4
-      - 🇭🇰 「🇭🇰」香港11「超」x2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2
-      - 🇩🇪 Germany 0.8x
-      - CN_219 |341.53Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |88.39Mb
-      - US1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 6
-      - SG1 0.7x
-      - JP_249 | 6.30Mb
-      - 「🇯🇵」EMO | 冰灵果 x3 2
-      - HK5
-      - 🇸🇬 新加坡-C2
-      - DE_312 |49.02Mb
-      - 🇸🇬 新加坡-A1
-      - 「🇸🇬」青脆李 - 免流 x1
-      - 🇺🇸 「🇰🇷」南美梨 - 免流 x3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 7
-      - 🇯🇵 普通节点-日本B-02
-      - Relay_🏁ZZ-🇺🇸US_509 |26.85Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb
-      - HK_258 | 1.76Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2
-      - JP4 [ISP]
-      - 「🇰🇷」七灵海「超」x1
-      - "|11.88Mb 2"
-      - 「🇸🇬」水晶梨 x3
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_213 |82.54Mb
-      - 「🇸🇬」沙糖桔 - 免流 x1
-      - US_630 |37.25Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3 2
-      - US_121 | 9.18Mb 4
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3
-      - CN_30 |48.50Mb
-      - KR_226 |26.61Mb 2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
-      - 🇨🇳 台湾-2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2 2
-      - US_389 |16.09Mb
-      - US_635 | 2.20Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb
-      - 「🇭🇰」星空殿「超」x3
-      - HK_241 | 0.74Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3
-      - HK_447 | 6.65Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
-      - 「🇭🇰」登仙阁「超」x3
-      - HK_242 | 4.29Mb
-      - CN_29 |74.92Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 10
-      - 🇨🇳 CN |82.50Mb
-      - 🇯🇵 「🇯🇵」日本05「超」x2
-      - 🇸🇬 新加坡-C1
-      - 🇰🇷 South Korea [Home]
-      - 🇸🇬 新加坡-A2
-      - SG4
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2 2
-      - KR_81 |22.37Mb
-      - 🇭🇰 香港1
-      - 「🇰🇷」乱星海「超」x1
-      - 管理员B
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5 2
-      - 🇳🇱 Netherlands 0.7x
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4
-      - 🇵🇭 Philippines [ISP] 2x
-      - Turkiye
-      - CN_133 |11.91Mb
       - "🇺🇸 TG:@hkaa0|美国_91\r"
-      - 🇻🇳 Vietnam [Home] 1.5x
-      - 34.221.178.146:443
-      - CN_132 |19.40Mb
-      - 211.178.105.134:51633
-      - "🇺🇸 TG:@hkaa0|美国_38\r"
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb 2
-      - DE_314 | 7.23Mb
-      - CZ_33 |64.13Mb
-      - 「🇭🇰」灵缈园「超」x3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 4
-      - JP3
-      - TW1 [Home] 0.7x
-      - 「🇯🇵」可可果 - 免流 x1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3
-      - 「🇸🇬」雪莲果 | NF x1
-      - 🇦🇺 Australia
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇯🇵 普通节点-日本A-02
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 5
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇱🇺 Luxemburg 0.8x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2
-      - CN_25 |61.96Mb 3
-      - 🇺🇸 普通节点-美国B-01
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 4
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
+      - 乌克兰1
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2
+      - 🇺🇸 普通节点-美国B-02
+      - US_561 | 2.44Mb
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4
       - 🇭🇰 香港_Telegram@kxswa 23
-      - 「🇯🇵」黑加仑 - 免流 | NF | D+ x2
-      - CN_29 |74.92Mb 2
-      - 🇰🇷 North Korea [WARP] 1.5x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_171 |58.72Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3
+      - 🇺🇸 美国2
+      - "🇺🇸 TG:@hkaa0|美国_71\r"
+      - 🇺🇸 美国1
+      - CZ_138 |78.54Mb
+      - CN_e13c7_0002
+      - JP_456 | 2.38Mb
+      - Relay_ | 2.06Mb
+      - US_390 |33.76Mb 3 3
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3
+      - 34.221.178.146:443
+      - 🇺🇸 _美国_7
+      - CN_125 |21.19Mb
+      - US_390 |33.76Mb 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
+      - 🇨🇳 _中国_8
+      - HK_401 | 3.71Mb
+      - US_659 |21.78Mb
+      - HK_240 | 5.82Mb
+      - 🇺🇸 美国_Telegram@kxswa 21
+      - 🇸🇬 SG 新加坡 01
+      - 🇮🇳 印度1
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4
+      - 🇺🇸 美国3
+      - "🇺🇸 TG:@hkaa0|美国_77\r"
+      - CN_bb060_0024
+      - 🇺🇸 美国_Telegram@kxswa 25
+      - 🇬🇧 英国1
+      - 🇯🇵 日本3
+      - CZ_33 |64.13Mb 2 3 2
+      - "🇺🇸 TG:@hkaa0|美国_81\r"
+      - 🇯🇵 普通节点-日本A-01
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|
+      - "🇺🇸 TG:@hkaa0|美国_39\r"
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 5
+      - 🇨🇳 CN-50Mbps-100G
+      - "🇺🇸 TG:@hkaa0|美国_78\r"
+      - CZ_33 |64.13Mb 2 3
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2
+      - CN_126 | 8.84Mb
+      - CN_4b173_0009
       - "🇺🇸 TG:@hkaa0|美国_79\r"
-      - 「🇯🇵」冰糖橙 - 免流 x1
-      - 🇭🇰 「🇭🇰」香港12「普」x2
-      - CN_e13c7_0006
-      - ""
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_621 |27.63Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
-      - ZZ | 5.80Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb
+      - US_655 |26.55Mb
+      - 🇭🇰 香港10
+      - 🇸🇬 新加坡2
+      - 🇭🇰 香港9
+      - 🇯🇵 日本2
+      - 🇺🇸 美国4
+      - 🇨🇦 加拿大1
+      - 🇸🇬 新加坡1
+      - 🇯🇵 日本4
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本1
+      - 🇲🇾 马来西亚1
+      - 🇻🇳 越南1
+      - 🇹🇭 泰国1
+      - "🇺🇸 TG:@hkaa0|美国_38\r"
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - US2
-      - CN_126 |18.32Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|
-      - HK_449 | 5.37Mb
-      - CZ_33 |64.13Mb 2 3
-      - US_305 |215.52Mb
-      - 🇸🇬 新加坡
-      - Antarctica [WARP] 1.5x
-      - 白嫖 8
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3
+      - "🇺🇸 TG:@hkaa0|美国_80\r"
+      - CN_25 |61.96Mb 2
+      - HK_241 | 0.74Mb
+      - CN_134 | 8.72Mb
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2
+      - CN_bb060_0002
+      - 🇺🇸 _美国_17 2
+      - "🇺🇸 TG:@hkaa0|美国_72\r"
+      - 🇯🇵 普通节点-日本A-02
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_580 |16.52Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4
       - US_390 |33.76Mb 3
-      - 🇸🇬 新加坡L
-      - CN_e13c7_0002
-      - 未知_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - US_655 |26.55Mb
-      - CN_160 |326.12Mb
-      - HK3
-      - 「🇭🇰」小极宫「超」x3
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2
-      - HK_240 | 5.82Mb
-      - 「🇸🇬」寿元果 x2
-      - HK6
-      - JP_@juzibaipiao 橘子分享_129
-      - "电报群: https://t.me/emovpn x3"
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
-      - 🇭🇰 「🇭🇰」香港14「超」x2
-      - HK2
-      - 「🇭🇰」云梦阁「超」x3
-      - ZZ_727 | 5.14Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
-      - CN_25 |61.96Mb
-      - 「🇸🇬」龙蛇果 - 免流 | NF | D+ x2
-      - CN_@juzibaipiao 橘子分享_3
-      - US_659 |21.78Mb
-      - 🇨🇳 台湾-01
-      - 🇺🇸 美国 - 波特蘭 - Amazon.com
-      - 🇯🇵 「🇯🇵」日本09「普」x2
-      - 🇬🇧 _英国_5
-      - Bermuda [WARP] 1.5x
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3
-      - CN_25 |61.96Mb 2
-      - CN_135 | 5.41Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
-      - SG2 0.7x
-      - JP_456 | 2.38Mb
-      - 白嫖 5
-      - KR_80 |15.22Mb 2
-      - 🇲🇴 「🇲🇴」澳门03「超」| 油管无广告 x2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2
-      - Relay_ | 2.06Mb
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2
-      - HK_282 |13.74Mb
-      - 🇨🇳 「🇨🇳」台湾03「超」| 来看台妹 x2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:7001
-      - 「🇸🇬」无边海「超」x1
-      - 「🇰🇷」番石榴 - 免流 x3
-      - 🇲🇽 Mexico
+      - "🇺🇸 TG:@hkaa0|美国_75\r"
+      - 🇩🇪 德国1
+      - 🇨🇳 果宝特攻-免费线路-台湾-长期
       - Relay_-🇺🇸US_80 |26.75Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2
-      - 🇭🇰 普通节点-香港C-01
-      - 🇹🇭 Thailand [ISP] 1.5x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb
-      - 「🇭🇰」玉矶阁「超」x3
-      - 🇰🇭 Cambodia [ISP] 2x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3
-      - 「🇯🇵」翠玉梨 - 免流 x1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 4
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8008
-      - JP1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5
-      - United Arab Emirates
-      - "🇨🇳 TG:@hkaa0|中国_1\r"
-      - 🇭🇰 「🇭🇰」香港08「超」x2
-      - 「🇯🇵」EMO | 冰灵果 x3
-      - 🇯🇵 「🇯🇵」日本06「普」x2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3
-      - Macau [WARP] 1.5x
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3
-      - 🇭🇰 「🇭🇰」香港06「普」x2
-      - 🇨🇳 台湾2
-      - 🇫🇷 France
-      - 🇵🇱 Poland [Edu]
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2
-      - 🇨🇳 台湾1
-      - 🇯🇵 日本
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 3
-      - 🇰🇷 韩国 - Jowon-dong - Korea Telecom - 9
-      - 52.11.79.56:443
-      - ZZ_433 | 6.68Mb
-      - 「🇭🇰」虚天殿「超」x2
-      - 白嫖 1
-      - JP2
-      - 🇬🇧 United Kingdom [Home]
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2 2
-      - US_390 |33.76Mb 3 2
-      - KR_226 |26.61Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2
-      - 「🇸🇬」牛奶果 - 免流 | NF | D+ x2
-      - US3 [Home]
-      - KR_469 |36.43Mb
-      - 「🇯🇵」内星海「超」x1
-      - "🇺🇸 TG:@hkaa0|美国_77\r"
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
-      - 🇭🇰 「🇭🇰」香港03「普」x2
-      - 🇭🇰 「🇭🇰」香港15「普」x2
-      - CZ_33 |64.13Mb 2 3 2
-      - Relay_🏁ZZ-🇺🇸US_508 |24.95Mb
-      - "|11.88Mb"
-      - US_390 |33.76Mb 3 3
-      - 「🇯🇵」翠冠梨 - 免流 x3
-      - 「🇯🇵」外星海「超」x1
-      - HK4
-      - HK7 [Home]
-      - 「🇸🇬」秋月梨 x3
-      - 🇭🇰 「🇭🇰」香港02「超」x2
-      - 「🇯🇵」香水梨 - 免流 | NF | D+ x2
-      - Relay_ | 2.06Mb 2
-      - 🇺🇸 普通节点-美国B-02
-      - DE_311 |33.29Mb
-      - 🇭🇰 普通节点-香港C-02
-      - CN_125 |15.71Mb
-      - 「🇭🇰」洗心殿「超」x3
-      - "电报群: https://t.me/emovpn x3 2"
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean
-      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇮🇹 Italy
-      - 🇳🇱 Netherlands 0.8x
-      - 🇯🇵 普通节点-日本A-01
-      - _88 |11.09Mb
-      - SG3
-      - 「🇸🇬」金灵子 x2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4
-      - 🇭🇰 「🇭🇰」香港11「超」x2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2
-      - 🇩🇪 Germany 0.8x
-      - CN_219 |341.53Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |88.39Mb
-      - US1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 6
-      - SG1 0.7x
-      - JP_249 | 6.30Mb
-      - 「🇯🇵」EMO | 冰灵果 x3 2
-      - HK5
-      - 🇸🇬 新加坡-C2
-      - DE_312 |49.02Mb
-      - 🇸🇬 新加坡-A1
-      - 「🇸🇬」青脆李 - 免流 x1
-      - 🇺🇸 「🇰🇷」南美梨 - 免流 x3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 7
-      - 🇯🇵 普通节点-日本B-02
-      - Relay_🏁ZZ-🇺🇸US_509 |26.85Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb
-      - HK_258 | 1.76Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2
-      - JP4 [ISP]
-      - 「🇰🇷」七灵海「超」x1
-      - "|11.88Mb 2"
-      - 「🇸🇬」水晶梨 x3
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_213 |82.54Mb
-      - 「🇸🇬」沙糖桔 - 免流 x1
-      - US_630 |37.25Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3 2
-      - US_121 | 9.18Mb 4
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3
-      - CN_30 |48.50Mb
-      - KR_226 |26.61Mb 2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
-      - 🇨🇳 台湾-2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2 2
-      - US_389 |16.09Mb
-      - US_635 | 2.20Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb
-      - 「🇭🇰」星空殿「超」x3
-      - HK_241 | 0.74Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3
-      - HK_447 | 6.65Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
-      - 「🇭🇰」登仙阁「超」x3
-      - HK_242 | 4.29Mb
-      - CN_29 |74.92Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 10
-      - 🇨🇳 CN |82.50Mb
-      - 🇯🇵 「🇯🇵」日本05「超」x2
-      - 🇸🇬 新加坡-C1
-      - 🇰🇷 South Korea [Home]
-      - 🇸🇬 新加坡-A2
-      - SG4
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2 2
-      - KR_81 |22.37Mb
-      - 🇭🇰 香港1
-      - 「🇰🇷」乱星海「超」x1
-      - 管理员B
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5 2
-      - 🇳🇱 Netherlands 0.7x
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4
-      - 🇵🇭 Philippines [ISP] 2x
-      - Turkiye
-      - CN_133 |11.91Mb
       - "🇺🇸 TG:@hkaa0|美国_91\r"
-      - 🇻🇳 Vietnam [Home] 1.5x
-      - 34.221.178.146:443
-      - CN_132 |19.40Mb
-      - 211.178.105.134:51633
-      - "🇺🇸 TG:@hkaa0|美国_38\r"
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb 2
-      - DE_314 | 7.23Mb
-      - CZ_33 |64.13Mb
-      - 「🇭🇰」灵缈园「超」x3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 4
-      - JP3
-      - TW1 [Home] 0.7x
-      - 「🇯🇵」可可果 - 免流 x1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3
-      - 「🇸🇬」雪莲果 | NF x1
-      - 🇦🇺 Australia
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇯🇵 普通节点-日本A-02
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 5
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇱🇺 Luxemburg 0.8x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2
-      - CN_25 |61.96Mb 3
-      - 🇺🇸 普通节点-美国B-01
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 4
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
+      - 乌克兰1
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2
+      - 🇺🇸 普通节点-美国B-02
+      - US_561 | 2.44Mb
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4
       - 🇭🇰 香港_Telegram@kxswa 23
-      - 「🇯🇵」黑加仑 - 免流 | NF | D+ x2
-      - CN_29 |74.92Mb 2
-      - 🇰🇷 North Korea [WARP] 1.5x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_171 |58.72Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3
+      - 🇺🇸 美国2
+      - "🇺🇸 TG:@hkaa0|美国_71\r"
+      - 🇺🇸 美国1
+      - CZ_138 |78.54Mb
+      - CN_e13c7_0002
+      - JP_456 | 2.38Mb
+      - Relay_ | 2.06Mb
+      - US_390 |33.76Mb 3 3
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3
+      - 34.221.178.146:443
+      - 🇺🇸 _美国_7
+      - CN_125 |21.19Mb
+      - US_390 |33.76Mb 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
+      - 🇨🇳 _中国_8
+      - HK_401 | 3.71Mb
+      - US_659 |21.78Mb
+      - HK_240 | 5.82Mb
+      - 🇺🇸 美国_Telegram@kxswa 21
+      - 🇸🇬 SG 新加坡 01
+      - 🇮🇳 印度1
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4
+      - 🇺🇸 美国3
+      - "🇺🇸 TG:@hkaa0|美国_77\r"
+      - CN_bb060_0024
+      - 🇺🇸 美国_Telegram@kxswa 25
+      - 🇬🇧 英国1
+      - 🇯🇵 日本3
+      - CZ_33 |64.13Mb 2 3 2
+      - "🇺🇸 TG:@hkaa0|美国_81\r"
+      - 🇯🇵 普通节点-日本A-01
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|
+      - "🇺🇸 TG:@hkaa0|美国_39\r"
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 5
+      - 🇨🇳 CN-50Mbps-100G
+      - "🇺🇸 TG:@hkaa0|美国_78\r"
+      - CZ_33 |64.13Mb 2 3
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2
+      - CN_126 | 8.84Mb
+      - CN_4b173_0009
       - "🇺🇸 TG:@hkaa0|美国_79\r"
-      - 「🇯🇵」冰糖橙 - 免流 x1
-      - 🇭🇰 「🇭🇰」香港12「普」x2
-      - CN_e13c7_0006
-      - ""
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_621 |27.63Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
-      - ZZ | 5.80Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb
+      - US_655 |26.55Mb
+      - 🇭🇰 香港10
+      - 🇸🇬 新加坡2
+      - 🇭🇰 香港9
+      - 🇯🇵 日本2
+      - 🇺🇸 美国4
+      - 🇨🇦 加拿大1
+      - 🇸🇬 新加坡1
+      - 🇯🇵 日本4
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本1
+      - 🇲🇾 马来西亚1
+      - 🇻🇳 越南1
+      - 🇹🇭 泰国1
+      - "🇺🇸 TG:@hkaa0|美国_38\r"
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - US2
-      - CN_126 |18.32Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|
-      - HK_449 | 5.37Mb
-      - CZ_33 |64.13Mb 2 3
-      - US_305 |215.52Mb
-      - 🇸🇬 新加坡
-      - Antarctica [WARP] 1.5x
-      - 白嫖 8
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3
+      - "🇺🇸 TG:@hkaa0|美国_80\r"
+      - CN_25 |61.96Mb 2
+      - HK_241 | 0.74Mb
+      - CN_134 | 8.72Mb
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2
+      - CN_bb060_0002
+      - 🇺🇸 _美国_17 2
+      - "🇺🇸 TG:@hkaa0|美国_72\r"
+      - 🇯🇵 普通节点-日本A-02
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_580 |16.52Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4
       - US_390 |33.76Mb 3
-      - 🇸🇬 新加坡L
-      - CN_e13c7_0002
-      - 未知_Telegram@kxswa
-      - 🇯🇵 日本_Telegram@kxswa
-      - US_655 |26.55Mb
-      - CN_160 |326.12Mb
-      - HK3
-      - 「🇭🇰」小极宫「超」x3
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2
-      - HK_240 | 5.82Mb
-      - 「🇸🇬」寿元果 x2
-      - HK6
-      - JP_@juzibaipiao 橘子分享_129
-      - "电报群: https://t.me/emovpn x3"
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
-      - 🇭🇰 「🇭🇰」香港14「超」x2
-      - HK2
-      - 「🇭🇰」云梦阁「超」x3
-      - ZZ_727 | 5.14Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
-      - CN_25 |61.96Mb
-      - 「🇸🇬」龙蛇果 - 免流 | NF | D+ x2
-      - CN_@juzibaipiao 橘子分享_3
-      - US_659 |21.78Mb
-      - 🇨🇳 台湾-01
-      - 🇺🇸 美国 - 波特蘭 - Amazon.com
-      - 🇯🇵 「🇯🇵」日本09「普」x2
-      - 🇬🇧 _英国_5
-      - Bermuda [WARP] 1.5x
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 3
-      - CN_25 |61.96Mb 2
-      - CN_135 | 5.41Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
-      - SG2 0.7x
-      - JP_456 | 2.38Mb
-      - 白嫖 5
-      - KR_80 |15.22Mb 2
-      - 🇲🇴 「🇲🇴」澳门03「超」| 油管无广告 x2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2
-      - Relay_ | 2.06Mb
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2
-      - HK_282 |13.74Mb
-      - 🇨🇳 「🇨🇳」台湾03「超」| 来看台妹 x2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:7001
-      - 「🇸🇬」无边海「超」x1
-      - 「🇰🇷」番石榴 - 免流 x3
-      - 🇲🇽 Mexico
+      - "🇺🇸 TG:@hkaa0|美国_75\r"
+      - 🇩🇪 德国1
+      - 🇨🇳 果宝特攻-免费线路-台湾-长期
       - Relay_-🇺🇸US_80 |26.75Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2
-      - 🇭🇰 普通节点-香港C-01
-      - 🇹🇭 Thailand [ISP] 1.5x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb
-      - 「🇭🇰」玉矶阁「超」x3
-      - 🇰🇭 Cambodia [ISP] 2x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3
-      - 「🇯🇵」翠玉梨 - 免流 x1
-      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc. - 4
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8008
-      - JP1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5
-      - United Arab Emirates
-      - "🇨🇳 TG:@hkaa0|中国_1\r"
-      - 🇭🇰 「🇭🇰」香港08「超」x2
-      - 「🇯🇵」EMO | 冰灵果 x3
-      - 🇯🇵 「🇯🇵」日本06「普」x2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3
-      - Macau [WARP] 1.5x
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3
-      - 🇭🇰 「🇭🇰」香港06「普」x2
-      - 🇨🇳 台湾2
-      - 🇫🇷 France
-      - 🇵🇱 Poland [Edu]
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2
-      - 🇨🇳 台湾1
-      - 🇯🇵 日本
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 3
-      - 🇰🇷 韩国 - Jowon-dong - Korea Telecom - 9
-      - 52.11.79.56:443
-      - ZZ_433 | 6.68Mb
-      - 「🇭🇰」虚天殿「超」x2
-      - 白嫖 1
-      - JP2
-      - 🇬🇧 United Kingdom [Home]
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2 2
-      - US_390 |33.76Mb 3 2
-      - KR_226 |26.61Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2
-      - 「🇸🇬」牛奶果 - 免流 | NF | D+ x2
-      - US3 [Home]
-      - KR_469 |36.43Mb
-      - 「🇯🇵」内星海「超」x1
-      - "🇺🇸 TG:@hkaa0|美国_77\r"
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
-      - 🇭🇰 「🇭🇰」香港03「普」x2
-      - 🇭🇰 「🇭🇰」香港15「普」x2
-      - CZ_33 |64.13Mb 2 3 2
-      - Relay_🏁ZZ-🇺🇸US_508 |24.95Mb
-      - "|11.88Mb"
-      - US_390 |33.76Mb 3 3
-      - 「🇯🇵」翠冠梨 - 免流 x3
-      - 「🇯🇵」外星海「超」x1
-      - HK4
-      - HK7 [Home]
-      - 「🇸🇬」秋月梨 x3
-      - 🇭🇰 「🇭🇰」香港02「超」x2
-      - 「🇯🇵」香水梨 - 免流 | NF | D+ x2
-      - Relay_ | 2.06Mb 2
-      - 🇺🇸 普通节点-美国B-02
-      - DE_311 |33.29Mb
-      - 🇭🇰 普通节点-香港C-02
-      - CN_125 |15.71Mb
-      - 「🇭🇰」洗心殿「超」x3
-      - "电报群: https://t.me/emovpn x3 2"
-      - 🇸🇬 新加坡 - 新加坡 - DigitalOcean
-      - 🇭🇰 >🇭🇰 HK|Hs|1221|TG@FProxies|
-      - 🇭🇰 香港_Telegram@kxswa 2
-      - 🇮🇹 Italy
-      - 🇳🇱 Netherlands 0.8x
-      - 🇯🇵 普通节点-日本A-01
-      - _88 |11.09Mb
-      - SG3
-      - 「🇸🇬」金灵子 x2
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4
-      - 🇭🇰 「🇭🇰」香港11「超」x2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
-      - 🇰🇷 韩国_Telegram@kxswa 2
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2
-      - 🇩🇪 Germany 0.8x
-      - CN_219 |341.53Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |88.39Mb
-      - US1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 6
-      - SG1 0.7x
-      - JP_249 | 6.30Mb
-      - 「🇯🇵」EMO | 冰灵果 x3 2
-      - HK5
-      - 🇸🇬 新加坡-C2
-      - DE_312 |49.02Mb
-      - 🇸🇬 新加坡-A1
-      - 「🇸🇬」青脆李 - 免流 x1
-      - 🇺🇸 「🇰🇷」南美梨 - 免流 x3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 7
-      - 🇯🇵 普通节点-日本B-02
-      - Relay_🏁ZZ-🇺🇸US_509 |26.85Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb
-      - HK_258 | 1.76Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2
-      - JP4 [ISP]
-      - 「🇰🇷」七灵海「超」x1
-      - "|11.88Mb 2"
-      - 「🇸🇬」水晶梨 x3
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_213 |82.54Mb
-      - 「🇸🇬」沙糖桔 - 免流 x1
-      - US_630 |37.25Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3 2
-      - US_121 | 9.18Mb 4
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3
-      - CN_30 |48.50Mb
-      - KR_226 |26.61Mb 2
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
-      - 🇨🇳 台湾-2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2 2
-      - US_389 |16.09Mb
-      - US_635 | 2.20Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb
-      - 「🇭🇰」星空殿「超」x3
-      - HK_241 | 0.74Mb
-      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3
-      - HK_447 | 6.65Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
-      - 「🇭🇰」登仙阁「超」x3
-      - HK_242 | 4.29Mb
-      - CN_29 |74.92Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 10
-      - 🇨🇳 CN |82.50Mb
-      - 🇯🇵 「🇯🇵」日本05「超」x2
-      - 🇸🇬 新加坡-C1
-      - 🇰🇷 South Korea [Home]
-      - 🇸🇬 新加坡-A2
-      - SG4
-      - 🇭🇰 >🇭🇰 HK|Ls|0104|TG@FProxies| 2 2
-      - KR_81 |22.37Mb
-      - 🇭🇰 香港1
-      - 「🇰🇷」乱星海「超」x1
-      - 管理员B
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 5 2
-      - 🇳🇱 Netherlands 0.7x
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4
-      - 🇵🇭 Philippines [ISP] 2x
-      - Turkiye
-      - CN_133 |11.91Mb
       - "🇺🇸 TG:@hkaa0|美国_91\r"
-      - 🇻🇳 Vietnam [Home] 1.5x
-      - 34.221.178.146:443
-      - CN_132 |19.40Mb
-      - 211.178.105.134:51633
-      - "🇺🇸 TG:@hkaa0|美国_38\r"
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_166 |143.30Mb 2
-      - DE_314 | 7.23Mb
-      - CZ_33 |64.13Mb
-      - 「🇭🇰」灵缈园「超」x3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 4
-      - JP3
-      - TW1 [Home] 0.7x
-      - 「🇯🇵」可可果 - 免流 x1
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3
-      - 「🇸🇬」雪莲果 | NF x1
-      - 🇦🇺 Australia
-      - 🇸🇬 新加坡_Telegram@kxswa 2
-      - 🇯🇵 普通节点-日本A-02
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 5
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - 🇱🇺 Luxemburg 0.8x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2
-      - CN_25 |61.96Mb 3
-      - 🇺🇸 普通节点-美国B-01
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 4
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
+      - 乌克兰1
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 2
+      - 🇺🇸 普通节点-美国B-02
+      - US_561 | 2.44Mb
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3 4
       - 🇭🇰 香港_Telegram@kxswa 23
-      - 「🇯🇵」黑加仑 - 免流 | NF | D+ x2
-      - CN_29 |74.92Mb 2
-      - 🇰🇷 North Korea [WARP] 1.5x
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_171 |58.72Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 3
+      - 🇺🇸 美国2
+      - "🇺🇸 TG:@hkaa0|美国_71\r"
+      - 🇺🇸 美国1
+      - CZ_138 |78.54Mb
+      - CN_e13c7_0002
+      - JP_456 | 2.38Mb
+      - Relay_ | 2.06Mb
+      - US_390 |33.76Mb 3 3
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 3
+      - 34.221.178.146:443
+      - 🇺🇸 _美国_7
+      - CN_125 |21.19Mb
+      - US_390 |33.76Mb 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
+      - 🇨🇳 _中国_8
+      - HK_401 | 3.71Mb
+      - US_659 |21.78Mb
+      - HK_240 | 5.82Mb
+      - 🇺🇸 美国_Telegram@kxswa 21
+      - 🇸🇬 SG 新加坡 01
+      - 🇮🇳 印度1
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 4
+      - 🇺🇸 美国3
+      - "🇺🇸 TG:@hkaa0|美国_77\r"
+      - CN_bb060_0024
+      - 🇺🇸 美国_Telegram@kxswa 25
+      - 🇬🇧 英国1
+      - 🇯🇵 日本3
+      - CZ_33 |64.13Mb 2 3 2
+      - "🇺🇸 TG:@hkaa0|美国_81\r"
+      - 🇯🇵 普通节点-日本A-01
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies|
+      - "🇺🇸 TG:@hkaa0|美国_39\r"
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 5
+      - 🇨🇳 CN-50Mbps-100G
+      - "🇺🇸 TG:@hkaa0|美国_78\r"
+      - CZ_33 |64.13Mb 2 3
+      - 🇸🇬 >🇸🇬 SG|Ms|0104|TG@FProxies| 2 2
+      - CN_126 | 8.84Mb
+      - CN_4b173_0009
       - "🇺🇸 TG:@hkaa0|美国_79\r"
-      - 「🇯🇵」冰糖橙 - 免流 x1
-      - 🇭🇰 「🇭🇰」香港12「普」x2
-      - CN_e13c7_0006
-      - ""
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_621 |27.63Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
-      - ZZ | 5.80Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb
+      - US_655 |26.55Mb
+      - 🇭🇰 香港10
+      - 🇸🇬 新加坡2
+      - 🇭🇰 香港9
+      - 🇯🇵 日本2
+      - 🇺🇸 美国4
+      - 🇨🇦 加拿大1
+      - 🇸🇬 新加坡1
+      - 🇯🇵 日本4
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本1
+      - 🇲🇾 马来西亚1
+      - 🇻🇳 越南1
+      - 🇹🇭 泰国1
+      - "🇺🇸 TG:@hkaa0|美国_38\r"
   - name: 🎯 不挂代理
     type: select
     proxies:
