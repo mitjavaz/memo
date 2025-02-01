@@ -5,269 +5,60 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🇺🇸US_428 |25.41Mb, server: 104.16.155.10, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.17.169.115, headers: {Host: 100-49-141-209.s1.db-link02.top}}}
-  - {name: 🇺🇸 专线VIP1|1x 美国2, server: us2.pptv-tv.store, port: 17742, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: CN_25 |61.96Mb 2, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 专线VIP1|1x 香港3 Youtube免广告, server: hk3.iqiyi-tv.site, port: 17703, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: CN_25 |61.96Mb 2 2, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_30 |48.50Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 专线VIP1|1x 日本2|ChatGPT, server: jp2.pptv-tv.store, port: 17722, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_258 | 1.76Mb, server: 118.193.33.237, port: 40908, type: vmess, uuid: 43740b3d-16b7-4d31-cf20-f1eab5e35bc9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 专线VIP1|1x 日本1|ChatGPT, server: jp1.pptv-tv.store, port: 17721, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: "🇰🇷 韩国 [51633][ss][19] 5", server: 211.178.105.134, port: 51633, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇸🇬 >🇸🇬 SG|Hs|0125|TG@FProxies| 7, server: square-walleye.treefrog761.one, port: 443, type: trojan, password: !<str> 3763495982449565696, sni: square-walleye.treefrog761.one, skip-cert-verify: true}
-  - {name: CN_@juzibaipiao 橘子公益_2, server: 118.193.34.158, port: 52825, type: vmess, uuid: 67ff500a-8484-4ed8-cf8f-b8d341534140, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇵 专线VIP1|2x 朝鲜, server: kp1.pptv-tv.store, port: 17740, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯_Telegram@kxswa 7, server: 217.30.10.18, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
-  - {name: 🇭🇰 「专线」🇭🇰 中国香港 03, server: hk.kkjiasuy.click, port: 36004, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: 🇮🇩 专线VIP1|1x 印度尼西亚, server: id1.pptv-tv.store, port: 17618, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇬🇧 >🇬🇧 GB|Ls|0125|TG@FProxies|, server: yourjobnavigator.online, port: 443, type: trojan, password: 2cba4104747d49d18319e5ade1b93ab5, skip-cert-verify: true}
-  - {name: 🇺🇸 _美国_7, server: 38.110.1.105, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: DE_312 |49.02Mb, server: 188.245.218.62, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
-  - {name: DE_312 |49.02Mb 2, server: 188.245.218.62, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 普通节点-美国B-02, server: 2.hublink.pro, port: 40211, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: "|11.88Mb 2", server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 「专线」🇸🇬 新加坡 01, server: sg.kkjiasuy.click, port: 36013, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: CN_29 |74.92Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: vm-ws-C20250110213000, server: 107.149.242.62, port: 2082, type: vmess, uuid: 049f6d29-6b89-49b1-b0c4-440fcbf281b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 049f6d29-6b89-49b1-b0c4-440fcbf281b4-vm, headers: {Host: www.bing.com}}}
-  - {name: "🇺🇸 美国 [8080][ss][机场6] 2", server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: ZZ | 5.80Mb, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_Telegram@kxswa 5, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: 🇷🇺 专线VIP1|1x 俄罗斯, server: ru1.pptv-tv.store, port: 17615, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: ZZ_433 | 6.68Mb, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: speednode_0001, server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CZ_225 | 4.20Mb, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: US_635 | 2.20Mb, server: 154.47.21.27, port: 8099, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: US_314 |13.95Mb, server: 154.47.21.27, port: 8099, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: JP_456 | 2.38Mb, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇭🇰 香港 [4231][ss][机场1] 3", server: 112.213.102.228, port: 4231, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 普通节点-日本A-01, server: 1.linkhub.degree, port: 40200, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: 🇺🇸 普通节点-美国A-01, server: 1.linkhub.degree, port: 40204, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: Relay_🏁ZZ-🇺🇸US_347 |79.05Mb, server: portland.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /index, headers: {Host: portland.899994.xyz}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 53, server: 23.157.40.87, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV}
-  - {name: 🇸🇬 专线VIP1|1x 新加坡3, server: sg3.pptv-tv.store, port: 17713, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443, server: 38.121.43.27, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: SG_57078_0058, server: dear-sunbeam.treefrog761.one, port: 443, type: trojan, password: !<str> 3760559353321758720, sni: dear-sunbeam.treefrog761.one, skip-cert-verify: true}
-  - {name: 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_171 |26.77Mb, server: 193.29.107.234, port: 49020, type: vmess, uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_147 |61.65Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_146 |45.36Mb, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 专线VIP1|1x 德国, server: de1.pptv-tv.store, port: 17755, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: US_655 |26.55Mb, server: 137.175.20.81, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇦🇪 阿联酋/阿布扎比/🚀CDN加速, server: rvxcstxwbcvn_cdn.hfhfb.homes, port: 2086, type: vmess, uuid: 0663228f-646a-4c7c-b14a-bde613c0c237, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=1024", headers: {Host: kialq29.fask511.cfd}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: KR_80 |15.22Mb 2, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_155 |47.01Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_287 |54.20Mb, server: 198.2.218.108, port: 41400, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: ZZ_375 | 8.50Mb, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_ | 2.06Mb, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_-🇺🇸US_99 |61.24Mb, server: 104.17.213.241, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.24.185.219, headers: {Host: 100-151-81-36.s4.db-link01.top}}}
-  - {name: Relay_🏁ZZ-🇺🇸US_402 |10.33Mb, server: 104.19.48.236, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.25.239.131, headers: {Host: 100-128-12-180.s4.db-link02.top}}}
-  - {name: CN_29 |74.92Mb 2, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 13|🇰🇷 韩国, server: crisp-collie.treefrog761.one, port: 443, type: trojan, password: !<str> 3760559353321758720, sni: crisp-collie.treefrog761.one, skip-cert-verify: true}
-  - {name: 🇯🇵 专线VIP1|1x 日本3|ChatGPT, server: jp3.pptv-tv.store, port: 17723, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: speednode_0001 2, server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: IR_@juzibaipiao 橘子分享_32, server: 188.245.217.122, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 >🇺🇸 US|Ms|0125|TG@FProxies| 17, server: sje.5216818.xyz, port: 443, type: trojan, password: 696cfe79, skip-cert-verify: true}
-  - {name: CN_152 |60.98Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 9, server: 118.193.34.236, port: 13688, type: vmess, uuid: 93127065-1a5b-4816-d009-5bf5e0aa10b6, alterId: 0, cipher: auto, tls: false}
-  - {name: US_@juzibaipiao 橘子分享_14, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.20.8.162, headers: {Host: 100-6-81-226.s1.db-link02.top}}}
-  - {name: 🇺🇸 美国_Telegram@kxswa 10, server: 54.244.34.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: CN_@juzibaipiao 橘子公益_1, server: 118.193.38.173, port: 21066, type: vmess, uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8, alterId: 0, cipher: auto, tls: false}
-  - {name: CZ_225 | 4.20Mb 2, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: HK_240 | 5.82Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_151 |53.05Mb, server: 107.148.207.249, port: 48712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _美国_143, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇬🇧 英国_Telegram@kxswa, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: US_649 |13.40Mb, server: 107.174.34.6, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.64.19.172}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇺 _俄罗斯_28, server: major-ape.goat627.mom, port: 443, type: trojan, password: !<str> 3767107462583558144, sni: major-ape.goat627.mom, skip-cert-verify: true}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 专线VIP1|1x 台湾|ChatGPT, server: tw1.pptv-tv.store, port: 17786, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇬🇧 专线VIP1|1x 英国, server: gb1.pptv-tv.store, port: 17756, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: "🇱🇻 拉脱维亚 [990][ss][机场12] 1", server: 46.183.217.232, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: HK_221 | 7.07Mb, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 13, server: 47.128.252.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 普通节点-日本A-02, server: 1.linkhub.degree, port: 40202, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6, server: 38.173.197.1, port: 54402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_25 |61.96Mb, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港5|@ripaojiedian, server: 183.236.51.23, port: 51037, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇨🇦 [三毛]-加拿大 高速 cdn 1", server: cdncdncdn.aikunapp.com, port: 443, type: vmess, uuid: 96cad374-7573-4463-8804-4665c2c3d932, alterId: 0, cipher: auto, tls: true, servername: r-UO7Y69HmkU4P0x5U.sm-node.com, network: ws, ws-opts: {path: "/vmess_ws/smjc/index?ed=8192", headers: {Host: cdn-ca.sm-node.com}}}
-  - {name: US_@juzibaipiao 橘子分享_17, server: s1.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.67.95.35, headers: {Host: 100-250-32-53.s1.db-link01.top}}}
-  - {name: 🇲🇾 「专线」🇲🇾 马来西亚家宽 02, server: my.kkjiasuy.click, port: 36017, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: Relay_🏁ZZ-🇺🇸US_452 |244.86Mb, server: s1.db-link02.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.17.169.115, headers: {Host: 100-49-141-209.s1.db-link02.top}}}
-  - {name: CN_25 |61.96Mb 3, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯_Telegram@kxswa 3, server: 217.30.10.18, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm}
-  - {name: US_273 |38.39Mb, server: 137.175.20.81, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: ZZ_433 | 6.68Mb 2, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇺🇸 美国 [45017][vmess][机场12] 5", server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_660 |30.56Mb, server: 154.47.21.27, port: 8099, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 请保持每周一次更新订阅, server: hk2.iqiyi-tv.site, port: 17702, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: Relay_🏁ZZ-🇺🇸US_380 | 9.13Mb, server: 198.41.209.70, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.25.36.93, headers: {Host: 100-78-250-146.s4.cn-db.top}}}
-  - {name: TR_@juzibaipiao 橘子公益_97, server: topical-gibbon.goat627.mom, port: 443, type: trojan, password: !<str> 3763495982449565696, sni: topical-gibbon.goat627.mom, skip-cert-verify: true}
-  - {name: ZZ | 5.80Mb 2, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 06, server: s2.db-link01.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.67.56.88, headers: {Host: 100-117-147-51.s2.db-link01.top}}}
-  - {name: 🇬🇧 United Kingdom_None_ssr_1111, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇷🇺 俄罗斯_Telegram@kxswa 2, server: 217.30.10.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_Telegram@kxswa 7, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: "🇺🇸 [三毛]-美国 高速 cdn 1", server: cdncdncdn.aikunapp.com, port: 443, type: vmess, uuid: 96cad374-7573-4463-8804-4665c2c3d932, alterId: 0, cipher: auto, tls: true, servername: r-QHERxVpHjbKIDYdU.sm-node.com, network: ws, ws-opts: {path: "/vmess_ws/smjc/index?ed=8192", headers: {Host: cdn-us.sm-node.com}}}
-  - {name: KR_229 |13.11Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_25 |61.96Mb 4, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇦🇷 阿根廷_Telegram@kxswa, server: 181.119.30.20, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
   - {name: 🇺🇸 美国_Telegram@kxswa 25, server: 38.110.1.46, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇫🇷 专线VIP1|1x 法国, server: fr1.pptv-tv.store, port: 17759, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: US_390 |33.76Mb 3 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_635 | 2.20Mb 2, server: 154.47.21.27, port: 8099, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 「专线」🇯🇵 日本 01, server: jp.kkjiasuy.click, port: 36010, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: US_390 |33.76Mb 3, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_@juzibaipiao 橘子公益_26, server: possible-macaw.treefrog761.one, port: 443, type: trojan, password: !<str> 3767107462583558144, sni: possible-macaw.treefrog761.one, skip-cert-verify: true}
-  - {name: Relay_-🇺🇸US_78 |318.84Mb, server: 104.17.213.241, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.67.93.174, headers: {Host: 100-206-104-218.s1.db-link01.top}}}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_-🇺🇸US_80 |173.91Mb, server: 104.17.221.248, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.67.93.174, headers: {Host: 100-206-104-218.s1.db-link01.top}}}
-  - {name: 🇧🇬 保加利亚_Telegram@kxswa, server: 149.34.244.82, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: HK_449 | 5.37Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🇺🇸US_726 |51.78Mb, server: s4.db-link01.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.64.44.14, headers: {Host: 100-157-232-164.s4.db-link01.top}}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2 2, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_Telegram@kxswa 4, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u}
-  - {name: "🇯🇵 [三毛]-日本 高速 cdn 1", server: cdncdncdn.aikunapp.com, port: 443, type: vmess, uuid: 96cad374-7573-4463-8804-4665c2c3d932, alterId: 0, cipher: auto, tls: true, servername: r-yyQ11Dm14COo3CsM.sm-node.com, network: ws, ws-opts: {path: "/vmess_ws/smjc/index?ed=8192", headers: {Host: cdn-jp.sm-node.com}}}
-  - {name: Relay_🏁ZZ-🇺🇸US_509 |26.85Mb, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: 🇭🇰 香港_Telegram@kxswa, server: 118.193.33.237, port: 40908, type: vmess, uuid: 43740b3d-16b7-4d31-cf20-f1eab5e35bc9, alterId: 0, cipher: auto, tls: false}
-  - {name: FR_@juzibaipiao 橘子公益_110, server: honest-cow.goat627.mom, port: 443, type: trojan, password: !<str> 3763495894587285504, sni: honest-cow.goat627.mom, skip-cert-verify: true}
-  - {name: 🇻🇳 专线VIP1|1x 越南1, server: vn1.pptv-tv.store, port: 17751, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇸🇬 专线VIP1|1x 新加坡2, server: sg2.pptv-tv.store, port: 17712, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: HK_447 | 6.65Mb, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🇺🇸US_367 | 6.78Mb, server: s4.db-link02.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.19.103.96, headers: {Host: 100-80-77-140.s4.db-link02.top}}}
-  - {name: JP_225 | 6.10Mb, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: US_290 |109.19Mb, server: 198.2.218.100, port: 41400, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb 2, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 9, server: 103.173.66.191, port: 443, type: trojan, password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad, skip-cert-verify: true}
-  - {name: 🇻🇳 专线VIP1|1x 越南2, server: vn2.pptv-tv.store, port: 17752, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 8, server: cmc2.5gsieuvip.vn, port: 443, type: trojan, password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 03, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.17.147.251, headers: {Host: 100-52-246-28.s1.cn-db.top}}}
-  - {name: Relay_-🇺🇸US_90 |200.57Mb, server: 104.19.48.236, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.67.93.174, headers: {Host: 100-206-104-218.s1.db-link01.top}}}
-  - {name: 🇰🇷 韩国_Telegram@kxswa, server: 218.38.103.150, port: 28902, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇺🇸 「专线」🇺🇸 美国 01, server: us.kkjiasuy.click, port: 36011, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: 🇦🇺 澳大利亚_Telegram@kxswa, server: 43.203.201.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 2, server: 104.18.24.176, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: 🇨🇭 专线VIP1|1x 瑞士, server: ch1.pptv-tv.store, port: 17725, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇭🇰 香港_Telegram@kxswa 21, server: cmc1.5gsieuvip.vn, port: 443, type: trojan, password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad, sni: cmc1.5gsieuvip.vn, skip-cert-verify: true}
-  - {name: DE_167 | 7.09Mb, server: 188.245.218.62, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
-  - {name: US_390 |33.76Mb 3 2 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 16, server: s4.db-link02.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.64.38.67, headers: {Host: 100-240-91-30.s4.db-link02.top}}}
-  - {name: 🇨🇳 「专线」🇨🇳 中国台湾 01, server: tw.kkjiasuy.click, port: 36005, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: KR_226 |26.61Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: speednode_0001 3, server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 「专线」🇺🇸 美国 02, server: us.kkjiasuy.click, port: 36012, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: HK_242 | 4.29Mb, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 专线VIP1|1x 美国1, server: us1.pptv-tv.store, port: 17741, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇭🇰 「专线」🇭🇰 中国香港 02, server: hk.kkjiasuy.click, port: 36003, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: DE_314 | 7.23Mb, server: 188.245.217.122, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119, server: 38.121.43.27, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: CN_148 |47.48Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 专线VIP1|1x 香港1, server: hk1.iqiyi-tv.site, port: 17701, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰_Telegram@kxswa, server: 45.158.171.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
-  - {name: 🇩🇪 _德国_6, server: assuring-roughy.goat627.mom, port: 443, type: trojan, password: !<str> 3767107462583558144, sni: assuring-roughy.goat627.mom, skip-cert-verify: true}
-  - {name: Relay_🏁ZZ-🇺🇸US_735 | 7.92Mb, server: 198.41.209.70, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.18.42.172, headers: {Host: 100-38-62-25.s5.db-link02.top}}}
-  - {name: 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 3, server: 118.193.38.173, port: 21066, type: vmess, uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇲🇾 「专线」🇲🇾 马来西亚家宽 01, server: my.kkjiasuy.click, port: 36015, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: US_310 |118.07Mb, server: 38.33.19.71, port: 41400, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇪🇸 专线VIP1|1x 西班牙, server: es1.pptv-tv.store, port: 17730, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: CN_126 |18.32Mb, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_396 | 3.19Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇸🇬 新加坡 [8080][ss][机场6] 1", server: 68.183.227.45, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379, server: 38.121.43.27, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 _美国_144, server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CZ_160 |76.82Mb, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 _美国_92, server: warm-rabbit.goat627.mom, port: 443, type: trojan, password: !<str> 3767107462583558144, sni: warm-rabbit.goat627.mom, skip-cert-verify: true}
-  - {name: CN_203 |89.17Mb, server: 107.148.207.249, port: 48712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇱🇻 拉脱维亚_Telegram@kxswa, server: 46.183.217.232, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇭🇰 香港_Telegram@kxswa 11, server: 118.193.38.173, port: 21066, type: vmess, uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚_Telegram@kxswa 2, server: 43.203.239.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: ">🇻🇳 VN|Ms|0125|TG@FProxies| 2", server: cmc5.5gsieuvip.vn, port: 443, type: trojan, password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad, skip-cert-verify: true}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb 2, server: 142.0.134.243, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: CN_219 |341.53Mb, server: 107.148.207.249, port: 48712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 「专线」🇨🇳 中国台湾 02, server: tw.kkjiasuy.click, port: 36007, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: 🇨🇭 瑞士 - 苏黎世 - DataCamp Limited - 1, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇷🇺 >🇷🇺 RU|Ms|0125|TG@FProxies| 7, server: relaxed-jaybird.treefrog761.one, port: 443, type: trojan, password: !<str> 3763495982449565696, sni: relaxed-jaybird.treefrog761.one, skip-cert-verify: true}
-  - {name: US_@juzibaipiao 橘子分享_74, server: s4.db-link01.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, servername: 100-2-96-202.s4.db-link01.top, network: ws, ws-opts: {path: /dabai.in104.16.229.16, headers: {Host: 100-2-96-202.s4.db-link01.top}}}
-  - {name: Relay_-🇺🇸US_85 |18.29Mb, server: 104.17.221.248, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.19.219.194, headers: {Host: 100-74-144-32.s5.cn-db.top}}}
-  - {name: 专线VIP1|1x 乌克兰, server: ua1.pptv-tv.store, port: 17749, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: Relay_-🇺🇸US_80 |26.75Mb, server: 104.17.213.241, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: US_@juzibaipiao 橘子分享_96, server: s1.db-link01.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, servername: 100-151-164-47.s1.db-link01.top, network: ws, ws-opts: {path: /dabai.in172.67.2.142, headers: {Host: 100-151-164-47.s1.db-link01.top}}}
-  - {name: CN_30 |48.50Mb 2, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🇺🇸US_508 |24.95Mb, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: DE_@juzibaipiao 橘子公益_32, server: 159.69.120.98, port: 41391, type: vmess, uuid: b5c3e2e8-dfb6-4a0a-b656-87e997610785, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_-🇺🇸US_86 |246.13Mb, server: 104.17.221.248, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.17.154.223, headers: {Host: 100-48-202-143.s1.db-link01.top}}}
-  - {name: KR_226 |26.61Mb 2, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 54.169.74.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: HK_240 | 5.82Mb 2, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: US_390 |33.76Mb 3 2 3, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 21, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
-  - {name: Relay_🏁ZZ-🇺🇸US_421 | 8.97Mb, server: s4.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.25.248.188, headers: {Host: 100-4-150-250.s4.db-link01.top}}}
-  - {name: US_@juzibaipiao 橘子公益_224, server: www.speedtest.net, port: 443, type: vmess, uuid: 2ee82b54-c039-5ab1-9efa-47cce8e62e64, alterId: 0, cipher: auto, tls: true, servername: is1.v2vmess.site, network: ws, ws-opts: {path: /vmess#@v2ray_spatial, headers: {Host: is1.v2vmess.site}}}
-  - {name: Relay_🏁ZZ-🇺🇸US_339 |24.05Mb, server: s1.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.25.184.216, headers: {Host: 100-32-21-187.s1.db-link01.top}}}
-  - {name: 🇬🇧 _英国_5, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_241 | 0.74Mb, server: 118.193.33.237, port: 40908, type: vmess, uuid: 43740b3d-16b7-4d31-cf20-f1eab5e35bc9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 3, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_390 |33.76Mb 3 3, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_ | 2.06Mb 2, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 12, server: 118.193.34.158, port: 52825, type: vmess, uuid: 67ff500a-8484-4ed8-cf8f-b8d341534140, alterId: 0, cipher: auto, tls: false}
-  - {name: server_195, server: elma.ns.cloudflare.com, port: 2087, type: vmess, uuid: 01945160-adf2-7000-9f6c-902b7bc250aa, alterId: 0, cipher: auto, tls: true, network: grpc, servername: 21221a4532d441b09a47ea68b80c3935.micimos.click, grpc-opts: {grpc-service-name: vm}}
-  - {name: vm-ws-C20250110211528, server: 107.149.242.75, port: 2095, type: vmess, uuid: 3e62210d-f3a1-4a0c-840c-5cbb1fd9c664, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 3e62210d-f3a1-4a0c-840c-5cbb1fd9c664-vm, headers: {Host: www.bing.com}}}
-  - {name: Relay_🏁ZZ-🇺🇸US_734 |53.61Mb, server: 198.41.209.70, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.25.175.137, headers: {Host: 100-102-247-92.s1.db-link02.top}}}
-  - {name: Relay_🏁ZZ-🇺🇸US_563 |100.86Mb, server: s1.cn-db.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in172.64.34.18, headers: {Host: 100-215-151-174.s1.cn-db.top}}}
-  - {name: 🇩🇪 德国_Telegram@kxswa 2, server: 45.87.175.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa}
-  - {name: US_655 |26.55Mb 2, server: 137.175.20.81, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: US_366 | 2.26Mb, server: 2.58.87.221, port: 12269, type: vmess, uuid: db85ff0e-c33f-401d-c415-4c7cce135704, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇦🇪 专线VIP1|1x 迪拜, server: ae1.pptv-tv.store, port: 17720, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: US_389 |16.09Mb, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false}
-  - {name: DE_@juzibaipiao 橘子公益_27, server: 159.69.120.98, port: 41391, type: vmess, uuid: b5c3e2e8-dfb6-4a0a-b656-87e997610785, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 12, server: 35.88.145.179, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 「专线」🇸🇬 新加坡 02, server: sg.kkjiasuy.click, port: 36014, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: US_390 |33.76Mb 3 3 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: DE_314 | 7.23Mb 2, server: 188.245.217.122, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
-  - {name: CN_132 |19.40Mb, server: 142.0.134.244, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: JP_249 | 6.30Mb, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: HK_242 | 4.29Mb 2, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_-🇺🇸US_103 |51.44Mb, server: 104.19.48.236, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.20.244.251, headers: {Host: 100-150-171-114.s4.cn-db.top}}}
-  - {name: Relay_🏁ZZ-🇺🇸US_376 |134.66Mb, server: 104.17.221.248, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.17.169.115, headers: {Host: 100-49-141-209.s1.db-link02.top}}}
-  - {name: "🇸🇬 [三毛]-新加坡 高速 cdn 1", server: cdncdncdn.aikunapp.com, port: 443, type: vmess, uuid: 96cad374-7573-4463-8804-4665c2c3d932, alterId: 0, cipher: auto, tls: true, servername: r-gM7AZU8JZdc4jw6V.sm-node.com, network: ws, ws-opts: {path: "/vmess_ws/smjc/index?ed=8192", headers: {Host: cdn-sg.sm-node.com}}}
-  - {name: 🇯🇵 「专线」🇯🇵 日本 02, server: jp.kkjiasuy.click, port: 36009, type: ss, cipher: chacha20-ietf-poly1305, password: d8f2cd3d-7571-40e8-8e15-ee1d87d892ca}
-  - {name: HK_449 | 5.37Mb 2, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_Telegram@kxswa 15, server: 2.hublink.pro, port: 40219, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
-  - {name: 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chunchuan.kejixiaoqi666.store}}}
-  - {name: DE_@juzibaipiao 橘子公益_27 2, server: 159.69.120.98, port: 41391, type: vmess, uuid: b5c3e2e8-dfb6-4a0a-b656-87e997610785, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 专线VIP1|1x 荷兰, server: nl1.pptv-tv.store, port: 17609, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: US_@juzibaipiao 橘子分享_55, server: s5.db-link01.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, servername: 100-62-189-118.s5.db-link01.top, network: ws, ws-opts: {path: /dabai.in104.24.204.143, headers: {Host: 100-62-189-118.s5.db-link01.top}}}
-  - {name: CN_133 |11.91Mb, server: 142.0.134.245, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2, server: 142.0.134.241, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇰🇷 >🇰🇷 KR|Ns|0125|TG@FProxies| 17, server: crack-muskrat.treefrog761.one, port: 443, type: trojan, password: !<str> 3763495982449565696, sni: crack-muskrat.treefrog761.one, skip-cert-verify: true}
-  - {name: 🇩🇪 德国_Telegram@kxswa 2 2, server: 46.183.185.37, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: HK_240 | 5.82Mb 3, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 专线VIP1|1x 美国3, server: us3.pptv-tv.store, port: 17743, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
-  - {name: HK_220 | 3.61Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 乌克兰-广东专线 Vik, server: lbso.bnnodeservice.com, port: 32019, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0001, server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国-广东专线 BGP 2, server: lbso.bnnodeservice.com, port: 32028, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇬🇧 英国-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32010, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0001 2, server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: server_195, server: elma.ns.cloudflare.com, port: 2087, type: vmess, uuid: 01945160-adf2-7000-9f6c-902b7bc250aa, alterId: 0, cipher: auto, tls: true, network: grpc, servername: 21221a4532d441b09a47ea68b80c3935.micimos.click, grpc-opts: {grpc-service-name: vm}}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 普通节点-美国B-02, server: 2.hublink.pro, port: 40211, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2, server: 142.0.134.242, port: 45017, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_-🇺🇸US_96 |65.35Mb, server: 104.16.155.10, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.24.185.219, headers: {Host: 100-151-81-36.s4.db-link01.top}}}
-  - {name: CN_160 |326.12Mb, server: 107.148.207.249, port: 48712, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇵🇭 菲律宾-广东专线 Comfac, server: lbso.bnnodeservice.com, port: 32030, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: ZZ | 5.80Mb, server: 23.166.88.183, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 普通节点-美国B-01, server: 2.hublink.pro, port: 40210, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
+  - {name: US_288 | 0.95Mb, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: KR_229 |13.11Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Relay_🏁ZZ-🇺🇸US_404 | 7.59Mb, server: s5.db-link01.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dabai.in104.24.108.89, headers: {Host: 100-170-6-223.s5.db-link01.top}}}
-  - {name: CZ_33 |64.13Mb 2 3 2, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_Telegram@kxswa 9, server: 3.38.251.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国-广东专线 BGP 1, server: lbso.bnnodeservice.com, port: 32001, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇮🇳 印度-广东专线 GCore, server: lbso.bnnodeservice.com, port: 32024, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇲🇾 马来西亚-广东专线 Shin, server: lbso.bnnodeservice.com, port: 32038, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_Telegram@kxswa 15, server: 2.hublink.pro, port: 40219, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
   - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3 2, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇳 专线VIP1|1x 印度, server: in.pptv-tv.store, port: 17728, type: trojan, password: 5b1ad1a0-7234-4df3-bfed-1b019b821756, sni: data.52daishu.life, skip-cert-verify: true}
+  - {name: 🇫🇷 法国-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32009, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇹🇭 泰国-广东专线 Bangmod, server: lbso.bnnodeservice.com, port: 32043, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇺🇸 普通节点-美国A-01, server: 1.linkhub.degree, port: 40204, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
+  - {name: 🇯🇵 日本-广东专线 GCore, server: lbso.bnnodeservice.com, port: 32022, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国-广东专线 GCore, server: lbso.bnnodeservice.com, port: 32021, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇮🇳 印度-广东专线 DOIN, server: lbso.bnnodeservice.com, port: 32017, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇹🇷 土耳其-广东专线 Kapteyan, server: lbso.bnnodeservice.com, port: 32014, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇵🇭 菲律宾-广东专线 Zenlayer, server: lbso.bnnodeservice.com, port: 32013, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇦🇺 澳大利亚-广东专线 VUAU, server: lbso.bnnodeservice.com, port: 32012, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇹🇷 土耳其-广东专线 GCore, server: lbso.bnnodeservice.com, port: 32026, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇸🇦 沙特-广东专线 STC, server: lbso.bnnodeservice.com, port: 32035, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇺🇸 普通节点-美国A-01 2, server: 1.linkhub.degree, port: 40204, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
+  - {name: 🇯🇵 普通节点-日本A-01, server: 1.linkhub.degree, port: 40200, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com}
+  - {name: 🇰🇷 韩国-广东专线 VUKR, server: lbso.bnnodeservice.com, port: 32005, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇺🇸 美国-广东专线 DAOport, server: lbso.bnnodeservice.com, port: 32031, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6, server: 38.173.197.1, port: 54402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: speednode_0001 3, server: 120.232.153.123, port: 45402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: HK_396 | 3.19Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379, server: 38.121.43.27, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3, server: 120.198.71.214, port: 30565, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本-广东专线 BGP, server: lbso.bnnodeservice.com, port: 32004, type: trojan, password: 791074cf-4293-405b-9fcd-45a377a18503, sni: cert.bitbyte.one, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -279,1074 +70,238 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb
-      - Relay_🏁ZZ-🇺🇸US_428 |25.41Mb
-      - 🇺🇸 专线VIP1|1x 美国2
-      - CN_25 |61.96Mb 2
-      - 🇭🇰 专线VIP1|1x 香港3 Youtube免广告
-      - CN_25 |61.96Mb 2 2
-      - CN_30 |48.50Mb
-      - 🇯🇵 专线VIP1|1x 日本2|ChatGPT
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2
-      - HK_258 | 1.76Mb
-      - 🇯🇵 专线VIP1|1x 日本1|ChatGPT
-      - 🇰🇷 韩国 [51633][ss][19] 5
-      - 🇸🇬 >🇸🇬 SG|Hs|0125|TG@FProxies| 7
-      - CN_@juzibaipiao 橘子公益_2
-      - 🇰🇵 专线VIP1|2x 朝鲜
-      - 🇷🇺 俄罗斯_Telegram@kxswa 7
-      - 🇭🇰 「专线」🇭🇰 中国香港 03
-      - 🇮🇩 专线VIP1|1x 印度尼西亚
-      - 🇬🇧 >🇬🇧 GB|Ls|0125|TG@FProxies|
-      - 🇺🇸 _美国_7
-      - DE_312 |49.02Mb
-      - DE_312 |49.02Mb 2
-      - 🇺🇸 普通节点-美国B-02
-      - "|11.88Mb 2"
-      - 🇸🇬 「专线」🇸🇬 新加坡 01
-      - CN_29 |74.92Mb
-      - vm-ws-C20250110213000
-      - 🇺🇸 美国 [8080][ss][机场6] 2
-      - ZZ | 5.80Mb
-      - 🇩🇪 德国_Telegram@kxswa 5
-      - 🇷🇺 专线VIP1|1x 俄罗斯
-      - ZZ_433 | 6.68Mb
-      - speednode_0001
-      - CZ_225 | 4.20Mb
-      - US_635 | 2.20Mb
-      - US_314 |13.95Mb
-      - JP_456 | 2.38Mb
-      - 🇭🇰 香港 [4231][ss][机场1] 3
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3
-      - 🇯🇵 普通节点-日本A-01
-      - 🇺🇸 普通节点-美国A-01
-      - Relay_🏁ZZ-🇺🇸US_347 |79.05Mb
-      - 🇺🇸 美国_Telegram@kxswa 53
-      - 🇸🇬 专线VIP1|1x 新加坡3
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
-      - SG_57078_0058
-      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_171 |26.77Mb
-      - CN_147 |61.65Mb
-      - CN_146 |45.36Mb
-      - 🇩🇪 专线VIP1|1x 德国
-      - US_655 |26.55Mb
-      - 🇦🇪 阿联酋/阿布扎比/🚀CDN加速
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb
-      - KR_80 |15.22Mb 2
-      - CN_155 |47.01Mb
-      - US_287 |54.20Mb
-      - ZZ_375 | 8.50Mb
-      - Relay_ | 2.06Mb
-      - Relay_-🇺🇸US_99 |61.24Mb
-      - Relay_🏁ZZ-🇺🇸US_402 |10.33Mb
-      - CN_29 |74.92Mb 2
-      - 🇰🇷 13|🇰🇷 韩国
-      - 🇯🇵 专线VIP1|1x 日本3|ChatGPT
-      - speednode_0001 2
-      - IR_@juzibaipiao 橘子分享_32
-      - 🇺🇸 >🇺🇸 US|Ms|0125|TG@FProxies| 17
-      - CN_152 |60.98Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
-      - 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 9
-      - US_@juzibaipiao 橘子分享_14
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - CN_@juzibaipiao 橘子公益_1
-      - CZ_225 | 4.20Mb 2
-      - HK_240 | 5.82Mb
-      - CN_151 |53.05Mb
-      - 🇺🇸 _美国_143
-      - 🇬🇧 英国_Telegram@kxswa
-      - US_649 |13.40Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb
-      - 🇷🇺 _俄罗斯_28
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
-      - 🇨🇳 专线VIP1|1x 台湾|ChatGPT
-      - 🇬🇧 专线VIP1|1x 英国
-      - 🇱🇻 拉脱维亚 [990][ss][机场12] 1
-      - HK_221 | 7.07Mb
-      - 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 13
-      - 🇯🇵 普通节点-日本A-02
-      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6
-      - CN_25 |61.96Mb
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇦 [三毛]-加拿大 高速 cdn 1
-      - US_@juzibaipiao 橘子分享_17
-      - 🇲🇾 「专线」🇲🇾 马来西亚家宽 02
-      - Relay_🏁ZZ-🇺🇸US_452 |244.86Mb
-      - CN_25 |61.96Mb 3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
-      - 🇷🇺 俄罗斯_Telegram@kxswa 3
-      - US_273 |38.39Mb
-      - ZZ_433 | 6.68Mb 2
-      - 🇺🇸 美国 [45017][vmess][机场12] 5
-      - US_660 |30.56Mb
-      - 🇸🇬 请保持每周一次更新订阅
-      - Relay_🏁ZZ-🇺🇸US_380 | 9.13Mb
-      - TR_@juzibaipiao 橘子公益_97
-      - ZZ | 5.80Mb 2
-      - 🇺🇸 美国 06
-      - 🇬🇧 United Kingdom_None_ssr_1111
-      - 🇷🇺 俄罗斯_Telegram@kxswa 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
-      - 🇩🇪 德国_Telegram@kxswa 7
-      - 🇺🇸 [三毛]-美国 高速 cdn 1
-      - KR_229 |13.11Mb
-      - CN_25 |61.96Mb 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2
-      - 🇦🇷 阿根廷_Telegram@kxswa
       - 🇺🇸 美国_Telegram@kxswa 25
-      - 🇫🇷 专线VIP1|1x 法国
-      - US_390 |33.76Mb 3 2
-      - US_635 | 2.20Mb 2
-      - 🇯🇵 「专线」🇯🇵 日本 01
-      - US_390 |33.76Mb 3
-      - US_@juzibaipiao 橘子公益_26
-      - Relay_-🇺🇸US_78 |318.84Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
-      - Relay_-🇺🇸US_80 |173.91Mb
-      - 🇧🇬 保加利亚_Telegram@kxswa
-      - HK_449 | 5.37Mb
-      - Relay_🏁ZZ-🇺🇸US_726 |51.78Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2 2
-      - 🇩🇪 德国_Telegram@kxswa 4
-      - 🇯🇵 [三毛]-日本 高速 cdn 1
-      - Relay_🏁ZZ-🇺🇸US_509 |26.85Mb
-      - 🇭🇰 香港_Telegram@kxswa
-      - FR_@juzibaipiao 橘子公益_110
-      - 🇻🇳 专线VIP1|1x 越南1
-      - 🇸🇬 专线VIP1|1x 新加坡2
-      - HK_447 | 6.65Mb
-      - Relay_🏁ZZ-🇺🇸US_367 | 6.78Mb
-      - JP_225 | 6.10Mb
-      - US_290 |109.19Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇻🇳 专线VIP1|1x 越南2
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇺🇸 美国 03
-      - Relay_-🇺🇸US_90 |200.57Mb
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇺🇸 「专线」🇺🇸 美国 01
-      - 🇦🇺 澳大利亚_Telegram@kxswa
-      - 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 2
-      - 🇨🇭 专线VIP1|1x 瑞士
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - DE_167 | 7.09Mb
-      - US_390 |33.76Mb 3 2 2
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇨🇳 「专线」🇨🇳 中国台湾 01
-      - KR_226 |26.61Mb
-      - speednode_0001 3
-      - 🇺🇸 「专线」🇺🇸 美国 02
-      - HK_242 | 4.29Mb
-      - 🇺🇸 专线VIP1|1x 美国1
-      - 🇭🇰 「专线」🇭🇰 中国香港 02
-      - DE_314 | 7.23Mb
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119
-      - CN_148 |47.48Mb
-      - 🇭🇰 专线VIP1|1x 香港1
-      - 🇳🇱 荷兰_Telegram@kxswa
-      - 🇩🇪 _德国_6
-      - Relay_🏁ZZ-🇺🇸US_735 | 7.92Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 3
-      - 🇲🇾 「专线」🇲🇾 马来西亚家宽 01
-      - US_310 |118.07Mb
-      - 🇪🇸 专线VIP1|1x 西班牙
-      - CN_126 |18.32Mb
-      - HK_396 | 3.19Mb
-      - 🇸🇬 新加坡 [8080][ss][机场6] 1
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
-      - 🇺🇸 _美国_144
-      - CZ_160 |76.82Mb
-      - 🇺🇸 _美国_92
-      - CN_203 |89.17Mb
-      - 🇱🇻 拉脱维亚_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇦🇺 澳大利亚_Telegram@kxswa 2
-      - ">🇻🇳 VN|Ms|0125|TG@FProxies| 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb 2
-      - CN_219 |341.53Mb
-      - 🇨🇳 「专线」🇨🇳 中国台湾 02
-      - 🇨🇭 瑞士 - 苏黎世 - DataCamp Limited - 1
-      - 🇷🇺 >🇷🇺 RU|Ms|0125|TG@FProxies| 7
-      - US_@juzibaipiao 橘子分享_74
-      - Relay_-🇺🇸US_85 |18.29Mb
-      - 专线VIP1|1x 乌克兰
-      - Relay_-🇺🇸US_80 |26.75Mb
-      - US_@juzibaipiao 橘子分享_96
-      - CN_30 |48.50Mb 2
-      - Relay_🏁ZZ-🇺🇸US_508 |24.95Mb
-      - DE_@juzibaipiao 橘子公益_32
-      - Relay_-🇺🇸US_86 |246.13Mb
-      - KR_226 |26.61Mb 2
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - HK_240 | 5.82Mb 2
-      - US_390 |33.76Mb 3 2 3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - Relay_🏁ZZ-🇺🇸US_421 | 8.97Mb
-      - US_@juzibaipiao 橘子公益_224
-      - Relay_🏁ZZ-🇺🇸US_339 |24.05Mb
-      - 🇬🇧 _英国_5
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2
-      - HK_241 | 0.74Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 3
-      - US_390 |33.76Mb 3 3
-      - Relay_ | 2.06Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - server_195
-      - vm-ws-C20250110211528
-      - Relay_🏁ZZ-🇺🇸US_734 |53.61Mb
-      - Relay_🏁ZZ-🇺🇸US_563 |100.86Mb
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - US_655 |26.55Mb 2
-      - US_366 | 2.26Mb
-      - 🇦🇪 专线VIP1|1x 迪拜
-      - US_389 |16.09Mb
-      - DE_@juzibaipiao 橘子公益_27
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇸🇬 「专线」🇸🇬 新加坡 02
-      - US_390 |33.76Mb 3 3 2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
-      - DE_314 | 7.23Mb 2
-      - CN_132 |19.40Mb
-      - JP_249 | 6.30Mb
-      - HK_242 | 4.29Mb 2
-      - Relay_-🇺🇸US_103 |51.44Mb
-      - Relay_🏁ZZ-🇺🇸US_376 |134.66Mb
-      - 🇸🇬 [三毛]-新加坡 高速 cdn 1
-      - 🇯🇵 「专线」🇯🇵 日本 02
-      - HK_449 | 5.37Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3
-      - DE_@juzibaipiao 橘子公益_27 2
-      - 🇳🇱 专线VIP1|1x 荷兰
-      - US_@juzibaipiao 橘子分享_55
-      - CN_133 |11.91Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2
-      - 🇰🇷 >🇰🇷 KR|Ns|0125|TG@FProxies| 17
-      - 🇩🇪 德国_Telegram@kxswa 2 2
-      - HK_240 | 5.82Mb 3
-      - 🇺🇸 专线VIP1|1x 美国3
-      - HK_220 | 3.61Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2
+      - 乌克兰-广东专线 Vik
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - speednode_0001
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
+      - speednode_0001 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2
+      - server_195
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6 2
+      - 🇺🇸 普通节点-美国B-02
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2
-      - Relay_-🇺🇸US_96 |65.35Mb
-      - CN_160 |326.12Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
+      - ZZ | 5.80Mb
+      - 🇺🇸 普通节点-美国B-01
+      - US_288 | 0.95Mb
+      - KR_229 |13.11Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3 2
-      - Relay_🏁ZZ-🇺🇸US_404 | 7.59Mb
-      - CZ_33 |64.13Mb 2 3 2
-      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
+      - 🇭🇰 香港_Telegram@kxswa 15
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3 2
-      - 🇮🇳 专线VIP1|1x 印度
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇹🇭 泰国-广东专线 Bangmod
+      - 🇺🇸 普通节点-美国A-01
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
+      - 🇺🇸 普通节点-美国A-01 2
+      - 🇯🇵 普通节点-日本A-01
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6
+      - speednode_0001 3
+      - HK_396 | 3.19Mb
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3
+      - 🇯🇵 日本-广东专线 BGP
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb
-      - Relay_🏁ZZ-🇺🇸US_428 |25.41Mb
-      - 🇺🇸 专线VIP1|1x 美国2
-      - CN_25 |61.96Mb 2
-      - 🇭🇰 专线VIP1|1x 香港3 Youtube免广告
-      - CN_25 |61.96Mb 2 2
-      - CN_30 |48.50Mb
-      - 🇯🇵 专线VIP1|1x 日本2|ChatGPT
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2
-      - HK_258 | 1.76Mb
-      - 🇯🇵 专线VIP1|1x 日本1|ChatGPT
-      - 🇰🇷 韩国 [51633][ss][19] 5
-      - 🇸🇬 >🇸🇬 SG|Hs|0125|TG@FProxies| 7
-      - CN_@juzibaipiao 橘子公益_2
-      - 🇰🇵 专线VIP1|2x 朝鲜
-      - 🇷🇺 俄罗斯_Telegram@kxswa 7
-      - 🇭🇰 「专线」🇭🇰 中国香港 03
-      - 🇮🇩 专线VIP1|1x 印度尼西亚
-      - 🇬🇧 >🇬🇧 GB|Ls|0125|TG@FProxies|
-      - 🇺🇸 _美国_7
-      - DE_312 |49.02Mb
-      - DE_312 |49.02Mb 2
-      - 🇺🇸 普通节点-美国B-02
-      - "|11.88Mb 2"
-      - 🇸🇬 「专线」🇸🇬 新加坡 01
-      - CN_29 |74.92Mb
-      - vm-ws-C20250110213000
-      - 🇺🇸 美国 [8080][ss][机场6] 2
-      - ZZ | 5.80Mb
-      - 🇩🇪 德国_Telegram@kxswa 5
-      - 🇷🇺 专线VIP1|1x 俄罗斯
-      - ZZ_433 | 6.68Mb
-      - speednode_0001
-      - CZ_225 | 4.20Mb
-      - US_635 | 2.20Mb
-      - US_314 |13.95Mb
-      - JP_456 | 2.38Mb
-      - 🇭🇰 香港 [4231][ss][机场1] 3
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3
-      - 🇯🇵 普通节点-日本A-01
-      - 🇺🇸 普通节点-美国A-01
-      - Relay_🏁ZZ-🇺🇸US_347 |79.05Mb
-      - 🇺🇸 美国_Telegram@kxswa 53
-      - 🇸🇬 专线VIP1|1x 新加坡3
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
-      - SG_57078_0058
-      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_171 |26.77Mb
-      - CN_147 |61.65Mb
-      - CN_146 |45.36Mb
-      - 🇩🇪 专线VIP1|1x 德国
-      - US_655 |26.55Mb
-      - 🇦🇪 阿联酋/阿布扎比/🚀CDN加速
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb
-      - KR_80 |15.22Mb 2
-      - CN_155 |47.01Mb
-      - US_287 |54.20Mb
-      - ZZ_375 | 8.50Mb
-      - Relay_ | 2.06Mb
-      - Relay_-🇺🇸US_99 |61.24Mb
-      - Relay_🏁ZZ-🇺🇸US_402 |10.33Mb
-      - CN_29 |74.92Mb 2
-      - 🇰🇷 13|🇰🇷 韩国
-      - 🇯🇵 专线VIP1|1x 日本3|ChatGPT
-      - speednode_0001 2
-      - IR_@juzibaipiao 橘子分享_32
-      - 🇺🇸 >🇺🇸 US|Ms|0125|TG@FProxies| 17
-      - CN_152 |60.98Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
-      - 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 9
-      - US_@juzibaipiao 橘子分享_14
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - CN_@juzibaipiao 橘子公益_1
-      - CZ_225 | 4.20Mb 2
-      - HK_240 | 5.82Mb
-      - CN_151 |53.05Mb
-      - 🇺🇸 _美国_143
-      - 🇬🇧 英国_Telegram@kxswa
-      - US_649 |13.40Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb
-      - 🇷🇺 _俄罗斯_28
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
-      - 🇨🇳 专线VIP1|1x 台湾|ChatGPT
-      - 🇬🇧 专线VIP1|1x 英国
-      - 🇱🇻 拉脱维亚 [990][ss][机场12] 1
-      - HK_221 | 7.07Mb
-      - 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 13
-      - 🇯🇵 普通节点-日本A-02
-      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6
-      - CN_25 |61.96Mb
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇦 [三毛]-加拿大 高速 cdn 1
-      - US_@juzibaipiao 橘子分享_17
-      - 🇲🇾 「专线」🇲🇾 马来西亚家宽 02
-      - Relay_🏁ZZ-🇺🇸US_452 |244.86Mb
-      - CN_25 |61.96Mb 3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
-      - 🇷🇺 俄罗斯_Telegram@kxswa 3
-      - US_273 |38.39Mb
-      - ZZ_433 | 6.68Mb 2
-      - 🇺🇸 美国 [45017][vmess][机场12] 5
-      - US_660 |30.56Mb
-      - 🇸🇬 请保持每周一次更新订阅
-      - Relay_🏁ZZ-🇺🇸US_380 | 9.13Mb
-      - TR_@juzibaipiao 橘子公益_97
-      - ZZ | 5.80Mb 2
-      - 🇺🇸 美国 06
-      - 🇬🇧 United Kingdom_None_ssr_1111
-      - 🇷🇺 俄罗斯_Telegram@kxswa 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
-      - 🇩🇪 德国_Telegram@kxswa 7
-      - 🇺🇸 [三毛]-美国 高速 cdn 1
-      - KR_229 |13.11Mb
-      - CN_25 |61.96Mb 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2
-      - 🇦🇷 阿根廷_Telegram@kxswa
       - 🇺🇸 美国_Telegram@kxswa 25
-      - 🇫🇷 专线VIP1|1x 法国
-      - US_390 |33.76Mb 3 2
-      - US_635 | 2.20Mb 2
-      - 🇯🇵 「专线」🇯🇵 日本 01
-      - US_390 |33.76Mb 3
-      - US_@juzibaipiao 橘子公益_26
-      - Relay_-🇺🇸US_78 |318.84Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
-      - Relay_-🇺🇸US_80 |173.91Mb
-      - 🇧🇬 保加利亚_Telegram@kxswa
-      - HK_449 | 5.37Mb
-      - Relay_🏁ZZ-🇺🇸US_726 |51.78Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2 2
-      - 🇩🇪 德国_Telegram@kxswa 4
-      - 🇯🇵 [三毛]-日本 高速 cdn 1
-      - Relay_🏁ZZ-🇺🇸US_509 |26.85Mb
-      - 🇭🇰 香港_Telegram@kxswa
-      - FR_@juzibaipiao 橘子公益_110
-      - 🇻🇳 专线VIP1|1x 越南1
-      - 🇸🇬 专线VIP1|1x 新加坡2
-      - HK_447 | 6.65Mb
-      - Relay_🏁ZZ-🇺🇸US_367 | 6.78Mb
-      - JP_225 | 6.10Mb
-      - US_290 |109.19Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇻🇳 专线VIP1|1x 越南2
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇺🇸 美国 03
-      - Relay_-🇺🇸US_90 |200.57Mb
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇺🇸 「专线」🇺🇸 美国 01
-      - 🇦🇺 澳大利亚_Telegram@kxswa
-      - 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 2
-      - 🇨🇭 专线VIP1|1x 瑞士
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - DE_167 | 7.09Mb
-      - US_390 |33.76Mb 3 2 2
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇨🇳 「专线」🇨🇳 中国台湾 01
-      - KR_226 |26.61Mb
-      - speednode_0001 3
-      - 🇺🇸 「专线」🇺🇸 美国 02
-      - HK_242 | 4.29Mb
-      - 🇺🇸 专线VIP1|1x 美国1
-      - 🇭🇰 「专线」🇭🇰 中国香港 02
-      - DE_314 | 7.23Mb
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119
-      - CN_148 |47.48Mb
-      - 🇭🇰 专线VIP1|1x 香港1
-      - 🇳🇱 荷兰_Telegram@kxswa
-      - 🇩🇪 _德国_6
-      - Relay_🏁ZZ-🇺🇸US_735 | 7.92Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 3
-      - 🇲🇾 「专线」🇲🇾 马来西亚家宽 01
-      - US_310 |118.07Mb
-      - 🇪🇸 专线VIP1|1x 西班牙
-      - CN_126 |18.32Mb
-      - HK_396 | 3.19Mb
-      - 🇸🇬 新加坡 [8080][ss][机场6] 1
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
-      - 🇺🇸 _美国_144
-      - CZ_160 |76.82Mb
-      - 🇺🇸 _美国_92
-      - CN_203 |89.17Mb
-      - 🇱🇻 拉脱维亚_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇦🇺 澳大利亚_Telegram@kxswa 2
-      - ">🇻🇳 VN|Ms|0125|TG@FProxies| 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb 2
-      - CN_219 |341.53Mb
-      - 🇨🇳 「专线」🇨🇳 中国台湾 02
-      - 🇨🇭 瑞士 - 苏黎世 - DataCamp Limited - 1
-      - 🇷🇺 >🇷🇺 RU|Ms|0125|TG@FProxies| 7
-      - US_@juzibaipiao 橘子分享_74
-      - Relay_-🇺🇸US_85 |18.29Mb
-      - 专线VIP1|1x 乌克兰
-      - Relay_-🇺🇸US_80 |26.75Mb
-      - US_@juzibaipiao 橘子分享_96
-      - CN_30 |48.50Mb 2
-      - Relay_🏁ZZ-🇺🇸US_508 |24.95Mb
-      - DE_@juzibaipiao 橘子公益_32
-      - Relay_-🇺🇸US_86 |246.13Mb
-      - KR_226 |26.61Mb 2
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - HK_240 | 5.82Mb 2
-      - US_390 |33.76Mb 3 2 3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - Relay_🏁ZZ-🇺🇸US_421 | 8.97Mb
-      - US_@juzibaipiao 橘子公益_224
-      - Relay_🏁ZZ-🇺🇸US_339 |24.05Mb
-      - 🇬🇧 _英国_5
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2
-      - HK_241 | 0.74Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 3
-      - US_390 |33.76Mb 3 3
-      - Relay_ | 2.06Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - server_195
-      - vm-ws-C20250110211528
-      - Relay_🏁ZZ-🇺🇸US_734 |53.61Mb
-      - Relay_🏁ZZ-🇺🇸US_563 |100.86Mb
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - US_655 |26.55Mb 2
-      - US_366 | 2.26Mb
-      - 🇦🇪 专线VIP1|1x 迪拜
-      - US_389 |16.09Mb
-      - DE_@juzibaipiao 橘子公益_27
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇸🇬 「专线」🇸🇬 新加坡 02
-      - US_390 |33.76Mb 3 3 2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
-      - DE_314 | 7.23Mb 2
-      - CN_132 |19.40Mb
-      - JP_249 | 6.30Mb
-      - HK_242 | 4.29Mb 2
-      - Relay_-🇺🇸US_103 |51.44Mb
-      - Relay_🏁ZZ-🇺🇸US_376 |134.66Mb
-      - 🇸🇬 [三毛]-新加坡 高速 cdn 1
-      - 🇯🇵 「专线」🇯🇵 日本 02
-      - HK_449 | 5.37Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3
-      - DE_@juzibaipiao 橘子公益_27 2
-      - 🇳🇱 专线VIP1|1x 荷兰
-      - US_@juzibaipiao 橘子分享_55
-      - CN_133 |11.91Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2
-      - 🇰🇷 >🇰🇷 KR|Ns|0125|TG@FProxies| 17
-      - 🇩🇪 德国_Telegram@kxswa 2 2
-      - HK_240 | 5.82Mb 3
-      - 🇺🇸 专线VIP1|1x 美国3
-      - HK_220 | 3.61Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2
+      - 乌克兰-广东专线 Vik
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - speednode_0001
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
+      - speednode_0001 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2
+      - server_195
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6 2
+      - 🇺🇸 普通节点-美国B-02
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2
-      - Relay_-🇺🇸US_96 |65.35Mb
-      - CN_160 |326.12Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
+      - ZZ | 5.80Mb
+      - 🇺🇸 普通节点-美国B-01
+      - US_288 | 0.95Mb
+      - KR_229 |13.11Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3 2
-      - Relay_🏁ZZ-🇺🇸US_404 | 7.59Mb
-      - CZ_33 |64.13Mb 2 3 2
-      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
+      - 🇭🇰 香港_Telegram@kxswa 15
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3 2
-      - 🇮🇳 专线VIP1|1x 印度
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇹🇭 泰国-广东专线 Bangmod
+      - 🇺🇸 普通节点-美国A-01
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
+      - 🇺🇸 普通节点-美国A-01 2
+      - 🇯🇵 普通节点-日本A-01
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6
+      - speednode_0001 3
+      - HK_396 | 3.19Mb
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3
+      - 🇯🇵 日本-广东专线 BGP
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb
-      - Relay_🏁ZZ-🇺🇸US_428 |25.41Mb
-      - 🇺🇸 专线VIP1|1x 美国2
-      - CN_25 |61.96Mb 2
-      - 🇭🇰 专线VIP1|1x 香港3 Youtube免广告
-      - CN_25 |61.96Mb 2 2
-      - CN_30 |48.50Mb
-      - 🇯🇵 专线VIP1|1x 日本2|ChatGPT
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2
-      - HK_258 | 1.76Mb
-      - 🇯🇵 专线VIP1|1x 日本1|ChatGPT
-      - 🇰🇷 韩国 [51633][ss][19] 5
-      - 🇸🇬 >🇸🇬 SG|Hs|0125|TG@FProxies| 7
-      - CN_@juzibaipiao 橘子公益_2
-      - 🇰🇵 专线VIP1|2x 朝鲜
-      - 🇷🇺 俄罗斯_Telegram@kxswa 7
-      - 🇭🇰 「专线」🇭🇰 中国香港 03
-      - 🇮🇩 专线VIP1|1x 印度尼西亚
-      - 🇬🇧 >🇬🇧 GB|Ls|0125|TG@FProxies|
-      - 🇺🇸 _美国_7
-      - DE_312 |49.02Mb
-      - DE_312 |49.02Mb 2
-      - 🇺🇸 普通节点-美国B-02
-      - "|11.88Mb 2"
-      - 🇸🇬 「专线」🇸🇬 新加坡 01
-      - CN_29 |74.92Mb
-      - vm-ws-C20250110213000
-      - 🇺🇸 美国 [8080][ss][机场6] 2
-      - ZZ | 5.80Mb
-      - 🇩🇪 德国_Telegram@kxswa 5
-      - 🇷🇺 专线VIP1|1x 俄罗斯
-      - ZZ_433 | 6.68Mb
-      - speednode_0001
-      - CZ_225 | 4.20Mb
-      - US_635 | 2.20Mb
-      - US_314 |13.95Mb
-      - JP_456 | 2.38Mb
-      - 🇭🇰 香港 [4231][ss][机场1] 3
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3
-      - 🇯🇵 普通节点-日本A-01
-      - 🇺🇸 普通节点-美国A-01
-      - Relay_🏁ZZ-🇺🇸US_347 |79.05Mb
-      - 🇺🇸 美国_Telegram@kxswa 53
-      - 🇸🇬 专线VIP1|1x 新加坡3
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
-      - SG_57078_0058
-      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_171 |26.77Mb
-      - CN_147 |61.65Mb
-      - CN_146 |45.36Mb
-      - 🇩🇪 专线VIP1|1x 德国
-      - US_655 |26.55Mb
-      - 🇦🇪 阿联酋/阿布扎比/🚀CDN加速
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb
-      - KR_80 |15.22Mb 2
-      - CN_155 |47.01Mb
-      - US_287 |54.20Mb
-      - ZZ_375 | 8.50Mb
-      - Relay_ | 2.06Mb
-      - Relay_-🇺🇸US_99 |61.24Mb
-      - Relay_🏁ZZ-🇺🇸US_402 |10.33Mb
-      - CN_29 |74.92Mb 2
-      - 🇰🇷 13|🇰🇷 韩国
-      - 🇯🇵 专线VIP1|1x 日本3|ChatGPT
-      - speednode_0001 2
-      - IR_@juzibaipiao 橘子分享_32
-      - 🇺🇸 >🇺🇸 US|Ms|0125|TG@FProxies| 17
-      - CN_152 |60.98Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
-      - 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 9
-      - US_@juzibaipiao 橘子分享_14
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - CN_@juzibaipiao 橘子公益_1
-      - CZ_225 | 4.20Mb 2
-      - HK_240 | 5.82Mb
-      - CN_151 |53.05Mb
-      - 🇺🇸 _美国_143
-      - 🇬🇧 英国_Telegram@kxswa
-      - US_649 |13.40Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb
-      - 🇷🇺 _俄罗斯_28
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
-      - 🇨🇳 专线VIP1|1x 台湾|ChatGPT
-      - 🇬🇧 专线VIP1|1x 英国
-      - 🇱🇻 拉脱维亚 [990][ss][机场12] 1
-      - HK_221 | 7.07Mb
-      - 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 13
-      - 🇯🇵 普通节点-日本A-02
-      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6
-      - CN_25 |61.96Mb
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇦 [三毛]-加拿大 高速 cdn 1
-      - US_@juzibaipiao 橘子分享_17
-      - 🇲🇾 「专线」🇲🇾 马来西亚家宽 02
-      - Relay_🏁ZZ-🇺🇸US_452 |244.86Mb
-      - CN_25 |61.96Mb 3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
-      - 🇷🇺 俄罗斯_Telegram@kxswa 3
-      - US_273 |38.39Mb
-      - ZZ_433 | 6.68Mb 2
-      - 🇺🇸 美国 [45017][vmess][机场12] 5
-      - US_660 |30.56Mb
-      - 🇸🇬 请保持每周一次更新订阅
-      - Relay_🏁ZZ-🇺🇸US_380 | 9.13Mb
-      - TR_@juzibaipiao 橘子公益_97
-      - ZZ | 5.80Mb 2
-      - 🇺🇸 美国 06
-      - 🇬🇧 United Kingdom_None_ssr_1111
-      - 🇷🇺 俄罗斯_Telegram@kxswa 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
-      - 🇩🇪 德国_Telegram@kxswa 7
-      - 🇺🇸 [三毛]-美国 高速 cdn 1
-      - KR_229 |13.11Mb
-      - CN_25 |61.96Mb 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2
-      - 🇦🇷 阿根廷_Telegram@kxswa
       - 🇺🇸 美国_Telegram@kxswa 25
-      - 🇫🇷 专线VIP1|1x 法国
-      - US_390 |33.76Mb 3 2
-      - US_635 | 2.20Mb 2
-      - 🇯🇵 「专线」🇯🇵 日本 01
-      - US_390 |33.76Mb 3
-      - US_@juzibaipiao 橘子公益_26
-      - Relay_-🇺🇸US_78 |318.84Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
-      - Relay_-🇺🇸US_80 |173.91Mb
-      - 🇧🇬 保加利亚_Telegram@kxswa
-      - HK_449 | 5.37Mb
-      - Relay_🏁ZZ-🇺🇸US_726 |51.78Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2 2
-      - 🇩🇪 德国_Telegram@kxswa 4
-      - 🇯🇵 [三毛]-日本 高速 cdn 1
-      - Relay_🏁ZZ-🇺🇸US_509 |26.85Mb
-      - 🇭🇰 香港_Telegram@kxswa
-      - FR_@juzibaipiao 橘子公益_110
-      - 🇻🇳 专线VIP1|1x 越南1
-      - 🇸🇬 专线VIP1|1x 新加坡2
-      - HK_447 | 6.65Mb
-      - Relay_🏁ZZ-🇺🇸US_367 | 6.78Mb
-      - JP_225 | 6.10Mb
-      - US_290 |109.19Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇻🇳 专线VIP1|1x 越南2
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇺🇸 美国 03
-      - Relay_-🇺🇸US_90 |200.57Mb
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇺🇸 「专线」🇺🇸 美国 01
-      - 🇦🇺 澳大利亚_Telegram@kxswa
-      - 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 2
-      - 🇨🇭 专线VIP1|1x 瑞士
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - DE_167 | 7.09Mb
-      - US_390 |33.76Mb 3 2 2
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇨🇳 「专线」🇨🇳 中国台湾 01
-      - KR_226 |26.61Mb
-      - speednode_0001 3
-      - 🇺🇸 「专线」🇺🇸 美国 02
-      - HK_242 | 4.29Mb
-      - 🇺🇸 专线VIP1|1x 美国1
-      - 🇭🇰 「专线」🇭🇰 中国香港 02
-      - DE_314 | 7.23Mb
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119
-      - CN_148 |47.48Mb
-      - 🇭🇰 专线VIP1|1x 香港1
-      - 🇳🇱 荷兰_Telegram@kxswa
-      - 🇩🇪 _德国_6
-      - Relay_🏁ZZ-🇺🇸US_735 | 7.92Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 3
-      - 🇲🇾 「专线」🇲🇾 马来西亚家宽 01
-      - US_310 |118.07Mb
-      - 🇪🇸 专线VIP1|1x 西班牙
-      - CN_126 |18.32Mb
-      - HK_396 | 3.19Mb
-      - 🇸🇬 新加坡 [8080][ss][机场6] 1
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
-      - 🇺🇸 _美国_144
-      - CZ_160 |76.82Mb
-      - 🇺🇸 _美国_92
-      - CN_203 |89.17Mb
-      - 🇱🇻 拉脱维亚_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇦🇺 澳大利亚_Telegram@kxswa 2
-      - ">🇻🇳 VN|Ms|0125|TG@FProxies| 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb 2
-      - CN_219 |341.53Mb
-      - 🇨🇳 「专线」🇨🇳 中国台湾 02
-      - 🇨🇭 瑞士 - 苏黎世 - DataCamp Limited - 1
-      - 🇷🇺 >🇷🇺 RU|Ms|0125|TG@FProxies| 7
-      - US_@juzibaipiao 橘子分享_74
-      - Relay_-🇺🇸US_85 |18.29Mb
-      - 专线VIP1|1x 乌克兰
-      - Relay_-🇺🇸US_80 |26.75Mb
-      - US_@juzibaipiao 橘子分享_96
-      - CN_30 |48.50Mb 2
-      - Relay_🏁ZZ-🇺🇸US_508 |24.95Mb
-      - DE_@juzibaipiao 橘子公益_32
-      - Relay_-🇺🇸US_86 |246.13Mb
-      - KR_226 |26.61Mb 2
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - HK_240 | 5.82Mb 2
-      - US_390 |33.76Mb 3 2 3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - Relay_🏁ZZ-🇺🇸US_421 | 8.97Mb
-      - US_@juzibaipiao 橘子公益_224
-      - Relay_🏁ZZ-🇺🇸US_339 |24.05Mb
-      - 🇬🇧 _英国_5
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2
-      - HK_241 | 0.74Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 3
-      - US_390 |33.76Mb 3 3
-      - Relay_ | 2.06Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - server_195
-      - vm-ws-C20250110211528
-      - Relay_🏁ZZ-🇺🇸US_734 |53.61Mb
-      - Relay_🏁ZZ-🇺🇸US_563 |100.86Mb
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - US_655 |26.55Mb 2
-      - US_366 | 2.26Mb
-      - 🇦🇪 专线VIP1|1x 迪拜
-      - US_389 |16.09Mb
-      - DE_@juzibaipiao 橘子公益_27
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇸🇬 「专线」🇸🇬 新加坡 02
-      - US_390 |33.76Mb 3 3 2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
-      - DE_314 | 7.23Mb 2
-      - CN_132 |19.40Mb
-      - JP_249 | 6.30Mb
-      - HK_242 | 4.29Mb 2
-      - Relay_-🇺🇸US_103 |51.44Mb
-      - Relay_🏁ZZ-🇺🇸US_376 |134.66Mb
-      - 🇸🇬 [三毛]-新加坡 高速 cdn 1
-      - 🇯🇵 「专线」🇯🇵 日本 02
-      - HK_449 | 5.37Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3
-      - DE_@juzibaipiao 橘子公益_27 2
-      - 🇳🇱 专线VIP1|1x 荷兰
-      - US_@juzibaipiao 橘子分享_55
-      - CN_133 |11.91Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2
-      - 🇰🇷 >🇰🇷 KR|Ns|0125|TG@FProxies| 17
-      - 🇩🇪 德国_Telegram@kxswa 2 2
-      - HK_240 | 5.82Mb 3
-      - 🇺🇸 专线VIP1|1x 美国3
-      - HK_220 | 3.61Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2
+      - 乌克兰-广东专线 Vik
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - speednode_0001
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
+      - speednode_0001 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2
+      - server_195
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6 2
+      - 🇺🇸 普通节点-美国B-02
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2
-      - Relay_-🇺🇸US_96 |65.35Mb
-      - CN_160 |326.12Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
+      - ZZ | 5.80Mb
+      - 🇺🇸 普通节点-美国B-01
+      - US_288 | 0.95Mb
+      - KR_229 |13.11Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3 2
-      - Relay_🏁ZZ-🇺🇸US_404 | 7.59Mb
-      - CZ_33 |64.13Mb 2 3 2
-      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
+      - 🇭🇰 香港_Telegram@kxswa 15
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3 2
-      - 🇮🇳 专线VIP1|1x 印度
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇹🇭 泰国-广东专线 Bangmod
+      - 🇺🇸 普通节点-美国A-01
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
+      - 🇺🇸 普通节点-美国A-01 2
+      - 🇯🇵 普通节点-日本A-01
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6
+      - speednode_0001 3
+      - HK_396 | 3.19Mb
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3
+      - 🇯🇵 日本-广东专线 BGP
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb
-      - Relay_🏁ZZ-🇺🇸US_428 |25.41Mb
-      - 🇺🇸 专线VIP1|1x 美国2
-      - CN_25 |61.96Mb 2
-      - 🇭🇰 专线VIP1|1x 香港3 Youtube免广告
-      - CN_25 |61.96Mb 2 2
-      - CN_30 |48.50Mb
-      - 🇯🇵 专线VIP1|1x 日本2|ChatGPT
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_222 |151.22Mb 2
-      - HK_258 | 1.76Mb
-      - 🇯🇵 专线VIP1|1x 日本1|ChatGPT
-      - 🇰🇷 韩国 [51633][ss][19] 5
-      - 🇸🇬 >🇸🇬 SG|Hs|0125|TG@FProxies| 7
-      - CN_@juzibaipiao 橘子公益_2
-      - 🇰🇵 专线VIP1|2x 朝鲜
-      - 🇷🇺 俄罗斯_Telegram@kxswa 7
-      - 🇭🇰 「专线」🇭🇰 中国香港 03
-      - 🇮🇩 专线VIP1|1x 印度尼西亚
-      - 🇬🇧 >🇬🇧 GB|Ls|0125|TG@FProxies|
-      - 🇺🇸 _美国_7
-      - DE_312 |49.02Mb
-      - DE_312 |49.02Mb 2
-      - 🇺🇸 普通节点-美国B-02
-      - "|11.88Mb 2"
-      - 🇸🇬 「专线」🇸🇬 新加坡 01
-      - CN_29 |74.92Mb
-      - vm-ws-C20250110213000
-      - 🇺🇸 美国 [8080][ss][机场6] 2
-      - ZZ | 5.80Mb
-      - 🇩🇪 德国_Telegram@kxswa 5
-      - 🇷🇺 专线VIP1|1x 俄罗斯
-      - ZZ_433 | 6.68Mb
-      - speednode_0001
-      - CZ_225 | 4.20Mb
-      - US_635 | 2.20Mb
-      - US_314 |13.95Mb
-      - JP_456 | 2.38Mb
-      - 🇭🇰 香港 [4231][ss][机场1] 3
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 3
-      - 🇯🇵 普通节点-日本A-01
-      - 🇺🇸 普通节点-美国A-01
-      - Relay_🏁ZZ-🇺🇸US_347 |79.05Mb
-      - 🇺🇸 美国_Telegram@kxswa 53
-      - 🇸🇬 专线VIP1|1x 新加坡3
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:443
-      - SG_57078_0058
-      - 🇩🇰 Relay_🇩🇰DK-🇩🇰DK_171 |26.77Mb
-      - CN_147 |61.65Mb
-      - CN_146 |45.36Mb
-      - 🇩🇪 专线VIP1|1x 德国
-      - US_655 |26.55Mb
-      - 🇦🇪 阿联酋/阿布扎比/🚀CDN加速
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb
-      - KR_80 |15.22Mb 2
-      - CN_155 |47.01Mb
-      - US_287 |54.20Mb
-      - ZZ_375 | 8.50Mb
-      - Relay_ | 2.06Mb
-      - Relay_-🇺🇸US_99 |61.24Mb
-      - Relay_🏁ZZ-🇺🇸US_402 |10.33Mb
-      - CN_29 |74.92Mb 2
-      - 🇰🇷 13|🇰🇷 韩国
-      - 🇯🇵 专线VIP1|1x 日本3|ChatGPT
-      - speednode_0001 2
-      - IR_@juzibaipiao 橘子分享_32
-      - 🇺🇸 >🇺🇸 US|Ms|0125|TG@FProxies| 17
-      - CN_152 |60.98Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
-      - 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 9
-      - US_@juzibaipiao 橘子分享_14
-      - 🇺🇸 美国_Telegram@kxswa 10
-      - CN_@juzibaipiao 橘子公益_1
-      - CZ_225 | 4.20Mb 2
-      - HK_240 | 5.82Mb
-      - CN_151 |53.05Mb
-      - 🇺🇸 _美国_143
-      - 🇬🇧 英国_Telegram@kxswa
-      - US_649 |13.40Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb
-      - 🇷🇺 _俄罗斯_28
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
-      - 🇨🇳 专线VIP1|1x 台湾|ChatGPT
-      - 🇬🇧 专线VIP1|1x 英国
-      - 🇱🇻 拉脱维亚 [990][ss][机场12] 1
-      - HK_221 | 7.07Mb
-      - 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 13
-      - 🇯🇵 普通节点-日本A-02
-      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6
-      - CN_25 |61.96Mb
-      - 🇭🇰 香港5|@ripaojiedian
-      - 🇨🇦 [三毛]-加拿大 高速 cdn 1
-      - US_@juzibaipiao 橘子分享_17
-      - 🇲🇾 「专线」🇲🇾 马来西亚家宽 02
-      - Relay_🏁ZZ-🇺🇸US_452 |244.86Mb
-      - CN_25 |61.96Mb 3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
-      - 🇷🇺 俄罗斯_Telegram@kxswa 3
-      - US_273 |38.39Mb
-      - ZZ_433 | 6.68Mb 2
-      - 🇺🇸 美国 [45017][vmess][机场12] 5
-      - US_660 |30.56Mb
-      - 🇸🇬 请保持每周一次更新订阅
-      - Relay_🏁ZZ-🇺🇸US_380 | 9.13Mb
-      - TR_@juzibaipiao 橘子公益_97
-      - ZZ | 5.80Mb 2
-      - 🇺🇸 美国 06
-      - 🇬🇧 United Kingdom_None_ssr_1111
-      - 🇷🇺 俄罗斯_Telegram@kxswa 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
-      - 🇩🇪 德国_Telegram@kxswa 7
-      - 🇺🇸 [三毛]-美国 高速 cdn 1
-      - KR_229 |13.11Mb
-      - CN_25 |61.96Mb 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2
-      - 🇦🇷 阿根廷_Telegram@kxswa
       - 🇺🇸 美国_Telegram@kxswa 25
-      - 🇫🇷 专线VIP1|1x 法国
-      - US_390 |33.76Mb 3 2
-      - US_635 | 2.20Mb 2
-      - 🇯🇵 「专线」🇯🇵 日本 01
-      - US_390 |33.76Mb 3
-      - US_@juzibaipiao 橘子公益_26
-      - Relay_-🇺🇸US_78 |318.84Mb
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
-      - Relay_-🇺🇸US_80 |173.91Mb
-      - 🇧🇬 保加利亚_Telegram@kxswa
-      - HK_449 | 5.37Mb
-      - Relay_🏁ZZ-🇺🇸US_726 |51.78Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 2 2
-      - 🇩🇪 德国_Telegram@kxswa 4
-      - 🇯🇵 [三毛]-日本 高速 cdn 1
-      - Relay_🏁ZZ-🇺🇸US_509 |26.85Mb
-      - 🇭🇰 香港_Telegram@kxswa
-      - FR_@juzibaipiao 橘子公益_110
-      - 🇻🇳 专线VIP1|1x 越南1
-      - 🇸🇬 专线VIP1|1x 新加坡2
-      - HK_447 | 6.65Mb
-      - Relay_🏁ZZ-🇺🇸US_367 | 6.78Mb
-      - JP_225 | 6.10Mb
-      - US_290 |109.19Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_167 |63.12Mb 2
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
-      - 🇭🇰 香港_Telegram@kxswa 9
-      - 🇻🇳 专线VIP1|1x 越南2
-      - 🇭🇰 香港_Telegram@kxswa 8
-      - 🇺🇸 美国 03
-      - Relay_-🇺🇸US_90 |200.57Mb
-      - 🇰🇷 韩国_Telegram@kxswa
-      - 🇺🇸 「专线」🇺🇸 美国 01
-      - 🇦🇺 澳大利亚_Telegram@kxswa
-      - 🇸🇬 >🇸🇬 SG|Ns|0125|TG@FProxies| 2
-      - 🇨🇭 专线VIP1|1x 瑞士
-      - 🇭🇰 香港_Telegram@kxswa 21
-      - DE_167 | 7.09Mb
-      - US_390 |33.76Mb 3 2 2
-      - 🇺🇸 美国_Telegram@kxswa 16
-      - 🇨🇳 「专线」🇨🇳 中国台湾 01
-      - KR_226 |26.61Mb
-      - speednode_0001 3
-      - 🇺🇸 「专线」🇺🇸 美国 02
-      - HK_242 | 4.29Mb
-      - 🇺🇸 专线VIP1|1x 美国1
-      - 🇭🇰 「专线」🇭🇰 中国香港 02
-      - DE_314 | 7.23Mb
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:8119
-      - CN_148 |47.48Mb
-      - 🇭🇰 专线VIP1|1x 香港1
-      - 🇳🇱 荷兰_Telegram@kxswa
-      - 🇩🇪 _德国_6
-      - Relay_🏁ZZ-🇺🇸US_735 | 7.92Mb
-      - 🇭🇰 >🇭🇰 HK|Ls|0125|TG@FProxies| 3
-      - 🇲🇾 「专线」🇲🇾 马来西亚家宽 01
-      - US_310 |118.07Mb
-      - 🇪🇸 专线VIP1|1x 西班牙
-      - CN_126 |18.32Mb
-      - HK_396 | 3.19Mb
-      - 🇸🇬 新加坡 [8080][ss][机场6] 1
-      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
-      - 🇺🇸 _美国_144
-      - CZ_160 |76.82Mb
-      - 🇺🇸 _美国_92
-      - CN_203 |89.17Mb
-      - 🇱🇻 拉脱维亚_Telegram@kxswa
-      - 🇭🇰 香港_Telegram@kxswa 11
-      - 🇦🇺 澳大利亚_Telegram@kxswa 2
-      - ">🇻🇳 VN|Ms|0125|TG@FProxies| 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_220 |82.01Mb 2
-      - CN_219 |341.53Mb
-      - 🇨🇳 「专线」🇨🇳 中国台湾 02
-      - 🇨🇭 瑞士 - 苏黎世 - DataCamp Limited - 1
-      - 🇷🇺 >🇷🇺 RU|Ms|0125|TG@FProxies| 7
-      - US_@juzibaipiao 橘子分享_74
-      - Relay_-🇺🇸US_85 |18.29Mb
-      - 专线VIP1|1x 乌克兰
-      - Relay_-🇺🇸US_80 |26.75Mb
-      - US_@juzibaipiao 橘子分享_96
-      - CN_30 |48.50Mb 2
-      - Relay_🏁ZZ-🇺🇸US_508 |24.95Mb
-      - DE_@juzibaipiao 橘子公益_32
-      - Relay_-🇺🇸US_86 |246.13Mb
-      - KR_226 |26.61Mb 2
-      - 🇯🇵 日本特殊|@ripaojiedian
-      - HK_240 | 5.82Mb 2
-      - US_390 |33.76Mb 3 2 3
-      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
-      - 🇺🇸 美国_Telegram@kxswa 21
-      - Relay_🏁ZZ-🇺🇸US_421 | 8.97Mb
-      - US_@juzibaipiao 橘子公益_224
-      - Relay_🏁ZZ-🇺🇸US_339 |24.05Mb
-      - 🇬🇧 _英国_5
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2
-      - HK_241 | 0.74Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_170 |82.63Mb 3
-      - US_390 |33.76Mb 3 3
-      - Relay_ | 2.06Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 12
-      - server_195
-      - vm-ws-C20250110211528
-      - Relay_🏁ZZ-🇺🇸US_734 |53.61Mb
-      - Relay_🏁ZZ-🇺🇸US_563 |100.86Mb
-      - 🇩🇪 德国_Telegram@kxswa 2
-      - US_655 |26.55Mb 2
-      - US_366 | 2.26Mb
-      - 🇦🇪 专线VIP1|1x 迪拜
-      - US_389 |16.09Mb
-      - DE_@juzibaipiao 橘子公益_27
-      - 🇺🇸 美国_Telegram@kxswa 12
-      - 🇸🇬 「专线」🇸🇬 新加坡 02
-      - US_390 |33.76Mb 3 3 2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6
-      - DE_314 | 7.23Mb 2
-      - CN_132 |19.40Mb
-      - JP_249 | 6.30Mb
-      - HK_242 | 4.29Mb 2
-      - Relay_-🇺🇸US_103 |51.44Mb
-      - Relay_🏁ZZ-🇺🇸US_376 |134.66Mb
-      - 🇸🇬 [三毛]-新加坡 高速 cdn 1
-      - 🇯🇵 「专线」🇯🇵 日本 02
-      - HK_449 | 5.37Mb 2
-      - 🇭🇰 香港_Telegram@kxswa 15
-      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 3
-      - DE_@juzibaipiao 橘子公益_27 2
-      - 🇳🇱 专线VIP1|1x 荷兰
-      - US_@juzibaipiao 橘子分享_55
-      - CN_133 |11.91Mb
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_216 |80.15Mb 2
-      - 🇰🇷 >🇰🇷 KR|Ns|0125|TG@FProxies| 17
-      - 🇩🇪 德国_Telegram@kxswa 2 2
-      - HK_240 | 5.82Mb 3
-      - 🇺🇸 专线VIP1|1x 美国3
-      - HK_220 | 3.61Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2
+      - 乌克兰-广东专线 Vik
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2
+      - speednode_0001
+      - 🇺🇸 美国-广东专线 BGP 2
+      - 🇬🇧 英国-广东专线 BGP
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3
+      - speednode_0001 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 2 2
+      - server_195
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 6 2
+      - 🇺🇸 普通节点-美国B-02
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 2
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4
-      - 🇨🇳 Relay_🇨🇳CN-🇺🇸US_139 |77.17Mb 2 2
-      - Relay_-🇺🇸US_96 |65.35Mb
-      - CN_160 |326.12Mb
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3
+      - 🇵🇭 菲律宾-广东专线 Comfac
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3
+      - ZZ | 5.80Mb
+      - 🇺🇸 普通节点-美国B-01
+      - US_288 | 0.95Mb
+      - KR_229 |13.11Mb
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2 3 2
-      - Relay_🏁ZZ-🇺🇸US_404 | 7.59Mb
-      - CZ_33 |64.13Mb 2 3 2
-      - 🇺🇸 美国_Telegram@kxswa 9
+      - 🇺🇸 美国-广东专线 BGP 1
+      - 🇮🇳 印度-广东专线 GCore
+      - 🇲🇾 马来西亚-广东专线 Shin
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 4
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 2
+      - 🇭🇰 香港_Telegram@kxswa 15
       - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 3 2
-      - 🇮🇳 专线VIP1|1x 印度
+      - 🇫🇷 法国-广东专线 BGP
+      - 🇹🇭 泰国-广东专线 Bangmod
+      - 🇺🇸 普通节点-美国A-01
+      - 🇯🇵 日本-广东专线 GCore
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 3 2 3
+      - 🇺🇸 美国-广东专线 GCore
+      - 🇮🇳 印度-广东专线 DOIN
+      - 🇹🇷 土耳其-广东专线 Kapteyan
+      - 🇵🇭 菲律宾-广东专线 Zenlayer
+      - 🇦🇺 澳大利亚-广东专线 VUAU
+      - 🇹🇷 土耳其-广东专线 GCore
+      - 🇸🇦 沙特-广东专线 STC
+      - 🇺🇸 普通节点-美国A-01 2
+      - 🇯🇵 普通节点-日本A-01
+      - 🇰🇷 韩国-广东专线 VUKR
+      - 🇺🇸 美国-广东专线 DAOport
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6
+      - speednode_0001 3
+      - HK_396 | 3.19Mb
+      - 🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-38.121.43.27:6379
+      - 🇯🇵 >🇯🇵 JP|Ms|1221|TG@FProxies| 2 4 3
+      - 🇯🇵 日本-广东专线 BGP
   - name: 🎯 不挂代理
     type: select
     proxies:
