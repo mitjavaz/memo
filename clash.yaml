@@ -5,56 +5,94 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇬🇧 IEPL|英国, server: de01.dns-node.top, port: 45604, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇭🇰 IEPL|香港03, server: hkg03.dns-node.top, port: 45580, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇺🇸 IEPL|美国01, server: us01.dns-node.top, port: 45581, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇭🇰 IEPL|香港01HKT, server: hkg01.dns-node.top, port: 45573, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇭🇰 IEPL|香港02, server: hkg02.dns-node.top, port: 45570, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇨🇳 台湾 03, server: 180.188.42.200, port: 3036, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇯🇵 日本Cogent 03, server: cu.palcloud.top, port: 31325, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇭🇰 香港Alice 08, server: ct.palcloud.top, port: 10176, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇭🇰 香港Alice 07, server: ct.palcloud.top, port: 10174, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇫🇮 Base 芬兰, server: 180.188.42.200, port: 3037, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇨🇦 Base 加拿大, server: 180.188.42.200, port: 3041, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇨🇳 台湾ByteVirt 05, server: ct.palcloud.top, port: 45681, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇨🇳 台湾Hinet 03 ○, server: ct.palcloud.top, port: 19751, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇦🇺 Base 澳大利亚 悉尼, server: 180.188.42.200, port: 3032, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇨🇳 台湾 02, server: 180.188.42.200, port: 3011, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇯🇵 日本 02, server: 180.188.42.200, port: 3038, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇺🇸 美国 01, server: 180.188.42.200, port: 3022, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
+  - {name: DE_88 | 9.56Mb, server: 62.146.232.156, port: 33281, type: vmess, uuid: 24eda0ea-acf0-4538-a001-f746a480237a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 13.229.110.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本特殊|@ripaojiedian, server: 13.250.31.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: DE_163 |12.04Mb, server: 62.146.233.53, port: 50678, type: vmess, uuid: 5d1ec6e7-fd58-4e85-91c5-6335a86d2775, alterId: 0, cipher: auto, tls: false}
+  - {name: US_237 |11.13Mb, server: 154.26.137.42, port: 44104, type: vmess, uuid: e9933a4c-e56e-458c-bcf4-9cb3875bba55, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港Alice 04, server: ct.palcloud.top, port: 39155, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: DE_155 |19.88Mb, server: 62.146.232.156, port: 33281, type: vmess, uuid: 24eda0ea-acf0-4538-a001-f746a480237a, alterId: 0, cipher: auto, tls: false}
+  - {name: US_199 |57.44Mb, server: 15.204.86.120, port: 35696, type: vmess, uuid: cad0504a-a9dc-4d29-8844-b11b69f14a8d, alterId: 0, cipher: auto, tls: false}
+  - {name: DE_93 | 3.12Mb, server: 62.146.232.159, port: 14372, type: vmess, uuid: ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_Telegram@kxswa 5 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: https://t.me/xyfqzy 2, server: 13.115.246.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "| 5.14Mb", server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
+  - {name: US_181, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: US_187 |10.74Mb, server: 154.26.129.247, port: 57143, type: vmess, uuid: 28efbf36-079a-4c98-8470-d13458db6ee6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国Fastnet 03, server: cu.palcloud.top, port: 46390, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: "🇺🇸 TG:@hkaa0|美国_76\r", server: 38.121.43.27, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇰🇷 韩国_Telegram@kxswa, server: 54.180.128.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: HK_166 | 2.36Mb, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
+  - {name: CZ_81 | 7.02Mb, server: 109.123.232.74, port: 59032, type: vmess, uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd, alterId: 0, cipher: auto, tls: false}
+  - {name: US_181 | 4.74Mb, server: 4.240.73.55, port: 14118, type: vmess, uuid: d513bfb2-b7c2-4dc6-a3f9-55145f198705, alterId: 0, cipher: auto, tls: false}
+  - {name: DE_160 |28.57Mb, server: 62.146.233.159, port: 43763, type: vmess, uuid: 1ddf3ade-5b8c-420c-84f6-f96979ec3080, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_Telegram@kxswa 4, server: 54.255.224.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 狮城Akari 01, server: ct.palcloud.top, port: 25655, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇯🇵 日本 03, server: 180.188.42.200, port: 3014, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇸🇬 新加坡 01, server: 180.188.42.200, port: 3023, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇯🇵 日本Akari 02, server: cu.palcloud.top, port: 31322, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇸🇬 新加坡 03, server: 180.188.42.200, port: 3024, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇯🇵 日本Akari 01, server: cu.palcloud.top, port: 35481, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇲🇾 IEPL|马来西亚, server: sg04.dns-node.top, port: 45610, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇹🇭 Base 泰国, server: 180.188.42.200, port: 3028, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇺🇸 Base 美国Frontier家宽, server: 180.188.42.200, port: 3117, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇭🇰 香港Alice 06, server: ct.palcloud.top, port: 41687, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇯🇵 日本 01, server: 180.188.42.200, port: 3018, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇸🇬 Base 新西兰, server: 180.188.42.200, port: 3044, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇮🇩 Base 印度尼西亚, server: 180.188.42.200, port: 3039, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇵🇭 Base 菲律宾 02, server: 180.188.42.200, port: 3035, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇨🇳 台湾ByteVirt 04, server: ct.palcloud.top, port: 21513, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇨🇳 台湾 01, server: 180.188.42.200, port: 3009, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇲🇾 Base 马来西亚TMNet家宽, server: 180.188.42.200, port: 3116, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇺🇸 美国Fastnet 04, server: cu.palcloud.top, port: 17463, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇭🇰 香港 01, server: 180.188.42.200, port: 3013, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇺🇸 美国Cogent 02 ○, server: cu.palcloud.top, port: 11311, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇸🇬 新加坡 02, server: 180.188.42.200, port: 3027, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇭🇰 香港 03, server: 180.188.42.200, port: 3010, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇭🇰 香港 02, server: 180.188.42.200, port: 3012, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
-  - {name: 🇭🇰 香港HKT 02 ○, server: ct.palcloud.top, port: 10955, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇸🇬 IEPL|新加坡04, server: sg04.dns-node.top, port: 45609, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇨🇳 IEPL|台湾01, server: tw01.dns-node.top, port: 45571, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇸🇬 IEPL|新加坡02, server: sg02.dns-node.top, port: 45574, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇭🇰 香港Alice 05, server: ct.palcloud.top, port: 12251, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇮🇳 Base 印度, server: 180.188.42.200, port: 3045, type: ss, cipher: chacha20-ietf-poly1305, password: 2f3e533b-6835-44d5-920d-9470b429f20f}
+  - {name: 🇸🇬 狮城Eons 04, server: ct.palcloud.top, port: 11601, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇭🇰 香港Alice 07, server: ct.palcloud.top, port: 10174, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: ZZ_303 | 4.10Mb, server: 103.67.79.157, port: 45365, type: vmess, uuid: 7d2a4e66-152c-49f5-9ff5-c19a836e8c89, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港Alice 03, server: ct.palcloud.top, port: 46023, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
-  - {name: 🇸🇬 IEPL|新加坡03, server: sg03.dns-node.top, port: 45606, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇸🇬 IEPL|新加坡01, server: sg01.dns-node.top, port: 45572, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
-  - {name: 🇭🇰 IEPL|香港04, server: hkg04.dns-node.top, port: 45605, type: ss, cipher: aes-128-gcm, password: b9d4209d-1604-4a22-b2e4-5a3388104882}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2, server: 38.173.197.1, port: 54402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国Fastnet 04, server: cu.palcloud.top, port: 17463, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇺🇸 美国Cogent 02 ○, server: cu.palcloud.top, port: 11311, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2 2, server: 38.173.197.1, port: 54402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: _160 |15.64Mb, server: 20.78.127.141, port: 550, type: vmess, uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大Oracle 01, server: cu.palcloud.top, port: 33543, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇯🇵 日本Cogent 03, server: cu.palcloud.top, port: 31325, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: DE_161 |11.29Mb, server: 62.146.233.112, port: 36712, type: vmess, uuid: 9266df42-0830-48c2-8509-4c57b30fe29d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本Cogent 04, server: cu.palcloud.top, port: 31327, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇨🇳 台湾ByteVirt 05, server: ct.palcloud.top, port: 45681, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: HK_124 | 9.57Mb, server: 103.149.183.178, port: 27512, type: vmess, uuid: 96d38683-0817-4d91-bffa-6f03df18d9dc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 狮城Eons 03, server: ct.palcloud.top, port: 13533, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: US_191 |150.58Mb, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false}
+  - {name: US_209 |107.89Mb, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: GB_181 |22.76Mb, server: 46.250.253.232, port: 46617, type: vmess, uuid: 55b88b14-0ff3-4f25-8983-e73d1f9f3a0a, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 TG:@hkaa0|美国_79\r", server: 38.121.43.27, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇭🇰 香港Alice 08, server: ct.palcloud.top, port: 10176, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇯🇵 日本Akari 02, server: cu.palcloud.top, port: 31322, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: US_233 | 6.71Mb, server: 154.26.129.247, port: 57143, type: vmess, uuid: 28efbf36-079a-4c98-8470-d13458db6ee6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _美国_208, server: 38.143.66.186, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇯🇵 日本_Telegram@kxswa 2, server: 13.230.110.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 狮城Akari 02, server: ct.palcloud.top, port: 33535, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: KR_209 | 4.22Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
+  - {name: DE_94 |12.57Mb, server: 62.146.233.115, port: 38324, type: vmess, uuid: f863ef99-5ef0-4321-aaac-a476a5e8c3fb, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 TG:@hkaa0|美国_81\r", server: 38.121.43.27, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇭🇰 香港Alice 05, server: ct.palcloud.top, port: 12251, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇨🇳 台湾Hinet 03 ○, server: ct.palcloud.top, port: 19751, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇺🇸 _美国_10, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: DE_151 |22.64Mb, server: 94.136.184.156, port: 38872, type: vmess, uuid: 220732cc-9e43-4453-83f1-c9435be25b5b, alterId: 0, cipher: auto, tls: false}
+  - {name: JP_143 |12.68Mb, server: 20.78.127.141, port: 550, type: vmess, uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港HKT 02 ○, server: ct.palcloud.top, port: 10955, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇭🇰 香港Alice 06, server: ct.palcloud.top, port: 41687, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: DE_87 | 5.79Mb, server: 62.146.233.112, port: 36712, type: vmess, uuid: 9266df42-0830-48c2-8509-4c57b30fe29d, alterId: 0, cipher: auto, tls: false}
+  - {name: ZZ_353 | 7.56Mb, server: 103.67.79.157, port: 45365, type: vmess, uuid: 7d2a4e66-152c-49f5-9ff5-c19a836e8c89, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 TG:@hkaa0|美国_38\r", server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: DE_91 |35.74Mb, server: 94.136.184.156, port: 38872, type: vmess, uuid: 220732cc-9e43-4453-83f1-c9435be25b5b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _美国_8, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇯🇵 日本Akari 01, server: cu.palcloud.top, port: 35481, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇺🇸 _美国_7, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: "🇺🇸 TG:@hkaa0|美国_75\r", server: 38.121.43.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: DE_83 | 6.24Mb, server: 62.146.233.53, port: 50678, type: vmess, uuid: 5d1ec6e7-fd58-4e85-91c5-6335a86d2775, alterId: 0, cipher: auto, tls: false}
+  - {name: DE_153 |23.90Mb, server: 62.146.232.159, port: 14372, type: vmess, uuid: ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 TG:@hkaa0|美国_78\r", server: 38.121.43.27, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: CZ_150 |33.95Mb, server: 109.123.232.74, port: 59032, type: vmess, uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _美国_23, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: DE_97 |21.39Mb, server: 62.146.233.159, port: 43763, type: vmess, uuid: 1ddf3ade-5b8c-420c-84f6-f96979ec3080, alterId: 0, cipher: auto, tls: false}
+  - {name: GB_116 |50.31Mb, server: 46.250.253.232, port: 46617, type: vmess, uuid: 55b88b14-0ff3-4f25-8983-e73d1f9f3a0a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国Cogent 01 ○, server: cu.palcloud.top, port: 15734, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: 🇲🇾 MY_217, server: 101.99.91.234, port: 36700, type: vmess, uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d, alterId: 0, cipher: auto, tls: false}
+  - {name: US_267 | 8.78Mb, server: 4.240.73.55, port: 14118, type: vmess, uuid: d513bfb2-b7c2-4dc6-a3f9-55145f198705, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇨🇳 TG:@hkaa0|中国_1\r", server: 203.23.128.33, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 _美国_22, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: US_203, server: 2.58.87.221, port: 46628, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇲🇾 MY_151, server: 101.99.91.234, port: 36700, type: vmess, uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d, alterId: 0, cipher: auto, tls: false}
+  - {name: US_175 |12.23Mb, server: 154.26.153.173, port: 28686, type: vmess, uuid: 6df7d56f-4953-4a10-be2e-a88cc9f94e48, alterId: 0, cipher: auto, tls: false}
+  - {name: HK_125 | 9.62Mb, server: 103.149.183.178, port: 54675, type: vmess, uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾ByteVirt 04, server: ct.palcloud.top, port: 21513, type: ss, cipher: aes-128-gcm, password: 7b91cb63-d986-4f4c-bc4e-c36fc795b635}
+  - {name: KR_148 |20.80Mb, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _美国_4, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: US_181 2, server: 142.4.104.33, port: 52143, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 _中国_16, server: 43.249.36.70, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -66,222 +104,374 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇬🇧 IEPL|英国
-      - 🇭🇰 IEPL|香港03
-      - 🇺🇸 IEPL|美国01
-      - 🇭🇰 IEPL|香港01HKT
-      - 🇭🇰 IEPL|香港02
-      - 🇨🇳 台湾 03
-      - 🇯🇵 日本Cogent 03
-      - 🇭🇰 香港Alice 08
-      - 🇭🇰 香港Alice 07
-      - 🇫🇮 Base 芬兰
-      - 🇨🇦 Base 加拿大
-      - 🇨🇳 台湾ByteVirt 05
-      - 🇨🇳 台湾Hinet 03 ○
-      - 🇦🇺 Base 澳大利亚 悉尼
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 02
-      - 🇺🇸 美国 01
+      - DE_88 | 9.56Mb
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - DE_163 |12.04Mb
+      - US_237 |11.13Mb
+      - 🇭🇰 香港Alice 04
+      - DE_155 |19.88Mb
+      - US_199 |57.44Mb
+      - DE_93 | 3.12Mb
+      - 🇺🇸 美国_Telegram@kxswa 5 2
+      - https://t.me/xyfqzy 2
+      - "| 5.14Mb"
+      - US_181
+      - US_187 |10.74Mb
+      - 🇺🇸 美国Fastnet 03
+      - "🇺🇸 TG:@hkaa0|美国_76\r"
+      - 🇰🇷 韩国_Telegram@kxswa
+      - HK_166 | 2.36Mb
+      - CZ_81 | 7.02Mb
+      - US_181 | 4.74Mb
+      - DE_160 |28.57Mb
+      - 🇸🇬 新加坡_Telegram@kxswa 4
       - 🇸🇬 狮城Akari 01
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇯🇵 日本Akari 02
-      - 🇸🇬 新加坡 03
-      - 🇯🇵 日本Akari 01
-      - 🇲🇾 IEPL|马来西亚
-      - 🇹🇭 Base 泰国
-      - 🇺🇸 Base 美国Frontier家宽
-      - 🇭🇰 香港Alice 06
-      - 🇯🇵 日本 01
-      - 🇸🇬 Base 新西兰
-      - 🇮🇩 Base 印度尼西亚
-      - 🇵🇭 Base 菲律宾 02
-      - 🇨🇳 台湾ByteVirt 04
-      - 🇨🇳 台湾 01
-      - 🇲🇾 Base 马来西亚TMNet家宽
-      - 🇺🇸 美国Fastnet 04
-      - 🇭🇰 香港 01
-      - 🇺🇸 美国Cogent 02 ○
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港HKT 02 ○
-      - 🇸🇬 IEPL|新加坡04
-      - 🇨🇳 IEPL|台湾01
-      - 🇸🇬 IEPL|新加坡02
-      - 🇭🇰 香港Alice 05
-      - 🇮🇳 Base 印度
+      - 🇸🇬 狮城Eons 04
+      - 🇭🇰 香港Alice 07
+      - ZZ_303 | 4.10Mb
       - 🇭🇰 香港Alice 03
-      - 🇸🇬 IEPL|新加坡03
-      - 🇸🇬 IEPL|新加坡01
-      - 🇭🇰 IEPL|香港04
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2
+      - 🇺🇸 美国Fastnet 04
+      - 🇺🇸 美国Cogent 02 ○
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2 2
+      - _160 |15.64Mb
+      - 🇨🇦 加拿大Oracle 01
+      - 🇯🇵 日本Cogent 03
+      - DE_161 |11.29Mb
+      - 🇯🇵 日本Cogent 04
+      - 🇨🇳 台湾ByteVirt 05
+      - HK_124 | 9.57Mb
+      - 🇸🇬 狮城Eons 03
+      - US_191 |150.58Mb
+      - US_209 |107.89Mb
+      - GB_181 |22.76Mb
+      - "🇺🇸 TG:@hkaa0|美国_79\r"
+      - 🇭🇰 香港Alice 08
+      - 🇯🇵 日本Akari 02
+      - US_233 | 6.71Mb
+      - 🇺🇸 _美国_208
+      - 🇯🇵 日本_Telegram@kxswa 2
+      - 🇸🇬 狮城Akari 02
+      - KR_209 | 4.22Mb
+      - DE_94 |12.57Mb
+      - "🇺🇸 TG:@hkaa0|美国_81\r"
+      - 🇭🇰 香港Alice 05
+      - 🇨🇳 台湾Hinet 03 ○
+      - 🇺🇸 _美国_10
+      - DE_151 |22.64Mb
+      - JP_143 |12.68Mb
+      - 🇭🇰 香港HKT 02 ○
+      - 🇭🇰 香港Alice 06
+      - DE_87 | 5.79Mb
+      - ZZ_353 | 7.56Mb
+      - "🇺🇸 TG:@hkaa0|美国_38\r"
+      - DE_91 |35.74Mb
+      - 🇺🇸 _美国_8
+      - 🇯🇵 日本Akari 01
+      - 🇺🇸 _美国_7
+      - "🇺🇸 TG:@hkaa0|美国_75\r"
+      - DE_83 | 6.24Mb
+      - DE_153 |23.90Mb
+      - "🇺🇸 TG:@hkaa0|美国_78\r"
+      - CZ_150 |33.95Mb
+      - 🇺🇸 _美国_23
+      - DE_97 |21.39Mb
+      - GB_116 |50.31Mb
+      - 🇺🇸 美国Cogent 01 ○
+      - 🇲🇾 MY_217
+      - US_267 | 8.78Mb
+      - "🇨🇳 TG:@hkaa0|中国_1\r"
+      - 🇺🇸 _美国_22
+      - US_203
+      - 🇲🇾 MY_151
+      - US_175 |12.23Mb
+      - HK_125 | 9.62Mb
+      - 🇨🇳 台湾ByteVirt 04
+      - KR_148 |20.80Mb
+      - 🇺🇸 _美国_4
+      - US_181 2
+      - 🇨🇳 _中国_16
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 IEPL|英国
-      - 🇭🇰 IEPL|香港03
-      - 🇺🇸 IEPL|美国01
-      - 🇭🇰 IEPL|香港01HKT
-      - 🇭🇰 IEPL|香港02
-      - 🇨🇳 台湾 03
-      - 🇯🇵 日本Cogent 03
-      - 🇭🇰 香港Alice 08
-      - 🇭🇰 香港Alice 07
-      - 🇫🇮 Base 芬兰
-      - 🇨🇦 Base 加拿大
-      - 🇨🇳 台湾ByteVirt 05
-      - 🇨🇳 台湾Hinet 03 ○
-      - 🇦🇺 Base 澳大利亚 悉尼
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 02
-      - 🇺🇸 美国 01
+      - DE_88 | 9.56Mb
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - DE_163 |12.04Mb
+      - US_237 |11.13Mb
+      - 🇭🇰 香港Alice 04
+      - DE_155 |19.88Mb
+      - US_199 |57.44Mb
+      - DE_93 | 3.12Mb
+      - 🇺🇸 美国_Telegram@kxswa 5 2
+      - https://t.me/xyfqzy 2
+      - "| 5.14Mb"
+      - US_181
+      - US_187 |10.74Mb
+      - 🇺🇸 美国Fastnet 03
+      - "🇺🇸 TG:@hkaa0|美国_76\r"
+      - 🇰🇷 韩国_Telegram@kxswa
+      - HK_166 | 2.36Mb
+      - CZ_81 | 7.02Mb
+      - US_181 | 4.74Mb
+      - DE_160 |28.57Mb
+      - 🇸🇬 新加坡_Telegram@kxswa 4
       - 🇸🇬 狮城Akari 01
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇯🇵 日本Akari 02
-      - 🇸🇬 新加坡 03
-      - 🇯🇵 日本Akari 01
-      - 🇲🇾 IEPL|马来西亚
-      - 🇹🇭 Base 泰国
-      - 🇺🇸 Base 美国Frontier家宽
-      - 🇭🇰 香港Alice 06
-      - 🇯🇵 日本 01
-      - 🇸🇬 Base 新西兰
-      - 🇮🇩 Base 印度尼西亚
-      - 🇵🇭 Base 菲律宾 02
-      - 🇨🇳 台湾ByteVirt 04
-      - 🇨🇳 台湾 01
-      - 🇲🇾 Base 马来西亚TMNet家宽
-      - 🇺🇸 美国Fastnet 04
-      - 🇭🇰 香港 01
-      - 🇺🇸 美国Cogent 02 ○
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港HKT 02 ○
-      - 🇸🇬 IEPL|新加坡04
-      - 🇨🇳 IEPL|台湾01
-      - 🇸🇬 IEPL|新加坡02
-      - 🇭🇰 香港Alice 05
-      - 🇮🇳 Base 印度
+      - 🇸🇬 狮城Eons 04
+      - 🇭🇰 香港Alice 07
+      - ZZ_303 | 4.10Mb
       - 🇭🇰 香港Alice 03
-      - 🇸🇬 IEPL|新加坡03
-      - 🇸🇬 IEPL|新加坡01
-      - 🇭🇰 IEPL|香港04
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2
+      - 🇺🇸 美国Fastnet 04
+      - 🇺🇸 美国Cogent 02 ○
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2 2
+      - _160 |15.64Mb
+      - 🇨🇦 加拿大Oracle 01
+      - 🇯🇵 日本Cogent 03
+      - DE_161 |11.29Mb
+      - 🇯🇵 日本Cogent 04
+      - 🇨🇳 台湾ByteVirt 05
+      - HK_124 | 9.57Mb
+      - 🇸🇬 狮城Eons 03
+      - US_191 |150.58Mb
+      - US_209 |107.89Mb
+      - GB_181 |22.76Mb
+      - "🇺🇸 TG:@hkaa0|美国_79\r"
+      - 🇭🇰 香港Alice 08
+      - 🇯🇵 日本Akari 02
+      - US_233 | 6.71Mb
+      - 🇺🇸 _美国_208
+      - 🇯🇵 日本_Telegram@kxswa 2
+      - 🇸🇬 狮城Akari 02
+      - KR_209 | 4.22Mb
+      - DE_94 |12.57Mb
+      - "🇺🇸 TG:@hkaa0|美国_81\r"
+      - 🇭🇰 香港Alice 05
+      - 🇨🇳 台湾Hinet 03 ○
+      - 🇺🇸 _美国_10
+      - DE_151 |22.64Mb
+      - JP_143 |12.68Mb
+      - 🇭🇰 香港HKT 02 ○
+      - 🇭🇰 香港Alice 06
+      - DE_87 | 5.79Mb
+      - ZZ_353 | 7.56Mb
+      - "🇺🇸 TG:@hkaa0|美国_38\r"
+      - DE_91 |35.74Mb
+      - 🇺🇸 _美国_8
+      - 🇯🇵 日本Akari 01
+      - 🇺🇸 _美国_7
+      - "🇺🇸 TG:@hkaa0|美国_75\r"
+      - DE_83 | 6.24Mb
+      - DE_153 |23.90Mb
+      - "🇺🇸 TG:@hkaa0|美国_78\r"
+      - CZ_150 |33.95Mb
+      - 🇺🇸 _美国_23
+      - DE_97 |21.39Mb
+      - GB_116 |50.31Mb
+      - 🇺🇸 美国Cogent 01 ○
+      - 🇲🇾 MY_217
+      - US_267 | 8.78Mb
+      - "🇨🇳 TG:@hkaa0|中国_1\r"
+      - 🇺🇸 _美国_22
+      - US_203
+      - 🇲🇾 MY_151
+      - US_175 |12.23Mb
+      - HK_125 | 9.62Mb
+      - 🇨🇳 台湾ByteVirt 04
+      - KR_148 |20.80Mb
+      - 🇺🇸 _美国_4
+      - US_181 2
+      - 🇨🇳 _中国_16
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 IEPL|英国
-      - 🇭🇰 IEPL|香港03
-      - 🇺🇸 IEPL|美国01
-      - 🇭🇰 IEPL|香港01HKT
-      - 🇭🇰 IEPL|香港02
-      - 🇨🇳 台湾 03
-      - 🇯🇵 日本Cogent 03
-      - 🇭🇰 香港Alice 08
-      - 🇭🇰 香港Alice 07
-      - 🇫🇮 Base 芬兰
-      - 🇨🇦 Base 加拿大
-      - 🇨🇳 台湾ByteVirt 05
-      - 🇨🇳 台湾Hinet 03 ○
-      - 🇦🇺 Base 澳大利亚 悉尼
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 02
-      - 🇺🇸 美国 01
+      - DE_88 | 9.56Mb
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - DE_163 |12.04Mb
+      - US_237 |11.13Mb
+      - 🇭🇰 香港Alice 04
+      - DE_155 |19.88Mb
+      - US_199 |57.44Mb
+      - DE_93 | 3.12Mb
+      - 🇺🇸 美国_Telegram@kxswa 5 2
+      - https://t.me/xyfqzy 2
+      - "| 5.14Mb"
+      - US_181
+      - US_187 |10.74Mb
+      - 🇺🇸 美国Fastnet 03
+      - "🇺🇸 TG:@hkaa0|美国_76\r"
+      - 🇰🇷 韩国_Telegram@kxswa
+      - HK_166 | 2.36Mb
+      - CZ_81 | 7.02Mb
+      - US_181 | 4.74Mb
+      - DE_160 |28.57Mb
+      - 🇸🇬 新加坡_Telegram@kxswa 4
       - 🇸🇬 狮城Akari 01
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇯🇵 日本Akari 02
-      - 🇸🇬 新加坡 03
-      - 🇯🇵 日本Akari 01
-      - 🇲🇾 IEPL|马来西亚
-      - 🇹🇭 Base 泰国
-      - 🇺🇸 Base 美国Frontier家宽
-      - 🇭🇰 香港Alice 06
-      - 🇯🇵 日本 01
-      - 🇸🇬 Base 新西兰
-      - 🇮🇩 Base 印度尼西亚
-      - 🇵🇭 Base 菲律宾 02
-      - 🇨🇳 台湾ByteVirt 04
-      - 🇨🇳 台湾 01
-      - 🇲🇾 Base 马来西亚TMNet家宽
-      - 🇺🇸 美国Fastnet 04
-      - 🇭🇰 香港 01
-      - 🇺🇸 美国Cogent 02 ○
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港HKT 02 ○
-      - 🇸🇬 IEPL|新加坡04
-      - 🇨🇳 IEPL|台湾01
-      - 🇸🇬 IEPL|新加坡02
-      - 🇭🇰 香港Alice 05
-      - 🇮🇳 Base 印度
+      - 🇸🇬 狮城Eons 04
+      - 🇭🇰 香港Alice 07
+      - ZZ_303 | 4.10Mb
       - 🇭🇰 香港Alice 03
-      - 🇸🇬 IEPL|新加坡03
-      - 🇸🇬 IEPL|新加坡01
-      - 🇭🇰 IEPL|香港04
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2
+      - 🇺🇸 美国Fastnet 04
+      - 🇺🇸 美国Cogent 02 ○
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2 2
+      - _160 |15.64Mb
+      - 🇨🇦 加拿大Oracle 01
+      - 🇯🇵 日本Cogent 03
+      - DE_161 |11.29Mb
+      - 🇯🇵 日本Cogent 04
+      - 🇨🇳 台湾ByteVirt 05
+      - HK_124 | 9.57Mb
+      - 🇸🇬 狮城Eons 03
+      - US_191 |150.58Mb
+      - US_209 |107.89Mb
+      - GB_181 |22.76Mb
+      - "🇺🇸 TG:@hkaa0|美国_79\r"
+      - 🇭🇰 香港Alice 08
+      - 🇯🇵 日本Akari 02
+      - US_233 | 6.71Mb
+      - 🇺🇸 _美国_208
+      - 🇯🇵 日本_Telegram@kxswa 2
+      - 🇸🇬 狮城Akari 02
+      - KR_209 | 4.22Mb
+      - DE_94 |12.57Mb
+      - "🇺🇸 TG:@hkaa0|美国_81\r"
+      - 🇭🇰 香港Alice 05
+      - 🇨🇳 台湾Hinet 03 ○
+      - 🇺🇸 _美国_10
+      - DE_151 |22.64Mb
+      - JP_143 |12.68Mb
+      - 🇭🇰 香港HKT 02 ○
+      - 🇭🇰 香港Alice 06
+      - DE_87 | 5.79Mb
+      - ZZ_353 | 7.56Mb
+      - "🇺🇸 TG:@hkaa0|美国_38\r"
+      - DE_91 |35.74Mb
+      - 🇺🇸 _美国_8
+      - 🇯🇵 日本Akari 01
+      - 🇺🇸 _美国_7
+      - "🇺🇸 TG:@hkaa0|美国_75\r"
+      - DE_83 | 6.24Mb
+      - DE_153 |23.90Mb
+      - "🇺🇸 TG:@hkaa0|美国_78\r"
+      - CZ_150 |33.95Mb
+      - 🇺🇸 _美国_23
+      - DE_97 |21.39Mb
+      - GB_116 |50.31Mb
+      - 🇺🇸 美国Cogent 01 ○
+      - 🇲🇾 MY_217
+      - US_267 | 8.78Mb
+      - "🇨🇳 TG:@hkaa0|中国_1\r"
+      - 🇺🇸 _美国_22
+      - US_203
+      - 🇲🇾 MY_151
+      - US_175 |12.23Mb
+      - HK_125 | 9.62Mb
+      - 🇨🇳 台湾ByteVirt 04
+      - KR_148 |20.80Mb
+      - 🇺🇸 _美国_4
+      - US_181 2
+      - 🇨🇳 _中国_16
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 IEPL|英国
-      - 🇭🇰 IEPL|香港03
-      - 🇺🇸 IEPL|美国01
-      - 🇭🇰 IEPL|香港01HKT
-      - 🇭🇰 IEPL|香港02
-      - 🇨🇳 台湾 03
-      - 🇯🇵 日本Cogent 03
-      - 🇭🇰 香港Alice 08
-      - 🇭🇰 香港Alice 07
-      - 🇫🇮 Base 芬兰
-      - 🇨🇦 Base 加拿大
-      - 🇨🇳 台湾ByteVirt 05
-      - 🇨🇳 台湾Hinet 03 ○
-      - 🇦🇺 Base 澳大利亚 悉尼
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 02
-      - 🇺🇸 美国 01
+      - DE_88 | 9.56Mb
+      - 🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 日本特殊|@ripaojiedian
+      - DE_163 |12.04Mb
+      - US_237 |11.13Mb
+      - 🇭🇰 香港Alice 04
+      - DE_155 |19.88Mb
+      - US_199 |57.44Mb
+      - DE_93 | 3.12Mb
+      - 🇺🇸 美国_Telegram@kxswa 5 2
+      - https://t.me/xyfqzy 2
+      - "| 5.14Mb"
+      - US_181
+      - US_187 |10.74Mb
+      - 🇺🇸 美国Fastnet 03
+      - "🇺🇸 TG:@hkaa0|美国_76\r"
+      - 🇰🇷 韩国_Telegram@kxswa
+      - HK_166 | 2.36Mb
+      - CZ_81 | 7.02Mb
+      - US_181 | 4.74Mb
+      - DE_160 |28.57Mb
+      - 🇸🇬 新加坡_Telegram@kxswa 4
       - 🇸🇬 狮城Akari 01
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇯🇵 日本Akari 02
-      - 🇸🇬 新加坡 03
-      - 🇯🇵 日本Akari 01
-      - 🇲🇾 IEPL|马来西亚
-      - 🇹🇭 Base 泰国
-      - 🇺🇸 Base 美国Frontier家宽
-      - 🇭🇰 香港Alice 06
-      - 🇯🇵 日本 01
-      - 🇸🇬 Base 新西兰
-      - 🇮🇩 Base 印度尼西亚
-      - 🇵🇭 Base 菲律宾 02
-      - 🇨🇳 台湾ByteVirt 04
-      - 🇨🇳 台湾 01
-      - 🇲🇾 Base 马来西亚TMNet家宽
-      - 🇺🇸 美国Fastnet 04
-      - 🇭🇰 香港 01
-      - 🇺🇸 美国Cogent 02 ○
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港HKT 02 ○
-      - 🇸🇬 IEPL|新加坡04
-      - 🇨🇳 IEPL|台湾01
-      - 🇸🇬 IEPL|新加坡02
-      - 🇭🇰 香港Alice 05
-      - 🇮🇳 Base 印度
+      - 🇸🇬 狮城Eons 04
+      - 🇭🇰 香港Alice 07
+      - ZZ_303 | 4.10Mb
       - 🇭🇰 香港Alice 03
-      - 🇸🇬 IEPL|新加坡03
-      - 🇸🇬 IEPL|新加坡01
-      - 🇭🇰 IEPL|香港04
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2
+      - 🇺🇸 美国Fastnet 04
+      - 🇺🇸 美国Cogent 02 ○
+      - 🇺🇸 >🇺🇸 US|Ls|0125|TG@FProxies| 6 2 2 2
+      - _160 |15.64Mb
+      - 🇨🇦 加拿大Oracle 01
+      - 🇯🇵 日本Cogent 03
+      - DE_161 |11.29Mb
+      - 🇯🇵 日本Cogent 04
+      - 🇨🇳 台湾ByteVirt 05
+      - HK_124 | 9.57Mb
+      - 🇸🇬 狮城Eons 03
+      - US_191 |150.58Mb
+      - US_209 |107.89Mb
+      - GB_181 |22.76Mb
+      - "🇺🇸 TG:@hkaa0|美国_79\r"
+      - 🇭🇰 香港Alice 08
+      - 🇯🇵 日本Akari 02
+      - US_233 | 6.71Mb
+      - 🇺🇸 _美国_208
+      - 🇯🇵 日本_Telegram@kxswa 2
+      - 🇸🇬 狮城Akari 02
+      - KR_209 | 4.22Mb
+      - DE_94 |12.57Mb
+      - "🇺🇸 TG:@hkaa0|美国_81\r"
+      - 🇭🇰 香港Alice 05
+      - 🇨🇳 台湾Hinet 03 ○
+      - 🇺🇸 _美国_10
+      - DE_151 |22.64Mb
+      - JP_143 |12.68Mb
+      - 🇭🇰 香港HKT 02 ○
+      - 🇭🇰 香港Alice 06
+      - DE_87 | 5.79Mb
+      - ZZ_353 | 7.56Mb
+      - "🇺🇸 TG:@hkaa0|美国_38\r"
+      - DE_91 |35.74Mb
+      - 🇺🇸 _美国_8
+      - 🇯🇵 日本Akari 01
+      - 🇺🇸 _美国_7
+      - "🇺🇸 TG:@hkaa0|美国_75\r"
+      - DE_83 | 6.24Mb
+      - DE_153 |23.90Mb
+      - "🇺🇸 TG:@hkaa0|美国_78\r"
+      - CZ_150 |33.95Mb
+      - 🇺🇸 _美国_23
+      - DE_97 |21.39Mb
+      - GB_116 |50.31Mb
+      - 🇺🇸 美国Cogent 01 ○
+      - 🇲🇾 MY_217
+      - US_267 | 8.78Mb
+      - "🇨🇳 TG:@hkaa0|中国_1\r"
+      - 🇺🇸 _美国_22
+      - US_203
+      - 🇲🇾 MY_151
+      - US_175 |12.23Mb
+      - HK_125 | 9.62Mb
+      - 🇨🇳 台湾ByteVirt 04
+      - KR_148 |20.80Mb
+      - 🇺🇸 _美国_4
+      - US_181 2
+      - 🇨🇳 _中国_16
   - name: 🎯 不挂代理
     type: select
     proxies:
