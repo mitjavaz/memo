@@ -69,8 +69,8 @@ rule-providers:
     behavior: classical
     interval: 86400
     format: yaml
-    proxy: DIRECT
-    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/yesVPN.list
+    proxy: 🔰 代理模式
+    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/yesVPN.yaml
     path: ./RuleSet/yesVPN.yaml
   novpn:
     type: http
@@ -78,15 +78,15 @@ rule-providers:
     interval: 86400
     format: yaml
     proxy: DIRECT
-    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/noVPN.list
+    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/noVPN.yaml
     path: ./RuleSet/noVPN.yaml
   stopvpn:
     type: http
     behavior: classical
     interval: 86400
     format: yaml
-    proxy: DIRECT
-    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/stopVPN.list
+    proxy: REJECT
+    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/stopVPN.yaml
     path: ./RuleSet/stopVPN.yaml
 rules:
   - RULE-SET,yesvpn,🔰 代理模式
