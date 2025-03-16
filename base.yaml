@@ -1,0 +1,94 @@
+﻿proxy-providers:
+  providerAll:
+    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/all.yaml
+    type: http
+    interval: 600
+    proxy: DIRECT
+    path: ./proxy_provider/ALL.yaml
+
+port: 7890
+socks-port: 7891
+mixed-port: 10801
+#redir-port: 7892  
+#tproxy-port: 7893
+allow-lan: true
+mode: rule
+log-level: silent
+external-controller: :9090
+profile:
+  store-selected: false
+  store-fake-ip: true
+proxy-groups:
+  - name: 🔰 代理模式
+    type: select
+    interval: 300
+    url: https://www.youtube.com/generate_204
+    lazy: true
+    timeout: 2000
+    max-failed-times: 3
+    proxies:
+      - ✋ 手选模式
+      - ♻️ 测速代理
+      - ♻️ 负载均衡
+      - ♻️ 回滚代理
+  - name: ✋ 手选模式
+    type: select
+    use:
+      - providerAll
+  - name: ♻️ 负载均衡
+    type: load-balance
+    interval: 60
+    lazy: true
+    url: https://www.youtube.com/generate_204
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    strategy: sticky-sessions
+    use:
+      - ProviderALL
+  - name: ♻️ 测速代理
+    type: url-test
+    tolerance: 100
+    interval: 60
+    lazy: true
+    url: https://www.youtube.com/generate_204
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    use:
+      - ProviderALL
+  - name: ♻️ 回滚代理
+    type: fallback
+    url: https://www.youtube.com/generate_204
+    interval: 300
+    use:
+      - providerAll
+rule-providers:
+  yesvpn:
+    type: http
+    behavior: classical
+    interval: 86400
+    format: yaml
+    proxy: DIRECT
+    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/yesVPN.list
+    path: ./RuleSet/yesVPN.yaml
+  novpn:
+    type: http
+    behavior: classical
+    interval: 86400
+    format: yaml
+    proxy: DIRECT
+    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/noVPN.list
+    path: ./RuleSet/noVPN.yaml
+  stopvpn:
+    type: http
+    behavior: classical
+    interval: 86400
+    format: yaml
+    proxy: DIRECT
+    url: https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/stopVPN.list
+    path: ./RuleSet/stopVPN.yaml
+rules:
+  - RULE-SET,yesvpn,🔰 代理模式
+  - RULE-SET,novpn,DIRECT
+  - RULE-SET,stopvpn,REJECT
