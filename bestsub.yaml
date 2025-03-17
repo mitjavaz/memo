@@ -1,0 +1,41 @@
+﻿port: 7890
+socks-port: 7891
+minxed-port: 10801
+
+# 允许局域网连接
+allow-lan: true 
+# 设置跳过验证的 IP 段
+skip-auth-prefixes: 
+  - 127.0.0.1/8
+  - ::1/128
+# 允许连接的 IP 地址段，仅作用于 allow-lan 为 true, 默认值为 0.0.0.0/0 和::/0
+lan-allowed-ips:   
+  - 0.0.0.0/0
+  - ::/0
+# 禁止连接的 IP 地址段，黑名单优先级高于白名单，默认值为空
+lan-disallowed-ips: 
+  - 192.168.0.3/32
+
+#  find-process-mode has 3 values:always, strict, off
+#  - always, 开启，强制匹配所有进程
+#  - strict, 默认，由 mihomo 判断是否开启
+#  - off, 不匹配进程，推荐在路由器上使用此模式
+find-process-mode: strict
+
+mode: rule
+
+# 日志等级 silent/error/warning/info/debug
+log-level: silent 
+
+# 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
+ipv6: true
+
+proxy-groups:
+  - name: ""
+  type: select
+  proxies:
+  - DIRECT
+  - ss
+  use:
+  - provider1
+  - provider1
