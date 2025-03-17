@@ -1,0 +1,100 @@
+# 是否打印进度 
+print-progress: true
+
+# 可选值 debug info warn error
+log-level: debug
+
+# 重命名方法 api 或 regex 或 mix
+rename:
+  method: mix
+  flag: true
+
+check:
+  # 并发
+  concurrent: 100
+  # 检查间隔,单位分钟
+  interval: 10
+  # 超时时间 单位毫秒
+  timeout: 2000
+  # 最低测速 单位KB/s
+  min-speed: 1024
+  # 下载测试超时时间 单位秒
+  download-timeout: 5
+  # 测速下载大小 单位MB
+  download-size: 10
+  # 测速地址
+  speed-test-url:
+    - https://speed.cloudflare.com/__down?bytes=1073741824
+    - https://github.com/VSCodium/vscodium/releases/download/1.98.0.25067/codium-1.98.0.25067-el9.aarch64.rpm
+  # 跳过测速的名称
+  #speed-skip-name: 倍率|x\d+
+  # 测速并发
+  speed-check-concurrent: 10
+  # 测速数量
+  speed-count: 10
+  # 测速保存
+  speed-save: true
+  # 检查项目
+  items:
+  #  - openai
+    - youtube
+  #  - netflix
+  #  - disney
+    - speed
+
+save:
+  # 保存方法 webdav 或 http 或 gist 或 r2
+  method: ["local"]
+  # 保存端口
+  #port: 18989
+
+# mihomo api
+#mihomo-api-url: "http://192.168.31.11:9090"
+# mihomo api secret
+#mihomo-api-secret: ""
+# 重试次数
+sub-urls-retry: 3
+# 代理设置 支持 http 和 socks 代理
+proxy:
+#  type: "http" # 可选值: http, socks
+#  address: "http://192.168.31.11:7890" # 代理地址
+# 订阅链接
+# type-include:
+#   - ss
+#   - vmess
+sub-urls:
+  # 总节点保存
+  - https://raw.githubusercontent.com/mitjavaz/memo/master/allNodes.yaml
+  # 订阅1节点保存
+  - https://raw.githubusercontent.com/mitjavaz/memo/master/clash.yaml
+  # 订阅2节点保存
+  - https://raw.githubusercontent.com/mitjavaz/memo/master/clash1.yaml
+  # Github共享节点
+  - https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash.yaml
+  - https://raw.githubusercontent.com/freeVPNjd/freeVPN1/main/clash
+  - https://raw.githubusercontent.com/igeekshare/GeekshareFreeNode/main/clash/Geekshare.yaml
+  - https://raw.githubusercontent.com/resasanian/Mirza/main/sub
+  - https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
+  - https://raw.githubusercontent.com/ZywChannel/free/main/sub
+  - https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
+  # TG #
+  # 蛋黄酱节点分享
+    # 0208节点
+  - https://sub.danhu.ddns-ip.net/paste/OmJ9zWdyc6ZN9aAe/clash
+    # 0308节点
+  - https://sub.danhu.ddns-ip.net/paste/zrGnix8y5gf3hv6z/clash
+  # 轩辕节点永久订阅
+  - https://vip.xy666.ggff.net/auto
+  # 未知名零散节点
+  - https://yun-api.subcloud.xyz/sub?target=clash&url=ss%3A%2F%2FY2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ZmJlM3JKVGt5d1l2Ymsz%40cn-gz.k5nf3a.ccddn4.icu%3A25437%23Akari%2520HongKong%2520_%253C%7Cvmess%3A%2F%2FeyJhZGQiOiI1ODE2MTAuZXZlbGluZS5sb2wiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiODE3NzVEQzktQjg1MS00QzJBLTNERDMtRTJFMDkwM0FFMkFEIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIzMTEwNCIsInBzIjoiTFNISVkgSG9uZ0tvbmcgX1x1MDAzYyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ%3D%3D%7Css%3A%2F%2FYWVzLTEyOC1nY206YTFkN2FlZWEtNzlmYi00YmZmLThiN2ItZmU1MWVlOGViY2Rl%40south.sf0jm.xyz%3A44406%23Akamai%2520Singapore%2520_%253C&insert=false
+  - https://yun-api.subcloud.xyz/sub?target=clash&url=trojan%3A%2F%2F789fa9d6-727e-424d-bdf6-8077d72aa5e2%40hkjs.lydurlclub.top%3A443%2F%3Ftype%3Dtcp%26security%3Dtls%23HKG%252003%2520_%253C%7Ctrojan%3A%2F%2F789fa9d6-727e-424d-bdf6-8077d72aa5e2%40usa.lydurlclub.top%3A443%2F%3Ftype%3Dtcp%26security%3Dtls%23USA%252002%2520_%253C&insert=false
+  - https://igdux.top/kfjCFnWmbbMNSmk4j2nJsfYb
+  - https://igdux.top/XanKQpzTW45sGNEZZTPpzQ6Q
+  - https://cf-workers-sub-9s8.pages.dev/CSDN
+  - https://emm-7zy.pages.dev/CSDN
+  - https://proxypool.aloes.workers.dev/
+  - https://xn--4oq11ryli3rg.com/s/1bc7228f5bc3b955260c2879bb80b509
+  - https://xn--4oq11ryli3rg.com/s/26ad946d20f630ddf84a75629a436f1d
+  - https://paste.gg/p/ruanianku/1080288024334b468d653ba5f9d7a59d/files/867170480c5944b9946dc2e86e7de039/raw
+  - https://b7af2e827532cf5d6bb61a805b44b58c.807541.xyz/api/v1/client/subscribe?token=e4625d4d5013ed8c116958af3c19c288
+  - https://hongxing.one/hxvip?token=d78e943dcdc5c6fcb8b2a020e0b0d680
