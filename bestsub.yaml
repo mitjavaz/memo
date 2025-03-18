@@ -30,12 +30,108 @@ log-level: silent
 # 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
 ipv6: true
 
+proxy-providers:
+  class1:
+    type: http
+    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/all.yaml
+    interval: 3600
+    proxy: DIRECT
+    path: ./proxy_provider/class.yaml
+  class2:
+    type: http
+    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/youtube.yaml
+    interval: 3600
+    proxy: DIRECT
+    path: ./proxy_provider/class1.yaml
+
 proxy-groups:
-  - name: ""
-  type: select
-  proxies:
-  - DIRECT
-  - ss
-  use:
-  - provider1
-  - provider1
+  - name: "🔰 代理模式"
+    type: select
+    proxies:
+      - ✋ 手选模式
+      - ♻️ 负载均衡
+      - ♻️ 测速代理
+      - ♻️ 回滚代理
+    use:
+      - class1
+      - class2
+    url: 'https://www.youtube.com/generate_204'
+    interval: 300
+    lazy: true
+    timeout: 5000
+    max-failed-times: 5
+
+  - name: "✋ 手选模式"
+    type: select
+    use:
+      - class1
+      - class2
+    url: 'https://www.youtube.com/generate_204'
+    interval: 300
+    lazy: true
+    timeout: 5000
+    max-failed-times: 5
+
+  - name: "♻️ 负载均衡"
+    type: load-balance
+    use:
+      - class1
+      - class2
+    url: 'https://www.youtube.com/generate_204'
+    interval: 300
+    lazy: true
+    timeout: 5000
+    max-failed-times: 5
+  - name: "♻️ 测速代理"
+    type: url-test
+    use:
+      - class1
+      - class2
+    url: 'https://www.youtube.com/generate_204'
+    interval: 300
+    lazy: true
+    timeout: 5000
+    max-failed-times: 5
+  - name: "♻️ 回滚代理"
+    type: fallback
+    use:
+      - class1
+      - class2
+    url: 'https://www.youtube.com/generate_204'
+    interval: 300
+    lazy: true
+    timeout: 5000
+    max-failed-times: 5
+
+rule-providers:
+  yesVPN:
+    type: http
+    path: ./yesVPN.yaml
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/yesVPN.list"
+    interval: 600
+    proxy: DIRECT
+    behavior: classical
+    format: text
+  noVPN:
+    type: http
+    path: ./noVPN.yaml
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/noVPN.list"
+    interval: 600
+    proxy: DIRECT
+    behavior: classical
+    format: text
+  stopVPN:
+    type: http
+    path: ./stopVPN.yaml
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/stopVPN.list"
+    interval: 600
+    proxy: DIRECT
+    behavior: classical
+    format: text
+
+rules:
+  - RULE-SET,yesVPN,🔰 代理模式
+  - RULE-SET,noVPN,DIRECT
+  - RULE-SET,stopVPN,REJECT
+  - GEOIP,CN,REJECT
+  - MATCH,🔰 代理模式
