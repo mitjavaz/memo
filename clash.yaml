@@ -5,67 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇦 CA 091, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇦 CA 160, server: 23.162.200.91, port: 20182, type: vmess, uuid: cc9b66b7-1de7-4aa9-9642-575a8ae3ff19, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 CA 393, server: 185.146.173.59, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /link, headers: {Host: hms02.fxiaomi.sbs}}}
-  - {name: 🇨🇳 CN 008 | ⬇️ 8.67 MB/s, server: 120.234.102.229, port: 31998, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 054 | ⬇️ 1.13 MB/s, server: 183.236.51.38, port: 59104, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 CN 064, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 TW 029, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇨🇳 TW 082, server: 18.183.116.21, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 TW 146, server: 54.251.193.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇩🇪 DE 011, server: 62.146.233.112, port: 36712, type: vmess, uuid: 9266df42-0830-48c2-8509-4c57b30fe29d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE 013, server: 62.146.232.159, port: 14372, type: vmess, uuid: ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE 022, server: 62.146.232.153, port: 53144, type: vmess, uuid: 13e13a3e-e981-4eea-a9fc-13e50628fd9b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE 041, server: 94.136.184.156, port: 38872, type: vmess, uuid: 220732cc-9e43-4453-83f1-c9435be25b5b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE 048, server: 62.146.232.156, port: 33281, type: vmess, uuid: 24eda0ea-acf0-4538-a001-f746a480237a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 FR 330, server: 172.204.8.10, port: 550, type: vmess, uuid: 81bbca70-a35f-487e-88a4-8bd5856b10a5, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK 000 | ⬇️ 3.31 MB/s, server: w72tapyb.slashdevslashnetslashtun.net, port: 15016, type: ss, cipher: aes-256-gcm, password: 400UNOMLHAHBDXYY}
-  - {name: 🇭🇰 HK 000 | ⬇️ 3.31 MB/s 2, server: w72tapyb.slashdevslashnetslashtun.net, port: 15016, type: ss, cipher: aes-256-gcm, password: 400UNOMLHAHBDXYY}
-  - {name: 🇭🇰 HK 001 | ⬇️ 3.25 MB/s, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15006, type: ss, cipher: aes-256-gcm, password: R838Y3P00AB35AFH}
-  - {name: 🇭🇰 HK 001 | ⬇️ 3.25 MB/s 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15006, type: ss, cipher: aes-256-gcm, password: R838Y3P00AB35AFH}
-  - {name: 🇭🇰 HK 003 | ⬇️ 1.01 MB/s, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15007, type: ss, cipher: aes-256-gcm, password: 7380DLD5A7Y244GZ}
-  - {name: 🇭🇰 HK 003 | ⬇️ 1.01 MB/s 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15007, type: ss, cipher: aes-256-gcm, password: 7380DLD5A7Y244GZ}
-  - {name: 🇭🇰 HK 004 | ⬇️ 1.25 MB/s, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15003, type: ss, cipher: aes-256-gcm, password: 40H6T3FVQPRRPZZJ}
-  - {name: 🇭🇰 HK 004 | ⬇️ 1.25 MB/s 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15003, type: ss, cipher: aes-256-gcm, password: 40H6T3FVQPRRPZZJ}
-  - {name: 🇭🇰 HK 017, server: 13.229.99.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 HK 030, server: 156.245.190.23, port: 15014, type: ss, cipher: aes-256-gcm, password: ZDGC0Q2E112UAJO6}
-  - {name: 🇭🇰 HK 045 | ⬇️ 2.84 MB/s, server: qh62onjn.slashdevslashnetslashtun.net, port: 15015, type: ss, cipher: aes-256-gcm, password: TKY51QYEBHOTE1B4}
-  - {name: 🇭🇰 HK 052 | ⬇️ 2.65 MB/s, server: 120.232.153.63, port: 40105, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK 078, server: 104.21.6.201, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: hknbyivfffj.site}}}
-  - {name: 🇭🇰 HK 110, server: 156.245.190.16, port: 15007, type: ss, cipher: aes-256-gcm, password: MHZUEOX3KBXAV09K}
-  - {name: 🇭🇰 HK 158, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15013, type: ss, cipher: aes-256-gcm, password: R3FYI7545URTZITK}
-  - {name: 🇮🇳 IN 299, server: 185.67.125.147, port: 443, type: trojan, password: !<str> 3747000103274291200, sni: polished-collie.adder289.quest, skip-cert-verify: true}
-  - {name: 🇯🇵 JP 020, server: 18.142.182.250, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 JP 027, server: 18.181.194.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 JP 032, server: 13.213.69.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 JP 044, server: discrete-shrimp.shiner427.skin, port: 443, type: trojan, password: !<str> 74260716866785000, sni: discrete-shrimp.shiner427.skin, skip-cert-verify: true}
-  - {name: 🇯🇵 JP 084, server: 20.78.127.141, port: 550, type: vmess, uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP 100, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP 196, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18002, type: ss, cipher: aes-256-gcm, password: 84HMRAWILKB49QUZ}
-  - {name: 🇯🇵 JP 407, server: 3.34.253.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 KR 009, server: 13.229.209.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 KR 057, server: 43.202.49.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 KR 059, server: 43.203.196.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 KR 195, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇸🇬 SG 010, server: 154.196.244.21, port: 16011, type: ss, cipher: aes-256-gcm, password: 8WDLSCVIFB4I26GB}
-  - {name: 🇸🇬 SG 016, server: 13.229.59.76, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 SG 063, server: 54.254.93.88, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 SG 085, server: 103.106.229.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 US 015, server: 172.67.135.62, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: hknbyivfffj.site}}}
-  - {name: 🇺🇸 US 025, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US 026, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US 039, server: 104.21.42.243, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: sgfqkqmltcy.site}}}
-  - {name: 🇺🇸 US 042, server: 47.128.73.227, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 US 049, server: 47.128.224.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 US 051, server: 172.67.213.110, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: sgfqkqmltcy.site}}}
-  - {name: 🇺🇸 US 069, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US 092, server: 103.36.90.195, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 🇺🇸 US 129, server: 154.26.153.173, port: 28686, type: vmess, uuid: 6df7d56f-4953-4a10-be2e-a88cc9f94e48, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US 156, server: 208.67.105.196, port: 42029, type: ss, cipher: chacha20-ietf-poly1305, password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD}
-  - {name: 🇺🇸 US 167, server: 23.162.56.206, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 620c5b5108120a72}
-  - {name: 🇺🇸 US 180, server: 104.21.83.108, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /link, headers: {Host: hms02.fxiaomi.sbs}}}
-  - {name: 🇺🇸 US 358, server: 172.67.223.119, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /link, headers: {Host: hms02.fxiaomi.sbs}}}
+  - {name: 🇭🇰 HK 000 | ⬇️ 3.25 MB/s, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15009, type: ss, cipher: aes-256-gcm, password: 01PDNMTIDQKKTWF4}
+  - {name: 🇭🇰 HK 001 | ⬇️ 3.29 MB/s, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: 22PAOTW3QQDC1CYZ}
+  - {name: 🇭🇰 HK 005 | ⬇️ 1.11 MB/s, server: w72tapyb.slashdevslashnetslashtun.net, port: 15004, type: ss, cipher: aes-256-gcm, password: U4W0F2VSFIE1W12G}
+  - {name: 🇭🇰 HK 006, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: b79d805c-826a-4a87-9b8a-97c750e9f8b8}
+  - {name: 🇯🇵 JP 012 | ⬇️ 3.33 MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18004, type: ss, cipher: aes-256-gcm, password: 4PQL37LVGNW9SKUL}
+  - {name: 🇯🇵 JP 013 | ⬇️ 3.28 MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18015, type: ss, cipher: aes-256-gcm, password: 8IEFHXI4HFCQWRMF}
+  - {name: 🇯🇵 JP 016 | ⬇️ 2.02 MB/s, server: tacm.ix2.edge.kunlunae.com, port: 50126, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 54087855:sK3ngD, obfs-param: ""}
+  - {name: FI 034, server: 95.217.158.231, port: 8388, type: ss, cipher: aes-256-cfb, password: "eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd"}
+  - {name: 🇯🇵 JP 040, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18011, type: ss, cipher: aes-256-gcm, password: 79Q418YX85IAVV0I}
+  - {name: 🇰🇷 KR 041, server: 61.172.235.22, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: b79d805c-826a-4a87-9b8a-97c750e9f8b8}
+  - {name: 🇯🇵 JP 042, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18016, type: ss, cipher: aes-256-gcm, password: CKTWGU7NVENT03AP}
+  - {name: 🇰🇷 KR 043, server: nc.cm.xiaomi-api.xyz, port: 19552, type: trojan, password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1, skip-cert-verify: true}
+  - {name: 🇭🇰 HK 047, server: gzdata1.fc-smartcloud.xyz, port: 11185, type: trojan, password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HK 053, server: bjdata1.fc-smartcloud.xyz, port: 11162, type: trojan, password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇬🇧 GB 055, server: 169.150.210.233, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇬🇧 GB 059, server: 89.185.84.185, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: doLLZNNO6ekWRqrLS4JYBk}
+  - {name: 🇸🇬 SG 060, server: tacm.ix2.edge.kunlunae.com, port: 50122, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 54087855:sK3ngD, obfs-param: ""}
+  - {name: 🇯🇵 JP 068, server: nc.cn1.xiaomi-api.xyz, port: 19532, type: trojan, password: e47af2c3-5500-4dea-a4ae-6f0ea48c2e73, skip-cert-verify: true}
+  - {name: 🇵🇱 PL 075, server: 92.118.205.228, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇰🇷 KR 079, server: nc.ct.xiaomi-api.xyz, port: 19552, type: trojan, password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1, skip-cert-verify: true}
+  - {name: 🇯🇵 JP 088, server: tacm.ix2.edge.kunlunae.com, port: 50127, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 54087855:sK3ngD, obfs-param: ""}
+  - {name: CH 125, server: 45.95.232.236, port: 4248, type: ss, cipher: chacha20-ietf-poly1305, password: birCn7AVO1zkpzzA6UMtep}
+  - {name: 🇬🇧 GB 152, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇩🇪 DE 156, server: 81.19.141.45, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tF8CZFnTXojnpFXURHvbe1}
+  - {name: 🇺🇸 US 161, server: 208.67.105.196, port: 42029, type: ss, cipher: chacha20-ietf-poly1305, password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD}
+  - {name: RS 207, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇷🇺 RU 233, server: 31.129.105.239, port: 16231, type: vmess, uuid: 793e03cc-2b08-4d1b-bb0b-592567d19043, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 266, server: 82.197.66.69, port: 11208, type: ss, cipher: chacha20-ietf-poly1305, password: 318d575434212e48}
+  - {name: 🇸🇬 SG 311, server: tacm.ix2.edge.kunlunae.com, port: 50138, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 54087855:sK3ngD, obfs-param: ""}
+  - {name: 🇭🇰 HK 325, server: gzdata1.fc-smartcloud.xyz, port: 11170, type: trojan, password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SG 418, server: tacm.ix2.edge.kunlunae.com, port: 50139, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 54087855:sK3ngD, obfs-param: ""}
+  - {name: 🇺🇸 US 435, server: 166.1.157.228, port: 55330, type: ss, cipher: chacha20-ietf-poly1305, password: rtR4YX74vwqRJu9MGH3e1N3CQdGMWCUFkyLisijiFuvhkU9McV5TpygfkernJ4UQe63JtcDQkrQ9HfchzqQz1kLCnTRor8jg}
+  - {name: 🇷🇺 RU 446, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true}
+  - {name: 🇺🇸 US 453, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true}
+  - {name: 🇨🇦 CA 505, server: bluecollarwork.online, port: 443, type: trojan, password: 4aec4e7f8cf8454ea4613659822e1a61, skip-cert-verify: true}
+  - {name: 🇸🇬 SG 510, server: tacm.ix2.edge.kunlunae.com, port: 50136, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 54087855:sK3ngD, obfs-param: ""}
+  - {name: UN 601, server: 154.83.2.200, port: 443, type: trojan, password: amclubs2024, sni: tr.amclub.us.kg, skip-cert-verify: true}
+  - {name: 🇸🇬 SG 715, server: tacm.ix2.edge.kunlunae.com, port: 50137, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 54087855:sK3ngD, obfs-param: ""}
+  - {name: 🇭🇰 HK 000 | ⬇️ 3.25 MB/s 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15009, type: ss, cipher: aes-256-gcm, password: 01PDNMTIDQKKTWF4}
+  - {name: 🇭🇰 HK 001 | ⬇️ 3.29 MB/s 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: 22PAOTW3QQDC1CYZ}
+  - {name: 🇨🇳 TW 003 | ⬇️ 3.16 MB/s, server: ti3hyra4.slashdevslashnetslashtun.net, port: 21004, type: ss, cipher: aes-256-gcm, password: XQE0LHCL1YBGOG3L}
+  - {name: 🇭🇰 HK 005 | ⬇️ 1.11 MB/s 2, server: w72tapyb.slashdevslashnetslashtun.net, port: 15004, type: ss, cipher: aes-256-gcm, password: U4W0F2VSFIE1W12G}
+  - {name: 🇯🇵 JP 011 | ⬇️ 15.48 MB/s, server: 61.172.235.22, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: b79d805c-826a-4a87-9b8a-97c750e9f8b8}
+  - {name: 🇯🇵 JP 012 | ⬇️ 3.33 MB/s 2, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18004, type: ss, cipher: aes-256-gcm, password: 4PQL37LVGNW9SKUL}
+  - {name: 🇯🇵 JP 013 | ⬇️ 3.28 MB/s 2, server: ti3hyra4.slashdevslashnetslashtun.net, port: 18015, type: ss, cipher: aes-256-gcm, password: 8IEFHXI4HFCQWRMF}
+  - {name: 🇯🇵 JP 016 | ⬇️ 2.02 MB/s 2, server: tacm.ix2.edge.kunlunae.com, port: 50126, type: ssr, cipher: chacha20, password: mPQ5C9, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: 54087855:sK3ngD, obfs-param: ""}
+  - {name: 🇬🇧 GB 019 | ⬇️ 2.31 MB/s, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇳🇱 NL 020 | ⬇️ 3.65 MB/s, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 🇨🇳 CN 021 | ⬇️ 10.99 MB/s, server: hk.bazhuayujiasu.cc, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: b79d805c-826a-4a87-9b8a-97c750e9f8b8}
+  - {name: 🇳🇱 NL 022 | ⬇️ 2.83 MB/s, server: 149.34.244.77, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇳🇱 NL 023 | ⬇️ 3.72 MB/s, server: 45.158.171.110, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇫🇷 FR 024 | ⬇️ 1.16 MB/s, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇬🇧 GB 025 | ⬇️ 3.38 MB/s, server: 212.102.53.198, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇵🇱 PL 026 | ⬇️ 1.45 MB/s, server: 217.30.10.18, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj}
+  - {name: 🇩🇪 DE 027 | ⬇️ 1.17 MB/s, server: 217.182.198.219, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -77,266 +71,242 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇨🇦 CA 091
-      - 🇨🇦 CA 160
-      - 🇨🇦 CA 393
-      - 🇨🇳 CN 008 | ⬇️ 8.67 MB/s
-      - 🇨🇳 CN 054 | ⬇️ 1.13 MB/s
-      - 🇨🇳 CN 064
-      - 🇨🇳 TW 029
-      - 🇨🇳 TW 082
-      - 🇨🇳 TW 146
-      - 🇩🇪 DE 011
-      - 🇩🇪 DE 013
-      - 🇩🇪 DE 022
-      - 🇩🇪 DE 041
-      - 🇩🇪 DE 048
-      - 🇫🇷 FR 330
-      - 🇭🇰 HK 000 | ⬇️ 3.31 MB/s
-      - 🇭🇰 HK 000 | ⬇️ 3.31 MB/s 2
-      - 🇭🇰 HK 001 | ⬇️ 3.25 MB/s
-      - 🇭🇰 HK 001 | ⬇️ 3.25 MB/s 2
-      - 🇭🇰 HK 003 | ⬇️ 1.01 MB/s
-      - 🇭🇰 HK 003 | ⬇️ 1.01 MB/s 2
-      - 🇭🇰 HK 004 | ⬇️ 1.25 MB/s
-      - 🇭🇰 HK 004 | ⬇️ 1.25 MB/s 2
-      - 🇭🇰 HK 017
-      - 🇭🇰 HK 030
-      - 🇭🇰 HK 045 | ⬇️ 2.84 MB/s
-      - 🇭🇰 HK 052 | ⬇️ 2.65 MB/s
-      - 🇭🇰 HK 078
-      - 🇭🇰 HK 110
-      - 🇭🇰 HK 158
-      - 🇮🇳 IN 299
-      - 🇯🇵 JP 020
-      - 🇯🇵 JP 027
-      - 🇯🇵 JP 032
-      - 🇯🇵 JP 044
-      - 🇯🇵 JP 084
-      - 🇯🇵 JP 100
-      - 🇯🇵 JP 196
-      - 🇯🇵 JP 407
-      - 🇰🇷 KR 009
-      - 🇰🇷 KR 057
-      - 🇰🇷 KR 059
-      - 🇰🇷 KR 195
-      - 🇸🇬 SG 010
-      - 🇸🇬 SG 016
-      - 🇸🇬 SG 063
-      - 🇸🇬 SG 085
-      - 🇺🇸 US 015
-      - 🇺🇸 US 025
-      - 🇺🇸 US 026
-      - 🇺🇸 US 039
-      - 🇺🇸 US 042
-      - 🇺🇸 US 049
-      - 🇺🇸 US 051
-      - 🇺🇸 US 069
-      - 🇺🇸 US 092
-      - 🇺🇸 US 129
-      - 🇺🇸 US 156
-      - 🇺🇸 US 167
-      - 🇺🇸 US 180
-      - 🇺🇸 US 358
+      - 🇭🇰 HK 000 | ⬇️ 3.25 MB/s
+      - 🇭🇰 HK 001 | ⬇️ 3.29 MB/s
+      - 🇭🇰 HK 005 | ⬇️ 1.11 MB/s
+      - 🇭🇰 HK 006
+      - 🇯🇵 JP 012 | ⬇️ 3.33 MB/s
+      - 🇯🇵 JP 013 | ⬇️ 3.28 MB/s
+      - 🇯🇵 JP 016 | ⬇️ 2.02 MB/s
+      - FI 034
+      - 🇯🇵 JP 040
+      - 🇰🇷 KR 041
+      - 🇯🇵 JP 042
+      - 🇰🇷 KR 043
+      - 🇭🇰 HK 047
+      - 🇭🇰 HK 053
+      - 🇬🇧 GB 055
+      - 🇬🇧 GB 059
+      - 🇸🇬 SG 060
+      - 🇯🇵 JP 068
+      - 🇵🇱 PL 075
+      - 🇰🇷 KR 079
+      - 🇯🇵 JP 088
+      - CH 125
+      - 🇬🇧 GB 152
+      - 🇩🇪 DE 156
+      - 🇺🇸 US 161
+      - RS 207
+      - 🇷🇺 RU 233
+      - 🇺🇸 US 266
+      - 🇸🇬 SG 311
+      - 🇭🇰 HK 325
+      - 🇸🇬 SG 418
+      - 🇺🇸 US 435
+      - 🇷🇺 RU 446
+      - 🇺🇸 US 453
+      - 🇨🇦 CA 505
+      - 🇸🇬 SG 510
+      - UN 601
+      - 🇸🇬 SG 715
+      - 🇭🇰 HK 000 | ⬇️ 3.25 MB/s 2
+      - 🇭🇰 HK 001 | ⬇️ 3.29 MB/s 2
+      - 🇨🇳 TW 003 | ⬇️ 3.16 MB/s
+      - 🇭🇰 HK 005 | ⬇️ 1.11 MB/s 2
+      - 🇯🇵 JP 011 | ⬇️ 15.48 MB/s
+      - 🇯🇵 JP 012 | ⬇️ 3.33 MB/s 2
+      - 🇯🇵 JP 013 | ⬇️ 3.28 MB/s 2
+      - 🇯🇵 JP 016 | ⬇️ 2.02 MB/s 2
+      - 🇬🇧 GB 019 | ⬇️ 2.31 MB/s
+      - 🇳🇱 NL 020 | ⬇️ 3.65 MB/s
+      - 🇨🇳 CN 021 | ⬇️ 10.99 MB/s
+      - 🇳🇱 NL 022 | ⬇️ 2.83 MB/s
+      - 🇳🇱 NL 023 | ⬇️ 3.72 MB/s
+      - 🇫🇷 FR 024 | ⬇️ 1.16 MB/s
+      - 🇬🇧 GB 025 | ⬇️ 3.38 MB/s
+      - 🇵🇱 PL 026 | ⬇️ 1.45 MB/s
+      - 🇩🇪 DE 027 | ⬇️ 1.17 MB/s
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 CA 091
-      - 🇨🇦 CA 160
-      - 🇨🇦 CA 393
-      - 🇨🇳 CN 008 | ⬇️ 8.67 MB/s
-      - 🇨🇳 CN 054 | ⬇️ 1.13 MB/s
-      - 🇨🇳 CN 064
-      - 🇨🇳 TW 029
-      - 🇨🇳 TW 082
-      - 🇨🇳 TW 146
-      - 🇩🇪 DE 011
-      - 🇩🇪 DE 013
-      - 🇩🇪 DE 022
-      - 🇩🇪 DE 041
-      - 🇩🇪 DE 048
-      - 🇫🇷 FR 330
-      - 🇭🇰 HK 000 | ⬇️ 3.31 MB/s
-      - 🇭🇰 HK 000 | ⬇️ 3.31 MB/s 2
-      - 🇭🇰 HK 001 | ⬇️ 3.25 MB/s
-      - 🇭🇰 HK 001 | ⬇️ 3.25 MB/s 2
-      - 🇭🇰 HK 003 | ⬇️ 1.01 MB/s
-      - 🇭🇰 HK 003 | ⬇️ 1.01 MB/s 2
-      - 🇭🇰 HK 004 | ⬇️ 1.25 MB/s
-      - 🇭🇰 HK 004 | ⬇️ 1.25 MB/s 2
-      - 🇭🇰 HK 017
-      - 🇭🇰 HK 030
-      - 🇭🇰 HK 045 | ⬇️ 2.84 MB/s
-      - 🇭🇰 HK 052 | ⬇️ 2.65 MB/s
-      - 🇭🇰 HK 078
-      - 🇭🇰 HK 110
-      - 🇭🇰 HK 158
-      - 🇮🇳 IN 299
-      - 🇯🇵 JP 020
-      - 🇯🇵 JP 027
-      - 🇯🇵 JP 032
-      - 🇯🇵 JP 044
-      - 🇯🇵 JP 084
-      - 🇯🇵 JP 100
-      - 🇯🇵 JP 196
-      - 🇯🇵 JP 407
-      - 🇰🇷 KR 009
-      - 🇰🇷 KR 057
-      - 🇰🇷 KR 059
-      - 🇰🇷 KR 195
-      - 🇸🇬 SG 010
-      - 🇸🇬 SG 016
-      - 🇸🇬 SG 063
-      - 🇸🇬 SG 085
-      - 🇺🇸 US 015
-      - 🇺🇸 US 025
-      - 🇺🇸 US 026
-      - 🇺🇸 US 039
-      - 🇺🇸 US 042
-      - 🇺🇸 US 049
-      - 🇺🇸 US 051
-      - 🇺🇸 US 069
-      - 🇺🇸 US 092
-      - 🇺🇸 US 129
-      - 🇺🇸 US 156
-      - 🇺🇸 US 167
-      - 🇺🇸 US 180
-      - 🇺🇸 US 358
+      - 🇭🇰 HK 000 | ⬇️ 3.25 MB/s
+      - 🇭🇰 HK 001 | ⬇️ 3.29 MB/s
+      - 🇭🇰 HK 005 | ⬇️ 1.11 MB/s
+      - 🇭🇰 HK 006
+      - 🇯🇵 JP 012 | ⬇️ 3.33 MB/s
+      - 🇯🇵 JP 013 | ⬇️ 3.28 MB/s
+      - 🇯🇵 JP 016 | ⬇️ 2.02 MB/s
+      - FI 034
+      - 🇯🇵 JP 040
+      - 🇰🇷 KR 041
+      - 🇯🇵 JP 042
+      - 🇰🇷 KR 043
+      - 🇭🇰 HK 047
+      - 🇭🇰 HK 053
+      - 🇬🇧 GB 055
+      - 🇬🇧 GB 059
+      - 🇸🇬 SG 060
+      - 🇯🇵 JP 068
+      - 🇵🇱 PL 075
+      - 🇰🇷 KR 079
+      - 🇯🇵 JP 088
+      - CH 125
+      - 🇬🇧 GB 152
+      - 🇩🇪 DE 156
+      - 🇺🇸 US 161
+      - RS 207
+      - 🇷🇺 RU 233
+      - 🇺🇸 US 266
+      - 🇸🇬 SG 311
+      - 🇭🇰 HK 325
+      - 🇸🇬 SG 418
+      - 🇺🇸 US 435
+      - 🇷🇺 RU 446
+      - 🇺🇸 US 453
+      - 🇨🇦 CA 505
+      - 🇸🇬 SG 510
+      - UN 601
+      - 🇸🇬 SG 715
+      - 🇭🇰 HK 000 | ⬇️ 3.25 MB/s 2
+      - 🇭🇰 HK 001 | ⬇️ 3.29 MB/s 2
+      - 🇨🇳 TW 003 | ⬇️ 3.16 MB/s
+      - 🇭🇰 HK 005 | ⬇️ 1.11 MB/s 2
+      - 🇯🇵 JP 011 | ⬇️ 15.48 MB/s
+      - 🇯🇵 JP 012 | ⬇️ 3.33 MB/s 2
+      - 🇯🇵 JP 013 | ⬇️ 3.28 MB/s 2
+      - 🇯🇵 JP 016 | ⬇️ 2.02 MB/s 2
+      - 🇬🇧 GB 019 | ⬇️ 2.31 MB/s
+      - 🇳🇱 NL 020 | ⬇️ 3.65 MB/s
+      - 🇨🇳 CN 021 | ⬇️ 10.99 MB/s
+      - 🇳🇱 NL 022 | ⬇️ 2.83 MB/s
+      - 🇳🇱 NL 023 | ⬇️ 3.72 MB/s
+      - 🇫🇷 FR 024 | ⬇️ 1.16 MB/s
+      - 🇬🇧 GB 025 | ⬇️ 3.38 MB/s
+      - 🇵🇱 PL 026 | ⬇️ 1.45 MB/s
+      - 🇩🇪 DE 027 | ⬇️ 1.17 MB/s
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 CA 091
-      - 🇨🇦 CA 160
-      - 🇨🇦 CA 393
-      - 🇨🇳 CN 008 | ⬇️ 8.67 MB/s
-      - 🇨🇳 CN 054 | ⬇️ 1.13 MB/s
-      - 🇨🇳 CN 064
-      - 🇨🇳 TW 029
-      - 🇨🇳 TW 082
-      - 🇨🇳 TW 146
-      - 🇩🇪 DE 011
-      - 🇩🇪 DE 013
-      - 🇩🇪 DE 022
-      - 🇩🇪 DE 041
-      - 🇩🇪 DE 048
-      - 🇫🇷 FR 330
-      - 🇭🇰 HK 000 | ⬇️ 3.31 MB/s
-      - 🇭🇰 HK 000 | ⬇️ 3.31 MB/s 2
-      - 🇭🇰 HK 001 | ⬇️ 3.25 MB/s
-      - 🇭🇰 HK 001 | ⬇️ 3.25 MB/s 2
-      - 🇭🇰 HK 003 | ⬇️ 1.01 MB/s
-      - 🇭🇰 HK 003 | ⬇️ 1.01 MB/s 2
-      - 🇭🇰 HK 004 | ⬇️ 1.25 MB/s
-      - 🇭🇰 HK 004 | ⬇️ 1.25 MB/s 2
-      - 🇭🇰 HK 017
-      - 🇭🇰 HK 030
-      - 🇭🇰 HK 045 | ⬇️ 2.84 MB/s
-      - 🇭🇰 HK 052 | ⬇️ 2.65 MB/s
-      - 🇭🇰 HK 078
-      - 🇭🇰 HK 110
-      - 🇭🇰 HK 158
-      - 🇮🇳 IN 299
-      - 🇯🇵 JP 020
-      - 🇯🇵 JP 027
-      - 🇯🇵 JP 032
-      - 🇯🇵 JP 044
-      - 🇯🇵 JP 084
-      - 🇯🇵 JP 100
-      - 🇯🇵 JP 196
-      - 🇯🇵 JP 407
-      - 🇰🇷 KR 009
-      - 🇰🇷 KR 057
-      - 🇰🇷 KR 059
-      - 🇰🇷 KR 195
-      - 🇸🇬 SG 010
-      - 🇸🇬 SG 016
-      - 🇸🇬 SG 063
-      - 🇸🇬 SG 085
-      - 🇺🇸 US 015
-      - 🇺🇸 US 025
-      - 🇺🇸 US 026
-      - 🇺🇸 US 039
-      - 🇺🇸 US 042
-      - 🇺🇸 US 049
-      - 🇺🇸 US 051
-      - 🇺🇸 US 069
-      - 🇺🇸 US 092
-      - 🇺🇸 US 129
-      - 🇺🇸 US 156
-      - 🇺🇸 US 167
-      - 🇺🇸 US 180
-      - 🇺🇸 US 358
+      - 🇭🇰 HK 000 | ⬇️ 3.25 MB/s
+      - 🇭🇰 HK 001 | ⬇️ 3.29 MB/s
+      - 🇭🇰 HK 005 | ⬇️ 1.11 MB/s
+      - 🇭🇰 HK 006
+      - 🇯🇵 JP 012 | ⬇️ 3.33 MB/s
+      - 🇯🇵 JP 013 | ⬇️ 3.28 MB/s
+      - 🇯🇵 JP 016 | ⬇️ 2.02 MB/s
+      - FI 034
+      - 🇯🇵 JP 040
+      - 🇰🇷 KR 041
+      - 🇯🇵 JP 042
+      - 🇰🇷 KR 043
+      - 🇭🇰 HK 047
+      - 🇭🇰 HK 053
+      - 🇬🇧 GB 055
+      - 🇬🇧 GB 059
+      - 🇸🇬 SG 060
+      - 🇯🇵 JP 068
+      - 🇵🇱 PL 075
+      - 🇰🇷 KR 079
+      - 🇯🇵 JP 088
+      - CH 125
+      - 🇬🇧 GB 152
+      - 🇩🇪 DE 156
+      - 🇺🇸 US 161
+      - RS 207
+      - 🇷🇺 RU 233
+      - 🇺🇸 US 266
+      - 🇸🇬 SG 311
+      - 🇭🇰 HK 325
+      - 🇸🇬 SG 418
+      - 🇺🇸 US 435
+      - 🇷🇺 RU 446
+      - 🇺🇸 US 453
+      - 🇨🇦 CA 505
+      - 🇸🇬 SG 510
+      - UN 601
+      - 🇸🇬 SG 715
+      - 🇭🇰 HK 000 | ⬇️ 3.25 MB/s 2
+      - 🇭🇰 HK 001 | ⬇️ 3.29 MB/s 2
+      - 🇨🇳 TW 003 | ⬇️ 3.16 MB/s
+      - 🇭🇰 HK 005 | ⬇️ 1.11 MB/s 2
+      - 🇯🇵 JP 011 | ⬇️ 15.48 MB/s
+      - 🇯🇵 JP 012 | ⬇️ 3.33 MB/s 2
+      - 🇯🇵 JP 013 | ⬇️ 3.28 MB/s 2
+      - 🇯🇵 JP 016 | ⬇️ 2.02 MB/s 2
+      - 🇬🇧 GB 019 | ⬇️ 2.31 MB/s
+      - 🇳🇱 NL 020 | ⬇️ 3.65 MB/s
+      - 🇨🇳 CN 021 | ⬇️ 10.99 MB/s
+      - 🇳🇱 NL 022 | ⬇️ 2.83 MB/s
+      - 🇳🇱 NL 023 | ⬇️ 3.72 MB/s
+      - 🇫🇷 FR 024 | ⬇️ 1.16 MB/s
+      - 🇬🇧 GB 025 | ⬇️ 3.38 MB/s
+      - 🇵🇱 PL 026 | ⬇️ 1.45 MB/s
+      - 🇩🇪 DE 027 | ⬇️ 1.17 MB/s
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 CA 091
-      - 🇨🇦 CA 160
-      - 🇨🇦 CA 393
-      - 🇨🇳 CN 008 | ⬇️ 8.67 MB/s
-      - 🇨🇳 CN 054 | ⬇️ 1.13 MB/s
-      - 🇨🇳 CN 064
-      - 🇨🇳 TW 029
-      - 🇨🇳 TW 082
-      - 🇨🇳 TW 146
-      - 🇩🇪 DE 011
-      - 🇩🇪 DE 013
-      - 🇩🇪 DE 022
-      - 🇩🇪 DE 041
-      - 🇩🇪 DE 048
-      - 🇫🇷 FR 330
-      - 🇭🇰 HK 000 | ⬇️ 3.31 MB/s
-      - 🇭🇰 HK 000 | ⬇️ 3.31 MB/s 2
-      - 🇭🇰 HK 001 | ⬇️ 3.25 MB/s
-      - 🇭🇰 HK 001 | ⬇️ 3.25 MB/s 2
-      - 🇭🇰 HK 003 | ⬇️ 1.01 MB/s
-      - 🇭🇰 HK 003 | ⬇️ 1.01 MB/s 2
-      - 🇭🇰 HK 004 | ⬇️ 1.25 MB/s
-      - 🇭🇰 HK 004 | ⬇️ 1.25 MB/s 2
-      - 🇭🇰 HK 017
-      - 🇭🇰 HK 030
-      - 🇭🇰 HK 045 | ⬇️ 2.84 MB/s
-      - 🇭🇰 HK 052 | ⬇️ 2.65 MB/s
-      - 🇭🇰 HK 078
-      - 🇭🇰 HK 110
-      - 🇭🇰 HK 158
-      - 🇮🇳 IN 299
-      - 🇯🇵 JP 020
-      - 🇯🇵 JP 027
-      - 🇯🇵 JP 032
-      - 🇯🇵 JP 044
-      - 🇯🇵 JP 084
-      - 🇯🇵 JP 100
-      - 🇯🇵 JP 196
-      - 🇯🇵 JP 407
-      - 🇰🇷 KR 009
-      - 🇰🇷 KR 057
-      - 🇰🇷 KR 059
-      - 🇰🇷 KR 195
-      - 🇸🇬 SG 010
-      - 🇸🇬 SG 016
-      - 🇸🇬 SG 063
-      - 🇸🇬 SG 085
-      - 🇺🇸 US 015
-      - 🇺🇸 US 025
-      - 🇺🇸 US 026
-      - 🇺🇸 US 039
-      - 🇺🇸 US 042
-      - 🇺🇸 US 049
-      - 🇺🇸 US 051
-      - 🇺🇸 US 069
-      - 🇺🇸 US 092
-      - 🇺🇸 US 129
-      - 🇺🇸 US 156
-      - 🇺🇸 US 167
-      - 🇺🇸 US 180
-      - 🇺🇸 US 358
+      - 🇭🇰 HK 000 | ⬇️ 3.25 MB/s
+      - 🇭🇰 HK 001 | ⬇️ 3.29 MB/s
+      - 🇭🇰 HK 005 | ⬇️ 1.11 MB/s
+      - 🇭🇰 HK 006
+      - 🇯🇵 JP 012 | ⬇️ 3.33 MB/s
+      - 🇯🇵 JP 013 | ⬇️ 3.28 MB/s
+      - 🇯🇵 JP 016 | ⬇️ 2.02 MB/s
+      - FI 034
+      - 🇯🇵 JP 040
+      - 🇰🇷 KR 041
+      - 🇯🇵 JP 042
+      - 🇰🇷 KR 043
+      - 🇭🇰 HK 047
+      - 🇭🇰 HK 053
+      - 🇬🇧 GB 055
+      - 🇬🇧 GB 059
+      - 🇸🇬 SG 060
+      - 🇯🇵 JP 068
+      - 🇵🇱 PL 075
+      - 🇰🇷 KR 079
+      - 🇯🇵 JP 088
+      - CH 125
+      - 🇬🇧 GB 152
+      - 🇩🇪 DE 156
+      - 🇺🇸 US 161
+      - RS 207
+      - 🇷🇺 RU 233
+      - 🇺🇸 US 266
+      - 🇸🇬 SG 311
+      - 🇭🇰 HK 325
+      - 🇸🇬 SG 418
+      - 🇺🇸 US 435
+      - 🇷🇺 RU 446
+      - 🇺🇸 US 453
+      - 🇨🇦 CA 505
+      - 🇸🇬 SG 510
+      - UN 601
+      - 🇸🇬 SG 715
+      - 🇭🇰 HK 000 | ⬇️ 3.25 MB/s 2
+      - 🇭🇰 HK 001 | ⬇️ 3.29 MB/s 2
+      - 🇨🇳 TW 003 | ⬇️ 3.16 MB/s
+      - 🇭🇰 HK 005 | ⬇️ 1.11 MB/s 2
+      - 🇯🇵 JP 011 | ⬇️ 15.48 MB/s
+      - 🇯🇵 JP 012 | ⬇️ 3.33 MB/s 2
+      - 🇯🇵 JP 013 | ⬇️ 3.28 MB/s 2
+      - 🇯🇵 JP 016 | ⬇️ 2.02 MB/s 2
+      - 🇬🇧 GB 019 | ⬇️ 2.31 MB/s
+      - 🇳🇱 NL 020 | ⬇️ 3.65 MB/s
+      - 🇨🇳 CN 021 | ⬇️ 10.99 MB/s
+      - 🇳🇱 NL 022 | ⬇️ 2.83 MB/s
+      - 🇳🇱 NL 023 | ⬇️ 3.72 MB/s
+      - 🇫🇷 FR 024 | ⬇️ 1.16 MB/s
+      - 🇬🇧 GB 025 | ⬇️ 3.38 MB/s
+      - 🇵🇱 PL 026 | ⬇️ 1.45 MB/s
+      - 🇩🇪 DE 027 | ⬇️ 1.17 MB/s
   - name: 🎯 不挂代理
     type: select
     proxies:
@@ -10097,7 +10067,6 @@ rules:
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 代理模式
  - DOMAIN-SUFFIX,zaobao.com.sg,🔰 代理模式
  - DOMAIN,international-gfe.download.nvidia.com,🔰 代理模式
- - DOMAIN,icc2022.com,🔰 代理模式
  - DOMAIN,app.adjust.com,🎯 不挂代理
  - DOMAIN,bdtj.tagtic.cn,🎯 不挂代理
  - DOMAIN,log.mmstat.com,🎯 不挂代理
@@ -10822,10 +10791,10 @@ rules:
  - DOMAIN-SUFFIX,gh-proxy.com,🎯 不挂代理
  - DOMAIN-SUFFIX,jsdelivr.net,🎯 不挂代理
  - DOMAIN-SUFFIX,ghproxy.net,🎯 不挂代理
- - DOMAIN-SUFFIX,ghproxy.cc,🎯 不挂代理
  - DOMAIN-SUFFIX,kkgithub.com,🎯 不挂代理
  - DOMAIN-SUFFIX,xn--9sw509f.eu.org,🎯 不挂代理
  - DOMAIN-SUFFIX,link3.cc,🎯 不挂代理
+ - DOMAIN-SUFFIX,icc2022.com,🎯 不挂代理
  - DOMAIN-SUFFIX,hdmayi.com,🎯 不挂代理
  - DOMAIN-SUFFIX,carpt.net,🎯 不挂代理
  - DOMAIN-SUFFIX,gamer520.com,🎯 不挂代理
@@ -10846,5 +10815,6 @@ rules:
  - DOMAIN-SUFFIX,ptchina.org,🎯 不挂代理
  - DOMAIN-SUFFIX,educity.cn,🎯 不挂代理
  - DOMAIN-SUFFIX,haidan.video,🎯 不挂代理
+ - DOMAIN-SUFFIX,sub.danhu.ddns-ip.net,🎯 不挂代理
  - GEOIP,CN,🎯 不挂代理
  - MATCH,🔰 代理模式

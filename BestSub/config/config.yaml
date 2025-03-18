@@ -2,7 +2,7 @@
 print-progress: true
 
 # 可选值 debug info warn error
-log-level: debug
+log-level: info
 
 # 重命名方法 api 或 regex 或 mix
 rename:
@@ -11,7 +11,7 @@ rename:
 
 check:
   # 并发
-  concurrent: 100
+  concurrent: 32
   # 检查间隔,单位分钟
   interval: 10
   # 超时时间 单位毫秒
@@ -29,17 +29,17 @@ check:
   # 跳过测速的名称
   #speed-skip-name: 倍率|x\d+
   # 测速并发
-  speed-check-concurrent: 10
+  speed-check-concurrent: 5
   # 测速数量
-  speed-count: 10
+  speed-count: 5
   # 测速保存
   speed-save: true
   # 检查项目
   items:
-  #  - openai
+    - openai
     - youtube
-  #  - netflix
-  #  - disney
+    - netflix
+    - disney
     - speed
 
 save:
@@ -78,13 +78,15 @@ sub-urls:
   - https://raw.githubusercontent.com/ZywChannel/free/main/sub
   - https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
   # TG #
-  # 蛋黄酱节点分享
+  # 蛋黄酱节点分享：@FProxies
     # 0208节点
   - https://sub.danhu.ddns-ip.net/paste/OmJ9zWdyc6ZN9aAe/clash
     # 0308节点
   - https://sub.danhu.ddns-ip.net/paste/zrGnix8y5gf3hv6z/clash
-  # 轩辕节点永久订阅
+  # 轩辕节点永久订阅：@fq521
   - https://vip.xy666.ggff.net/auto
+  # 白嫖のHome：@ZDYZ2
+  - https://sublink.634676.xyz/sub
   # 未知名零散节点
   - https://yun-api.subcloud.xyz/sub?target=clash&url=ss%3A%2F%2FY2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ZmJlM3JKVGt5d1l2Ymsz%40cn-gz.k5nf3a.ccddn4.icu%3A25437%23Akari%2520HongKong%2520_%253C%7Cvmess%3A%2F%2FeyJhZGQiOiI1ODE2MTAuZXZlbGluZS5sb2wiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiODE3NzVEQzktQjg1MS00QzJBLTNERDMtRTJFMDkwM0FFMkFEIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIzMTEwNCIsInBzIjoiTFNISVkgSG9uZ0tvbmcgX1x1MDAzYyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ%3D%3D%7Css%3A%2F%2FYWVzLTEyOC1nY206YTFkN2FlZWEtNzlmYi00YmZmLThiN2ItZmU1MWVlOGViY2Rl%40south.sf0jm.xyz%3A44406%23Akamai%2520Singapore%2520_%253C&insert=false
   - https://yun-api.subcloud.xyz/sub?target=clash&url=trojan%3A%2F%2F789fa9d6-727e-424d-bdf6-8077d72aa5e2%40hkjs.lydurlclub.top%3A443%2F%3Ftype%3Dtcp%26security%3Dtls%23HKG%252003%2520_%253C%7Ctrojan%3A%2F%2F789fa9d6-727e-424d-bdf6-8077d72aa5e2%40usa.lydurlclub.top%3A443%2F%3Ftype%3Dtcp%26security%3Dtls%23USA%252002%2520_%253C&insert=false
@@ -100,8 +102,30 @@ sub-urls:
   - https://hongxing.one/hxvip?token=d78e943dcdc5c6fcb8b2a020e0b0d680
   - https://paste.ee/d/bXYNA2qE
   - https://v1.mk/KI0HYuI
+  - https://cola.xn--chqu2nzsxv3y.com/api/v1/client/subscribe?token=15d07865b121b74348d5e6c78eb721fb
+  - https://service-p0v9tp46-1312645837.gz.apigw.tencentcs.com/api/v1/client/subscribe?token=577a10ca85e1e2f2debb472698ac348a
+  - https://api.jetcamoe.com/api/v1/public/services/119048/bdb054b4e35e6aeedd929942410d3b1c?agent=clash-verge
+  - https://sea-5l8.pages.dev/CSDN
+  - https://45.137.181.197/api/v1/client/subscribe?token=57141b33b664412b3254cd69853edc57
+  - https://flynb.site/sub?token=oLKUUBC7cJPmouRzlnw2bg&tag=clash
   - https://rigengjiedian.one/api/system/subscribe
   - https://flynb.site/sub?token=oLKUUBC7cJPmouRzlnw2bg&tag=clash#不能用换代理工具nekobox_1.2.9用不了
   - https://douyun.sbs/api/v1/client/subscribe?token=11776a3bbe1d3b75e41d8ebd192fe962
   - https://miaosu.jiediandingyuejiji.homes/answer/land?token=1cb7fc118000154b491c1538db1d51e4
   - https://s.imgki.com/NXoIBha
+  - https://v1.mk/pKCCe4n
+  - https://tt.vg/GtPuI
+  - https://v1.mk/1qsg3ze
+  - https://aimanman.me/s/ec2522afc2ed398b37b41e63a0986603
+  - https://gy777.xyz/s/eebcadef19d0753994ac580846be5e40
+  - https://aimanman.me/s/88a7413463569ad5c92cf16b1b6f72e8
+  - https://j.sub12345.org/link/ocT2Rf2F4yViw1yn?sub=3
+  - https://skr.daozhang.site/v2ray
+  - https://xn--4oq11ryli3rg.com/s/0194825bc83336ecd1971875905019df
+  - https://aimanman.me/s/97aa2ccb36ef693e7986ad3a503a1cdb
+  - https://gywanglug.xyz/s/08f978868acc79974cf025e569a9bfdc
+  - https://paste.ee/d/w2827kEM
+  - https://s.imgki.com/NXoIBha
+  - https://paste.ee/d/w2827kEM
+  - https://gy888.xyz/s/563b099675750b0f8cad3e77c1009d29
+  - https://api.otcopusvpn.cc:18008/sub/client/subscribe?token=4de417487a032169d046d656d28c4c59
