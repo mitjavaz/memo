@@ -31,30 +31,18 @@ log-level: silent
 ipv6: true
 
 proxy-providers:
-  class1:
+  speed:
     type: http
-    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/all.yaml
+    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/speed.yaml
     interval: 3600
     proxy: DIRECT
-    path: ./proxy_provider/class1.yaml
-  class2:
+    path: ./proxy_provider/speed.yaml
+  youtube:
     type: http
     url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/youtube.yaml
     interval: 3600
     proxy: DIRECT
-    path: ./proxy_provider/class2.yaml
-  class3:
-    type: http
-    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/disney.yaml
-    interval: 3600
-    proxy: DIRECT
-    path: ./proxy_provider/class3.yaml
-  class4:
-    type: http
-    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/netflix.yaml
-    interval: 3600
-    proxy: DIRECT
-    path: ./proxy_provider/class4.yaml
+    path: ./proxy_provider/youtube.yaml
 
 proxy-groups:
   - name: "🔰 代理模式"
@@ -65,7 +53,7 @@ proxy-groups:
       - ♻️ 测速代理
       - ♻️ 回滚代理
     use:
-      - class1
+      - speed
     url: 'https://www.youtube.com/generate_204'
     interval: 300
     lazy: true
@@ -75,10 +63,7 @@ proxy-groups:
   - name: "✋ 手选模式"
     type: select
     use:
-      - class1
-      - class2
-      - class3
-      - class4
+      - youtube
     url: 'https://www.youtube.com/generate_204'
     interval: 300
     lazy: true
@@ -88,10 +73,7 @@ proxy-groups:
   - name: "♻️ 负载均衡"
     type: load-balance
     use:
-      - class1
-      - class2
-      - class3
-      - class4
+      - youtube
     url: 'https://www.youtube.com/generate_204'
     interval: 300
     lazy: true
@@ -100,10 +82,7 @@ proxy-groups:
   - name: "♻️ 测速代理"
     type: url-test
     use:
-      - class1
-      - class2
-      - class3
-      - class4
+      - youtube
     url: 'https://www.youtube.com/generate_204'
     interval: 300
     lazy: true
@@ -112,10 +91,7 @@ proxy-groups:
   - name: "♻️ 回滚代理"
     type: fallback
     use:
-      - class1
-      - class2
-      - class3
-      - class4
+      - youtube
     url: 'https://www.youtube.com/generate_204'
     interval: 300
     lazy: true
@@ -123,14 +99,14 @@ proxy-groups:
     max-failed-times: 5
 
 rule-providers:
-  yesVPN:
-    type: http
-    path: ./yesVPN.yaml
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/nodesCatch/subconverter/rules/yesVPN.list"
-    interval: 600
-    proxy: DIRECT
-    behavior: classical
-    format: text
+  #yesVPN:
+  #  type: http
+  #  path: ./yesVPN.yaml
+  #  url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/nodesCatch/subconverter/rules/yesVPN.list"
+  #  interval: 600
+  #  proxy: DIRECT
+  #  behavior: classical
+  #  format: text
   noVPN:
     type: http
     path: ./noVPN.yaml
@@ -149,7 +125,7 @@ rule-providers:
     format: text
 
 rules:
-  - RULE-SET,yesVPN,🔰 代理模式
+  #- RULE-SET,yesVPN,🔰 代理模式
   - RULE-SET,noVPN,DIRECT
   - RULE-SET,stopVPN,REJECT
   - GEOIP,CN,DIRECT
