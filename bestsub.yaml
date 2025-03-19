@@ -64,11 +64,6 @@ proxy-groups:
     type: select
     use:
       - youtube
-    url: 'https://www.youtube.com/generate_204'
-    interval: 300
-    lazy: true
-    timeout: 5000
-    max-failed-times: 5
 
   - name: "♻️ 负载均衡"
     type: load-balance
