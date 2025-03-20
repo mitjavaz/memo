@@ -1,77 +1,114 @@
 proxies:
     - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 000"
+      name: "\U0001F1ED\U0001F1F0 HK 002"
       password: f6bd77ad-bf90-40b1-bc25-85cdd6edd884
       port: 45605
       server: hkg04.dns-node.top
       type: ss
       udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F9\U0001F1FC TW 003"
-      password: f6bd77ad-bf90-40b1-bc25-85cdd6edd884
-      port: 45614
-      server: tw02.dns-node.top
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 004"
-      password: AYC4MQ5DSGJ4QOKG
-      port: 15010
-      server: 156.245.190.19
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 005"
-      password: MHZUEOX3KBXAV09K
-      port: 15007
-      server: 156.245.190.16
-      type: ss
-    - name: "\U0001F1F3\U0001F1F1 NL 006"
-      network: ws
-      port: 2052
-      server: 45.149.12.183
-      servername: redw.pooriam.ir
-      skip-cert-verify: false
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0 HK 006 | ⬇️ 21.55 MB/s"
+      port: 20779
+      server: AZHJ001.dmak.cyou
+      skip-cert-verify: true
+      tfo: true
       tls: false
-      type: vless
+      type: vmess
       udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      uuid: 2da7294c-80dd-3c06-8b21-e81eaf143d7e
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0 HK 007 | ⬇️ 26.52 MB/s"
+      port: 21720
+      server: AZHJ.dmak.cyou
+      skip-cert-verify: true
+      tfo: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 2da7294c-80dd-3c06-8b21-e81eaf143d7e
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0 HK 008 | ⬇️ 26.81 MB/s"
+      port: 20827
+      server: AZHJ.dmak.cyou
+      skip-cert-verify: true
+      tfo: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 2da7294c-80dd-3c06-8b21-e81eaf143d7e
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0 HK 009 | ⬇️ 29.15 MB/s"
+      port: 20965
+      server: AZHJ001.dmak.cyou
+      skip-cert-verify: true
+      tfo: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 2da7294c-80dd-3c06-8b21-e81eaf143d7e
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1EC SG 010"
+      password: 30EE6UN7MQF0FAJU
+      port: 16001
+      server: w72tapyb.slashdevslashnetslashtun.net
+      type: ss
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0 HK 013"
+      network: ws
+      port: 40952
+      server: CMZS.dmak.cyou
+      skip-cert-verify: true
+      tfo: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 2da7294c-80dd-3c06-8b21-e81eaf143d7e
       ws-opts:
         headers:
-            Host: redw.pooriam.ir
-        path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - name: "\U0001F1ED\U0001F1F0 HK 007 | ⬇️ 28.90 MB/s"
-      password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE
-      port: 11185
-      server: gzdata1.fc-smartcloud.xyz
-      skip-cert-verify: true
-      sni: m.ctrip.com
-      type: trojan
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F8\U0001F1EC SG 008"
-      password: f6bd77ad-bf90-40b1-bc25-85cdd6edd884
-      port: 45572
-      server: sg01.dns-node.top
-      type: ss
-      udp: true
-    - cipher: rc4-md5
-      name: "\U0001F1F8\U0001F1EC SG 009"
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.236
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 012 | ⬇️ 11.30 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)4dd118b:120577
-        mode: tls
-      port: 2377
-      server: 221.215.48.68
-      type: ss
+            Host: learn.microsoft.com
+        path: /cloud
     - down: 1000
       name: "\U0001F1F8\U0001F1EC SG 014"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 52918
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 016"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 59968
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 017"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22835
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 018"
       password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
       port: 50544
       ports: 50001-59999
@@ -80,117 +117,407 @@ proxies:
       sni: null
       type: hysteria2
       up: 1000
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP 015"
-      password: amazonskr05
-      port: 443
-      server: 52.197.235.237
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 016 | ⬇️ 12.64 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)4dd118b:120577
-        mode: tls
-      port: 2377
-      server: 221.215.48.118
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 017 | ⬇️ 12.27 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)4dd118b:120577
-        mode: tls
-      port: 2377
-      server: 221.215.48.114
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP 018"
-      password: amazonskr05
-      port: 443
-      server: 13.114.55.245
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 020 | ⬇️ 1.25 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)4dd118b:120577
-        mode: tls
-      port: 2377
-      server: 221.215.48.69
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 021"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)4dd118b:120577
-        mode: tls
-      port: 2377
-      server: 221.215.48.116
-      type: ss
     - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 022"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22092
+      name: "\U0001F1F8\U0001F1EC SG 019"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 54475
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 021"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 57513
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 023"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 51932
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 024"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 54259
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 025"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22419
       ports: 22001-22999
       server: aimanman-sg.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
-    - name: "\U0001F1F9\U0001F1FC TW 023 | ⬇️ 1.12 MB/s"
-      network: ws
-      password: Aimer
-      port: 2087
-      server: 154.197.64.196
-      skip-cert-verify: true
-      sni: agepj.ambercc.filegear-sg.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            host: agepj.ambercc.filegear-sg.me
-        path: /?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 024 | ⬇️ 1.07 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)4dd118b:120577
-        mode: tls
-      port: 2377
-      server: 221.215.48.117
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 026"
+      password: amazonskr05
+      port: 443
+      server: 13.215.252.57
+      type: ss
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 027"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 55304
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 028"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22326
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 029"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22888
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG 030"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.45
+      type: ss
+    - cipher: aes-256-cfb
+      client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG 031"
+      password: amazonskr05
+      port: 443
+      server: 13.229.209.178
+      tfo: false
+      type: ss
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 032"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 54710
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 033"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22872
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 034"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 56189
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F2\U0001F1FE MY 035"
+      port: 36700
+      server: 101.99.91.234
+      tls: false
+      type: vmess
+      uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG 036"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.235.122
       type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 025 | ⬇️ 1.22 MB/s"
-      network: ws
-      port: 443
-      server: hk.030722.xyz
-      servername: hk.030722.xyz
+      client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 037"
+      port: 20806
+      server: AZHJ001.dmak.cyou
       skip-cert-verify: true
-      tls: true
+      tfo: true
+      tls: false
       type: vmess
       udp: true
-      uuid: f7844126-fd80-4636-ae17-2c0f3e910859
-      ws-opts:
-        headers:
-            Host: hk.030722.xyz
-        path: /vmess
+      uuid: 2da7294c-80dd-3c06-8b21-e81eaf143d7e
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 038"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 56481
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 039"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22446
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
     - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP 028"
+      name: "\U0001F1F8\U0001F1EC SG 040"
       password: amazonskr05
       port: 443
-      server: 13.230.20.15
+      server: 18.136.193.92
       type: ss
-    - name: "\U0001F1ED\U0001F1F0 HK 030"
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 041"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22613
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 044"
+      port: 20808
+      server: AZHJ001.dmak.cyou
+      skip-cert-verify: true
+      tfo: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 2da7294c-80dd-3c06-8b21-e81eaf143d7e
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 048"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22793
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC SG 049"
+      port: 59032
+      server: 109.123.232.74
+      tls: false
+      type: vmess
+      uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 050"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 103.106.229.219
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US 051"
       network: ws
-      port: 8443
-      server: 91.217.139.121
+      port: 8880
+      server: www.csgo.com
+      skip-cert-verify: true
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 052"
+      port: 20804
+      server: AZHJ.dmak.cyou
+      skip-cert-verify: true
+      tfo: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 2da7294c-80dd-3c06-8b21-e81eaf143d7e
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 053"
+      port: 20803
+      server: AZHJ.dmak.cyou
+      skip-cert-verify: true
+      tfo: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 2da7294c-80dd-3c06-8b21-e81eaf143d7e
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: 301.pooriam.ir
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 054"
+      network: ws
+      path: Telegram@WangCai2/?ed=2560
+      pbk: ""
+      port: 80
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 45.131.4.120
+      servername: 301.pooriam.ir
+      serviceName: ""
+      sid: ""
+      sni: 301.pooriam.ir
+      tls: false
+      type: vless
+      udp: false
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: 301.pooriam.ir
+        path: Telegram@WangCai2/?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: c00021he.ab7db0ab17.workers.dev
+      mode: ""
+      name: "\U0001F1F3\U0001F1F1 NL 055"
+      network: ws
+      path: Telegram@WangCai2/?ed=2048
+      pbk: ""
+      port: 8080
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 45.131.6.6
+      servername: c00021he.ab7db0ab17.workers.dev
+      serviceName: ""
+      sid: ""
+      sni: c00021he.ab7db0ab17.workers.dev
+      tls: false
+      type: vless
+      udp: false
+      uuid: f47fb03f-7f15-41e0-bd7e-2371dc710e32
+      ws-opts:
+        headers:
+            Host: c00021he.ab7db0ab17.workers.dev
+        path: Telegram@WangCai2/?ed=2048
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: config-proxy-vl.telegram-config-proxy.workers.dev
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 056"
+      network: ws
+      path: /?ed=2560
+      pbk: ""
+      port: 8880
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 104.18.41.138
+      servername: ""
+      serviceName: ""
+      sid: ""
+      sni: ""
+      tls: false
+      type: vless
+      udp: false
+      uuid: 25af9eb2-3310-4f2b-bc82-ebea62ba7906
+      ws-opts:
+        headers:
+            Host: config-proxy-vl.telegram-config-proxy.workers.dev
+        path: /?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: ShaHrAmcOnfIgWoRKERcjsA9898.CoNfIGshaHrAmcOnfIg.woRKeRs.dev
+      mode: ""
+      name: "\U0001F1F3\U0001F1F1 NL 057"
+      network: ws
+      path: Telegram@WangCai2/?ed=2048
+      pbk: ""
+      port: 8080
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 45.131.6.6
+      servername: ShaHrAmcOnfIgWoRKERcjsA9898.CoNfIGshaHrAmcOnfIg.woRKeRs.dev
+      serviceName: ""
+      sid: ""
+      sni: ShaHrAmcOnfIgWoRKERcjsA9898.CoNfIGshaHrAmcOnfIg.woRKeRs.dev
+      tls: false
+      type: vless
+      udp: false
+      uuid: 260c4900-69a9-465c-8c3a-272eb1b4ec00
+      ws-opts:
+        headers:
+            Host: ShaHrAmcOnfIgWoRKERcjsA9898.CoNfIGshaHrAmcOnfIg.woRKeRs.dev
+        path: Telegram@WangCai2/?ed=2048
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 060"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 59416
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 061"
+      password: amazonskr05
+      port: 443
+      server: 47.129.37.231
+      type: ss
+    - name: "\U0001F1F8\U0001F1EC SG 062"
+      network: ws
+      port: 12314
+      server: 8.222.159.134
       servername: edfgk.aimercc.filegear-sg.me
       skip-cert-verify: true
       tls: true
@@ -201,82 +528,86 @@ proxies:
         headers:
             host: edfgk.aimercc.filegear-sg.me
         path: /?ed=2560
-    - name: "\U0001F1F9\U0001F1FC TW 031"
-      network: ws
-      password: Aimer
-      port: 8443
-      server: 27.50.49.234
+    - name: "\U0001F1F8\U0001F1EC SG 063"
+      password: 94d219c9-1afc-4d42-b090-8b3794764380
+      port: 443
+      server: 152.42.194.105
       skip-cert-verify: true
-      sni: agepj.ambercc.filegear-sg.me
+      sni: bs1.loadingip.com
       type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            host: agepj.ambercc.filegear-sg.me
-        path: /?ed=2560
+    - name: "\U0001F1F8\U0001F1EC SG 064"
+      password: 94d219c9-1afc-4d42-b090-8b3794764380
+      port: 443
+      server: bs1.loadingip.com
+      skip-cert-verify: true
+      type: trojan
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F2\U0001F1FE MY 033"
-      port: 36700
-      server: 101.99.91.234
+      name: "\U0001F1E9\U0001F1EA DE 065"
+      port: 50678
+      server: 62.146.233.53
       tls: false
       type: vmess
-      uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d
+      uuid: 5d1ec6e7-fd58-4e85-91c5-6335a86d2775
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 067"
+      password: amazonskr05
+      port: 443
+      server: 3.0.54.96
+      type: ss
+    - name: "\U0001F1F8\U0001F1EC SG 069"
+      network: ws
+      port: 40029
+      server: 43.128.95.110
+      servername: edfgj.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgj.aimercc.filegear-sg.me
+        path: /?ed=2560
     - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 034"
+      name: "\U0001F1F8\U0001F1EC SG 070"
       password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
-      port: 54475
+      port: 51065
       ports: 50001-59999
       server: youhui-sg.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
-    - name: "\U0001F1F9\U0001F1FC TW 035"
-      network: ws
-      password: Aimer
-      port: 443
-      server: 86.38.214.186
-      skip-cert-verify: true
-      sni: agepj.ambercc.filegear-sg.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            host: agepj.ambercc.filegear-sg.me
-        path: /?ed=2560
-    - name: "\U0001F1F8\U0001F1EC SG 036"
-      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-      port: 443
-      server: 139.59.119.143
-      skip-cert-verify: true
-      sni: connectwithemployers.online
-      type: trojan
     - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 037"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22876
+      name: "\U0001F1F8\U0001F1EC SG 071"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22229
       ports: 22001-22999
       server: aimanman-sg.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 038"
-      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
-      port: 59968
-      ports: 50001-59999
-      server: youhui-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5 JP 039"
+    - name: "\U0001F1F8\U0001F1EC SG 072"
       network: ws
-      port: 443
-      server: 103.116.7.189
+      port: 81
+      server: 5.34.176.119
+      servername: 20c.bgm2024.us.kg
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      ws-opts:
+        headers:
+            host: 20c.bgm2024.us.kg
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1F8\U0001F1EC SG 073"
+      network: ws
+      port: 40029
+      server: 43.128.95.110
       servername: ed.sosocn.filegear-sg.me
       skip-cert-verify: true
       tfo: false
@@ -288,217 +619,39 @@ proxies:
         headers:
             Host: ed.sosocn.filegear-sg.me
         path: /?ed=2560
-    - name: "\U0001F1F0\U0001F1F7 KR 041"
-      password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1
-      port: 19552
-      server: nc.ct.xiaomi-api.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 043"
-      password: 3JHTNK13T6BCEVNH
-      port: 18014
-      server: 156.231.104.24
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP 044"
-      password: amazonskr05
-      port: 443
-      server: 13.230.168.61
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 045"
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8 US 074"
       network: ws
-      port: 17016
-      server: aka.beetech.cloudns.biz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: a0a42827-ebd0-4347-8536-94a626545a21
-      ws-opts:
-        headers:
-            Host: aka.beetech.cloudns.biz
-        path: /a0a42827
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 046"
-      port: 14118
-      server: 4.240.73.55
-      tls: false
-      type: vmess
-      uuid: d513bfb2-b7c2-4dc6-a3f9-55145f198705
-    - name: "\U0001F1FA\U0001F1F8 US 047"
-      network: ws
-      port: 2052
-      server: www.visa.com.sg
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
       skip-cert-verify: true
       tfo: false
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@ShadowProxy66?ed=2048
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 048"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22515
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 049"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22326
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 052"
-      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
-      port: 22888
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 054"
-      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
-      port: 22419
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 055"
-      port: 57143
-      server: 154.26.129.247
-      tls: false
-      type: vmess
-      uuid: 28efbf36-079a-4c98-8470-d13458db6ee6
-    - cipher: rc4-md5
-      name: "\U0001F1F8\U0001F1EC SG 056"
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 128.199.172.224
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 057"
-      network: ws
-      port: 443
-      server: 104.21.6.201
       tls: true
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      type: vless
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
       ws-opts:
         headers:
-            Host: hknbyivfffj.site
-        path: /rbqqvws
-    - down: null
-      name: "\U0001F1EE\U0001F1F3 IN 059"
-      password: beb8b58c-fa25-4533-9df2-6dcd5d388509
-      port: 8443
-      server: yd1.gywanglug.xyz
-      skip-cert-verify: false
-      sni: yd1.gywanglug.xyz
-      type: hysteria2
-      up: null
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EC SG 062"
-      password: 8WDLSCVIFB4I26GB
-      port: 16011
-      server: 154.196.244.21
-      type: ss
-    - name: "\U0001F1EF\U0001F1F5 JP 063"
-      password: "74260712244661900"
-      port: 443
-      server: gorgeous-bull.shiner427.skin
-      skip-cert-verify: false
-      sni: gorgeous-bull.shiner427.skin
-      type: trojan
+            Host: fei.634676.xyz
+        path: /?ed=2560
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E9\U0001F1EA DE 066"
-      port: 14372
-      server: 62.146.232.159
+      name: "\U0001F1EF\U0001F1F5 JP 075"
+      network: ws
+      port: 40013
+      server: 183.236.51.21
+      servername: 183.236.51.21
+      skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP 067"
-      password: amazonskr05
-      port: 443
-      server: 54.199.239.230
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 068"
-      password: F3DPQOXNZHS4P92Q
-      port: 15016
-      server: w72tapyb.slashdevslashnetslashtun.net
-      type: ss
-    - name: "\U0001F1F9\U0001F1FC TW 069"
-      network: ws
-      password: Aimer
-      port: 2083
-      server: 130.250.137.63
-      skip-cert-verify: true
-      sni: agepl.ambercc.filegear-sg.me
-      type: trojan
       udp: true
+      uuid: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
       ws-opts:
-        headers:
-            host: agepl.ambercc.filegear-sg.me
-        path: /?ed=2560
-    - down: 1000
-      name: "\U0001F1FA\U0001F1F8 US 070"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22690
-      ports: 22001-22999
-      server: aimanman-us.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 071"
-      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
-      port: 22574
-      ports: 22001-22999
-      server: aimanman-kr.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 072"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22882
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - name: "\U0001F1ED\U0001F1F0 HK 073"
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US 076"
       network: ws
-      port: 443
-      server: 47.242.11.244
+      port: 2083
+      server: 108.165.152.91
       servername: edfgl.aimercc.filegear-sg.me
       skip-cert-verify: true
       tls: true
@@ -509,38 +662,17 @@ proxies:
         headers:
             host: edfgl.aimercc.filegear-sg.me
         path: /?ed=2560
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 074"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22074
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: null
-      name: "\U0001F1F8\U0001F1EC SG 078"
-      password: beb8b58c-fa25-4533-9df2-6dcd5d388509
-      port: 8443
-      server: xjp2.gywanglug.xyz
-      skip-cert-verify: false
-      sni: xjp2.gywanglug.xyz
-      type: hysteria2
-      up: null
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EE\U0001F1E9 ID 079"
-      port: 45365
-      server: 103.67.79.157
-      tls: false
-      type: vmess
-      uuid: 7d2a4e66-152c-49f5-9ff5-c19a836e8c89
-    - name: "\U0001F1ED\U0001F1F0 HK 080"
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 079"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 39020
+      server: xm.miloli.cc
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US 082"
       network: ws
-      port: 2087
-      server: 43.198.104.113
-      servername: edfgk.aimercc.filegear-sg.me
+      port: 2096
+      server: 154.211.8.150
+      servername: edfgj.aimercc.filegear-sg.me
       skip-cert-verify: true
       tls: true
       type: vless
@@ -548,46 +680,10 @@ proxies:
       uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       ws-opts:
         headers:
-            host: edfgk.aimercc.filegear-sg.me
+            host: edfgj.aimercc.filegear-sg.me
         path: /?ed=2560
-    - client-fingerprint: ""
-      flow: ""
-      fp: ""
-      grpc-opts:
-        grpc-service-name: ""
-      host: falcunargo-channel.be3374a836.workers.Dev
-      mode: ""
-      name: "\U0001F1FA\U0001F1F3 UN 082"
-      network: ws
-      path: /?ed=2048
-      pbk: ""
-      port: 8880
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      security: none
-      server: 188.114.97.3
-      servername: ""
-      serviceName: ""
-      sid: ""
-      sni: ""
-      tls: false
-      type: vless
-      udp: false
-      uuid: 91d9b8d8-2aab-4e1a-9573-0d59e9cd7f8e
-      ws-opts:
-        headers:
-            Host: falcunargo-channel.be3374a836.workers.Dev
-        path: /?ed=2048
-    - name: "\U0001F1ED\U0001F1F0 HK 083"
-      password: 0d9a54e2-ab81-493f-b536-75b0e510c617
-      port: 25846
-      server: 2255.jqq.me
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 084"
+      name: "\U0001F1ED\U0001F1F0 HK 083"
       network: ws
       port: 2083
       server: 154.211.8.18
@@ -602,76 +698,191 @@ proxies:
         headers:
             Host: ed.sosocn.filegear-sg.me
         path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 084"
+      network: ws
+      port: 2096
+      server: 104.17.128.1
+      servername: v20.ylkszy.eu.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      ws-opts:
+        headers:
+            host: v20.ylkszy.eu.org
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1EF\U0001F1F5 JP 085"
+      network: ws
+      port: 443
+      server: 103.116.7.189
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 086"
+      network: ws
+      port: 2053
+      server: 154.211.8.152
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 088"
+      network: ws
+      port: 2083
+      server: 108.165.152.91
+      servername: edfgj.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgj.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1F8\U0001F1EC SG 089"
+      network: ws
+      port: 1443
+      server: 47.245.95.160
+      servername: edfgk.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgk.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 090"
+      network: ws
+      port: 2053
+      server: 108.165.152.92
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 093"
+      network: ws
+      port: 2052
+      server: www.vpslook.com
+      skip-cert-verify: true
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@ShadowProxy66?ed=2048
     - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 086"
+      name: "\U0001F1EF\U0001F1F5 JP 094"
       password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
-      port: 22849
+      port: 22438
       ports: 22001-22999
       server: aimanman-jp.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
-    - cipher: aes-256-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 090"
-      password: ZDGC0Q2E112UAJO6
-      port: 15014
-      server: 156.245.190.23
-      type: ss
-    - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 092"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22904
-      ports: 22001-22999
-      server: aimanman-kr.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 093"
-      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
-      port: 22229
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 097"
-      password: d502771a-daad-4470-bbaf-2a453e518db3
-      port: 58104
-      ports: 50001-59999
-      server: youhui-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 098"
-      port: 550
-      server: 20.78.127.141
-      tls: false
-      type: vmess
-      uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551
-    - name: "\U0001F1F8\U0001F1E8 SC 101"
+    - name: "\U0001F1F0\U0001F1F7 KR 095"
       network: ws
-      port: 8880
-      server: 154.83.2.228
-      servername: redw.pooriam.ir
-      skip-cert-verify: false
-      tls: false
+      port: 443
+      server: 162.159.152.193
+      servername: no.dbbn2024.us.kg
+      skip-cert-verify: true
+      tls: true
       type: vless
       udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
       ws-opts:
         headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+            host: no.dbbn2024.us.kg
+        path: /?ed=2560
     - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 103"
+      name: "\U0001F1EF\U0001F1F5 JP 098"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22070
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1FA\U0001F1F8 US 100"
+      network: ws
+      password: amclubs2024
+      port: 443
+      server: 198.62.62.156
+      skip-cert-verify: true
+      sni: tr.amclub.us.kg
+      type: trojan
+      ws-opts:
+        headers:
+            Host: tr.amclub.us.kg
+        path: ""
+    - down: 1000
+      name: "\U0001F1F1\U0001F1FA LU 101"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 52795
+      ports: 50001-59999
+      server: youhui-lu.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1F9\U0001F1FC TW 102"
+      network: ws
+      password: Aimer
+      port: 8443
+      server: 27.50.49.166
+      skip-cert-verify: true
+      sni: agepj.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepj.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1F9\U0001F1FC TW 104"
+      network: ws
+      password: Aimer
+      port: 8443
+      server: 192.200.160.109
+      skip-cert-verify: true
+      sni: agepj.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepj.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 105"
       password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
       port: 22341
       ports: 22001-22999
@@ -680,24 +891,595 @@ proxies:
       sni: null
       type: hysteria2
       up: 1000
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EC SG 106"
-      password: amazonskr05
-      port: 443
-      server: 47.129.39.129
-      type: ss
-    - name: "\U0001F1ED\U0001F1F0 HK 107"
-      password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE
-      port: 11170
-      server: gzdata1.fc-smartcloud.xyz
+    - name: "\U0001F1ED\U0001F1F0 HK 108"
+      network: ws
+      port: 10028
+      server: 59.188.46.218
+      servername: edfgj.aimercc.filegear-sg.me
       skip-cert-verify: true
-      sni: m.ctrip.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgj.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1F9\U0001F1FC TW 109"
+      network: ws
+      password: Aimer
+      port: 2087
+      server: 154.197.64.196
+      skip-cert-verify: true
+      sni: agepj.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepj.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1EF\U0001F1F5 JP 110"
+      password: e47af2c3-5500-4dea-a4ae-6f0ea48c2e73
+      port: 19532
+      server: nc.cn1.xiaomi-api.xyz
+      skip-cert-verify: true
       type: trojan
       udp: true
     - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 111"
+      name: "\U0001F1F3\U0001F1F1 NL 111"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 53782
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1F8\U0001F1EC SG 112"
+      network: ws
+      port: 2096
+      server: 50.114.55.109
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - alpn:
+        - h2%2Chttp%2F1.1
+      name: "\U0001F1F8\U0001F1EA SE 114"
+      network: ws
+      password: Pooria
+      port: 443
+      server: 104.17.147.22
+      skip-cert-verify: true
+      sni: redfree8w.pooriam.ir
+      type: trojan
+      ws-opts:
+        headers:
+            Host: redfree8w.pooriam.ir
+        path: /trJF1XisQEbWZpxEHh?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 115"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 19242
+      server: xm.miloli.cc
+      type: ss
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 116"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22840
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1E8\U0001F1E6 CA 117"
+      network: ws
+      password: amclubs2024
+      port: 443
+      server: 154.83.2.200
+      skip-cert-verify: true
+      sni: tr.amclub.us.kg
+      type: trojan
+      ws-opts:
+        headers:
+            Host: tr.amclub.us.kg
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 118"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22048
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1F9\U0001F1FC TW 119"
+      network: ws
+      password: Aimer
+      port: 443
+      server: 213.109.205.45
+      skip-cert-verify: true
+      sni: agepl.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepl.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 120"
+      port: 14118
+      server: 4.240.73.55
+      tls: false
+      type: vmess
+      uuid: d513bfb2-b7c2-4dc6-a3f9-55145f198705
+    - name: "\U0001F1F8\U0001F1EC SG 121"
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: 443
+      server: 139.59.119.143
+      skip-cert-verify: true
+      sni: connectwithemployers.online
+      type: trojan
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 122"
       password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22815
+      port: 22037
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1FA\U0001F1F3 UN 123"
+      network: ws
+      password: Ng35283528
+      port: 443
+      server: 104.16.83.8
+      skip-cert-verify: true
+      sni: c2.validbv3528.eu.org
+      type: trojan
+      ws-opts:
+        headers:
+            Host: c2.validbv3528.eu.org
+        path: ""
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1ED TH 125"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 18848
+      server: xm.miloli.cc
+      type: ss
+    - name: "\U0001F1FA\U0001F1F3 UN 126"
+      network: ws
+      password: trojan
+      port: 2053
+      server: 104.17.148.22
+      skip-cert-verify: true
+      sni: ana-service-anaservice--anaservice-antenircomorg.fmwlmluu.workers.dev
+      type: trojan
+      ws-opts:
+        headers:
+            Host: ana-service-anaservice--anaservice-antenircomorg.fmwlmluu.workers.dev
+        path: ""
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5 JP 128"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 23752
+      server: xm.miloli.cc
+      type: ss
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG 129"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 128.199.172.224
+      type: ss
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 130"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22849
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1ED\U0001F1F0 HK 131"
+      network: ws
+      port: 18026
+      server: 38.22.88.199
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1F9\U0001F1FC TW 132"
+      network: ws
+      password: Aimer
+      port: 443
+      server: lynn.ns.cloudflare.com
+      skip-cert-verify: true
+      sni: agepl.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepl.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1F8\U0001F1EC SG 133"
+      network: ws
+      port: 2096
+      server: 50.114.55.109
+      servername: edfgk.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgk.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0 HK 135"
+      network: ws
+      port: 12198
+      server: 47.238.105.180
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 137"
+      network: ws
+      port: 18026
+      server: 38.22.88.199
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 139"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22434
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 140"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22967
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1ED\U0001F1F0 HK 142"
+      password: 0d9a54e2-ab81-493f-b536-75b0e510c617
+      port: 25846
+      server: 2255.jqq.me
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 143"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22877
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1ED\U0001F1F0 HK 144"
+      network: ws
+      port: 1935
+      server: 43.154.34.74
+      servername: edfgj.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgj.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 145"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22241
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5 JP 147"
+      password: amazonskr05
+      port: 443
+      server: 18.182.5.123
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP 148"
+      port: 550
+      server: 20.78.127.141
+      tls: false
+      type: vmess
+      uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 149"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22918
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 152"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22092
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1ED\U0001F1F0 HK 153"
+      network: ws
+      port: 52001
+      server: 45.87.103.154
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 155"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22593
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1F9\U0001F1FC TW 158"
+      network: ws
+      password: Aimer
+      port: 8443
+      server: 27.50.49.224
+      skip-cert-verify: true
+      sni: agepl.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepl.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 159"
+      network: ws
+      port: 30001
+      server: 103.103.245.188
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 160"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22746
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 162"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 57956
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1FA\U0001F1F8 US 163"
+      network: ws
+      port: 443
+      server: www.ipget.net
+      servername: v20.ylkszy.eu.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      ws-opts:
+        headers:
+            host: v20.ylkszy.eu.org
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 164"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 54075
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: null
+      name: "\U0001F1F8\U0001F1EC SG 166"
+      password: beb8b58c-fa25-4533-9df2-6dcd5d388509
+      port: 8443
+      server: xjp1.gywanglug.xyz
+      skip-cert-verify: false
+      sni: xjp1.gywanglug.xyz
+      type: hysteria2
+      up: null
+    - cipher: aes-128-gcm
+      name: "\U0001F1EE\U0001F1E9 ID 168"
+      password: 8c6a2d4b-d02e-40d0-bcbc-afcb87857d4b
+      plugin: obfs
+      plugin-opts:
+        host: e940bbf0684ac23ec73e2f5baaa1cdf9.baidu.com
+        mode: http
+      port: 36607
+      server: gd.bjnet2.com
+      type: ss
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 170"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 58104
+      ports: 50001-59999
+      server: youhui-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 173"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22635
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: feng2.vfl83lnn.workers.dev
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 174"
+      network: ws
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+      pbk: ""
+      port: 8080
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: xn--b6gac.eu.org
+      servername: feng2.vfl83lnn.workers.dev
+      serviceName: ""
+      sid: ""
+      sni: feng2.vfl83lnn.workers.dev
+      tls: false
+      type: vless
+      udp: false
+      uuid: 77f2d54c-f1bd-46ff-af4c-cc44c72fd25e
+      ws-opts:
+        headers:
+            Host: feng2.vfl83lnn.workers.dev
+        path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 175"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22454
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 176"
+      network: ws
+      port: 443
+      server: hk.030722.xyz
+      servername: hk.030722.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: f7844126-fd80-4636-ae17-2c0f3e910859
+      ws-opts:
+        headers:
+            Host: hk.030722.xyz
+        path: /vmess
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 177"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22204
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 179"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22731
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 180"
+      port: 57143
+      server: 154.26.129.247
+      tls: false
+      type: vmess
+      uuid: 28efbf36-079a-4c98-8470-d13458db6ee6
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 181"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22596
       ports: 22001-22999
       server: aimanman-kr.sanguayun.com
       skip-cert-verify: false
@@ -711,7 +1493,165 @@ proxies:
         grpc-service-name: ""
       host: redw.pooriam.ir
       mode: ""
-      name: "\U0001F1FA\U0001F1F8 US 112"
+      name: "\U0001F1FA\U0001F1F8 US 182"
+      network: ws
+      path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+      pbk: ""
+      port: 8880
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 154.83.2.228
+      servername: ""
+      serviceName: ""
+      sid: ""
+      sni: ""
+      tls: false
+      type: vless
+      udp: false
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - down: 1000
+      name: "\U0001F1F1\U0001F1FA LU 185"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 56006
+      ports: 50001-59999
+      server: youhui-lu.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 187"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22904
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EB\U0001F1F7 FR 188"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 53442
+      ports: 50001-59999
+      server: youhui-fr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 191"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22875
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 192"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22403
+      ports: 22001-22999
+      server: aimanman-sg.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 193"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22574
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 194"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22936
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F3\U0001F1F1 NL 197"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 54192
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: redw.pooriam.ir
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 199"
+      network: ws
+      path: "Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+      pbk: ""
+      port: 80
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 156.238.19.157
+      servername: redw.pooriam.ir
+      serviceName: ""
+      sid: ""
+      sni: redw.pooriam.ir
+      tls: false
+      type: vless
+      udp: false
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: "Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    - down: 1000
+      name: "\U0001F1F1\U0001F1FA LU 200"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 57026
+      ports: 50001-59999
+      server: youhui-lu.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1E8\U0001F1E6 CA 201"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 52681
+      ports: 50001-59999
+      server: youhui-ca.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: redw.pooriam.ir
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 202"
       network: ws
       path: /TABRIZ.NET,TABRIZ.NET,TABRIZ.NET,TABRIZ.NET,TABRIZ.NET,TABRIZ.NET/?ed=2048
       pbk: ""
@@ -733,225 +1673,130 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /TABRIZ.NET,TABRIZ.NET,TABRIZ.NET,TABRIZ.NET,TABRIZ.NET,TABRIZ.NET/?ed=2048
-    - name: "\U0001F1EF\U0001F1F5 JP 114"
-      password: e47af2c3-5500-4dea-a4ae-6f0ea48c2e73
-      port: 19532
-      server: nc.cn1.xiaomi-api.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1EA AE 115"
-      network: ws
-      port: 80
-      server: 104.16.163.228
-      tls: false
-      type: vmess
-      uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-      ws-opts:
-        headers:
-            Host: 559573739693332025031913290542452.dblxc.chibaba.filegear-sg.me
-        path: /dubai.html?ed=2048
-    - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8 US 118"
-      password: shadowsocks
-      port: 443
-      server: 149.22.95.183
-      type: ss
     - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 121"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22872
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 123"
+      name: "\U0001F1F1\U0001F1FA LU 203"
       password: d502771a-daad-4470-bbaf-2a453e518db3
-      port: 56481
+      port: 53641
       ports: 50001-59999
-      server: youhui-sg.sanguayun.com
+      server: youhui-lu.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
     - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 126"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22245
-      ports: 22001-22999
-      server: aimanman-kr.sanguayun.com
+      name: "\U0001F1F3\U0001F1F1 NL 204"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 56669
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 128"
-      network: ws
-      port: 443
-      server: visa.org
-      tls: true
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-      ws-opts:
-        headers:
-            Host: join---bede.mosiv2-com.workers.dev
-        path: /sgfqkqmltcy.site/rbqqvws
     - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 129"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22628
-      ports: 22001-22999
-      server: aimanman-kr.sanguayun.com
+      name: "\U0001F1F1\U0001F1FA LU 205"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 52880
+      ports: 50001-59999
+      server: youhui-lu.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
-    - client-fingerprint: ""
-      flow: ""
-      fp: ""
-      grpc-opts:
-        grpc-service-name: ""
-      host: redw.pooriam.ir
-      mode: ""
-      name: "\U0001F1FA\U0001F1F8 US 131"
-      network: ws
-      path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-      pbk: ""
-      port: 8880
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      security: none
-      server: 154.83.2.228
-      servername: ""
-      serviceName: ""
-      sid: ""
-      sni: ""
-      tls: false
-      type: vless
-      udp: false
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
     - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 134"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22719
-      ports: 22001-22999
-      server: aimanman-kr.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - name: "\U0001F1ED\U0001F1F0 HK 135"
-      password: 8278e095-ef80-42b6-aae5-c0a3ea3fc894
-      port: 6444
-      server: hk194.rmb-usdt.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EC SG 139"
-      password: amazonskr05
-      port: 443
-      server: 3.0.54.96
-      type: ss
-    - name: "\U0001F1F9\U0001F1FC TW 140"
-      network: ws
-      password: Aimer
-      port: 443
-      server: 43.156.253.94
-      skip-cert-verify: true
-      sni: agepl.ambercc.filegear-sg.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            host: agepl.ambercc.filegear-sg.me
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 142"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 154.90.63.177
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EC SG 143"
-      password: N4DD5Q4I2C5PAJEI
-      port: 16010
-      server: w72tapyb.slashdevslashnetslashtun.net
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 US 144"
-      network: ws
-      port: 2083
-      server: 108.165.152.91
-      servername: edfgj.aimercc.filegear-sg.me
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-      ws-opts:
-        headers:
-            host: edfgj.aimercc.filegear-sg.me
-        path: /?ed=2560
-    - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 147"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22223
-      ports: 22001-22999
-      server: aimanman-kr.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - name: "\U0001F1FA\U0001F1F8 US 152"
-      network: ws
-      port: 2053
-      server: 108.165.152.92
-      servername: edfgj.aimercc.filegear-sg.me
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-      ws-opts:
-        headers:
-            host: edfgj.aimercc.filegear-sg.me
-        path: /?ed=2560
-    - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 154"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22731
+      name: "\U0001F1EF\U0001F1F5 JP 206"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22277
       ports: 22001-22999
       server: aimanman-jp.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1EA AE 157"
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 207"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22184
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F1\U0001F1FA LU 208"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 51833
+      ports: 50001-59999
+      server: youhui-lu.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F1\U0001F1FA LU 209"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 57189
+      ports: 50001-59999
+      server: youhui-lu.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 210"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22393
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F1\U0001F1FA LU 211"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 58999
+      ports: 50001-59999
+      server: youhui-lu.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F1\U0001F1FA LU 212"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 54826
+      ports: 50001-59999
+      server: youhui-lu.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1FA\U0001F1F3 UN 213"
       network: ws
-      port: 80
-      server: 104.26.12.54
-      tls: false
-      type: vmess
-      uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+      password: auto
+      port: 443
+      server: 188.114.99.81
+      skip-cert-verify: true
+      sni: mazq100za43.962dael.workers.dev
+      type: trojan
       ws-opts:
         headers:
-            Host: 910522364907172025031913290594205.dblxc.chibaba.filegear-sg.me
-        path: /dubai.html?ed=2048
+            Host: mazq100za43.962dael.workers.dev
+        path: /
     - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 164"
+      name: "\U0001F1EB\U0001F1F7 FR 214"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 54560
+      ports: 50001-59999
+      server: youhui-fr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 216"
       password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
       port: 22722
       ports: 22001-22999
@@ -961,46 +1806,132 @@ proxies:
       type: hysteria2
       up: 1000
     - down: 1000
-      name: "\U0001F1FA\U0001F1F8 US 166"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22898
-      ports: 22001-22999
-      server: aimanman-us.sanguayun.com
+      name: "\U0001F1F3\U0001F1F1 NL 217"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 54729
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
-    - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8 US 169"
-      password: shadowsocks
-      port: 443
-      server: 149.22.87.204
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EA DE 177"
-      port: 33281
-      server: 62.146.232.156
-      tls: false
-      type: vmess
-      uuid: 24eda0ea-acf0-4538-a001-f746a480237a
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1EA AE 179"
+    - down: 1000
+      name: "\U0001F1F1\U0001F1FA LU 218"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 52281
+      ports: 50001-59999
+      server: youhui-lu.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1FA\U0001F1F8 US 221"
       network: ws
-      port: 80
-      server: 104.26.5.60
+      port: 2052
+      server: www.visa.com.sg
+      skip-cert-verify: true
+      tfo: false
       tls: false
-      type: vmess
-      uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: 478754114009972025031913290536061.dblxc.chibaba.filegear-sg.me
-        path: /dubai.html?ed=2048
-    - name: "\U0001F1F8\U0001F1EC SG 186"
+            Host: redw.pooriam.ir
+        path: /@ShadowProxy66?ed=2048
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 222"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 32948
+      server: xm.miloli.cc
+      type: ss
+    - down: 1000
+      name: "\U0001F1F3\U0001F1F1 NL 224"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 51490
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F3\U0001F1F1 NL 225"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 57962
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 227"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22649
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EB\U0001F1F7 FR 228"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 51274
+      ports: 50001-59999
+      server: youhui-fr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F3\U0001F1F1 NL 231"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 58671
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR 232"
+      password: amazonskr05
+      port: 443
+      server: 43.203.196.43
+      type: ss
+    - down: 1000
+      name: "\U0001F1F3\U0001F1F1 NL 233"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 58877
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1ED\U0001F1F0 HK 234"
+      password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE
+      port: 11170
+      server: gzdata1.fc-smartcloud.xyz
+      skip-cert-verify: true
+      sni: m.ctrip.com
+      type: trojan
+      udp: true
+    - down: 1000
+      name: "\U0001F1F3\U0001F1F1 NL 236"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 54989
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1F8\U0001F1EC SG 239"
       network: ws
-      port: 2096
-      server: 50.114.55.109
+      port: 12314
+      server: 8.222.159.134
       servername: edfgl.aimercc.filegear-sg.me
       skip-cert-verify: true
       tls: true
@@ -1012,17 +1943,57 @@ proxies:
             host: edfgl.aimercc.filegear-sg.me
         path: /?ed=2560
     - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 189"
-      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
-      port: 22438
-      ports: 22001-22999
-      server: aimanman-jp.sanguayun.com
+      name: "\U0001F1F3\U0001F1F1 NL 240"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 55138
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 241"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22262
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1FA\U0001F1F8 US 242"
+      network: ws
+      port: 2087
+      server: 108.165.152.1
+      servername: edfgj.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgj.aimercc.filegear-sg.me
+        path: /?ed=2560
     - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 194"
+      name: "\U0001F1F8\U0001F1EC SG 243"
+      network: ws
+      port: 8443
+      server: 27.50.49.224
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 246"
       network: ws
       port: 2087
       server: 154.211.8.109
@@ -1037,24 +2008,1176 @@ proxies:
         headers:
             Host: ed.sosocn.filegear-sg.me
         path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 247"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22719
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 248"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22596
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1ED\U0001F1F0 HK 249"
+      network: ws
+      port: 2083
+      server: 154.218.15.250
+      servername: edfgk.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgk.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 253"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22166
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1E6\U0001F1F9 AT 254"
+      network: ws
+      port: 443
+      server: 212.183.88.231
+      servername: 20c.bgm2024.us.kg
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      ws-opts:
+        headers:
+            host: 20c.bgm2024.us.kg
+        path: /?ed=2560
+    - name: "\U0001F1EF\U0001F1F5 JP 255"
+      network: ws
+      port: 8080
+      server: 141.147.144.246
+      servername: edfgj.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgj.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 256"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22269
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 196"
-      port: 28686
-      server: 154.26.153.173
-      tls: false
+      name: "\U0001F1ED\U0001F1F0 HK 257"
+      network: ws
+      port: 17016
+      server: aka.beetech.cloudns.biz
+      skip-cert-verify: true
+      tls: true
       type: vmess
-      uuid: 6df7d56f-4953-4a10-be2e-a88cc9f94e48
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7 KR 202"
-      port: 8888
-      server: 146.56.112.110
+      udp: true
+      uuid: a0a42827-ebd0-4347-8536-94a626545a21
+      ws-opts:
+        headers:
+            Host: aka.beetech.cloudns.biz
+        path: /a0a42827
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 258"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22579
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F3\U0001F1F1 NL 264"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 52914
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 265"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22400
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 266"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22930
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 269"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22815
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: falcunargo-channel.be3374a836.workers.Dev
+      mode: ""
+      name: "\U0001F1FA\U0001F1F3 UN 272"
+      network: ws
+      path: /?ed=2048
+      pbk: ""
+      port: 8880
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 188.114.97.3
+      servername: ""
+      serviceName: ""
+      sid: ""
+      sni: ""
       tls: false
-      type: vmess
-      uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+      type: vless
+      udp: false
+      uuid: 91d9b8d8-2aab-4e1a-9573-0d59e9cd7f8e
+      ws-opts:
+        headers:
+            Host: falcunargo-channel.be3374a836.workers.Dev
+        path: /?ed=2048
+    - name: "\U0001F1F9\U0001F1FC TW 273"
+      network: ws
+      password: Aimer
+      port: 12317
+      server: 103.235.18.96
+      skip-cert-verify: true
+      sni: agepk.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepk.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1EF\U0001F1F5 JP 276"
+      network: ws
+      port: 45805
+      server: 138.2.12.10
+      servername: no.dbbn2024.us.kg
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      ws-opts:
+        headers:
+            host: no.dbbn2024.us.kg
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 278"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22679
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 279"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22965
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 280"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22450
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 282"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22927
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 284"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22565
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F3\U0001F1F1 NL 286"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 55562
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 287"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22698
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
     - client-fingerprint: random
-      name: "\U0001F1F8\U0001F1EC SG 203"
+      name: "\U0001F1EF\U0001F1F5 JP 289"
+      network: ws
+      port: 8080
+      server: 141.147.144.246
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 291"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22069
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F3\U0001F1F1 NL 295"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 50681
+      ports: 50001-59999
+      server: youhui-nl.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 296"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22683
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1F3 CN 302"
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 154.90.63.193
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR 304"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 154.90.62.168
+      type: ss
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 306"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22368
+      ports: 22001-22999
+      server: aimanman-uk.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 315"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22130
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 320"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22132
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1F9\U0001F1FC TW 330"
+      network: ws
+      password: Aimer
+      port: 2083
+      server: 130.250.137.63
+      skip-cert-verify: true
+      sni: agepl.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepl.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0 HK 336"
+      network: ws
+      port: 11563
+      server: 206.237.1.59
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US 342"
+      password: shadowsocks
+      port: 443
+      server: 149.22.87.240
+      type: ss
+    - name: "\U0001F1ED\U0001F1F0 HK 347"
+      network: ws
+      port: 60001
+      server: 47.76.130.197
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1F9\U0001F1FC TW 349"
+      network: ws
+      password: Aimer
+      port: 443
+      server: 86.38.214.186
+      skip-cert-verify: true
+      sni: agepj.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepj.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0 HK 351"
+      network: ws
+      port: 52001
+      server: 45.87.103.154
+      servername: edfgj.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgj.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1FA\U0001F1F8 US 368"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22240
+      ports: 22001-22999
+      server: aimanman-us.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 370"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22415
+      ports: 22001-22999
+      server: aimanman-jp.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EB\U0001F1F7 FR 381"
+      password: d502771a-daad-4470-bbaf-2a453e518db3
+      port: 52391
+      ports: 50001-59999
+      server: youhui-fr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB 383"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 41667
+      server: xm.miloli.cc
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6 CA 385"
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 79.127.233.170
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 405"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 45395
+      server: xm.miloli.cc
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 407"
+      password: oXGp1+ihlfKg826H
+      port: 1866
+      server: 64.176.85.73
+      type: ss
+    - down: 1000
+      name: "\U0001F1EB\U0001F1F7 FR 415"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 58395
+      ports: 50001-59999
+      server: youhui-fr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E9\U0001F1EA DE 419"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 46222
+      server: xm.miloli.cc
+      type: ss
+    - down: 1000
+      name: "\U0001F1FA\U0001F1F8 US 422"
+      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
+      port: 22690
+      ports: 22001-22999
+      server: aimanman-us.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E6\U0001F1EA AE 424"
+      password: d0fa3a9b-2115-4cc0-a8f5-7f4f7caf6ec1
+      port: 8080
+      server: 217.195.200.95
+      type: ss
+    - down: 1000
+      name: "\U0001F1E8\U0001F1E6 CA 425"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 53929
+      ports: 50001-59999
+      server: youhui-ca.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1FA\U0001F1F8 US 426"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22659
+      ports: 22001-22999
+      server: aimanman-us.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: 201.58vtg99l.workers.dev
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 432"
+      network: ws
+      path: /
+      pbk: ""
+      port: 8080
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: www.ipget.net
+      servername: 201.58vtg99l.workers.dev
+      serviceName: ""
+      sid: ""
+      sni: 201.58vtg99l.workers.dev
+      tls: false
+      type: vless
+      udp: false
+      uuid: 4c9541c7-5fa1-403c-84af-175e3b25a27f
+      ws-opts:
+        headers:
+            Host: 201.58vtg99l.workers.dev
+        path: /
+    - name: "\U0001F1F8\U0001F1EC SG 436"
+      network: ws
+      port: 81
+      server: 5.34.176.119
+      servername: v20.ylkszy.eu.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      ws-opts:
+        headers:
+            host: v20.ylkszy.eu.org
+        path: /?ed=2560
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG 438"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.236
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1FD MX 439"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 48874
+      server: xm.miloli.cc
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 441"
+      network: ws
+      port: 443
+      server: 172.67.135.62
+      tls: true
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      ws-opts:
+        headers:
+            Host: hknbyivfffj.site
+        path: /rbqqvws
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: m543.hosseinpool10.workers.dev
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 446"
+      network: ws
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+      pbk: ""
+      port: 2082
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 104.21.1.90
+      servername: ""
+      serviceName: ""
+      sid: ""
+      sni: ""
+      tls: false
+      type: vless
+      udp: false
+      uuid: 5181717e-892b-45a9-a8b7-e6d5fac1c77b
+      ws-opts:
+        headers:
+            Host: m543.hosseinpool10.workers.dev
+        path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    - down: 1000
+      name: "\U0001F1EB\U0001F1F7 FR 447"
+      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
+      port: 58497
+      ports: 50001-59999
+      server: youhui-fr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6 CA 450"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 20828
+      server: xm.miloli.cc
+      type: ss
+    - name: "\U0001F1F9\U0001F1FC TW 461"
+      network: ws
+      password: Aimer
+      port: 2083
+      server: 108.165.152.91
+      skip-cert-verify: true
+      sni: agepl.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepl.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 470"
+      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
+      port: 22224
+      ports: 22001-22999
+      server: aimanman-kr.sanguayun.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - name: "\U0001F1ED\U0001F1F0 HK 471"
+      network: ws
+      port: 34422
+      server: 47.76.72.167
+      servername: edfgj.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgj.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: a.mifeng.us.kg
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 478"
+      network: ws
+      path: Telegram@WangCai2/?ed=2048
+      pbk: ""
+      port: 80
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 45.131.6.126
+      servername: a.mifeng.us.kg
+      serviceName: ""
+      sid: ""
+      sni: a.mifeng.us.kg
+      tls: false
+      type: vless
+      udp: false
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: a.mifeng.us.kg
+        path: Telegram@WangCai2/?ed=2048
+    - client-fingerprint: randomized
+      name: "\U0001F1EB\U0001F1F7 FR 484"
+      network: ws
+      port: 443
+      server: www.vpslook.com
+      servername: 64D78605.Fr-7rB.pageS.dEv
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 70f8697b-f9f3-4692-8e0a-3d1834fd76dc
+      ws-opts:
+        headers:
+            Host: 64D78605.Fr-7rB.pageS.dEv
+        path: /YBa1BBPnrlsvyMZD/MzUuMTgwLjIyOS4x?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7 KR 514"
+      network: ws
+      port: 28887
+      server: 131.186.18.212
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1EE FI 529"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 37.143.129.230
+      type: ss
+    - name: "\U0001F1ED\U0001F1F0 HK 530"
+      network: ws
+      port: 34422
+      server: 47.76.72.167
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1F8\U0001F1EC SG 534"
+      network: ws
+      port: 51207
+      server: 185.126.80.181
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1F2\U0001F1E9 MD 536"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 45.153.124.90
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US 539"
+      network: ws
+      port: 8880
+      server: america.com
+      skip-cert-verify: true
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EE\U0001F1E9 ID 547"
+      port: 45365
+      server: 103.67.79.157
+      tls: false
+      type: vmess
+      uuid: 7d2a4e66-152c-49f5-9ff5-c19a836e8c89
+    - name: "\U0001F1EF\U0001F1F5 JP 548"
+      network: ws
+      port: 8443
+      server: 138.2.36.157
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8 US 577"
+      password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
+      port: 42029
+      server: 208.67.105.196
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F7\U0001F1FA RU 614"
+      password: d0fa3a9b-2115-4cc0-a8f5-7f4f7caf6ec1
+      port: 8080
+      server: 185.22.152.16
+      type: ss
+    - client-fingerprint: random
+      name: "\U0001F1F9\U0001F1FC TW 615"
+      network: ws
+      port: 81
+      server: 220.135.202.250
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0 HK 617"
+      network: ws
+      port: 10028
+      server: 59.188.46.218
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1F0\U0001F1F7 KR 633"
+      network: ws
+      port: 15914
+      server: 140.238.31.153
+      servername: ne1.ylks.us.kg
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      ws-opts:
+        headers:
+            host: ne1.ylks.us.kg
+        path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC TW 643"
+      port: 57004
+      server: v2-twzz.netcar.live
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 576fc2ae-5820-4212-8ee8-2856586a0be4
+    - client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7 KR 648"
+      network: ws
+      port: 4433
+      server: 54.180.230.114
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1F0\U0001F1F7 KR 683"
+      network: ws
+      port: 4433
+      server: 54.180.230.114
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 696"
+      network: ws
+      port: 12317
+      server: 103.235.18.96
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR 707"
+      password: amazonskr05
+      port: 443
+      server: 13.124.101.203
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F7\U0001F1F8 RS 715"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 194.71.126.31
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 722"
+      network: ws
+      port: 443
+      server: 172.67.213.110
+      tls: true
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      ws-opts:
+        headers:
+            Host: sgfqkqmltcy.site
+        path: /rbqqvws
+    - cipher: aes-256-cfb
+      client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7 KR 723"
+      password: amazonskr05
+      port: 443
+      server: 43.201.85.71
+      tfo: false
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5 JP 729"
+      password: amazonskr05
+      port: 443
+      server: 13.213.69.248
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US 731"
+      network: ws
+      password: amclubs2024
+      port: 443
+      server: 198.62.62.4
+      skip-cert-verify: true
+      sni: tr.amclub.us.kg
+      type: trojan
+      ws-opts:
+        headers:
+            Host: tr.amclub.us.kg
+        path: ""
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 734"
+      network: ws
+      port: 443
+      server: visa.org
+      tls: true
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      ws-opts:
+        headers:
+            Host: join---bede.mosiv2-com.workers.dev
+        path: /sgfqkqmltcy.site/rbqqvws
+    - client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7 KR 736"
+      network: ws
+      port: 2053
+      server: 54.180.202.133
+      servername: fei.634676.xyz
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 749"
+      network: ws
+      port: 443
+      server: 104.21.42.243
+      tls: true
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      ws-opts:
+        headers:
+            Host: sgfqkqmltcy.site
+        path: /rbqqvws
+    - name: "\U0001F1F9\U0001F1FC TW 762"
+      network: ws
+      password: Aimer
+      port: 8443
+      server: 27.50.49.234
+      skip-cert-verify: true
+      sni: agepj.ambercc.filegear-sg.me
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: agepj.ambercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0 HK 763"
+      network: ws
+      port: 1935
+      server: 43.154.34.74
+      servername: edfgk.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgk.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7 KR 780"
+      network: ws
+      port: 4433
+      server: 54.180.230.114
+      servername: fei.634676.xyz
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC SG 812"
+      network: ws
+      port: 23452
+      server: westsg2-ddns.oraclenat.cc
+      tls: false
+      type: vmess
+      uuid: 212f453e-3190-4f4d-a9ab-5b63923e28f0
+      ws-opts:
+        headers:
+            Host: westsg2-ddns.oraclenat.cc
+        path: /
+    - cipher: aes-256-cfb
+      name: "\U0001F1F2\U0001F1F0 MK 826"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 46.183.185.37
+      type: ss
+    - client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 834"
+      network: ws
+      port: 8447
+      server: 8.218.110.219
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 867"
+      port: 44104
+      server: 154.26.137.42
+      tls: false
+      type: vmess
+      uuid: e9933a4c-e56e-458c-bcf4-9cb3875bba55
+    - client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7 KR 936"
+      network: ws
+      port: 20443
+      server: 106.240.1.52
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1EF\U0001F1F5 JP 953"
+      network: ws
+      port: 8080
+      server: 141.147.144.246
+      servername: edfgl.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgl.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1EF\U0001F1F5 JP 964"
+      network: ws
+      port: 8443
+      server: 64.110.101.31
+      servername: edfgj.aimercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edfgj.aimercc.filegear-sg.me
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 972"
+      password: TOZA9E6pyq4z3pFYeIeOC3ApaSDjR2wFueaO8uNDx0czDF3YCSwa3xjZ3qZAyB4YCKCZS
+      port: 443
+      server: swiftly.meijireform.com
+      skip-cert-verify: false
+      sni: swiftly.meijireform.com
+      type: trojan
+    - client-fingerprint: random
+      name: "\U0001F1F8\U0001F1EC SG 981"
       network: ws
       port: 2096
       server: 206.238.236.8
@@ -1069,250 +3192,11 @@ proxies:
         headers:
             Host: ed.sosocn.filegear-sg.me
         path: /?ed=2560
-    - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 208"
-      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
-      port: 22927
-      ports: 22001-22999
-      server: aimanman-jp.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 224"
-      network: ws
-      port: 2053
-      server: 154.211.8.152
-      servername: ed.sosocn.filegear-sg.me
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 614830ac-bc6c-44d0-8003-e439cddcba69
-      ws-opts:
-        headers:
-            Host: ed.sosocn.filegear-sg.me
-        path: /?ed=2560
-    - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 233"
-      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
-      port: 22683
-      ports: 22001-22999
-      server: aimanman-kr.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EA DE 234"
-      port: 38872
-      server: 94.136.184.156
-      tls: false
-      type: vmess
-      uuid: 220732cc-9e43-4453-83f1-c9435be25b5b
-    - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8 US 242"
-      password: shadowsocks
-      port: 443
-      server: 149.22.87.241
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US 244"
-      password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
-      port: 42029
-      server: 208.67.105.196
-      type: ss
-    - client-fingerprint: ""
-      flow: ""
-      fp: ""
-      grpc-opts:
-        grpc-service-name: ""
-      host: redw.pooriam.ir
-      mode: ""
-      name: "\U0001F1FA\U0001F1F8 US 247"
-      network: ws
-      path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-      pbk: ""
-      port: 8880
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      security: none
-      server: 154.83.2.156
-      servername: ""
-      serviceName: ""
-      sid: ""
-      sni: ""
-      tls: false
-      type: vless
-      udp: false
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP 264"
-      password: TOZA9E6pyq4z3pFYeIeOC3ApaSDjR2wFueaO8uNDx0czDF3YCSwa3xjZ3qZAyB4YCKCZS
-      port: 443
-      server: swiftly.meijireform.com
-      skip-cert-verify: false
-      sni: swiftly.meijireform.com
-      type: trojan
-    - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 276"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22746
-      ports: 22001-22999
-      server: aimanman-jp.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1EA AE 286"
-      network: ws
-      port: 80
-      server: 172.64.229.67
-      tls: false
-      type: vmess
-      uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-      ws-opts:
-        headers:
-            Host: 84918313396042025031913290545168.dblxc.chibaba.filegear-sg.me
-        path: /dubai.html?ed=2048
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP 292"
-      password: amazonskr05
-      port: 443
-      server: 18.182.5.123
-      type: ss
-    - down: 1000
-      name: "\U0001F1EB\U0001F1F7 FR 293"
-      password: 08c5ccbc-4c96-49f6-bbcb-c36683edf610
-      port: 52738
-      ports: 50001-59999
-      server: youhui-fr.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 296"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22503
-      ports: 22001-22999
-      server: aimanman-jp.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F2\U0001F1FD MX 297"
-      port: 18000
-      server: 79.127.229.54
-      tls: false
-      type: vmess
-      uuid: fa1897db-1925-4c86-a495-939a959af900
-    - name: "\U0001F1F9\U0001F1FC TW 304"
+    - name: "\U0001F1F9\U0001F1FC TW 988"
       network: ws
       password: Aimer
       port: 443
-      server: 158.179.180.156
-      skip-cert-verify: true
-      sni: agepj.ambercc.filegear-sg.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            host: agepj.ambercc.filegear-sg.me
-        path: /?ed=2560
-    - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 305"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22393
-      ports: 22001-22999
-      server: aimanman-jp.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 328"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22372
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP 335"
-      password: amazonskr05
-      port: 443
-      server: 13.213.69.248
-      type: ss
-    - name: "\U0001F1ED\U0001F1F0 HK 339"
-      network: ws
-      port: 2083
-      server: 154.218.15.250
-      servername: edfgk.aimercc.filegear-sg.me
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-      ws-opts:
-        headers:
-            host: edfgk.aimercc.filegear-sg.me
-        path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1EA AE 350"
-      network: ws
-      port: 80
-      server: 172.64.229.152
-      tls: false
-      type: vmess
-      uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-      ws-opts:
-        headers:
-            Host: 462504948748282025031913290572685.dblxc.chibaba.filegear-sg.me
-        path: /dubai.html?ed=2048
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1EA AE 355"
-      network: ws
-      port: 80
-      server: 172.64.229.60
-      tls: false
-      type: vmess
-      uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-      ws-opts:
-        headers:
-            Host: 27493151697512025031913290531028.dblxc.chibaba.filegear-sg.me
-        path: /dubai.html?ed=2048
-    - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 395"
-      password: a9e3e858-6c95-4642-9a6a-f8fe154ae3c8
-      port: 22132
-      ports: 22001-22999
-      server: aimanman-jp.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - name: "\U0001F1F9\U0001F1FC TW 415"
-      network: ws
-      password: Aimer
-      port: 2083
-      server: 108.165.152.91
+      server: 8.223.15.4
       skip-cert-verify: true
       sni: agepl.ambercc.filegear-sg.me
       type: trojan
@@ -1321,50 +3205,25 @@ proxies:
         headers:
             host: agepl.ambercc.filegear-sg.me
         path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 456"
+    - client-fingerprint: random
+      name: "\U0001F1F9\U0001F1FC TW 1016"
       network: ws
-      port: 8443
-      server: 185.176.26.209
-      tls: true
-      type: vmess
-      uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-      ws-opts:
-        headers:
-            Host: lax1.ibgfw.top
-        path: /xrenvws
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F7\U0001F1FA RU 482"
-      network: ws
-      port: 8443
-      server: 77.232.140.180
-      tls: true
-      type: vmess
-      uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-      ws-opts:
-        headers:
-            Host: lax1.ibgfw.top
-        path: /xrenvws
-    - name: "\U0001F1FA\U0001F1F8 US 494"
-      network: ws
-      port: 2053
-      server: 199.34.228.66
-      servername: edfgk.aimercc.filegear-sg.me
+      port: 8080
+      server: 165.154.17.186
+      servername: fei.634676.xyz
       skip-cert-verify: true
+      tfo: false
       tls: true
       type: vless
-      udp: true
-      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
       ws-opts:
         headers:
-            host: edfgk.aimercc.filegear-sg.me
+            Host: fei.634676.xyz
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 564"
+    - name: "\U0001F1F8\U0001F1EC SG 1029"
       network: ws
-      port: 2087
-      server: 108.165.152.1
+      port: 51207
+      server: 185.126.80.181
       servername: edfgj.aimercc.filegear-sg.me
       skip-cert-verify: true
       tls: true
@@ -1375,68 +3234,16 @@ proxies:
         headers:
             host: edfgj.aimercc.filegear-sg.me
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 567"
-      network: ws
-      password: tg-fq521free
-      port: 443
-      server: 216.24.57.30
+    - name: "\U0001F1ED\U0001F1F0 HK 1096"
+      password: 8278e095-ef80-42b6-aae5-c0a3ea3fc894
+      port: 6444
+      server: hk194.rmb-usdt.xyz
       skip-cert-verify: true
-      sni: torjan.xn--xhq44j.eu.org
       type: trojan
-      ws-opts:
-        headers:
-            Host: torjan.xn--xhq44j.eu.org
-        path: /
+      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 578"
-      password: amazonskr05
-      port: 443
-      server: 52.78.98.141
+      name: "\U0001F1EB\U0001F1F7 FR 1171"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 195.154.169.198
       type: ss
-    - cipher: chacha20-ietf
-      name: "\U0001F1ED\U0001F1F0 HK 599"
-      password: asd123456
-      port: 8388
-      server: 194.41.59.80
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC SG 660"
-      port: 59032
-      server: 109.123.232.74
-      tls: false
-      type: vmess
-      uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd
-    - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP 673"
-      password: 9a80bf55-140c-4175-b0bd-b2b64eba2370
-      port: 22277
-      ports: 22001-22999
-      server: aimanman-jp.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 701"
-      network: ws
-      port: 8443
-      server: 89.117.112.235
-      tls: true
-      type: vmess
-      uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-      ws-opts:
-        headers:
-            Host: lax1.ibgfw.top
-        path: /xrenvws
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG 809"
-      password: a4ec78eb-74bf-4ba2-88fc-fb9eeffdf094
-      port: 22981
-      ports: 22001-22999
-      server: aimanman-sg.sanguayun.com
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: 1000
