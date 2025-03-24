@@ -1,35 +1,82 @@
 proxies:
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 9.35 MB/s"
-      password: b4c9f1d2-3219-4147-8ec8-5b4bf52b1354
-      port: 45580
-      server: hkg03.dns-node.top
+    - name: "\U0001F1E8\U0001F1F3 CN 000 | ⬇️ 4.30 MB/s"
+      network: ws
+      port: 443
+      server: 103.44.255.81
+      servername: wl.vs2025.cfd
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 55520747-311e-4015-83ce-be46e2060ce3
+      ws-opts:
+        headers:
+            host: wl.vs2025.cfd
+        path: /?ed=2560&proxyip=103.44.255.81:443
+    - name: "\U0001F1ED\U0001F1F0 HK 010 | ⬇️ 32.89 MB/s"
+      password: e47af2c3-5500-4dea-a4ae-6f0ea48c2e73
+      port: 19512
+      server: nc.ct.xiaomi-api.xyz
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1F8\U0001F1EC SG 011 | ⬇️ 10.65 MB/s"
+      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
+      port: 42006
+      server: in1.xiguajiasu.xyz
+      skip-cert-verify: true
+      sni: sg006.yijiasu.xyz
+      type: trojan
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5 JP 012 | ⬇️ 6.26 MB/s"
+      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
+      port: 10012
+      server: in1.xiguajiasu.xyz
+      skip-cert-verify: true
+      sni: tt002.yijiasu.xyz
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F3 UN 013 | ⬇️ 1.27 MB/s"
+      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
+      port: 10013
+      server: in1.xiguajiasu.xyz
+      skip-cert-verify: true
+      sni: tt003.yijiasu.xyz
+      type: trojan
+      udp: true
+    - name: "\U0001F1F9\U0001F1FC TW 018 | ⬇️ 5.90 MB/s"
+      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
+      port: 59001
+      server: in1.xiguajiasu.xyz
+      skip-cert-verify: true
+      sni: tw001.yijiasu.xyz
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EF\U0001F1F5 JP 031 | ⬇️ 17.09 MB/s"
+      password: 5941dd2a-0e68-46a1-8d32-fa92344b2614
+      port: 52773
+      server: jsyd.piaomiaoxu.net
       type: ss
       udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F8\U0001F1EC SG 003 | ⬇️ 1.35 MB/s"
-      password: b4c9f1d2-3219-4147-8ec8-5b4bf52b1354
-      port: 45574
-      server: sg02.dns-node.top
-      type: ss
+    - name: "\U0001F1F8\U0001F1EC SG 032 | ⬇️ 21.46 MB/s"
+      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
+      port: 42004
+      server: in1.xiguajiasu.xyz
+      skip-cert-verify: true
+      sni: sg004.yijiasu.xyz
+      type: trojan
       udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F8\U0001F1EC SG 005 | ⬇️ 10.32 MB/s"
-      password: b4c9f1d2-3219-4147-8ec8-5b4bf52b1354
-      port: 45606
-      server: sg03.dns-node.top
-      type: ss
-    - cipher: aes-128-gcm
-      name: "\U0001F1F9\U0001F1FC TW 006 | ⬇️ 12.00 MB/s"
-      password: b4c9f1d2-3219-4147-8ec8-5b4bf52b1354
-      port: 45614
-      server: tw02.dns-node.top
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F8\U0001F1EC SG 008 | ⬇️ 7.75 MB/s"
-      password: b4c9f1d2-3219-4147-8ec8-5b4bf52b1354
-      port: 45572
-      server: sg01.dns-node.top
-      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR 033 | ⬇️ 14.64 MB/s"
+      password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1
+      port: 19552
+      server: nc.ct.xiaomi-api.xyz
+      skip-cert-verify: true
+      type: trojan
+    - name: "\U0001F1EF\U0001F1F5 JP 034 | ⬇️ 13.17 MB/s"
+      password: e47af2c3-5500-4dea-a4ae-6f0ea48c2e73
+      port: 19532
+      server: nc.cn1.xiaomi-api.xyz
+      skip-cert-verify: true
+      type: trojan
       udp: true
