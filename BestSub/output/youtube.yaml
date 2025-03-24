@@ -1,51 +1,29 @@
 proxies:
-    - name: "\U0001F1E8\U0001F1F3 CN 000 | ⬇️ 4.30 MB/s"
-      network: ws
-      port: 443
-      server: 103.44.255.81
-      servername: wl.vs2025.cfd
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 4.07 MB/s"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 19240
+      server: ss.miloli.cc
+      type: ss
+    - name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 34.48 MB/s"
+      password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE
+      port: 11185
+      server: gzdata1.fc-smartcloud.xyz
       skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 55520747-311e-4015-83ce-be46e2060ce3
-      ws-opts:
-        headers:
-            host: wl.vs2025.cfd
-        path: /?ed=2560&proxyip=103.44.255.81:443
-    - name: "\U0001F1ED\U0001F1F0 HK 001"
-      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 43004
-      server: in1.xiguajiasu.xyz
-      skip-cert-verify: true
-      sni: hk004.yijiasu.xyz
+      sni: m.ctrip.com
       type: trojan
       udp: true
-    - name: "\U0001F1F8\U0001F1EC SG 011 | ⬇️ 10.65 MB/s"
-      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 42006
-      server: in1.xiguajiasu.xyz
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC TW 003"
+      port: 57004
+      server: v2-twzz.netcar.live
       skip-cert-verify: true
-      sni: sg006.yijiasu.xyz
-      type: trojan
+      tls: false
+      type: vmess
       udp: true
-    - name: "\U0001F1EF\U0001F1F5 JP 012 | ⬇️ 6.26 MB/s"
-      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 10012
-      server: in1.xiguajiasu.xyz
-      skip-cert-verify: true
-      sni: tt002.yijiasu.xyz
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F3 UN 013 | ⬇️ 1.27 MB/s"
-      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 10013
-      server: in1.xiguajiasu.xyz
-      skip-cert-verify: true
-      sni: tt003.yijiasu.xyz
-      type: trojan
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 018 | ⬇️ 5.90 MB/s"
+      uuid: 576fc2ae-5820-4212-8ee8-2856586a0be4
+    - name: "\U0001F1F9\U0001F1FC TW 009 | ⬇️ 1.26 MB/s"
       password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
       port: 59001
       server: in1.xiguajiasu.xyz
@@ -53,44 +31,135 @@ proxies:
       sni: tw001.yijiasu.xyz
       type: trojan
       udp: true
-    - name: "\U0001F1ED\U0001F1F0 HK 026"
+    - name: "\U0001F1F0\U0001F1F7 KR 012"
+      password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1
+      port: 19552
+      server: nc.ct.xiaomi-api.xyz
+      skip-cert-verify: true
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0 HK 023"
+      password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE
+      port: 11170
+      server: gzdata1.fc-smartcloud.xyz
+      skip-cert-verify: true
+      sni: m.ctrip.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0 HK 027"
       password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
       port: 43007
       server: in1.xiguajiasu.xyz
       skip-cert-verify: true
       sni: hk007.yijiasu.xyz
       type: trojan
-    - name: "\U0001F1EF\U0001F1F5 JP 030"
-      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 41003
-      server: in1.xiguajiasu.xyz
-      skip-cert-verify: true
-      sni: jp003.yijiasu.xyz
-      type: trojan
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 031 | ⬇️ 17.09 MB/s"
-      password: 5941dd2a-0e68-46a1-8d32-fa92344b2614
-      port: 52773
-      server: jsyd.piaomiaoxu.net
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 035"
+      password: amazonskr05
+      port: 443
+      server: 13.229.233.60
       type: ss
-      udp: true
-    - name: "\U0001F1F8\U0001F1EC SG 032 | ⬇️ 21.46 MB/s"
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5 JP 044"
+      password: amazonskr05
+      port: 443
+      server: 13.230.168.61
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 046"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 31778
+      server: xm.miloli.cc
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR 049"
       password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 42004
+      port: 45003
       server: in1.xiguajiasu.xyz
       skip-cert-verify: true
-      sni: sg004.yijiasu.xyz
+      sni: kr003.yijiasu.xyz
       type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F3 UN 037"
+    - name: "\U0001F1FA\U0001F1F3 UN 051"
       password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 44001
+      port: 61001
       server: in1.xiguajiasu.xyz
       skip-cert-verify: true
-      sni: id001.yijiasu.xyz
+      sni: tha001.yijiasu.xyz
       type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK 045"
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F3 UN 058"
+      network: ws
+      port: 8080
+      server: xn--b6gac.eu.org
+      servername: wwwvisacomsg.mshcgb8q.workers.dev
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 464d644c-9c10-4c02-9117-4c75b0c347cd
+      ws-opts:
+        headers:
+            Host: wwwvisacomsg.mshcgb8q.workers.dev
+        path: /ProxyIP=ProxyIP.US.fxxk.dedyn.io
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EA DE 063"
+      port: 38872
+      server: 94.136.184.156
+      tls: false
+      type: vmess
+      uuid: 220732cc-9e43-4453-83f1-c9435be25b5b
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR 064"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 154.90.62.168
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 083"
+      password: amazonskr05
+      port: 443
+      server: 54.251.193.0
+      type: ss
+    - name: "\U0001F1F8\U0001F1EC SG 086"
+      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
+      port: 42006
+      server: in1.xiguajiasu.xyz
+      skip-cert-verify: true
+      sni: sg006.yijiasu.xyz
+      type: trojan
+      udp: true
+    - name: "\U0001F1F9\U0001F1FC TW 092"
+      network: ws
+      password: Ng35283528
+      port: 443
+      server: 104.16.83.176
+      skip-cert-verify: true
+      sni: c2.validbv3528.eu.org
+      type: trojan
+      ws-opts:
+        headers:
+            Host: c2.validbv3528.eu.org
+        path: /?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 US 102"
+      password: amazonskr05
+      port: 443
+      server: 13.213.69.248
+      type: ss
+    - alterId: 0
+      cipher: auto
+      grpc-opts:
+        grpc-service-name: douyin
+      name: "\U0001F1EF\U0001F1F5 JP 107"
+      network: grpc
+      port: 443
+      server: b3b79a78-7956-4ce5-b68d-4b3ab27dc219.6e4adf81-ee8f-427f-ae02-3ef80d0b5ac2.c35531f1-5881-4e5b-9adc-2b6822d57186.smartprivatelink.com
+      servername: www.douyin.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: b39c863d-98e2-491d-afd8-477c32f5ede7
+    - name: "\U0001F1ED\U0001F1F0 HK 108"
       password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
       port: 43001
       server: in1.xiguajiasu.xyz
@@ -99,64 +168,92 @@ proxies:
       type: trojan
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F9\U0001F1FC TW 046"
-      port: 57004
-      server: v2-twzz.netcar.live
+      grpc-opts:
+        grpc-service-name: "12306"
+      name: "\U0001F1ED\U0001F1F0 HK 122"
+      network: grpc
+      port: 443
+      server: hk01.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
+      servername: www.12306.cn
       skip-cert-verify: true
-      tls: false
+      tls: true
       type: vmess
       udp: true
-      uuid: 576fc2ae-5820-4212-8ee8-2856586a0be4
-    - name: "\U0001F1ED\U0001F1F0 HK 049"
-      password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE
-      port: 11185
-      server: gzdata1.fc-smartcloud.xyz
+      uuid: b39c863d-98e2-491d-afd8-477c32f5ede7
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US 123"
+      password: shadowsocks
+      port: 443
+      server: 149.22.87.240
+      type: ss
+    - name: "\U0001F1EF\U0001F1F5 JP 129"
+      password: 74260712244661900
+      port: 443
+      server: 85.234.83.227
       skip-cert-verify: true
-      sni: m.ctrip.com
+      sni: gorgeous-bull.shiner427.skin
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0 HK 155"
+      password: bb483449-cf51-44de-b3ab-958f672daf01
+      port: 644
+      server: hk180.rmb-usdt.xyz
+      skip-cert-verify: true
       type: trojan
       udp: true
-    - name: "\U0001F1F8\U0001F1EC SG 050"
+    - name: "\U0001F1FA\U0001F1F3 UN 156"
+      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
+      port: 44001
+      server: in1.xiguajiasu.xyz
+      skip-cert-verify: true
+      sni: id001.yijiasu.xyz
+      type: trojan
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US 172"
+      password: shadowsocks
+      port: 443
+      server: 149.22.87.204
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US 198"
+      password: shadowsocks
+      port: 443
+      server: 149.22.87.241
+      type: ss
+    - down: 1000
+      name: "\U0001F1FA\U0001F1F3 UN 201"
+      password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+      port: 2024
+      server: tw3.akebi.cc
+      skip-cert-verify: true
+      sni: th.akebi.cc
+      type: hysteria2
+      up: 600
+    - name: "\U0001F1ED\U0001F1F0 HK 203"
+      password: 8278e095-ef80-42b6-aae5-c0a3ea3fc894
+      port: 6444
+      server: hk194.rmb-usdt.xyz
+      skip-cert-verify: true
+      type: trojan
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F3 UN 213"
+      port: 36700
+      server: 101.99.91.234
+      tls: false
+      type: vmess
+      uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d
+    - name: "\U0001F1F8\U0001F1EC SG 228"
       password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
       port: 42002
       server: in1.xiguajiasu.xyz
       skip-cert-verify: true
       sni: sg002.yijiasu.xyz
       type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK 051"
-      password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE
-      port: 11162
-      server: bjdata1.fc-smartcloud.xyz
-      skip-cert-verify: true
-      sni: m.ctrip.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7 KR 052"
+    - name: "\U0001F1EF\U0001F1F5 JP 283"
       password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 45003
+      port: 41003
       server: in1.xiguajiasu.xyz
       skip-cert-verify: true
-      sni: kr003.yijiasu.xyz
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK 081"
-      password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE
-      port: 11170
-      server: gzdata1.fc-smartcloud.xyz
-      skip-cert-verify: true
-      sni: m.ctrip.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1EF\U0001F1F5 JP 156"
-      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 41002
-      server: in1.xiguajiasu.xyz
-      skip-cert-verify: true
-      sni: jp002.yijiasu.xyz
-      type: trojan
-    - name: "\U0001F1F0\U0001F1F7 KR 234"
-      password: de8eee7e-5a88-4001-9c46-b42f9e9fd682
-      port: 45001
-      server: in1.xiguajiasu.xyz
-      skip-cert-verify: true
-      sni: kr001.yijiasu.xyz
+      sni: jp003.yijiasu.xyz
       type: trojan
       udp: true
