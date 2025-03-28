@@ -5,37 +5,41 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HK 001 | ⬇️ 4.07 MB/s, server: ss.miloli.cc, port: 19240, type: ss, cipher: chacha20-ietf-poly1305, password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9}
-  - {name: 🇭🇰 HK 002 | ⬇️ 34.48 MB/s, server: gzdata1.fc-smartcloud.xyz, port: 11185, type: trojan, password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE, sni: m.ctrip.com, skip-cert-verify: true}
-  - {name: 🇨🇳 TW 003, server: v2-twzz.netcar.live, port: 57004, type: vmess, uuid: 576fc2ae-5820-4212-8ee8-2856586a0be4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW 009 | ⬇️ 1.26 MB/s, server: in1.xiguajiasu.xyz, port: 59001, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: tw001.yijiasu.xyz, skip-cert-verify: true}
-  - {name: 🇰🇷 KR 012, server: nc.ct.xiaomi-api.xyz, port: 19552, type: trojan, password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1, skip-cert-verify: true}
-  - {name: 🇭🇰 HK 023, server: gzdata1.fc-smartcloud.xyz, port: 11170, type: trojan, password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE, sni: m.ctrip.com, skip-cert-verify: true}
-  - {name: 🇭🇰 HK 027, server: in1.xiguajiasu.xyz, port: 43007, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: hk007.yijiasu.xyz, skip-cert-verify: true}
-  - {name: 🇸🇬 SG 035, server: 13.229.233.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 JP 044, server: 13.230.168.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 HK 046, server: xm.miloli.cc, port: 31778, type: ss, cipher: chacha20-ietf-poly1305, password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9}
-  - {name: 🇰🇷 KR 049, server: in1.xiguajiasu.xyz, port: 45003, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: kr003.yijiasu.xyz, skip-cert-verify: true}
-  - {name: UN 051, server: in1.xiguajiasu.xyz, port: 61001, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: tha001.yijiasu.xyz, skip-cert-verify: true}
-  - {name: 🇩🇪 DE 063, server: 94.136.184.156, port: 38872, type: vmess, uuid: 220732cc-9e43-4453-83f1-c9435be25b5b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR 064, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇸🇬 SG 083, server: 54.251.193.0, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 SG 086, server: in1.xiguajiasu.xyz, port: 42006, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: sg006.yijiasu.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 TW 092, server: 104.16.83.176, port: 443, type: trojan, password: Ng35283528, sni: c2.validbv3528.eu.org, skip-cert-verify: true}
-  - {name: 🇺🇸 US 102, server: 13.213.69.248, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇯🇵 JP 107, server: b3b79a78-7956-4ce5-b68d-4b3ab27dc219.6e4adf81-ee8f-427f-ae02-3ef80d0b5ac2.c35531f1-5881-4e5b-9adc-2b6822d57186.smartprivatelink.com, port: 443, type: vmess, uuid: b39c863d-98e2-491d-afd8-477c32f5ede7, alterId: 0, cipher: auto, tls: true, network: grpc, servername: www.douyin.com, grpc-opts: {grpc-service-name: douyin}}
-  - {name: 🇭🇰 HK 108, server: in1.xiguajiasu.xyz, port: 43001, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: hk001.yijiasu.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 HK 122, server: hk01.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com, port: 443, type: vmess, uuid: b39c863d-98e2-491d-afd8-477c32f5ede7, alterId: 0, cipher: auto, tls: true, network: grpc, servername: www.12306.cn, grpc-opts: {grpc-service-name: 12306}}
-  - {name: 🇺🇸 US 123, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇯🇵 JP 129, server: 85.234.83.227, port: 443, type: trojan, password: !<str> 74260712244661900, sni: gorgeous-bull.shiner427.skin, skip-cert-verify: true}
-  - {name: 🇭🇰 HK 155, server: hk180.rmb-usdt.xyz, port: 644, type: trojan, password: bb483449-cf51-44de-b3ab-958f672daf01, skip-cert-verify: true}
-  - {name: UN 156, server: in1.xiguajiasu.xyz, port: 44001, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: id001.yijiasu.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 US 172, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US 198, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇭🇰 HK 203, server: hk194.rmb-usdt.xyz, port: 6444, type: trojan, password: 8278e095-ef80-42b6-aae5-c0a3ea3fc894, skip-cert-verify: true}
-  - {name: UN 213, server: 101.99.91.234, port: 36700, type: vmess, uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG 228, server: in1.xiguajiasu.xyz, port: 42002, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: sg002.yijiasu.xyz, skip-cert-verify: true}
-  - {name: 🇯🇵 JP 283, server: in1.xiguajiasu.xyz, port: 41003, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: jp003.yijiasu.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 HK 000 | ⬇️ 44.54 MB/s, server: gzdata1.fc-smartcloud.xyz, port: 11185, type: trojan, password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SG 001 | ⬇️ 41.75 MB/s, server: 68.183.227.236, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇭🇰 HK 007, server: in1.xiguajiasu.xyz, port: 43004, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: hk004.yijiasu.xyz, skip-cert-verify: true}
+  - {name: 🇰🇷 KR 013 | ⬇️ 31.45 MB/s, server: nc.ct.xiaomi-api.xyz, port: 19552, type: trojan, password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1, skip-cert-verify: true}
+  - {name: 🇲🇾 MY 015, server: 101.99.91.234, port: 36700, type: vmess, uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP 020 | ⬇️ 20.64 MB/s, server: 20.78.127.141, port: 550, type: vmess, uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 023 | ⬇️ 3.19 MB/s, server: in1.xiguajiasu.xyz, port: 42004, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: sg004.yijiasu.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 SG 027 | ⬇️ 45.45 MB/s, server: 68.183.227.45, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇺🇸 US 038 | ⬇️ 6.09 MB/s, server: 154.26.129.247, port: 57143, type: vmess, uuid: 28efbf36-079a-4c98-8470-d13458db6ee6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 039, server: 13.250.106.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 SG 040, server: in1.xiguajiasu.xyz, port: 42002, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: sg002.yijiasu.xyz, skip-cert-verify: true}
+  - {name: 🇩🇪 DE 045 | ⬇️ 2.13 MB/s, server: 62.146.232.156, port: 33281, type: vmess, uuid: 24eda0ea-acf0-4538-a001-f746a480237a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP 048, server: in1.xiguajiasu.xyz, port: 41003, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: jp003.yijiasu.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 US 051, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇸🇬 SG 076, server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇯🇵 JP 083, server: 13.125.231.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 JP 085, server: in1.xiguajiasu.xyz, port: 10012, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: tt002.yijiasu.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 HK 090, server: jsyd.piaomiaoxu.net, port: 34713, type: ss, cipher: aes-256-gcm, password: 887306f3-af8c-472e-b6e0-e7dcf970a4f0}
+  - {name: 🇭🇰 HK 101, server: hk194.rmb-usdt.xyz, port: 6444, type: trojan, password: 8278e095-ef80-42b6-aae5-c0a3ea3fc894, skip-cert-verify: true}
+  - {name: 🇰🇷 KR 104, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇸🇬 SG 107, server: cm2.xcone.xyz, port: 56138, type: ssr, cipher: aes-256-cfb, password: uiACqrIr, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: sg2-cdn-route.couldflare-cdn.com}
+  - {name: 🇨🇳 TW 109, server: 104.16.83.176, port: 443, type: trojan, password: Ng35283528, sni: c2.validbv3528.eu.org, skip-cert-verify: true}
+  - {name: 🇭🇰 HK 113, server: ss.miloli.cc, port: 19240, type: ss, cipher: chacha20-ietf-poly1305, password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9}
+  - {name: 🇺🇸 US 131, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇨🇳 TW 138, server: 104.16.83.43, port: 443, type: trojan, password: Ng35283528, sni: c2.validbv3528.eu.org, skip-cert-verify: true}
+  - {name: ID 141, server: in1.xiguajiasu.xyz, port: 44001, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: id001.yijiasu.xyz, skip-cert-verify: true}
+  - {name: 🇨🇦 CA 147, server: gnpid1111.ndycom.com, port: 50061, type: trojan, password: 699ceb45-ab95-4838-a534-dd914a936eb4, sni: ca02.fuqiangren.com, skip-cert-verify: true}
+  - {name: 🇰🇷 KR 149, server: in1.xiguajiasu.xyz, port: 45001, type: trojan, password: de8eee7e-5a88-4001-9c46-b42f9e9fd682, sni: kr001.yijiasu.xyz, skip-cert-verify: true}
+  - {name: 🇸🇬 SG 153, server: 128.199.172.224, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇺🇸 US 181, server: 154.26.137.42, port: 44104, type: vmess, uuid: e9933a4c-e56e-458c-bcf4-9cb3875bba55, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 199, server: 139.59.119.143, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: connectwithemployers.online, skip-cert-verify: true}
+  - {name: 🇰🇷 KR 214, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK 259, server: hk166.rmb-usdt.xyz, port: 11445, type: trojan, password: 8278e095-ef80-42b6-aae5-c0a3ea3fc894, skip-cert-verify: true}
+  - {name: 🇭🇰 HK 319, server: gzdata1.fc-smartcloud.xyz, port: 11170, type: trojan, password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE, sni: m.ctrip.com, skip-cert-verify: true}
+  - {name: 🇺🇸 US 398, server: 154.26.153.173, port: 28686, type: vmess, uuid: 6df7d56f-4953-4a10-be2e-a88cc9f94e48, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -47,146 +51,162 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇭🇰 HK 001 | ⬇️ 4.07 MB/s
-      - 🇭🇰 HK 002 | ⬇️ 34.48 MB/s
-      - 🇨🇳 TW 003
-      - 🇨🇳 TW 009 | ⬇️ 1.26 MB/s
-      - 🇰🇷 KR 012
-      - 🇭🇰 HK 023
-      - 🇭🇰 HK 027
-      - 🇸🇬 SG 035
-      - 🇯🇵 JP 044
-      - 🇭🇰 HK 046
-      - 🇰🇷 KR 049
-      - UN 051
-      - 🇩🇪 DE 063
-      - 🇰🇷 KR 064
-      - 🇸🇬 SG 083
-      - 🇸🇬 SG 086
-      - 🇨🇳 TW 092
-      - 🇺🇸 US 102
-      - 🇯🇵 JP 107
-      - 🇭🇰 HK 108
-      - 🇭🇰 HK 122
-      - 🇺🇸 US 123
-      - 🇯🇵 JP 129
-      - 🇭🇰 HK 155
-      - UN 156
-      - 🇺🇸 US 172
-      - 🇺🇸 US 198
-      - 🇭🇰 HK 203
-      - UN 213
-      - 🇸🇬 SG 228
-      - 🇯🇵 JP 283
+      - 🇭🇰 HK 000 | ⬇️ 44.54 MB/s
+      - 🇸🇬 SG 001 | ⬇️ 41.75 MB/s
+      - 🇭🇰 HK 007
+      - 🇰🇷 KR 013 | ⬇️ 31.45 MB/s
+      - 🇲🇾 MY 015
+      - 🇯🇵 JP 020 | ⬇️ 20.64 MB/s
+      - 🇸🇬 SG 023 | ⬇️ 3.19 MB/s
+      - 🇸🇬 SG 027 | ⬇️ 45.45 MB/s
+      - 🇺🇸 US 038 | ⬇️ 6.09 MB/s
+      - 🇸🇬 SG 039
+      - 🇸🇬 SG 040
+      - 🇩🇪 DE 045 | ⬇️ 2.13 MB/s
+      - 🇯🇵 JP 048
+      - 🇺🇸 US 051
+      - 🇸🇬 SG 076
+      - 🇯🇵 JP 083
+      - 🇯🇵 JP 085
+      - 🇭🇰 HK 090
+      - 🇭🇰 HK 101
+      - 🇰🇷 KR 104
+      - 🇸🇬 SG 107
+      - 🇨🇳 TW 109
+      - 🇭🇰 HK 113
+      - 🇺🇸 US 131
+      - 🇨🇳 TW 138
+      - ID 141
+      - 🇨🇦 CA 147
+      - 🇰🇷 KR 149
+      - 🇸🇬 SG 153
+      - 🇺🇸 US 181
+      - 🇸🇬 SG 199
+      - 🇰🇷 KR 214
+      - 🇭🇰 HK 259
+      - 🇭🇰 HK 319
+      - 🇺🇸 US 398
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HK 001 | ⬇️ 4.07 MB/s
-      - 🇭🇰 HK 002 | ⬇️ 34.48 MB/s
-      - 🇨🇳 TW 003
-      - 🇨🇳 TW 009 | ⬇️ 1.26 MB/s
-      - 🇰🇷 KR 012
-      - 🇭🇰 HK 023
-      - 🇭🇰 HK 027
-      - 🇸🇬 SG 035
-      - 🇯🇵 JP 044
-      - 🇭🇰 HK 046
-      - 🇰🇷 KR 049
-      - UN 051
-      - 🇩🇪 DE 063
-      - 🇰🇷 KR 064
-      - 🇸🇬 SG 083
-      - 🇸🇬 SG 086
-      - 🇨🇳 TW 092
-      - 🇺🇸 US 102
-      - 🇯🇵 JP 107
-      - 🇭🇰 HK 108
-      - 🇭🇰 HK 122
-      - 🇺🇸 US 123
-      - 🇯🇵 JP 129
-      - 🇭🇰 HK 155
-      - UN 156
-      - 🇺🇸 US 172
-      - 🇺🇸 US 198
-      - 🇭🇰 HK 203
-      - UN 213
-      - 🇸🇬 SG 228
-      - 🇯🇵 JP 283
+      - 🇭🇰 HK 000 | ⬇️ 44.54 MB/s
+      - 🇸🇬 SG 001 | ⬇️ 41.75 MB/s
+      - 🇭🇰 HK 007
+      - 🇰🇷 KR 013 | ⬇️ 31.45 MB/s
+      - 🇲🇾 MY 015
+      - 🇯🇵 JP 020 | ⬇️ 20.64 MB/s
+      - 🇸🇬 SG 023 | ⬇️ 3.19 MB/s
+      - 🇸🇬 SG 027 | ⬇️ 45.45 MB/s
+      - 🇺🇸 US 038 | ⬇️ 6.09 MB/s
+      - 🇸🇬 SG 039
+      - 🇸🇬 SG 040
+      - 🇩🇪 DE 045 | ⬇️ 2.13 MB/s
+      - 🇯🇵 JP 048
+      - 🇺🇸 US 051
+      - 🇸🇬 SG 076
+      - 🇯🇵 JP 083
+      - 🇯🇵 JP 085
+      - 🇭🇰 HK 090
+      - 🇭🇰 HK 101
+      - 🇰🇷 KR 104
+      - 🇸🇬 SG 107
+      - 🇨🇳 TW 109
+      - 🇭🇰 HK 113
+      - 🇺🇸 US 131
+      - 🇨🇳 TW 138
+      - ID 141
+      - 🇨🇦 CA 147
+      - 🇰🇷 KR 149
+      - 🇸🇬 SG 153
+      - 🇺🇸 US 181
+      - 🇸🇬 SG 199
+      - 🇰🇷 KR 214
+      - 🇭🇰 HK 259
+      - 🇭🇰 HK 319
+      - 🇺🇸 US 398
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HK 001 | ⬇️ 4.07 MB/s
-      - 🇭🇰 HK 002 | ⬇️ 34.48 MB/s
-      - 🇨🇳 TW 003
-      - 🇨🇳 TW 009 | ⬇️ 1.26 MB/s
-      - 🇰🇷 KR 012
-      - 🇭🇰 HK 023
-      - 🇭🇰 HK 027
-      - 🇸🇬 SG 035
-      - 🇯🇵 JP 044
-      - 🇭🇰 HK 046
-      - 🇰🇷 KR 049
-      - UN 051
-      - 🇩🇪 DE 063
-      - 🇰🇷 KR 064
-      - 🇸🇬 SG 083
-      - 🇸🇬 SG 086
-      - 🇨🇳 TW 092
-      - 🇺🇸 US 102
-      - 🇯🇵 JP 107
-      - 🇭🇰 HK 108
-      - 🇭🇰 HK 122
-      - 🇺🇸 US 123
-      - 🇯🇵 JP 129
-      - 🇭🇰 HK 155
-      - UN 156
-      - 🇺🇸 US 172
-      - 🇺🇸 US 198
-      - 🇭🇰 HK 203
-      - UN 213
-      - 🇸🇬 SG 228
-      - 🇯🇵 JP 283
+      - 🇭🇰 HK 000 | ⬇️ 44.54 MB/s
+      - 🇸🇬 SG 001 | ⬇️ 41.75 MB/s
+      - 🇭🇰 HK 007
+      - 🇰🇷 KR 013 | ⬇️ 31.45 MB/s
+      - 🇲🇾 MY 015
+      - 🇯🇵 JP 020 | ⬇️ 20.64 MB/s
+      - 🇸🇬 SG 023 | ⬇️ 3.19 MB/s
+      - 🇸🇬 SG 027 | ⬇️ 45.45 MB/s
+      - 🇺🇸 US 038 | ⬇️ 6.09 MB/s
+      - 🇸🇬 SG 039
+      - 🇸🇬 SG 040
+      - 🇩🇪 DE 045 | ⬇️ 2.13 MB/s
+      - 🇯🇵 JP 048
+      - 🇺🇸 US 051
+      - 🇸🇬 SG 076
+      - 🇯🇵 JP 083
+      - 🇯🇵 JP 085
+      - 🇭🇰 HK 090
+      - 🇭🇰 HK 101
+      - 🇰🇷 KR 104
+      - 🇸🇬 SG 107
+      - 🇨🇳 TW 109
+      - 🇭🇰 HK 113
+      - 🇺🇸 US 131
+      - 🇨🇳 TW 138
+      - ID 141
+      - 🇨🇦 CA 147
+      - 🇰🇷 KR 149
+      - 🇸🇬 SG 153
+      - 🇺🇸 US 181
+      - 🇸🇬 SG 199
+      - 🇰🇷 KR 214
+      - 🇭🇰 HK 259
+      - 🇭🇰 HK 319
+      - 🇺🇸 US 398
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HK 001 | ⬇️ 4.07 MB/s
-      - 🇭🇰 HK 002 | ⬇️ 34.48 MB/s
-      - 🇨🇳 TW 003
-      - 🇨🇳 TW 009 | ⬇️ 1.26 MB/s
-      - 🇰🇷 KR 012
-      - 🇭🇰 HK 023
-      - 🇭🇰 HK 027
-      - 🇸🇬 SG 035
-      - 🇯🇵 JP 044
-      - 🇭🇰 HK 046
-      - 🇰🇷 KR 049
-      - UN 051
-      - 🇩🇪 DE 063
-      - 🇰🇷 KR 064
-      - 🇸🇬 SG 083
-      - 🇸🇬 SG 086
-      - 🇨🇳 TW 092
-      - 🇺🇸 US 102
-      - 🇯🇵 JP 107
-      - 🇭🇰 HK 108
-      - 🇭🇰 HK 122
-      - 🇺🇸 US 123
-      - 🇯🇵 JP 129
-      - 🇭🇰 HK 155
-      - UN 156
-      - 🇺🇸 US 172
-      - 🇺🇸 US 198
-      - 🇭🇰 HK 203
-      - UN 213
-      - 🇸🇬 SG 228
-      - 🇯🇵 JP 283
+      - 🇭🇰 HK 000 | ⬇️ 44.54 MB/s
+      - 🇸🇬 SG 001 | ⬇️ 41.75 MB/s
+      - 🇭🇰 HK 007
+      - 🇰🇷 KR 013 | ⬇️ 31.45 MB/s
+      - 🇲🇾 MY 015
+      - 🇯🇵 JP 020 | ⬇️ 20.64 MB/s
+      - 🇸🇬 SG 023 | ⬇️ 3.19 MB/s
+      - 🇸🇬 SG 027 | ⬇️ 45.45 MB/s
+      - 🇺🇸 US 038 | ⬇️ 6.09 MB/s
+      - 🇸🇬 SG 039
+      - 🇸🇬 SG 040
+      - 🇩🇪 DE 045 | ⬇️ 2.13 MB/s
+      - 🇯🇵 JP 048
+      - 🇺🇸 US 051
+      - 🇸🇬 SG 076
+      - 🇯🇵 JP 083
+      - 🇯🇵 JP 085
+      - 🇭🇰 HK 090
+      - 🇭🇰 HK 101
+      - 🇰🇷 KR 104
+      - 🇸🇬 SG 107
+      - 🇨🇳 TW 109
+      - 🇭🇰 HK 113
+      - 🇺🇸 US 131
+      - 🇨🇳 TW 138
+      - ID 141
+      - 🇨🇦 CA 147
+      - 🇰🇷 KR 149
+      - 🇸🇬 SG 153
+      - 🇺🇸 US 181
+      - 🇸🇬 SG 199
+      - 🇰🇷 KR 214
+      - 🇭🇰 HK 259
+      - 🇭🇰 HK 319
+      - 🇺🇸 US 398
   - name: 🎯 不挂代理
     type: select
     proxies:
