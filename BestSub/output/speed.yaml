@@ -1,221 +1,179 @@
 proxies:
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 000 | ⬇️ 34.66 MB/s"
-      password: 7338d988d71591d76b3f
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45901
-      server: console.01.aliyun.aq.kunlunaqs.com
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 003 | ⬇️ 14.75 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.141.139.23
       type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 20.10 MB/s"
-      password: 6113536135af69e572c6
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45904
-      server: console.01.aliyun.aq.kunlunaqs.com
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG 006 | ⬇️ 7.52 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.236
       type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 27.89 MB/s"
-      password: a643f6f3733c9962851d
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45936
-      server: console.02.aliyun.aq.kunlunaqs.com
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG 008 | ⬇️ 19.86 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.169.188.214
       type: ss
+    - name: "\U0001F1ED\U0001F1F0 HK 017 | ⬇️ 37.52 MB/s"
+      password: 895E3665-16CA-6D6B-EB50-AA2E9DBC13CE
+      port: 11185
+      server: gzdata1.fc-smartcloud.xyz
+      skip-cert-verify: true
+      sni: m.ctrip.com
+      type: trojan
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 28.41 MB/s"
-      password: 7243745919d6de49a5db
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45578
-      server: console.02.aliyun.aq.kunlunaqs.com
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG 018 | ⬇️ 14.52 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.45
       type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EA DE 020 | ⬇️ 5.55 MB/s"
+      port: 36712
+      server: 62.146.233.112
+      tls: false
+      type: vmess
+      uuid: 9266df42-0830-48c2-8509-4c57b30fe29d
+    - client-fingerprint: random
+      name: "\U0001F1F8\U0001F1EC SG 023 | ⬇️ 20.00 MB/s"
+      network: ws
+      port: 12596
+      server: 213.35.108.135
+      servername: ed.sosocn.filegear-sg.me
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
       udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F9\U0001F1FC TW 004 | ⬇️ 26.56 MB/s"
-      password: cfc6f3f75f5ef7b2665c
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45916
-      server: console.03.aliyun.aq.kunlunaqs.com
+      uuid: 85d92bdb-ea03-46a4-af9b-d799f9b212be
+      ws-opts:
+        headers:
+            Host: ed.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 024 | ⬇️ 12.55 MB/s"
+      port: 44104
+      server: 154.26.137.42
+      tls: false
+      type: vmess
+      uuid: e9933a4c-e56e-458c-bcf4-9cb3875bba55
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 027 | ⬇️ 5.43 MB/s"
+      password: a19f4ed0-7de9-4c6c-a722-d7c809af5ff9
+      port: 20211
+      ports: 20201-20299
+      server: jp.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 029 | ⬇️ 5.34 MB/s"
+      password: a19f4ed0-7de9-4c6c-a722-d7c809af5ff9
+      port: 20222
+      ports: 20201-20299
+      server: kr.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG 031 | ⬇️ 5.17 MB/s"
+      password: a19f4ed0-7de9-4c6c-a722-d7c809af5ff9
+      port: 20204
+      ports: 20201-20299
+      server: sg.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 032 | ⬇️ 9.45 MB/s"
+      password: 57c22089-68ee-452d-831e-c4ff00eda668
+      port: 20202
+      ports: 20201-20299
+      server: kr.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EF\U0001F1F5 JP 034 | ⬇️ 5.19 MB/s"
+      password: a19f4ed0-7de9-4c6c-a722-d7c809af5ff9
+      port: 20288
+      ports: 20201-20299
+      server: jp.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 035 | ⬇️ 13.98 MB/s"
+      password: a19f4ed0-7de9-4c6c-a722-d7c809af5ff9
+      port: 20277
+      ports: 20201-20299
+      server: kr.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR 036 | ⬇️ 10.38 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 47.129.51.201
       type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 24.72 MB/s"
-      password: b16cb18d8992f3b83b7d
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45903
-      server: console.01.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 006 | ⬇️ 33.33 MB/s"
-      password: 51f8c7454c93d0d83c29
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45900
-      server: console.01.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F9\U0001F1FC TW 007 | ⬇️ 31.40 MB/s"
-      password: b74518fb49bd645e6ce7
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45915
-      server: console.03.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F9\U0001F1FC TW 008 | ⬇️ 23.47 MB/s"
-      password: b270fd77db2ecb7acbc8
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45914
-      server: console.03.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 009 | ⬇️ 15.12 MB/s"
-      password: 777bc05be0dd624959fb
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45905
-      server: console.03.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 010 | ⬇️ 35.40 MB/s"
-      password: 0a74c9e4565e935cf1ac
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45902
-      server: console.01.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F8\U0001F1EC SG 011 | ⬇️ 24.72 MB/s"
-      password: 0722bd4137ff579e6917
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45579
-      server: console.03.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F5\U0001F1ED PH 012 | ⬇️ 6.88 MB/s"
-      password: 22046a35aa74890b48f5
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45574
-      server: console.03.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1FB\U0001F1F3 VN 013 | ⬇️ 14.33 MB/s"
-      password: 3e79196cf9e970671245
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45931
-      server: console.03.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 014 | ⬇️ 21.98 MB/s"
-      password: 97b53b570db0917935e0
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45939
-      server: console.02.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 015 | ⬇️ 19.46 MB/s"
-      password: 6014caa3a323920c7fd0
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45581
-      server: console.02.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 016 | ⬇️ 19.82 MB/s"
-      password: 97998add7bf4fea885ef
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45912
-      server: console.02.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 017 | ⬇️ 19.61 MB/s"
-      password: c8960ca4a0add435fc34
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45913
-      server: console.02.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 018 | ⬇️ 16.62 MB/s"
-      password: 69dc0306f1bfb1af49a5
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45911
-      server: console.02.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F2\U0001F1FE MY 019 | ⬇️ 15.27 MB/s"
-      password: fe51727afe2fca582ebf
-      plugin: obfs
-      plugin-opts:
-        host: 215996dd9f1c3db1e54b.microsoft.com
-        mode: http
-      port: 45576
-      server: console.03.aliyun.aq.kunlunaqs.com
-      type: ss
-      udp: true
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 037 | ⬇️ 6.04 MB/s"
+      password: 7483282c-4a13-49f1-8758-820cb1707033
+      port: 20216
+      ports: 20201-20299
+      server: kr.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 039 | ⬇️ 7.76 MB/s"
+      password: 7483282c-4a13-49f1-8758-820cb1707033
+      port: 20240
+      ports: 20201-20299
+      server: kr.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 041 | ⬇️ 5.30 MB/s"
+      password: 57c22089-68ee-452d-831e-c4ff00eda668
+      port: 20242
+      ports: 20201-20299
+      server: kr.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 043 | ⬇️ 6.53 MB/s"
+      password: a19f4ed0-7de9-4c6c-a722-d7c809af5ff9
+      port: 20223
+      ports: 20201-20299
+      server: kr.xn--mes91t7ofgnw.com
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EA DE 050 | ⬇️ 5.22 MB/s"
+      port: 50678
+      server: 62.146.233.53
+      tls: false
+      type: vmess
+      uuid: 5d1ec6e7-fd58-4e85-91c5-6335a86d2775
