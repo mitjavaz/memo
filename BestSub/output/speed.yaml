@@ -1,5 +1,30 @@
 proxies:
-    - name: "\U0001F1ED\U0001F1F0 HK 045 | ⬇️ 20.08 MB/s"
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 10.62 MB/s"
+      password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+      port: 19240
+      server: ss.miloli.cc
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0 HK 031 | ⬇️ 10.49 MB/s"
+      password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+      port: 21115
+      server: okanc.node-is.green
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR 073 | ⬇️ 15.74 MB/s"
+      password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1
+      port: 19552
+      server: nc.ct.xiaomi-api.xyz
+      skip-cert-verify: true
+      type: trojan
+    - cipher: aes-256-gcm
+      name: "\U0001F1EF\U0001F1F5 JP 080 | ⬇️ 5.00 MB/s"
+      password: 5941dd2a-0e68-46a1-8d32-fa92344b2614
+      port: 52773
+      server: jsyd.piaomiaoxu.net
+      type: ss
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0 HK 101 | ⬇️ 6.19 MB/s"
       password: e47af2c3-5500-4dea-a4ae-6f0ea48c2e73
       port: 19512
       server: nc.ct.xiaomi-api.xyz
@@ -7,35 +32,9 @@ proxies:
       type: trojan
       udp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 048 | ⬇️ 8.74 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 111 | ⬇️ 8.58 MB/s"
       password: 887306f3-af8c-472e-b6e0-e7dcf970a4f0
       port: 34713
       server: jsyd.piaomiaoxu.net
       type: ss
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1ED TH 067 | ⬇️ 17.61 MB/s"
-      network: tcp
-      port: 18139
-      server: v2-tgzz.netcar.live
-      servername: ""
-      tls: false
-      type: vmess
-      uuid: 76f19582-5c4b-49c6-a023-0f7c9e3c807a
-    - name: "\U0001F1F0\U0001F1F7 KR 134 | ⬇️ 10.45 MB/s"
-      password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1
-      port: 19552
-      server: nc.ct.xiaomi-api.xyz
-      skip-cert-verify: true
-      type: trojan
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC TW 169 | ⬇️ 7.81 MB/s"
-      port: 57004
-      server: v2-twzz.netcar.live
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 576fc2ae-5820-4212-8ee8-2856586a0be4
