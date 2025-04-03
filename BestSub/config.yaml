@@ -14,6 +14,10 @@ check:
   concurrent: 20
   # 检查间隔,单位分钟
   interval: 10
+  # 测试节点存活的url 默认 https://gstatic.com/generate_204
+  alive-test-url: https://gstatic.com/generate_204
+  # 判断节点存活的状态码 默认 204
+  alive-test-expect-code: 204
   # 超时时间 单位毫秒
   timeout: 2000
   # 最低测速 单位KB/s
@@ -72,9 +76,7 @@ sub-urls:
   - https://as.al/raw/zztbfX
   - https://sdk.bhqt.fun:443
   - https://bf4ede2b.cf-workers-sub-69z.pages.dev/sub?token=5528764ad2c6eeddb50d9dacb529d0f5&b64
-  - https://cyberguard.cfd/api/v1/client/subscribe?token=6cbebedaf0f060f5cfef3f432349d840
   - https://msub.fengchiyx.xyz/api/v1/client/subscribe?token=34ff9012ec68f9c521fc559a83146eba
-  - https://v2.ixlmo.net/api/v1/client/subscribe?token=89e25c014a55189f4bc4228de9d085bc
   - https://wub.zongyunti.site/api/v1/client/subscribe?token=34c21a865a0395ad161e749ac7048fd6#/这个有重置一个月之后等等看有没有流量
   - https://wub.zongyunti.site/api/v1/client/subscribe?token=34c21a865a0395ad161e749ac7048fd6
   - https://33147899awhlop6658.hssl8088.icu/api/v1/client/subscribe?token=429d43b26c6ac9fad5ef88c2f7f2df2d
@@ -96,7 +98,6 @@ sub-urls:
   - https://need01.keepprofit.top/api/v1/client/subscribe?token=1a1e29e85e4c35cd48329906a6c33595#/有2x，速度8.5mb/s，带宽69mbps
   - https://need01.keepprofit.top/api/v1/client/subscribe?token=1a1e29e85e4c35cd48329906a6c33595#/有2x
   - https://www.otcopusapp.cc/lx3af288h5i8pz380/api/v1/client/subscribe?token=bffd3c2732aa304ee380a012cbcfff40
-  - https://app.mitce.com/?sid=243809&token=srvexrkz
   - http://nuxyun.v2rayflash.top/api/v1/client/subscribe?token=38b5d270f053b5ca4b754b6cfee6ae9e#/用光自动补满，使劲刷
   - https://www.flyintpro05.com/api/v1/client/subscribe?token=62be89e4bc828cdfd0c62bfb44746312
   - https://202502181121431.chibaba.ggff.net/api/v1/client/subscribe?token=b5756287f05633d9068afb2a9fe375ba
