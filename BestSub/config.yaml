@@ -2,7 +2,7 @@
 print-progress: true
 
 # 可选值 debug info warn error
-log-level: info
+log-level: debug
 
 # 重命名方法 api 或 regex 或 mix
 rename:
@@ -21,11 +21,11 @@ check:
   # 超时时间 单位毫秒
   timeout: 2000
   # 最低测速 单位KB/s
-  min-speed: 5120
+  min-speed: 4096
   # 下载测试超时时间 单位秒
-  download-timeout: 4
+  download-timeout: 5
   # 测速下载大小 单位MB
-  download-size: 30
+  download-size: 50
   # 测速地址
   speed-test-url:
     - https://speed.cloudflare.com/__down?bytes=1073741824
@@ -35,7 +35,7 @@ check:
   # 测速并发
   speed-check-concurrent: 2
   # 测速数量
-  speed-count: 12
+  speed-count: 20
   # 测速保存
   speed-save: true
   # 检查项目
@@ -73,6 +73,25 @@ sub-urls:
   # - 
   # - 
   # - 
+  - https://202503212313501.chibaba.ggff.net/api/v1/client/subscribe?token=eee1b58c52d8e656bc6b729a182cf49b
+  - https://link08.shanhai.one/api/v1/client/subscribe?token=8d4c465fd37cb8db170036cf00be9dbc
+  - https://dfjc.xyz/api/doufu?token=56ee787cd95f50e53b26297c66b4eb55#/限制五设备连接
+  - https://dfjc.xyz/api/doufu?token=acdc8fd7a43727080dc296e1c91408dd
+  - https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=e101ea5404cd408f9adf315cdae1a0ae
+  - https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=4tybqnqdxhjru61tgweaaon3g1jkchcw
+  - https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=78417d9e1d85fd5d549ad0a793f7ec0d
+  - https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=34d11ec3a9e59c1d7175ff81491dc9d3
+  - https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=d3e26ac9e05fcbad07588ac6b56a8fb6
+  - https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=5fb92930afb9aface8fdbaa1979468e1
+  - https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=4f5f02e5ea784717b38957be76b76395
+  - https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=e249dca036235a1b0f40df1e50c5f9bf
+  - https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=b061afd17bfab58406d2a80bcc133250
+  - https://sub2.smallstrawberry.com/api/v1/client/subscribe?token=1a139cab9caf4839af669ebf119db1df
+  - https://app.jisuba.live/s/1981e8cdc2e36df838306afe082cee39
+  - https://app.jisuba.live/s/1f8cc339e262ef7f03c0e20ef4f8651b
+  - https://bailian.uk/s/3a84daf952a7733c20da2882c5abd39d
+  - https://202503212313501.chibaba.ggff.net/api/v1/client/subscribe?token=eee1b58c52d8e656bc6b729a182cf49b
+  - https://vpn.28.al/s/4920d17bc5f6cda30a465d597cbd1d21
   - https://app.jisuba.live/s/1f8cc339e262ef7f03c0e20ef4f8651b
   - https://app.jisuba.live/s/1981e8cdc2e36df838306afe082cee39
   - https://app.mitce.com/?sid=242129&token=aab38c11b3193abf1b84
