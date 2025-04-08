@@ -5,171 +5,86 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HK 003 | ⬇️ 53.36 MB/s, server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27103, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 004 | ⬇️ 45.00 MB/s, server: 34.150.50.204, port: 26526, type: vmess, uuid: 0e701ef6-5265-4f5f-ddbb-81b1b6e6a481, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK 011 | ⬇️ 42.37 MB/s, server: 156.224.76.179, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: 691c7e6d-edf1-4095-9ff2-444b19821916}
-  - {name: 🇭🇰 HK 013, server: 103.141.221.200, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456}
-  - {name: 🇭🇰 HK 018 | ⬇️ 37.99 MB/s, server: 156.224.76.179, port: 21031, type: vmess, uuid: 691c7e6d-edf1-4095-9ff2-444b19821916, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: TH 022 | ⬇️ 16.52 MB/s, server: gz.pddwdf.store, port: 51881, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
-  - {name: 🇭🇰 HK 029 | ⬇️ 34.53 MB/s, server: aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 10465, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 035, server: 156.224.76.179, port: 21033, type: vmess, uuid: 691c7e6d-edf1-4095-9ff2-444b19821916, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 HK 036, server: 156.224.76.179, port: 21032, type: vmess, uuid: 691c7e6d-edf1-4095-9ff2-444b19821916, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 HK 038, server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27102, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇩🇪 DE 044, server: 62.146.232.153, port: 53144, type: vmess, uuid: 13e13a3e-e981-4eea-a9fc-13e50628fd9b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK 047, server: vt-bana2-cn-17.ghpgwqswodgzv.com, port: 40021, type: trojan, password: 65520a7d-aba1-401e-b9d1-1c09050811bd, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 055, server: 154.197.64.240, port: 8443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US 062, server: 172.67.135.62, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: hknbyivfffj.site}}}
-  - {name: 🇳🇱 NL 064, server: 154.197.64.189, port: 2087, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇭🇰 HK 071, server: 35.215.182.145, port: 5033, type: vmess, uuid: ada4fa27-fe3d-4b92-9c39-f733d8508ec4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW 072, server: 188.164.159.74, port: 8443, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 076, server: 103.116.7.189, port: 443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 078, server: 5.182.85.189, port: 2096, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇸🇬 SG 081, server: 68.183.227.45, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇳🇱 NL 082, server: 213.241.198.56, port: 2083, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇨🇳 TW 083, server: 167.68.5.85, port: 2053, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 US 084, server: 209.94.90.64, port: 443, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇸🇬 SG 086, server: 185.225.20.17, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: d9b65363-3076-47c9-8925-010251977240}
-  - {name: 🇨🇳 TW 087, server: 104.16.83.43, port: 443, type: trojan, password: Ng35283528, sni: c2.validbv3528.eu.org, skip-cert-verify: true}
-  - {name: 🇸🇬 SG 090, server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇭🇰 HK 091, server: 104.21.6.201, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: hknbyivfffj.site}}}
-  - {name: 🇳🇱 NL 092, server: 5.182.84.120, port: 443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇨🇳 TW 094, server: 188.164.159.107, port: 2096, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 US 097, server: 108.165.152.67, port: 2053, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇸🇬 SG 100, server: 154.26.137.42, port: 44104, type: vmess, uuid: e9933a4c-e56e-458c-bcf4-9cb3875bba55, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK 102, server: hk194.rmb-usdt.xyz, port: 6444, type: trojan, password: 8278e095-ef80-42b6-aae5-c0a3ea3fc894, skip-cert-verify: true}
-  - {name: 🇺🇸 US 104, server: www.visa.com.tw, port: 443, type: vmess, uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.insbot.filegear-sg.me}}}
-  - {name: 🇸🇬 SG 105, server: b40ea8cd-sumqo0-tbfl8f-xcf.c.volczijie.com, port: 3681, type: vmess, uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 NL 106, server: 66.81.247.230, port: 2096, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 RU 108, server: 92.243.74.239, port: 8443, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇳🇱 NL 109, server: 5.182.84.66, port: 2083, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇸🇬 SG 110, server: jsyd.piaomiaoxu.net, port: 11876, type: ss, cipher: aes-256-gcm, password: 0015c812-3e9f-4016-9c45-892366c077d9}
-  - {name: 🇸🇬 SG 113, server: 27.50.49.188, port: 2096, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 TW 115, server: aafrtpfxr.twl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27201, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇸🇬 SG 116, server: aafrtpfxr.sgl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27401, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇷🇺 RU 120, server: 176.124.223.50, port: 8443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US 122, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US 123, server: 103.116.7.103, port: 2083, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: false}
-  - {name: 🇸🇬 SG 124, server: 58acaca7-sumqo0-tbfl8f-xcf.b.fosant.com, port: 3683, type: vmess, uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US 125, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇳🇱 NL 127, server: 27.50.49.179, port: 2096, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇸🇬 SG 132, server: 62.146.232.159, port: 14372, type: vmess, uuid: ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US 133, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇯🇵 JP 134, server: 20.78.127.141, port: 550, type: vmess, uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG 141, server: b40ea8cd-sumqo0-tbfl8f-xcf.c.volczijie.com, port: 4137, type: vmess, uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 RU 142, server: 5.182.85.255, port: 2096, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇸🇬 SG 144, server: 62.146.233.53, port: 50678, type: vmess, uuid: 5d1ec6e7-fd58-4e85-91c5-6335a86d2775, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW 148, server: 199.34.228.143, port: 2096, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 RU 149, server: 77.232.140.101, port: 2053, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇳🇱 NL 150, server: 154.211.8.12, port: 2096, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 US 151, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: hknbyivfffj.site}}}
-  - {name: 🇸🇬 SG 153, server: 139.59.119.143, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: connectwithemployers.online, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 154, server: 167.68.5.248, port: 2087, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇯🇵 JP 155, server: aafrtpfxr.jpl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 22271, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 156, server: gz.pddwdf.store, port: 47431, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
-  - {name: 🇲🇾 MY 157, server: 101.99.91.234, port: 36700, type: vmess, uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d, alterId: 0, cipher: auto, tls: false}
-  - {name: TH 158, server: aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43395, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 159, server: aafrtpfxr.jpl04i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 22269, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇨🇳 TW 164, server: 135.84.64.77, port: 2096, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 RU 165, server: 46.254.92.191, port: 443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇳🇱 NL 169, server: 135.84.64.36, port: 2083, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 US 170, server: 154.26.129.247, port: 57143, type: vmess, uuid: 28efbf36-079a-4c98-8470-d13458db6ee6, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP 171, server: aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27002, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇺🇸 US 173, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW 174, server: 64dfeb34-sumqo0-tbfl8f-xcf.a.fosant.com, port: 3687, type: vmess, uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP 177, server: b40ea8cd-sumqo0-tbfl8f-xcf.c.volczijie.com, port: 4151, type: vmess, uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG 179, server: a.ziqiu1060.ggff.net, port: 43050, type: vmess, uuid: 28ca0567-754e-46fc-e774-b19c787975f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dsfsdf, headers: {Host: a.ziqiu1060.ggff.net}}}
-  - {name: 🇸🇬 SG 182, server: 62.146.232.156, port: 33281, type: vmess, uuid: 24eda0ea-acf0-4538-a001-f746a480237a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP 183, server: powerful-grackle.shiner427.skin, port: 443, type: trojan, password: !<str> 74260700211203800, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 184, server: 87ae6a67-sumqo0-tbfl8f-xcf.d.volczijie.com, port: 3684, type: vmess, uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG 186, server: 109.123.232.74, port: 59032, type: vmess, uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 IN 196, server: 98.70.49.107, port: 42473, type: vmess, uuid: 63b5b76d-93f4-4568-a764-c4b967472960, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 IN 200, server: 94.136.184.155, port: 39253, type: vmess, uuid: 69b49a35-cf55-4d14-9f2b-d7ce3a0db72e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR 201, server: aafrtpfxr.krl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 46668, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇭🇰 HK 002 | ⬇️ 17.44 MB/s, server: 34.150.50.204, port: 26526, type: vmess, uuid: 0e701ef6-5265-4f5f-ddbb-81b1b6e6a481, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK 008 | ⬇️ 15.50 MB/s, server: jsyd.piaomiaoxu.net, port: 43159, type: ss, cipher: aes-256-gcm, password: 998ed490-64b0-40ea-891f-ec23832fd6b8}
+  - {name: 🇮🇳 IN 017 | ⬇️ 11.96 MB/s, server: gz.pddwdf.store, port: 22327, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
+  - {name: 🇨🇳 TW 024, server: gz.pddwdf.store, port: 14867, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
+  - {name: 🇭🇰 HK 032 | ⬇️ 37.68 MB/s, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇨🇳 TW 036, server: gz.pddwdf.store, port: 50971, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
+  - {name: PH 037, server: sh.pddwdf.store, port: 38733, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
+  - {name: 🇭🇰 HK 041, server: 104.21.6.201, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: hknbyivfffj.site}}}
+  - {name: 🇨🇳 TW 043, server: 104.16.83.43, port: 443, type: trojan, password: Ng35283528, sni: c2.validbv3528.eu.org, skip-cert-verify: true}
+  - {name: 🇸🇬 SG 050, server: 18.142.181.4, port: 25612, type: ss, cipher: aes-256-cfb, password: 25612qazwsx}
+  - {name: 🇸🇬 SG 051, server: 68.183.227.45, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
+  - {name: 🇨🇳 CN 065, server: 183.236.51.38, port: 37802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 067, server: 46.137.233.112, port: 80, type: ss, cipher: aes-256-cfb, password: wiaimihu22}
+  - {name: 🇸🇬 SG 070, server: 154.26.137.42, port: 44104, type: vmess, uuid: e9933a4c-e56e-458c-bcf4-9cb3875bba55, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 073, server: 62.146.232.157, port: 52856, type: vmess, uuid: ed54e388-bfc5-4b36-ae4d-8b3cd460d3d4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 077, server: aafrtpfxr.sgl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27401, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇭🇰 HK 079, server: hk194.rmb-usdt.xyz, port: 6444, type: trojan, password: 8278e095-ef80-42b6-aae5-c0a3ea3fc894, skip-cert-verify: true}
+  - {name: 🇺🇸 US 080, server: 103.116.7.103, port: 2083, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: false}
+  - {name: 🇺🇸 US 081, server: www.visa.com.tw, port: 443, type: vmess, uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /aa, headers: {Host: hk.insbot.filegear-sg.me}}}
+  - {name: 🇸🇬 SG 082, server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 42881, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇸🇬 SG 083, server: 13.212.241.11, port: 80, type: ss, cipher: aes-256-cfb, password: wiaimihu22}
+  - {name: 🇯🇵 JP 084, server: 20.78.127.141, port: 550, type: vmess, uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US 099, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇸🇬 SG 100, server: 47.129.152.154, port: 80, type: ss, cipher: aes-256-cfb, password: wiaimihu22}
+  - {name: 🇺🇸 US 104, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇯🇵 JP 106, server: gz.pddwdf.store, port: 47431, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
+  - {name: 🇺🇸 US 109, server: 172.67.135.62, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /rbqqvws, headers: {Host: hknbyivfffj.site}}}
+  - {name: 🇭🇰 HK 110, server: aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 10465, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇯🇵 JP 121, server: aafrtpfxr.jpl04i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 22269, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇸🇬 SG 122, server: jsyd.piaomiaoxu.net, port: 11876, type: ss, cipher: aes-256-gcm, password: 0015c812-3e9f-4016-9c45-892366c077d9}
+  - {name: 🇯🇵 JP 133, server: aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27002, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇲🇾 MY 134, server: 101.99.91.234, port: 36700, type: vmess, uuid: 127ff43c-1851-4b2d-ba8c-6afba21ec04d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 137, server: 109.123.232.74, port: 59032, type: vmess, uuid: 96ab7e1f-bf0d-45cd-8ebc-c8be2f8d43cd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 KR 138, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP 140, server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27001, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇰🇷 KR 142, server: aafrtpfxr.krl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 46668, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: TH 144, server: aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43395, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇸🇬 SG 159, server: 47.129.246.155, port: 25612, type: ss, cipher: aes-256-cfb, password: 25612qazwsx}
+  - {name: 🇲🇾 MY 171, server: aafrtpfxr.myl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43393, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇸🇬 SG 177, server: 62.146.232.159, port: 14372, type: vmess, uuid: ed1d7ea8-bf40-4a4a-8eac-8e57798ba6f7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK 178, server: 35.215.182.145, port: 5033, type: vmess, uuid: ada4fa27-fe3d-4b92-9c39-f733d8508ec4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 181, server: a.ziqiu1060.ggff.net, port: 43050, type: vmess, uuid: 28ca0567-754e-46fc-e774-b19c787975f7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dsfsdf, headers: {Host: a.ziqiu1060.ggff.net}}}
+  - {name: 🇰🇷 KR 199, server: kr3.ttcc.tech, port: 443, type: vmess, uuid: b2d10673-24cc-4f96-b1f3-da8b17589077, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: kr3.ttcc.tech}}}
   - {name: 🇸🇬 SG 204, server: a.886968.xyz, port: 21369, type: vmess, uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /wfdef, headers: {Host: a.886968.xyz}}}
-  - {name: 🇨🇳 TW 206, server: 45.207.157.70, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 921ee115-d40f-4151-9535-b4e37511f944}
-  - {name: 🇸🇬 SG 212, server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 42881, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇳🇱 NL 219, server: 162.120.94.23, port: 2087, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇲🇾 MY 221, server: aafrtpfxr.myl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43393, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇳🇱 NL 222, server: 188.164.159.91, port: 2083, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 223, server: 108.165.152.202, port: 2083, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 US 224, server: 188.164.159.25, port: 2053, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇸🇬 SG 227, server: 13.250.14.76, port: 443, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US 234, server: 108.165.152.82, port: 8443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US 239, server: 108.165.152.131, port: 443, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 TW 240, server: 50.114.55.125, port: 40078, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 US 244, server: 216.24.57.1, port: 2053, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 247, server: daring-gobbler.shiner427.skin, port: 443, type: trojan, password: !<str> 74260700211203800, sni: daring-gobbler.shiner427.skin, skip-cert-verify: false}
-  - {name: 🇯🇵 JP 250, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 16507, type: vmess, uuid: 90332065-6f2b-4fb4-a9d8-68c6a079c114, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /login, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}}
-  - {name: 🇳🇱 NL 257, server: 198.62.62.61, port: 2083, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 US 258, server: 188.164.159.175, port: 8443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR 262, server: nc.ct.xiaomi-api.xyz, port: 19552, type: trojan, password: e47af2c3-5500-4dea-a4ae-6f0ea48c2e73, skip-cert-verify: true}
-  - {name: 🇭🇰 HK 263, server: aka.beetech.cloudns.biz, port: 17016, type: vmess, uuid: a0a42827-ebd0-4347-8536-94a626545a21, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /a0a42827, headers: {Host: aka.beetech.cloudns.biz}}}
-  - {name: 🇰🇷 KR 270, server: 146.56.112.110, port: 8888, type: vmess, uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US 272, server: 108.165.152.59, port: 2087, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇳🇱 NL 273, server: 154.197.64.248, port: 8443, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇺🇸 US 280, server: 154.26.153.161, port: 21759, type: vmess, uuid: e5f16fad-f9c3-452b-8e71-bc9504e29fc9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US 281, server: 154.26.153.173, port: 28686, type: vmess, uuid: 6df7d56f-4953-4a10-be2e-a88cc9f94e48, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 RU 282, server: 77.232.140.114, port: 2053, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR 283, server: nc.cm.xiaomi-api.xyz, port: 19552, type: trojan, password: 9b531eaa-ec0e-4c28-81db-9e08a110d4b1, skip-cert-verify: true}
-  - {name: 🇨🇳 TW 284, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇦🇺 AU 287, server: gz.pddwdf.store, port: 15783, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
-  - {name: 🇺🇸 US 290, server: quiz.int.vidio.com, port: 443, type: vmess, uuid: 9c7c7039-a5f1-47b2-9225-cbb5bf03b9e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: serv1.idks1.web.id}}}
-  - {name: 🇨🇳 TW 292, server: 108.165.152.80, port: 2083, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 293, server: 46.254.93.52, port: 8443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇸🇬 SG 294, server: gz.pddwdf.store, port: 20692, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
-  - {name: 🇳🇱 NL 305, server: 213.109.205.45, port: 443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 313, server: 46.254.93.251, port: 2087, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 315, server: 161.145.150.26, port: 2087, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 317, server: 188.164.159.220, port: 2083, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 RU 318, server: 45.67.214.41, port: 2083, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR 325, server: www.speedtest.net, port: 443, type: vmess, uuid: b2d10673-24cc-4f96-b1f3-da8b17589077, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kr3.ttcc.tech/, headers: {Host: admin.kasrax.ir}}}
-  - {name: 🇸🇬 SG 333, server: 62.146.232.157, port: 52856, type: vmess, uuid: ed54e388-bfc5-4b36-ae4d-8b3cd460d3d4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 DE 335, server: 94.136.184.156, port: 38872, type: vmess, uuid: 220732cc-9e43-4453-83f1-c9435be25b5b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR 337, server: lbso.bnnodeservice.com, port: 32005, type: trojan, password: aa9d9150-ecc1-4110-8817-272836e69c37, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 356, server: 154.211.8.155, port: 443, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇲🇾 MY 357, server: aafrtpfxr.myl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43383, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇳🇱 NL 368, server: 31.43.179.60, port: 2053, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇷🇺 RU 370, server: 213.241.198.189, port: 2053, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US 393, server: 135.84.74.27, port: 8443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇺🇸 US 402, server: 188.164.159.55, port: 2096, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 TW 403, server: 199.34.228.191, port: 2096, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇸🇬 SG 406, server: 128.199.172.224, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6}
-  - {name: 🇳🇱 NL 411, server: 154.211.8.90, port: 443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: MX 416, server: 79.127.229.54, port: 18000, type: vmess, uuid: fa1897db-1925-4c86-a495-939a959af900, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW 424, server: 188.164.159.171, port: 443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 430, server: 199.34.228.71, port: 8443, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇯🇵 JP 435, server: possible-tiger.shiner427.skin, port: 443, type: trojan, password: !<str> 74260700211203800, skip-cert-verify: false}
-  - {name: 🇺🇸 US 436, server: arvind.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇨🇳 TW 447, server: 108.165.152.92, port: 2053, type: trojan, password: Aimer, sni: epcce.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇰🇷 KR 453, server: 121.175.42.160, port: 32443, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: PH 454, server: aafrtpfxr.phl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27408, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: ID 456, server: 103.67.79.157, port: 45365, type: vmess, uuid: 7d2a4e66-152c-49f5-9ff5-c19a836e8c89, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US 458, server: 108.165.152.78, port: 2083, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR 475, server: 211.196.12.95, port: 12344, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇦🇺 AU 482, server: aafrtpfxr.aul01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 34017, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 500, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇸🇬 SG 505, server: visa.org, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sgfqkqmltcy.site/rbqqvws, headers: {Host: join---bede.mosiv2-com.workers.dev}}}
-  - {name: 🇯🇵 JP 509, server: jsyd.piaomiaoxu.net, port: 52773, type: ss, cipher: aes-256-gcm, password: ccb81afe-2a3f-4fb6-8a00-9e143160b44b}
-  - {name: 🇨🇦 CA 545, server: 23.162.200.91, port: 20182, type: vmess, uuid: cc9b66b7-1de7-4aa9-9642-575a8ae3ff19, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW 553, server: 46.254.93.134, port: 2087, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇳🇱 NL 566, server: 46.254.92.201, port: 2053, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: true}
-  - {name: 🇯🇵 JP 568, server: 175.215.154.208, port: 11184, type: vmess, uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oracle2ipv4.till.nyc.mn}}}
-  - {name: 🇨🇳 TW 606, server: 58acaca7-sumqo0-tbfl8f-xcf.b.fosant.com, port: 3690, type: vmess, uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3, alterId: 0, cipher: auto, tls: false}
-  - {name: ID 617, server: aafrtpfxr.idl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43394, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇺🇸 US 623, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XsDDBBSiY18qHD9CcomK5T}
-  - {name: 🇰🇷 KR 624, server: default.kr.aws.ddns.ad.989567.xyz, port: 10147, type: vmess, uuid: 3abba319-bdd1-4e69-b474-94752630b4fa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /login, headers: {Host: default.kr.aws.ddns.ad.989567.xyz}}}
-  - {name: 🇰🇷 KR 654, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇸🇬 SG 685, server: sg.lyyyds.club, port: 443, type: trojan, password: 86920f59-7e5e-4272-abec-271bb931121c, sni: sg.lyyyds.club, skip-cert-verify: false}
-  - {name: PK 688, server: aafrtpfxr.pkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 42883, type: trojan, password: f599a3a5-a5aa-42c8-9360-d623efb8675d, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
-  - {name: 🇰🇷 KR 689, server: 222.97.135.19, port: 21242, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR 691, server: 221.165.64.92, port: 50000, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇭🇰 HK 692, server: eeimg.common-buy-intl.aliyun.com-alipay.site, port: 34367, type: ssr, cipher: chacha20, password: 6QmZaM, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: a.tencdn.tk}
-  - {name: 🇨🇦 CA 716, server: bluecollarwork.online, port: 443, type: trojan, password: 4aec4e7f8cf8454ea4613659822e1a61, skip-cert-verify: true}
-  - {name: 🇰🇷 KR 749, server: kr3.ttcc.tech, port: 443, type: vmess, uuid: b2d10673-24cc-4f96-b1f3-da8b17589077, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: kr3.ttcc.tech}}}
-  - {name: 🇺🇸 US 786, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws}}
-  - {name: 🇰🇷 KR 885, server: 175.196.105.220, port: 12209, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR 890, server: 112.160.54.82, port: 21316, type: trojan, password: Aimer, sni: epccw.ambercc.filegear-sg.me, skip-cert-verify: false}
-  - {name: 🇰🇷 KR 944, server: 183.102.173.114, port: 10032, type: trojan, password: Aimer, sni: epccq.ambercc.filegear-sg.me, skip-cert-verify: false}
+  - {name: 🇯🇵 JP 217, server: default.jp.alibaba.ddns.ad.989567.xyz, port: 16507, type: vmess, uuid: 90332065-6f2b-4fb4-a9d8-68c6a079c114, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /login, headers: {Host: default.jp.alibaba.ddns.ad.989567.xyz}}}
+  - {name: 🇺🇸 US 220, server: quiz.int.vidio.com, port: 443, type: vmess, uuid: 9c7c7039-a5f1-47b2-9225-cbb5bf03b9e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: serv1.idks1.web.id}}}
+  - {name: 🇺🇸 US 225, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇦🇺 AU 226, server: gz.pddwdf.store, port: 15783, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
+  - {name: 🇺🇸 US 244, server: 154.26.153.161, port: 21759, type: vmess, uuid: e5f16fad-f9c3-452b-8e71-bc9504e29fc9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US 266, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
+  - {name: ID 270, server: 103.67.79.157, port: 45365, type: vmess, uuid: 7d2a4e66-152c-49f5-9ff5-c19a836e8c89, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 KR 272, server: default.kr.aws.ddns.ad.989567.xyz, port: 10147, type: vmess, uuid: 3abba319-bdd1-4e69-b474-94752630b4fa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /login, headers: {Host: default.kr.aws.ddns.ad.989567.xyz}}}
+  - {name: 🇭🇰 HK 279, server: 154.90.63.193, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇮🇳 IN 296, server: 94.136.184.155, port: 39253, type: vmess, uuid: 69b49a35-cf55-4d14-9f2b-d7ce3a0db72e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 CA 298, server: 38.111.114.153, port: 14812, type: vmess, uuid: 0146fc40-5962-4e9a-b36a-2b606d001467, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK 300, server: aka.beetech.cloudns.biz, port: 17016, type: vmess, uuid: a0a42827-ebd0-4347-8536-94a626545a21, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /a0a42827, headers: {Host: aka.beetech.cloudns.biz}}}
+  - {name: 🇭🇰 HK 306, server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27102, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇭🇰 HK 315, server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27103, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇬🇧 GB 316, server: www.hk-jd.top, port: 10021, type: trojan, password: b19c4375-d847-4c40-9824-4767c88b5f38, sni: www.hk-jd.top, skip-cert-verify: false}
+  - {name: 🇰🇷 KR 325, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 US 332, server: 154.26.129.247, port: 57143, type: vmess, uuid: 28efbf36-079a-4c98-8470-d13458db6ee6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 CA 376, server: 67.220.94.196, port: 47941, type: vmess, uuid: 4be44180-25f9-452f-ab6b-be0758cef2b6, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 382, server: visa.org, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sgfqkqmltcy.site/rbqqvws, headers: {Host: join---bede.mosiv2-com.workers.dev}}}
+  - {name: 🇬🇧 GB 396, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: psnRQvevtsLQguTBXDjAu2}
+  - {name: 🇬🇧 GB 406, server: media.mothyleela.cfd, port: 40521, type: ss, cipher: chacha20-ietf-poly1305, password: Z94FoM1xpW3CJzixME8CjJEFBiCFhKSWfLzT6E92Pjh7y73YfNrwPju46Gd4HE85eXSjNiTtiAYc6WTskuhxZZFebd4rcXfp}
+  - {name: 🇰🇷 KR 420, server: www.speedtest.net, port: 443, type: vmess, uuid: b2d10673-24cc-4f96-b1f3-da8b17589077, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kr3.ttcc.tech/, headers: {Host: admin.kasrax.ir}}}
+  - {name: 🇰🇷 KR 436, server: xyz.lscqs.cloudns.biz, port: 443, type: vmess, uuid: 4fb038f1-48ff-41f8-9917-3bc0096b908b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xyz.lscqs.cloudns.biz}}}
+  - {name: PH 456, server: aafrtpfxr.phl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27408, type: trojan, password: 29dbf514-0d0f-48a7-9438-0b21111c37cc, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇺🇸 US 488, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇸🇬 SG 521, server: 62.146.232.152, port: 33064, type: vmess, uuid: 942d56e4-cf72-4a7a-a87c-f555a270d79a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 CA 559, server: bluecollarwork.online, port: 443, type: trojan, password: 4aec4e7f8cf8454ea4613659822e1a61, skip-cert-verify: true}
+  - {name: 🇮🇳 IN 563, server: 98.70.49.107, port: 42473, type: vmess, uuid: 63b5b76d-93f4-4568-a764-c4b967472960, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 CA 566, server: 156.238.19.69, port: 2096, type: trojan, password: amclubs, sni: tran.amclubstest.nyc.mn, skip-cert-verify: false}
+  - {name: UA 575, server: 176.103.53.105, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇺🇸 US 641, server: gz.pddwdf.store, port: 39723, type: ss, cipher: chacha20-ietf-poly1305, password: b75873fe-7e5b-43d9-b199-94674c83cf6b}
+  - {name: 🇨🇦 CA 706, server: 23.162.200.91, port: 20182, type: vmess, uuid: cc9b66b7-1de7-4aa9-9642-575a8ae3ff19, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG 723, server: 54.151.204.146, port: 80, type: ss, cipher: aes-256-cfb, password: wiaimihu22}
+  - {name: 🇦🇺 AU 724, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}}
+  - {name: 🇨🇳 TW 894, server: 118.184.136.138, port: 25245, type: ss, cipher: rc4-md5, password: z6D4Jf}
+  - {name: 🇭🇰 HK 900, server: n1eubce2cbv.h5dg9l1jwpczvs91dekk.pw, port: 48778, type: ss, cipher: aes-128-gcm, password: 95d96c60-b8b8-405b-94ac-22900496e755}
 proxy-groups:
   - name: 🔰 代理模式
     type: select
@@ -181,682 +96,342 @@ proxy-groups:
   - name: ✋ 手选模式
     type: select
     proxies:
-      - 🇭🇰 HK 003 | ⬇️ 53.36 MB/s
-      - 🇭🇰 HK 004 | ⬇️ 45.00 MB/s
-      - 🇭🇰 HK 011 | ⬇️ 42.37 MB/s
-      - 🇭🇰 HK 013
-      - 🇭🇰 HK 018 | ⬇️ 37.99 MB/s
-      - TH 022 | ⬇️ 16.52 MB/s
-      - 🇭🇰 HK 029 | ⬇️ 34.53 MB/s
-      - 🇭🇰 HK 035
-      - 🇭🇰 HK 036
-      - 🇭🇰 HK 038
-      - 🇩🇪 DE 044
-      - 🇭🇰 HK 047
-      - 🇭🇰 HK 055
-      - 🇺🇸 US 062
-      - 🇳🇱 NL 064
-      - 🇭🇰 HK 071
-      - 🇨🇳 TW 072
-      - 🇳🇱 NL 076
-      - 🇳🇱 NL 078
-      - 🇸🇬 SG 081
-      - 🇳🇱 NL 082
-      - 🇨🇳 TW 083
-      - 🇺🇸 US 084
-      - 🇸🇬 SG 086
-      - 🇨🇳 TW 087
-      - 🇸🇬 SG 090
-      - 🇭🇰 HK 091
-      - 🇳🇱 NL 092
-      - 🇨🇳 TW 094
-      - 🇺🇸 US 097
+      - 🇭🇰 HK 002 | ⬇️ 17.44 MB/s
+      - 🇭🇰 HK 008 | ⬇️ 15.50 MB/s
+      - 🇮🇳 IN 017 | ⬇️ 11.96 MB/s
+      - 🇨🇳 TW 024
+      - 🇭🇰 HK 032 | ⬇️ 37.68 MB/s
+      - 🇨🇳 TW 036
+      - PH 037
+      - 🇭🇰 HK 041
+      - 🇨🇳 TW 043
+      - 🇸🇬 SG 050
+      - 🇸🇬 SG 051
+      - 🇨🇳 CN 065
+      - 🇸🇬 SG 067
+      - 🇸🇬 SG 070
+      - 🇸🇬 SG 073
+      - 🇸🇬 SG 077
+      - 🇭🇰 HK 079
+      - 🇺🇸 US 080
+      - 🇺🇸 US 081
+      - 🇸🇬 SG 082
+      - 🇸🇬 SG 083
+      - 🇯🇵 JP 084
+      - 🇺🇸 US 099
       - 🇸🇬 SG 100
-      - 🇭🇰 HK 102
       - 🇺🇸 US 104
-      - 🇸🇬 SG 105
-      - 🇳🇱 NL 106
-      - 🇷🇺 RU 108
-      - 🇳🇱 NL 109
-      - 🇸🇬 SG 110
-      - 🇸🇬 SG 113
-      - 🇨🇳 TW 115
-      - 🇸🇬 SG 116
-      - 🇷🇺 RU 120
-      - 🇺🇸 US 122
-      - 🇺🇸 US 123
-      - 🇸🇬 SG 124
-      - 🇺🇸 US 125
-      - 🇳🇱 NL 127
-      - 🇸🇬 SG 132
-      - 🇺🇸 US 133
-      - 🇯🇵 JP 134
-      - 🇸🇬 SG 141
-      - 🇷🇺 RU 142
-      - 🇸🇬 SG 144
-      - 🇨🇳 TW 148
-      - 🇷🇺 RU 149
-      - 🇳🇱 NL 150
-      - 🇺🇸 US 151
-      - 🇸🇬 SG 153
-      - 🇳🇱 NL 154
-      - 🇯🇵 JP 155
-      - 🇯🇵 JP 156
-      - 🇲🇾 MY 157
-      - TH 158
-      - 🇯🇵 JP 159
-      - 🇨🇳 TW 164
-      - 🇷🇺 RU 165
-      - 🇳🇱 NL 169
-      - 🇺🇸 US 170
-      - 🇯🇵 JP 171
-      - 🇺🇸 US 173
-      - 🇨🇳 TW 174
-      - 🇯🇵 JP 177
-      - 🇸🇬 SG 179
-      - 🇸🇬 SG 182
-      - 🇯🇵 JP 183
-      - 🇯🇵 JP 184
-      - 🇸🇬 SG 186
-      - 🇮🇳 IN 196
-      - 🇮🇳 IN 200
-      - 🇰🇷 KR 201
+      - 🇯🇵 JP 106
+      - 🇺🇸 US 109
+      - 🇭🇰 HK 110
+      - 🇯🇵 JP 121
+      - 🇸🇬 SG 122
+      - 🇯🇵 JP 133
+      - 🇲🇾 MY 134
+      - 🇸🇬 SG 137
+      - 🇰🇷 KR 138
+      - 🇯🇵 JP 140
+      - 🇰🇷 KR 142
+      - TH 144
+      - 🇸🇬 SG 159
+      - 🇲🇾 MY 171
+      - 🇸🇬 SG 177
+      - 🇭🇰 HK 178
+      - 🇸🇬 SG 181
+      - 🇰🇷 KR 199
       - 🇸🇬 SG 204
-      - 🇨🇳 TW 206
-      - 🇸🇬 SG 212
-      - 🇳🇱 NL 219
-      - 🇲🇾 MY 221
-      - 🇳🇱 NL 222
-      - 🇳🇱 NL 223
-      - 🇺🇸 US 224
-      - 🇸🇬 SG 227
-      - 🇺🇸 US 234
-      - 🇺🇸 US 239
-      - 🇨🇳 TW 240
+      - 🇯🇵 JP 217
+      - 🇺🇸 US 220
+      - 🇺🇸 US 225
+      - 🇦🇺 AU 226
       - 🇺🇸 US 244
-      - 🇯🇵 JP 247
-      - 🇯🇵 JP 250
-      - 🇳🇱 NL 257
-      - 🇺🇸 US 258
-      - 🇰🇷 KR 262
-      - 🇭🇰 HK 263
-      - 🇰🇷 KR 270
-      - 🇺🇸 US 272
-      - 🇳🇱 NL 273
-      - 🇺🇸 US 280
-      - 🇺🇸 US 281
-      - 🇷🇺 RU 282
-      - 🇰🇷 KR 283
-      - 🇨🇳 TW 284
-      - 🇦🇺 AU 287
-      - 🇺🇸 US 290
-      - 🇨🇳 TW 292
-      - 🇳🇱 NL 293
-      - 🇸🇬 SG 294
-      - 🇳🇱 NL 305
-      - 🇳🇱 NL 313
-      - 🇳🇱 NL 315
-      - 🇳🇱 NL 317
-      - 🇷🇺 RU 318
+      - 🇺🇸 US 266
+      - ID 270
+      - 🇰🇷 KR 272
+      - 🇭🇰 HK 279
+      - 🇮🇳 IN 296
+      - 🇨🇦 CA 298
+      - 🇭🇰 HK 300
+      - 🇭🇰 HK 306
+      - 🇭🇰 HK 315
+      - 🇬🇧 GB 316
       - 🇰🇷 KR 325
-      - 🇸🇬 SG 333
-      - 🇩🇪 DE 335
-      - 🇰🇷 KR 337
-      - 🇳🇱 NL 356
-      - 🇲🇾 MY 357
-      - 🇳🇱 NL 368
-      - 🇷🇺 RU 370
-      - 🇺🇸 US 393
-      - 🇺🇸 US 402
-      - 🇨🇳 TW 403
-      - 🇸🇬 SG 406
-      - 🇳🇱 NL 411
-      - MX 416
-      - 🇨🇳 TW 424
-      - 🇳🇱 NL 430
-      - 🇯🇵 JP 435
-      - 🇺🇸 US 436
-      - 🇨🇳 TW 447
-      - 🇰🇷 KR 453
-      - PH 454
-      - ID 456
-      - 🇺🇸 US 458
-      - 🇰🇷 KR 475
-      - 🇦🇺 AU 482
-      - 🇭🇰 HK 500
-      - 🇸🇬 SG 505
-      - 🇯🇵 JP 509
-      - 🇨🇦 CA 545
-      - 🇨🇳 TW 553
-      - 🇳🇱 NL 566
-      - 🇯🇵 JP 568
-      - 🇨🇳 TW 606
-      - ID 617
-      - 🇺🇸 US 623
-      - 🇰🇷 KR 624
-      - 🇰🇷 KR 654
-      - 🇸🇬 SG 685
-      - PK 688
-      - 🇰🇷 KR 689
-      - 🇰🇷 KR 691
-      - 🇭🇰 HK 692
-      - 🇨🇦 CA 716
-      - 🇰🇷 KR 749
-      - 🇺🇸 US 786
-      - 🇰🇷 KR 885
-      - 🇰🇷 KR 890
-      - 🇰🇷 KR 944
+      - 🇺🇸 US 332
+      - 🇨🇦 CA 376
+      - 🇸🇬 SG 382
+      - 🇬🇧 GB 396
+      - 🇬🇧 GB 406
+      - 🇰🇷 KR 420
+      - 🇰🇷 KR 436
+      - PH 456
+      - 🇺🇸 US 488
+      - 🇸🇬 SG 521
+      - 🇨🇦 CA 559
+      - 🇮🇳 IN 563
+      - 🇨🇦 CA 566
+      - UA 575
+      - 🇺🇸 US 641
+      - 🇨🇦 CA 706
+      - 🇸🇬 SG 723
+      - 🇦🇺 AU 724
+      - 🇨🇳 TW 894
+      - 🇭🇰 HK 900
   - name: ♻️ 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HK 003 | ⬇️ 53.36 MB/s
-      - 🇭🇰 HK 004 | ⬇️ 45.00 MB/s
-      - 🇭🇰 HK 011 | ⬇️ 42.37 MB/s
-      - 🇭🇰 HK 013
-      - 🇭🇰 HK 018 | ⬇️ 37.99 MB/s
-      - TH 022 | ⬇️ 16.52 MB/s
-      - 🇭🇰 HK 029 | ⬇️ 34.53 MB/s
-      - 🇭🇰 HK 035
-      - 🇭🇰 HK 036
-      - 🇭🇰 HK 038
-      - 🇩🇪 DE 044
-      - 🇭🇰 HK 047
-      - 🇭🇰 HK 055
-      - 🇺🇸 US 062
-      - 🇳🇱 NL 064
-      - 🇭🇰 HK 071
-      - 🇨🇳 TW 072
-      - 🇳🇱 NL 076
-      - 🇳🇱 NL 078
-      - 🇸🇬 SG 081
-      - 🇳🇱 NL 082
-      - 🇨🇳 TW 083
-      - 🇺🇸 US 084
-      - 🇸🇬 SG 086
-      - 🇨🇳 TW 087
-      - 🇸🇬 SG 090
-      - 🇭🇰 HK 091
-      - 🇳🇱 NL 092
-      - 🇨🇳 TW 094
-      - 🇺🇸 US 097
+      - 🇭🇰 HK 002 | ⬇️ 17.44 MB/s
+      - 🇭🇰 HK 008 | ⬇️ 15.50 MB/s
+      - 🇮🇳 IN 017 | ⬇️ 11.96 MB/s
+      - 🇨🇳 TW 024
+      - 🇭🇰 HK 032 | ⬇️ 37.68 MB/s
+      - 🇨🇳 TW 036
+      - PH 037
+      - 🇭🇰 HK 041
+      - 🇨🇳 TW 043
+      - 🇸🇬 SG 050
+      - 🇸🇬 SG 051
+      - 🇨🇳 CN 065
+      - 🇸🇬 SG 067
+      - 🇸🇬 SG 070
+      - 🇸🇬 SG 073
+      - 🇸🇬 SG 077
+      - 🇭🇰 HK 079
+      - 🇺🇸 US 080
+      - 🇺🇸 US 081
+      - 🇸🇬 SG 082
+      - 🇸🇬 SG 083
+      - 🇯🇵 JP 084
+      - 🇺🇸 US 099
       - 🇸🇬 SG 100
-      - 🇭🇰 HK 102
       - 🇺🇸 US 104
-      - 🇸🇬 SG 105
-      - 🇳🇱 NL 106
-      - 🇷🇺 RU 108
-      - 🇳🇱 NL 109
-      - 🇸🇬 SG 110
-      - 🇸🇬 SG 113
-      - 🇨🇳 TW 115
-      - 🇸🇬 SG 116
-      - 🇷🇺 RU 120
-      - 🇺🇸 US 122
-      - 🇺🇸 US 123
-      - 🇸🇬 SG 124
-      - 🇺🇸 US 125
-      - 🇳🇱 NL 127
-      - 🇸🇬 SG 132
-      - 🇺🇸 US 133
-      - 🇯🇵 JP 134
-      - 🇸🇬 SG 141
-      - 🇷🇺 RU 142
-      - 🇸🇬 SG 144
-      - 🇨🇳 TW 148
-      - 🇷🇺 RU 149
-      - 🇳🇱 NL 150
-      - 🇺🇸 US 151
-      - 🇸🇬 SG 153
-      - 🇳🇱 NL 154
-      - 🇯🇵 JP 155
-      - 🇯🇵 JP 156
-      - 🇲🇾 MY 157
-      - TH 158
-      - 🇯🇵 JP 159
-      - 🇨🇳 TW 164
-      - 🇷🇺 RU 165
-      - 🇳🇱 NL 169
-      - 🇺🇸 US 170
-      - 🇯🇵 JP 171
-      - 🇺🇸 US 173
-      - 🇨🇳 TW 174
-      - 🇯🇵 JP 177
-      - 🇸🇬 SG 179
-      - 🇸🇬 SG 182
-      - 🇯🇵 JP 183
-      - 🇯🇵 JP 184
-      - 🇸🇬 SG 186
-      - 🇮🇳 IN 196
-      - 🇮🇳 IN 200
-      - 🇰🇷 KR 201
+      - 🇯🇵 JP 106
+      - 🇺🇸 US 109
+      - 🇭🇰 HK 110
+      - 🇯🇵 JP 121
+      - 🇸🇬 SG 122
+      - 🇯🇵 JP 133
+      - 🇲🇾 MY 134
+      - 🇸🇬 SG 137
+      - 🇰🇷 KR 138
+      - 🇯🇵 JP 140
+      - 🇰🇷 KR 142
+      - TH 144
+      - 🇸🇬 SG 159
+      - 🇲🇾 MY 171
+      - 🇸🇬 SG 177
+      - 🇭🇰 HK 178
+      - 🇸🇬 SG 181
+      - 🇰🇷 KR 199
       - 🇸🇬 SG 204
-      - 🇨🇳 TW 206
-      - 🇸🇬 SG 212
-      - 🇳🇱 NL 219
-      - 🇲🇾 MY 221
-      - 🇳🇱 NL 222
-      - 🇳🇱 NL 223
-      - 🇺🇸 US 224
-      - 🇸🇬 SG 227
-      - 🇺🇸 US 234
-      - 🇺🇸 US 239
-      - 🇨🇳 TW 240
+      - 🇯🇵 JP 217
+      - 🇺🇸 US 220
+      - 🇺🇸 US 225
+      - 🇦🇺 AU 226
       - 🇺🇸 US 244
-      - 🇯🇵 JP 247
-      - 🇯🇵 JP 250
-      - 🇳🇱 NL 257
-      - 🇺🇸 US 258
-      - 🇰🇷 KR 262
-      - 🇭🇰 HK 263
-      - 🇰🇷 KR 270
-      - 🇺🇸 US 272
-      - 🇳🇱 NL 273
-      - 🇺🇸 US 280
-      - 🇺🇸 US 281
-      - 🇷🇺 RU 282
-      - 🇰🇷 KR 283
-      - 🇨🇳 TW 284
-      - 🇦🇺 AU 287
-      - 🇺🇸 US 290
-      - 🇨🇳 TW 292
-      - 🇳🇱 NL 293
-      - 🇸🇬 SG 294
-      - 🇳🇱 NL 305
-      - 🇳🇱 NL 313
-      - 🇳🇱 NL 315
-      - 🇳🇱 NL 317
-      - 🇷🇺 RU 318
+      - 🇺🇸 US 266
+      - ID 270
+      - 🇰🇷 KR 272
+      - 🇭🇰 HK 279
+      - 🇮🇳 IN 296
+      - 🇨🇦 CA 298
+      - 🇭🇰 HK 300
+      - 🇭🇰 HK 306
+      - 🇭🇰 HK 315
+      - 🇬🇧 GB 316
       - 🇰🇷 KR 325
-      - 🇸🇬 SG 333
-      - 🇩🇪 DE 335
-      - 🇰🇷 KR 337
-      - 🇳🇱 NL 356
-      - 🇲🇾 MY 357
-      - 🇳🇱 NL 368
-      - 🇷🇺 RU 370
-      - 🇺🇸 US 393
-      - 🇺🇸 US 402
-      - 🇨🇳 TW 403
-      - 🇸🇬 SG 406
-      - 🇳🇱 NL 411
-      - MX 416
-      - 🇨🇳 TW 424
-      - 🇳🇱 NL 430
-      - 🇯🇵 JP 435
-      - 🇺🇸 US 436
-      - 🇨🇳 TW 447
-      - 🇰🇷 KR 453
-      - PH 454
-      - ID 456
-      - 🇺🇸 US 458
-      - 🇰🇷 KR 475
-      - 🇦🇺 AU 482
-      - 🇭🇰 HK 500
-      - 🇸🇬 SG 505
-      - 🇯🇵 JP 509
-      - 🇨🇦 CA 545
-      - 🇨🇳 TW 553
-      - 🇳🇱 NL 566
-      - 🇯🇵 JP 568
-      - 🇨🇳 TW 606
-      - ID 617
-      - 🇺🇸 US 623
-      - 🇰🇷 KR 624
-      - 🇰🇷 KR 654
-      - 🇸🇬 SG 685
-      - PK 688
-      - 🇰🇷 KR 689
-      - 🇰🇷 KR 691
-      - 🇭🇰 HK 692
-      - 🇨🇦 CA 716
-      - 🇰🇷 KR 749
-      - 🇺🇸 US 786
-      - 🇰🇷 KR 885
-      - 🇰🇷 KR 890
-      - 🇰🇷 KR 944
+      - 🇺🇸 US 332
+      - 🇨🇦 CA 376
+      - 🇸🇬 SG 382
+      - 🇬🇧 GB 396
+      - 🇬🇧 GB 406
+      - 🇰🇷 KR 420
+      - 🇰🇷 KR 436
+      - PH 456
+      - 🇺🇸 US 488
+      - 🇸🇬 SG 521
+      - 🇨🇦 CA 559
+      - 🇮🇳 IN 563
+      - 🇨🇦 CA 566
+      - UA 575
+      - 🇺🇸 US 641
+      - 🇨🇦 CA 706
+      - 🇸🇬 SG 723
+      - 🇦🇺 AU 724
+      - 🇨🇳 TW 894
+      - 🇭🇰 HK 900
   - name: ♻️ 测速代理
     type: url-test
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HK 003 | ⬇️ 53.36 MB/s
-      - 🇭🇰 HK 004 | ⬇️ 45.00 MB/s
-      - 🇭🇰 HK 011 | ⬇️ 42.37 MB/s
-      - 🇭🇰 HK 013
-      - 🇭🇰 HK 018 | ⬇️ 37.99 MB/s
-      - TH 022 | ⬇️ 16.52 MB/s
-      - 🇭🇰 HK 029 | ⬇️ 34.53 MB/s
-      - 🇭🇰 HK 035
-      - 🇭🇰 HK 036
-      - 🇭🇰 HK 038
-      - 🇩🇪 DE 044
-      - 🇭🇰 HK 047
-      - 🇭🇰 HK 055
-      - 🇺🇸 US 062
-      - 🇳🇱 NL 064
-      - 🇭🇰 HK 071
-      - 🇨🇳 TW 072
-      - 🇳🇱 NL 076
-      - 🇳🇱 NL 078
-      - 🇸🇬 SG 081
-      - 🇳🇱 NL 082
-      - 🇨🇳 TW 083
-      - 🇺🇸 US 084
-      - 🇸🇬 SG 086
-      - 🇨🇳 TW 087
-      - 🇸🇬 SG 090
-      - 🇭🇰 HK 091
-      - 🇳🇱 NL 092
-      - 🇨🇳 TW 094
-      - 🇺🇸 US 097
+      - 🇭🇰 HK 002 | ⬇️ 17.44 MB/s
+      - 🇭🇰 HK 008 | ⬇️ 15.50 MB/s
+      - 🇮🇳 IN 017 | ⬇️ 11.96 MB/s
+      - 🇨🇳 TW 024
+      - 🇭🇰 HK 032 | ⬇️ 37.68 MB/s
+      - 🇨🇳 TW 036
+      - PH 037
+      - 🇭🇰 HK 041
+      - 🇨🇳 TW 043
+      - 🇸🇬 SG 050
+      - 🇸🇬 SG 051
+      - 🇨🇳 CN 065
+      - 🇸🇬 SG 067
+      - 🇸🇬 SG 070
+      - 🇸🇬 SG 073
+      - 🇸🇬 SG 077
+      - 🇭🇰 HK 079
+      - 🇺🇸 US 080
+      - 🇺🇸 US 081
+      - 🇸🇬 SG 082
+      - 🇸🇬 SG 083
+      - 🇯🇵 JP 084
+      - 🇺🇸 US 099
       - 🇸🇬 SG 100
-      - 🇭🇰 HK 102
       - 🇺🇸 US 104
-      - 🇸🇬 SG 105
-      - 🇳🇱 NL 106
-      - 🇷🇺 RU 108
-      - 🇳🇱 NL 109
-      - 🇸🇬 SG 110
-      - 🇸🇬 SG 113
-      - 🇨🇳 TW 115
-      - 🇸🇬 SG 116
-      - 🇷🇺 RU 120
-      - 🇺🇸 US 122
-      - 🇺🇸 US 123
-      - 🇸🇬 SG 124
-      - 🇺🇸 US 125
-      - 🇳🇱 NL 127
-      - 🇸🇬 SG 132
-      - 🇺🇸 US 133
-      - 🇯🇵 JP 134
-      - 🇸🇬 SG 141
-      - 🇷🇺 RU 142
-      - 🇸🇬 SG 144
-      - 🇨🇳 TW 148
-      - 🇷🇺 RU 149
-      - 🇳🇱 NL 150
-      - 🇺🇸 US 151
-      - 🇸🇬 SG 153
-      - 🇳🇱 NL 154
-      - 🇯🇵 JP 155
-      - 🇯🇵 JP 156
-      - 🇲🇾 MY 157
-      - TH 158
-      - 🇯🇵 JP 159
-      - 🇨🇳 TW 164
-      - 🇷🇺 RU 165
-      - 🇳🇱 NL 169
-      - 🇺🇸 US 170
-      - 🇯🇵 JP 171
-      - 🇺🇸 US 173
-      - 🇨🇳 TW 174
-      - 🇯🇵 JP 177
-      - 🇸🇬 SG 179
-      - 🇸🇬 SG 182
-      - 🇯🇵 JP 183
-      - 🇯🇵 JP 184
-      - 🇸🇬 SG 186
-      - 🇮🇳 IN 196
-      - 🇮🇳 IN 200
-      - 🇰🇷 KR 201
+      - 🇯🇵 JP 106
+      - 🇺🇸 US 109
+      - 🇭🇰 HK 110
+      - 🇯🇵 JP 121
+      - 🇸🇬 SG 122
+      - 🇯🇵 JP 133
+      - 🇲🇾 MY 134
+      - 🇸🇬 SG 137
+      - 🇰🇷 KR 138
+      - 🇯🇵 JP 140
+      - 🇰🇷 KR 142
+      - TH 144
+      - 🇸🇬 SG 159
+      - 🇲🇾 MY 171
+      - 🇸🇬 SG 177
+      - 🇭🇰 HK 178
+      - 🇸🇬 SG 181
+      - 🇰🇷 KR 199
       - 🇸🇬 SG 204
-      - 🇨🇳 TW 206
-      - 🇸🇬 SG 212
-      - 🇳🇱 NL 219
-      - 🇲🇾 MY 221
-      - 🇳🇱 NL 222
-      - 🇳🇱 NL 223
-      - 🇺🇸 US 224
-      - 🇸🇬 SG 227
-      - 🇺🇸 US 234
-      - 🇺🇸 US 239
-      - 🇨🇳 TW 240
+      - 🇯🇵 JP 217
+      - 🇺🇸 US 220
+      - 🇺🇸 US 225
+      - 🇦🇺 AU 226
       - 🇺🇸 US 244
-      - 🇯🇵 JP 247
-      - 🇯🇵 JP 250
-      - 🇳🇱 NL 257
-      - 🇺🇸 US 258
-      - 🇰🇷 KR 262
-      - 🇭🇰 HK 263
-      - 🇰🇷 KR 270
-      - 🇺🇸 US 272
-      - 🇳🇱 NL 273
-      - 🇺🇸 US 280
-      - 🇺🇸 US 281
-      - 🇷🇺 RU 282
-      - 🇰🇷 KR 283
-      - 🇨🇳 TW 284
-      - 🇦🇺 AU 287
-      - 🇺🇸 US 290
-      - 🇨🇳 TW 292
-      - 🇳🇱 NL 293
-      - 🇸🇬 SG 294
-      - 🇳🇱 NL 305
-      - 🇳🇱 NL 313
-      - 🇳🇱 NL 315
-      - 🇳🇱 NL 317
-      - 🇷🇺 RU 318
+      - 🇺🇸 US 266
+      - ID 270
+      - 🇰🇷 KR 272
+      - 🇭🇰 HK 279
+      - 🇮🇳 IN 296
+      - 🇨🇦 CA 298
+      - 🇭🇰 HK 300
+      - 🇭🇰 HK 306
+      - 🇭🇰 HK 315
+      - 🇬🇧 GB 316
       - 🇰🇷 KR 325
-      - 🇸🇬 SG 333
-      - 🇩🇪 DE 335
-      - 🇰🇷 KR 337
-      - 🇳🇱 NL 356
-      - 🇲🇾 MY 357
-      - 🇳🇱 NL 368
-      - 🇷🇺 RU 370
-      - 🇺🇸 US 393
-      - 🇺🇸 US 402
-      - 🇨🇳 TW 403
-      - 🇸🇬 SG 406
-      - 🇳🇱 NL 411
-      - MX 416
-      - 🇨🇳 TW 424
-      - 🇳🇱 NL 430
-      - 🇯🇵 JP 435
-      - 🇺🇸 US 436
-      - 🇨🇳 TW 447
-      - 🇰🇷 KR 453
-      - PH 454
-      - ID 456
-      - 🇺🇸 US 458
-      - 🇰🇷 KR 475
-      - 🇦🇺 AU 482
-      - 🇭🇰 HK 500
-      - 🇸🇬 SG 505
-      - 🇯🇵 JP 509
-      - 🇨🇦 CA 545
-      - 🇨🇳 TW 553
-      - 🇳🇱 NL 566
-      - 🇯🇵 JP 568
-      - 🇨🇳 TW 606
-      - ID 617
-      - 🇺🇸 US 623
-      - 🇰🇷 KR 624
-      - 🇰🇷 KR 654
-      - 🇸🇬 SG 685
-      - PK 688
-      - 🇰🇷 KR 689
-      - 🇰🇷 KR 691
-      - 🇭🇰 HK 692
-      - 🇨🇦 CA 716
-      - 🇰🇷 KR 749
-      - 🇺🇸 US 786
-      - 🇰🇷 KR 885
-      - 🇰🇷 KR 890
-      - 🇰🇷 KR 944
+      - 🇺🇸 US 332
+      - 🇨🇦 CA 376
+      - 🇸🇬 SG 382
+      - 🇬🇧 GB 396
+      - 🇬🇧 GB 406
+      - 🇰🇷 KR 420
+      - 🇰🇷 KR 436
+      - PH 456
+      - 🇺🇸 US 488
+      - 🇸🇬 SG 521
+      - 🇨🇦 CA 559
+      - 🇮🇳 IN 563
+      - 🇨🇦 CA 566
+      - UA 575
+      - 🇺🇸 US 641
+      - 🇨🇦 CA 706
+      - 🇸🇬 SG 723
+      - 🇦🇺 AU 724
+      - 🇨🇳 TW 894
+      - 🇭🇰 HK 900
   - name: ♻️ 回滚代理
     type: fallback
     url: https://www.youtube.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HK 003 | ⬇️ 53.36 MB/s
-      - 🇭🇰 HK 004 | ⬇️ 45.00 MB/s
-      - 🇭🇰 HK 011 | ⬇️ 42.37 MB/s
-      - 🇭🇰 HK 013
-      - 🇭🇰 HK 018 | ⬇️ 37.99 MB/s
-      - TH 022 | ⬇️ 16.52 MB/s
-      - 🇭🇰 HK 029 | ⬇️ 34.53 MB/s
-      - 🇭🇰 HK 035
-      - 🇭🇰 HK 036
-      - 🇭🇰 HK 038
-      - 🇩🇪 DE 044
-      - 🇭🇰 HK 047
-      - 🇭🇰 HK 055
-      - 🇺🇸 US 062
-      - 🇳🇱 NL 064
-      - 🇭🇰 HK 071
-      - 🇨🇳 TW 072
-      - 🇳🇱 NL 076
-      - 🇳🇱 NL 078
-      - 🇸🇬 SG 081
-      - 🇳🇱 NL 082
-      - 🇨🇳 TW 083
-      - 🇺🇸 US 084
-      - 🇸🇬 SG 086
-      - 🇨🇳 TW 087
-      - 🇸🇬 SG 090
-      - 🇭🇰 HK 091
-      - 🇳🇱 NL 092
-      - 🇨🇳 TW 094
-      - 🇺🇸 US 097
+      - 🇭🇰 HK 002 | ⬇️ 17.44 MB/s
+      - 🇭🇰 HK 008 | ⬇️ 15.50 MB/s
+      - 🇮🇳 IN 017 | ⬇️ 11.96 MB/s
+      - 🇨🇳 TW 024
+      - 🇭🇰 HK 032 | ⬇️ 37.68 MB/s
+      - 🇨🇳 TW 036
+      - PH 037
+      - 🇭🇰 HK 041
+      - 🇨🇳 TW 043
+      - 🇸🇬 SG 050
+      - 🇸🇬 SG 051
+      - 🇨🇳 CN 065
+      - 🇸🇬 SG 067
+      - 🇸🇬 SG 070
+      - 🇸🇬 SG 073
+      - 🇸🇬 SG 077
+      - 🇭🇰 HK 079
+      - 🇺🇸 US 080
+      - 🇺🇸 US 081
+      - 🇸🇬 SG 082
+      - 🇸🇬 SG 083
+      - 🇯🇵 JP 084
+      - 🇺🇸 US 099
       - 🇸🇬 SG 100
-      - 🇭🇰 HK 102
       - 🇺🇸 US 104
-      - 🇸🇬 SG 105
-      - 🇳🇱 NL 106
-      - 🇷🇺 RU 108
-      - 🇳🇱 NL 109
-      - 🇸🇬 SG 110
-      - 🇸🇬 SG 113
-      - 🇨🇳 TW 115
-      - 🇸🇬 SG 116
-      - 🇷🇺 RU 120
-      - 🇺🇸 US 122
-      - 🇺🇸 US 123
-      - 🇸🇬 SG 124
-      - 🇺🇸 US 125
-      - 🇳🇱 NL 127
-      - 🇸🇬 SG 132
-      - 🇺🇸 US 133
-      - 🇯🇵 JP 134
-      - 🇸🇬 SG 141
-      - 🇷🇺 RU 142
-      - 🇸🇬 SG 144
-      - 🇨🇳 TW 148
-      - 🇷🇺 RU 149
-      - 🇳🇱 NL 150
-      - 🇺🇸 US 151
-      - 🇸🇬 SG 153
-      - 🇳🇱 NL 154
-      - 🇯🇵 JP 155
-      - 🇯🇵 JP 156
-      - 🇲🇾 MY 157
-      - TH 158
-      - 🇯🇵 JP 159
-      - 🇨🇳 TW 164
-      - 🇷🇺 RU 165
-      - 🇳🇱 NL 169
-      - 🇺🇸 US 170
-      - 🇯🇵 JP 171
-      - 🇺🇸 US 173
-      - 🇨🇳 TW 174
-      - 🇯🇵 JP 177
-      - 🇸🇬 SG 179
-      - 🇸🇬 SG 182
-      - 🇯🇵 JP 183
-      - 🇯🇵 JP 184
-      - 🇸🇬 SG 186
-      - 🇮🇳 IN 196
-      - 🇮🇳 IN 200
-      - 🇰🇷 KR 201
+      - 🇯🇵 JP 106
+      - 🇺🇸 US 109
+      - 🇭🇰 HK 110
+      - 🇯🇵 JP 121
+      - 🇸🇬 SG 122
+      - 🇯🇵 JP 133
+      - 🇲🇾 MY 134
+      - 🇸🇬 SG 137
+      - 🇰🇷 KR 138
+      - 🇯🇵 JP 140
+      - 🇰🇷 KR 142
+      - TH 144
+      - 🇸🇬 SG 159
+      - 🇲🇾 MY 171
+      - 🇸🇬 SG 177
+      - 🇭🇰 HK 178
+      - 🇸🇬 SG 181
+      - 🇰🇷 KR 199
       - 🇸🇬 SG 204
-      - 🇨🇳 TW 206
-      - 🇸🇬 SG 212
-      - 🇳🇱 NL 219
-      - 🇲🇾 MY 221
-      - 🇳🇱 NL 222
-      - 🇳🇱 NL 223
-      - 🇺🇸 US 224
-      - 🇸🇬 SG 227
-      - 🇺🇸 US 234
-      - 🇺🇸 US 239
-      - 🇨🇳 TW 240
+      - 🇯🇵 JP 217
+      - 🇺🇸 US 220
+      - 🇺🇸 US 225
+      - 🇦🇺 AU 226
       - 🇺🇸 US 244
-      - 🇯🇵 JP 247
-      - 🇯🇵 JP 250
-      - 🇳🇱 NL 257
-      - 🇺🇸 US 258
-      - 🇰🇷 KR 262
-      - 🇭🇰 HK 263
-      - 🇰🇷 KR 270
-      - 🇺🇸 US 272
-      - 🇳🇱 NL 273
-      - 🇺🇸 US 280
-      - 🇺🇸 US 281
-      - 🇷🇺 RU 282
-      - 🇰🇷 KR 283
-      - 🇨🇳 TW 284
-      - 🇦🇺 AU 287
-      - 🇺🇸 US 290
-      - 🇨🇳 TW 292
-      - 🇳🇱 NL 293
-      - 🇸🇬 SG 294
-      - 🇳🇱 NL 305
-      - 🇳🇱 NL 313
-      - 🇳🇱 NL 315
-      - 🇳🇱 NL 317
-      - 🇷🇺 RU 318
+      - 🇺🇸 US 266
+      - ID 270
+      - 🇰🇷 KR 272
+      - 🇭🇰 HK 279
+      - 🇮🇳 IN 296
+      - 🇨🇦 CA 298
+      - 🇭🇰 HK 300
+      - 🇭🇰 HK 306
+      - 🇭🇰 HK 315
+      - 🇬🇧 GB 316
       - 🇰🇷 KR 325
-      - 🇸🇬 SG 333
-      - 🇩🇪 DE 335
-      - 🇰🇷 KR 337
-      - 🇳🇱 NL 356
-      - 🇲🇾 MY 357
-      - 🇳🇱 NL 368
-      - 🇷🇺 RU 370
-      - 🇺🇸 US 393
-      - 🇺🇸 US 402
-      - 🇨🇳 TW 403
-      - 🇸🇬 SG 406
-      - 🇳🇱 NL 411
-      - MX 416
-      - 🇨🇳 TW 424
-      - 🇳🇱 NL 430
-      - 🇯🇵 JP 435
-      - 🇺🇸 US 436
-      - 🇨🇳 TW 447
-      - 🇰🇷 KR 453
-      - PH 454
-      - ID 456
-      - 🇺🇸 US 458
-      - 🇰🇷 KR 475
-      - 🇦🇺 AU 482
-      - 🇭🇰 HK 500
-      - 🇸🇬 SG 505
-      - 🇯🇵 JP 509
-      - 🇨🇦 CA 545
-      - 🇨🇳 TW 553
-      - 🇳🇱 NL 566
-      - 🇯🇵 JP 568
-      - 🇨🇳 TW 606
-      - ID 617
-      - 🇺🇸 US 623
-      - 🇰🇷 KR 624
-      - 🇰🇷 KR 654
-      - 🇸🇬 SG 685
-      - PK 688
-      - 🇰🇷 KR 689
-      - 🇰🇷 KR 691
-      - 🇭🇰 HK 692
-      - 🇨🇦 CA 716
-      - 🇰🇷 KR 749
-      - 🇺🇸 US 786
-      - 🇰🇷 KR 885
-      - 🇰🇷 KR 890
-      - 🇰🇷 KR 944
+      - 🇺🇸 US 332
+      - 🇨🇦 CA 376
+      - 🇸🇬 SG 382
+      - 🇬🇧 GB 396
+      - 🇬🇧 GB 406
+      - 🇰🇷 KR 420
+      - 🇰🇷 KR 436
+      - PH 456
+      - 🇺🇸 US 488
+      - 🇸🇬 SG 521
+      - 🇨🇦 CA 559
+      - 🇮🇳 IN 563
+      - 🇨🇦 CA 566
+      - UA 575
+      - 🇺🇸 US 641
+      - 🇨🇦 CA 706
+      - 🇸🇬 SG 723
+      - 🇦🇺 AU 724
+      - 🇨🇳 TW 894
+      - 🇭🇰 HK 900
   - name: 🎯 不挂代理
     type: select
     proxies:
