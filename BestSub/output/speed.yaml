@@ -1,9 +1,127 @@
 proxies:
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      fp: chrome
+      grpc-opts:
+        grpc-service-name: ""
+      host: ""
+      mode: ""
+      name: "\U0001F1ED\U0001F1F0 HK 010 | ⬇️ 5.30 MB/s"
+      network: tcp
+      path: ""
+      pbk: GuTuiDM9kwjNv8QL3iy_sa18NnoeJ0gtOKMSLZSw_20
+      port: 13009
+      reality-opts:
+        public-key: GuTuiDM9kwjNv8QL3iy_sa18NnoeJ0gtOKMSLZSw_20
+        short-id: 6ba85179e30d4fc2
+      security: reality
+      server: 16.162.200.251
+      servername: player.live-video.net
+      serviceName: ""
+      sid: 6ba85179e30d4fc2
+      sni: player.live-video.net
+      tls: true
+      type: vless
+      udp: false
+      uuid: 91ddda09-bc1c-426c-bf89-d01391cf0096
+      ws-opts:
+        headers:
+            Host: ""
+        path: ""
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8 US 011 | ⬇️ 5.30 MB/s"
+      network: ws
+      port: 2087
+      server: 190.93.246.23
+      servername: fei.989618.xyz
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: e53892eb-3eaa-4fdc-b88b-167160764eb3
+      ws-opts:
+        headers:
+            Host: fei.989618.xyz
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8 US 015 | ⬇️ 5.30 MB/s"
+      network: ws
+      port: 2096
+      server: 104.16.217.6
+      servername: www.pjw5.top
+      tls: true
+      type: vless
+      udp: true
+      uuid: 812d7dde-5f48-47eb-acc8-9c94c04550c2
+      ws-opts:
+        headers:
+            Host: www.pjw5.top
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 019 | ⬇️ 5.77 MB/s"
+      password: oXGp1+ihlfKg826H
+      port: 1866
+      server: 64.176.85.73
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1F3 CN 029 | ⬇️ 5.00 MB/s"
+      password: 6438acf4-e5d7-46ad-998b-a5230ce99811
+      port: 33522
+      server: v4.niaoba.top
+      type: ss
+      udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 342 | ⬇️ 6.57 MB/s"
-      port: 15228
-      server: 8e07bcf3-sv0xs0-sy2gtj-2fdn.cm.plebai.net
+      name: "\U0001F1F8\U0001F1EC SG 034 | ⬇️ 5.06 MB/s"
+      port: 10002
+      server: 192.53.113.156
       tls: false
       type: vmess
-      uuid: e8001124-1ff5-11ee-abc1-f23c9164ca5d
+      uuid: 036a28c3-5c8d-4df3-a79b-9da622640f2b
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 043 | ⬇️ 5.34 MB/s"
+      network: ws
+      port: 80
+      server: 279aa6f9-svlb40-swa8xy-laev.hk.p5pv.com
+      tls: false
+      type: vmess
+      uuid: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US 044 | ⬇️ 5.17 MB/s"
+      network: ws
+      port: 8443
+      server: 190.93.245.244
+      servername: www.pjw5.top
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 812d7dde-5f48-47eb-acc8-9c94c04550c2
+      ws-opts:
+        headers:
+            Host: www.pjw5.top
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 046 | ⬇️ 5.08 MB/s"
+      network: ws
+      port: 2083
+      server: 135.84.64.36
+      servername: edcch.ambercc.filegear-sg.me
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+      ws-opts:
+        headers:
+            host: edcch.ambercc.filegear-sg.me
+        path: /?ed=2560&proxyip=ts.hpc.tw
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1F3 CN 125 | ⬇️ 5.28 MB/s"
+      password: 6438acf4-e5d7-46ad-998b-a5230ce99811
+      port: 29997
+      server: v6.niaoba.top
+      type: ss
+      udp: true
