@@ -11,9 +11,9 @@ rename:
 
 check:
   # 并发
-  concurrent: 20
+  concurrent: 30
   # 检查间隔,单位分钟
-  interval: 10
+  interval: 3600
   # 测试节点存活的url 默认 https://gstatic.com/generate_204
   alive-test-url: https://gstatic.com/generate_204
   # 判断节点存活的状态码 默认 204
@@ -21,11 +21,11 @@ check:
   # 超时时间 单位毫秒
   timeout: 2000
   # 最低测速 单位KB/s
-  min-speed: 2999
+  min-speed: 5999
   # 下载测试超时时间 单位秒
-  download-timeout: 3
+  download-timeout: 5
   # 测速下载大小 单位MB
-  download-size: 10
+  download-size: 20
   # 测速地址
   speed-test-url:
     - https://speed.cloudflare.com/__down?bytes=1073741824
@@ -35,7 +35,7 @@ check:
   # 测速并发
   speed-check-concurrent: 2
   # 测速数量
-  speed-count: 44
+  speed-count: 20
   # 测速保存
   speed-save: true
   # 检查项目
@@ -76,6 +76,19 @@ sub-urls:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - https://multikeys.outlinekeys.net/Sub/b29rMTEsMTc0NjYwMzA0Nw5jtsaIMXsa
+  - https://v1.mk/rETkDGX
+  - https://v1.mk/pzO2Rgj
+  - https://sub.xn--9kqp0yy4f.com/s/59fa7e7687e0b0b89b0e6c19857aefed
+  - http://sub.crosswall.org/s/cc4bef9184721d364ac6493c5a9c02fb
+  - http://103.35.189.118:7001/s/6c58d603a19bbae74ab761b584294cb5
+  - http://103.35.189.118:7001/s/d106e8f068afaacbc11482ba764b7833
+  - http://103.35.189.118:7001/s/4231089c43e6ff4392e21aaccb8a9409
+  - http://103.35.189.118:7001/s/d3b16d39e1fd862613c8ac312bf79b2a
+  - http://sub.crosswall.org/s/79e5a9b5841e44a8b0fd6c97a6293b24
   - https://ylks.tt2000.sbs/2025/F4/z8/c.yaml
   - https://x.juzi.lat/view.php?id=78cc61a1f338bdce
   - https://www.roc-taiwan.taipei/link/6vY3rvkzoG0S5jAU?clash=1

@@ -55,9 +55,9 @@ proxy-groups:
     use:
       - speed
     url: 'https://www.youtube.com/generate_204'
-    interval: 3600
+    interval: 1200
     lazy: true
-    timeout: 5000
+    timeout: 3000
     max-failed-times: 5
 
   - name: "✋ 手选模式"
@@ -65,32 +65,14 @@ proxy-groups:
     use:
       - youtube
 
-  - name: "♻️ 负载均衡"
-    type: load-balance
-    use:
-      - youtube
-    url: 'https://www.youtube.com/generate_204'
-    interval: 3600
-    lazy: true
-    timeout: 5000
-    max-failed-times: 5
   - name: "♻️ 测速代理"
     type: url-test
     use:
       - youtube
     url: 'https://www.youtube.com/generate_204'
-    interval: 3600
+    interval: 1200
     lazy: true
-    timeout: 5000
-    max-failed-times: 5
-  - name: "♻️ 回滚代理"
-    type: fallback
-    use:
-      - youtube
-    url: 'https://www.youtube.com/generate_204'
-    interval: 3600
-    lazy: true
-    timeout: 5000
+    timeout: 3000
     max-failed-times: 5
 
 rule-providers:
