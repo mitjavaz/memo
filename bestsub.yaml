@@ -34,13 +34,13 @@ proxy-providers:
   speed:
     type: http
     url:  https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/speed.yaml
-    interval: 7200
+    interval: 3600
     proxy: DIRECT
     path: ./proxy_provider/speed.yaml
   youtube:
     type: http
     url:  https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/youtube.yaml
-    interval: 7200
+    interval: 3600
     proxy: DIRECT
     path: ./proxy_provider/youtube.yaml
 
@@ -53,9 +53,9 @@ proxy-groups:
     use:
       - speed
     url: 'https://www.youtube.com/generate_204'
-    interval: 1200
+    interval: 600
     lazy: true
-    timeout: 3000
+    timeout: 5000
     max-failed-times: 5
 
   - name: "✋ 手选模式"
@@ -68,9 +68,9 @@ proxy-groups:
     use:
       - youtube
     url: 'https://www.youtube.com/generate_204'
-    interval: 1200
+    interval: 600
     lazy: true
-    timeout: 3000
+    timeout: 5000
     max-failed-times: 5
 
 rule-providers:
