@@ -19,7 +19,7 @@ check:
   # 判断节点存活的状态码 默认 204
   alive-test-expect-code: 204
   # 超时时间 单位毫秒
-  timeout: 2000
+  timeout: 1000
   # 最低测速 单位KB/s
   min-speed: 9999
   # 下载测试超时时间 单位秒
@@ -35,7 +35,7 @@ check:
   # 测速并发
   speed-check-concurrent: 2
   # 测速数量
-  speed-count: 10
+  speed-count: 16
   # 测速保存
   speed-save: true
   # 检查项目
@@ -72,22 +72,28 @@ sub-urls:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - https://abjc.xyz/api/abjc?token=61cfbe1fe61ff66412fa17d3691622d3
+  - https://tannel0704.xn--wqr30o34q.xn--io0a7i/link/BrwlWNgSepxYFKIm?clash=1
+  - https://gogo.kkhhddnn.cn/api/v1/client/subscribe?token=8ba1e286d4c5f831fde9b2cfa1917913
+  - http://103.35.189.118:7001/s/9eb57c94b00d574ee5e59899ba87e167
+  - https://xb.inekokkk.com/amei/0c230a6f6a95c9a9d3cdada708c9b1cb
+  - https://sub.miaopu.cf/lsub/E3JG4k50xoAx8BiS?sub=3&extend=1
   - http://103.35.189.118:7001/s/43f59338cb1bfc67131f9fb9ca28aa71
   - http://sub.crosswall.org/s/18caa3e59e6a7a0e3c42a5a817b1b05a
   - https://i.ilikeu.dpdns.org/sub?uuid=838f5273-5d2d-4630-a0f5-9cc8e4aef4d6&type=ws&encryption=none&flow=&host=kg.ilikeu.dpdns.org&path=%2F&security=tls&sni=kg.ilikeu.dpdns.org&fp=chrome&packetEncoding=xudp
   - https://i.ilikeu.dpdns.org/sub?uuid=0498252a-77a9-4038-bec9-c066a404de7c&encryption=none&security=tls&sni=claw.orangelightyo.dpdns.org&type=ws&host=claw.orangelightyo.dpdns.org&path=%2F
   - https://i.ilikeu.dpdns.org/sub?uuid=865c8324-bd6d-4b87-a9ad-26aa5baf6b1b&encryption=none&security=tls&sni=a.ilikeu.dpdns.org&type=ws&host=a.ilikeu.dpdns.org&path=%2F
   - https://dyzk.020318.xyz/?token=d24404a213fc4dd681536826c509e0a1&flag=clash
-  - https://banyunxiaoxi.icu/2025/05/11/2025-05-11%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0263%E4%B8%AA/
-  - https://banyunxiaoxi.icu/2025/05/11/2025-05-11%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0270%E4%B8%AA/
-  - https://abjc.xyz/api/abjc?token=fbfb6980f331577e9e1990b262cd5113
   - https://abjc.xyz/api/abjc?token=0a4c7aed4e467f7bf1959098b566a763
   - https://www.dabai.in/link/Sj23ckEbMJonZB9C?clash=1
   - https://qishuijc.top/api/v1/client/subscribe?token=391afb46752d77774f9848f1b0e30b14
   - https://qishuijc.top/api/v1/client/subscribe?token=6fea2eb70062b0d3970bc3020d2b252b
   - https://www.dabai.in/link/Sj23ckEbMJonZB9C?clash=1
   - https://abjc.xyz/api/abjc?token=0a4c7aed4e467f7bf1959098b566a763
-  - https://abjc.xyz/api/abjc?token=fbfb6980f331577e9e1990b262cd5113
   - https://xship.top/v1/subscribe?starlink=promax@kOLez3tljpn8kPQSWEBMayGw
   - https://x.juzi.lat/view.php?id=31119409c58155e5
   - https://d1.mk/xPv6wHv
@@ -105,12 +111,10 @@ sub-urls:
   - https://dash.sinqin.net/s/7d2b1e3bc02fe7dc9e5f92968bf63a5f
   - https://qishuijc.top/api/v1/client/subscribe?token=cc53778b817939d8fd581cc1ed943abc
   - https://qishuijc.top/api/v1/client/subscribe?token=732e0bf0dea00ad0228ec3e01ee15689
-  - https://qishuijc.top/api/v1/client/subscribe?token=dfdf7bd5d413a113a9aef80e3de800db
   - http://38.55.97.141:12321/api/v1/client/subscribe?token=9097094bffd0ef62438c3d25c905bbdc
   - http://38.55.97.141:12321/api/v1/client/subscribe?token=05de311185300e6c432a4c1ad0bedaf9
   - http://38.55.97.141:12321/api/v1/client/subscribe?token=40319d15c29741d74405bfc01ecb744e
   - http://38.55.97.141:12321/api/v1/client/subscribe?token=2d67ba714cf0d61aa965cd1d70e1b89e
-  - http://em7.buzz/v3/subscr?id=5be76fa537584282bb54b1efabd6ba3d
   - https://dash.sinqin.net/s/7d2b1e3bc02fe7dc9e5f92968bf63a5f
   - https://qishuijc.top/api/v1/client/subscribe?token=732e0bf0dea00ad0228ec3e01ee15689
   - https://qishuijc.top/api/v1/client/subscribe?token=cc53778b817939d8fd581cc1ed943abc
@@ -131,12 +135,9 @@ sub-urls:
   - https://x.juzi.lat/view.php?id=4f791577a9bfaaf8
   - https://nano.nachoneko.cn/api/v1/client/subscribe?token=15c8b2771610ae4fe00282f1035a44d9
   - https://666676666.xyz/api/v1/client/subscribe?token=f701ce71294b488eebc00937d841bebb
-  - https://xship.top/v1/subscribe?starlink=pro@ak22RsujzCYUkcqv_cU6ILMA
   - https://n063ww4.wxll4.cfd/api/v1/client/subscribe?token=676782dc6736a2f0d89f4f42b7e884e8
   - https://sub.miaolianyun.vip/mly_sub?token=17798f36a432a1ccaeb6ea0744cfd10b
-  - https://xship.top/v1/subscribe?starlink=pro@ak22RsujzCYUkcqv_cU6ILMA
   - https://www.tiziwrops.com/api/v1/client/subscribe?token=8fa788726eb4b5323e2d19297d5147e1
-  - https://xship.top/v1/subscribe?starlink=pro@ak22RsujzCYUkcqv_cU6ILMA#%E6%98%9F%E9%93%BEStarlink%20%E2%9C%A8
   - https://6bsub.zhunchuanpb.com/api/v1/client/subscribe?token=9073771badd26857dd11f3d1bc15803f
   - https://666676666.xyz/api/v1/client/subscribe?token=dc8260cdabfb187bf48f5963ea032678
   - https://nxsubnx.hhkkdd.cn/api/v1/client/subscribe?token=e46318fcbfbecc08e348004fb051b4ba
