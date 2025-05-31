@@ -16,7 +16,7 @@ check-interval: 30
 # cron-expression: "*/30 * * * *"
 
 # 超时时间(毫秒)(节点的最大延迟)
-timeout: 5000
+timeout: 2000
 
 # 测速地址(注意 并发数*节点速度<最大网速 否则测速结果不准确)
 # 尽量不要使用Speedtest，Cloudflare提供的下载链接，因为很多节点屏蔽测速网站
@@ -27,10 +27,10 @@ speed-test-url: https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/d
 min-speed: 9999
 
 # 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
-download-timeout: 5
+download-timeout: 3
 
 # 单节点测速下载数据大小(MB)限制，0为不限
-download-mb: 50
+download-mb: 30
 
 # 总下载速度速度限制(MB/s)，0为不限
 # 限制与实际情况可能会有一定误差
@@ -52,12 +52,12 @@ node-prefix: ""
 # 是否开启流媒体检测，其中IP欺诈依赖重命名
 media-check: false
 platforms:
-  - openai
+  # - openai
   - youtube
-  - netflix
-  - disney
-  - gemini
-  - iprisk
+  # - netflix
+  # - disney
+  # - gemini
+  # - iprisk
 
 # 保留之前测试成功的节点
 # 如果为true，则保留之前测试成功的节点，这样就不会因为上游链接更新，导致可用的节点被清除掉
@@ -147,7 +147,7 @@ worker-url: https://example.worker.dev
 worker-token: 1234567890
 
 # 重试次数(获取订阅失败后重试次数)
-sub-urls-retry: 3
+sub-urls-retry: 1
 
 # Github Proxy，获取订阅使用，结尾要带的 /
 # github-proxy: "https://ghfast.top/"
