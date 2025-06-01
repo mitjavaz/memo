@@ -1,0 +1,153 @@
+# 是否打印进度
+print-progress: true
+
+# 可选值 debug info warn error
+log-level: debug
+
+# 重命名方法 api 或 regex 或 mix
+rename:
+  method: mix
+  flag: true
+
+check:
+  # 并发
+  concurrent: 20
+  # 检查间隔,单位分钟
+  interval: 120
+  # 测试节点存活的url 默认 https://gstatic.com/generate_204
+  alive-test-url: https://www.youtube.com/generate_204
+  # 判断节点存活的状态码 默认 204
+  alive-test-expect-code: 204
+  # 超时时间 单位毫秒
+  timeout: 2000
+  # 最低测速 单位KB/s
+  min-speed: 9999
+  # 下载测试超时时间 单位秒
+  download-timeout: 5
+  # 测速下载大小 单位MB
+  download-size: 50
+  # 测速地址
+  speed-test-url:
+    - https://github.com/VSCodium/vscodium/releases/download/1.98.0.25067/codium-1.98.0.25067-el9.aarch64.rpm
+  # 跳过测速的名称
+  #speed-skip-name: 倍率|x\d+
+  # 测速并发
+  speed-check-concurrent: 2
+  # 测速数量
+  speed-count: 16
+  # 测速保存
+  speed-save: true
+  # 检查项目
+  items:
+    #- openai
+    - youtube
+    #- netflix
+    #- disney
+    - speed
+
+save:
+  # 保存方法 webdav 或 http 或 gist 或 r2
+  method: ["local"]
+  # 保存端口
+  #port: 18989
+
+# mihomo api
+#mihomo-api-url: "http://192.168.31.11:9090"
+# mihomo api secret
+#mihomo-api-secret: ""
+# 重试次数
+sub-urls-retry: 1
+# 代理设置 支持 http 和 socks 代理
+proxy:
+#  type: "http" # 可选值: http, socks
+#  address: "http://192.168.31.11:7890" # 代理地址
+# 订阅链接
+# type-include:
+#   - ss
+#   - vmess
+sub-urls:
+  - 
+  - https://xz.54264944.xyz/api/v1/client/subscribe?token=b9de7a7a12e2ca69165241fc13c79767
+  - https://yx1.281968.xyz/api/v1/client/subscribe?token=6b118824094f41726991c896c900d756
+  - https://tg.iamdt002.dpdns.org/sub?token=b0b422857bb46aba65da8234c84f38c6
+  - https://v1.mk/3rjadZJ
+  - https://ocean.likelike.ip-ddns.com/O
+  - https://king.likelike.ip-ddns.com/K
+  - https://banyunxiaoxi.icu/2025/05/29/2025-05-29%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0411%E4%B8%AA/
+  - https://sub.372372.xyz/api/v1/client/subscribe?token=87fd1239fa2282b2a01661ba42e28a87
+  - https://233yun.link/link/d8Q7Gx0eUwR2qEaS?sub=3
+  - http://sub3.127665.xyz/s/44b688c5860116b000a8c0d12e76db92
+  - https://v1.mk/k1wjFTn
+  - https://banyunxiaoxi.icu/2025/05/28/2025-05-28%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0129%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/05/27/2025-05-27%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0117%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/05/25/2025-05-25%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B098%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/05/24/2025-05-24%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0124%E4%B8%AA/
+  - https://api.x5533.cn/api/v1/cliont/svbhghcribe?token=5ef2b17a1be6469e051d0f58f35c8b23
+  - https://v1.mk/nMfUGUB
+  - https://v1.mk/Bzu8tKp
+  - https://v1.mk/whfxWhy
+  - https://v1.mk/28JXDGe
+  - http://sub3.127665.xyz/s/a61b509bfcd8488b8b3ee055b3e36096
+  - https://sub.xn--z4q48lcvpsq0c.com/s/3a2a7cfd8841e39d5d211b92eb060194
+  - https://sub.xn--z4q48lcvpsq0c.com/s/277ac280d3c8101ac77a75853abba8bd
+  - http://207.170.66.146:50209/share/sub/node9PB?token=6rf8MzrhV_sKXhSg6icl3
+  - https://a.545437.xyz/jiji?token=e6131819bcf560b8f3e28180339efe44
+  - https://love-coffee.one/api/v1/client/subscribe?token=094f2731f13cce1039b001ad82d2beaf
+  - https://nano.nachoneko.cn/api/v1/client/subscribe?token=76f11057c2731a948cc6d0ab9b9bd313
+  - https://app.mitce.net/?sid=261147&token=srvnqrvq#?sid=261147&token=srvnqrvq
+  - https://user7588.eyudy.one/api/v1/client/subscribe?token=64aef9e2b551b427214bf2e4b94d2d0b
+  # TG #
+  # 蛋黄酱节点分享：@FProxies
+  # 0404节点
+  - https://sub.danhu.ddns-ip.net/paste/K1nbSiOepiWBQ87T/base64
+  - https://sub.danhu.ddns-ip.net/paste/K1nbSiOepiWBQ87T/clash
+  # 轩辕节点永久订阅：@fq521
+  - https://vip.xy666.ggff.net/auto
+  - https://svip.xy666.ggff.net/auto
+  # 资源分享：@txwl666
+  - https://rss.zyfx6.xyz/clash/
+  # 总节点保存
+  - https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/subs-check_Windows_x86_64/output/all.yaml
+  # Github共享节点
+  - https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt
+  - https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+  - https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash.yaml
+  - https://raw.githubusercontent.com/freeVPNjd/freeVPN1/main/clash
+  - https://raw.githubusercontent.com/igeekshare/GeekshareFreeNode/main/clash/Geekshare.yaml
+  - https://raw.githubusercontent.com/resasanian/Mirza/main/sub
+  - https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
+  - https://raw.githubusercontent.com/ZywChannel/free/main/sub
+  - https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
+  - https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/list.txt
+  # 备用节点
+  # - "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml"
+  # - "https://raw.githubusercontent.com/Roywaller/clash_subscription/refs/heads/main/clash_subscription.txt"
+  # - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml"
+  # - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc1.yaml"
+  # - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc2.yaml"
+  # - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc3.yaml"
+  # - "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc4.yaml"
+  # - "https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/clash/naidounode.txt"
+  # - "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml"
+  # - "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml"
+  # - "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"
+  # - "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml"
+  # - "https://raw.githubusercontent.com/leetomlee123/freenode/refs/heads/main/README.md"
+  # - "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
+  # - "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
+  # - "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
+  # - "https://raw.githubusercontent.com/mgit0001/test_clash/refs/heads/main/heima.txt"
+  # - "https://raw.githubusercontent.com/mai19950/clashgithub_com/refs/heads/main/site"
+  # - "https://raw.githubusercontent.com/aiboboxx/v2rayfree/refs/heads/main/README.md"
+  # - "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub"
+  # - "https://raw.githubusercontent.com/shahidbhutta/Clash/refs/heads/main/Router"
+  # - "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
+  # - "https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml"
+  # - "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml"
+  # - "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"
+  # - "https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml"
+  # - "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml"
+  # - "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt"
+  # - "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+  # - "https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml"
+  # - "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml"
