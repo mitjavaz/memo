@@ -1,11 +1,92 @@
 proxies:
+    - name: "\U0001F1E8\U0001F1F3 CN 068 | ⬇️ 26.45 MB/s"
+      network: tcp
+      password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+      port: 8313
+      server: dozo01.flztjc.top
+      skip-cert-verify: true
+      sni: dozo01.flztjc.top
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5 JP 094 | ⬇️ 10.75 MB/s"
+      password: 3bb81117-4b23-4ba8-8b17-589ce728aafc
+      port: 12012
+      server: 120.232.218.188
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC SG 098 | ⬇️ 23.03 MB/s"
+      port: 13016
+      server: 112.5.37.212
+      tls: false
+      type: vmess
+      uuid: 7cabdaf2-ff36-4dc1-9cd0-124045f4fb53
     - down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR 029 | ⬇️ 11.16 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP 100 | ⬇️ 10.64 MB/s"
       password: 0910a840-8184-4b02-a6f6-65ddf3d35236
-      port: 14940
+      port: 14682
+      ports: 14001-14999
+      server: surfboard-jp.jingfan.cyou
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - allowInsecure: "1"
+      name: "\U0001F1ED\U0001F1F0 HK 115 | ⬇️ 43.29 MB/s"
+      network: original
+      password: RlzoEILU
+      port: 34041
+      server: 36.156.102.115
+      skip-cert-verify: true
+      type: trojan
+    - down: 1000
+      name: "\U0001F1FA\U0001F1F8 US 202 | ⬇️ 18.75 MB/s"
+      password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+      port: 50053
+      ports: 50000-53000
+      server: 205.185.125.20
+      skip-cert-verify: true
+      sni: apps.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1FA\U0001F1F8 US 211 | ⬇️ 16.29 MB/s"
+      password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+      port: 52187
+      ports: 50000-53000
+      server: 209.141.42.49
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR 224 | ⬇️ 9.83 MB/s"
+      password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+      port: 14277
       ports: 14001-14999
       server: surfboard-kr.jingfan.cyou
       skip-cert-verify: false
       sni: null
       type: hysteria2
       up: 1000
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EA SE 252 | ⬇️ 12.22 MB/s"
+      password: 0910a840-8184-4b02-a6f6-65ddf3d35236
+      port: 14900
+      ports: 14001-14999
+      server: surfboard-se.jingfan.cyou
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: 1000
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB 506 | ⬇️ 12.29 MB/s"
+      password: 4c57a4f7-e137-4e0d-97c0-2f06bbcd2f2e
+      port: 52464
+      ports: 50000-53000
+      server: 5.180.30.16
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
