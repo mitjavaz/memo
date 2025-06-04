@@ -5,7 +5,7 @@ print-progress: true
 concurrent: 20
 
 # 检查间隔(分钟)
-check-interval: 30
+check-interval: 1440
 
 # cron表达式，如果配置了此项，将忽略check-interval
 # 支持标准cron表达式，如：
@@ -24,7 +24,7 @@ timeout: 2000
 speed-test-url: https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v2.21.12/Waifu2x-Extension-GUI-v2.21.12-Portable.7z
 
 # 最低测速结果舍弃(KB/s)
-min-speed: 9999
+min-speed: 5999
 
 # 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
 download-timeout: 3
@@ -50,7 +50,7 @@ rename-node: true
 node-prefix: ""
 
 # 是否开启流媒体检测，其中IP欺诈依赖重命名
-media-check: false
+media-check: true
 platforms:
   # - openai
   - youtube
@@ -61,7 +61,7 @@ platforms:
 
 # 保留之前测试成功的节点
 # 如果为true，则保留之前测试成功的节点，这样就不会因为上游链接更新，导致可用的节点被清除掉
-keep-success-proxies: false
+keep-success-proxies: true
 
 # 保存几个成功的节点，为0代表不限制 
 # 如果你的并发数量超过这个参数，那么成功的结果可能会大于这个数值
