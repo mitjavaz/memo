@@ -1,34 +1,216 @@
 proxies:
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 1086
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7法国1 | ⬇️ 2.2MB/s"
-    obfs: ''
-    port: 15010
-    protocol: ''
-    server: 195.154.200.40
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 3.0MB/s|Youtube"
+    network: ws
+    port: 443
+    server: 213.163.200.215
     skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-  - name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 2.8MB/s|Youtube"
-    password: e5f7bfba-dc46-471f-b7ac-535479bf3ab0
-    port: 48291
-    server: wb.kaiqsz.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 12d6eb6c-7fe7-4d13-9587-3bb9fda1bd28
+    ws-opts:
+      headers:
+        Host: pasindu.vpnhub.news
+      path: /
+    servername: pasindu.vpnhub.news
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 2.3MB/s"
+    password: oXGp1+ihlfKg826H
+    port: 1866
+    server: 172.233.128.126
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 2.7MB/s|Youtube"
+    password: shadowsocks
+    port: 443
+    server: 149.22.87.204
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 2.6MB/s|Youtube"
+    password: shadowsocks
+    port: 443
+    server: 149.22.87.241
+    type: ss
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 2.7MB/s|Youtube"
+    network: ws
+    port: 80
+    server: c62b5b59-sv2sg0-sx0ey8-1b8u2.hk.p5pv.com
     skip-cert-verify: false
-    sni: mmbiz1.redapricotcloud.com
-    type: trojan
-  - name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 3.1MB/s|Youtube"
-    password: e5f7bfba-dc46-471f-b7ac-535479bf3ab0
-    port: 28713
-    server: wb.kaiqsz.com
+    tls: false
+    type: vmess
+    uuid: 908111a6-f96b-11ed-9264-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: c62b5b59-sv2sg0-sx0ey8-1b8u2.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-42.2.113.136-0397 | 4.221MB"
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 3.1MB/s|Youtube"
+    network: ws
+    port: 80
+    server: 0bdf3f30-sv8cg0-t9uin7-19ord.hk.p5pv.com
     skip-cert-verify: false
-    sni: mmbiz1.redapricotcloud.com
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 6.5MB/s|Youtube"
+    tls: false
+    type: vmess
+    uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: 0bdf3f30-sv8cg0-t9uin7-19ord.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-42.2.113.136-5341 | 3.824MB"
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 3.2MB/s|Youtube"
+    network: ws
+    port: 80
+    server: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-42.2.113.136-0343 | 4.167MB"
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 5.5MB/s|Youtube"
+    network: ws
+    port: 80
+    server: 3ab9dc0e-sub0g0-tax87j-fxtw.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: c5437726-aa85-3ab0-f5ed-a62156a904f9
+    ws-opts:
+      headers:
+        Host: 3ab9dc0e-sub0g0-tax87j-fxtw.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-42.2.113.136-5326 | 4.068MB"
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港5 | ⬇️ 5.8MB/s|Youtube"
+    network: ws
+    port: 80
+    server: 3278b52d-sv2sg0-sw0kma-1tauc.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 36b8113e-e455-11ef-90fa-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 3278b52d-sv2sg0-sw0kma-1tauc.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-42.2.113.136-0346 | 3.369MB"
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他1-VN | ⬇️ 2.5MB/s|Youtube"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.25
+    type: ss
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港6 | ⬇️ 5.3MB/s|Youtube"
+    network: ws
+    port: 80
+    server: 055413e9-sucv40-texsud-1l6ym.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: b72009aa-ed88-11ed-92a4-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 055413e9-sucv40-texsud-1l6ym.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-42.2.113.136-0354 | 3.12MB"
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港7 | ⬇️ 4.9MB/s|Youtube"
+    network: ws
+    port: 80
+    server: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: d514a957-sv2sg0-swfla6-1rdqg.hk.p5pv.com
+      path: /
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港8 | ⬇️ 4.0MB/s|Youtube"
+    network: ws
+    port: 80
+    server: 7c8117a5-sv2sg0-sw1h9t-17czn.hk.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 392ea58a-f77f-11ef-be86-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: 7c8117a5-sv2sg0-sw1h9t-17czn.hk.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-42.2.113.136-0378 | 2.753MB"
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他2-VN | ⬇️ 5.3MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.22
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他3-VN | ⬇️ 5.5MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.27
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他4-未识别 | ⬇️ 3.8MB/s|Youtube"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.24
+    type: ss
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F300其他5-未识别 | ⬇️ 2.6MB/s"
+    network: ws
+    port: 80
+    server: 04e4679b-sv2sg0-swfla6-1rdqg.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: 04e4679b-sv2sg0-swfla6-1rdqg.hk3.p5pv.com
+      path: /
+    servername: "\U0001F1ED\U0001F1F0HK-1.65.202.165-5285 | 1.385MB"
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他6-VN | ⬇️ 2.3MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.37
+    type: ss
+  - name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 4.1MB/s|Youtube"
+    network: ws
+    port: 443
+    server: 160.79.105.89
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: cx.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: cx.bgm2024.dpdns.org
+  - name: "\U0001F300其他7-未识别 | ⬇️ 2.0MB/s"
     network: ws
     port: 443
     server: 103.44.255.81
@@ -42,18 +224,242 @@ proxies:
         Host: cx.bgm2024.dpdns.org
       path: /?ed=2560
     servername: cx.bgm2024.dpdns.org
-  - name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 2.0MB/s|Youtube"
-    password: 85f133142f04dbf6547da33895cfabb3
-    port: 39001
-    server: 120.233.128.68
+  - name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 3.4MB/s|Youtube"
+    network: ws
+    port: 443
+    server: 185.16.110.249
     skip-cert-verify: true
-    sni: 120.233.128.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: cx.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: cx.bgm2024.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 4.6MB/s|Youtube"
+    network: ws
+    port: 443
+    server: 192.200.160.14
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: cx.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: cx.bgm2024.dpdns.org
+  - name: "\U0001F300其他8-未识别 | ⬇️ 3.7MB/s|Youtube"
+    network: ws
+    port: 443
+    server: 185.133.35.183
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: cx.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: cx.bgm2024.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 3.5MB/s|Youtube"
+    network: ws
+    port: 443
+    server: 135.84.76.110
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: cx.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: cx.bgm2024.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 3.4MB/s|Youtube"
+    network: ws
+    port: 443
+    server: 63.141.128.163
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: cx.bgm2024.dpdns.org
+      path: /ss.vs2024.us.kg
+    servername: cx.bgm2024.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8美国7 | ⬇️ 2.9MB/s|Youtube"
+    network: ws
+    port: 443
+    server: 160.79.104.11
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 55520747-311e-4015-83ce-be46e2060ce3
+    ws-opts:
+      headers:
+        Host: cx.bgm2024.dpdns.org
+      path: /?ed=2560
+    servername: cx.bgm2024.dpdns.org
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港9 | ⬇️ 4.4MB/s|Youtube"
+    network: ws
+    port: 80
+    server: 033a3be9-sva740-t0r7l4-1ruih.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 3549abda-3854-11ef-b71e-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: 033a3be9-sva740-t0r7l4-1ruih.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - name: "\U0001F300其他9-未识别 | ⬇️ 3.8MB/s|Youtube"
+    network: ws
+    password: bpb-trojan
+    port: 443
+    server: 162.159.152.2
+    skip-cert-verify: false
+    sni: zamim340.ggff.net
     type: trojan
-  - delay: 1110
-    name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.1MB/s"
+    ws-opts:
+      headers:
+        Host: zamim340.ggff.net
+      path: /tr?ed=2560
+  - name: "\U0001F1FA\U0001F1F8美国8 | ⬇️ 2.9MB/s|Youtube"
+    network: ws
+    password: bpb-trojan
+    port: 443
+    server: 104.26.4.60
+    skip-cert-verify: false
+    sni: zamim340.ggff.net
+    type: trojan
+    ws-opts:
+      headers:
+        Host: zamim340.ggff.net
+      path: /tr?ed=2560
+  - delay: 657
+    name: "\U0001F1EF\U0001F1F5日本3 | ⬇️ 2.3MB/s|Youtube"
+    password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+    port: 27233
+    server: 2f58aec6-sxnds0-tcmken-19les.cm5.cnkuaishou.com
+    sni: 2f58aec6-sxnds0-tcmken-19les.cm5.cnkuaishou.com
+    type: trojan
+    udp: true
+  - delay: 1152
+    name: "\U0001F1EF\U0001F1F5日本4 | ⬇️ 2.4MB/s|Youtube"
+    password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+    port: 27233
+    server: cd7302f8-sxnds0-szt6ky-1bonh.cm5.cnkuaishou.com
+    sni: cd7302f8-sxnds0-szt6ky-1bonh.cm5.cnkuaishou.com
+    type: trojan
+    udp: true
+  - delay: 1468
+    name: "\U0001F1EF\U0001F1F5日本5 | ⬇️ 2.6MB/s|Youtube"
+    password: 8d05476e-ae88-11ed-8543-f23c913c8d2b
+    port: 27233
+    server: c1167cc0-sxlj40-t04f46-1hvn1.cm5.cnkuaishou.com
+    sni: c1167cc0-sxlj40-t04f46-1hvn1.cm5.cnkuaishou.com
+    type: trojan
+    udp: true
+  - delay: 1691
+    name: "\U0001F1EF\U0001F1F5日本6 | ⬇️ 2.2MB/s|Youtube"
+    password: 31ede2d8-3f22-11ef-b023-f23c9164ca5d
+    port: 27233
+    server: 49759c7c-sxnds0-szcku7-153sp.cm5.cnkuaishou.com
+    sni: 49759c7c-sxnds0-szcku7-153sp.cm5.cnkuaishou.com
+    type: trojan
+    udp: true
+  - client-fingerprint: randomized
+    delay: 2252
+    name: "\U0001F1ED\U0001F1F0香港10 | ⬇️ 2.8MB/s|Youtube"
+    network: ws
+    port: 443
+    server: www.visa.com.hk
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: f4522b1a-7cc2-4d4b-84c5-357242e052bb
+    ws-opts:
+      headers:
+        Host: jd.chenchuanjin.sbs
+      path: /?ed=2560
+    servername: jd.chenchuanjin.sbs
+  - delay: 712
+    name: "\U0001F1FA\U0001F1F8美国9 | ⬇️ 2.9MB/s"
+    network: ws
+    port: 2086
+    server: www.speedtest.net
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+    ws-opts:
+      headers:
+        Host: domain2025.dpdns.org
+      path: /3wvlyke7dbeif74o?ed=2560
+    servername: domain2025.dpdns.org
+  - delay: 555
+    name: "\U0001F1FA\U0001F1F8美国10 | ⬇️ 2.7MB/s|Youtube"
+    network: ws
+    port: 2086
+    server: domain2025.dpdns.org
+    type: vless
+    udp: true
+    uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+    ws-opts:
+      headers:
+        Host: domain2025.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.143 Safari/537.36
+      path: /5iOpl6glcE8I64UV?ed=2560
+    xudp: true
+  - delay: 558
+    name: "\U0001F1FA\U0001F1F8美国11 | ⬇️ 2.0MB/s|Youtube"
     network: ws
     port: 8880
-    server: 91.193.58.99
+    server: 104.21.75.66
+    type: vless
+    udp: true
+    uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+    ws-opts:
+      headers:
+        Host: domain2025.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /lidvBfIUfPSHbm3n?ed=2560
+    xudp: true
+  - delay: 500
+    name: "\U0001F300其他10-未识别 | ⬇️ 4.0MB/s|Youtube"
+    network: ws
+    port: 8880
+    server: 172.67.215.253
+    type: vless
+    udp: true
+    uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+    ws-opts:
+      headers:
+        Host: domain2025.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /H57KWmH4Go6gEw0d?ed=2560
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8美国12 | ⬇️ 2.7MB/s|Youtube"
+    network: ws
+    port: 8880
+    server: 91.193.58.2
     type: vless
     udp: true
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
@@ -61,14 +467,95 @@ proxies:
       headers:
         Host: sk.laoyoutiao.link
         User-Agent: >-
-          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /Telegram@WangCai2/?ed=2560
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
     xudp: true
-  - name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 3.7MB/s|Youtube"
+    servername: sk.laoyoutiao.link
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision-udp443
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F0\U0001F1F7韩国1 | ⬇️ 4.4MB/s|Youtube"
+    network: tcp
+    port: 443
+    server: 193.122.106.234
+    tls: true
+    type: vless
+    udp: true
+    uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+    xudp: true
+    servername: ako.pagate.top
+  - name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 2.0MB/s|Youtube"
     network: ws
     port: 80
-    server: 141.193.213.159
+    server: 104.21.75.66
+    type: vless
+    udp: true
+    uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+    ws-opts:
+      headers:
+        Host: domain2025.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /yeTxGofK7eV9fR3N?ed=2560
+    xudp: true
+  - name: "\U0001F300其他11-未识别 | ⬇️ 3.8MB/s|Youtube"
+    network: ws
+    port: 2052
+    server: 172.67.215.253
+    type: vless
+    udp: true
+    uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+    ws-opts:
+      headers:
+        Host: domain2025.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/37.0.2062.120 Safari/537.36
+      path: /ahiWVFUV6Bj3gGKk?ed=2560
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国13 | ⬇️ 3.8MB/s|Youtube"
+    network: ws
+    port: 443
+    server: 172.67.30.148
+    tls: true
+    type: vless
+    udp: true
+    uuid: e1d98310-db5a-4279-bbf7-760902b4af0b
+    ws-opts:
+      headers:
+        Host: 2576.papala.filegear-sg.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.94 Safari/537.36
+      path: /
+    xudp: true
+    servername: 2576.papala.filegear-sg.me
+  - name: "\U0001F1FA\U0001F1F8美国14 | ⬇️ 4.4MB/s|Youtube"
+    network: ws
+    port: 8880
+    server: 91.193.58.73
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    xudp: true
+    servername: sk.laoyoutiao.link
+  - name: "\U0001F300其他12-未识别 | ⬇️ 3.0MB/s|Youtube"
+    network: ws
+    port: 80
+    server: 141.193.213.82
     type: vless
     udp: true
     uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
@@ -76,44 +563,60 @@ proxies:
       headers:
         Host: cs.laoyoutiao.link
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: cs.laoyoutiao.link
+  - name: "\U0001F300其他13-未识别 | ⬇️ 6.0MB/s|Youtube"
+    network: ws
+    port: 80
+    server: 141.193.213.78
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: cs.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.162 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: cs.laoyoutiao.link
+  - name: "\U0001F1FA\U0001F1F8美国15 | ⬇️ 3.5MB/s|Youtube"
+    network: ws
+    port: 8880
+    server: 91.193.58.32
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+    xudp: true
+    servername: sk.laoyoutiao.link
+  - name: "\U0001F300其他14-未识别 | ⬇️ 2.0MB/s|Youtube"
+    network: ws
+    port: 8880
+    server: 91.193.58.196
+    type: vless
+    udp: true
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    ws-opts:
+      headers:
+        Host: sk.laoyoutiao.link
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
           AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
           Safari/537.36
       path: /TelegramU0001F1E8U0001F1F3
     xudp: true
-    servername: cs.laoyoutiao.link
-  - name: "\U0001F300其他1-未识别 | ⬇️ 2.0MB/s|Youtube"
-    network: ws
-    port: 80
-    server: 141.193.213.76
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: cs.laoyoutiao.link
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
-      path: /TelegramU0001F1E8U0001F1F3
-    xudp: true
-    servername: cs.laoyoutiao.link
-  - name: "\U0001F1F9\U0001F1FC台湾2 | ⬇️ 2.0MB/s"
-    network: ws
-    port: 80
-    server: 141.193.213.87
-    type: vless
-    udp: true
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: cs.laoyoutiao.link
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: /TelegramU0001F1E8U0001F1F3
-    xudp: true
-    servername: cs.laoyoutiao.link
+    servername: sk.laoyoutiao.link
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
