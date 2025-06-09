@@ -1,6 +1,23 @@
 proxies:
+    - name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 11.21 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.208
+      skip-cert-verify: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: cs.laoyoutiao.link
+        path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
+    - cipher: aes-128-gcm
+      name: "\U0001F1EF\U0001F1F5 JP 004 | ⬇️ 45.52 MB/s"
+      password: shadowsocks
+      port: 443
+      server: 149.22.87.241
+      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 31.85 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 33.37 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -12,78 +29,121 @@ proxies:
       tls: true
       type: vless
       uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 241 | ⬇️ 11.77 MB/s"
-      network: ws
+    - cipher: aes-128-gcm
+      name: "\U0001F1EF\U0001F1F5 JP 006 | ⬇️ 37.59 MB/s"
+      password: shadowsocks
       port: 443
-      server: 172.66.46.236
-      servername: M2-1CM.paGes.DeV
-      skip-cert-verify: false
-      tls: true
+      server: 149.22.87.204
+      type: ss
+    - delay: 462
+      name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 10.52 MB/s"
+      network: ws
+      port: 80
+      server: domain2025.dpdns.org
       type: vless
-      uuid: 0ef0630e-544c-4ed0-a4de-861f14695f37
+      udp: true
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
       ws-opts:
         headers:
-            Host: M2-1CM.paGes.DeV
-        path: /
-    - alterId: 0
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP 377 | ⬇️ 19.10 MB/s"
-      network: ws
-      port: 443
-      server: n1746194528.4u9ma.icu
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vmess
-      uuid: 6e457d2a-b2bd-41b5-b986-1b87d8b697fb
-      ws-opts:
-        headers:
-            Host: n1746194528.4u9ma.icu
-        path: /
-    - client-fingerprint: chrome
-      flow: ""
-      fp: chrome
-      grpc-opts:
-        grpc-service-name: ""
-      host: freedom11.fmnxmt.workers.dev
-      mode: ""
-      name: "\U0001F1FA\U0001F1F3 UN 413 | ⬇️ 11.30 MB/s"
-      network: ws
-      path: /
-      pbk: ""
+            Host: domain2025.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /yeTxGofK7eV9fR3N?ed=2560
+      xudp: true
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1EC SG 019 | ⬇️ 23.96 MB/s"
+      network: tcp
       port: 443
       reality-opts:
-        public-key: ""
-        short-id: ""
-      security: tls
-      server: 104.21.84.22
-      servername: freedom11.fmnxmt.workers.dev
-      serviceName: ""
-      sid: ""
-      sni: freedom11.fmnxmt.workers.dev
+        public-key: M51jwGjuvXEvLryflRZNkXY2ggCA7y8jVmrSVHX1xX4
+        short-id: 9d5d84da
+      server: c8217-b2a.h2.49d2.dje11.5.b297.djjsvip.cfd
+      servername: osxapps.itunes.apple.com
+      skip-cert-verify: false
       tls: true
       type: vless
-      udp: false
-      uuid: 375dd25d-0ec6-454c-be6f-ce67b196b23b
-      ws-opts:
-        headers:
-            Host: freedom11.fmnxmt.workers.dev
-        path: /
-    - alterId: 0
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP 429 | ⬇️ 13.99 MB/s"
+      udp: true
+      uuid: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
+    - name: "\U0001F1FA\U0001F1F8 US 027 | ⬇️ 33.50 MB/s"
       network: ws
       port: 443
-      server: n1746194548.kzojg.cyou
+      server: 104.24.173.253
+      servername: vpn.6662221.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0b603235-b7be-46a8-a952-cd0436f34ecf
+      ws-opts:
+        headers:
+            host: vpn.6662221.xyz
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 053 | ⬇️ 31.37 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.67
+      skip-cert-verify: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: cs.laoyoutiao.link
+        path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
+    - country: "\U0001F3C1ZZ"
+      delay: 1034
+      name: "\U0001F1F0\U0001F1F7 KR 055 | ⬇️ 16.23 MB/s"
+      network: ws
+      password: slch2024
+      port: 443
+      server: usa.visa.com
+      skip-cert-verify: true
+      sni: ocost-dy.wmlefl.cc
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: ocost-dy.wmlefl.cc
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 057 | ⬇️ 17.35 MB/s"
+      network: ws
+      password: bpb-trojan
+      port: 443
+      server: 172.67.70.92
+      skip-cert-verify: false
+      sni: zamim340.ggff.net
+      type: trojan
+      ws-opts:
+        headers:
+            Host: zamim340.ggff.net
+        path: /tr?ed=2560
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US 074 | ⬇️ 11.24 MB/s"
+      password: shadowsocks
+      port: 443
+      server: 173.244.56.9
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US 077 | ⬇️ 11.36 MB/s"
+      password: shadowsocks
+      port: 443
+      server: 212.102.47.131
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US 084 | ⬇️ 13.22 MB/s"
+      password: shadowsocks
+      port: 443
+      server: 156.146.38.168
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0 HK 089 | ⬇️ 16.66 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+      server: 38.180.150.38
+      servername: siteintercept.qualtrics.com
       skip-cert-verify: false
       tfo: false
       tls: true
-      type: vmess
-      uuid: 2932837e-e142-4005-83f9-d908609d12ef
-      ws-opts:
-        headers:
-            Host: n1746194548.kzojg.cyou
-        path: /
+      type: vless
+      uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
