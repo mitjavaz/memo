@@ -37,6 +37,12 @@ proxy-providers:
     interval: 3600
     proxy: DIRECT
     path: ./proxy_provider/speed.yaml
+  speed1:
+    type: http
+    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/speed1.yaml
+    interval: 3600
+    proxy: DIRECT
+    path: ./proxy_provider/speed.yaml
   youtube:
     type: http
     url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/youtube.yaml
@@ -52,6 +58,7 @@ proxy-groups:
       - ♻️ 测速代理
     use:
       - speed
+      - speed1
     url: 'https://www.youtube.com/generate_204'
     interval: 600
     lazy: true
@@ -78,7 +85,7 @@ rule-providers:
     type: http
     path: ./yesVPN.yaml
     url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/yesVPN.list"
-    interval: 7200
+    interval: 3600
     proxy: DIRECT
     behavior: classical
     format: text
@@ -86,7 +93,7 @@ rule-providers:
     type: http
     path: ./noVPN.yaml
     url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/noVPN.list"
-    interval: 7200
+    interval: 3600
     proxy: DIRECT
     behavior: classical
     format: text
@@ -94,7 +101,7 @@ rule-providers:
     type: http
     path: ./stopVPN.yaml
     url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/stopVPN.list"
-    interval: 7200
+    interval: 3600
     proxy: DIRECT
     behavior: classical
     format: text
