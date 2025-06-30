@@ -1,22 +1,35 @@
 proxies:
-    - cipher: aes-256-cfb
+    - cipher: chacha20-ietf-poly1305
       country: SG
-      name: "\U0001F1F8\U0001F1EC SG 007 | ⬇️ 31.52 MB/s"
-      password: qawszxc123
-      port: 443
-      server: 13.212.187.83
+      name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 11.61 MB/s"
+      password: 2df393ef-b5fa-4ffd-9af3-761034bf33e3
+      port: 30013
+      server: 192.53.172.74
       type: ss
     - cipher: aes-256-cfb
       country: SG
-      name: "\U0001F1F8\U0001F1EC SG 023 | ⬇️ 30.46 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG 003 | ⬇️ 15.23 MB/s"
       password: qawszxc123
       port: 443
-      server: 13.229.183.5
+      server: 18.143.181.137
       type: ss
-    - name: "\U0001F1ED\U0001F1F0 HK 029 | ⬇️ 25.72 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 12.25 MB/s"
       network: ws
       port: 8880
-      server: 45.192.222.29
+      server: 45.81.58.34
+      skip-cert-verify: true
+      tfo: false
+      tls: false
+      type: vless
+      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+      ws-opts:
+        headers:
+            Host: bitget1.asdasd.click
+        path: /?ed=2560
+    - name: "\U0001F1F3\U0001F1F1 NL 010 | ⬇️ 15.75 MB/s"
+      network: ws
+      port: 8880
+      server: 188.164.248.213
       skip-cert-verify: true
       tfo: false
       tls: false
@@ -24,85 +37,73 @@ proxies:
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: hk.laoyoutiao.link
-        path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+            Host: jp.laoyoutiao.link
+        path: /Telegram@V2ray_Alpha/?ed=2048
     - cipher: aes-256-cfb
       country: SG
-      name: "\U0001F1F8\U0001F1EC SG 035 | ⬇️ 40.08 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG 012 | ⬇️ 15.32 MB/s"
       password: qawszxc123
       port: 443
-      server: 47.129.2.253
+      server: 54.251.239.103
       type: ss
     - cipher: aes-256-cfb
       country: SG
-      name: "\U0001F1F8\U0001F1EC SG 071 | ⬇️ 21.94 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG 013 | ⬇️ 10.21 MB/s"
       password: qawszxc123
       port: 443
-      server: 13.229.243.5
+      server: 54.255.45.36
       type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG 080 | ⬇️ 34.42 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.252.55
-      servername: opensignal.awsglobalaccelerator.online
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: eb9ac797-4a77-4f3f-bd60-0baa69b47e92
-      ws-opts:
-        headers:
-            Host: opensignal.awsglobalaccelerator.online
-        path: /danuwa
     - cipher: aes-256-cfb
       country: SG
-      name: "\U0001F1F8\U0001F1EC SG 088 | ⬇️ 20.27 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG 014 | ⬇️ 11.85 MB/s"
       password: qawszxc123
       port: 443
-      server: 54.254.137.23
+      server: 54.179.133.10
       type: ss
-    - client-fingerprint: chrome
-      flow: ""
-      fp: chrome
-      grpc-opts:
-        grpc-service-name: ""
-      host: kosesher2.nayase6031.workers.dev
-      mode: ""
-      name: "\U0001F1FA\U0001F1F8 US 098 | ⬇️ 23.05 MB/s"
-      network: ws
-      path: /?ed=2048
-      pbk: ""
-      port: 443
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      security: tls
-      server: 50.7.85.221
-      servername: kosesher2.nayase6031.workers.dev
-      serviceName: ""
-      sid: ""
-      sni: kosesher2.nayase6031.workers.dev
-      tls: true
-      type: vless
-      udp: false
-      uuid: 64a125b1-4a57-4a64-bfb2-7dc6866c55bc
-      ws-opts:
-        headers:
-            Host: kosesher2.nayase6031.workers.dev
-        path: /?ed=2048
-    - cipher: aes-256-cfb
-      country: JP
-      name: "\U0001F1EF\U0001F1F5 JP 107 | ⬇️ 30.49 MB/s"
-      password: awsps0501
-      port: 443
-      server: 52.195.228.170
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 US 112 | ⬇️ 20.27 MB/s"
+    - name: "\U0001F1E9\U0001F1EA DE 015 | ⬇️ 13.17 MB/s"
       network: ws
       port: 80
-      server: 141.193.213.28
-      servername: cs.laoyoutiao.link
+      server: 104.16.241.234
+      skip-cert-verify: true
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 92f481b6-ad92-43e4-a683-2bb0aeaa9846
+      ws-opts:
+        headers:
+            Host: dw.alibichareh.dpdns.org
+        path: /?ed=2570
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7 FR 017 | ⬇️ 10.70 MB/s"
+      network: ws
+      port: 80
+      server: 104.16.100.188
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
+      ws-opts:
+        headers:
+            Host: entezar.loseyourself.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 018 | ⬇️ 14.96 MB/s"
+      network: ws
+      port: 8880
+      server: 167.68.42.251
+      skip-cert-verify: true
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: /Telegram @WangCai2 /?ed=2560
+    - name: "\U0001F1EF\U0001F1F5 JP 021 | ⬇️ 16.19 MB/s"
+      network: ws
+      port: 8880
+      server: 188.42.88.213
       skip-cert-verify: true
       tfo: false
       tls: false
@@ -110,48 +111,32 @@ proxies:
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: cs.laoyoutiao.link
-        path: /TelegramU0001F1E8U0001F1F3
+            Host: jp.laoyoutiao.link
+        path: /Telegram@V2ray_Alpha/?ed=2048
     - cipher: aes-256-cfb
-      country: JP
-      name: "\U0001F1EF\U0001F1F5 JP 121 | ⬇️ 30.77 MB/s"
-      password: awsps0501
+      country: SG
+      name: "\U0001F1F8\U0001F1EC SG 022 | ⬇️ 11.75 MB/s"
+      password: qawszxc123
       port: 443
-      server: 13.230.12.217
+      server: 13.212.87.138
       type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1E7\U0001F1F7 BR 130 | ⬇️ 28.17 MB/s"
+    - name: "\U0001F1F7\U0001F1FA RU 027 | ⬇️ 14.34 MB/s"
       network: ws
-      port: 443
-      server: 168.138.181.208
-      servername: sgp.rtot.me
-      skip-cert-verify: false
+      port: 8880
+      server: 77.105.163.177
+      skip-cert-verify: true
       tfo: false
-      tls: true
+      tls: false
       type: vless
-      uuid: 0783b1b9-5d8b-4d03-adc3-b050acc71a29
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
       ws-opts:
         headers:
-            Host: sgp.rtot.me
-        path: /bing
-    - cipher: aes-256-cfb
-      country: KR
-      name: "\U0001F1F0\U0001F1F7 KR 145 | ⬇️ 28.65 MB/s"
-      password: yijian0503
-      port: 443
-      server: 3.38.209.152
-      type: ss
-    - cipher: aes-256-cfb
-      country: KR
-      name: "\U0001F1F0\U0001F1F7 KR 152 | ⬇️ 25.00 MB/s"
-      password: yijian0503
-      port: 443
-      server: 43.203.255.63
-      type: ss
-    - cipher: aes-256-cfb
-      country: KR
-      name: "\U0001F1F0\U0001F1F7 KR 155 | ⬇️ 23.86 MB/s"
-      password: yijian0503
-      port: 443
-      server: 3.38.102.175
+            Host: ip.langmanshanxi.top
+        path: /Telegram @WangCai2 /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      country: CN
+      name: "\U0001F1E8\U0001F1F3 CN 029 | ⬇️ 22.56 MB/s"
+      password: dbba4dcb-db0c-4415-a6d3-d72a93206f5b
+      port: 46608
+      server: xg-jd.huidu51.com
       type: ss
