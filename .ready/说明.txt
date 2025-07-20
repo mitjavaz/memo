@@ -1,7 +1,4 @@
 更多教程、软件等精彩资源 尽在↓
 
-维格云统计汇总往期资源分享：
-	https://vika.cn/share/shrEL5y0WbxlKbFkFWvQM/fodk0CS8WtLnT
-
 防失联地址：
 	https://link3.cc/headbuff?channel=6
