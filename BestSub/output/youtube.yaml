@@ -1,51 +1,156 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      client-fingerprint: chrome
-      name: "\U0001F1F9\U0001F1FC TW 003"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: 16a89ef:154955
-        mode: tls
-      port: 2377
-      server: 118.163.198.45
-      tfo: false
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC SG 009"
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 001"
       network: ws
-      port: 20521
-      server: 95.134.250.54
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 1c17b535-74e7-4ec0-a0ed-ac105082410c
-      ws-opts:
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1F9\U0001F1FC TW 018"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 154.223.20.79
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC TW 022"
-      network: ws
-      port: 80
-      server: e6cjccn36pz4.jkhkgj.xyz
-      skip-cert-verify: true
+      port: 8880
+      server: 185.148.105.20
+      skip-cert-verify: false
       tfo: false
       tls: false
-      type: vmess
-      udp: true
-      uuid: 5c3cd045-bd33-44c9-b02f-1087ce9ec34c
+      type: vless
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
       ws-opts:
         headers:
-            Host: file.dingtalk.com
-        path: /market/tw?ed=512
-    - name: "\U0001F1FA\U0001F1F8 US 026"
+            Host: ip.langmanshanxi.top
+        path: /Telegram@节点狂魔2/?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG 002"
+      network: ws
+      port: 8880
+      server: 91.193.58.254
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: kjgx.laoyoutiao.link
+        path: /Telegram@WangCai2/?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7 KR 003"
+      network: ws
+      port: 8880
+      server: 86.38.214.177
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      ws-opts:
+        headers:
+            Host: ip.langmanshanxi.top
+        path: /Telegram@WangCai2/?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 004"
+      network: ws
+      port: 8880
+      server: 14.102.229.177
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      ws-opts:
+        headers:
+            Host: ip.langmanshanxi.top
+        path: /Telegram @WangCai2 /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 005"
+      network: ws
+      port: 8880
+      server: 45.153.7.63
+      tls: false
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: jp.laoyoutiao.link
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 006"
+      network: ws
+      port: 8880
+      server: 5.182.84.213
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: jp.laoyoutiao.link
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 007"
+      network: ws
+      port: 8880
+      server: 91.193.58.69
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+        path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7 KR 008"
+      network: ws
+      port: 8880
+      server: 31.43.179.177
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      ws-opts:
+        headers:
+            Host: ip.langmanshanxi.top
+        path: /Telegram @WangCai2 /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 009 | ⬇️ 16.94 MB/s"
+      password: 24Wk2NSszrfHn22zem1lYV
+      port: 37708
+      server: 188.166.220.70
+      type: ss
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 010"
+      network: ws
+      port: 443
+      server: 172.66.45.24
+      servername: reAl-madrID9248.pagEs.dEv
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: f744c2dc-1359-494c-9808-d81ce7665d58
+      ws-opts:
+        headers:
+            Host: reAl-madrID9248.pagEs.dEv
+        path: /LQlBRp7bKt33t0q2?ed=2560
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: randomized
+      name: "\U0001F1EB\U0001F1EE FI 013"
+      network: ws
+      port: 443
+      server: 104.16.3.5
+      servername: gulf-d96.pages.dev
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 963816bd-b6e7-4648-abff-8af25bc07d87
+      ws-opts:
+        headers:
+            Host: gulf-d96.pages.dev
+        path: /ecY3gziM8W6ud5yj?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 014"
       network: ws
       port: 7000
       server: 64.235.61.162
@@ -59,35 +164,9 @@ proxies:
         headers:
             host: xxx.ylks0033.dpdns.org
         path: /?ed=2560
-    - allowInsecure: "1"
-      name: "\U0001F1F8\U0001F1EC SG 028"
-      network: original
-      password: 1e386ab5-c35e-49ed-ab12-00639dee0602
-      port: 15315
-      server: a.ziqiu1060.ggff.net
-      skip-cert-verify: true
-      type: trojan
-    - allowInsecure: "1"
-      name: "\U0001F1F9\U0001F1FC TW 034"
-      network: original
-      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
-      port: 37113
-      server: speedo4602000.top
-      skip-cert-verify: true
-      type: trojan
-    - name: "\U0001F1F3\U0001F1F1 NL 038"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36400
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F8\U0001F1EC SG 041"
+      name: "\U0001F1F8\U0001F1EC SG 015"
       network: ws
       port: 12261
       server: default.sg.gcp.ddns.ad.989567.xyz
@@ -99,20 +178,267 @@ proxies:
         headers:
             Host: default.sg.gcp.ddns.ad.989567.xyz
         path: /login
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 043"
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 016"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.23
+      type: ss
+    - name: "\U0001F1E9\U0001F1EA DE 017"
       network: ws
-      port: 8080
-      server: 47.79.94.25
+      password: d6b8011a-c725-435a-9fec-bf6d3530392c
+      port: 443
+      server: 154.83.2.200
       skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: b36d992c-786b-4136-96d6-c37641207d47
+      sni: vle.amclubdns.dpdns.org
+      type: trojan
+      udp: true
       ws-opts:
+        headers:
+            Host: vle.amclubdns.dpdns.org
+        path: /?ed=2560&PROT_TYPE=trojan
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 018"
+      network: ws
+      port: 8443
+      server: 162.159.129.67
+      servername: azadnet1-706.pages.dev
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+      ws-opts:
+        headers:
+            Host: azadnet1-706.pages.dev
+        path: /azadnet1-706.pages.dev/?ed=2560
+    - alpn:
+        - h2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F3 UN 020"
+      network: ws
+      port: 443
+      server: 104.18.13.229
+      servername: add.lobia.sbs
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: add.lobia.sbs
+        path: /
+    - auth: wl4HYN9PPKs8d8IzGIt4yKqt0
+      name: "\U0001F1EF\U0001F1F5 JP 021"
+      password: wl4HYN9PPKs8d8IzGIt4yKqt0
+      port: 53348
+      server: 47.74.34.102
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1E9\U0001F1EA DE 029"
+      network: ws
+      password: d6b8011a-c725-435a-9fec-bf6d3530392c
+      port: 2096
+      server: 103.160.204.49
+      skip-cert-verify: true
+      sni: vle.amclubsvip.dpdns.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: vle.amclubsvip.dpdns.org
+        path: /?ed=2560&PROT_TYPE=trojan
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7 KR 030"
+      network: ws
+      port: 8880
+      server: 104.16.69.64
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 02811288-9ef3-42ef-86db-d9b1399c1a59
+      ws-opts:
+        headers:
+            Host: vghavi32.ip-ddns.com
+        path: /7YVyoVNnbaVzgl6D?ed=2560
+    - name: "\U0001F1F3\U0001F1F1 NL 032"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36400
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 033"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.18
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 034"
+      network: ws
+      port: 443
+      server: 3.0.39.179
+      servername: jd.chenchuanjin.sbs
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: f4522b1a-7cc2-4d4b-84c5-357242e052bb
+      ws-opts:
+        headers:
+            Host: jd.chenchuanjin.sbs
+        path: /
+    - auth: jyEWQRbJATgWMu3XQtRvxb2h0
+      name: "\U0001F1EF\U0001F1F5 JP 036"
+      password: jyEWQRbJATgWMu3XQtRvxb2h0
+      port: 25635
+      server: 47.79.34.232
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - insecure: "0"
+      mport: ""
+      name: "\U0001F1F3\U0001F1F1 NL 038"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 35000
+      ports: ""
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8 US 039"
+      network: ws
+      port: 80
+      server: 141.193.213.52
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7 KR 040"
+      network: ws
+      port: 8880
+      server: 88.216.69.177
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      ws-opts:
+        headers:
+            Host: ip.langmanshanxi.top
+        path: /Telegram@WangCai2/?ed=2560
+    - name: "\U0001F1F8\U0001F1EC SG 042"
+      password: lkz20040702
+      port: 443
+      server: kkk9.zabc.net
+      skip-cert-verify: false
+      sni: kkk9.zabc.net
+      tfo: false
+      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 044"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.35
+      type: ss
+    - insecure: "1"
+      mport: ""
+      name: "\U0001F1EB\U0001F1F7 FR 049"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: 31180
+      ports: ""
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria2
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8 US 050"
+      network: ws
+      port: 8443
+      server: 104.18.12.229
+      servername: azadnet-4nb.pages.dev
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: azadnet-4nb.pages.dev
         path: /
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP 044"
+      name: "\U0001F1F9\U0001F1F7 TR 052"
+      network: ws
+      port: 443
+      server: cdnjs.com
+      servername: rayan-roof.atena.dpdns.org
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: db400287-fb42-441d-8a76-5624a8a96f49
+      ws-opts:
+        headers:
+            Host: rayan-roof.atena.dpdns.org
+        path: /?ed=2560
+    - cipher: chacha20-ietf
+      name: "\U0001F1F8\U0001F1EC SG 061"
+      password: asd123456
+      port: 8388
+      server: 103.36.91.23
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EB\U0001F1F7 FR 064"
+      password: a58fa62b4944ddbf
+      port: 57456
+      server: 81.19.137.222
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EA DE 065"
+      password: Sn5B7jTqr76aCJT8
+      port: 9097
+      server: 80.92.204.106
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 068"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.36
+      type: ss
+    - client-fingerprint: randomized
+      name: "\U0001F1E9\U0001F1EA DE 070"
+      network: ws
+      port: 8443
+      server: 45.131.210.218
+      servername: gGHDFa.pAgeS.Dev
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: a396b860-11b7-4af3-9950-146caf79735e
+      ws-opts:
+        headers:
+            Host: gGHDFa.pAgeS.Dev
+        path: /Tel-@V2ray_Alpha/?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 071"
       network: ws
       port: 443
       server: 160.16.56.195
@@ -126,37 +452,392 @@ proxies:
         headers:
             Host: jp.laoyoutiao.link
         path: Telegram@WangCai2/?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 045"
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 072"
       network: ws
-      port: 20521
-      server: 163.61.206.153
+      password: trojan
+      port: 8443
+      server: ip.sb
+      skip-cert-verify: false
+      sni: fofang.pages.dev
+      type: trojan
+      ws-opts:
+        headers:
+            Host: fofang.pages.dev
+        path: /?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: rayan-12.leila.dpdns.org
+      mode: ""
+      name: "\U0001F1EE\U0001F1F3 IN 076"
+      network: ws
+      path: /@Rayan_Configfp=chrome
+      pbk: ""
+      port: 443
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 188.42.89.145
+      servername: rAyAn-12.LeIlA.DpDnS.OrG
+      serviceName: ""
+      sid: ""
+      sni: rAyAn-12.LeIlA.DpDnS.OrG
+      tls: true
+      type: vless
+      udp: false
+      uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
+      ws-opts:
+        headers:
+            Host: rayan-12.leila.dpdns.org
+        path: /@Rayan_Configfp=chrome
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7 FR 078"
+      network: ws
+      port: 443
+      server: 104.19.173.68
+      servername: rayan-fg-7.mohammad-janam.filegear-sg.me
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: e97a0128-4785-4323-a2a5-dd01ce49d359
+      ws-opts:
+        headers:
+            Host: rayan-fg-7.mohammad-janam.filegear-sg.me
+        path: /?ed=2560
+    - alpn:
+        - h3
+      auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+      name: "\U0001F1E8\U0001F1E6 CA 080"
+      password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+      port: 45979
+      server: 40.233.119.160
       skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F7\U0001F1F8 RS 081"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 194.71.126.31
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F3 UN 084"
+      network: ws
+      password: tg-fq521free
+      port: 443
+      server: 198.62.62.67
+      skip-cert-verify: false
+      sni: torjan.xn--xhq44j.eu.org
+      type: trojan
+      ws-opts:
+        headers:
+            Host: torjan.xn--xhq44j.eu.org
+        path: /
+    - insecure: "1"
+      mport: ""
+      name: "\U0001F1EF\U0001F1F5 JP 088"
+      obfs: ""
+      obfs-password: ""
+      password: 196d331c-9a7d-4a8a-990e-f8babff27412
+      port: 35789
+      ports: ""
+      server: jpcn286.s2fjeyeeyafe.bond
+      skip-cert-verify: true
+      sni: jpcn286.s2fjeyeeyafe.bond
+      type: hysteria2
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG 089"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: test.saas.cname.123153.xyz
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: test.saas.cname.123153.xyz
+        path: /snippets
+    - cipher: aes-128-gcm
+      name: "\U0001F1F3\U0001F1F1 NL 096"
+      password: shadowsocks
+      port: 443
+      server: 149.34.244.68
+      type: ss
+    - name: "\U0001F1EF\U0001F1F5 JP 101"
+      network: ws
+      port: 8880
+      server: 192.0.54.213
+      skip-cert-verify: false
       tls: false
-      type: vmess
-      uuid: a54c196d-65c8-4c5c-ba0e-3e291a7502c3
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: jp.laoyoutiao.link
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1 NL 109"
+      password: QCXDxuDlTTMD7jtgHUjIoj
+      port: 8080
+      server: 151.242.251.153
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1E6 CA 110"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 79.127.233.170
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US 112 | ⬇️ 13.05 MB/s"
+      network: ws
+      password: tg-fq521free
+      port: 443
+      server: 216.24.57.30
+      sni: torjan.xn--xhq44j.eu.org
+      tls: true
+      type: trojan
       ws-opts:
         path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 046"
-      password: qwerREWQ@@
-      port: 8960
-      server: p060.panda001.net
+    - cipher: aes-128-gcm
+      name: "\U0001F1EC\U0001F1E7 GB 115"
+      password: shadowsocks
+      port: 443
+      server: 212.102.53.80
+      type: ss
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 118"
+      network: ws
+      port: 443
+      server: 104.17.183.58
+      servername: frieren.albedo.ddns-ip.net
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: c1601a96-febd-4baa-8fe3-17ca8f4121bd
+      ws-opts:
+        headers:
+            Host: frieren.albedo.ddns-ip.net
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 123"
+      network: ws
+      port: 8880
+      server: 91.193.58.133
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: sk.laoyoutiao.link
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 125"
+      network: ws
+      port: 443
+      server: 104.25.1.74
+      servername: rayan-09.parastoo.dpdns.org
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
+      ws-opts:
+        headers:
+            Host: rayan-09.parastoo.dpdns.org
+        path: /@Rayan_Config
+    - cipher: aes-128-gcm
+      name: "\U0001F1EF\U0001F1F5 JP 127"
+      password: shadowsocks
+      port: 443
+      server: 149.22.87.241
       type: ss
     - alterId: 0
       cipher: auto
-      client-fingerprint: ""
-      name: "\U0001F1EF\U0001F1F5 JP 047"
-      port: 53530
-      server: test.fsadfasfdas.store
-      servername: test.fsadfasfdas.store
-      tls: true
+      name: "\U0001F1EE\U0001F1F3 IN 131"
+      port: 49882
+      server: 148.113.6.81
+      skip-cert-verify: true
+      tfo: false
+      tls: false
       type: vmess
-      uuid: d0c9e668-fb8f-4371-a060-ce4e1d4b8b11
+      udp: true
+      uuid: 6663a422-875c-44ee-9a25-3f7b334dd9f5
+    - alterId: 2
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7 KR 154"
+      network: ws
+      port: 30828
+      server: v28.heduian.link
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            Host: ocbc.com
+        path: /oooo
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 157"
+      network: ws
+      port: 2095
+      server: www.epicgames.com
+      servername: fuckingxijinping.20241225.workers.dev
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: fuckingxijinping.20241225.workers.dev
+        path: /?ed=2560
+    - auth: 06529b18-fbec-4586-982e-497f529d17a1
+      name: "\U0001F1ED\U0001F1F0 HK 160"
+      obfs: salamander
+      obfs-password: ZWYxYjI3YjlmY2I0OGEwYw==
+      password: 06529b18-fbec-4586-982e-497f529d17a1
+      port: 35260
+      server: flyxghy.flylink.cyou
+      skip-cert-verify: true
+      sni: flyxghy.flylink.cyou
+      type: hysteria2
+      udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F9\U0001F1FC TW 048"
+      name: "\U0001F1F9\U0001F1F7 TR 162"
+      network: ws
+      port: 8443
+      server: 185.93.69.6
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: ec161019-8535-4307-b5e0-03389cac5a77
+      ws-opts:
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8 US 166"
+      password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
+      port: 42029
+      server: 208.67.105.196
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US 198"
+      network: ws
+      port: 80
+      server: 141.193.213.37
+      tls: false
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: us.laoyoutiao.link
+        max-early-data: 2560
+        path: /Telegram @MxlShare @WangCai2 /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 199"
+      network: ws
+      port: 8880
+      server: 91.124.127.177
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      ws-opts:
+        headers:
+            Host: ip.langmanshanxi.top
+        path: /Telegram @WangCai2 /?ed=2560
+    - cipher: aes-256-cfb
+      client-fingerprint: chrome
+      name: "\U0001F1FB\U0001F1F3 VN 202"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.30
+      tfo: false
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 227"
+      network: ws
+      port: 443
+      server: 104.25.81.220
+      servername: rayan-08.parastoo.dpdns.org
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
+      ws-opts:
+        headers:
+            Host: rayan-08.parastoo.dpdns.org
+        path: /@Rayan_Config
+    - name: "\U0001F1F3\U0001F1F1 NL 229"
+      obfs: salamander
+      obfs-password: Yet-Another-Public-Config-1
+      password: Yet-Another-Public-Config-1
+      port: 36300
+      server: yapc-1.adamhayward.co.uk
+      skip-cert-verify: false
+      sni: YAPC-1.afshin.ir
+      tls: false
+      type: hysteria2
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1E6 UA 237"
+      network: ws
+      port: 20521
+      server: 141.105.130.27
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: c66a5970-bdd4-4a8c-a1f2-cdeb6a9a4627
+      ws-opts:
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0 HK 258"
+      network: ws
+      port: 8880
+      server: 141.11.202.29
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: hk.laoyoutiao.link
+        path: /Telegram @MxlShare @WangCai2 /?ed=2560
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 278"
+      network: ws
+      port: 443
+      server: 104.16.144.63
+      servername: a.azadnet003.ddns-ip.net
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+      ws-opts:
+        headers:
+            Host: a.azadnet003.ddns-ip.net
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC TW 280"
       network: ws
       port: 10694
       server: speedo4602000.top
@@ -168,412 +849,14 @@ proxies:
         headers:
             Host: speedo4602000.top
         path: /kbyg
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP 049"
-      password: d0d08cddacc3190ea81b1b792e1b5fde
-      port: 41225
-      server: 36.151.251.7
-      skip-cert-verify: true
-      sni: www.baidu.com
-      type: trojan
-    - name: "\U0001F1F3\U0001F1F1 NL 053"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36300
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG 054"
-      password: d0d08cddacc3190ea81b1b792e1b5fde
-      port: 25618
-      server: 36.151.251.7
-      skip-cert-verify: true
-      sni: www.baidu.com
-      type: trojan
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FB\U0001F1F3 VN 058"
-      network: ws
-      port: 80
-      server: 38.54.30.86
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 5f9ff96f-c659-4ef2-8ba7-e3fb6040f5b2
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 060"
-      network: ws
-      port: 20521
-      server: 47.79.36.73
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: f04fd44b-696e-47e4-9cfa-10590704e200
-      ws-opts:
-        path: /
-    - cipher: aes-128-gcm
-      name: "\U0001F1F0\U0001F1F7 KR 062 | ⬇️ 14.00 MB/s"
-      password: ffc9365a-7211-4b6b-a5f9-170212235798
-      port: 19032
-      server: kr.xj-node.com
-      type: ss
-    - client-fingerprint: firefox
-      name: "\U0001F1EF\U0001F1F5 JP 065"
-      network: tcp
-      port: 55799
-      reality-opts:
-        public-key: XiEZPMFhsJZAZxOskd6R91T3P2bppE_tWFH2OUhp5CE
-        short-id: 7695f24f
-      server: 35.79.222.10
-      servername: sega.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: ac40c87f-108a-46ac-92ec-41148c06bfaf
-    - name: "\U0001F1F8\U0001F1EC SG 066"
-      password: lkz20040702
-      port: 443
-      server: kkk9.zabc.net
-      skip-cert-verify: false
-      sni: kkk9.zabc.net
-      tfo: false
-      type: hysteria2
-    - auth: jyEWQRbJATgWMu3XQtRvxb2h0
-      name: "\U0001F1EF\U0001F1F5 JP 070"
-      password: jyEWQRbJATgWMu3XQtRvxb2h0
-      port: 25635
-      server: 47.79.34.232
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EE\U0001F1F3 IN 072"
+      name: "\U0001F1EE\U0001F1F3 IN 281"
       password: f8f7aCzcPKbsF8p3
       port: 990
       server: 134.209.147.198
       type: ss
-    - insecure: "0"
-      mport: ""
-      name: "\U0001F1F3\U0001F1F1 NL 073"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 36600
-      ports: ""
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      type: hysteria2
-    - cipher: aes-256-gcm
-      name: "\U0001F1F9\U0001F1FC TW 074"
-      password: 6ca21c55-f106-4ae2-9f54-6ad85812748f
-      port: 47082
-      server: forward03.gouersu.top
-      type: ss
-    - cipher: aes-256-cfb
-      client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7 KR 075"
-      password: amazonskr05
-      port: 443
-      server: 3.38.134.57
-      tfo: false
-      type: ss
-    - name: "\U0001F1F3\U0001F1F1 NL 077"
-      obfs: salamander
-      obfs-password: Yet-Another-Public-Config-1
-      password: Yet-Another-Public-Config-1
-      port: 35200
-      server: yapc-1.adamhayward.co.uk
-      skip-cert-verify: false
-      sni: YAPC-1.afshin.ir
-      tls: false
-      type: hysteria2
-    - insecure: "1"
-      mport: ""
-      name: "\U0001F1F7\U0001F1FA RU 078"
-      obfs: ""
-      obfs-password: ""
-      password: dongtaiwang.com
-      port: 50850
-      ports: ""
-      server: 45.129.2.108
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EC SG 079"
-      password: 6ca21c55-f106-4ae2-9f54-6ad85812748f
-      port: 37086
-      server: forward03.gouersu.top
-      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP 081"
-      password: d0d08cddacc3190ea81b1b792e1b5fde
-      port: 40937
-      server: 36.151.251.7
-      skip-cert-verify: true
-      sni: www.baidu.com
-      type: trojan
-    - name: "\U0001F1F9\U0001F1FC TW 088"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      skip-cert-verify: false
-      sni: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - name: "\U0001F1EE\U0001F1F3 IN 091"
-      network: ws
-      password: ttfang
-      port: 443
-      server: 20.235.105.146
-      skip-cert-verify: false
-      sni: ttfang.fange.me
-      type: trojan
-      ws-opts:
-        headers:
-            Host: ttfang.fange.me
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US 093"
-      network: ws
-      port: 7000
-      server: 64.235.61.162
-      servername: ccc.ylks0033.dpdns.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            host: ccc.ylks0033.dpdns.org
-        path: /?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E9\U0001F1EA DE 094"
-      password: LiHQX9cDbdooBHlIg0eiqQ
-      port: 34803
-      server: 45.144.54.33
-      type: ss
-    - name: "\U0001F1E8\U0001F1F3 CN 099"
-      network: ws
-      port: 81
-      server: 210.61.97.241
-      servername: ccc.ylks0033.dpdns.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            host: ccc.ylks0033.dpdns.org
-        path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC SG 100"
-      network: ws
-      port: 12118
-      server: a.ziqiu1060.ggff.net
-      servername: ""
-      tls: true
-      type: vmess
-      uuid: 1e386ab5-c35e-49ed-ab12-00639dee0602
-      ws-opts:
-        headers:
-            Host: a.ziqiu1060.ggff.net
-        path: /ybpn
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK 101"
-      password: 78e36312-16d4-49c2-ad18-610bf6d05d63
-      port: 40000
-      server: hk.fastsoonlink.com
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7 KR 102"
-      network: ws
-      port: 20521
-      server: 146.56.99.181
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: b62f0cee-3536-40b9-844f-648a7cba0254
-      ws-opts:
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0 HK 120"
-      network: ws
-      port: 26666
-      server: 43.154.124.136
-      servername: tw.laoyoutiao.link
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: tw.laoyoutiao.link
-        path: /Telegram @WangCai2 /?ed=2560
-    - insecure: "1"
-      mport: ""
-      name: "\U0001F1EB\U0001F1F7 FR 134"
-      obfs: ""
-      obfs-password: ""
-      password: dongtaiwang.com
-      port: 31180
-      ports: ""
-      server: 51.159.111.32
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG 135"
-      network: ws
-      password: ttfang
-      port: 443
-      server: 139.180.154.158
-      skip-cert-verify: false
-      sni: ttfang.fange.me
-      type: trojan
-      ws-opts:
-        headers:
-            Host: ttfang.fange.me
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7 KR 137"
-      network: ws
-      port: 20521
-      server: 43.155.129.23
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 525ed703-8ae1-4fbf-b751-06e987acd4f0
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7 KR 141"
-      network: ws
-      port: 45979
-      server: 119.206.102.29
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
-      ws-opts:
-        path: /test
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL 151"
-      password: QCXDxuDlTTMD7jtgHUjIoj
-      port: 8080
-      server: 151.242.251.153
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR 171"
-      network: ws
-      port: 50000
-      server: 115.94.98.93
-      servername: ccc.ylks0033.dpdns.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            host: ccc.ylks0033.dpdns.org
-        path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 180"
-      network: ws
-      port: 8443
-      server: 8.213.199.167
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 4787f51d-8cc3-4c6a-8f90-1183d52bf5a1
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1E6 UA 185"
-      network: ws
-      port: 20521
-      server: 141.105.130.126
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: c66a5970-bdd4-4a8c-a1f2-cdeb6a9a4627
-      ws-opts:
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL 191"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: 45.158.171.60
-      tfo: false
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0 HK 194"
-      password: d0d08cddacc3190ea81b1b792e1b5fde
-      port: 2078
-      server: 36.151.192.238
-      skip-cert-verify: true
-      sni: www.baidu.com
-      type: trojan
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EB\U0001F1F7 FR 202"
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: 45.158.171.110
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1E6 UA 206"
-      network: ws
-      port: 20521
-      server: 141.105.130.27
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: c66a5970-bdd4-4a8c-a1f2-cdeb6a9a4627
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1E6 UA 222"
-      network: ws
-      port: 20521
-      server: 141.105.130.134
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: c66a5970-bdd4-4a8c-a1f2-cdeb6a9a4627
-      ws-opts:
-        path: /
-    - cipher: aes-256-cfb
-      client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7 KR 246"
-      password: amazonskr05
-      port: 443
-      server: 3.38.148.178
-      tfo: false
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 248"
+      name: "\U0001F1FA\U0001F1F8 US 301"
       network: ws
       password: ttfang
       port: 2053
@@ -585,229 +868,3 @@ proxies:
         headers:
             Host: ttfang.fange.me
         path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EA SE 250"
-      network: ws
-      port: 20521
-      server: 109.120.132.142
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: ae9efc87-adda-477c-b29c-85aeb650cea0
-      ws-opts:
-        path: /
-    - client-fingerprint: random
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EE FI 251"
-      network: tcp
-      port: 16106
-      reality-opts:
-        public-key: FnkrwrjQqktvwxPvLn7KyWZIq8bUAvVaeCrI_VhAZ34
-        short-id: 3b6239cf6fd84dd3
-      server: 185.250.181.128
-      servername: yahoo.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: aa1aac84-6a86-41b9-bd34-1a036e06976f
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7 KR 257"
-      network: ws
-      port: 20521
-      server: 220.124.14.11
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 014f8380-4236-471c-9578-2efeb27eeb42
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F7\U0001F1FA RU 262"
-      network: ws
-      port: 20521
-      server: 62.217.180.126
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: bd3d506d-e10c-4ccd-b118-81f482322dfd
-      ws-opts:
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F3 UN 270"
-      network: ws
-      port: 30037
-      server: 14.38.253.135
-      servername: jp.laoyoutiao.link
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: jp.laoyoutiao.link
-        path: /Telegram@WangCai2/?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F7\U0001F1FA RU 275"
-      network: ws
-      port: 20521
-      server: 158.160.131.112
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: dbb52360-2550-4915-9c76-eabe4dab12d4
-      ws-opts:
-        path: /
-    - name: "\U0001F1F8\U0001F1EC SG 277"
-      network: ws
-      password: ttfang
-      port: 1111
-      server: 138.2.95.61
-      skip-cert-verify: false
-      sni: ttfang.fange.me
-      type: trojan
-      ws-opts:
-        headers:
-            Host: ttfang.fange.me
-        path: /
-    - auth: wl4HYN9PPKs8d8IzGIt4yKqt0
-      name: "\U0001F1EF\U0001F1F5 JP 280"
-      password: wl4HYN9PPKs8d8IzGIt4yKqt0
-      port: 53348
-      server: 47.74.34.102
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1F7 TR 281"
-      network: ws
-      port: 8443
-      server: 185.93.69.6
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: ec161019-8535-4307-b5e0-03389cac5a77
-      ws-opts:
-        path: /
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 285"
-      network: ws
-      port: 30807
-      server: v7.heduian.link
-      servername: ocbc.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            Host: v7.heduian.link
-        path: /oooo
-    - name: "\U0001F1FA\U0001F1F8 US 287"
-      network: ws
-      port: 6666
-      server: 172.245.205.226
-      servername: xxx.ylks0033.dpdns.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            host: xxx.ylks0033.dpdns.org
-        path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EA SE 288"
-      network: ws
-      port: 20521
-      server: 185.36.145.174
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e190e061-cc99-4c9e-a5c5-6f3dd4fe20b1
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 307"
-      network: ws
-      port: 443
-      server: 23.162.200.227
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        headers:
-            host: 23.162.200.227
-        path: /linkvws
-    - cipher: aes-256-cfb
-      name: "\U0001F1F5\U0001F1FE PY 315"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 38.165.233.93
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR 317"
-      network: ws
-      port: 50000
-      server: 115.94.98.93
-      servername: xxx.ylks0033.dpdns.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            host: xxx.ylks0033.dpdns.org
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F3 UN 325"
-      network: ws
-      port: 10001
-      server: 119.202.158.65
-      servername: jp.laoyoutiao.link
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: jp.laoyoutiao.link
-        path: /Telegram@WangCai2/?ed=2560
-    - cipher: aes-256-cfb
-      name: "\U0001F1F2\U0001F1F0 MK 327"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 46.183.185.37
-      type: ss
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA 329"
-      network: ws
-      port: 80
-      server: 51.79.102.253
-      skip-cert-verify: true
-      type: vmess
-      uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-      ws-opts:
-        path: /IOebhLMhl1CTbFHbL95myfRX2
-    - cipher: aes-256-gcm
-      name: "\U0001F1F0\U0001F1F7 KR 354"
-      password: NiznLvoIuy
-      port: 19378
-      server: 220.124.31.130
-      type: ss
