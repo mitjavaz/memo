@@ -1,31 +1,105 @@
 proxies:
-    - name: "\U0001F1F8\U0001F1EC SG 039 | ⬇️ 17.96 MB/s"
-      password: 1e386ab5-c35e-49ed-ab12-00639dee0602
-      port: 15315
-      server: a.ziqiu1060.ggff.net
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC SG 043 | ⬇️ 19.51 MB/s"
-      network: ws
-      port: 12118
-      server: a.ziqiu1060.ggff.net
-      servername: a.ziqiu1060.ggff.net
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 1e386ab5-c35e-49ed-ab12-00639dee0602
-      ws-opts:
-        headers:
-            Host: a.ziqiu1060.ggff.net
-        path: /ybpn
-    - name: "\U0001F1FA\U0001F1F8 US 081 | ⬇️ 10.71 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 10.98 MB/s"
       network: ws
       port: 8880
-      server: 147.78.140.168
+      server: 156.238.18.197
+      skip-cert-verify: true
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            host: yd.laoyoutiao.link
+        path: /
+    - name: "\U0001F1EC\U0001F1E7 GB 003 | ⬇️ 17.12 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.192
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    - auth: 1ce0d5df-7408-429d-bcfa-654720d5bb02
+      name: "\U0001F1F8\U0001F1EC SG 007 | ⬇️ 20.74 MB/s"
+      password: 1ce0d5df-7408-429d-bcfa-654720d5bb02
+      port: 35000
+      ports: 35000-39000
+      server: 152.69.220.212
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0 HK 015 | ⬇️ 34.22 MB/s"
+      password: 6bf58ffb-2378-45d8-b60a-980a6b8d8c43
+      port: 43159
+      server: xx11223.hydtou.com
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1EC SG 034 | ⬇️ 16.14 MB/s"
+      password: 9a349d5e-721d-498d-a4ba-6b8c46a84202
+      port: 46989
+      server: xx11223.hydtou.com
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 035 | ⬇️ 30.77 MB/s"
+      network: tcp
+      port: 27543
+      server: gdhk3-08302045.666888.biz
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: 1a453fc6-9d47-4748-b263-6c690e6ae26e
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0 HK 043 | ⬇️ 11.24 MB/s"
+      password: 068d4361-177d-4b41-9f70-91c14244d36d
+      port: 52773
+      server: xx11223.hydtou.com
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 045 | ⬇️ 34.28 MB/s"
+      network: tcp
+      port: 32572
+      server: 561.dnsv3.cc
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: 1a453fc6-9d47-4748-b263-6c690e6ae26e
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 063 | ⬇️ 46.78 MB/s"
+      password: 1P120c
+      port: 56047
+      server: ce6b1d35.l9x3y6g1c9-fb-sg07.6pzfwf.com
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US 094 | ⬇️ 10.71 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.100
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: sk.laoyoutiao.link
+        path: /TelegramU0001F1E8U0001F1F3
+    - allowInsecure: "1"
+      name: "\U0001F1F9\U0001F1FC TW 096 | ⬇️ 10.15 MB/s"
+      network: original
+      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
+      port: 37113
+      server: speedo4602000.top
+      skip-cert-verify: true
+      type: trojan
+    - name: "\U0001F1FA\U0001F1F8 US 102 | ⬇️ 10.04 MB/s"
+      network: ws
+      port: 8880
+      server: 140.99.233.156
       tls: false
       type: vless
       udp: true
@@ -35,144 +109,26 @@ proxies:
         headers:
             Host: kjgx.laoyoutiao.link
         max-early-data: 2560
-        path: /Telegram@WangCai2/
-    - name: "\U0001F1FA\U0001F1F8 US 085 | ⬇️ 10.40 MB/s"
-      network: ws
-      port: 8880
-      server: 92.53.190.251
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: cf.d3z.net
-        max-early-data: 2560
         path: /Telegram @WangCai2 /
-    - name: "\U0001F1FA\U0001F1F8 US 089 | ⬇️ 9.89 MB/s"
-      network: ws
-      port: 8880
-      server: 62.72.166.251
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: cf.d3z.net
-        max-early-data: 2560
-        path: /Telegram@WangCai2/
-    - auth: dongtaiwang.com
-      down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR 112 | ⬇️ 10.60 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 51.159.111.32
+    - allowInsecure: "1"
+      name: "\U0001F1F8\U0001F1EC SG 132 | ⬇️ 31.50 MB/s"
+      network: original
+      password: 253bc477d4e43c209f2d427272968280
+      port: 406
+      server: 36.156.102.125
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-      up: 100 Mbps
-    - name: "\U0001F1EF\U0001F1F5 JP 132 | ⬇️ 10.69 MB/s"
+      type: trojan
+    - name: "\U0001F1F7\U0001F1FA RU 194 | ⬇️ 10.94 MB/s"
       network: ws
-      port: 8880
-      server: 80.93.202.213
+      port: 8443
+      server: 92.243.74.239
+      servername: edgb.aimercc.dpdns.org
       skip-cert-verify: true
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            host: jp.laoyoutiao.link
-        path: /
-    - name: "\U0001F1ED\U0001F1F0 HK 168 | ⬇️ 10.65 MB/s"
-      network: ws
-      port: 8880
-      server: 155.46.213.20
-      skip-cert-verify: true
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            host: hk.laoyoutiao.link
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US 190 | ⬇️ 10.08 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.93.29
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: hk.laoyoutiao.link
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US 213 | ⬇️ 11.14 MB/s"
-      network: ws
-      port: 8880
-      server: 74.49.214.213
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: jp.laoyoutiao.link
-        path: /
-    - auth: dongtaiwang.com
-      down: 100 Mbps
-      name: "\U0001F1F3\U0001F1F1 NL 231 | ⬇️ 11.74 MB/s"
-      password: dongtaiwang.com
-      port: 50066
-      server: 51.158.218.2
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-      up: 100 Mbps
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 249 | ⬇️ 10.67 MB/s"
-      network: ws
-      port: 443
-      server: 104.18.32.151
-      servername: barayeiranmahsang.sabzipolobamahi.dpdns.org
-      skip-cert-verify: false
-      tfo: false
       tls: true
       type: vless
-      uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-      ws-opts:
-        headers:
-            Host: barayeiranmahsang.sabzipolobamahi.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 308 | ⬇️ 12.01 MB/s"
-      network: ws
-      password: Aimer
-      port: 8443
-      server: 167.68.4.131
-      skip-cert-verify: true
-      sni: epga.aimercc.dpdns.org
-      type: trojan
       udp: true
+      uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
       ws-opts:
         headers:
-            Host: epga.aimercc.dpdns.org
+            host: edgb.aimercc.dpdns.org
         path: /?ed=2560&proxyip=ts.hpc.tw
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 395 | ⬇️ 14.39 MB/s"
-      network: ws
-      port: 80
-      server: famous-danger.oneeat.co
-      skip-cert-verify: false
-      tfo: false
-      tls: false
-      type: vless
-      uuid: ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3
-      ws-opts:
-        headers:
-            Host: famous-danger.oneeat.co
-        path: /
