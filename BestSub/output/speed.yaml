@@ -1,30 +1,38 @@
 proxies:
-    - insecure: "1"
-      mport: ""
-      name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 9.84 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: XK52yierGckONMJWbJnuskD3unI
-      port: 12854
-      ports: ""
-      server: 47.242.195.121
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 006 | ⬇️ 26.70 MB/s"
+      port: 27543
+      server: gdhk3-08302045.666888.biz
       skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - cipher: aes-256-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 013 | ⬇️ 16.71 MB/s"
-      password: 068d4361-177d-4b41-9f70-91c14244d36d
-      port: 52773
-      server: xx11223.hydtou.com
-      type: ss
-    - allowInsecure: "1"
-      name: "\U0001F1EF\U0001F1F5 JP 028 | ⬇️ 13.04 MB/s"
-      network: original
-      password: installshield
-      port: 8443
-      server: 38.180.29.238
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 1a453fc6-9d47-4748-b263-6c690e6ae26e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 013 | ⬇️ 26.40 MB/s"
+      port: 32572
+      server: 561.dnsv3.cc
       skip-cert-verify: true
-      type: trojan
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 1a453fc6-9d47-4748-b263-6c690e6ae26e
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 016 | ⬇️ 10.39 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.214
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+        path: '%2FTelegramU0001F1E8U0001F1F3'
     - client-fingerprint: random
       flow: ""
       fp: random
@@ -32,7 +40,7 @@ proxies:
         grpc-service-name: ""
       host: edv.sosocn.filegear-sg.me
       mode: ""
-      name: "\U0001F1ED\U0001F1F0 HK 032 | ⬇️ 19.49 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 019 | ⬇️ 18.56 MB/s"
       network: ws
       path: /?ed=2560
       pbk: ""
@@ -54,48 +62,24 @@ proxies:
         headers:
             Host: edv.sosocn.filegear-sg.me
         path: /?ed=2560
-    - client-fingerprint: random
-      flow: ""
-      fp: random
-      grpc-opts:
-        grpc-service-name: ""
-      host: edv.sosocn.filegear-sg.me
-      mode: ""
-      name: "\U0001F1EF\U0001F1F5 JP 035 | ⬇️ 17.47 MB/s"
-      network: ws
-      path: /?ed=2560
-      pbk: ""
-      port: 10086
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      security: tls
-      server: 47.74.2.175
-      servername: edv.sosocn.filegear-sg.me
-      serviceName: ""
-      sid: ""
-      sni: edv.sosocn.filegear-sg.me
-      tls: true
-      type: vless
-      udp: false
-      uuid: 333ea3b4-2055-447c-ab46-7fe0cd5366b8
-      ws-opts:
-        headers:
-            Host: edv.sosocn.filegear-sg.me
-        path: /?ed=2560
-    - insecure: "1"
-      mport: ""
-      name: "\U0001F1F8\U0001F1EC SG 036 | ⬇️ 10.18 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: lPK6OZ9ouqyXrCghO6ohUbbN5g
-      port: 33131
-      ports: ""
-      server: 8.222.183.55
+    - allowInsecure: "1"
+      name: "\U0001F1EF\U0001F1F5 JP 020 | ⬇️ 10.50 MB/s"
+      network: original
+      password: installshield
+      port: 8443
+      server: 38.180.29.238
       skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 069 | ⬇️ 11.39 MB/s"
+      type: trojan
+    - name: "\U0001F1F9\U0001F1FC TW 024 | ⬇️ 11.67 MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
+      skip-cert-verify: false
+      sni: twmoon1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - name: "\U0001F1FA\U0001F1F8 US 040 | ⬇️ 15.73 MB/s"
       network: ws
       port: 8880
       server: 45.85.118.0
@@ -107,100 +91,20 @@ proxies:
         headers:
             host: bitget1.asdasd.click
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F3 UN 081 | ⬇️ 17.13 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 043 | ⬇️ 17.56 MB/s"
       network: ws
       port: 8880
-      server: 86.38.214.168
+      server: 45.149.12.251
       skip-cert-verify: true
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            host: kjgx.laoyoutiao.link
-        path: /Telegram@WangCai2/?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 083 | ⬇️ 15.18 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.92.8
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US 088 | ⬇️ 14.42 MB/s"
-      network: ws
-      port: 8880
-      server: 45.131.4.251
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: cf.d3z.net
-        max-early-data: 2560
-        path: /Telegram @WangCai2 /
-    - allowInsecure: "1"
-      name: "\U0001F1F8\U0001F1EC SG 089 | ⬇️ 42.69 MB/s"
-      network: original
-      password: 253bc477d4e43c209f2d427272968280
-      port: 406
-      server: 36.156.102.125
-      skip-cert-verify: true
-      type: trojan
-    - client-fingerprint: random
-      flow: ""
-      fp: random
-      grpc-opts:
-        grpc-service-name: ""
-      host: edv.sosocn.filegear-sg.me
-      mode: ""
-      name: "\U0001F1ED\U0001F1F0 HK 091 | ⬇️ 14.62 MB/s"
-      network: ws
-      path: /?ed=2560
-      pbk: ""
-      port: 12139
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      security: tls
-      server: 8.210.103.234
-      servername: edv.sosocn.filegear-sg.me
-      serviceName: ""
-      sid: ""
-      sni: edv.sosocn.filegear-sg.me
-      tls: true
-      type: vless
-      udp: false
-      uuid: 333ea3b4-2055-447c-ab46-7fe0cd5366b8
-      ws-opts:
-        headers:
-            Host: edv.sosocn.filegear-sg.me
-        path: /?ed=2560
-    - allowInsecure: "1"
-      name: "\U0001F1EF\U0001F1F5 JP 104 | ⬇️ 26.18 MB/s"
-      network: original
-      password: 7665dfe0-6ea9-3798-8b12-b6343754d81d
-      port: 59001
-      server: bgp-s-v30724.zarelaypro.com
-      skip-cert-verify: true
-      type: trojan
-    - allowInsecure: "1"
-      name: "\U0001F1EF\U0001F1F5 JP 110 | ⬇️ 25.09 MB/s"
-      network: original
-      password: 7665dfe0-6ea9-3798-8b12-b6343754d81d
-      port: 59862
-      server: bgp-e-v30724.zarelaypro.com
-      skip-cert-verify: true
-      type: trojan
+            host: cf.d3z.net
+        path: /Telegram @WangCai2 /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 113 | ⬇️ 19.31 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 060 | ⬇️ 14.53 MB/s"
       network: ws
       port: 2095
       server: support.cloudflare.com
@@ -214,3 +118,71 @@ proxies:
         headers:
             Host: fuckingxijinping.20241225.workers.dev
         path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 066 | ⬇️ 15.52 MB/s"
+      network: ws
+      port: 8880
+      server: 102.177.176.251
+      skip-cert-verify: true
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            host: cf.d3z.net
+        path: /Telegram @WangCai2 /?ed=2560
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8 US 070 | ⬇️ 13.01 MB/s"
+      password: e7bb23f1-5f15-4e3d-bd78-975e57be18ef
+      port: 10001
+      server: S00000000000011.Bgroup-Node-For-NorthAmericanAirport.com
+      type: ss
+    - allowInsecure: "1"
+      name: "\U0001F1EF\U0001F1F5 JP 074 | ⬇️ 29.83 MB/s"
+      network: original
+      password: 7665dfe0-6ea9-3798-8b12-b6343754d81d
+      port: 59862
+      server: bgp-e-v30724.zarelaypro.com
+      skip-cert-verify: true
+      type: trojan
+    - name: "\U0001F1FA\U0001F1F8 US 077 | ⬇️ 12.80 MB/s"
+      network: ws
+      port: 8880
+      server: 185.251.81.3
+      tls: false
+      type: vless
+      udp: true
+      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+      ws-opts:
+        headers:
+            Host: bitget1.asdasd.click
+        path: /TelegramU0001F1E8U0001F1F3
+    - name: "\U0001F1FA\U0001F1F3 UN 078 | ⬇️ 14.98 MB/s"
+      network: ws
+      port: 8880
+      server: 185.207.197.63
+      skip-cert-verify: true
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            host: jp.laoyoutiao.link
+        path: /Telegram
+    - cipher: aes-256-gcm
+      name: "\U0001F1ED\U0001F1F0 HK 082 | ⬇️ 16.24 MB/s"
+      password: 068d4361-177d-4b41-9f70-91c14244d36d
+      port: 52773
+      server: xx11223.hydtou.com
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US 083 | ⬇️ 13.76 MB/s"
+      network: ws
+      port: 8880
+      server: 192.65.217.3
+      tls: false
+      type: vless
+      udp: true
+      uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
+      ws-opts:
+        headers:
+            Host: bitget1.asdasd.click
+        path: "/Telegram\U0001F1E8\U0001F1F3"
