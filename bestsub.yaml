@@ -74,14 +74,6 @@ proxy-groups:
     max-failed-times: 5
 
 rule-providers:
-  yesVPN:
-    type: http
-    path: ./yesVPN.yaml
-    url: "https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/yesVPN.list"
-    interval: 3600
-    proxy: DIRECT
-    behavior: classical
-    format: text
   noVPN:
     type: http
     path: ./noVPN.yaml
@@ -100,7 +92,6 @@ rule-providers:
     format: text
 
 rules:
-  - RULE-SET,yesVPN,🔰 代理模式
   - RULE-SET,noVPN,DIRECT
   - RULE-SET,stopVPN,REJECT
   - GEOIP,CN,DIRECT
