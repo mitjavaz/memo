@@ -1,7 +1,7 @@
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 004 | ⬇️ 45.15 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 008 | ⬇️ 42.87 MB/s"
       port: 27543
       server: gdhk3-08302045.666888.biz
       skip-cert-verify: true
@@ -10,15 +10,14 @@ proxies:
       udp: true
       uuid: 1a453fc6-9d47-4748-b263-6c690e6ae26e
     - cipher: aes-256-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 009 | ⬇️ 16.79 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 009 | ⬇️ 16.98 MB/s"
       password: 068d4361-177d-4b41-9f70-91c14244d36d
       port: 52773
       server: xx11223.hydtou.com
       type: ss
-      udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 018 | ⬇️ 46.62 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 013 | ⬇️ 40.20 MB/s"
       port: 32572
       server: 561.dnsv3.cc
       skip-cert-verify: true
@@ -26,10 +25,23 @@ proxies:
       type: vmess
       udp: true
       uuid: 1a453fc6-9d47-4748-b263-6c690e6ae26e
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 018 | ⬇️ 14.85 MB/s"
+      network: ws
+      password: 13253e6e-a1f7-4090-801f-a8dc2b083bef
+      port: 8443
+      server: 104.17.148.22
+      skip-cert-verify: false
+      sni: inVinciBLe.fafa20.sHop
+      type: trojan
+      ws-opts:
+        headers:
+            Host: inVinciBLe.fafa20.sHop
+        path: /trwidp0ENHXMUNX4bA/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQhttp/1.1
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 021 | ⬇️ 28.86 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 019 | ⬇️ 17.18 MB/s"
       network: ws
       port: 443
       server: 23.226.8.80
@@ -43,6 +55,31 @@ proxies:
         headers:
             Host: edv.sosocn.filegear-sg.me
         path: /?ed=2560
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1F8\U0001F1EC SG 028 | ⬇️ 14.52 MB/s"
+      network: ws
+      port: 12398
+      server: 43.100.6.176
+      servername: edv.sosocn.filegear-sg.me
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 333ea3b4-2055-447c-ab46-7fe0cd5366b8
+      ws-opts:
+        headers:
+            Host: edv.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - allowInsecure: "1"
+      name: "\U0001F1EF\U0001F1F5 JP 034 | ⬇️ 20.93 MB/s"
+      network: original
+      password: installshield
+      port: 8443
+      server: 38.180.29.238
+      skip-cert-verify: true
+      type: trojan
     - client-fingerprint: random
       flow: ""
       fp: random
@@ -50,7 +87,7 @@ proxies:
         grpc-service-name: ""
       host: edv.sosocn.filegear-sg.me
       mode: ""
-      name: "\U0001F1EF\U0001F1F5 JP 026 | ⬇️ 18.36 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP 040 | ⬇️ 19.23 MB/s"
       network: ws
       path: /?ed=2560
       pbk: ""
@@ -72,28 +109,16 @@ proxies:
         headers:
             Host: edv.sosocn.filegear-sg.me
         path: /?ed=2560
-    - name: "\U0001F1EF\U0001F1F5 JP 028 | ⬇️ 17.84 MB/s"
-      password: installshield
-      port: 8443
-      server: 38.180.29.238
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US 029 | ⬇️ 14.58 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.219
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: sg.laoyoutiao.link
-        max-early-data: 2048
-        path: /Telegram@WangCai2/
-    - name: "\U0001F1FA\U0001F1F8 US 032 | ⬇️ 12.72 MB/s"
+    - name: "\U0001F1F9\U0001F1FC TW 041 | ⬇️ 10.91 MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
+      skip-cert-verify: false
+      sni: twmoon1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - name: "\U0001F1FA\U0001F1F8 US 047 | ⬇️ 15.55 MB/s"
       network: ws
       port: 11655
       server: 131.186.63.89
@@ -107,46 +132,28 @@ proxies:
         headers:
             Host: jp.laoyoutiao.link
         path: Telegram@freecodes/?ed=2560
-    - name: "\U0001F1E9\U0001F1EA DE 041 | ⬇️ 13.84 MB/s"
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP 049 | ⬇️ 16.57 MB/s"
       network: ws
-      password: d6b8011a-c725-435a-9fec-bf6d3530392c
-      port: 8443
-      server: 162.159.129.67
-      skip-cert-verify: true
-      sni: vle.amclubssss.dpdns.org
-      type: trojan
-      udp: true
+      port: 29016
+      server: 34.97.30.10
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: 7206a11b-6bae-4c05-d57d-8e2e67858fc7
       ws-opts:
-        headers:
-            Host: vle.amclubssss.dpdns.org
-        path: /?ed=2560&PROT_TYPE=trojan&NAT64=true
-    - name: "\U0001F1F3\U0001F1F1 NL 042 | ⬇️ 11.65 MB/s"
-      network: ws
-      password: bpb-trojan
-      port: 443
-      server: 162.159.153.2
-      skip-cert-verify: false
-      sni: zamim340.ggff.net
-      type: trojan
-      udp: true
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: zamim340.ggff.net
-        max-early-data: 2560
-        path: /tr
-    - down: 1000
-      name: "\U0001F1FA\U0001F1F8 US 046 | ⬇️ 22.88 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 52887
-      ports: 50000-53000
-      server: 209.141.42.49
+        path: /7206a11b
+    - allowInsecure: "1"
+      name: "\U0001F1F8\U0001F1EC SG 055 | ⬇️ 40.12 MB/s"
+      network: original
+      password: 253bc477d4e43c209f2d427272968280
+      port: 406
+      server: 36.156.102.125
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: 200
+      type: trojan
     - down: 1000
-      name: "\U0001F1FA\U0001F1F8 US 048 | ⬇️ 14.65 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 056 | ⬇️ 22.06 MB/s"
       password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
       port: 50560
       ports: 50000-53000
@@ -156,7 +163,7 @@ proxies:
       type: hysteria2
       up: 200
     - down: 1000
-      name: "\U0001F1FA\U0001F1F8 US 050 | ⬇️ 13.83 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 057 | ⬇️ 20.65 MB/s"
       password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
       port: 50371
       ports: 50000-53000
@@ -166,7 +173,27 @@ proxies:
       type: hysteria2
       up: 200
     - down: 1000
-      name: "\U0001F1FA\U0001F1F8 US 051 | ⬇️ 23.19 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 058 | ⬇️ 21.45 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 52926
+      ports: 50000-53000
+      server: 205.185.125.20
+      skip-cert-verify: true
+      sni: apps.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1FA\U0001F1F8 US 059 | ⬇️ 22.10 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 52887
+      ports: 50000-53000
+      server: 209.141.42.49
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1FA\U0001F1F8 US 062 | ⬇️ 22.71 MB/s"
       password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
       port: 52131
       ports: 50000-53000
@@ -175,16 +202,3 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       up: 200
-    - name: "\U0001F1FA\U0001F1F8 US 054 | ⬇️ 13.15 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.92.11
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-      xudp: true
