@@ -1,76 +1,96 @@
 proxies:
     - alterId: 64
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 021 | ⬇️ 14.19 MB/s"
-      port: 37575
-      server: 183.240.245.237
+      name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 10.35 MB/s"
+      port: 52882
+      server: 183.240.245.251
       skip-cert-verify: true
       tls: false
       type: vmess
       udp: true
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     - allowInsecure: "1"
-      name: "\U0001F1EF\U0001F1F5 JP 041 | ⬇️ 19.68 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 008 | ⬇️ 69.08 MB/s"
+      network: tcp
+      password: 20a5d874-4387-446b-b616-de6c98ef0ee2
+      port: 12221
+      server: hxkad246454.nkrpjj.cn
+      skip-cert-verify: true
+      sni: nkrpjj.cn
+      tls: true
+      type: trojan
+    - allowInsecure: "1"
+      name: "\U0001F1EF\U0001F1F5 JP 011 | ⬇️ 17.32 MB/s"
       network: original
       password: installshield
       port: 8443
       server: 38.180.29.238
       skip-cert-verify: true
       type: trojan
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 045 | ⬇️ 12.96 MB/s"
-      network: ws
-      port: 31875
-      server: 20.205.139.75
-      tls: false
-      type: vmess
-      uuid: 3940903f-2782-4e02-c4e5-137fdeafcf5d
-      ws-opts:
-        path: /test
-    - name: "\U0001F1ED\U0001F1F0 HK 046 | ⬇️ 17.81 MB/s"
-      password: <password>
-      port: 443
-      server: acc485af-sx6ps0-t1bnjq-1krtb.hkt2.cdnhuawei.com
-      tls: true
-      type: socks5
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1FA AU 054 | ⬇️ 11.16 MB/s"
-      network: none
-      port: 45956
-      server: 54.66.189.30
-      tls: false
-      type: vmess
-      uuid: 60d040c2-b236-4653-8398-7175685c9a94
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1FA AU 055 | ⬇️ 10.95 MB/s"
-      network: none
-      port: 19567
-      server: 54.66.189.30
-      tls: false
-      type: vmess
-      uuid: a6c1a101-a62b-484c-b096-45e58c5b09ed
-    - name: "\U0001F1E6\U0001F1FA AU 066 | ⬇️ 11.27 MB/s"
-      password: installshield
-      port: 8443
-      server: 176.97.68.153
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1E6\U0001F1FA AU 070 | ⬇️ 10.33 MB/s"
-      password: fg20mtCFHy
-      port: 5747
-      server: pagte.zippydeal.xyz
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8 US 025 | ⬇️ 12.32 MB/s"
+      password: 8ef76355-94fb-415b-89cf-53f5dbdd99f7
+      port: 35604
+      server: gw.liangyuandianwan.com
+      type: ss
+    - name: "\U0001F1F9\U0001F1FC TW 036 | ⬇️ 13.11 MB/s"
+      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
+      port: 37113
+      server: speedo4602000.top
       skip-cert-verify: true
       type: trojan
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 073 | ⬇️ 13.26 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR 042 | ⬇️ 12.48 MB/s"
       password: qwerREWQ@@
       port: 54750
       server: 222.112.15.141
       type: ss
       udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 095 | ⬇️ 10.25 MB/s"
+      network: ws
+      port: 443
+      server: pvt.moonop.tech
+      servername: pvt.moonop.tech
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 45be1c2b-4bb1-44f4-89e4-c026ad211d04
+      ws-opts:
+        headers:
+            Host: pvt.moonop.tech
+        path: '%2Faws5'
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 228 | ⬇️ 19.53 MB/s"
+      network: ws
+      port: 80
+      server: 8930eB60-e1B0-58D3-8c9A-980977E6E401.HuanGShAnG.SiTE
+      servername: 8930EB60-E1b0-58d3-8c9A-980977E6E401.HUANgsHANG.SItE
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: c4a4d675-ac02-4635-b3bb-6186b3bddd1c
+      ws-opts:
+        headers:
+            Host: 8930eB60-e1B0-58D3-8c9A-980977E6E401.HuanGShAnG.SiTE
+        path: /hepNwpzuxszIxZMQZRJ
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 266 | ⬇️ 10.23 MB/s"
+      network: ws
+      port: 443
+      server: VvVgGt6.661.qZZ.io
+      servername: vvvggT6.661.qzZ.iO
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 45ac40a0-bee3-4978-abcf-3f9e42f2bd29
+      ws-opts:
+        headers:
+            Host: VvVgGt6.661.qZZ.io
+        path: /hepNwpzuxszIxZMQZRJ
