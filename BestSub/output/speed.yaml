@@ -1,96 +1,155 @@
 proxies:
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 10.35 MB/s"
-      port: 52882
-      server: 183.240.245.251
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0 HK 000 | ⬇️ 22.40 MB/s"
+      password: 24bab2be-68d3-4ca4-a1c7-453a88182947
+      port: 7001
+      server: v4-aws-hk.aikunapp.com
       skip-cert-verify: true
-      tls: false
-      type: vmess
+      sni: d1--cn-gotcha204-3.bilivideo.com
+      type: anytls
       udp: true
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 008 | ⬇️ 69.08 MB/s"
-      network: tcp
-      password: 20a5d874-4387-446b-b616-de6c98ef0ee2
-      port: 12221
-      server: hxkad246454.nkrpjj.cn
+    - name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 20.71 MB/s"
+      password: 24bab2be-68d3-4ca4-a1c7-453a88182947
+      port: 7001
+      server: v4-aws-sg.aikunapp.com
       skip-cert-verify: true
-      sni: nkrpjj.cn
+      sni: d1--cn-gotcha204-3.bilivideo.com
+      type: hysteria2
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 33.98 MB/s"
+      password: OTU4NjhhMWU0MmZiNzE1OQ==:OTdmNGVhMTgtN2ZiNi00Zg==
+      port: 25009
+      server: qinwwurl.starlinkss.vip
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 54.42 MB/s"
+      password: OTU4NjhhMWU0MmZiNzE1OQ==:OTdmNGVhMTgtN2ZiNi00Zg==
+      port: 41445
+      server: qinwwurl.starlinkss.vip
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F9\U0001F1FC TW 009 | ⬇️ 21.38 MB/s"
+      password: 24bab2be-68d3-4ca4-a1c7-453a88182947
+      port: 6001
+      server: hinetddns1.aikunapp.com
+      skip-cert-verify: true
+      sni: X5xo7IqUCdyHQ5QC.cn
+      type: anytls
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0 HK 011 | ⬇️ 33.19 MB/s"
+      password: OTU4NjhhMWU0MmZiNzE1OQ==:OTdmNGVhMTgtN2ZiNi00Zg==
+      port: 31056
+      server: qinwwurl.starlinkss.vip
+      type: ss
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5 JP 012 | ⬇️ 22.18 MB/s"
+      password: 24bab2be-68d3-4ca4-a1c7-453a88182947
+      port: 7001
+      server: v4-aws-jp.aikunapp.com
+      skip-cert-verify: true
+      sni: d1--cn-gotcha204-3.bilivideo.com
+      type: hysteria2
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F1F9\U0001F1FC TW 017 | ⬇️ 20.05 MB/s"
+      password: ZjE1NDE0YTkxNDhhYWJjMQ==:OTdmNGVhMTgtN2ZiNi00Zg==
+      port: 13989
+      server: qinwwurl.starlinkss.vip
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 019 | ⬇️ 11.41 MB/s"
+      password: 8ef76355-94fb-415b-89cf-53f5dbdd99f7
+      port: 35601
+      server: gw.liangyuandianwan.com
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1F8\U0001F1EC SG 021 | ⬇️ 14.05 MB/s"
+      network: ws
+      port: 12314
+      server: 8.222.159.134
+      servername: cvs.sosocn.filegear-sg.me
+      skip-cert-verify: false
+      tfo: false
       tls: true
-      type: trojan
+      type: vless
+      uuid: 1319ead8-1c55-409e-aea4-c3fbc0d9397a
+      ws-opts:
+        headers:
+            Host: cvs.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: cf.vless.sandesh.fr
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 022 | ⬇️ 29.85 MB/s"
+      network: ws
+      path: /telegram:@Eternal_Connect-telegram:@Eternal_Connect-telegram:@Eternal_Connect-telegram:@Eternal_Connect
+      pbk: ""
+      port: 443
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 104.18.35.85
+      servername: cf.vless.sandesh.fr
+      serviceName: ""
+      sid: ""
+      sni: cf.vless.sandesh.fr
+      tls: true
+      type: vless
+      udp: false
+      uuid: 060a8fe8-7175-4ded-94a5-d9808bc645b6
+      ws-opts:
+        headers:
+            Host: cf.vless.sandesh.fr
+        path: /telegram:@Eternal_Connect-telegram:@Eternal_Connect-telegram:@Eternal_Connect-telegram:@Eternal_Connect
     - allowInsecure: "1"
-      name: "\U0001F1EF\U0001F1F5 JP 011 | ⬇️ 17.32 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP 023 | ⬇️ 14.85 MB/s"
       network: original
       password: installshield
       port: 8443
       server: 38.180.29.238
       skip-cert-verify: true
       type: trojan
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US 025 | ⬇️ 12.32 MB/s"
-      password: 8ef76355-94fb-415b-89cf-53f5dbdd99f7
-      port: 35604
-      server: gw.liangyuandianwan.com
-      type: ss
-    - name: "\U0001F1F9\U0001F1FC TW 036 | ⬇️ 13.11 MB/s"
-      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
-      port: 37113
-      server: speedo4602000.top
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 042 | ⬇️ 12.48 MB/s"
-      password: qwerREWQ@@
-      port: 54750
-      server: 222.112.15.141
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 095 | ⬇️ 10.25 MB/s"
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1F8\U0001F1EC SG 027 | ⬇️ 11.28 MB/s"
       network: ws
-      port: 443
-      server: pvt.moonop.tech
-      servername: pvt.moonop.tech
+      port: 30008
+      server: 158.178.247.58
+      servername: cvs.sosocn.filegear-sg.me
       skip-cert-verify: false
       tfo: false
       tls: true
       type: vless
-      uuid: 45be1c2b-4bb1-44f4-89e4-c026ad211d04
+      uuid: 1319ead8-1c55-409e-aea4-c3fbc0d9397a
       ws-opts:
         headers:
-            Host: pvt.moonop.tech
-        path: '%2Faws5'
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 228 | ⬇️ 19.53 MB/s"
-      network: ws
-      port: 80
-      server: 8930eB60-e1B0-58D3-8c9A-980977E6E401.HuanGShAnG.SiTE
-      servername: 8930EB60-E1b0-58d3-8c9A-980977E6E401.HUANgsHANG.SItE
-      skip-cert-verify: true
-      tls: false
-      type: vmess
+            Host: cvs.sosocn.filegear-sg.me
+        path: /?ed=2560
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F1FB\U0001F1F3 VN 028 | ⬇️ 10.99 MB/s"
+      password: M2IyNmEyOWY0OWI5Mjk4OA==:OTdmNGVhMTgtN2ZiNi00Zg==
+      port: 33195
+      server: qinwwurl.starlinkss.vip
+      type: ss
       udp: true
-      uuid: c4a4d675-ac02-4635-b3bb-6186b3bddd1c
-      ws-opts:
-        headers:
-            Host: 8930eB60-e1B0-58D3-8c9A-980977E6E401.HuanGShAnG.SiTE
-        path: /hepNwpzuxszIxZMQZRJ
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 266 | ⬇️ 10.23 MB/s"
-      network: ws
-      port: 443
-      server: VvVgGt6.661.qZZ.io
-      servername: vvvggT6.661.qzZ.iO
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7 KR 029 | ⬇️ 14.91 MB/s"
+      password: 24bab2be-68d3-4ca4-a1c7-453a88182947
+      port: 6001
+      server: krgc.aikunapp.com
       skip-cert-verify: true
-      tls: true
-      type: vmess
+      sni: s0.awsstatic.com
+      type: anytls
       udp: true
-      uuid: 45ac40a0-bee3-4978-abcf-3f9e42f2bd29
-      ws-opts:
-        headers:
-            Host: VvVgGt6.661.qZZ.io
-        path: /hepNwpzuxszIxZMQZRJ
