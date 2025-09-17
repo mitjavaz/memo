@@ -1,29 +1,44 @@
 proxies:
-    - cipher: chacha20-ietf
-      name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 29.33 MB/s"
-      obfs: plain
-      obfs-param: 45672222545.microsoft.com
-      password: bxsnucrgk6hfish
-      port: 5959
-      protocol: auth_aes128_sha1
-      protocol-param: 222545:TIvS2C
-      server: yd-04.paofunlink.com
-      type: ssr
-      udp: true
-    - cipher: chacha20-ietf
-      name: "\U0001F1E8\U0001F1F3 CN 007 | ⬇️ 12.84 MB/s"
-      obfs: plain
-      obfs-param: 45672222545.microsoft.com
-      password: bxsnucrgk6hfish
-      port: 1078
-      protocol: auth_aes128_sha1
-      protocol-param: 222545:TIvS2C
-      server: yd-03.paofunlink.com
-      type: ssr
-      udp: true
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: ""
+      mode: ""
+      name: "\U0001F1ED\U0001F1F0 HK 000 | ⬇️ 16.10 MB/s"
+      network: tcp
+      path: ""
+      pbk: ""
+      port: 8080
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 183.240.180.28
+      servername: ""
+      serviceName: ""
+      sid: ""
+      sni: ""
+      tls: false
+      type: vless
+      udp: false
+      uuid: c2f8a1e7-9d34-4b2f-86a1-7e5d3c2b1f90
+      ws-opts:
+        headers:
+            Host: ""
+        path: ""
+    - allowInsecure: "1"
+      name: "\U0001F1F9\U0001F1FC TW 010 | ⬇️ 12.30 MB/s"
+      network: original
+      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
+      port: 37113
+      server: speedo4602000.top
+      skip-cert-verify: true
+      type: trojan
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F8\U0001F1EC SG 012 | ⬇️ 17.38 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG 022 | ⬇️ 13.39 MB/s"
       network: ws
       port: 443
       server: zydn.cfapps.ap21.hana.ondemand.com
@@ -35,10 +50,13 @@ proxies:
         headers:
             Host: zydn.cfapps.ap21.hana.ondemand.com
         path: /laoluo
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 032 | ⬇️ 10.66 MB/s"
-      password: qwerREWQ@@
-      port: 54750
-      server: 222.112.15.141
-      type: ss
-      udp: true
+    - allowInsecure: ""
+      name: "\U0001F1EF\U0001F1F5 JP 041 | ⬇️ 10.66 MB/s"
+      network: tcp
+      password: 6et7U7udLe
+      port: 22846
+      server: qige.zaide.tech
+      skip-cert-verify: false
+      sni: qige.zaide.tech
+      tls: true
+      type: trojan
