@@ -6,7 +6,7 @@ proxies:
         grpc-service-name: ""
       host: ""
       mode: ""
-      name: "\U0001F1ED\U0001F1F0 HK 000 | ⬇️ 17.09 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 000 | ⬇️ 17.06 MB/s"
       network: tcp
       path: ""
       pbk: ""
@@ -28,24 +28,41 @@ proxies:
         headers:
             Host: ""
         path: ""
-    - cipher: chacha20-ietf-poly1305
-      country: US
-      name: "\U0001F1F3\U0001F1F1 NL 005"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40005
-      server: sgp.fastsoonlink.com
-      type: ss
-    - name: "\U0001F1ED\U0001F1F0 HK 007"
-      password: fff994b9-0754-41ba-a564-6d4c59fbfe21
-      port: 10806
-      server: ppg-hk.05vr9nyqg5.download
+    - alpn:
+        - http/1.1
+      client-fingerprint: randomized
+      name: "\U0001F1E6\U0001F1F2 AM 001"
+      network: ws
+      port: 8443
+      server: www.speedtest.net
+      servername: arUSI-kHunin.PaGeS.Dev
       skip-cert-verify: true
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
+      tls: true
+      type: vless
       udp: true
+      uuid: 2e9aa27d-8977-46fe-85ab-28aba1517210
+      ws-opts:
+        headers:
+            host: arusi-khunin.pages.dev
+        path: /1Adq7MXJtbrfgB3a/MjEzLjE1OS43Ni4xNzUsMi41Ni4yMDQuMTgz?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F3 UN 004"
+      network: ws
+      port: 443
+      server: 104.18.35.85
+      servername: cf.vless.sandesh.fr
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 060a8fe8-7175-4ded-94a5-d9808bc645b6
+      ws-opts:
+        headers:
+            host: cf.vless.sandesh.fr
+        path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     - alpn:
         - http%2F1.1
-      name: "\U0001F1FA\U0001F1F8 US 008"
+      name: "\U0001F1FA\U0001F1F8 US 005"
       network: ws
       password: HdihUYuf&72826:33+4hshdiu&6562+2;Jvsjdjr
       port: 2096
@@ -60,179 +77,150 @@ proxies:
             Host: NEt-ACCounT1.pAGEs.Dev
         max-early-data: 2560
         path: /trNrffpXBCqDOiLjok
-    - cipher: chacha20-ietf-poly1305
-      country: BG
-      name: "\U0001F1EF\U0001F1F5 JP 010"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40003
-      server: jp.fastsoonlink.com
-      type: ss
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 011"
-      network: ws
-      port: 443
-      server: hk.lonxin.net
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 5bc206e5-e922-4736-9ae7-30cae6ae58da
-      ws-opts:
-        headers:
-            Host: hk.lonxin.net
-        path: wx16302
-    - cipher: chacha20-ietf-poly1305
-      country: ID
-      name: "\U0001F1EE\U0001F1E9 ID 013"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40033
-      server: idn.fastsoonlink.com
-      type: ss
-    - allowInsecure: ""
-      name: "\U0001F1F9\U0001F1FC TW 014"
-      network: tcp
-      password: 49161ab9bae14f3c
-      port: 30006
-      server: tt132m.tiankuotechnology.top
-      skip-cert-verify: false
-      sni: tt132m.tiankuotechnology.top
-      tls: true
-      type: trojan
-    - cipher: chacha20-ietf-poly1305
-      country: NL
-      name: "\U0001F1F3\U0001F1F1 NL 017"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40009
-      server: th.fastsoonlink.com
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: KR
-      name: "\U0001F1F0\U0001F1F7 KR 018"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40032
-      server: kr.fastsoonlink.com
-      type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F8\U0001F1EC SG 021"
+      name: "\U0001F1ED\U0001F1F0 HK 008"
+      network: tcp
+      port: 34261
+      server: 185.227.153.251
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: 55ca107e-066d-4bb0-998a-5035a36f0c29
+    - auth: 8a60ebba-5ae6-488b-9f6e-ee5f8d25cba8
+      name: "\U0001F1ED\U0001F1F0 HK 009"
+      password: 8a60ebba-5ae6-488b-9f6e-ee5f8d25cba8
+      port: 37771
+      server: xg1.xiaohuolongjc.top
+      skip-cert-verify: true
+      sni: xg1.xiaohuolongjc.top
+      type: hysteria2
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC SG 013"
       network: ws
       port: 443
       server: zydn.cfapps.ap21.hana.ondemand.com
-      servername: zydn.cfapps.ap21.hana.ondemand.com
-      skip-cert-verify: true
+      servername: ""
       tls: true
       type: vmess
-      udp: true
       uuid: 83564060-4069-40b4-e657-adccef9c4b62
       ws-opts:
         headers:
             Host: zydn.cfapps.ap21.hana.ondemand.com
         path: /laoluo
-    - country: KR
-      name: "\U0001F1F0\U0001F1F7 KR 022"
-      password: 747c62da-109f-4add-8e67-c66e1af7d255
-      port: 35000
-      server: 146.56.150.104
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - allowInsecure: "1"
-      name: "\U0001F1F9\U0001F1FC TW 026"
-      network: original
-      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
-      port: 37113
-      server: speedo4602000.top
-      skip-cert-verify: true
-      type: trojan
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 029"
+    - name: "\U0001F1FA\U0001F1F8 US 014"
       network: ws
       packet-encoding: ""
       port: 443
-      server: visa.com
-      servername: marco67.sylu.net
+      server: cdn.2020111.xyz
+      servername: aa.wfht227.dpdns.org
       tls: true
       type: vless
       udp: true
-      uuid: 32698d90-d663-41ff-83e5-c4f74fac12cd
+      uuid: 5a0412d9-f48f-4478-a3e5-f7fec5ae36e4
       ws-opts:
         headers:
-            Host: marco67.sylu.net
-        path: /?ed=2560
-    - name: "\U0001F1F0\U0001F1F7 KR 031"
-      password: jbjcQPdLuM
-      port: 47390
-      server: 47.80.8.236
-      skip-cert-verify: true
-      tfo: false
-      type: hysteria2
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E6\U0001F1FA AU 033"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40011
-      server: frk.fastsoonlink.com
-      type: ss
-      udp: true
-    - client-fingerprint: random
+            Host: aa.wfht227.dpdns.org
+        path: /snippets/ip=ProxyIP.Oracle.cmliussss.net?ed=2560
+    - client-fingerprint: ""
       flow: ""
-      fp: random
+      fp: ""
       grpc-opts:
         grpc-service-name: ""
-      host: saas.cfliu.filegear-sg.me
+      host: kejiland.freewarp.eu.org
       mode: ""
-      name: "\U0001F1FA\U0001F1F8 US 034"
+      name: "\U0001F1EF\U0001F1F5 JP 016"
       network: ws
-      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
       pbk: ""
-      port: 587
+      port: 11959
       reality-opts:
         public-key: ""
         short-id: ""
       security: tls
-      server: 138.2.49.197
-      servername: saas.cfliu.filegear-sg.me
+      server: 168.138.193.174
+      servername: kejiland.freewarp.eu.org
       serviceName: ""
       sid: ""
-      sni: saas.cfliu.filegear-sg.me
+      sni: kejiland.freewarp.eu.org
       tls: true
       type: vless
       udp: false
-      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
       ws-opts:
         headers:
-            Host: saas.cfliu.filegear-sg.me
-        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
-    - client-fingerprint: random
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - allowInsecure: ""
+      name: "\U0001F1EF\U0001F1F5 JP 017"
+      network: tcp
+      password: 6et7U7udLe
+      port: 22846
+      server: qige.zaide.tech
+      skip-cert-verify: false
+      sni: qige.zaide.tech
+      tls: true
+      type: trojan
+    - client-fingerprint: ""
       flow: ""
-      fp: random
+      fp: ""
       grpc-opts:
         grpc-service-name: ""
-      host: saas.cfliu.filegear-sg.me
+      host: kejiland.freewarp.eu.org
       mode: ""
-      name: "\U0001F1EF\U0001F1F5 JP 035"
+      name: "\U0001F1EF\U0001F1F5 JP 018"
       network: ws
-      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
       pbk: ""
-      port: 12563
+      port: 14782
       reality-opts:
         public-key: ""
         short-id: ""
       security: tls
-      server: 132.145.114.230
-      servername: saas.cfliu.filegear-sg.me
+      server: 140.238.37.103
+      servername: kejiland.freewarp.eu.org
       serviceName: ""
       sid: ""
-      sni: saas.cfliu.filegear-sg.me
+      sni: kejiland.freewarp.eu.org
       tls: true
       type: vless
       udp: false
-      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
       ws-opts:
         headers:
-            Host: saas.cfliu.filegear-sg.me
-        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1EF\U0001F1F5 JP 019"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 54516
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 158.101.146.3
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
     - client-fingerprint: random
       flow: ""
       fp: random
@@ -240,7 +228,7 @@ proxies:
         grpc-service-name: ""
       host: saas.cfliu.filegear-sg.me
       mode: ""
-      name: "\U0001F1EF\U0001F1F5 JP 037"
+      name: "\U0001F1EF\U0001F1F5 JP 020"
       network: ws
       path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
       pbk: ""
@@ -262,32 +250,6 @@ proxies:
         headers:
             Host: saas.cfliu.filegear-sg.me
         path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
-    - auth: 7de0251a-7130-43b4-852e-8209dc6dc900
-      name: "\U0001F1F9\U0001F1FC TW 039"
-      password: 7de0251a-7130-43b4-852e-8209dc6dc900
-      port: 21023
-      server: yue-tw.yuetoto.net
-      skip-cert-verify: false
-      sni: yue-tw.yuetoto.net
-      type: hysteria2
-      udp: true
-    - allowInsecure: ""
-      name: "\U0001F1EF\U0001F1F5 JP 040"
-      network: tcp
-      password: 6et7U7udLe
-      port: 22846
-      server: qige.zaide.tech
-      skip-cert-verify: false
-      sni: qige.zaide.tech
-      tls: true
-      type: trojan
-    - cipher: chacha20-ietf-poly1305
-      country: US
-      name: "\U0001F1FA\U0001F1F8 US 045"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40000
-      server: hk.fastsoonlink.com
-      type: ss
     - client-fingerprint: random
       flow: ""
       fp: random
@@ -295,7 +257,7 @@ proxies:
         grpc-service-name: ""
       host: saas.cfliu.filegear-sg.me
       mode: ""
-      name: "\U0001F1E7\U0001F1F7 BR 047"
+      name: "\U0001F1E7\U0001F1F7 BR 021"
       network: ws
       path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
       pbk: ""
@@ -317,21 +279,16 @@ proxies:
         headers:
             Host: saas.cfliu.filegear-sg.me
         path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F3 UN 051"
-      network: ws
-      port: 443
-      server: 64.110.104.30
-      servername: 1749023174552.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            host: 1749023174552.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
-        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 022"
+      network: tcp
+      port: 36030
+      server: 103.144.2.229
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: b81ce643-efa2-4acf-ffed-4a346311428f
     - client-fingerprint: random
       flow: ""
       fp: random
@@ -339,7 +296,87 @@ proxies:
         grpc-service-name: ""
       host: saas.cfliu.filegear-sg.me
       mode: ""
-      name: "\U0001F1EF\U0001F1F5 JP 053"
+      name: "\U0001F1EF\U0001F1F5 JP 023"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 18836
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 139.162.84.132
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 026"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 587
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 138.2.49.197
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - allowInsecure: "1"
+      name: "\U0001F1F9\U0001F1FC TW 030"
+      network: original
+      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
+      port: 37113
+      server: speedo4602000.top
+      skip-cert-verify: true
+      type: trojan
+    - name: "\U0001F1FA\U0001F1F8 US 031"
+      network: ws
+      packet-encoding: ""
+      port: 443
+      server: cf.877774.xyz
+      servername: baipiao.cmliussss.abrdns.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: bb11c686-db96-41da-b824-03afe33bbe63
+      ws-opts:
+        headers:
+            Host: baipiao.cmliussss.abrdns.com
+        path: /snippets/ip=ProxyIP.US.CMLiussss.net?ed=2560
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1EF\U0001F1F5 JP 032"
       network: ws
       path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
       pbk: ""
@@ -361,128 +398,6 @@ proxies:
         headers:
             Host: saas.cfliu.filegear-sg.me
         path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
-    - auth: 7de0251a-7130-43b4-852e-8209dc6dc900
-      name: "\U0001F1ED\U0001F1F0 HK 054"
-      password: 7de0251a-7130-43b4-852e-8209dc6dc900
-      port: 21078
-      server: yue-hk.yuetoto.net
-      skip-cert-verify: false
-      sni: yue-hk.yuetoto.net
-      type: hysteria2
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: TR
-      name: "\U0001F1F9\U0001F1F7 TR 065"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40019
-      server: tur.fastsoonlink.com
-      type: ss
-    - country: KR
-      name: "\U0001F1F0\U0001F1F7 KR 070"
-      password: 747c62da-109f-4add-8e67-c66e1af7d255
-      port: 35000
-      server: 146.56.146.234
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7 KR 073"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FB\U0001F1F3 VN 098"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40021
-      server: vn.fastsoonlink.com
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: DE
-      name: "\U0001F1F7\U0001F1FA RU 104"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40031
-      server: ru.fastsoonlink.com
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 121"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.194
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 135"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.28
-      type: ss
-    - name: "\U0001F1E6\U0001F1FA AU 152"
-      password: installshield
-      port: 8443
-      server: 176.97.68.153
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US 166"
-      network: ws
-      port: 8443
-      server: 141.101.120.198
-      servername: 1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: 1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
-        max-early-data: 2048
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 188"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.234
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 189"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.172
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 195"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.19
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F3 UN 214"
-      network: ws
-      port: 443
-      server: 64.110.104.30
-      servername: 1749023174552.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            host: 1749023174552.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 215"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.186
-      type: ss
     - client-fingerprint: random
       flow: ""
       fp: random
@@ -490,7 +405,254 @@ proxies:
         grpc-service-name: ""
       host: saas.cfliu.filegear-sg.me
       mode: ""
-      name: "\U0001F1F0\U0001F1F7 KR 234"
+      name: "\U0001F1EF\U0001F1F5 JP 033"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 22735
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 140.83.57.183
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1F3\U0001F1F1 NL 035"
+      network: ws
+      path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+      pbk: ""
+      port: 43257
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 132.226.8.109
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8 US 036"
+      network: ws
+      packet-encoding: ""
+      port: 443
+      server: visa.com
+      servername: marco67.sylu.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 32698d90-d663-41ff-83e5-c4f74fac12cd
+      ws-opts:
+        headers:
+            Host: marco67.sylu.net
+        path: /?ed=2560
+    - allowInsecure: "1"
+      name: "\U0001F1E6\U0001F1FA AU 043"
+      network: original
+      password: installshield
+      port: 8443
+      server: 176.97.68.153
+      skip-cert-verify: true
+      type: trojan
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 049"
+      network: ws
+      path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+      pbk: ""
+      port: 587
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 138.2.49.197
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F3 UN 076"
+      network: ws
+      port: 8443
+      server: 141.101.120.153
+      servername: 1750293059309.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            host: 1750293059309.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+        path: /Telegram@/?ed=2048
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1EF\U0001F1F5 JP 084"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 36637
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 168.138.201.35
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 112"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 30067
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 112.156.154.95
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 156"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.225
+      type: ss
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 171"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 22558
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 152.69.229.175
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1EF\U0001F1F5 JP 172"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 56789
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 146.56.99.255
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 176"
       network: ws
       path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
       pbk: ""
@@ -512,58 +674,15 @@ proxies:
         headers:
             Host: saas.cfliu.filegear-sg.me
         path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 250"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.73
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 254"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.252
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1EE\U0001F1F3 IN 280"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-      server: 65.20.74.132
-      servername: bh.contextweb.com
+    - name: "\U0001F1F0\U0001F1F7 KR 177"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
       skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 292"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.36
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 305"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.254
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 308"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.38
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 313"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.49
-      type: ss
-      udp: true
+      username: test
     - client-fingerprint: random
       flow: ""
       fp: random
@@ -571,16 +690,260 @@ proxies:
         grpc-service-name: ""
       host: saas.cfliu.filegear-sg.me
       mode: ""
-      name: "\U0001F1F0\U0001F1F7 KR 319"
+      name: "\U0001F1F0\U0001F1F7 KR 179"
       network: ws
       path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
       pbk: ""
-      port: 50001
+      port: 30473
       reality-opts:
         public-key: ""
         short-id: ""
       security: tls
-      server: 211.107.143.176
+      server: 211.33.238.198
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1EF\U0001F1F5 JP 180"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 1443
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 140.238.62.82
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1EC\U0001F1E7 GB 181"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 49888
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 144.24.84.212
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 182"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 19120
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 152.67.197.197
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 188"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.249
+      type: ss
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1E7\U0001F1F7 BR 194"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 51393
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 168.138.194.22
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1EC\U0001F1E7 GB 200"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 8443
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 158.180.82.203
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 207"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 16120
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 183.109.161.20
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 251"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 11181
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 125.187.120.122
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 254"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.239
+      type: ss
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 267"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 12280
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 210.123.143.214
       servername: saas.cfliu.filegear-sg.me
       serviceName: ""
       sid: ""
@@ -600,7 +963,85 @@ proxies:
         grpc-service-name: ""
       host: saas.cfliu.filegear-sg.me
       mode: ""
-      name: "\U0001F1F0\U0001F1F7 KR 327"
+      name: "\U0001F1E8\U0001F1F3 CN 269"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 12332
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 8.218.107.214
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - client-fingerprint: chrome
+      name: "\U0001F1EE\U0001F1F3 IN 271"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+      server: 65.20.74.132
+      servername: bh.contextweb.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: kejiland.freewarp.eu.org
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 277"
+      network: ws
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+      pbk: ""
+      port: 50000
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 124.48.225.132
+      servername: kejiland.freewarp.eu.org
+      serviceName: ""
+      sid: ""
+      sni: kejiland.freewarp.eu.org
+      tls: true
+      type: vless
+      udp: false
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+      ws-opts:
+        headers:
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 288"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.220
+      type: ss
+      udp: true
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 299"
       network: ws
       path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
       pbk: ""
@@ -622,34 +1063,6 @@ proxies:
         headers:
             Host: saas.cfliu.filegear-sg.me
         path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
-    - cipher: chacha20-ietf-poly1305
-      country: TW
-      name: "\U0001F1F9\U0001F1FC TW 328"
-      password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-      port: 40020
-      server: tw.fastsoonlink.com
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 331"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.21
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 335"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.242
-      type: ss
-    - auth: 7de0251a-7130-43b4-852e-8209dc6dc900
-      name: "\U0001F1F0\U0001F1F7 KR 356"
-      password: 7de0251a-7130-43b4-852e-8209dc6dc900
-      port: 21088
-      server: yue-kr.yuetoto.net
-      skip-cert-verify: false
-      sni: yue-kr.yuetoto.net
-      type: hysteria2
-      udp: true
     - client-fingerprint: random
       flow: ""
       fp: random
@@ -657,7 +1070,71 @@ proxies:
         grpc-service-name: ""
       host: saas.cfliu.filegear-sg.me
       mode: ""
-      name: "\U0001F1F0\U0001F1F7 KR 362"
+      name: "\U0001F1F0\U0001F1F7 KR 306"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 12280
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 210.123.143.214
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 320"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.46
+      type: ss
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 332"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 21234
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 211.225.61.201
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 335"
       network: ws
       path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
       pbk: ""
@@ -679,27 +1156,69 @@ proxies:
         headers:
             Host: saas.cfliu.filegear-sg.me
         path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
-    - auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
-      name: "\U0001F1F8\U0001F1EC SG 365"
-      password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
-      port: 3000
-      server: dv-sg.9966661.xyz
-      skip-cert-verify: false
-      sni: dv-sg.9966661.xyz
-      type: hysteria2
-      udp: true
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 340"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 11602
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 175.194.243.10
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 342"
+      network: ws
+      path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+      pbk: ""
+      port: 50001
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 211.107.143.176
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
     - cipher: aes-256-cfb
-      country: KR
-      name: "\U0001F1F0\U0001F1F7 KR 374"
-      password: qwerREWQ@@
-      port: 2520
-      server: 121.170.203.147
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 411"
+      name: "\U0001F1FB\U0001F1F3 VN 344"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.202
+      server: 103.186.154.203
       type: ss
     - client-fingerprint: random
       flow: ""
@@ -708,7 +1227,42 @@ proxies:
         grpc-service-name: ""
       host: saas.cfliu.filegear-sg.me
       mode: ""
-      name: "\U0001F1F0\U0001F1F7 KR 430"
+      name: "\U0001F1F0\U0001F1F7 KR 364"
+      network: ws
+      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      pbk: ""
+      port: 12371
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 211.43.79.152
+      servername: saas.cfliu.filegear-sg.me
+      serviceName: ""
+      sid: ""
+      sni: saas.cfliu.filegear-sg.me
+      tls: true
+      type: vless
+      udp: false
+      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      ws-opts:
+        headers:
+            Host: saas.cfliu.filegear-sg.me
+        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 365"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.48
+      type: ss
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: saas.cfliu.filegear-sg.me
+      mode: ""
+      name: "\U0001F1F0\U0001F1F7 KR 369"
       network: ws
       path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
       pbk: ""
@@ -731,142 +1285,96 @@ proxies:
             Host: saas.cfliu.filegear-sg.me
         path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 443"
+      name: "\U0001F1FB\U0001F1F3 VN 371"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.250
+      server: 103.186.154.198
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 450"
+      name: "\U0001F1FB\U0001F1F3 VN 387"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.244
+      server: 103.186.154.206
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 473"
+      name: "\U0001F1FB\U0001F1F3 VN 395"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.58
+      server: 103.186.154.173
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 506"
+      name: "\U0001F1FB\U0001F1F3 VN 400"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.240
+      server: 103.186.154.15
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 515"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.204
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 527"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.235
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 528"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.212
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 545"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.249
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 551"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.185
-      type: ss
-      udp: true
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 552"
-      network: ws
-      port: 80
-      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-      ws-headers:
-        Host: broadcastlv.chat.bilibili.com
-      ws-path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 594"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.192
-      type: ss
-    - client-fingerprint: random
+    - client-fingerprint: ""
       flow: ""
-      fp: random
+      fp: ""
       grpc-opts:
         grpc-service-name: ""
-      host: saas.cfliu.filegear-sg.me
+      host: kejiland.freewarp.eu.org
       mode: ""
-      name: "\U0001F1E8\U0001F1F3 CN 609"
+      name: "\U0001F1F0\U0001F1F7 KR 401"
       network: ws
-      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
       pbk: ""
-      port: 20106
+      port: 30063
       reality-opts:
         public-key: ""
         short-id: ""
       security: tls
-      server: 42.200.111.106
-      servername: saas.cfliu.filegear-sg.me
+      server: 118.131.232.132
+      servername: kejiland.freewarp.eu.org
       serviceName: ""
       sid: ""
-      sni: saas.cfliu.filegear-sg.me
+      sni: kejiland.freewarp.eu.org
       tls: true
       type: vless
       udp: false
-      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
       ws-opts:
         headers:
-            Host: saas.cfliu.filegear-sg.me
-        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 624"
+      name: "\U0001F1FB\U0001F1F3 VN 498"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.80
+      server: 103.186.154.27
       type: ss
-      udp: true
-    - client-fingerprint: random
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 502"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.55
+      type: ss
+    - client-fingerprint: ""
       flow: ""
-      fp: random
+      fp: ""
       grpc-opts:
         grpc-service-name: ""
-      host: saas.cfliu.filegear-sg.me
+      host: kejiland.freewarp.eu.org
       mode: ""
-      name: "\U0001F1E8\U0001F1F3 CN 656"
+      name: "\U0001F1F0\U0001F1F7 KR 579"
       network: ws
-      path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
       pbk: ""
-      port: 12332
+      port: 50576
       reality-opts:
         public-key: ""
         short-id: ""
       security: tls
-      server: 8.218.107.214
-      servername: saas.cfliu.filegear-sg.me
+      server: 193.123.247.125
+      servername: kejiland.freewarp.eu.org
       serviceName: ""
       sid: ""
-      sni: saas.cfliu.filegear-sg.me
+      sni: kejiland.freewarp.eu.org
       tls: true
       type: vless
       udp: false
-      uuid: d4ac2c6d-4dbd-4b0f-904c-666f8efc7f95
+      uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
       ws-opts:
         headers:
-            Host: saas.cfliu.filegear-sg.me
-        path: '%2Fsnippets%3Fip%3Dproxyip%3Aport(443)%26nat64%3D6to4'
+            Host: kejiland.freewarp.eu.org
+        path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
