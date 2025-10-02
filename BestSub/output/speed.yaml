@@ -1,19 +1,91 @@
 proxies:
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 20.83 MB/s"
-      network: original
-      password: 8e61821e-cef9-4f11-a6d3-f86748ae6f65
-      port: 21862
-      server: baigou1.kkieo555.cn
-      skip-cert-verify: true
-      type: trojan
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 16.39 MB/s"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: openai.com
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 22.42 MB/s"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: www.fbi.gov
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
+    - cipher: aes-256-gcm
+      country: SG
+      name: "\U0001F1F8\U0001F1EC SG 008 | ⬇️ 12.47 MB/s"
+      password: D8wwPu9Txlgaws2+pHxzIS8gx6s6RWw7blftnEcJfhA=
+      port: 8443
+      server: 174.138.22.94
+      type: ss
+    - client-fingerprint: randomized
+      name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 19.61 MB/s"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: www.npmjs.com
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
+    - grpc-opts: {}
+      host: m.zoom.us
+      name: "\U0001F1F8\U0001F1EC SG 012 | ⬇️ 11.86 MB/s"
+      network: ws
+      path: /FREE By Tharuwa (0767597317)
+      port: 81
+      reality-opts: {}
+      security: none
+      server: 188.166.227.1
+      tls: false
+      type: vless
+      udp: false
+      uuid: 4aab091f-70c6-41d2-a9cf-a002be414821
+      ws-opts:
+        headers:
+            Host: m.zoom.us
+        path: /FREE By Tharuwa (0767597317)
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP 016 | ⬇️ 12.05 MB/s"
+      network: tcp
+      port: 28783
+      server: dow9k-g01.jp07-sh-vm0.entry.fr0528.art
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP 022 | ⬇️ 13.11 MB/s"
+      network: tcp
+      port: 21585
+      server: ikz3x-g05.jp03-j7-vm0.entry.fr0528.art
+      servername: ikz3x-g05.jp03-j7-vm0.entry.fr0528.art
+      tls: true
+      type: vmess
+      uuid: ca78405e-e554-3cd3-9b6d-2ec98e21c8f1
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 008 | ⬇️ 10.10 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP 035 | ⬇️ 12.21 MB/s"
       network: ws
-      port: 7000
-      server: 216.250.97.62
+      port: 18836
+      server: 139.162.103.207
       servername: saas.sosocn.abrdns.com
       skip-cert-verify: false
       tfo: false
@@ -24,48 +96,32 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - allowInsecure: "1"
-      name: "\U0001F1E8\U0001F1F3 CN 012 | ⬇️ 18.49 MB/s"
-      network: original
-      password: 234d3f47-9f4f-42ff-9ea2-2d4cb241b351
-      port: 21878
-      server: baigou1.kkieo555.cn
-      skip-cert-verify: true
-      type: trojan
-    - name: "\U0001F1F9\U0001F1FC TW 018 | ⬇️ 11.57 MB/s"
-      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
-      port: 37113
-      server: speedo4602000.top
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 027 | ⬇️ 19.49 MB/s"
-      network: original
-      password: 64d35e8a-daf0-4c22-8139-ad22f993e3b7
-      port: 21866
-      server: baigou1.kkieo555.cn
-      skip-cert-verify: true
-      type: trojan
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 028 | ⬇️ 20.41 MB/s"
-      network: original
-      password: 95237656-2861-4a2e-a43b-d924031169e7
-      port: 21863
-      server: baigou1.kkieo555.cn
-      skip-cert-verify: true
-      type: trojan
-    - name: "\U0001F1EF\U0001F1F5 JP 040 | ⬇️ 10.80 MB/s"
-      password: installshield
-      port: 8443
-      server: 38.180.29.238
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 223 | ⬇️ 11.81 MB/s"
-      password: 2b0f3c82-f184-45cb-b816-2e6e30e96261
-      port: 64088
-      server: qqb12.198139.xyz
-      type: ss
-      udp: true
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: sni.aizrf.com
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 037 | ⬇️ 11.71 MB/s"
+      network: ws
+      path: /snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000
+      pbk: ""
+      port: 443
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 162.159.152.155
+      servername: sni.aizrf.com
+      serviceName: ""
+      sid: ""
+      sni: sni.aizrf.com
+      tls: true
+      type: vless
+      udp: false
+      uuid: 0667820d-f8a9-4652-a3b9-efadc06af433
+      ws-opts:
+        headers:
+            Host: sni.aizrf.com
+        path: /snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000

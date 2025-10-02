@@ -1,33 +1,4 @@
 proxies:
-    - client-fingerprint: ""
-      flow: ""
-      fp: ""
-      grpc-opts:
-        grpc-service-name: ""
-      host: ""
-      mode: ""
-      name: "\U0001F1ED\U0001F1F0 HK 000"
-      network: tcp
-      path: ""
-      pbk: ""
-      port: 8080
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      security: none
-      server: 183.240.180.28
-      servername: ""
-      serviceName: ""
-      sid: ""
-      sni: ""
-      tls: false
-      type: vless
-      udp: false
-      uuid: c2f8a1e7-9d34-4b2f-86a1-7e5d3c2b1f90
-      ws-opts:
-        headers:
-            Host: ""
-        path: ""
     - alterId: 0
       cipher: auto
       name: "\U0001F1ED\U0001F1F0 HK 001"
@@ -38,16 +9,9 @@ proxies:
       tls: false
       type: vmess
       uuid: 1325c202-261b-4b3c-d4c9-db5542e99d9e
-    - name: "\U0001F1ED\U0001F1F0 HK 002"
-      password: ca1e2757-cccf-4e3a-a174-cc65f2285db8
-      port: 5606
-      server: sdv2-hk.04z3susick.download
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 003"
+      name: "\U0001F1ED\U0001F1F0 HK 002"
       network: tcp
       port: 42612
       server: 45.116.78.240
@@ -55,128 +19,107 @@ proxies:
       tls: false
       type: vmess
       uuid: cfff463c-59ae-4d53-f1d7-67b946481a24
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 20.83 MB/s"
-      network: original
-      password: 8e61821e-cef9-4f11-a6d3-f86748ae6f65
-      port: 21862
-      server: baigou1.kkieo555.cn
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 16.39 MB/s"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: openai.com
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 004"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: www.shopify.com
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 22.42 MB/s"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: www.fbi.gov
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
+    - insecure: "1"
+      mport: ""
+      name: "\U0001F1F8\U0001F1EC SG 007"
+      obfs: ""
+      obfs-password: ""
+      password: b955a6f6-4c6a-4756-8888-9318463b67b6
+      port: 13190
+      ports: ""
+      server: 140.245.50.69
       skip-cert-verify: true
-      type: trojan
-    - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F1E8\U0001F1F3 CN 006"
-      password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==
-      port: 44014
-      server: hzhz2.sssyun.xyz
+      sni: ""
+      type: hysteria2
+    - cipher: aes-256-gcm
+      country: SG
+      name: "\U0001F1F8\U0001F1EC SG 008 | ⬇️ 12.47 MB/s"
+      password: D8wwPu9Txlgaws2+pHxzIS8gx6s6RWw7blftnEcJfhA=
+      port: 8443
+      server: 174.138.22.94
       type: ss
-      udp: true
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 008 | ⬇️ 10.10 MB/s"
+    - client-fingerprint: randomized
+      name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 19.61 MB/s"
       network: ws
-      port: 7000
-      server: 216.250.97.62
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
+      packet-encoding: ""
+      port: 2095
+      server: www.npmjs.com
       type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
         headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 009"
+            Host: snippets.pusytroller.cf
+        path: /
+    - name: "\U0001F1E9\U0001F1EA DE 010"
       network: ws
-      port: 4432
-      server: 47.240.15.210
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
+      packet-encoding: ""
+      port: 8443
+      server: 190.93.245.234
+      servername: v3.ganglink.sbs
       tls: true
       type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
+      uuid: f5d86f1c-3f4f-4ac9-aa03-64bf34750055
       ws-opts:
         headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 011"
+            Host: v3.ganglink.sbs
+        path: /?ed=2560
+    - grpc-opts: {}
+      host: m.zoom.us
+      name: "\U0001F1F8\U0001F1EC SG 012 | ⬇️ 11.86 MB/s"
       network: ws
-      port: 6666
-      server: 43.129.205.163
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - allowInsecure: "1"
-      name: "\U0001F1E8\U0001F1F3 CN 012 | ⬇️ 18.49 MB/s"
-      network: original
-      password: 234d3f47-9f4f-42ff-9ea2-2d4cb241b351
-      port: 21878
-      server: baigou1.kkieo555.cn
-      skip-cert-verify: true
-      type: trojan
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 013"
-      network: tcp
-      port: 46486
-      server: 671dw-g05.jp05-h6-vm0.entry.fr0528.art
-      servername: ""
+      path: /FREE By Tharuwa (0767597317)
+      port: 81
+      reality-opts: {}
+      security: none
+      server: 188.166.227.1
       tls: false
-      type: vmess
-      uuid: ca78405e-e554-3cd3-9b6d-2ec98e21c8f1
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 015"
-      network: tcp
-      port: 28783
-      server: dow9k-g01.jp07-sh-vm0.entry.fr0528.art
-      servername: ""
-      tls: false
-      type: vmess
-      uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc
-    - name: "\U0001F1F9\U0001F1FC TW 016"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      udp: true
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - name: "\U0001F1F9\U0001F1FC TW 018 | ⬇️ 11.57 MB/s"
-      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
-      port: 37113
-      server: speedo4602000.top
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1F8\U0001F1EC SG 020"
-      network: tcp
-      password: b13cefc6-ea1e-428a-9c0d-54550ee30540
-      port: 12525
-      server: oss1-aliyun-8jf39nf32few-99348j8hanv-34.93451forest.cn
-      skip-cert-verify: true
-      sni: m.ctrip.com
-      type: trojan
-      udp: true
+      type: vless
+      udp: false
+      uuid: 4aab091f-70c6-41d2-a9cf-a002be414821
+      ws-opts:
+        headers:
+            Host: m.zoom.us
+        path: /FREE By Tharuwa (0767597317)
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 021"
+      name: "\U0001F1ED\U0001F1F0 HK 013"
       network: ws
       port: 9095
       server: 47.240.173.102
@@ -190,29 +133,13 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC TW 022"
-      network: ws
-      port: 10694
-      server: speedo4602000.top
-      servername: speedo4602000.top
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
-      ws-opts:
-        headers:
-            Host: speedo4602000.top
-        path: /kbyg
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F9\U0001F1FC TW 023"
+      name: "\U0001F1ED\U0001F1F0 HK 014"
       network: ws
-      port: 10004
-      server: 114.34.202.224
+      port: 4432
+      server: 47.240.15.210
       servername: saas.sosocn.abrdns.com
       skip-cert-verify: false
       tfo: false
@@ -225,7 +152,17 @@ proxies:
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
     - alterId: 1
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 024"
+      name: "\U0001F1EF\U0001F1F5 JP 016 | ⬇️ 12.05 MB/s"
+      network: tcp
+      port: 28783
+      server: dow9k-g01.jp07-sh-vm0.entry.fr0528.art
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP 017"
       network: tcp
       port: 28787
       server: 5fn1x-g05.jp07-sh-vm0.entry.fr0528.art
@@ -233,59 +170,9 @@ proxies:
       tls: false
       type: vmess
       uuid: 8133667f-a211-30d9-8aec-bf1034c6e11e
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F9\U0001F1FC TW 025"
-      network: ws
-      port: 43
-      server: 211.75.189.101
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 027 | ⬇️ 19.49 MB/s"
-      network: original
-      password: 64d35e8a-daf0-4c22-8139-ad22f993e3b7
-      port: 21866
-      server: baigou1.kkieo555.cn
-      skip-cert-verify: true
-      type: trojan
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 028 | ⬇️ 20.41 MB/s"
-      network: original
-      password: 95237656-2861-4a2e-a43b-d924031169e7
-      port: 21863
-      server: baigou1.kkieo555.cn
-      skip-cert-verify: true
-      type: trojan
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F8\U0001F1EC SG 029"
-      network: ws
-      port: 10000
-      server: 8.219.243.43
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
     - alterId: 1
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 032"
+      name: "\U0001F1EF\U0001F1F5 JP 022 | ⬇️ 13.11 MB/s"
       network: tcp
       port: 21585
       server: ikz3x-g05.jp03-j7-vm0.entry.fr0528.art
@@ -293,24 +180,46 @@ proxies:
       tls: true
       type: vmess
       uuid: ca78405e-e554-3cd3-9b6d-2ec98e21c8f1
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 035"
-      port: 21586
-      server: k6dze-g06.jp03-j7-vm0.entry.fr0528.art
-      servername: k6dze-g06.jp03-j7-vm0.entry.fr0528.art
-      skip-cert-verify: false
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE 023"
+      network: ws
+      packet-encoding: ""
+      port: 443
+      server: 162.159.43.92
+      servername: juzi.634676.xyz
       tls: true
-      type: vmess
+      type: vless
       udp: true
-      uuid: 8e0c2bc2-705f-375f-a246-82955b5165ef
+      uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
+      ws-opts:
+        headers:
+            Host: juzi.634676.xyz
+        path: /?ed=2560
+    - allowInsecure: "1"
+      name: "\U0001F1F9\U0001F1FC TW 025"
+      network: original
+      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
+      port: 37113
+      server: speedo4602000.top
+      skip-cert-verify: true
+      type: trojan
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP 026"
+      network: none
+      port: 43930
+      server: 163.227.160.55
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: e1285cf3-293f-41bd-8f2a-217cf1269e24
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F9\U0001F1FC TW 037"
+      name: "\U0001F1F8\U0001F1EC SG 027"
       network: ws
-      port: 16443
-      server: 114.32.9.249
+      port: 9443
+      server: 141.98.199.222
       servername: saas.sosocn.abrdns.com
       skip-cert-verify: false
       tfo: false
@@ -321,16 +230,48 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F9\U0001F1FC TW 039"
-      password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-      port: 19822
-      server: mm.huawei-api.top
-      type: ss
+    - name: "\U0001F1E9\U0001F1EA DE 028"
+      network: ws
+      packet-encoding: ""
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
+      tls: true
+      type: vless
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - allowInsecure: "1"
+      name: "\U0001F1EF\U0001F1F5 JP 030"
+      network: original
+      password: installshield
+      port: 8443
+      server: 38.180.29.238
+      skip-cert-verify: true
+      type: trojan
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 043"
+      name: "\U0001F1ED\U0001F1F0 HK 032"
+      network: ws
+      port: 4443
+      server: 149.104.25.89
+      servername: saas.sosocn.abrdns.com
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
+      ws-opts:
+        headers:
+            Host: saas.sosocn.abrdns.com
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 034"
       network: ws
       port: 30443
       server: 8.217.242.92
@@ -347,93 +288,7 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 044"
-      network: ws
-      port: 12902
-      server: 8.210.96.197
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 046"
-      network: ws
-      port: 35951
-      server: 36.50.90.241
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - allowInsecure: "1"
-      name: "\U0001F1F0\U0001F1F7 KR 048"
-      network: original
-      password: 4c59eb89-cad3-403f-8d6c-d5d8f5af4f87
-      port: 21871
-      server: baigou1.kkieo555.cn
-      skip-cert-verify: true
-      type: trojan
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 049"
-      network: tcp
-      port: 36030
-      server: 103.144.2.229
-      servername: ""
-      tls: false
-      type: vmess
-      uuid: b81ce643-efa2-4acf-ffed-4a346311428f
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5 JP 050"
-      network: ws
-      port: 2053
-      server: 176.97.70.51
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - cipher: aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 051"
-      password: 1d7ca49c-a07a-4278-8384-73bbfe41b124
-      port: 46887
-      server: qqb12.198139.xyz
-      type: ss
-      udp: true
-    - grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EB\U0001F1F7 FR 052"
-      network: grpc
-      port: 59995
-      server: 141.227.162.18
-      type: vless
-      udp: true
-      uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
-      xudp: true
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5 JP 054"
+      name: "\U0001F1EF\U0001F1F5 JP 035 | ⬇️ 12.21 MB/s"
       network: ws
       port: 18836
       server: 139.162.103.207
@@ -447,45 +302,153 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 056"
-      network: tcp
-      port: 447
-      server: kaeog-g04.jp04-1d-vm0.entry.fr0528.art
-      servername: ""
-      tls: false
-      type: vmess
-      uuid: c18c4112-fb51-3167-bb76-515d7a2b512d
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 057"
-      network: tcp
-      port: 448
-      server: wd08t-g05.jp04-1d-vm0.entry.fr0528.art
-      servername: ""
-      tls: false
-      type: vmess
-      uuid: e35ab9dc-4a18-342e-83fd-b31079522dd1
-    - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F1E8\U0001F1F3 CN 058"
-      password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==
-      port: 39505
-      server: hzhz1.sssyun.xyz
-      type: ss
-      udp: true
-    - allowInsecure: "1"
-      name: "\U0001F1F8\U0001F1EC SG 064"
-      network: original
-      password: 5455c473-28d6-42df-9c5e-b67f2a211b7d
-      port: 21877
-      server: baigou1.kkieo555.cn
-      skip-cert-verify: true
-      type: trojan
+    - client-fingerprint: random
+      flow: ""
+      fp: random
+      grpc-opts:
+        grpc-service-name: ""
+      host: sni.aizrf.com
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 037 | ⬇️ 11.71 MB/s"
+      network: ws
+      path: /snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000
+      pbk: ""
+      port: 443
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: tls
+      server: 162.159.152.155
+      servername: sni.aizrf.com
+      serviceName: ""
+      sid: ""
+      sni: sni.aizrf.com
+      tls: true
+      type: vless
+      udp: false
+      uuid: 0667820d-f8a9-4652-a3b9-efadc06af433
+      ws-opts:
+        headers:
+            Host: sni.aizrf.com
+        path: /snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F8\U0001F1EC SG 068"
+      name: "\U0001F1ED\U0001F1F0 HK 039"
+      network: ws
+      port: 7000
+      server: 216.250.97.62
+      servername: saas.sosocn.abrdns.com
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
+      ws-opts:
+        headers:
+            Host: saas.sosocn.abrdns.com
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC TW 041"
+      network: ws
+      port: 10694
+      server: speedo4602000.top
+      servername: ""
+      tls: true
+      type: vmess
+      uuid: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
+      ws-opts:
+        headers:
+            Host: speedo4602000.top
+        path: /kbyg
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 042"
+      network: ws
+      port: 6666
+      server: 43.129.205.163
+      servername: saas.sosocn.abrdns.com
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
+      ws-opts:
+        headers:
+            Host: saas.sosocn.abrdns.com
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 043"
+      network: tcp
+      port: 36030
+      server: 103.144.2.229
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: b81ce643-efa2-4acf-ffed-4a346311428f
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC TW 044"
+      password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+      port: 19822
+      server: mm.huawei-api.top
+      type: ss
+      udp: true
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      host: ""
+      mode: gun
+      name: "\U0001F1EE\U0001F1EA IE 048"
+      network: grpc
+      path: ""
+      pbk: ""
+      port: 59995
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 141.227.162.18
+      servername: ""
+      serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      sid: ""
+      sni: ""
+      tls: false
+      type: vless
+      udp: false
+      uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
+      ws-opts:
+        headers:
+            Host: ""
+        path: ""
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1EC SG 049"
+      packet-encoding: ""
+      port: 8443
+      reality-opts:
+        public-key: KYK_5XL8HcO84pWfXomwnZpJeaggidenKjdCcWV2vXI
+      server: 167.71.209.4
+      servername: jumbulary.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1ff066e9-0903-44ef-8374-16c18c007394
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E6\U0001F1FA AU 052"
+      password: 8ef76355-94fb-415b-89cf-53f5dbdd99f7
+      port: 35608
+      server: gw.liangyuandianwan.com
+      type: ss
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1F8\U0001F1EC SG 053"
       network: ws
       port: 28443
       server: 43.134.62.172
@@ -499,17 +462,27 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 055"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: developers.cloudflare.com
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 070"
+      name: "\U0001F1EF\U0001F1F5 JP 059"
       network: ws
       port: 17265
       server: zgo.tazhi.de
-      servername: zgo.tazhi.de
-      skip-cert-verify: true
+      servername: ""
       tls: true
       type: vmess
-      udp: true
       uuid: cc1ec9ad-e11f-410a-a9f7-bc7e5b42000e
       ws-opts:
         headers:
@@ -518,51 +491,7 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F8\U0001F1EC SG 074"
-      network: ws
-      port: 12483
-      server: 8.222.159.134
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 079"
-      network: ws
-      port: 12147
-      server: 14.43.107.70
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F3 UN 080"
-      network: none
-      port: 43930
-      server: 163.227.160.55
-      servername: ""
-      tls: false
-      type: vmess
-      uuid: e1285cf3-293f-41bd-8f2a-217cf1269e24
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 081"
+      name: "\U0001F1ED\U0001F1F0 HK 069"
       network: ws
       port: 21010
       server: 45.11.104.217
@@ -576,30 +505,13 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F1E8\U0001F1F3 CN 082"
-      password: NjVhMWE2YmVmNzg4MTcwMA==:NmZlMDM5ZmQtNDFlYS00MQ==
-      port: 32207
-      server: hzhz1.sssyun.xyz
-      type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 084"
-      port: 26010
-      server: ppy-hkv1.02ijp4uos1.download
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: ffc323ce-efe2-3b60-a1d1-f4f5497bf2d7
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F3 UN 096"
+      name: "\U0001F1ED\U0001F1F0 HK 079"
       network: ws
-      port: 30921
-      server: 171.103.164.62
+      port: 6006
+      server: 103.115.64.38
       servername: saas.sosocn.abrdns.com
       skip-cert-verify: false
       tfo: false
@@ -610,45 +522,61 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 100"
-      network: tcp
-      port: 28788
-      server: yx9wv-g06.jp06-jz-vm0.entry.fr0528.art
-      servername: yx9wv-g06.jp06-jz-vm0.entry.fr0528.art
-      tls: true
-      type: vmess
-      uuid: 8e0c2bc2-705f-375f-a246-82955b5165ef
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 108"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.49
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 129"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.233
-      type: ss
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 135"
-      network: tcp
-      port: 11773
-      server: 3wmyp-g01.jp02-e3-vm0.entry.fr0528.art
+    - client-fingerprint: ""
+      flow: ""
+      fp: ""
+      grpc-opts:
+        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      host: ""
+      mode: gun
+      name: "\U0001F1EB\U0001F1EE FI 082"
+      network: grpc
+      path: ""
+      pbk: ""
+      port: 39113
+      reality-opts:
+        public-key: ""
+        short-id: ""
+      security: none
+      server: 141.227.170.131
       servername: ""
+      serviceName: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      sid: ""
+      sni: ""
       tls: false
-      type: vmess
-      uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc
+      type: vless
+      udp: false
+      uuid: 787979c0-3691-4612-86a1-e0f1101d5eb2
+      ws-opts:
+        headers:
+            Host: ""
+        path: ""
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 085"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.17
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5 JP 087"
+      password: IhgBKuYnIOmN5sB7cbegaQ==
+      port: 8443
+      server: 202.182.98.223
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 118"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.227
+      type: ss
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 136"
+      name: "\U0001F1F0\U0001F1F7 KR 133"
       network: ws
-      port: 21273
-      server: 61.80.235.140
+      port: 10044
+      server: 221.165.77.238
       servername: saas.sosocn.abrdns.com
       skip-cert-verify: false
       tfo: false
@@ -659,36 +587,40 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 138"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.235
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 US 141"
-      network: ws
-      packet-encoding: ""
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
+    - client-fingerprint: chrome
+      name: "\U0001F1EE\U0001F1F3 IN 157"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+      server: 65.20.74.132
+      servername: bh.contextweb.com
+      skip-cert-verify: true
       tls: true
       type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1F8\U0001F1EC SG 153"
-      password: installshield
-      port: 8443
-      server: 38.180.106.124
-      skip-cert-verify: true
-      type: trojan
       udp: true
+      uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 160"
+      name: "\U0001F1F0\U0001F1F7 KR 168"
+      network: ws
+      port: 50004
+      server: 118.41.218.248
+      servername: saas.sosocn.abrdns.com
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
+      ws-opts:
+        headers:
+            Host: saas.sosocn.abrdns.com
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7 KR 170"
       network: ws
       port: 50006
       server: 125.132.99.79
@@ -702,44 +634,18 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - allowInsecure: "1"
+      name: "\U0001F1F8\U0001F1EC SG 174"
+      network: original
+      password: installshield
+      port: 8443
+      server: 38.180.106.124
+      skip-cert-verify: true
+      type: trojan
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 161"
-      network: ws
-      port: 19017
-      server: 211.55.149.21
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 166"
-      network: ws
-      port: 11371
-      server: 211.51.155.53
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 167"
+      name: "\U0001F1F0\U0001F1F7 KR 180"
       network: ws
       port: 12198
       server: 121.147.34.1
@@ -756,27 +662,27 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 184"
+      name: "\U0001F1F0\U0001F1F7 KR 181"
       network: ws
-      port: 16888
-      server: 220.118.236.239
-      servername: getsub.saas.classelivre.eu.org
+      port: 21293
+      server: 175.200.140.27
+      servername: saas.sosocn.abrdns.com
       skip-cert-verify: false
       tfo: false
       tls: true
       type: vless
-      uuid: 019983f2-4d7d-0a72-28a3-a5ebb5d64755
+      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
       ws-opts:
         headers:
-            Host: getsub.saas.classelivre.eu.org
-        path: /snippets?ip=ProxyIP.Oracle.cmliussss.net&nat64=6to4
+            Host: saas.sosocn.abrdns.com
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 186"
+      name: "\U0001F1F0\U0001F1F7 KR 183"
       network: ws
-      port: 12204
-      server: 183.105.125.181
+      port: 19017
+      server: 211.55.149.21
       servername: saas.sosocn.abrdns.com
       skip-cert-verify: false
       tfo: false
@@ -792,23 +698,6 @@ proxies:
       client-fingerprint: random
       name: "\U0001F1F0\U0001F1F7 KR 187"
       network: ws
-      port: 10044
-      server: 221.165.77.238
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 192"
-      network: ws
       port: 17182
       server: 14.32.12.235
       servername: saas.sosocn.abrdns.com
@@ -821,109 +710,27 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 198"
-      network: ws
-      port: 50004
-      server: 118.41.218.248
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 207"
+      name: "\U0001F1FB\U0001F1F3 VN 200"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.17
+      server: 103.186.154.25
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 211"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.227
-      type: ss
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 213"
-      network: ws
-      port: 21293
-      server: 175.200.140.27
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 221"
-      network: tcp
-      port: 21583
-      server: 16k4f-g03.jp03-j7-vm0.entry.fr0528.art
-      servername: 16k4f-g03.jp03-j7-vm0.entry.fr0528.art
-      tls: true
-      type: vmess
-      uuid: 5c44094f-43bb-301c-9878-37fd5e87d358
     - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 223 | ⬇️ 11.81 MB/s"
-      password: 2b0f3c82-f184-45cb-b816-2e6e30e96261
-      port: 64088
+      name: "\U0001F1EF\U0001F1F5 JP 203"
+      password: 1f6254dd-8093-4834-b465-43d744ffb4f7
+      port: 46887
       server: qqb12.198139.xyz
       type: ss
-      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 234"
+      name: "\U0001F1FB\U0001F1F3 VN 244"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.229
+      server: 103.186.155.121
       type: ss
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 235"
-      network: ws
-      port: 6006
-      server: 103.115.64.38
-      servername: saas.sosocn.abrdns.com
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
-      ws-opts:
-        headers:
-            Host: saas.sosocn.abrdns.com
-        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EC SG 282"
-      password: 4752fc27-8959-4082-9cf4-ccc84096f31e
-      port: 37086
-      server: entrance03.qqa678.cc
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 257"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.49
       type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 HK 291"
-      network: http
-      port: 31212
-      server: 47.242.90.210
-      tls: false
-      type: vmess
-      uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
