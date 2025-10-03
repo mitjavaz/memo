@@ -1,6 +1,30 @@
 proxies:
     - client-fingerprint: randomized
-      name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 16.39 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 19.42 MB/s"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: www.npmjs.com
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
+    - client-fingerprint: randomized
+      name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 16.78 MB/s"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: www.fbi.gov
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 20.45 MB/s"
       network: ws
       packet-encoding: ""
       port: 2095
@@ -12,11 +36,24 @@ proxies:
             Host: snippets.pusytroller.cf
         path: /
     - client-fingerprint: randomized
-      name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 22.42 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL 011 | ⬇️ 15.80 MB/s"
+      network: ws
+      port: 2095
+      server: cf.090227.xyz
+      skip-cert-verify: true
+      type: vless
+      udp: true
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            host: snippets.pusytroller.cf
+        path: /
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 10.88 MB/s"
       network: ws
       packet-encoding: ""
       port: 2095
-      server: www.fbi.gov
+      server: www.shopify.com
       type: vless
       uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
@@ -25,67 +62,18 @@ proxies:
         path: /
     - cipher: aes-256-gcm
       country: SG
-      name: "\U0001F1F8\U0001F1EC SG 008 | ⬇️ 12.47 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG 033 | ⬇️ 12.48 MB/s"
       password: D8wwPu9Txlgaws2+pHxzIS8gx6s6RWw7blftnEcJfhA=
       port: 8443
       server: 174.138.22.94
       type: ss
-    - client-fingerprint: randomized
-      name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 19.61 MB/s"
-      network: ws
-      packet-encoding: ""
-      port: 2095
-      server: www.npmjs.com
-      type: vless
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-      ws-opts:
-        headers:
-            Host: snippets.pusytroller.cf
-        path: /
-    - grpc-opts: {}
-      host: m.zoom.us
-      name: "\U0001F1F8\U0001F1EC SG 012 | ⬇️ 11.86 MB/s"
-      network: ws
-      path: /FREE By Tharuwa (0767597317)
-      port: 81
-      reality-opts: {}
-      security: none
-      server: 188.166.227.1
-      tls: false
-      type: vless
-      udp: false
-      uuid: 4aab091f-70c6-41d2-a9cf-a002be414821
-      ws-opts:
-        headers:
-            Host: m.zoom.us
-        path: /FREE By Tharuwa (0767597317)
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 016 | ⬇️ 12.05 MB/s"
-      network: tcp
-      port: 28783
-      server: dow9k-g01.jp07-sh-vm0.entry.fr0528.art
-      servername: ""
-      tls: false
-      type: vmess
-      uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 022 | ⬇️ 13.11 MB/s"
-      network: tcp
-      port: 21585
-      server: ikz3x-g05.jp03-j7-vm0.entry.fr0528.art
-      servername: ikz3x-g05.jp03-j7-vm0.entry.fr0528.art
-      tls: true
-      type: vmess
-      uuid: ca78405e-e554-3cd3-9b6d-2ec98e21c8f1
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5 JP 035 | ⬇️ 12.21 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 037 | ⬇️ 9.99 MB/s"
       network: ws
-      port: 18836
-      server: 139.162.103.207
+      port: 7000
+      server: 216.250.97.62
       servername: saas.sosocn.abrdns.com
       skip-cert-verify: false
       tfo: false
@@ -96,32 +84,35 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - client-fingerprint: random
-      flow: ""
-      fp: random
-      grpc-opts:
-        grpc-service-name: ""
-      host: sni.aizrf.com
-      mode: ""
-      name: "\U0001F1FA\U0001F1F8 US 037 | ⬇️ 11.71 MB/s"
-      network: ws
-      path: /snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000
-      pbk: ""
-      port: 443
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      security: tls
-      server: 162.159.152.155
-      servername: sni.aizrf.com
-      serviceName: ""
-      sid: ""
-      sni: sni.aizrf.com
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP 050 | ⬇️ 12.77 MB/s"
+      network: tcp
+      port: 21584
+      server: p8640-g04.jp01-0986-vm0.entry.fr0307a.art
+      servername: ""
       tls: true
-      type: vless
-      udp: false
-      uuid: 0667820d-f8a9-4652-a3b9-efadc06af433
+      type: vmess
+      uuid: f294012a-a90d-36cd-a6ac-32e2b9024fc5
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC SG 052 | ⬇️ 15.01 MB/s"
+      network: ws
+      port: 443
+      server: gmailSG.cfapps.ap21.hana.ondemand.com
+      servername: ""
+      tls: true
+      type: vmess
+      uuid: c9ce31f7-dcad-4f3c-9aa3-23ba108d8d00
       ws-opts:
         headers:
-            Host: sni.aizrf.com
-        path: /snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000
+            Host: gmailSG.cfapps.ap21.hana.ondemand.com
+        path: /laoluo
+    - name: "\U0001F1F9\U0001F1FC TW 102 | ⬇️ 11.20 MB/s"
+      password: EDE5AA2C-D8EB-46A7-8564-97453B3CF371
+      port: 3593
+      server: 36.230.30.205
+      skip-cert-verify: true
+      sni: tw2.dexlos.com
+      type: hysteria2
+      udp: true
