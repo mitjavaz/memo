@@ -1,6 +1,36 @@
 proxies:
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 000 | ⬇️ 10.37 MB/s"
+      network: tcp
+      port: 47310
+      server: 47.242.125.161
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: 15ae5517-a067-43f4-8da3-b597ff18fc8e
     - client-fingerprint: randomized
-      name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 19.42 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 19.27 MB/s"
+      network: ws
+      packet-encoding: ""
+      port: 2095
+      server: cf.090227.xyz
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: snippets.pusytroller.cf
+        path: /
+    - allowInsecure: "1"
+      name: "\U0001F1ED\U0001F1F0 HK 006 | ⬇️ 21.88 MB/s"
+      network: original
+      password: 85764caa-c5fe-3b4b-8cf1-2a361e31d553
+      port: 443
+      server: 103.219.195.237
+      skip-cert-verify: true
+      type: trojan
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 11.89 MB/s"
       network: ws
       packet-encoding: ""
       port: 2095
@@ -12,19 +42,7 @@ proxies:
             Host: snippets.pusytroller.cf
         path: /
     - client-fingerprint: randomized
-      name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 16.78 MB/s"
-      network: ws
-      packet-encoding: ""
-      port: 2095
-      server: www.fbi.gov
-      type: vless
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-      ws-opts:
-        headers:
-            Host: snippets.pusytroller.cf
-        path: /
-    - client-fingerprint: randomized
-      name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 20.45 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 012 | ⬇️ 10.94 MB/s"
       network: ws
       packet-encoding: ""
       port: 2095
@@ -35,42 +53,35 @@ proxies:
         headers:
             Host: snippets.pusytroller.cf
         path: /
-    - client-fingerprint: randomized
-      name: "\U0001F1F3\U0001F1F1 NL 011 | ⬇️ 15.80 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 015 | ⬇️ 22.88 MB/s"
       network: ws
-      port: 2095
-      server: cf.090227.xyz
-      skip-cert-verify: true
+      packet-encoding: ""
+      port: 443
+      server: 104.16.246.85
+      servername: juzi.634676.xyz
+      tls: true
       type: vless
-      udp: true
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
       ws-opts:
         headers:
-            host: snippets.pusytroller.cf
-        path: /
+            Host: juzi.634676.xyz
+        path: /?ed=2560
     - client-fingerprint: randomized
-      name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 10.88 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 016 | ⬇️ 11.92 MB/s"
       network: ws
       packet-encoding: ""
       port: 2095
-      server: www.shopify.com
+      server: www.fbi.gov
       type: vless
       uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
         headers:
             Host: snippets.pusytroller.cf
         path: /
-    - cipher: aes-256-gcm
-      country: SG
-      name: "\U0001F1F8\U0001F1EC SG 033 | ⬇️ 12.48 MB/s"
-      password: D8wwPu9Txlgaws2+pHxzIS8gx6s6RWw7blftnEcJfhA=
-      port: 8443
-      server: 174.138.22.94
-      type: ss
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 037 | ⬇️ 9.99 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 018 | ⬇️ 14.29 MB/s"
       network: ws
       port: 7000
       server: 216.250.97.62
@@ -84,35 +95,80 @@ proxies:
         headers:
             Host: saas.sosocn.abrdns.com
         path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 050 | ⬇️ 12.77 MB/s"
-      network: tcp
-      port: 21584
-      server: p8640-g04.jp01-0986-vm0.entry.fr0307a.art
-      servername: ""
-      tls: true
-      type: vmess
-      uuid: f294012a-a90d-36cd-a6ac-32e2b9024fc5
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EC SG 052 | ⬇️ 15.01 MB/s"
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 020 | ⬇️ 19.49 MB/s"
       network: ws
-      port: 443
-      server: gmailSG.cfapps.ap21.hana.ondemand.com
-      servername: ""
-      tls: true
-      type: vmess
-      uuid: c9ce31f7-dcad-4f3c-9aa3-23ba108d8d00
+      packet-encoding: ""
+      port: 2095
+      server: www.shopify.com
+      type: vless
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
         headers:
-            Host: gmailSG.cfapps.ap21.hana.ondemand.com
-        path: /laoluo
-    - name: "\U0001F1F9\U0001F1FC TW 102 | ⬇️ 11.20 MB/s"
-      password: EDE5AA2C-D8EB-46A7-8564-97453B3CF371
-      port: 3593
-      server: 36.230.30.205
+            Host: snippets.pusytroller.cf
+        path: /
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 024 | ⬇️ 13.50 MB/s"
+      network: ws
+      port: 7000
+      server: 216.250.97.62
+      servername: saas.sosocn.abrdns.com
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
+      ws-opts:
+        headers:
+            Host: saas.sosocn.abrdns.com
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC TW 030 | ⬇️ 14.84 MB/s"
+      network: ws
+      port: 10694
+      server: speedo4602000.top
+      servername: speedo4602000.top
       skip-cert-verify: true
-      sni: tw2.dexlos.com
-      type: hysteria2
+      tls: true
+      type: vmess
       udp: true
+      uuid: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
+      ws-opts:
+        headers:
+            Host: speedo4602000.top
+        path: /kbyg
+    - name: "\U0001F1F9\U0001F1FC TW 035 | ⬇️ 12.84 MB/s"
+      password: 545a0b40-cbf2-4ada-a2e9-493da50afb8b
+      port: 37113
+      server: speedo4602000.top
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 047 | ⬇️ 20.75 MB/s"
+      network: ws
+      port: 7000
+      server: 216.250.97.62
+      servername: saas.sosocn.abrdns.com
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 0199773c-a241-7a2e-c6d3-f2af48363268
+      ws-opts:
+        headers:
+            Host: saas.sosocn.abrdns.com
+        path: /snippets?ip=tw.tp81.netlib.re:81&nat64=6to4
+    - allowInsecure: "1"
+      name: "\U0001F1F8\U0001F1EC SG 052 | ⬇️ 18.08 MB/s"
+      network: original
+      password: 302c433a-5d35-35b4-bf05-f364541fd0be
+      port: 443
+      server: vd0ee3cg.cs53rvhb.aliyunglsb.com
+      skip-cert-verify: true
+      type: trojan
