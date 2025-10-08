@@ -1,9 +1,9 @@
 proxies:
     - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 12.75 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 15.87 MB/s"
       network: ws
-      port: 35951
-      server: 36.50.90.241
+      port: 443
+      server: fbi.gov
       servername: fei.634676.xyz
       skip-cert-verify: true
       tfo: false
@@ -14,9 +14,140 @@ proxies:
         headers:
             Host: fei.634676.xyz
         path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 012 | ⬇️ 13.47 MB/s"
+      network: ws
+      port: 2096
+      server: 104.19.50.238
+      servername: gaosir.unfeeling.sbs
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+        path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      fp: chrome
+      grpc-opts:
+        grpc-service-name: ""
+      host: ""
+      mode: gun
+      name: "\U0001F1F9\U0001F1FC TW 023 | ⬇️ 15.27 MB/s"
+      network: tcp
+      path: ""
+      pbk: TMwVM6Se3KqnJX6ArrqsFyr5wDIuk9weurW38h8zIjQ
+      port: 443
+      reality-opts:
+        public-key: TMwVM6Se3KqnJX6ArrqsFyr5wDIuk9weurW38h8zIjQ
+        short-id: 5a337f9f
+      security: reality
+      server: kbgs.hinet.tw1.yydjc.top
+      servername: gopro.com
+      serviceName: ""
+      sid: 5a337f9f
+      sni: gopro.com
+      tls: true
+      type: vless
+      udp: false
+      uuid: 9bc7d795-8f24-4bfa-97f7-046dcb66461d
+      ws-opts:
+        headers:
+            Host: ""
+        path: ""
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 031 | ⬇️ 19.61 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG 026 | ⬇️ 22.57 MB/s"
+      password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
+      port: 19541
+      server: mm.huawei-api.top
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5 JP 031 | ⬇️ 19.80 MB/s"
       password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
       port: 19531
       server: n1.huawei-api.top
       type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5 JP 038 | ⬇️ 11.61 MB/s"
+      password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
+      port: 19531
+      server: tt.huawei-api.top
+      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP 040 | ⬇️ 11.59 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: z-ptLNPFvckqNmfFrEfPGcLIsOWST3EhBjEei8Wpsk8
+      server: 52.194.248.13
+      servername: aws.amazon.com
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP 050 | ⬇️ 12.08 MB/s"
+      network: ws
+      port: 53913
+      server: default.jp.aws.ddns.ad.989567.xyz
+      servername: default.jp.aws.ddns.ad.989567.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 5db5549f-c7bd-4fd9-bcf6-de7cb3efbac9
+      ws-opts:
+        headers:
+            Host: default.jp.aws.ddns.ad.989567.xyz
+        path: /login
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP 051 | ⬇️ 11.36 MB/s"
+      network: ws
+      port: 52785
+      server: default.jp.akile.ddns.ad.989567.xyz
+      servername: default.jp.akile.ddns.ad.989567.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 155ab1ce-91e7-4064-923d-a7da6ba30443
+      ws-opts:
+        headers:
+            Host: default.jp.akile.ddns.ad.989567.xyz
+        path: /
+    - alpn:
+        - '%255B%2522h3%2522%255D'
+      client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8 US 055 | ⬇️ 12.69 MB/s"
+      network: ws
+      port: 57787
+      server: 47.79.89.145
+      servername: gosaas.comorg.dpdns.org
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0199919c-d2db-9299-8103-af49442d70f8
+      ws-opts:
+        headers:
+            Host: gosaas.comorg.dpdns.org
+        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1F3 CN 057 | ⬇️ 21.88 MB/s"
+      password: f1153d29-e862-45c3-9ad0-3f325e034e29
+      port: 48291
+      server: gongxingdns.oboob.cn
+      skip-cert-verify: true
+      sni: v1-dy.ixigua.com
+      type: trojan
+      udp: true
