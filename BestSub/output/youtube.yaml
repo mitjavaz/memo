@@ -1,6 +1,16 @@
 proxies:
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 000 | ⬇️ 21.50 MB/s"
+      port: 15114
+      server: hkt-detour-14.grabgo.pro
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 0b9232cd-d901-4f16-9b51-05bfa3b59bd7
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1F3 CN 000"
+      name: "\U0001F1E8\U0001F1F3 CN 001"
       network: tcp
       port: 3443
       server: 183.240.245.215
@@ -10,43 +20,44 @@ proxies:
       type: vless
       udp: true
       uuid: 8f4f1e5d-2c6f-4b2c-b4d3-12caa77cf6a7
+    - client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 003"
+      network: ws
+      port: 35951
+      server: 36.50.90.241
+      servername: fei.634676.xyz
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
     - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 001"
+      name: "\U0001F1ED\U0001F1F0 HK 004"
       port: 26010
       server: ppy-hkv1.02ijp4uos1.download
       type: vmess
       udp: true
       uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-    - down: null
-      name: "\U0001F1F8\U0001F1EC SG 002 x1.00"
-      password: 072fbef8-9e5d-4d8f-af82-a8e5d9bd878e
-      port: 29744
-      server: sg-nb-04.linlujs.pw
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: null
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 004 | ⬇️ 11.68 MB/s"
-      network: ws
-      port: 35951
-      server: 36.50.90.241
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1EC SG 005"
+      password: 0199d1e4-1451-75dd-a0c8-5231a441c4b7
+      port: 43566
+      server: m1c6c955-iac9-sc9f-t424-szcm26524fe3.themars.top
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: SG
+      name: "\U0001F1F8\U0001F1EC SG 006 | ⬇️ 11.29 MB/s"
+      password: GjUtzQIjhyYSzhdN2ZMRft
+      port: 80
+      server: 167.71.205.112
+      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 005"
+      name: "\U0001F1FA\U0001F1F8 US 008"
       network: ws
       port: 2096
       server: 104.19.50.238
@@ -61,964 +72,31 @@ proxies:
         headers:
             Host: gaosir.unfeeling.sbs
         path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 006"
-      network: tcp
-      port: 42612
-      server: 45.116.78.240
-      servername: ""
-      tls: false
-      type: vmess
-      uuid: cfff463c-59ae-4d53-f1d7-67b946481a24
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 008 | ⬇️ 12.22 MB/s"
-      network: ws
-      port: 60006
-      server: 43.161.227.251
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
+    - name: "\U0001F1F8\U0001F1EC SG 011"
+      packet-encoding: ""
+      port: 443
+      server: freeplus.v2raystorm.xyz
+      servername: freeplus.v2raystorm.xyz
       tls: true
       type: vless
       udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - down: null
-      name: "\U0001F1EF\U0001F1F5 JP 009 x2.00"
-      password: 072fbef8-9e5d-4d8f-af82-a8e5d9bd878e
-      port: 28544
-      server: jp-ggvi-03.linlujs.pw
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: null
-    - down: null
-      name: "\U0001F1EF\U0001F1F5 JP 011 x2.00"
-      password: 072fbef8-9e5d-4d8f-af82-a8e5d9bd878e
-      port: 30002
-      server: jp-ggvi-05.linlujs.pw
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: null
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 012"
-      network: ws
-      port: 12308
-      server: 14.198.157.84
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1EC SG 016"
-      password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
-      port: 19541
-      server: mm.huawei-api.top
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 017"
-      network: ws
-      port: 43
-      server: 211.75.189.101
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 018 | ⬇️ 18.08 MB/s"
-      network: ws
-      port: 45000
-      server: 46.3.109.189
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 019"
-      network: ws
-      port: 10004
-      server: 114.34.202.224
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
+      uuid: 34f69418-0d46-498e-a1a5-4d1e157ff3cc
     - cipher: aes-256-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 020"
+      name: "\U0001F1EF\U0001F1F5 JP 013"
       password: NicholasLai
       port: 443
       server: 64.110.100.50
       type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1F3 CN 022"
-      network: tcp
-      port: 11443
-      server: 183.240.179.88
-      skip-cert-verify: true
-      tfo: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: df245bf8-8253-4029-90d8-ef30cfac75f1
-    - cipher: chacha20-ietf-poly1305
-      country: TH
-      name: "\U0001F1F9\U0001F1ED TH 023"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 119.59.127.129
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 024"
-      network: ws
-      port: 16443
-      server: 114.32.9.249
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP 025 | ⬇️ 11.61 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: z-ptLNPFvckqNmfFrEfPGcLIsOWST3EhBjEei8Wpsk8
-      server: 52.194.248.13
-      servername: aws.amazon.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 026 | ⬇️ 18.05 MB/s"
-      network: ws
-      port: 7000
-      server: 202.85.53.54
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 027"
-      network: ws
-      port: 49501
-      server: 103.27.79.92
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 028"
-      network: ws
-      port: 4646
-      server: 43.134.160.170
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - allowInsecure: "1"
-      name: "\U0001F1EF\U0001F1F5 JP 029 | ⬇️ 14.77 MB/s"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 41003
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      fp: chrome
-      grpc-opts:
-        grpc-service-name: ""
-      host: ""
-      mode: ""
-      name: "\U0001F1E9\U0001F1EA DE 030"
-      network: tcp
-      path: ""
-      pbk: Q0aLm5f1x8Sh0jWnBWneusXUWeKTw9d8AcP4oEIkgwc
-      port: 443
-      reality-opts:
-        public-key: Q0aLm5f1x8Sh0jWnBWneusXUWeKTw9d8AcP4oEIkgwc
-        short-id: "86"
-      security: reality
-      server: 143.14.189.181
-      servername: icloud.com
-      serviceName: ""
-      sid: "86"
-      sni: icloud.com
-      tls: true
-      type: vless
-      udp: false
-      uuid: 52aae58a-1d54-45a4-9d05-c36d16a6dd12
-      ws-opts:
-        headers:
-            Host: ""
-        path: ""
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 032"
-      password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
-      port: 19531
-      server: tt.huawei-api.top
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 033"
-      network: ws
-      port: 28443
-      server: 43.156.67.197
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 034"
-      network: ws
-      port: 999
-      server: 103.30.78.224
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alterId: 0
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 035 | ⬇️ 14.92 MB/s"
-      network: ws
-      port: 443
-      server: oksl.cfapps.ap21.hana.ondemand.com
-      servername: oksl.cfapps.ap21.hana.ondemand.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: cb94c83d-50cf-4a68-ba03-c6ed757df1f2
-      ws-opts:
-        headers:
-            Host: oksl.cfapps.ap21.hana.ondemand.com
-        path: /laoluo
-    - allowInsecure: "1"
-      name: "\U0001F1EF\U0001F1F5 JP 036"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 41002
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1EE\U0001F1F7 IR 037"
-      network: ws
-      port: 8080
-      server: 151.242.165.220
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 038"
-      network: ws
-      port: 4439
-      server: 43.128.111.158
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1EB\U0001F1F7 FR 039"
-      network: ws
-      port: 10008
-      server: 62.106.70.181
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 043 | ⬇️ 11.59 MB/s"
-      network: ws
-      port: 45678
-      server: 8.217.224.57
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 044"
-      network: ws
-      port: 51358
-      server: 45.66.128.215
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 046 | ⬇️ 18.94 MB/s"
-      password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
-      port: 19531
-      server: n1.huawei-api.top
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 047"
-      network: ws
-      port: 4443
-      server: 101.32.209.46
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 049"
-      network: ws
-      port: 57787
-      server: 47.79.89.145
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 051"
-      network: ws
-      port: 60007
-      server: 43.161.227.251
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - client-fingerprint: random
-      name: "\U0001F1F8\U0001F1EC SG 053"
-      network: ws
+    - name: "\U0001F1F9\U0001F1FC TW 018"
+      password: exaxgqkKkd0TAMrCxeonWg==
       port: 1443
-      server: 47.245.95.160
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 054"
-      network: ws
-      port: 443
-      server: 101.32.12.79
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 055"
-      network: ws
-      port: 11665
-      server: 141.98.197.101
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 056"
-      network: ws
-      port: 51002
-      server: 45.66.130.58
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5 JP 057"
-      network: ws
-      port: 10086
-      server: 47.74.2.175
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 058"
-      network: ws
-      port: 26688
-      server: 45.121.138.23
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 059"
-      network: ws
-      port: 10315
-      server: 60.248.63.88
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 060"
-      network: ws
-      port: 81
-      server: 210.61.97.241
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 061"
-      network: ws
-      port: 10000
-      server: 47.76.247.200
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 066"
-      network: ws
-      port: 12522
-      server: 60.248.63.88
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 067"
-      network: ws
-      port: 10226
-      server: 60.248.63.88
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E8\U0001F1E6 CA 069"
-      network: grpc
-      port: 40853
-      server: 15.235.45.229
-      tls: false
-      type: vless
-      udp: true
-      uuid: b0ff01b1-04d3-4b01-8ba9-b1dc47416c07
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 070"
-      network: ws
-      port: 9950
-      server: 43.134.167.135
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 071"
-      network: ws
-      port: 16071
-      server: 60.248.63.88
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 073"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 43003
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 075"
-      network: ws
-      port: 35951
-      server: 36.50.90.241
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 079"
-      network: ws
-      port: 10030
-      server: 35.79.194.239
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - allowInsecure: "1"
-      name: "\U0001F1F8\U0001F1EC SG 080"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 42002
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 082"
-      network: ws
-      port: 10042
-      server: 61.83.202.17
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 086"
-      port: 15114
-      server: hkt-detour-14.grabgo.pro
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 0b9232cd-d901-4f16-9b51-05bfa3b59bd7
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 099"
-      network: ws
-      port: 40001
-      server: 172.99.137.26
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - name: "\U0001F1F0\U0001F1F7 KR 101"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+      server: twmoon1-cdn-route.couldflare-cdn.com
       tls: true
       type: http
       udp: true
-      username: test
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 104"
-      network: ws
-      port: 22577
-      server: 49.174.170.115
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 110"
-      network: ws
-      port: 12171
-      server: 125.128.132.216
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - allowInsecure: "1"
-      name: "\U0001F1E8\U0001F1F3 CN 114"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 59001
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 115"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.119
-      type: ss
-    - allowInsecure: "1"
-      name: "\U0001F1F8\U0001F1EC SG 116"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 42003
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - allowInsecure: "1"
-      name: "\U0001F1F8\U0001F1EC SG 126"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 42004
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 127"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 43002
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 128"
-      network: ws
-      port: 21302
-      server: 222.100.158.229
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 130"
-      network: ws
-      port: 12334
-      server: 222.105.228.200
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 143"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.150
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 144"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.83
-      type: ss
-      udp: true
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
     - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 146"
+      name: "\U0001F1ED\U0001F1F0 HK 020"
       network: ws
       port: 58443
       server: 154.83.98.90
@@ -1032,403 +110,144 @@ proxies:
         headers:
             Host: fei.634676.xyz
         path: /?ed=2560
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 147"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.230
-      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 027"
+      port: 26012
+      server: ppy-hkv1.02ijp4uos1.download
+      type: vmess
       udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 150"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.2
-      type: ss
-      udp: true
-    - allowInsecure: "1"
-      name: "\U0001F1F0\U0001F1F7 KR 151"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 45001
-      server: dy.xgboard2.top
+      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    - name: "\U0001F1F8\U0001F1EC SG 028"
+      password: 539423f9-d49e-41ef-86c2-eee2281f5584
+      port: 42454
+      server: linsg1.jueduibupao.top
       skip-cert-verify: true
-      type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 155"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.133
-      type: ss
-    - cipher: aes-256-cfb
-      country: AU
-      name: "\U0001F1E6\U0001F1FA AU 159"
-      password: amazonskr05
-      port: 443
-      server: 3.26.167.161
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 162"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.70
+      sni: linsg1.jueduibupao.top
+      type: hysteria2
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 032"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)26af988:57468
+        mode: tls
+        tls: false
+      port: 2377
+      server: 5.44.249.42
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 163"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.116
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 033"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)32cf132:178330
+        mode: tls
+      port: 2377
+      server: 5.44.249.43
       type: ss
-    - client-fingerprint: ""
-      flow: ""
-      fp: ""
-      grpc-opts:
-        grpc-service-name: ""
-      host: fast01.0860852.xyz
-      mode: ""
-      name: "\U0001F1F3\U0001F1F1 NL 164"
+    - client-fingerprint: random
+      name: "\U0001F1F8\U0001F1EC SG 034"
       network: ws
-      path: /TelegramU0001F1E8U0001F1F3security=tls
-      pbk: ""
-      port: 2096
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      security: ""
-      server: 185.251.81.253
-      servername: fast01.0860852.xyz
-      serviceName: ""
-      sid: ""
-      sni: fast01.0860852.xyz
+      port: 1443
+      server: 47.245.95.160
+      servername: fei.634676.xyz
+      skip-cert-verify: true
+      tfo: false
       tls: true
       type: vless
-      udp: false
-      uuid: 2456f90c-5183-476d-b069-16ae74ce120f
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
       ws-opts:
         headers:
-            Host: fast01.0860852.xyz
-        path: /TelegramU0001F1E8U0001F1F3security=tls
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 167"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.68
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 170"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.101
-      type: ss
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7 KR 058"
+      network: ws
+      port: 10042
+      server: 61.83.202.17
+      servername: fei.634676.xyz
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP 060"
+      packet-encoding: ""
+      port: 443
+      reality-opts: {}
+      server: 219.94.252.114
+      servername: glc-jp4.windowsupdatea.com
+      tls: true
+      type: vless
       udp: true
+      uuid: 2e8a036a-f353-4de7-8889-32eadb936822
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 172"
+      name: "\U0001F1FB\U0001F1F3 VN 074"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.39
+      server: 103.186.155.45
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 173"
+      name: "\U0001F1FB\U0001F1F3 VN 075"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.207
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 079"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.62
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 175"
+      name: "\U0001F1FB\U0001F1F3 VN 091"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.4
+      server: 103.186.155.130
+      type: ss
+    - cipher: aes-256-cfb
+      country: VN
+      name: "\U0001F1FB\U0001F1F3 VN 094"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.150
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 095"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.104
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 110"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.59
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 180"
+      name: "\U0001F1FB\U0001F1F3 VN 117"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.9
+      server: 103.186.155.102
       type: ss
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 HK 183"
-      network: http
-      port: 31212
-      server: 47.242.90.210
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
     - cipher: aes-256-cfb
-      country: AU
-      name: "\U0001F1E6\U0001F1FA AU 185"
-      password: amazonskr05
-      port: 443
-      server: 3.107.35.33
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F2\U0001F1FE MY 188"
-      port: 2052
-      server: 38.54.98.110
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 665d9b8f-153d-4907-adac-de12afd9c851
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 192"
+      name: "\U0001F1FB\U0001F1F3 VN 131"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.145
+      server: 103.186.155.118
       type: ss
-    - allowInsecure: "1"
-      name: "\U0001F1F8\U0001F1EC SG 194"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 42001
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 195"
-      network: ws
-      port: 12436
-      server: 121.176.175.54
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 197"
-      network: ws
-      port: 50008
-      server: 125.134.160.98
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 199"
-      network: ws
-      port: 10399
-      server: 59.1.166.218
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 200"
-      network: ws
-      port: 50000
-      server: 222.97.1.10
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 202"
-      network: ws
-      port: 12558
-      server: 211.229.95.218
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F3\U0001F1F1 NL 204"
-      network: ws
-      port: 32199
-      server: 45.159.51.121
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 207"
-      network: ws
-      port: 11101
-      server: 121.150.127.212
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 208"
-      network: ws
-      port: 12568
-      server: 119.201.135.134
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 209"
-      network: ws
-      port: 14903
-      server: 121.146.230.227
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 210"
-      network: ws
-      port: 11112
-      server: 211.222.155.233
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 212"
-      network: ws
-      port: 12477
-      server: 221.150.47.217
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 217"
-      network: ws
-      port: 21271
-      server: 121.158.182.66
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 219"
-      network: ws
-      port: 50004
-      server: 118.41.218.248
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
     - client-fingerprint: chrome
-      name: "\U0001F1EE\U0001F1F3 IN 221"
+      name: "\U0001F1EE\U0001F1F3 IN 145"
       network: tcp
       port: 443
       reality-opts:
@@ -1440,422 +259,67 @@ proxies:
       type: vless
       udp: true
       uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 222"
-      network: ws
-      port: 50007
-      server: 121.161.1.164
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 223"
+      name: "\U0001F1FB\U0001F1F3 VN 150"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.123
       type: ss
       udp: true
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 224"
-      network: ws
-      port: 12483
-      server: 218.159.247.62
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - name: "\U0001F1F8\U0001F1EC SG 225"
-      password: installshield
-      port: 8443
-      server: 38.180.106.124
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 227"
-      network: ws
-      port: 12439
-      server: 211.55.149.215
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 232"
+      name: "\U0001F1FB\U0001F1F3 VN 153"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.240
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 233"
-      network: ws
-      port: 10013
-      server: 59.31.235.90
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 236"
-      network: ws
-      port: 12129
-      server: 112.161.10.25
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 238"
-      network: ws
-      port: 10051
-      server: 211.106.184.129
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 240"
-      network: ws
-      port: 12564
-      server: 175.210.195.42
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 241"
-      network: ws
-      port: 12113
-      server: 175.212.51.220
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 242"
-      network: ws
-      port: 20201
-      server: 211.253.100.65
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 248"
-      network: ws
-      port: 50001
-      server: 220.71.138.56
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 249"
-      network: ws
-      port: 14901
-      server: 112.161.221.228
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 252"
-      network: ws
-      port: 12204
-      server: 125.134.233.181
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 254"
-      network: ws
-      port: 12114
-      server: 61.83.176.3
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 255"
-      network: ws
-      port: 50006
-      server: 39.126.188.174
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 257"
-      network: ws
-      port: 13000
-      server: 220.83.164.89
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 258"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.131
+      server: 103.186.155.235
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 261"
+      name: "\U0001F1FB\U0001F1F3 VN 154"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.130
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 262"
-      network: ws
-      port: 32080
-      server: 211.216.185.56
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - allowInsecure: "1"
-      name: "\U0001F1EF\U0001F1F5 JP 265"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 41004
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 291"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.223
-      type: ss
-    - allowInsecure: "1"
-      name: "\U0001F1EF\U0001F1F5 JP 300"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 41001
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 301"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.102
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 306"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.137
-      type: ss
-      udp: true
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 311"
-      network: original
-      password: 68f4b269-6635-451c-b864-40bf50ccbc20
-      port: 10014
-      server: dy.xgboard2.top
-      skip-cert-verify: true
-      type: trojan
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 321"
-      network: ws
-      port: 30701
-      server: 47.242.25.137
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 328"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.33
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 335"
-      network: ws
-      port: 16015
-      server: 61.239.168.21
-      servername: gosaas.comorg.dpdns.org
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0199919c-d2db-9299-8103-af49442d70f8
-      ws-opts:
-        headers:
-            Host: gosaas.comorg.dpdns.org
-        path: '%2Fsnippets%3Fip%3Dkr.tp50000.netlib.re%3A50000%26nat64%3D6to4'
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 346"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.154
+      server: 103.186.155.34
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 361"
+      country: AU
+      name: "\U0001F1E6\U0001F1FA AU 156"
+      password: amazonskr05
+      port: 443
+      server: 3.25.198.142
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 159"
+      network: tcp
+      port: 47310
+      server: 47.242.125.161
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: 15ae5517-a067-43f4-8da3-b597ff18fc8e
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 165"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.46
+      server: 103.186.155.116
       type: ss
+    - cipher: aes-256-cfb
+      country: VN
+      name: "\U0001F1FB\U0001F1F3 VN 173"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.206
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 209"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.124
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 218"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.114
+      type: ss
+      udp: true
