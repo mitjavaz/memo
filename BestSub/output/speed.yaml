@@ -1,28 +1,31 @@
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0 HK 000 | ⬇️ 18.52 MB/s"
-      network: tcp
-      password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15
-      port: 13007
-      server: 36.141.40.42
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 011 | ⬇️ 31.15 MB/s"
+      port: 15114
+      server: hkt-detour-14.grabgo.pro
       skip-cert-verify: true
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
+      tls: false
+      type: vmess
       udp: true
-    - client-fingerprint: randomized
-      name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 13.28 MB/s"
+      uuid: 0b9232cd-d901-4f16-9b51-05bfa3b59bd7
+    - client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0 HK 014 | ⬇️ 17.04 MB/s"
       network: ws
-      packet-encoding: ""
-      port: 2095
-      server: www.shopify.com
+      port: 35951
+      server: 36.50.90.241
+      servername: fei.634676.xyz
+      skip-cert-verify: true
+      tfo: false
+      tls: true
       type: vless
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
       ws-opts:
         headers:
-            Host: freedom.pusytroller.cf
-        path: /
+            Host: fei.634676.xyz
+        path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 15.20 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 015 | ⬇️ 16.08 MB/s"
       network: ws
       port: 2096
       server: 104.19.50.238
@@ -37,28 +40,19 @@ proxies:
         headers:
             Host: gaosir.unfeeling.sbs
         path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 12.27 MB/s"
-      network: ws
-      port: 50000
-      server: 47.239.199.206
-      servername: mingydynamic.sosorg.nyc.mn
+    - name: "\U0001F1ED\U0001F1F0 HK 016 | ⬇️ 17.15 MB/s"
+      network: tcp
+      password: e531d1bc-a56f-4e1a-a295-1442369a19c1
+      port: 26004
+      server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
       skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
+      sni: www.bilibili.com
+      type: trojan
       udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
     - alpn:
         - '%255B%2522h3%2522%255D'
       client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 017 | ⬇️ 18.08 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 019 | ⬇️ 15.92 MB/s"
       network: ws
       port: 2096
       server: 172.64.229.220
@@ -73,44 +67,13 @@ proxies:
         headers:
             Host: mingydynamic.sosorg.nyc.mn
         path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - cipher: chacha20-ietf-poly1305
-      country: SG
-      name: "\U0001F1F8\U0001F1EC SG 018 | ⬇️ 12.71 MB/s"
-      password: GjUtzQIjhyYSzhdN2ZMRft
-      port: 80
-      server: 167.71.205.112
-      type: ss
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 024 | ⬇️ 26.32 MB/s"
-      network: ws
-      packet-encoding: ""
-      port: 443
-      server: ct.877774.xyz
-      servername: oracle-id-batam.258526.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
-      ws-opts:
-        headers:
-            Host: oracle-id-batam.258526.xyz
-        path: /freev2.net?ed=2048
-    - name: "\U0001F1ED\U0001F1F0 HK 032 | ⬇️ 22.52 MB/s"
-      network: tcp
-      password: e531d1bc-a56f-4e1a-a295-1442369a19c1
-      port: 26004
-      server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
-      skip-cert-verify: true
-      sni: www.bilibili.com
-      type: trojan
-      udp: true
     - alpn:
         - '%255B%2522h3%2522%255D'
       client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 033 | ⬇️ 12.11 MB/s"
+      name: "\U0001F1E8\U0001F1F3 CN 020 | ⬇️ 11.95 MB/s"
       network: ws
-      port: 443
-      server: 47.238.120.134
+      port: 7000
+      server: 202.85.53.54
       servername: mingydynamic.sosorg.nyc.mn
       skip-cert-verify: true
       tfo: false
@@ -122,9 +85,52 @@ proxies:
         headers:
             Host: mingydynamic.sosorg.nyc.mn
         path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
+    - alpn:
+        - '%255B%2522h3%2522%255D'
+      client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7 KR 025 | ⬇️ 11.67 MB/s"
+      network: ws
+      port: 60007
+      server: 43.161.227.251
+      servername: mingydynamic.sosorg.nyc.mn
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
+      ws-opts:
+        headers:
+            Host: mingydynamic.sosorg.nyc.mn
+        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0 HK 033 | ⬇️ 33.33 MB/s"
+      password: ab5243d1-71f0-4a75-86b1-ad4afdb508df
+      port: 23004
+      server: 0d5a9626-906c-4fc0-a783-3fe90d4feb8f.palcloud.top
+      type: ss
+      udp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 041 | ⬇️ 19.12 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP 035 | ⬇️ 20.79 MB/s"
       password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
       port: 19531
       server: n1.huawei-api.top
       type: ss
+    - alpn:
+        - '%255B%2522h3%2522%255D'
+      client-fingerprint: random
+      name: "\U0001F1E8\U0001F1F3 CN 036 | ⬇️ 14.79 MB/s"
+      network: ws
+      port: 10352
+      server: 103.235.18.96
+      servername: mingydynamic.sosorg.nyc.mn
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
+      ws-opts:
+        headers:
+            Host: mingydynamic.sosorg.nyc.mn
+        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
