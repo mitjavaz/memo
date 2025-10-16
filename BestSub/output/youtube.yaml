@@ -1,17 +1,26 @@
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1F3 CN 000"
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 000"
       network: tcp
-      port: 3443
-      server: 183.240.245.215
-      skip-cert-verify: true
-      tfo: false
+      port: 47310
+      server: 47.242.125.161
+      servername: ""
       tls: false
-      type: vless
+      type: vmess
+      uuid: 15ae5517-a067-43f4-8da3-b597ff18fc8e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 001"
+      port: 15114
+      server: hkt-detour-14.grabgo.pro
+      skip-cert-verify: true
+      tls: false
+      type: vmess
       udp: true
-      uuid: 8f4f1e5d-2c6f-4b2c-b4d3-12caa77cf6a7
+      uuid: 0b9232cd-d901-4f16-9b51-05bfa3b59bd7
     - down: null
-      name: "\U0001F1F9\U0001F1FC TW 001 x1.00"
+      name: "\U0001F1F9\U0001F1FC TW 002 x1.00"
       password: 6a7a687f-2790-4094-86cd-1aa5e1accb94
       port: 30044
       server: tw-me-03.linlujs.pw
@@ -20,61 +29,19 @@ proxies:
       type: hysteria2
       up: null
     - client-fingerprint: randomized
-      name: "\U0001F1F3\U0001F1F1 NL 002"
+      name: "\U0001F1FA\U0001F1F8 US 003"
       network: ws
+      packet-encoding: ""
       port: 2095
-      server: openai.com
-      skip-cert-verify: true
+      server: www.fbi.gov
       type: vless
-      udp: true
       uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
         headers:
-            host: freedom.pusytroller.cf
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0 HK 003"
-      network: tcp
-      password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15
-      port: 13007
-      server: 36.141.40.42
-      skip-cert-verify: true
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-      udp: true
-    - down: null
-      name: "\U0001F1F9\U0001F1FC TW 004 x1.00"
-      password: 6a7a687f-2790-4094-86cd-1aa5e1accb94
-      port: 30011
-      server: tw-me-02.linlujs.pw
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: null
-    - down: null
-      name: "\U0001F1F9\U0001F1FC TW 005 x1.00"
-      password: 6a7a687f-2790-4094-86cd-1aa5e1accb94
-      port: 30009
-      server: tw-me-01.linlujs.pw
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: null
-    - client-fingerprint: randomized
-      name: "\U0001F1E9\U0001F1EA DE 006"
-      network: ws
-      port: 2095
-      server: www.npmjs.com
-      skip-cert-verify: true
-      type: vless
-      udp: true
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-      ws-opts:
-        headers:
-            host: freedom.pusytroller.cf
+            Host: freedom.pusytroller.cf
         path: /
     - client-fingerprint: randomized
-      name: "\U0001F1F3\U0001F1F1 NL 007"
+      name: "\U0001F1F3\U0001F1F1 NL 004"
       network: ws
       port: 2095
       server: cf.090227.xyz
@@ -86,187 +53,51 @@ proxies:
         headers:
             host: freedom.pusytroller.cf
         path: /
-    - down: null
-      name: "\U0001F1F8\U0001F1EC SG 008 x1.00"
-      password: 6a7a687f-2790-4094-86cd-1aa5e1accb94
-      port: 29744
-      server: sg-nb-04.linlujs.pw
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: null
-    - down: null
-      name: "\U0001F1F8\U0001F1EC SG 009 x1.00"
-      password: 6a7a687f-2790-4094-86cd-1aa5e1accb94
-      port: 30001
-      server: sg-nb-01.linlujs.pw
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: null
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 011 | ⬇️ 31.15 MB/s"
-      port: 15114
-      server: hkt-detour-14.grabgo.pro
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 0b9232cd-d901-4f16-9b51-05bfa3b59bd7
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK 012"
-      network: tcp
-      port: 42612
-      server: 45.116.78.240
-      servername: ""
-      tls: false
-      type: vmess
-      uuid: cfff463c-59ae-4d53-f1d7-67b946481a24
-    - down: null
-      name: "\U0001F1F8\U0001F1EC SG 013 x1.00"
-      password: 6a7a687f-2790-4094-86cd-1aa5e1accb94
-      port: 25664
-      server: sg-nb-03.linlujs.pw
-      skip-cert-verify: false
-      sni: null
-      type: hysteria2
-      up: null
-    - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 014 | ⬇️ 17.04 MB/s"
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 005"
       network: ws
-      port: 35951
-      server: 36.50.90.241
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tfo: false
-      tls: true
+      packet-encoding: ""
+      port: 2095
+      server: www.shopify.com
       type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       ws-opts:
         headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 015 | ⬇️ 16.08 MB/s"
-      network: ws
-      port: 2096
-      server: 104.19.50.238
-      servername: gaosir.unfeeling.sbs
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-        path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-    - name: "\U0001F1ED\U0001F1F0 HK 016 | ⬇️ 17.15 MB/s"
-      network: tcp
-      password: e531d1bc-a56f-4e1a-a295-1442369a19c1
-      port: 26004
-      server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
-      skip-cert-verify: true
-      sni: www.bilibili.com
-      type: trojan
-      udp: true
-    - allowInsecure: "1"
-      name: "\U0001F1ED\U0001F1F0 HK 018"
-      network: ws
-      password: d3a4f090-8ab8-49c2-85dd-684c4a99c384
-      port: 17901
-      server: dnsmart.dg-cdn.mob.networklinkpro.com
-      skip-cert-verify: true
-      type: trojan
-      ws-opts:
+            Host: freedom.pusytroller.cf
         path: /
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 019 | ⬇️ 15.92 MB/s"
-      network: ws
-      port: 2096
-      server: 172.64.229.220
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 020 | ⬇️ 11.95 MB/s"
-      network: ws
-      port: 7000
-      server: 202.85.53.54
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FC TW 022"
-      port: 26061
-      server: ppy-twv1.02ijp4uos1.download
-      type: vmess
-      udp: true
-      uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-    - auth: q0eTS+luMW6XeLHtGDbd+rY7
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP 023"
-      password: q0eTS+luMW6XeLHtGDbd+rY7
-      port: 40443
-      server: 61.245.11.112
-      skip-cert-verify: true
+    - down: null
+      name: "\U0001F1F9\U0001F1FC TW 006 x1.00"
+      password: 6a7a687f-2790-4094-86cd-1aa5e1accb94
+      port: 30011
+      server: tw-me-02.linlujs.pw
+      skip-cert-verify: false
+      sni: null
       type: hysteria2
-      udp: true
-    - insecure: "1"
-      mport: 21000-26000
-      name: "\U0001F1F2\U0001F1FE MY 024"
-      obfs: ""
-      obfs-password: ""
-      password: d3a4f090-8ab8-49c2-85dd-684c4a99c384
-      port: 22584
-      ports: 21000-26000
-      server: 35my.cloudfrontcdn.com
+      up: null
+    - allowInsecure: "1"
+      name: "\U0001F1ED\U0001F1F0 HK 007"
+      network: original
+      password: ca1e2757-cccf-4e3a-a174-cc65f2285db8
+      port: 5606
+      server: sdv2-hk.04z3susick.download
       skip-cert-verify: true
-      sni: 35my.cloudfrontcdn.com
-      type: hysteria2
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 025 | ⬇️ 11.67 MB/s"
+      type: trojan
+    - client-fingerprint: randomized
+      name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 17.95 MB/s"
       network: ws
-      port: 60007
-      server: 43.161.227.251
-      servername: mingydynamic.sosorg.nyc.mn
+      port: 443
+      server: freeyx.cloudflare88.eu.org
+      servername: mf.xmma.xyz
       skip-cert-verify: true
-      tfo: false
       tls: true
       type: vless
       udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
+      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
         headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - name: "\U0001F1F9\U0001F1FC TW 028"
+            host: mf.xmma.xyz
+        path: /?ed=2048
+    - name: "\U0001F1F9\U0001F1FC TW 013"
       password: exaxgqkKkd0TAMrCxeonWg==
       port: 1443
       server: twmoon1-cdn-route.couldflare-cdn.com
@@ -274,309 +105,17 @@ proxies:
       type: http
       udp: true
       username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 029"
-      network: ws
-      port: 43
-      server: 61.220.128.226
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 030"
-      network: ws
-      port: 50000
-      server: 47.239.199.206
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
     - cipher: aes-256-gcm
-      name: "\U0001F1EF\U0001F1F5 JP 031"
+      name: "\U0001F1EF\U0001F1F5 JP 015"
       password: NicholasLai
       port: 443
       server: 64.110.100.50
       type: ss
-    - cipher: aes-128-gcm
-      name: "\U0001F1ED\U0001F1F0 HK 033 | ⬇️ 33.33 MB/s"
-      password: ab5243d1-71f0-4a75-86b1-ad4afdb508df
-      port: 23004
-      server: 0d5a9626-906c-4fc0-a783-3fe90d4feb8f.palcloud.top
-      type: ss
-      udp: true
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 034"
-      network: ws
-      port: 10004
-      server: 114.34.202.224
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 035 | ⬇️ 20.79 MB/s"
-      password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
-      port: 19531
-      server: n1.huawei-api.top
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 036 | ⬇️ 14.79 MB/s"
-      network: ws
-      port: 10352
-      server: 103.235.18.96
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - client-fingerprint: random
-      name: "\U0001F1F9\U0001F1FC TW 037"
-      network: ws
-      port: 10240
-      server: 34.81.140.124
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 038"
-      network: ws
-      port: 4439
-      server: 43.128.111.158
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 039"
-      network: ws
-      port: 12365
-      server: 8.222.154.58
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE 041"
-      network: ws
-      port: 443
-      server: 1password.com
-      servername: rAyAn-007.fOtOn.dPdNs.oRg
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-      ws-opts:
-        headers:
-            host: rayan-007.foton.dpdns.org
-        path: /?ed=2560
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 043"
-      network: ws
-      port: 16443
-      server: 114.32.9.249
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5 JP 045"
-      network: ws
-      port: 10005
-      server: 54.150.13.126
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 046"
-      network: ws
-      port: 51002
-      server: 45.66.130.58
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - client-fingerprint: random
-      name: "\U0001F1F8\U0001F1EC SG 047"
-      network: ws
-      port: 1443
-      server: 47.245.95.160
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 048"
-      network: ws
-      port: 8788
-      server: 156.231.141.129
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 049"
-      network: ws
-      port: 10017
-      server: 35.73.80.176
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5 JP 050"
-      network: ws
-      port: 23333
-      server: 47.74.25.192
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 053"
-      network: ws
-      port: 11665
-      server: 141.98.197.101
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
     - client-fingerprint: randomized
-      name: "\U0001F1E9\U0001F1EA DE 054"
+      name: "\U0001F1EE\U0001F1EA IE 017"
       network: ws
       port: 2095
-      server: developers.cloudflare.com
+      server: www.wto.org
       skip-cert-verify: true
       type: vless
       udp: true
@@ -585,183 +124,88 @@ proxies:
         headers:
             host: freedom.pusytroller.cf
         path: /
-    - alterId: 0
-      cipher: auto
-      country: HK
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK 057"
-      network: ws
-      port: 57858
-      server: 8.217.127.167
-      skip-cert-verify: true
-      type: vmess
-      uuid: d1226e33-e569-4f9b-a25d-a53da9e7deb6
-      ws-opts:
-        path: /arki?ed=2048
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1EE\U0001F1F7 IR 058"
-      network: ws
-      port: 8080
-      server: 151.242.165.220
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
+    - client-fingerprint: chrome
+      flow: ""
+      fp: chrome
+      grpc-opts:
+        grpc-service-name: ""
+      host: ""
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 018"
+      network: tcp
+      path: ""
+      pbk: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+      port: 443
+      reality-opts:
+        public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+        short-id: ""
+      security: reality
+      server: 47.83.175.231
+      servername: cdn.userway.org
+      serviceName: ""
+      sid: ""
+      sni: cdn.userway.org
       tls: true
       type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
+      udp: false
+      uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
       ws-opts:
         headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 059"
-      network: ws
-      port: 8999
-      server: 8.217.94.227
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 060"
-      network: ws
-      port: 81
-      server: 210.61.97.241
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 063"
-      network: ws
-      port: 10315
-      server: 60.248.63.88
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5 JP 064"
-      network: ws
-      port: 13000
-      server: 47.74.40.106
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5 JP 066"
-      network: ws
-      port: 8008
-      server: 47.74.5.51
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 070"
-      network: ws
-      port: 10226
-      server: 60.248.63.88
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 071"
-      network: ws
-      port: 16071
-      server: 60.248.63.88
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
+            Host: ""
+        path: ""
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5 JP 072"
+      name: "\U0001F1EF\U0001F1F5 JP 022 | ⬇️ 20.08 MB/s"
+      password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
+      port: 19531
+      server: n1.huawei-api.top
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5 JP 023 | ⬇️ 13.30 MB/s"
       password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
       port: 19531
       server: tt.huawei-api.top
       type: ss
-    - name: "\U0001F1EF\U0001F1F5 JP 073"
-      password: installshield
-      port: 8443
-      server: 38.180.29.238
+    - name: "\U0001F1ED\U0001F1F0 HK 026"
+      network: tcp
+      password: e531d1bc-a56f-4e1a-a295-1442369a19c1
+      port: 26004
+      server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
       skip-cert-verify: true
+      sni: www.bilibili.com
       type: trojan
       udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EC SG 029"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)26af988:57468
+        mode: tls
+        tls: false
+      port: 2377
+      server: 5.44.249.42
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 030"
+      network: ws
+      port: 14523
+      server: default.hk.akile.ddns.ad.989567.xyz
+      servername: ""
+      tls: true
+      type: vmess
+      uuid: f3ada00f-74d6-43b0-bc7b-f3894c6fbf15
+      ws-opts:
+        headers:
+            Host: default.hk.akile.ddns.ad.989567.xyz
+        path: /login
     - alterId: 0
       cipher: auto
       country: ZZ
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK 074"
+      name: "\U0001F1ED\U0001F1F0 HK 036"
       network: ws
       port: 443
       server: cf.877774.xyz
@@ -774,25 +218,7 @@ proxies:
         headers:
             HOST: stuff-constant-another-sig.trycloudflare.com
         path: /vmess-argo?ed=2560
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 076"
-      network: ws
-      port: 12522
-      server: 60.248.63.88
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - name: "\U0001F1F0\U0001F1F7 KR 080"
+    - name: "\U0001F1F0\U0001F1F7 KR 045"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -801,424 +227,149 @@ proxies:
       type: http
       udp: true
       username: test
-    - alterId: 0
+    - alterId: 2
       cipher: auto
-      country: HK
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK 081"
+      name: "\U0001F1ED\U0001F1F0 HK 053"
       network: ws
-      port: 9754
-      server: 8.218.175.64
-      skip-cert-verify: true
+      port: 80
+      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+      servername: ""
+      tls: false
       type: vmess
-      uuid: 5b9575c3-c404-4c93-98f8-63581e88ffdf
-      ws-opts:
-        path: /arki?ed=2048
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 089"
-      network: ws
-      port: 10000
-      server: 47.76.247.200
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
       ws-opts:
         headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 093"
-      network: ws
-      port: 10042
-      server: 61.83.202.17
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1F3 CN 104"
-      network: ws
-      port: 30443
-      server: 8.217.242.92
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 105"
-      network: ws
-      port: 12453
-      server: 61.83.202.17
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 106"
-      network: ws
-      port: 12469
-      server: 124.57.36.207
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 112"
-      network: ws
-      port: 12510
-      server: 119.206.17.38
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 115"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.207
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1EC SG 116"
-      password: a88d64f4-8ff8-4eaf-88e3-d5752578248b
-      port: 19541
-      server: mm.huawei-api.top
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 120"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.137
-      type: ss
-      udp: true
-    - allowInsecure: "1"
-      name: "\U0001F1F8\U0001F1EC SG 121"
-      network: ws
-      password: d3a4f090-8ab8-49c2-85dd-684c4a99c384
-      port: 17915
-      server: dnsmart.dg-cdn.mob.networklinkpro.com
-      skip-cert-verify: true
-      type: trojan
-      ws-opts:
+            Host: broadcastlv.chat.bilibili.com
         path: /
     - cipher: aes-256-cfb
-      country: AU
-      name: "\U0001F1E6\U0001F1FA AU 122"
-      password: amazonskr05
-      port: 443
-      server: 3.27.81.63
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 128"
+      name: "\U0001F1FB\U0001F1F3 VN 057"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.239
       type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 129"
-      network: ws
-      port: 12169
-      server: 210.103.67.107
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 130"
+      name: "\U0001F1FB\U0001F1F3 VN 063"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.25
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 131"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.46
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 132"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.214
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 134"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.211
+      server: 103.186.154.49
       type: ss
       udp: true
     - cipher: aes-256-cfb
       country: AU
-      name: "\U0001F1E6\U0001F1FA AU 135"
-      password: amazonskr05
-      port: 443
-      server: 13.236.91.254
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 140"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.54
-      type: ss
-    - cipher: aes-256-cfb
-      country: AU
-      name: "\U0001F1E6\U0001F1FA AU 141"
+      name: "\U0001F1E6\U0001F1FA AU 065"
       password: amazonskr05
       port: 443
       server: 13.238.185.109
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 143"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.114
+      country: US
+      name: "\U0001F1FA\U0001F1F8 US 069"
+      password: amazonskr05
+      port: 443
+      server: 16.176.157.139
       type: ss
-      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 147"
+      name: "\U0001F1FB\U0001F1F3 VN 070"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.111
+      server: 103.186.154.172
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 072"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.153
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 073"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.245
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 074"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.56
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 078"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.156
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 079"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.147
       type: ss
     - cipher: aes-256-cfb
       country: AU
-      name: "\U0001F1E6\U0001F1FA AU 150"
+      name: "\U0001F1E6\U0001F1FA AU 080"
       password: amazonskr05
       port: 443
-      server: 3.26.167.161
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 154"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.204
+      server: 3.25.243.255
       type: ss
     - cipher: aes-256-cfb
       country: AU
-      name: "\U0001F1E6\U0001F1FA AU 155"
+      name: "\U0001F1E6\U0001F1FA AU 081"
       password: amazonskr05
       port: 443
-      server: 3.107.87.35
+      server: 3.27.81.63
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 167"
+      name: "\U0001F1FB\U0001F1F3 VN 082"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.76
+      server: 103.186.155.84
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 173"
+      name: "\U0001F1FB\U0001F1F3 VN 083"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.121
+      server: 103.186.155.146
       type: ss
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      fp: chrome
-      grpc-opts:
-        grpc-service-name: ""
-      host: ""
-      mode: ""
-      name: "\U0001F1E8\U0001F1ED CH 181"
-      network: tcp
-      path: ""
-      pbk: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
+    - cipher: aes-256-cfb
+      country: AU
+      name: "\U0001F1E6\U0001F1FA AU 084"
+      password: amazonskr05
       port: 443
-      reality-opts:
-        public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
-        short-id: f8c64c7a
-      security: reality
-      server: 212.18.104.19
-      servername: nspk.ru
-      serviceName: ""
-      sid: f8c64c7a
-      sni: nspk.ru
-      tls: true
-      type: vless
-      udp: false
-      uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-      ws-opts:
-        headers:
-            Host: ""
-        path: ""
+      server: 3.27.47.19
+      type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 182"
+      name: "\U0001F1FB\U0001F1F3 VN 088"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.61
+      server: 103.186.155.57
       type: ss
-    - cipher: aes-128-gcm
-      country: CN
-      name: "\U0001F1F9\U0001F1FC TW 185"
-      password: 7af26eae-63c7-43c8-b335-e3528f790459
-      port: 586
-      server: ontwtoo-a.dlayernet.xyz
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 190"
-      network: ws
-      port: 12251
-      server: 220.125.55.47
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
       udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 191"
+      name: "\U0001F1FB\U0001F1F3 VN 092"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.154
+      server: 103.186.155.80
       type: ss
-      udp: true
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 198"
-      network: ws
-      port: 20208
-      server: 222.119.153.85
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 201"
+      name: "\U0001F1FB\U0001F1F3 VN 094"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.59
+      server: 103.186.155.127
       type: ss
-      udp: true
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 204"
-      network: ws
-      port: 20110
-      server: 121.170.15.88
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 205"
-      network: ws
-      port: 50001
-      server: 175.202.53.36
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 207"
-      network: ws
-      port: 12361
-      server: 183.97.196.49
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 096"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.134
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 102"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.231
+      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1EE\U0001F1F3 IN 210"
+      name: "\U0001F1EE\U0001F1F3 IN 110"
       network: tcp
       port: 443
       reality-opts:
@@ -1231,140 +382,155 @@ proxies:
       udp: true
       uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 211"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.131
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 214"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.229
-      type: ss
-    - cipher: aes-256-cfb
-      country: VN
-      name: "\U0001F1FB\U0001F1F3 VN 216"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.150
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 225"
-      network: ws
-      port: 12305
-      server: 218.150.66.110
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - cipher: aes-256-cfb
-      country: VN
-      name: "\U0001F1FB\U0001F1F3 VN 226"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.230
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 230"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.139
-      type: ss
-    - alpn:
-        - '%255B%2522h3%2522%255D'
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7 KR 243"
-      network: ws
-      port: 12106
-      server: 118.37.73.36
-      servername: mingydynamic.sosorg.nyc.mn
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 68ea6384-c250-3bc3-b93b-9ac71ab1f069
-      ws-opts:
-        headers:
-            Host: mingydynamic.sosorg.nyc.mn
-        path: '%2Fproxyip%3Dkr.tp50000.netlib.re%3A50000'
-    - cipher: aes-256-cfb
-      country: VN
-      name: "\U0001F1FB\U0001F1F3 VN 260"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.206
-      type: ss
-    - insecure: "1"
-      mport: 21000-26000
-      name: "\U0001F1F0\U0001F1F7 KR 262"
-      obfs: ""
-      obfs-password: ""
-      password: d3a4f090-8ab8-49c2-85dd-684c4a99c384
-      port: 21913
-      ports: 21000-26000
-      server: 25kr.cloudfrontcdn.com
-      skip-cert-verify: true
-      sni: 25kr.cloudfrontcdn.com
-      type: hysteria2
-    - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0 HK 272"
-      network: ws
-      port: 58443
-      server: 154.83.98.90
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 275"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.148
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      country: AU
-      name: "\U0001F1E6\U0001F1FA AU 280"
+      country: US
+      name: "\U0001F1FA\U0001F1F8 US 112"
       password: amazonskr05
       port: 443
-      server: 3.25.225.79
+      server: 16.176.178.192
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 296"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.235
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3 VN 300"
+      name: "\U0001F1FB\U0001F1F3 VN 114"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.45
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      country: US
-      name: "\U0001F1FA\U0001F1F8 US 311"
+      name: "\U0001F1FB\U0001F1F3 VN 117"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.12
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB 124"
+      password: k1v5g9FefdoO
+      port: 8388
+      server: 57.129.140.88
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 127"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.54
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 128"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.131
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 129"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.39
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 134"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.48
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 138"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.42
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 146"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.108
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 151"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.30
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 155"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.9
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 157"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.204
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 161"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.211
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 162"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.67
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 167"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.139
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 169"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.22
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 172"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.3
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 173"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.52
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 177"
+      network: ws
+      port: 443
+      server: 46.3.26.12
+      servername: ""
+      tls: true
+      type: vmess
+      uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+      ws-opts:
+        headers:
+            Host: hk.nbee.pp.ua
+        path: /aa
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 179"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.126
+      type: ss
+    - cipher: aes-256-cfb
+      country: AU
+      name: "\U0001F1E6\U0001F1FA AU 190"
       password: amazonskr05
       port: 443
-      server: 16.176.178.192
+      server: 3.107.87.35
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3 VN 193"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.78
       type: ss
