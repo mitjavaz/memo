@@ -20,7 +20,7 @@ check-interval: 3600
 success-limit: 0
 
 # 超时时间(毫秒)(节点的最大延迟)
-timeout: 4000
+timeout: 3000
 # 延迟测试URL
 # 一些高级用法需要自己摸索，比如想要拒绝某些CF类节点，可将url替换为https://www.cloudflare.com
 alive-test-url: http://www.youtube.com/generate_204
@@ -31,7 +31,7 @@ speed-test-url: https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/d
 # 最低测速结果舍弃(KB/s)
 min-speed: 2048
 # 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
-download-timeout: 5
+download-timeout: 3
 # 单节点测速下载数据大小(MB)限制，0为不限
 download-mb: 20
 # 总下载速度速度限制(MB/s)，0为不限
@@ -61,7 +61,7 @@ media-check: true
 platforms:
   #- iprisk
   - tiktok
-  - youtube
+  #- youtube
   #- netflix
   #- disney
   - openai
