@@ -1,0 +1,82 @@
+﻿port: 7890
+socks-port: 7891
+minxed-port: 10801
+
+# 允许局域网连接
+allow-lan: true 
+# 设置跳过验证的 IP 段
+skip-auth-prefixes: 
+  - 127.0.0.1/8
+  - ::1/128
+# 允许连接的 IP 地址段，仅作用于 allow-lan 为 true, 默认值为 0.0.0.0/0 和::/0
+lan-allowed-ips:   
+  - 0.0.0.0/0
+  - ::/0
+# 禁止连接的 IP 地址段，黑名单优先级高于白名单，默认值为空
+lan-disallowed-ips: 
+  - 192.168.0.3/32
+
+#  find-process-mode has 3 values:always, strict, off
+#  - always, 开启，强制匹配所有进程
+#  - strict, 默认，由 mihomo 判断是否开启
+#  - off, 不匹配进程，推荐在路由器上使用此模式
+find-process-mode: strict
+
+mode: rule
+
+# 日志等级 silent/error/warning/info/debug
+log-level: silent 
+
+# 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
+ipv6: true
+
+proxy-providers:
+  speed:
+    type: http
+    url:  https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all.yaml
+    interval: 3600
+    path: ./proxy_provider/speed.yaml
+
+proxy-groups:
+  - name: "🔰 代理模式"
+    type: select
+    proxies:
+      - ✋ 手选模式
+      - ♻️ 测速代理
+
+  - name: "✋ 手选模式"
+    type: select
+    use:
+      - speed
+
+  - name: "♻️ 测速代理"
+    type: url-test
+    use:
+      - speed
+    url: 'https://www.youtube.com/generate_204'
+    interval: 600
+    lazy: true
+    timeout: 5000
+    max-failed-times: 5
+
+rule-providers:
+  noVPN:
+    type: http
+    path: ./noVPN.yaml
+    url: "https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/noVPN.list"
+    interval: 3600
+    behavior: classical
+    format: text
+  stopVPN:
+    type: http
+    path: ./stopVPN.yaml
+    url: "https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/stopVPN.list"
+    interval: 3600
+    behavior: classical
+    format: text
+
+rules:
+  - RULE-SET,noVPN,DIRECT
+  - RULE-SET,stopVPN,REJECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🔰 代理模式

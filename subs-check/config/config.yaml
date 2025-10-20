@@ -1,0 +1,286 @@
+# 是否显示进度
+print-progress: true
+
+# 并发线程数
+concurrent: 20
+# 检查间隔(分钟)
+# 必须大于0，小于等于0会设置间隔1分钟
+check-interval: 3600
+# cron表达式，如果配置了此项，将忽略check-interval
+# 支持标准cron表达式，如：
+# "0 */2 * * *" 表示每2小时的整点执行
+# "0 0 */2 * *" 表示每2天的0点执行
+# "0 0 1 * *" 表示每月1日0点执行
+# "*/30 * * * *" 表示每30分钟执行一次
+# cron-expression: "*/30 * * * *"
+
+# 保存几个成功的节点，为0代表不限制 
+# 如果你的并发数量超过这个参数，那么成功的结果可能会大于这个数值
+# success-limit <= success <= success-limit+concurrent
+success-limit: 0
+
+# 超时时间(毫秒)(节点的最大延迟)
+timeout: 4000
+# 延迟测试URL
+# 一些高级用法需要自己摸索，比如想要拒绝某些CF类节点，可将url替换为https://www.cloudflare.com
+alive-test-url: http://www.youtube.com/generate_204
+# 测速地址(注意 并发数*节点速度<最大网速 否则测速结果不准确)
+# 尽量不要使用Speedtest，Cloudflare提供的下载链接，因为很多节点屏蔽测速网站
+# 如果找不到稳定的测速地址，可以自建测速地址
+speed-test-url: https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v2.21.12/Waifu2x-Extension-GUI-v2.21.12-Portable.7z
+# 最低测速结果舍弃(KB/s)
+min-speed: 2048
+# 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
+download-timeout: 5
+# 单节点测速下载数据大小(MB)限制，0为不限
+download-mb: 20
+# 总下载速度速度限制(MB/s)，0为不限
+# 限制与实际情况可能会有一定误差
+total-speed-limit: 0
+
+# 监听端口，用于直接返回节点信息，方便订阅转换
+# http://127.0.0.1:8199/all.yaml
+# 注意：为方便小白默认监听0.0.0.0:8199，请自行修改
+# 更新需重启程序
+listen-port: ":8199"
+
+# 以节点IP查询位置重命名节点
+# 质量差的节点可能造成IP查询失败，造成整体检查速度稍微变慢，默认true
+rename-node: true
+# 节点前缀，依赖rename-node为true才生效
+node-prefix: ""
+
+# 只测试指定协议的节点
+node-type:
+  # - ss
+  # - vmess
+  # - vless
+
+# 是否开启流媒体检测，其中IP欺诈依赖重命名
+media-check: true
+platforms:
+  #- iprisk
+  - tiktok
+  - youtube
+  #- netflix
+  #- disney
+  - openai
+  #- gemini
+
+# 保留之前测试成功的节点
+# 如果为true，则保留之前测试成功的节点，这样就不会因为上游链接更新，导致可用的节点被清除掉
+keep-success-proxies: true
+
+# 输出目录
+# 如果为空，则为程序所在目录的config目录
+output-dir: "./nodes/"
+
+# 是否启用Web控制面板
+# 如果为false，则不启动Web控制界面，仅启动订阅服务相关接口
+# 访问地址：http://127.0.0.1:8199/admin
+enable-web-ui: true
+# 填写Web控制面板的api-key，如果为空，则自动生成
+# 配置文件为空时，支持使用环境变量设置 API_KEY
+api-key: ""
+
+# 检测完成后执行的回调脚本路径
+# 脚本将在检测完成后执行，可用于自定义通知或其他操作
+# 例如: "/path/to/your/script.sh" 或 'C:\path\to\your\script.bat'
+# Linux请在脚本开头添加对应的：#!/bin/bash、#!/bin/sh、#!/usr/bin/env bash 等，编写标准的脚本
+# 注意如果使用docker，目前docker使用的alpine，只有sh，不支持bash
+callback-script: ""
+
+# 填写搭建的apprise API server 地址
+# https://notify.xxxx.us.kg/notify
+apprise-api-server: ""
+# 填写通知目标
+# 支持100+ 个通知渠道，详细格式请参照 https://github.com/caronc/apprise
+recipient-url: 
+  # telegram格式：tgram://{bot_token}/{chat_id}
+  # - tgram://xxxxxx/-1002149239223
+  # 钉钉格式：dingtalk://{Secret}@{ApiKey}
+  # - dingtalk://xxxxxx@xxxxxxx
+# 自定义通知标题
+notify-title: "🔔 节点状态更新"
+
+# sub-store的启动端口，为空则不启动sub-store
+# 更新需重启程序，不可监听局域网IP，只有三种写法 :8299, 127.0.0.1:8299, 0.0.0.0:8299
+# sub-store-port: ":8299"
+sub-store-port: ":8299"
+# sub-store自定义访问路径，必须以/开头，后续访问订阅也要带上此路径
+# 设置path之后，还可以开启订阅分享功能，无需暴露真实的path
+# sub-store-path: "/path"
+sub-store-path: ""
+# 以下配置去查看sub-store相关的教程：https://hub.docker.com/r/xream/sub-store
+# sub-store同步gist定时任务
+# 定时任务指定时将订阅/文件上传到私有 Gist. 在前端, 叫做 同步 或 同步配置.
+# 55 23 * * * 每天 23 点 55 分(避开部分机场后端每天0点定时重启)
+sub-store-sync-cron: ""
+# 定时更新订阅
+# SUB_STORE_PRODUCE_CRON 在后台定时处理订阅. 格式为 0 */2 * * *,sub,a;0 */3 * * *,col,b
+# 即每 2 小时处理一次单条订阅 a, 每 3 小时处理一次组合订阅 b.
+sub-store-produce-cron: ""
+# sub-store推送服务地址
+# 例如：Brak: "SUB_STORE_PUSH_SERVICE=https://api.day.app/XXXXXXXXXXXX/[推送标题]/[推送内容]"
+# 注意：仅需修改 XXXXXXXXXXXX 为自己的 token，[推送标题]/[推送内容] 会被sub-store自动替换为对应的内容
+sub-store-push-service: ""
+
+
+# 覆写订阅的url，这个的作用是生成带指定规则的mihomo/clash.meta订阅链接
+# 防止网络不好，所以现在内置，依赖:8199端口
+# 如果你想替换其他的自定义覆写文件，自己命名后放在output目录，然后更改此URL后缀即可
+mihomo-overwrite-url: "http://127.0.0.1:8199/sub/ACL4SSR_Online_Full.yaml"
+
+# 保存方法
+# 目前支持的保存方法: r2, local, gist, webdav, s3
+save-method: local
+
+# webdav
+webdav-url: "https://example.com/dav/"
+webdav-username: "admin"
+webdav-password: "admin"
+
+# gist id
+github-gist-id: ""
+# github token
+github-token: ""
+# github api mirror
+github-api-mirror: ""
+
+# 将测速结果推送到Worker的地址
+worker-url: https://example.worker.dev
+# Worker令牌
+worker-token: 1234567890
+
+# 将测速结果推送到S3/Minio的地址
+s3-endpoint: "127.0.0.1:9000"
+# S3的访问凭证
+s3-access-id: "ak"
+s3-secret-key: "sk"
+# S3的Bucket名称
+s3-bucket: "public"
+# 是否使用SSL
+s3-use-ssl: false
+# 默认自动判断dns还是path，但一些云厂商不遵循规范，所以有时需要手动设置
+# 可选值：auto, path, dns
+s3-bucket-lookup: "auto"
+
+# 重试次数(获取订阅失败后重试次数)
+sub-urls-retry: 3
+# Github Proxy，获取订阅使用，结尾要带的 /
+# github-proxy: "https://ghfast.top/"
+github-proxy: ""
+# 此参数更通用，适用于拉取代理、消息推送、文件上传等等
+# 写法跟环境变量一样。修改需重启生效
+# proxy: "http://username:password@192.168.1.1:7890"
+# proxy: "socks5://username:password@192.168.1.1:7890"
+proxy: ""
+# 符合条件节点数量的占比，低于此值会将订阅链接打印出来，用于排查质量差的订阅
+success-rate: 0
+# 远程订阅清单地址；用于集中维护多个订阅链接，避免频繁修改本地文件
+# 支持两种格式：
+# 1) 纯文本：按行分隔，支持 # 注释与空行
+# 2) YAML/JSON：字符串数组 ["https://...", "https://..."]
+# 支持时间占位符与 github-proxy，例如包含 {Ymd}、{Y-m-d}
+sub-urls-remote:
+  # - https://example.com/sub-list.txt
+  # - https://example.com/sub-list.yaml
+  # - https://raw.githubusercontent.com/beck-8/sub-urls/main/%E5%B0%8F%E8%80%8C%E7%BE%8E.txt
+
+# 订阅地址 支持 clash/mihomo/v2ray/base64 格式的订阅链接
+# 如果用户想明确使用clash类型，那可以在支持的订阅链接结尾加上 &flag=clash.meta
+# github 链接可自己添加ghproxy使用；订阅链接支持 HTTP_PROXY HTTPS_PROXY 环境变量加速拉取
+# 如果用户想区分节点来源，可在订阅链接结尾加上 #备注 ，备注字段会自动加到节点命名结尾
+sub-urls:
+  - https://bpjc.pics/tg-bpjcc/089edf28d259ccdc867b703f0f151256
+  - https://bpjc.pics/tg-bpjcc/9157688046c81e61919c2f35ac3c9d2d
+  - https://fs.v2rayse.com/share/20251015/o8lq6drcpj.yaml
+  - https://app.nextvpn.xyz/api/sub/8d8a8543312c9b11b32d169869fa84221a42184a
+  - https://pastee.dev/d/01YpE7Pr/0
+  - https://v1.mk/kCHQPqa
+  - https://cache.ravelloh.top?uuid=35e221fd-7776-6cec-4beb-57d644a0d663
+  - https://tt.vg/HXCSD
+  - https://tt.vg/Wcjla
+  - https://fs.v2rayse.com/share/20251016/wzzj3mgota.yaml
+  - https://fs.v2rayse.com/share/20251018/o2apxiq85e.yaml
+  - https://fs.v2rayse.com/share/20251019/2loyv6zhme.yaml
+  - https://paste.gg/p/anonymous/0f695116e61d455ebe1b207588394769/files/7bbb15105237488c9b8b40a6002c9c42/raw
+  - https://shb.tyreo.cn/api/v1/client/subscribe?token=24504b24296578519eb4f6701fafd0c5
+  - https://bujidao.cc/sub?key=YRXf1SmtPOTs8aWTIxwGOP83ONjmYLo5
+  - https://igdux.top/iZne
+  - https://igdux.top/jxri
+  - https://igdux.top/tXQh
+  - https://igdux.top/r44i
+  - https://igdux.top/KzCJ
+  - https://igdux.top/dixH
+  - https://igdux.top/CaBY
+  - https://igdux.top/ieAd
+  - https://igdux.top/SH4S
+  - https://igdux.top/bpG7
+  - https://igdux.top/Y4ca
+  - https://igdux.top/rNer
+  - 
+  
+  # TG #
+
+  # 小汐搬运
+  - 
+  - 
+  - https://banyunxiaoxi.icu/2025/10/20/2025-10-20%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0261%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/19/2025-10-19%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0230%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/18/2025-10-18%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0272%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/17/2025-10-17%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0235%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/16/2025-10-16%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0267%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/15/2025-10-15%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0293%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/14/2025-10-14%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0270%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/13/2025-10-13%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0231%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/12/2025-10-12%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0224%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/11/2025-10-11%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0250%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/10/2025-10-10%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0220%E4%B8%AA/
+
+  # 蛋黄酱节点分享：@FProxies
+  # 0920节点
+  - https://sub.danhu.ddns-ip.net/paste/B250920NXFUDdV0a/clash
+  - https://sub.danhu.ddns-ip.net/paste/B250920NXFUDdV0a/urls
+  # 1001节点
+  - https://sub.danhu.ddns-ip.net/paste/A251001N1rhoxeHA/clash
+  - https://sub.danhu.ddns-ip.net/paste/A251001N1rhoxeHA/urls
+  # 轩辕节点永久订阅：@fq521
+  - https://xyfqzy.zone.id/yyds/auto
+  - https://ghfast.top/https://raw.githubusercontent.com/xyfqzy/free-nodes/refs/heads/main/nodes/clash.yaml
+  # 资源分享：@txwl666
+  - https://rss.zyfx6.xyz/clash/
+  - https://proxypool.dmit.dpdns.org/clash/proxies
+  - https://rss.zyfx6.xyz/v2rayNG/
+  # 白嫖のHome：@ZDYZ2
+  - https://sublink.634676.xyz/sub
+  # 总节点保存
+  - https://ghfast.top/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/all.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/youtube.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/speed.yaml
+  # Github共享节点
+  - https://ghfast.top/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt
+  - https://ghfast.top/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+  - https://ghfast.top/https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/list.txt
+  # 备用节点
+  - https://ghfast.top/https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc1.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc2.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc3.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc4.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/v2ray.txt
+  - https://ghfast.top/https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
+  - https://ghfast.top/https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_base64.txt
+  - https://ghfast.top/https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt
+  - https://ghfast.top/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list_raw.txt
+  - https://ghfast.top/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+  - https://ghfast.top/https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/free-nodes/v2rayfree/refs/heads/main/v1
+  - https://ghfast.top/https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/list_raw.txt
+  - https://ghfast.top/https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/proxies.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml
+  - https://ghfast.top/https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+  - https://ghfast.top/https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
