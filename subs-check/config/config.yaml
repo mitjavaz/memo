@@ -20,7 +20,7 @@ check-interval: 3600
 success-limit: 0
 
 # 超时时间(毫秒)(节点的最大延迟)
-timeout: 3000
+timeout: 2000
 # 延迟测试URL
 # 一些高级用法需要自己摸索，比如想要拒绝某些CF类节点，可将url替换为https://www.cloudflare.com
 alive-test-url: http://www.youtube.com/generate_204
@@ -31,9 +31,9 @@ speed-test-url: https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/d
 # 最低测速结果舍弃(KB/s)
 min-speed: 2048
 # 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
-download-timeout: 3
+download-timeout: 5
 # 单节点测速下载数据大小(MB)限制，0为不限
-download-mb: 20
+download-mb: 200
 # 总下载速度速度限制(MB/s)，0为不限
 # 限制与实际情况可能会有一定误差
 total-speed-limit: 0
@@ -283,4 +283,3 @@ sub-urls:
   - https://ghfast.top/https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/proxies.yaml
   - https://ghfast.top/https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml
   - https://ghfast.top/https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
-  - https://ghfast.top/https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
