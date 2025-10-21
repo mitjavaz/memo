@@ -31,14 +31,9 @@ log-level: silent
 ipv6: true
 
 proxy-providers:
-  speed:
-    type: http
-    url:  https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/speed.yaml
-    interval: 3600
-    path: ./proxy_provider/speed.yaml
   youtube:
     type: http
-    url:  https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/BestSub/output/youtube.yaml
+    url:  https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all.yaml
     interval: 3600
     path: ./proxy_provider/youtube.yaml
 
@@ -48,8 +43,6 @@ proxy-groups:
     proxies:
       - ✋ 手选模式
       - ♻️ 测速代理
-    use:
-      - speed
     url: 'https://www.youtube.com/generate_204'
     timeout: 3000
     max-failed-times: 5
