@@ -20,7 +20,7 @@ check-interval: 3600
 success-limit: 0
 
 # 超时时间(毫秒)(节点的最大延迟)
-timeout: 3000
+timeout: 5000
 # 延迟测试URL
 # 一些高级用法需要自己摸索，比如想要拒绝某些CF类节点，可将url替换为https://www.cloudflare.com
 alive-test-url: http://www.youtube.com/generate_204
@@ -33,7 +33,7 @@ min-speed: 2048
 # 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
 download-timeout: 5
 # 单节点测速下载数据大小(MB)限制，0为不限
-download-mb: 100
+download-mb: 50
 # 总下载速度速度限制(MB/s)，0为不限
 # 限制与实际情况可能会有一定误差
 total-speed-limit: 0
@@ -245,9 +245,9 @@ sub-urls:
   - https://igdux.top/JKFF
   - https://igdux.top/JKFF
   - https://igdux.top/7r22
-  - 
-  - 
-  - 
+  - https://igdux.top/8QZZ
+  - https://cn.mfxy.store/api/v1/client/subscribe?token=2519bf51c30a4ef77915ae99b33a2356
+  - https://v1.mk/gDQ1OAQ
   - 
   - 
   - 
@@ -257,6 +257,8 @@ sub-urls:
 
   # 小汐搬运
   - 
+  - https://banyunxiaoxi.icu/2025/10/27/2025-10-27%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0245%E4%B8%AA/
+  - https://banyunxiaoxi.icu/2025/10/26/2025-10-26%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0236%E4%B8%AA/
   - https://banyunxiaoxi.icu/2025/10/25/2025-10-25%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0344%E4%B8%AA/
   - https://banyunxiaoxi.icu/2025/10/24/2025-10-24%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0231%E4%B8%AA/
   - https://banyunxiaoxi.icu/2025/10/23/2025-10-23%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0237%E4%B8%AA/
@@ -285,9 +287,8 @@ sub-urls:
   # 白嫖のHome：@ZDYZ2
   - https://sublink.634676.xyz/sub
   # 总节点保存
-  - https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/all.yaml
-  - https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/youtube.yaml
-  - https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/BestSub/output/speed.yaml
+  - https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/subs-check/nodes/all.yaml
+  - https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/subs-check/nodes/all1.yaml
   # Github共享节点
   - https://wget.la/https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt
   - https://wget.la/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
