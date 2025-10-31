@@ -46,6 +46,11 @@ proxy-providers:
     url:  https://sub.scpnb.top/base64
     interval: 3600
     path: ./proxy_provider/SCP.yaml
+  XY:
+    type: http
+    url:  https://xyfqzy.zone.id/yyds/auto
+    interval: 3600
+    path: ./proxy_provider/XY.yaml
 
 proxy-groups:
   - name: "🔰 代理模式"
@@ -54,6 +59,7 @@ proxy-groups:
       - ✋ 手选模式一
       - ✋ 手选模式二
       - ✋ SCP节点
+      - ✋ XY节点
       - ♻️ 测速代理
     url: 'https://www.youtube.com/generate_204'
     timeout: 3000
@@ -73,6 +79,11 @@ proxy-groups:
     type: select
     use:
       - SCP
+
+  - name: "✋ XY节点"
+    type: select
+    use:
+      - XY
 
   - name: "♻️ 测速代理"
     type: url-test
