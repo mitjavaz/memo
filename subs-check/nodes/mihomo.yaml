@@ -1,82 +1,62 @@
 proxies:
-  - down: 2500
-    name: "\U0001F1E9\U0001F1EADE_1|2.9MB/s|GPT⁺"
-    password: 084f22b5-31c7-4b0b-b317-9a12152ec17f
-    port: 30000
-    server: de2.naichajichang.icu
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_1|1.9MB/s|GPT⁺"
+    obfs: ''
+    obfs-password: ''
+    password: bc5e171b-fe66-47af-a600-b972104fe995
+    port: 8871
+    server: vo2.shigure.eu.org
     skip-cert-verify: true
-    sni: de2.naichajichang.icu
+    sni: vo2.shigure.eu.org
     type: hysteria2
-    up: 2500
-  - mport: 51000-53000
-    name: "\U0001F1E6\U0001F1FAAU_1|4.4MB/s|GPT⁺"
-    password: 9edbd97b-8718-474b-972a-8ef4f6d9cb8f
-    port: 51000
-    ports: 51000-53000
-    server: 192.9.179.140
-    skip-cert-verify: true
-    sni: cn.cremedelamer.com
-    type: hysteria2
+    up: ''
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1F0\U0001F1F7KR_1|3.0MB/s|GPT⁺"
+    network: tcp
+    port: 55515
+    server: q8vj6.4m4ow5.no8u9m8.vm331.cn
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-  - mport: 51000-53000
-    name: "\U0001F1E6\U0001F1FAAU_2|3.1MB/s|GPT⁺"
-    password: 9edbd97b-8718-474b-972a-8ef4f6d9cb8f
-    port: 51000
-    ports: 51000-53000
-    server: 192.9.165.40
-    skip-cert-verify: true
-    sni: cn.cremedelamer.com
-    type: hysteria2
+    uuid: a8a539ce-adc6-4685-ac44-a00accbae8ef
+    xudp: true
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1F7\U0001F1FARU_1|3.2MB/s|GPT⁺"
+    network: tcp
+    port: 55516
+    server: q8vj6.4m4ow5.no8u9m8.vm331.cn
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-  - cipher: rc4-md5
-    delay: 483
-    name: "\U0001F1F9\U0001F1FCTW_1|6.3MB/s|GPT⁺"
-    password: 554c010ce4
-    port: 13759
-    server: twgame07.fjk.wtf
-    type: ss
+    uuid: 0e05355a-dd6c-4d3a-8106-8e1e2c4927bd
+    xudp: true
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_2|1.7MB/s|GPT⁺"
+    network: tcp
+    port: 60777
+    server: q8vj6.4m4ow5.no8u9m8.vm331.cn
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-  - cipher: rc4-md5
-    delay: 249
-    name: "\U0001F1F9\U0001F1FCTW_2|5.1MB/s|GPT⁺"
-    password: 554c010ce4
-    port: 13759
-    server: tw13.fjk.wtf
-    type: ss
-    udp: true
-  - cipher: rc4-md5
-    delay: 491
-    name: "\U0001F1F9\U0001F1FCTW_3|5.0MB/s|GPT⁺"
-    password: 554c010ce4
-    port: 13759
-    server: twgame02.fjk.wtf
-    type: ss
-    udp: true
-  - cipher: rc4-md5
-    delay: 381
-    name: "\U0001F1F9\U0001F1FCTW_4|6.3MB/s|GPT"
-    password: 554c010ce4
-    port: 13759
-    server: tw06.fjk.wtf
-    type: ss
-    udp: true
-  - country: "\U0001F1E8\U0001F1F3CN"
-    delay: 1396
-    name: "\U0001F1FA\U0001F1F8US_1|8.1MB/s|GPT⁺"
-    password: BxceQaOe
-    port: 9269
-    server: 36.150.215.245
-    skip-cert-verify: true
-    type: trojan
-    udp: true
+    uuid: 0e05355a-dd6c-4d3a-8106-8e1e2c4927bd
+    xudp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_2|8.2MB/s|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_3|8.9MB/s|GPT⁺"
     network: tcp
     port: 53250
     reality-opts:
@@ -89,99 +69,16 @@ proxies:
     uuid: bb89c0fc-dc2f-45ea-87f4-22ee219919f9
     xudp: true
     servername: yahoo.com
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_3|8.8MB/s|GPT⁺"
-    network: tcp
-    port: 34908
-    reality-opts:
-      public-key: kHodfr5bwaAOHtQ_PJaiKDYGLHSNzvybi-qkyHwhFl8
-      short-id: c9
-    server: chenxinlan.644222.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: e057b20a-1857-4641-817c-9f446c682bad
-    xudp: true
-    servername: icloud.com
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1F7\U0001F1FARU_1|3.0MB/s|GPT⁺"
-    network: tcp
-    port: 55516
-    server: q8vj6.4m4ow5.no8u9m8.vm331.cn
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 0e05355a-dd6c-4d3a-8106-8e1e2c4927bd
-    xudp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_4|3.6MB/s|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_4|3.4MB/s|GPT⁺"
     password: a8a539ce-adc6-4685-ac44-a00accbae8ef
     port: 60006
     server: q8vj6.4m4ow5.no8u9m8.vm331.cn
     type: ss
     udp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_5|8.5MB/s|GPT⁺"
-    network: tcp
-    port: 60777
-    server: q8vj6.4m4ow5.no8u9m8.vm331.cn
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 0e05355a-dd6c-4d3a-8106-8e1e2c4927bd
-    xudp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_6|3.0MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 5642ce5a-a9d0-4abd-9efc-bf5e24caa1d5
-    port: 58338
-    server: lsus6.lansecs.top
-    skip-cert-verify: true
-    sni: lsus6.lansecs.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 5642ce5a-a9d0-4abd-9efc-bf5e24caa1d5
-    port: 58338
-    server: lsxg1.lansecs.top
-    skip-cert-verify: true
-    sni: lsxg1.lansecs.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 5642ce5a-a9d0-4abd-9efc-bf5e24caa1d5
-    port: 58338
-    server: lsdg1.lansecs.top
-    skip-cert-verify: true
-    sni: lsdg1.lansecs.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_2|16.8MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_1|7.6MB/s"
     obfs: ''
     obfs-password: ''
     password: 9125901a-4518-4d25-adfc-c8f8c3bb5a4c
@@ -192,58 +89,29 @@ proxies:
     type: hysteria2
     up: ''
     disable-sni: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_7|1.2MB/s|GPT"
-    obfs: ''
-    obfs-password: ''
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    port: 1743
-    server: 57ac7353-t4x400-t9lxaa-1glq.la.shifen.uk
-    skip-cert-verify: true
-    sni: 57ac7353-t4x400-t9lxaa-1glq.la.shifen.uk
-    type: hysteria2
-    up: ''
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EC\U0001F1E7GB_1|3.5MB/s|GPT⁺"
+    name: "\U0001F1EC\U0001F1E7GB_1|1.2MB/s|GPT⁺"
     password: a8a539ce-adc6-4685-ac44-a00accbae8ef
     port: 60312
     server: q8vj6.4m4ow5.no8u9m8.vm331.cn
     type: ss
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_8|3.0MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 5642ce5a-a9d0-4abd-9efc-bf5e24caa1d5
-    port: 58338
-    server: lsus2.lansecs.top
-    skip-cert-verify: true
-    sni: lsus2.lansecs.top
-    type: hysteria2
-    up: ''
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1ED\U0001F1F0HK_3|25.6MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_1|1.5MB/s|GPT⁺"
+    password: 85839587-9b6a-43b2-b2b2-5de001b3a895
+    port: 10237
+    server: q8vj6.4m4ow5.n08u9m8.vm331.cn
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1ED\U0001F1F0HK_2|5.4MB/s"
     password: 85839587-9b6a-43b2-b2b2-5de001b3a895
     port: 10201
     server: q8vj6.4m4ow5.n08u9m8.vm331.cn
     type: ss
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_9|3.5MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 5642ce5a-a9d0-4abd-9efc-bf5e24caa1d5
-    port: 58338
-    server: lsus5.lansecs.top
-    skip-cert-verify: true
-    sni: lsus5.lansecs.top
-    type: hysteria2
-    up: ''
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EC\U0001F1E7GB_2|1.1MB/s|GPT⁺"
+    name: "\U0001F1EC\U0001F1E7GB_2|3.6MB/s|GPT⁺"
     password: 0e05355a-dd6c-4d3a-8106-8e1e2c4927bd
     port: 60004
     server: q8vj6.4m4ow5.no8u9m8.vm331.cn
@@ -253,7 +121,7 @@ proxies:
       - ''
     alterId: '0'
     cipher: auto
-    name: "\U0001F1EC\U0001F1E7GB_3|4.0MB/s|GPT⁺"
+    name: "\U0001F1EC\U0001F1E7GB_3|3.8MB/s|GPT⁺"
     network: tcp
     port: 55543
     server: q8vj6.4m4ow5.no8u9m8.vm331.cn
@@ -263,41 +131,118 @@ proxies:
     udp: true
     uuid: 0e05355a-dd6c-4d3a-8106-8e1e2c4927bd
     xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F8\U0001F1ECSG_1|2.1MB/s|GPT"
-    password: 85839587-9b6a-43b2-b2b2-5de001b3a895
-    port: 10237
-    server: q8vj6.4m4ow5.n08u9m8.vm331.cn
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    mptcp: true
-    name: "\U0001F1FA\U0001F1F8US_10|4.4MB/s|GPT⁺"
-    network: ws
-    packet-encoding: xudp
-    port: 10086
-    server: 142.147.94.108
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_1|1.3MB/s|GPT⁺"
+    obfs: ''
+    obfs-password: ''
+    password: bc4d55c1-38df-43e6-8df7-3733e84d9399
+    port: 35789
+    server: iij.mggl.wang
     skip-cert-verify: false
-    smux:
-      enabled: true
-      max-streams: 10
-      padding: true
-      protocol: h2mux
-    tfo: true
-    tls: true
-    type: vless
+    sni: iij.mggl.wang
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1EF\U0001F1F5JP_2|7.1MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: jp6.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1EF\U0001F1F5JP_3|7.0MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: jp5.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_5|2.4MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: us1.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: sb1.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1E9\U0001F1EADE_2|2.3MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: sb2.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_6|1.3MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: us3.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_7|1.9MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: us4.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_8|1.6MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: us2.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_9|2.7MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: us5.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_10|2.1MB/s|GPT⁺"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: us8.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - name: "\U0001F1F9\U0001F1FCTW_1|4.9MB/s|GPT"
+    password: d3da4e16-9bef-4e54-9bd9-960d32740392
+    port: 30000
+    server: tw.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+  - mport: 51000-53000
+    name: "\U0001F1E6\U0001F1FAAU_1|4.5MB/s|GPT⁺"
+    password: 9edbd97b-8718-474b-972a-8ef4f6d9cb8f
+    port: 51000
+    ports: 51000-53000
+    server: 192.9.179.140
+    skip-cert-verify: true
+    sni: cn.cremedelamer.com
+    type: hysteria2
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    ws-opts:
-      headers:
-        Host: us.alice.cloudns.pro
-      path: /siehdfioshfiosdfskkk
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    servername: us.alice.cloudns.pro
+  - mport: 51000-53000
+    name: "\U0001F1E6\U0001F1FAAU_2|4.3MB/s|GPT⁺"
+    password: 9edbd97b-8718-474b-972a-8ef4f6d9cb8f
+    port: 51000
+    ports: 51000-53000
+    server: 192.9.165.40
+    skip-cert-verify: true
+    sni: cn.cremedelamer.com
+    type: hysteria2
+    udp: true
   - client-fingerprint: chrome
     mptcp: true
-    name: "\U0001F1FA\U0001F1F8US_11|6.5MB/s|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_11|7.5MB/s|GPT⁺"
     network: ws
     packet-encoding: xudp
     port: 22693
@@ -322,7 +267,7 @@ proxies:
     servername: us.alice.cloudns.pro
   - client-fingerprint: chrome
     mptcp: true
-    name: "\U0001F1FA\U0001F1F8US_12|7.2MB/s|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_12|3.3MB/s|GPT⁺"
     network: ws
     packet-encoding: xudp
     port: 443
@@ -347,7 +292,7 @@ proxies:
     servername: us.alice.cloudns.pro
   - client-fingerprint: chrome
     mptcp: true
-    name: "\U0001F1FA\U0001F1F8US_13|5.0MB/s|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_13|4.3MB/s|GPT⁺"
     network: ws
     packet-encoding: xudp
     port: 13915
@@ -372,7 +317,7 @@ proxies:
     servername: us.alice.cloudns.pro
   - client-fingerprint: chrome
     mptcp: true
-    name: "\U0001F1F8\U0001F1ECSG_2|5.2MB/s|GPT⁺"
+    name: "\U0001F1F8\U0001F1ECSG_2|5.1MB/s|GPT⁺"
     network: ws
     packet-encoding: xudp
     port: 8443
@@ -397,11 +342,11 @@ proxies:
     servername: sg.alice.cloudns.pro
   - client-fingerprint: chrome
     mptcp: true
-    name: "\U0001F1F8\U0001F1ECSG_3|5.3MB/s|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_14|6.3MB/s|GPT⁺"
     network: ws
     packet-encoding: xudp
-    port: 19050
-    server: 154.17.11.22
+    port: 10086
+    server: 142.147.94.108
     skip-cert-verify: false
     smux:
       enabled: true
@@ -415,64 +360,14 @@ proxies:
     uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
     ws-opts:
       headers:
-        Host: sg.alice.cloudns.pro
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+        Host: us.alice.cloudns.pro
+      path: /siehdfioshfiosdfskkk
       v2ray-http-upgrade: true
       v2ray-http-upgrade-fast-open: true
-    servername: sg.alice.cloudns.pro
+    servername: us.alice.cloudns.pro
   - client-fingerprint: chrome
     mptcp: true
-    name: "\U0001F1F8\U0001F1ECSG_4|2.5MB/s|GPT⁺"
-    network: ws
-    packet-encoding: xudp
-    port: 24961
-    server: 37.123.192.201
-    skip-cert-verify: false
-    smux:
-      enabled: true
-      max-streams: 10
-      padding: true
-      protocol: h2mux
-    tfo: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    ws-opts:
-      headers:
-        Host: sg.alice.cloudns.pro
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    servername: sg.alice.cloudns.pro
-  - client-fingerprint: chrome
-    mptcp: true
-    name: "\U0001F1F8\U0001F1ECSG_5|5.2MB/s|GPT⁺"
-    network: ws
-    packet-encoding: xudp
-    port: 25222
-    server: 104.194.68.16
-    skip-cert-verify: false
-    smux:
-      enabled: true
-      max-streams: 10
-      padding: true
-      protocol: h2mux
-    tfo: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    ws-opts:
-      headers:
-        Host: sg.alice.cloudns.pro
-      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    servername: sg.alice.cloudns.pro
-  - client-fingerprint: chrome
-    mptcp: true
-    name: "\U0001F1F8\U0001F1ECSG_6|2.9MB/s|GPT⁺"
+    name: "\U0001F1F8\U0001F1ECSG_3|3.0MB/s|GPT⁺"
     network: ws
     packet-encoding: xudp
     port: 57649
@@ -497,7 +392,82 @@ proxies:
     servername: sg.alice.cloudns.pro
   - client-fingerprint: chrome
     mptcp: true
-    name: "\U0001F1F5\U0001F1F1PL_1|2.0MB/s|GPT⁺"
+    name: "\U0001F1F8\U0001F1ECSG_4|5.1MB/s|GPT⁺"
+    network: ws
+    packet-encoding: xudp
+    port: 19050
+    server: 154.17.11.22
+    skip-cert-verify: false
+    smux:
+      enabled: true
+      max-streams: 10
+      padding: true
+      protocol: h2mux
+    tfo: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    ws-opts:
+      headers:
+        Host: sg.alice.cloudns.pro
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    servername: sg.alice.cloudns.pro
+  - client-fingerprint: chrome
+    mptcp: true
+    name: "\U0001F1F8\U0001F1ECSG_5|5.0MB/s|GPT⁺"
+    network: ws
+    packet-encoding: xudp
+    port: 25222
+    server: 104.194.68.16
+    skip-cert-verify: false
+    smux:
+      enabled: true
+      max-streams: 10
+      padding: true
+      protocol: h2mux
+    tfo: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    ws-opts:
+      headers:
+        Host: sg.alice.cloudns.pro
+      path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    servername: sg.alice.cloudns.pro
+  - client-fingerprint: chrome
+    mptcp: true
+    name: "\U0001F1F5\U0001F1F1PL_1|1.8MB/s|GPT⁺"
+    network: ws
+    packet-encoding: xudp
+    port: 13800
+    server: 23.169.184.28
+    skip-cert-verify: false
+    smux:
+      enabled: true
+      max-streams: 10
+      padding: true
+      protocol: h2mux
+    tfo: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+    ws-opts:
+      headers:
+        Host: pl.alice.cloudns.pro
+      path: /gseuifghuisgfuiseuifseguif
+      v2ray-http-upgrade: true
+      v2ray-http-upgrade-fast-open: true
+    servername: pl.alice.cloudns.pro
+  - client-fingerprint: chrome
+    mptcp: true
+    name: "\U0001F1F5\U0001F1F1PL_2|2.5MB/s|GPT⁺"
     network: ws
     packet-encoding: xudp
     port: 18563
@@ -522,7 +492,7 @@ proxies:
     servername: pl.alice.cloudns.pro
   - client-fingerprint: chrome
     mptcp: true
-    name: "\U0001F1F5\U0001F1F1PL_2|1.8MB/s|GPT⁺"
+    name: "\U0001F1F5\U0001F1F1PL_3|1.7MB/s|GPT⁺"
     network: ws
     packet-encoding: xudp
     port: 12888
@@ -545,82 +515,212 @@ proxies:
       v2ray-http-upgrade: true
       v2ray-http-upgrade-fast-open: true
     servername: pl.alice.cloudns.pro
-  - client-fingerprint: chrome
-    mptcp: true
-    name: "\U0001F1F5\U0001F1F1PL_3|1.3MB/s|GPT"
-    network: ws
-    packet-encoding: xudp
-    port: 30127
-    server: 154.7.179.22
-    skip-cert-verify: false
-    smux:
-      enabled: true
-      max-streams: 10
-      padding: true
-      protocol: h2mux
-    tfo: true
-    tls: true
-    type: vless
+  - congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1F8\U0001F1ECSG_6|9.2MB/s|GPT⁺"
+    password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    port: 13005
+    reduce-rtt: false
+    server: sgtuic01.yydzx.xyz
+    sni: sgtuic01.yydzx.xyz
+    type: tuic
+    uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    version: 5
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1ED\U0001F1F0HK_3|5.0MB/s"
+    password: 'MDQ5YmU5OTBhNWNiZWYyMQ==:YTlhZTIwYTYtMTVkMC00Nw=='
+    port: 12079
+    server: 9you.sevenka.top
+    type: ss
     udp: true
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    ws-opts:
-      headers:
-        Host: pl.alice.cloudns.pro
-      path: /gseuifghuisgfuiseuifseguif
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    servername: pl.alice.cloudns.pro
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1F0\U0001F1F7KR_1|3.0MB/s|GPT⁺"
-    network: tcp
-    port: 26075
-    server: ppy-krv1.02ijp4uos1.download
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1ED\U0001F1F0HK_4|2.3MB/s"
+    password: 'MDQ5YmU5OTBhNWNiZWYyMQ==:YTlhZTIwYTYtMTVkMC00Nw=='
+    port: 25237
+    server: 1yyy.sevenka.top
+    type: ss
     udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_4|1.1MB/s|GPT⁺"
-    network: tcp
-    port: 26009
-    server: ppy-jpv1.02ijp4uos1.download
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1ED\U0001F1F0HK_5|2.8MB/s"
+    password: 'MDQ5YmU5OTBhNWNiZWYyMQ==:YTlhZTIwYTYtMTVkMC00Nw=='
+    port: 16999
+    server: 9you.sevenka.top
+    type: ss
     udp: true
-    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F0\U0001F1F7KR_2|1.5MB/s|GPT⁺"
-    port: 14631
-    server: w3.hydtou.com
+  - down: 100
+    name: "\U0001F1F8\U0001F1ECSG_7|3.7MB/s|GPT⁺"
+    password: a9ae20a6-15d0-47f1-9edb-2a354ae119e9
+    port: 30336
+    server: hy2sg2.maocf1.top
     skip-cert-verify: true
-    tls: false
-    type: vmess
+    sni: usahy2.maocf1.top
+    type: hysteria2
+    up: 100
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1EF\U0001F1F5JP_4|1.5MB/s|GPT⁺"
+    password: 'MDQ5YmU5OTBhNWNiZWYyMQ==:YTlhZTIwYTYtMTVkMC00Nw=='
+    port: 44832
+    server: 9you.sevenka.top
+    type: ss
     udp: true
-    uuid: 41b50b7a-8058-4282-9890-918ce504d6e1
-  - name: "\U0001F1F9\U0001F1FCTW_5|8.8MB/s|GPT⁺"
-    password: 584747f9-4db3-44d4-a8f9-a8d9e124e4ed
-    port: 21957
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1EF\U0001F1F5JP_5|2.4MB/s|GPT"
+    password: 'MDQ5YmU5OTBhNWNiZWYyMQ==:YTlhZTIwYTYtMTVkMC00Nw=='
+    port: 31780
+    server: 9you.sevenka.top
+    type: ss
+    udp: true
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1F7\U0001F1FARU_2|1.5MB/s|GPT"
+    password: 'MDQ5YmU5OTBhNWNiZWYyMQ==:YTlhZTIwYTYtMTVkMC00Nw=='
+    port: 28085
+    server: 1yyy.sevenka.top
+    type: ss
+    udp: true
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_15|3.0MB/s|GPT⁺"
+    password: 'MDQ5YmU5OTBhNWNiZWYyMQ==:YTlhZTIwYTYtMTVkMC00Nw=='
+    port: 16595
+    server: 1yyy.sevenka.top
+    type: ss
+    udp: true
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_16|1.1MB/s|GPT⁺"
+    password: 'MDQ5YmU5OTBhNWNiZWYyMQ==:YTlhZTIwYTYtMTVkMC00Nw=='
+    port: 28804
+    server: 9you.sevenka.top
+    type: ss
+    udp: true
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1EB\U0001F1F7FR_1|3.0MB/s|GPT⁺"
+    password: 'MDQ5YmU5OTBhNWNiZWYyMQ==:YTlhZTIwYTYtMTVkMC00Nw=='
+    port: 41911
+    server: 1yyy.sevenka.top
+    type: ss
+    udp: true
+  - down: 100
+    name: "\U0001F1ED\U0001F1F0HK_6|1.7MB/s|GPT"
+    password: a9ae20a6-15d0-47f1-9edb-2a354ae119e9
+    port: 30053
+    server: alhy.maocf1.top
+    skip-cert-verify: true
+    sni: alhy.maocf1.top
+    type: hysteria2
+    up: 100
+  - name: "\U0001F1FA\U0001F1F8US_17|2.7MB/s|GPT⁺"
+    password: 97597bfd-229d-4412-bf14-2805f1852020
+    port: 58330
+    server: mla5.maliaojc.top
+    skip-cert-verify: true
+    sni: mla5.maliaojc.top
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_18|1.9MB/s|GPT⁺"
+    password: 97597bfd-229d-4412-bf14-2805f1852020
+    port: 58330
+    server: mla6.maliaojc.top
+    skip-cert-verify: true
+    sni: mla6.maliaojc.top
+    type: hysteria2
+    udp: true
+  - down: 100
+    name: "\U0001F1F7\U0001F1FARU_3|2.1MB/s|GPT⁺"
+    password: a9ae20a6-15d0-47f1-9edb-2a354ae119e9
+    port: 20903
+    server: hghy2.maocf1.top
+    skip-cert-verify: true
+    sni: hghy2.maocf1.top
+    type: hysteria2
+    up: 100
+  - name: "\U0001F1F9\U0001F1FCTW_2|4.1MB/s|GPT⁺"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21839
     ports: 21001-21999
     server: tw2.xn--9kqw1xbnu.shop
     skip-cert-verify: false
     sni: tw2.xn--9kqw1xbnu.shop
     type: hysteria2
-  - name: "\U0001F1F9\U0001F1FCTW_6|8.3MB/s|GPT⁺"
-    password: 584747f9-4db3-44d4-a8f9-a8d9e124e4ed
-    port: 21913
+  - name: "\U0001F1F9\U0001F1FCTW_3|1.4MB/s|GPT⁺"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21809
     ports: 21001-21999
     server: tw2.xn--9kqw1xbnu.shop
     skip-cert-verify: false
     sni: tw2.xn--9kqw1xbnu.shop
     type: hysteria2
-  - name: "\U0001F1F9\U0001F1FCTW_7|1.6MB/s|GPT⁺"
+  - name: "\U0001F1F9\U0001F1FCTW_4|9.8MB/s|GPT⁺"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21596
+    ports: 21001-21999
+    server: tw3.xn--9kqw1xbnu.shop
+    skip-cert-verify: false
+    sni: tw3.xn--9kqw1xbnu.shop
+    type: hysteria2
+  - name: "\U0001F1F9\U0001F1FCTW_5|2.3MB/s|GPT⁺"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21858
+    ports: 21001-21999
+    server: tw2.xn--9kqw1xbnu.shop
+    skip-cert-verify: false
+    sni: tw2.xn--9kqw1xbnu.shop
+    type: hysteria2
+  - name: "\U0001F1F9\U0001F1FCTW_6|2.4MB/s|GPT⁺"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21005
+    ports: 21001-21999
+    server: tw2.xn--9kqw1xbnu.shop
+    skip-cert-verify: false
+    sni: tw2.xn--9kqw1xbnu.shop
+    type: hysteria2
+  - name: "\U0001F1F9\U0001F1FCTW_7|7.8MB/s|GPT"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21836
+    ports: 21001-21999
+    server: tw3.xn--9kqw1xbnu.shop
+    skip-cert-verify: false
+    sni: tw3.xn--9kqw1xbnu.shop
+    type: hysteria2
+  - name: "\U0001F1ED\U0001F1F0HK_7|1.9MB/s"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21731
+    ports: 21001-21999
+    server: hk.xn--9kqw1xbnu.shop
+    skip-cert-verify: false
+    sni: hk.xn--9kqw1xbnu.shop
+    type: hysteria2
+  - name: "\U0001F1ED\U0001F1F0HK_8|1.7MB/s"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21977
+    ports: 21001-21999
+    server: hk.xn--9kqw1xbnu.shop
+    skip-cert-verify: false
+    sni: hk.xn--9kqw1xbnu.shop
+    type: hysteria2
+  - name: "\U0001F1ED\U0001F1F0HK_9|2.0MB/s"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21658
+    ports: 21001-21999
+    server: hk.xn--9kqw1xbnu.shop
+    skip-cert-verify: false
+    sni: hk.xn--9kqw1xbnu.shop
+    type: hysteria2
+  - name: "\U0001F1ED\U0001F1F0HK_10|2.1MB/s"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21539
+    ports: 21001-21999
+    server: hk.xn--9kqw1xbnu.shop
+    skip-cert-verify: false
+    sni: hk.xn--9kqw1xbnu.shop
+    type: hysteria2
+  - name: "\U0001F1F9\U0001F1FCTW_8|6.4MB/s|GPT⁺"
+    password: 37aa4472-c43b-4dc1-a3d1-0fccd40ca16f
+    port: 21898
+    ports: 21001-21999
+    server: tw4.xn--9kqw1xbnu.shop
+    skip-cert-verify: false
+    sni: tw4.xn--9kqw1xbnu.shop
+    type: hysteria2
+  - name: "\U0001F1F9\U0001F1FCTW_9|9.9MB/s|GPT⁺"
     password: 584747f9-4db3-44d4-a8f9-a8d9e124e4ed
     port: 21203
     ports: 21001-21999
@@ -628,15 +728,15 @@ proxies:
     skip-cert-verify: false
     sni: tw3.xn--9kqw1xbnu.shop
     type: hysteria2
-  - name: "\U0001F1ED\U0001F1F0HK_5|1.0MB/s"
+  - name: "\U0001F1ED\U0001F1F0HK_11|1.4MB/s"
     password: 584747f9-4db3-44d4-a8f9-a8d9e124e4ed
-    port: 21743
+    port: 21066
     ports: 21001-21999
     server: hk.xn--9kqw1xbnu.shop
     skip-cert-verify: false
     sni: hk.xn--9kqw1xbnu.shop
     type: hysteria2
-  - name: "\U0001F1ED\U0001F1F0HK_6|1.6MB/s"
+  - name: "\U0001F1ED\U0001F1F0HK_12|1.4MB/s"
     password: 584747f9-4db3-44d4-a8f9-a8d9e124e4ed
     port: 21161
     ports: 21001-21999
@@ -644,7 +744,7 @@ proxies:
     skip-cert-verify: false
     sni: hk.xn--9kqw1xbnu.shop
     type: hysteria2
-  - name: "\U0001F1ED\U0001F1F0HK_7|1.7MB/s"
+  - name: "\U0001F1ED\U0001F1F0HK_13|2.4MB/s"
     password: 584747f9-4db3-44d4-a8f9-a8d9e124e4ed
     port: 21118
     ports: 21001-21999
@@ -652,71 +752,120 @@ proxies:
     skip-cert-verify: false
     sni: hk.xn--9kqw1xbnu.shop
     type: hysteria2
-  - alpn:
-      - h3
-    client-fingerprint: random
-    name: "\U0001F1F9\U0001F1FCTW_8|1.0MB/s|GPT⁺"
-    network: ws
-    port: 43
-    server: 220.128.110.108
+  - name: "\U0001F1ED\U0001F1F0HK_14|2.1MB/s"
+    password: 584747f9-4db3-44d4-a8f9-a8d9e124e4ed
+    port: 21743
+    ports: 21001-21999
+    server: hk.xn--9kqw1xbnu.shop
     skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 69085490-da03-bc0c-525d-10f2eb0ca51b
-    ws-opts:
-      headers:
-        Host: sssorg.sosorg.nyc.mn
-      path: '/proxyip=tw.soso.edu.kg:43'
-    servername: sssorg.sosorg.nyc.mn
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_14|2.5MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: c6f9fa89-907a-473f-962b-72ac0a5edcd3
-    port: 58338
-    server: lsus6.lansecs.top
-    skip-cert-verify: true
-    sni: lsus6.lansecs.top
+    sni: hk.xn--9kqw1xbnu.shop
     type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_15|3.3MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
-    port: 30000
-    server: us5.oomz.ru
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_16|2.3MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
-    port: 30000
-    server: us8.oomz.ru
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    up: ''
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EB\U0001F1F7FR_2|3.5MB/s|GPT⁺"
+    password: b0d9a971-00d1-464a-b2ec-dcee4503e33b
+    port: 59406
+    server: 02.xunyunnode.sbs
+    type: ss
+    udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1FB\U0001F1F3VN_1|1.0MB/s|GPT⁺"
-    password: b9a22770-660a-412f-b85e-b78cc2977bce
-    port: 28200
-    server: n001.xunxunmimisbs.sbs
-    skip-cert-verify: false
-    sni: vn01.xxxxyyyysbs.sbs
+    name: "\U0001F1EF\U0001F1F5JP_6|8.2MB/s|GPT⁺"
+    password: 10e11114-efa1-4978-8a39-dafae19a4b49
+    port: 41300
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: jp01.xxxxyyyysbs.sbs
     type: trojan
     udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_7|1.6MB/s|GPT"
-    password: b9a22770-660a-412f-b85e-b78cc2977bce
+    name: "\U0001F1E6\U0001F1EAAE_1|6.9MB/s|GPT⁺"
+    password: fb2181cd-e492-4de2-908b-fd075f70c953
+    port: 19100
+    server: n001.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: db01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F0\U0001F1F7KR_2|1.9MB/s|GPT⁺"
+    obfs: ''
+    obfs-password: ''
+    password: 49e4a268-9d1b-426e-b491-442c4bc23afd
+    port: 10911
+    server: raw-hy16.instconn.com
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+    up: ''
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F8\U0001F1ECSG_8|1.6MB/s|GPT⁺"
+    password: e4e44fda-8c58-4406-9ac3-56993f810c52
+    port: 50764
+    server: wa.xunyunnode.sbs
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1E6\U0001F1EAAE_2|1.8MB/s|GPT⁺"
+    password: 41481d52-fae3-4f64-8430-6fe5171fce6d
+    port: 19100
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: db01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US_19|1.9MB/s|GPT⁺"
+    password: 8bd78dfc-22fc-47b5-9181-790f55d3e092
+    port: 45823
+    server: 01.xunyunnode.sbs
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_9|16.0MB/s|GPT⁺"
+    password: fb2181cd-e492-4de2-908b-fd075f70c953
+    port: 31001
+    server: n001.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: sg02.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F9\U0001F1EDTH_1|5.0MB/s|GPT⁺"
+    password: 10e11114-efa1-4978-8a39-dafae19a4b49
+    port: 28300
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: false
+    sni: tai01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EE\U0001F1F3IN_1|6.8MB/s|GPT⁺"
+    password: 10e11114-efa1-4978-8a39-dafae19a4b49
+    port: 27100
+    server: n001.xunxunmimisbs.sbs
+    skip-cert-verify: false
+    sni: in01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FB\U0001F1F3VN_1|2.8MB/s|GPT⁺"
+    password: e4e44fda-8c58-4406-9ac3-56993f810c52
+    port: 42767
+    server: xc.xunyunnode.sbs
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_15|4.0MB/s|GPT⁺"
+    password: 41481d52-fae3-4f64-8430-6fe5171fce6d
+    port: 21001
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: hk02.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_10|2.2MB/s|GPT⁺"
+    password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
     port: 31201
     server: n001.xunxunmimisbs.sbs
     skip-cert-verify: false
@@ -724,224 +873,479 @@ proxies:
     type: trojan
     udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F3IN_1|3.9MB/s|GPT⁺"
-    password: 9bfd6f6b-43a5-4272-bc2e-7ff56a6bf19c
-    port: 27100
+    name: "\U0001F1F0\U0001F1F7KR_3|2.4MB/s|GPT⁺"
+    password: 1df4dbc5-1b30-4518-8f32-a07f06649b3c
+    port: 14000
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: kr01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_4|3.4MB/s|GPT⁺"
+    password: 10e11114-efa1-4978-8a39-dafae19a4b49
+    port: 22100
     server: n001.xunxunmimisbs.sbs
     skip-cert-verify: false
+    sni: kr01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_11|4.3MB/s|GPT⁺"
+    password: ada65271-e83d-401e-8508-fae0280ff447
+    port: 31201
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: false
+    sni: sg02.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_20|19.2MB/s"
+    password: 41481d52-fae3-4f64-8430-6fe5171fce6d
+    port: 16000
+    server: n001.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: us01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_3|2.6MB/s|GPT⁺"
+    password: 10e11114-efa1-4978-8a39-dafae19a4b49
+    port: 26100
+    server: n001.xunxunmimisbs.sbs
+    skip-cert-verify: false
+    sni: fr01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_12|9.4MB/s|GPT⁺"
+    obfs: ''
+    obfs-password: ''
+    password: 49e4a268-9d1b-426e-b491-442c4bc23afd
+    port: 10898
+    server: raw-hy12.instconn.com
+    skip-cert-verify: true
+    sni: oracle.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_16|2.4MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 49e4a268-9d1b-426e-b491-442c4bc23afd
+    port: 10888
+    server: raw-hy01.instconn.com
+    skip-cert-verify: true
+    sni: cdn-dynmedia-1.microsoft.com
+    type: hysteria2
+    up: ''
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F8\U0001F1ECSG_13|6.8MB/s|GPT⁺"
+    password: 8bd78dfc-22fc-47b5-9181-790f55d3e092
+    port: 14195
+    server: 01.xunyunnode.sbs
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EC\U0001F1F7GR_1|6.6MB/s|GPT⁺"
+    password: e4e44fda-8c58-4406-9ac3-56993f810c52
+    port: 45473
+    server: 02.xunyunnode.sbs
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EE\U0001F1F3IN_2|6.7MB/s|GPT⁺"
+    password: 41481d52-fae3-4f64-8430-6fe5171fce6d
+    port: 18000
+    server: n001.xunxunmimisbs.sbs
+    skip-cert-verify: true
     sni: in01.xxxxyyyysbs.sbs
     type: trojan
     udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F3IN_2|1.6MB/s|GPT"
-    password: 4a682ef9-2658-4479-8759-c2395e99b28f
-    port: 27100
-    server: n001.xunxunmimisbs.sbs
-    skip-cert-verify: false
-    sni: in01.xxxxyyyysbs.sbs
-    type: trojan
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FB\U0001F1F3VN_2|8.4MB/s|GPT⁺"
+    password: e4e44fda-8c58-4406-9ac3-56993f810c52
+    port: 10326
+    server: 01.xunyunnode.sbs
+    type: ss
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_17|3.4MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: ccc3d106-00ec-4122-80f3-35a3269e2ad6
-    port: 58338
-    server: lsus6.lansecs.top
-    skip-cert-verify: true
-    sni: lsus6.lansecs.top
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_8|8.4MB/s|GPT⁺"
-    password: 4a682ef9-2658-4479-8759-c2395e99b28f
-    port: 31200
-    server: n001.xunxunmimisbs.sbs
-    skip-cert-verify: false
-    sni: sg01.xxxxyyyysbs.sbs
-    type: trojan
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EF\U0001F1F5JP_7|7.9MB/s|GPT⁺"
+    password: e4e44fda-8c58-4406-9ac3-56993f810c52
+    port: 44447
+    server: 02.xunyunnode.sbs
+    type: ss
     udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_18|2.1MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: c904dd98-7554-49b6-9417-affd919e8186
-    port: 58338
-    server: lsus6.lansecs.top
-    skip-cert-verify: true
-    sni: lsus6.lansecs.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_19|3.1MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 919f873f-4a15-4361-bb78-74e95349f575
-    port: 58338
-    server: lsus6.lansecs.top
-    skip-cert-verify: true
-    sni: lsus6.lansecs.top
-    type: hysteria2
-    up: ''
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|5.8MB/s|GPT⁺"
-    password: 4a682ef9-2658-4479-8759-c2395e99b28f
+    name: "\U0001F1EF\U0001F1F5JP_8|7.4MB/s|GPT⁺"
+    password: 10e11114-efa1-4978-8a39-dafae19a4b49
     port: 41300
     server: n001.xunxunmimisbs.sbs
     skip-cert-verify: true
     sni: jp01.xxxxyyyysbs.sbs
     type: trojan
     udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_5|2.1MB/s|GPT⁺"
+    password: 41481d52-fae3-4f64-8430-6fe5171fce6d
+    port: 14000
+    server: n001.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: kr01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_21|3.9MB/s"
+    password: 41481d52-fae3-4f64-8430-6fe5171fce6d
+    port: 16000
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: us01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_14|6.3MB/s|GPT⁺"
+    password: 1df4dbc5-1b30-4518-8f32-a07f06649b3c
+    port: 31001
+    server: n001.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: sg02.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_6|6.2MB/s|GPT⁺"
+    password: 41481d52-fae3-4f64-8430-6fe5171fce6d
+    port: 14000
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: kr01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_20|2.7MB/s|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_22|2.2MB/s|GPT⁺"
     obfs: ''
     obfs-password: ''
-    password: 39160580-f2fb-4cfa-9f64-ae07882dec9b
-    port: 54265
-    server: banmabanmabanmabanmabanmabanma4.wanlidag.top
+    password: 49e4a268-9d1b-426e-b491-442c4bc23afd
+    port: 10895
+    server: raw-hy09.instconn.com
     skip-cert-verify: true
-    sni: banmabanmabanmabanmabanmabanma4.wanlidag.top
+    sni: raw-hy09.instconn.com
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_3|2.8MB/s|GPT⁺"
+    password: ada65271-e83d-401e-8508-fae0280ff447
+    port: 25100
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: false
+    sni: de01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_17|1.5MB/s|GPT⁺"
+    password: 10e11114-efa1-4978-8a39-dafae19a4b49
+    port: 21201
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: false
+    sni: hk02.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EE\U0001F1F3IN_3|3.0MB/s|GPT⁺"
+    password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
+    port: 27100
+    server: n002.xunxunmimisbs.sbs
+    skip-cert-verify: false
+    sni: in01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_23|6.8MB/s|GPT⁺"
+    network: tcp
+    port: 36677
+    server: game.us01.bilibilicloud01.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_18|3.5MB/s|GPT"
+    network: tcp
+    port: 60301
+    server: show.bilibilicloud01.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    xudp: true
+  - client-fingerprint: chrome
+    name: ❓Other_1|10.1MB/s
+    password: 41481d52-fae3-4f64-8430-6fe5171fce6d
+    port: 31000
+    server: n001.xunxunmimisbs.sbs
+    skip-cert-verify: true
+    sni: sg01.xxxxyyyysbs.sbs
+    type: trojan
+    udp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5JP_9|11.9MB/s|GPT⁺"
+    network: tcp
+    port: 50187
+    server: game.jp01.bilibilicloud01.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EADE_4|2.0MB/s|GPT⁺"
+    network: tcp
+    port: 53943
+    server: live.bilibilicloud01.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_19|11.6MB/s"
+    network: tcp
+    port: 53941
+    server: show.bilibilicloud01.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    xudp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F1\U0001F1FALU_1|2.1MB/s|GPT⁺"
+    obfs: ''
+    obfs-password: ''
+    password: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+    port: 27411
+    server: lxbhy2.mmaccc.top
+    skip-cert-verify: true
+    sni: lxbhy2.mmaccc.top
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_21|2.0MB/s|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_24|1.5MB/s|GPT⁺"
     obfs: ''
     obfs-password: ''
-    password: afde41f3-d485-4f32-abf3-ed1a779f051e
-    port: 54265
-    server: banmabanmabanmabanmabanmabanma4.wanlidag.top
-    skip-cert-verify: true
-    sni: banmabanmabanmabanmabanmabanma4.wanlidag.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_22|2.8MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: bcd22f7d-6def-492b-9fea-ae377cb07ce8
-    port: 58338
-    server: lsus6.lansecs.top
-    skip-cert-verify: true
-    sni: lsus6.lansecs.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_23|3.2MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 8ef0dd5e-6538-4116-b5bb-a7ef68447313
-    port: 58338
-    server: lsus1.lansecs.top
-    skip-cert-verify: true
-    sni: lsus1.lansecs.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_24|3.9MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 8ef0dd5e-6538-4116-b5bb-a7ef68447313
-    port: 58338
-    server: lsus6.lansecs.top
-    skip-cert-verify: true
-    sni: lsus6.lansecs.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_25|1.2MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 39160580-f2fb-4cfa-9f64-ae07882dec9b
+    password: b157c115-bb8f-4444-84ad-aaa3555945e2
     port: 54265
     server: banmabanmabanmabanmabanmabanma3.wanlidag.top
     skip-cert-verify: true
     sni: banmabanmabanmabanmabanmabanma3.wanlidag.top
     type: hysteria2
     up: ''
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_20|1.4MB/s"
+    network: tcp
+    port: 36675
+    server: show.bilibilicloud01.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_25|11.0MB/s|GPT⁺"
+    network: tcp
+    port: 49125
+    server: game.us03.bilibilicloud01.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_21|7.5MB/s"
+    network: tcp
+    port: 50882
+    server: show.bilibilicloud01.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    xudp: true
+  - client-fingerprint: edge
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F8\U0001F1ECSG_15|8.9MB/s|GPT⁺"
+    network: tcp
+    port: 30865
+    reality-opts:
+      public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
+      short-id: a242c9aa
+    server: g72oiqhd.tun.nodeflex.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 13773694-3e72-42a5-afde-ef06555ecb9d
+    xudp: true
+    servername: www.varejaodasmaquinas.com
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7FR_4|2.8MB/s|GPT⁺"
+    network: tcp
+    port: 53125
+    server: live.bilibilicloud01.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    xudp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_26|3.3MB/s|GPT⁺"
+    name: "\U0001F1FA\U0001F1F8US_26|1.9MB/s|GPT⁺"
     obfs: ''
     obfs-password: ''
-    password: 3c89f4e2-7252-4708-bb4c-c3e92fc3f46b
-    port: 58338
-    server: lsus6.lansecs.top
+    password: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+    port: 37900
+    server: akusum.mmaccc.top
     skip-cert-verify: true
-    sni: lsus6.lansecs.top
+    sni: akusum.mmaccc.top
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_27|2.9MB/s|GPT⁺"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s|GPT⁺"
     obfs: ''
     obfs-password: ''
-    password: 32e855b5-d9db-4bc4-83e6-9747505c63c9
-    port: 58338
-    server: lsus3.lansecs.top
+    password: dongtaiwang.com
+    port: 50066
+    server: 51.158.218.2
     skip-cert-verify: true
-    sni: lsus3.lansecs.top
+    sni: www.bing.com
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_28|3.2MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 8ef0dd5e-6538-4116-b5bb-a7ef68447313
-    port: 58338
-    server: lsus2.lansecs.top
-    skip-cert-verify: true
-    sni: lsus2.lansecs.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_29|1.3MB/s|GPT⁺"
-    obfs: ''
-    obfs-password: ''
-    password: 8ef0dd5e-6538-4116-b5bb-a7ef68447313
-    port: 58338
-    server: lsus4.lansecs.top
-    skip-cert-verify: true
-    sni: lsus4.lansecs.top
-    type: hysteria2
-    up: ''
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: 1000
-    fast-open: true
-    name: "\U0001F1F3\U0001F1F1NL_1|1.4MB/s|GPT⁺"
-    port: 48429
-    ports: 10000-20000
-    protocol: udp
-    server: 109.104.154.97
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 1000
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|1.0MB/s|GPT⁺"
-    port: 50011
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5JP_10|21.2MB/s|GPT⁺"
+    port: 50187
+    server: game.jp01.bilibilicloud01.com
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0010.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_22|1.2MB/s|GPT⁺"
+    port: 60301
+    server: show.bilibilicloud01.net
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0024.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_27|2.4MB/s|GPT⁺"
+    port: 36677
+    server: game.us01.bilibilicloud01.com
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0019.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_23|4.6MB/s|GPT"
+    port: 53941
+    server: show.bilibilicloud01.com
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0028.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EADE_5|1.6MB/s|GPT⁺"
+    port: 53943
+    server: live.bilibilicloud01.com
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0039.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_24|1.7MB/s"
+    port: 36675
+    server: show.bilibilicloud01.net
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0019.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_28|4.2MB/s|GPT⁺"
+    port: 49125
+    server: game.us03.bilibilicloud01.net
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0009.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1F7TR_1|1.1MB/s|GPT⁺"
+    port: 25842
+    server: live.bilibilicloud01.com
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0038.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1E8\U0001F1EDCH_1|1.9MB/s|GPT⁺"
+    port: 21961
+    server: live.bilibilicloud01.com
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0051.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7FR_5|2.6MB/s|GPT⁺"
+    port: 53125
+    server: live.bilibilicloud01.com
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    servername: 1111-2222.0041.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
