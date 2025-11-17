@@ -20,7 +20,7 @@ check-interval: 3600
 success-limit: 0
 
 # 超时时间(毫秒)(节点的最大延迟)
-timeout: 3000
+timeout: 2000
 # 延迟测试URL
 # 一些高级用法需要自己摸索，比如想要拒绝某些CF类节点，可将url替换为https://www.cloudflare.com
 alive-test-url: http://www.youtube.com/generate_204
@@ -31,9 +31,9 @@ speed-test-url: https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/d
 # 最低测速结果舍弃(KB/s)
 min-speed: 1024
 # 下载测试时间(s)(与下载链接大小相关，默认最大测试10s)
-download-timeout: 6
+download-timeout: 5
 # 单节点测速下载数据大小(MB)限制，0为不限
-download-mb: 60
+download-mb: 100
 # 总下载速度速度限制(MB/s)，0为不限
 # 限制与实际情况可能会有一定误差
 total-speed-limit: 0
@@ -193,14 +193,8 @@ sub-urls-remote:
 # 如果用户想区分节点来源，可在订阅链接结尾加上 #备注 ，备注字段会自动加到节点命名结尾
 sub-urls:
   - https://zh.jikun.fun/share/col/%E6%B1%9F%E6%B1%9F%E5%85%AC%E7%9B%8A?token=1yGRuU-x6r_zEz28cE_pE
-  - https://tt.vg/fTKad
   - https://2.luolicon.ru/oosaka/0e578756bd91fce9cb1db9403ff8e67e
-  - https://tt.vg/tCTCl
-  - https://tt.vg/tCTCl
-  - https://tt.vg/diFye
   - https://checkhere.top/link/vLozksOj8PTcVRFP?list=shadowrocket
-  - https://tt.vg/WsYoK
-  - https://tt.vg/DVjUI
   - https://sub.dmit.dpdns.org/share/sub/dingyue_Center_flyintpro?token=hPFPD1CJ4LnHR_SUhPsG3
   - https://faly8rzti.prosubnet02.eu:8443/api/v1/client/6f58467b2712daad532abff5d5a8aac0
   - https://qyfcvauvk.prosubnet02.eu:8443/api/v1/client/910f7cb09bf75df51513075da27539b5
@@ -208,42 +202,23 @@ sub-urls:
   - https://3yggfkxti.prosubnet02.eu:8443/api/v1/client/e49c278c0840ba302312243abcf98885
   - https://dy11.baipiaoyes.com/api/v1/client/subscribe?token=c0c9d4428e044dcb116ab50f0cf1735d
   - https://edfd8348.ghelper.me/subs/clash/282f43eaedfd8348cb6c3883ea2c6257
-  - https://tt.vg/XZDaF
-  - https://tt.vg/vsZXw
   - https://946namsyj.prosubnet02.eu:8443/api/v1/client/b81546dcd81b1a58f56ddbfee26d2292
   - https://sub.dmit.dpdns.org/share/sub/dingyue_Center_0925-2?token=LsmJHcr-4fv30hFeLgu-M
   - https://sub.dmit.dpdns.org/share/file/dingyue_Center_%20GLaDOS60d?token=3OXcN0oKALhx60yA73Tq-
-  - https://tt.vg/poutC
-  - https://tt.vg/SPszu
-  - https://tt.vg/Svojh
   - https://sub666.yydzx.xyz/sub/7e6824946da05fd1/clash
-  - https://tt.vg/IMHkt
   - https://s3.v2rayse.com/public/20251106/o7tfnf0g.yaml
   - https://s3.v2rayse.com/public/20251107/pz7ylzmj.yaml
-  - https://tt.vg/pprfC
-  - https://wanmeiwl1.xyz/gywl/73077e8f162c5cd0b28f693984ce314a
-  - https://tt.vg/SWHWN
-  - https://tt.vg/JxxVZ
-  - https://tt.vg/UTRiv
-  - https://shz.al/NbpX
-  - https://shz.al/MBQc
   - https://v1.mk/5oJeSsC
-  - https://shz.al/xeds
-  - https://shz.al/dWwk
-  - https://shz.al/a2xj
   - https://shz.al/ZcHB
   - https://shz.al/WYQn
   - https://v1.mk/hWeGVet
   - https://shz.al/Ehfd
-  - https://tt.vg/slkZT
   - https://sub666.yydzx.xyz/sub/6393474b7d5bd623/clash
   - https://sub666.yydzx.xyz/sub/d6854b3ce66efd90/clash
   - https://subbeta.775678.xyz/sub?uuid=f64bdc57-0f54-4705-bf75-cfd646d98c06&encryption=none&security=tls&sni=snippets.mnmnm.netlib.re&fp=firefox&allowInsecure=1&type=ws&host=snippets.mnmnm.netlib.re&path=%2F%3Fed%3D2560
   - https://shz.al/YCtM
   - https://shz.al/6XyG
   - https://shz.al/eiWw
-  - https://tt.vg/slkZT
-  - https://tt.vg/NDhhZ
   - https://s3.v2rayse.com/public/20251113/pppujin0.txt
   - https://shz.al/XeA6
   - https://shz.al/ntwJ
@@ -256,22 +231,16 @@ sub-urls:
   - https://suo.yt/N29Bb2F
   - https://shz.al/TKem
   - https://shz.al/hAxf
-  - https://tt.vg/pKXQI
-  - https://tt.vg/NDhhZ
   - https://s3.v2rayse.com/public/20251116/cl6xx7q2.yaml
   - https://ylks.tt2000.sbs/2025/d7/16z/c.yaml
   - https://shz.al/H22y
   - https://shz.al/bt4j
-  - 
-  - 
-  - 
-  - 
+  - https://shz.al/YQGn
+  - https://shz.al/Dnhk
   - 
   - 
   - 
   - https://sub.caoni.dpdns.org/snippets/sni
-  - https://123789.pp.ua/~ssltool
-  - https://tz.zzxi.de/tz
   - https://wget.la/https://raw.githubusercontent.com/sadietarasa/VOF-OvercomingGFW/refs/heads/main/Here2new/11.15.yaml
   - https://wget.la/https://raw.githubusercontent.com/sadietarasa/VOF-OvercomingGFW/refs/heads/main/Here2new/11.14.yaml
   
@@ -279,6 +248,7 @@ sub-urls:
 
   # 小汐搬运
   - 
+  - https://banyunxiaoxi.icu/2025/11/17/2025-11-17%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0157%E4%B8%AA/
   - https://banyunxiaoxi.icu/2025/11/16/2025-11-16%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0149%E4%B8%AA/
   - https://banyunxiaoxi.icu/2025/11/15/2025-11-15%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0162%E4%B8%AA/
   - https://banyunxiaoxi.icu/2025/11/14/2025-11-14%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0180%E4%B8%AA/
@@ -295,11 +265,6 @@ sub-urls:
   - https://banyunxiaoxi.icu/2025/11/03/2025-11-03%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0328%E4%B8%AA/
   - https://banyunxiaoxi.icu/2025/11/02/2025-11-02%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0406%E4%B8%AA/
   - https://banyunxiaoxi.icu/2025/11/01/2025-11-01%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0488%E4%B8%AA/
-  - https://banyunxiaoxi.icu/2025/10/30/2025-10-30%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0234%E4%B8%AA/
-  - https://banyunxiaoxi.icu/2025/10/29/2025-10-29%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0275%E4%B8%AA/
-  - https://banyunxiaoxi.icu/2025/10/28/2025-10-28%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0212%E4%B8%AA/
-  - https://banyunxiaoxi.icu/2025/10/27/2025-10-27%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0245%E4%B8%AA/
-  - https://banyunxiaoxi.icu/2025/10/26/2025-10-26%E8%8A%82%E7%82%B9%E6%9B%B4%E6%96%B0236%E4%B8%AA/
 
   # 蛋黄酱节点分享：@FProxies
   # 1115节点
