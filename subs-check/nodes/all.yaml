@@ -1,82 +1,67 @@
 proxies:
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_1|1.9MB/s|GPT⁺"
-      network: ws
-      packet-encoding: xudp
-      port: 30000
-      server: 38.150.2.31
-      servername: us.alice.cloudns.pro
+    - alpn:
+        - h3
+      name: "\U0001F1E8\U0001F1E6CA_1|1.1MB/s|GPT⁺"
+      password: e715f8e2-664c-4f6e-bb71-56d967cebb96
+      ports: 16201-16400
+      server: thhysteria01.yydzx.xyz
       skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
+      sni: thhysteria01.yydzx.xyz
+      type: hysteria2
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s|GPT"
+      network: ws
+      port: 60006
+      server: 43.161.227.251
+      servername: sl2.gvbh360.dpdns.org
+      skip-cert-verify: false
+      tfo: false
       tls: true
       type: vless
-      udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      uuid: 691c5850-81d7-8c90-cafb-b0291e3e3987
       ws-opts:
         headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s|GPT⁺"
+            Host: sl2.gvbh360.dpdns.org
+        path: /proxyip=tw.sni2025.netlib.re
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0HK_2|1.3MB/s|GPT"
       network: ws
-      packet-encoding: xudp
-      port: 50315
-      server: 38.207.163.210
-      servername: us.alice.cloudns.pro
+      port: 60007
+      server: 43.161.227.251
+      servername: sl2.gvbh360.dpdns.org
       skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
+      tfo: false
       tls: true
       type: vless
-      udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      uuid: 691c5850-81d7-8c90-cafb-b0291e3e3987
       ws-opts:
         headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_3|4.3MB/s|GPT⁺"
+            Host: sl2.gvbh360.dpdns.org
+        path: /proxyip=tw.sni2025.netlib.re
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1F9\U0001F1FCTW_1|1.7MB/s|GPT⁺"
       network: ws
-      packet-encoding: xudp
-      port: 12901
-      server: 38.207.182.150
-      servername: us.alice.cloudns.pro
+      port: 43
+      server: 61.220.128.226
+      servername: sl2.gvbh360.dpdns.org
       skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
+      tfo: false
       tls: true
       type: vless
-      udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      uuid: 691c5850-81d7-8c90-cafb-b0291e3e3987
       ws-opts:
         headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
+            Host: sl2.gvbh360.dpdns.org
+        path: /proxyip=tw.sni2025.netlib.re
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 14243
@@ -101,11 +86,11 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_5|1.4MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_2|6.1MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
-      port: 443
-      server: cloudflare-cm-ip-ddns.sakuraikaede.com
+      port: 50315
+      server: 38.207.163.210
       servername: us.alice.cloudns.pro
       skip-cert-verify: false
       smux:
@@ -126,7 +111,57 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_1|1.2MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_3|3.1MB/s|GPT⁺"
+      network: ws
+      packet-encoding: xudp
+      port: 30000
+      server: 38.150.2.31
+      servername: us.alice.cloudns.pro
+      skip-cert-verify: false
+      smux:
+        enabled: true
+        max-streams: 10
+        padding: true
+        protocol: h2mux
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      ws-opts:
+        headers:
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - client-fingerprint: chrome
+      mptcp: true
+      name: "\U0001F1F5\U0001F1F1PL_1|3.5MB/s|GPT⁺"
+      network: ws
+      packet-encoding: xudp
+      port: 18563
+      server: 37.123.192.228
+      servername: pl.alice.cloudns.pro
+      skip-cert-verify: false
+      smux:
+        enabled: true
+        max-streams: 10
+        padding: true
+        protocol: h2mux
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      ws-opts:
+        headers:
+            Host: pl.alice.cloudns.pro
+        path: /gseuifghuisgfuiseuifseguif
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - client-fingerprint: chrome
+      mptcp: true
+      name: "\U0001F1F5\U0001F1F1PL_2|1.9MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 56328
@@ -151,7 +186,7 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_2|1.3MB/s|GPT⁺"
+      name: "\U0001F1F5\U0001F1F1PL_3|2.5MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 12888
@@ -174,55 +209,108 @@ proxies:
         path: /gseuifghuisgfuiseuifseguif
         v2ray-http-upgrade: true
         v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_3|1.2MB/s|GPT⁺"
-      network: ws
-      packet-encoding: xudp
-      port: 443
-      server: cloudflare-cu-ip-ddns.sakuraikaede.com
-      servername: pl.alice.cloudns.pro
-      skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
-      tls: true
-      type: vless
+    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
+      name: "\U0001F1EF\U0001F1F5JP_1|7.0MB/s|GPT⁺"
+      password: e7965e64-e001-4e8c-8273-39c61ff4a094
+      port: 30000
+      server: jp5.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
       udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: pl.alice.cloudns.pro
-        path: /gseuifghuisgfuiseuifseguif
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s|GPT⁺"
-      network: ws
-      port: 104
-      server: 154.21.92.5
-      servername: act13.sni565.netlib.re
+    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
+      name: "\U0001F1EF\U0001F1F5JP_2|7.0MB/s|GPT⁺"
+      password: e7965e64-e001-4e8c-8273-39c61ff4a094
+      port: 30000
+      server: jp3.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
+      name: "\U0001F1EF\U0001F1F5JP_3|1.3MB/s|GPT⁺"
+      password: e7965e64-e001-4e8c-8273-39c61ff4a094
+      port: 30000
+      server: jp4.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
+      name: "\U0001F1EF\U0001F1F5JP_4|3.6MB/s|GPT⁺"
+      password: e7965e64-e001-4e8c-8273-39c61ff4a094
+      port: 30000
+      server: jp6.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
+      name: "\U0001F1FA\U0001F1F8US_4|2.9MB/s|GPT⁺"
+      password: e7965e64-e001-4e8c-8273-39c61ff4a094
+      port: 30000
+      server: us4.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
+      name: "\U0001F1F8\U0001F1ECSG_1|2.0MB/s|GPT⁺"
+      password: e7965e64-e001-4e8c-8273-39c61ff4a094
+      port: 30000
+      server: sg3.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
+      name: "\U0001F1F9\U0001F1FCTW_2|5.0MB/s|GPT⁺"
+      password: e7965e64-e001-4e8c-8273-39c61ff4a094
+      port: 30000
+      server: tw.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - down: null
+      name: "\U0001F1EE\U0001F1E9ID_1|5.7MB/s|GPT⁺"
+      password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6
+      port: 21283
+      server: my.xn--9kqx4sc0n.shop
       skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
+      sni: null
+      type: hysteria2
+      up: null
+    - down: null
+      name: "\U0001F1EE\U0001F1E9ID_2|2.4MB/s|GPT⁺"
+      password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6
+      port: 21880
+      server: my.xn--9kqx4sc0n.shop
+      skip-cert-verify: false
+      sni: null
+      type: hysteria2
+      up: null
+    - name: "\U0001F1EF\U0001F1F5JP_5|1.4MB/s|GPT⁺"
+      password: fg20mtCFHy
+      port: 5705
+      server: jpcfg.zippydeal.xyz
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1ECSG_2|8.8MB/s|GPT⁺"
+      password: 51cc103f-2adf-4176-85a9-3796f874ca81
+      port: 19541
+      server: tt.huawei-api.top
+      type: ss
+      udp: true
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5JP_1|1.5MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_5|6.2MB/s|GPT⁺"
       network: ws
       port: 443
-      server: 45.137.181.101
+      server: 46.3.44.78
       servername: act13.sni565.netlib.re
       skip-cert-verify: false
       tfo: false
@@ -236,7 +324,24 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_7|1.4MB/s"
+      name: "\U0001F1F8\U0001F1ECSG_3|1.4MB/s|GPT"
+      network: ws
+      port: 452
+      server: 43.163.68.220
+      servername: act13.sni565.netlib.re
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
+      ws-opts:
+        headers:
+            Host: act13.sni565.netlib.re
+        path: /proxyip=tw.sni2025.netlib.re
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_6|2.8MB/s"
       network: ws
       port: 30001
       server: 185.148.15.25
@@ -253,458 +358,7 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5JP_2|1.8MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 57.180.66.106
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_8|3.2MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 57.180.15.86
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_9|1.4MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 13.158.131.198
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_10|2.1MB/s|GPT"
-      network: ws
-      port: 443
-      server: 43.206.219.152
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_11|6.1MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 46.3.44.78
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 149.104.28.14
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_2|1.8MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 149.104.26.240
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_3|1.3MB/s"
-      network: ws
-      port: 443
-      server: 38.55.105.83
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_4|3.0MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 149.104.27.179
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_5|2.7MB/s|GPT"
-      network: ws
-      port: 443
-      server: 149.104.25.84
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F9\U0001F1FCTW_1|2.4MB/s|GPT"
-      network: ws
-      port: 452
-      server: 43.163.68.220
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_1|2.2MB/s|GPT"
-      network: ws
-      port: 30316
-      server: 43.163.6.142
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_2|6.4MB/s|GPT⁺"
-      network: ws
-      port: 74
-      server: 139.177.185.88
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_12|1.1MB/s"
-      network: ws
-      port: 2087
-      server: 27.50.48.26
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s|GPT⁺"
-      network: ws
-      port: 10379
-      server: 58.239.237.226
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F9\U0001F1FCTW_2|3.6MB/s|GPT"
-      network: ws
-      port: 43
-      server: 61.220.128.226
-      servername: act13.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691af19d-77c8-a017-9e43-d6cff18e1658
-      ws-opts:
-        headers:
-            Host: act13.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_13|1.1MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 46.3.41.11
-      servername: vless3.datatestvless.click
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-      ws-opts:
-        headers:
-            Host: vless3.datatestvless.click
-        path: /?ed=2560
-    - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_6|1.3MB/s"
-      network: ws
-      port: 443
-      server: 83.229.123.87
-      servername: vless3.datatestvless.click
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-      ws-opts:
-        headers:
-            Host: vless3.datatestvless.click
-        path: /?ed=2560
-    - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_7|1.1MB/s"
-      network: ws
-      port: 443
-      server: fbi.gov
-      servername: vless3.datatestvless.click
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-      ws-opts:
-        headers:
-            Host: vless3.datatestvless.click
-        path: /?ed=2560
-    - client-fingerprint: random
-      name: ❓Other_1|1.1MB/s
-      network: ws
-      port: 43
-      server: 61.220.128.226
-      servername: vless3.datatestvless.click
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-      ws-opts:
-        headers:
-            Host: vless3.datatestvless.click
-        path: /?ed=2560
-    - client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_2|1.3MB/s|GPT⁺"
-      network: ws
-      port: 50001
-      server: 221.164.165.14
-      servername: bp.hexo.cloudns.ch
-      tls: true
-      type: vless
-      uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58
-      ws-opts:
-        headers:
-            Host: bp.hexo.cloudns.ch
-        path: /proxyip=ProxyIP.SG.CMLiussss.net
-    - client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_3|1.8MB/s|GPT⁺"
-      network: ws
-      port: 50000
-      server: 112.146.85.54
-      servername: bp.hexo.cloudns.ch
-      tls: true
-      type: vless
-      uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58
-      ws-opts:
-        headers:
-            Host: bp.hexo.cloudns.ch
-        path: /proxyip=ProxyIP.SG.CMLiussss.net
-    - client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_3|5.0MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 192.46.231.158
-      servername: ak.hexo.cloudns.ch
-      tls: true
-      type: vless
-      uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
-      ws-opts:
-        headers:
-            Host: ak.hexo.cloudns.ch
-        path: /proxyip=sjc.o00o.ooo
-    - client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_8|4.0MB/s|GPT⁺"
-      network: ws
-      port: 9443
-      server: 141.98.199.222
-      servername: ak.hexo.cloudns.ch
-      tls: true
-      type: vless
-      uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
-      ws-opts:
-        headers:
-            Host: ak.hexo.cloudns.ch
-        path: /proxyip=sjc.o00o.ooo
-    - name: "\U0001F1EF\U0001F1F5JP_3|3.8MB/s|GPT⁺"
-      password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
-      port: 25010
-      server: 37.202.200.19
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7KR_4|4.6MB/s|GPT⁺"
-      port: 59411
-      server: cads1564.hydtou.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 9ed91915-e449-4b83-8a18-49c4dee332b6
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1ECSG_4|4.0MB/s|GPT⁺"
-      password: 51cc103f-2adf-4176-85a9-3796f874ca81
-      port: 19541
-      server: tt.huawei-api.top
-      type: ss
-      udp: true
-    - client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5JP_4|2.4MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 5.34.222.200
-      servername: ak.hexo.cloudns.ch
-      tls: true
-      type: vless
-      uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
-      ws-opts:
-        headers:
-            Host: ak.hexo.cloudns.ch
-        path: /proxyip=sjc.o00o.ooo
-    - client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_5|1.1MB/s|GPT⁺"
-      network: ws
-      port: 60002
-      server: 119.64.242.60
-      servername: bp.hexo.cloudns.ch
-      tls: true
-      type: vless
-      uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58
-      ws-opts:
-        headers:
-            Host: bp.hexo.cloudns.ch
-        path: /proxyip=ProxyIP.SG.CMLiussss.net
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5JP_5|6.2MB/s|GPT"
-      network: ws
-      port: 443
-      server: 46.3.44.78
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_9|3.0MB/s|GPT"
+      name: "\U0001F1ED\U0001F1F0HK_3|1.2MB/s|GPT"
       network: ws
       port: 60007
       server: 43.161.227.251
@@ -721,24 +375,7 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_5|1.6MB/s|GPT"
-      network: ws
-      port: 443
-      server: 139.177.185.88
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_6|1.9MB/s|GPT⁺"
+      name: "\U0001F1F8\U0001F1ECSG_4|1.2MB/s|GPT"
       network: ws
       port: 452
       server: 43.163.68.220
@@ -755,10 +392,10 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_14|5.2MB/s"
+      name: "\U0001F1EF\U0001F1F5JP_6|7.1MB/s|GPT"
       network: ws
-      port: 104
-      server: 154.21.92.5
+      port: 443
+      server: 46.3.44.78
       servername: s3.sni565.netlib.re
       skip-cert-verify: false
       tfo: false
@@ -769,61 +406,23 @@ proxies:
         headers:
             Host: s3.sni565.netlib.re
         path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_6|1.2MB/s|GPT"
+    - client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s|GPT"
       network: ws
-      port: 50000
-      server: 58.235.104.145
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
+      port: 60002
+      server: 119.64.242.60
+      servername: bp.hexo.cloudns.ch
       tls: true
       type: vless
-      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
+      uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58
       ws-opts:
         headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
+            Host: bp.hexo.cloudns.ch
+        path: /proxyip=ProxyIP.SG.CMLiussss.net
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F9\U0001F1FCTW_3|3.6MB/s|GPT"
-      network: ws
-      port: 74
-      server: 139.177.185.88
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F9\U0001F1FCTW_4|1.9MB/s|GPT⁺"
-      network: ws
-      port: 30316
-      server: 43.163.6.142
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5JP_6|3.9MB/s|GPT⁺"
+      name: "\U0001F1EF\U0001F1F5JP_7|5.5MB/s|GPT"
       network: ws
       port: 443
       server: 46.3.44.78
@@ -840,44 +439,10 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_7|3.7MB/s|GPT"
+      name: "\U0001F1ED\U0001F1F0HK_4|1.4MB/s|GPT⁺"
       network: ws
-      port: 50000
-      server: 1.221.122.2
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_15|3.7MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 46.3.41.11
-      servername: sl1.gvbh360.dpdns.org
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69184b83-7fc7-643c-5381-6749b87d166e
-      ws-opts:
-        headers:
-            Host: sl1.gvbh360.dpdns.org
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_16|5.5MB/s|GPT"
-      network: ws
-      port: 443
-      server: 154.21.87.67
+      port: 60007
+      server: 43.161.227.251
       servername: sl1.gvbh360.dpdns.org
       skip-cert-verify: false
       tfo: false
@@ -891,68 +456,132 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_8|1.6MB/s|GPT⁺"
-      network: ws
-      port: 50000
-      server: 58.76.69.164
-      servername: sl1.gvbh360.dpdns.org
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69184b83-7fc7-643c-5381-6749b87d166e
-      ws-opts:
-        headers:
-            Host: sl1.gvbh360.dpdns.org
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_10|8.2MB/s|GPT"
-      network: ws
-      port: 443
-      server: 150.129.41.7
-      servername: sl1.gvbh360.dpdns.org
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69184b83-7fc7-643c-5381-6749b87d166e
-      ws-opts:
-        headers:
-            Host: sl1.gvbh360.dpdns.org
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_9|3.7MB/s|GPT⁺"
-      network: ws
-      port: 60002
-      server: 119.64.242.60
-      servername: sl1.gvbh360.dpdns.org
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69184b83-7fc7-643c-5381-6749b87d166e
-      ws-opts:
-        headers:
-            Host: sl1.gvbh360.dpdns.org
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_10|1.5MB/s|GPT⁺"
+      name: "\U0001F1F0\U0001F1F7KR_2|1.2MB/s|GPT⁺"
       network: ws
       port: 50001
-      server: 58.76.69.164
-      servername: sl1.gvbh360.dpdns.org
+      server: 49.161.121.200
+      servername: s3.sni565.netlib.re
       skip-cert-verify: false
       tfo: false
       tls: true
       type: vless
-      uuid: 69184b83-7fc7-643c-5381-6749b87d166e
+      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
       ws-opts:
         headers:
-            Host: sl1.gvbh360.dpdns.org
+            Host: s3.sni565.netlib.re
         path: /proxyip=tw.sni2025.netlib.re
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1ED\U0001F1F0HK_5|1.8MB/s"
+      network: ws
+      port: 60006
+      server: 43.161.227.251
+      servername: s3.sni565.netlib.re
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
+      ws-opts:
+        headers:
+            Host: s3.sni565.netlib.re
+        path: /proxyip=tw.sni2025.netlib.re
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_7|1.1MB/s"
+      network: ws
+      port: 443
+      server: 154.9.248.216
+      servername: s3.sni565.netlib.re
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
+      ws-opts:
+        headers:
+            Host: s3.sni565.netlib.re
+        path: /proxyip=tw.sni2025.netlib.re
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_8|1.4MB/s"
+      network: ws
+      port: 30001
+      server: 185.148.15.25
+      servername: s3.sni565.netlib.re
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 691a870f-30f5-b6be-fe22-61f1aac70ce1
+      ws-opts:
+        headers:
+            Host: s3.sni565.netlib.re
+        path: /proxyip=tw.sni2025.netlib.re
+    - name: "\U0001F1EF\U0001F1F5JP_8|3.0MB/s|GPT"
+      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+      port: 13778
+      server: jp7.dexlos.com
+      skip-cert-verify: true
+      sni: jp7.dexlos.com
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1EF\U0001F1F5JP_9|6.8MB/s|GPT"
+      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+      port: 11591
+      server: jp6.dexlos.com
+      skip-cert-verify: true
+      sni: jp6.dexlos.com
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_9|3.9MB/s|GPT⁺"
+      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+      port: 13554
+      server: us7.dexlos.com
+      skip-cert-verify: true
+      sni: us7.dexlos.com
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1EF\U0001F1F5JP_10|10.0MB/s|GPT⁺"
+      password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859
+      port: 30000
+      server: jp4.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1F8\U0001F1ECSG_5|13.2MB/s|GPT⁺"
+      password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859
+      port: 30000
+      server: sg3.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1F9\U0001F1FCTW_3|3.8MB/s"
+      password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859
+      port: 30000
+      server: tw1.oomz.ru
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1EF\U0001F1F5JP_11|6.5MB/s|GPT"
+      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+      port: 19504
+      server: jp10.dexlos.com
+      skip-cert-verify: true
+      sni: jp10.dexlos.com
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8US_10|2.9MB/s|GPT"
+      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+      port: 7641
+      server: us4.dexlos.com
+      skip-cert-verify: true
+      sni: us4.dexlos.com
+      tfo: false
+      type: hysteria2
