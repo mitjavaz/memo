@@ -41,11 +41,6 @@ proxy-providers:
     url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all1.yaml
     interval: 3600
     path: ./proxy_provider/all1.yaml
-  ZDYZ2:
-    type: http
-    url:  https://sublink.634676.xyz/sub
-    interval: 3600
-    path: ./proxy_provider/ZDYZ2.yaml
   SCP:
     type: http
     url:  https://sub.scpnb.top/base64
@@ -58,7 +53,6 @@ proxy-groups:
     proxies:
       - ✋ 手选模式一
       - ✋ 手选模式二
-      - ✋ ZDYZ2节点
       - ✋ SCP节点
       - ♻️ 测速代理
     url: 'https://www.youtube.com/generate_204'
@@ -75,11 +69,6 @@ proxy-groups:
     use:
       - all1
 
-  - name: "✋ ZDYZ2节点"
-    type: select
-    use:
-      - ZDYZ2
-
   - name: "✋ SCP节点"
     type: select
     use:
@@ -90,7 +79,6 @@ proxy-groups:
     use:
       - all
       - all1
-      - ZDYZ2
       - SCP
     url: 'https://www.youtube.com/generate_204'
     interval: 600
