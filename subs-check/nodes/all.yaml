@@ -1,81 +1,7 @@
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_1|1.6MB/s|GPT⁺"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.190
-      type: ss
-    - alpn:
-        - h3
-      name: "\U0001F1F0\U0001F1F7KR_1|7.8MB/s|GPT⁺"
-      password: e715f8e2-664c-4f6e-bb71-56d967cebb96
-      ports: 16401-17000
-      server: krhysteria01.yydzx.xyz
-      skip-cert-verify: false
-      sni: krhysteria01.yydzx.xyz
-      type: hysteria2
-    - alpn:
-        - h3
-      name: "\U0001F1FA\U0001F1F8US_1|1.3MB/s|GPT⁺"
-      password: e715f8e2-664c-4f6e-bb71-56d967cebb96
-      ports: 13001-14000
-      server: us2083.yydzx.xyz
-      skip-cert-verify: false
-      sni: us2083.yydzx.xyz
-      type: hysteria2
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_2|1.7MB/s|GPT⁺"
-      network: ws
-      packet-encoding: xudp
-      port: 8080
-      server: 104.194.71.68
-      servername: us.alice.cloudns.pro
-      skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_3|7.2MB/s|GPT⁺"
-      network: ws
-      packet-encoding: xudp
-      port: 38002
-      server: 104.194.65.82
-      servername: us.alice.cloudns.pro
-      skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_4|6.4MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_1|8.7MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 18848
@@ -100,12 +26,12 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_1|1.7MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_2|6.8MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
-      port: 56328
-      server: 38.207.163.72
-      servername: pl.alice.cloudns.pro
+      port: 15680
+      server: 104.194.68.233
+      servername: us.alice.cloudns.pro
       skip-cert-verify: false
       smux:
         enabled: true
@@ -119,18 +45,18 @@ proxies:
       uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
       ws-opts:
         headers:
-            Host: pl.alice.cloudns.pro
-        path: /gseuifghuisgfuiseuifseguif
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
         v2ray-http-upgrade: true
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_2|1.2MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
-      port: 13800
-      server: 23.169.184.28
-      servername: pl.alice.cloudns.pro
+      port: 8080
+      server: 104.194.71.68
+      servername: us.alice.cloudns.pro
       skip-cert-verify: false
       smux:
         enabled: true
@@ -144,13 +70,13 @@ proxies:
       uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
       ws-opts:
         headers:
-            Host: pl.alice.cloudns.pro
-        path: /gseuifghuisgfuiseuifseguif
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
         v2ray-http-upgrade: true
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_3|2.8MB/s|GPT⁺"
+      name: "\U0001F1F5\U0001F1F1PL_1|1.2MB/s|GPT"
       network: ws
       packet-encoding: xudp
       port: 12888
@@ -174,344 +100,208 @@ proxies:
         v2ray-http-upgrade: true
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_1|4.1MB/s|GPT⁺"
-      network: tcp
-      port: "40721"
-      reality-opts:
-        public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU
-        short-id: c588
-      server: 150.230.4.210
-      servername: www.icloud.com
+      mptcp: true
+      name: "\U0001F1F5\U0001F1F1PL_2|2.0MB/s|GPT"
+      network: ws
+      packet-encoding: xudp
+      port: 56328
+      server: 38.207.163.72
+      servername: pl.alice.cloudns.pro
+      skip-cert-verify: false
+      smux:
+        enabled: true
+        max-streams: 10
+        padding: true
+        protocol: h2mux
+      tfo: true
       tls: true
       type: vless
       udp: true
-      uuid: e0aafde7-37e2-486b-eb30-efa71166bf7e
-      xudp: true
-    - name: "\U0001F1EF\U0001F1F5JP_2|1.3MB/s|GPT"
-      network: ws
-      port: 443
-      server: 5.34.222.200
-      servername: kuangbao.xiejiang.dpdns.org
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
       ws-opts:
         headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1E6\U0001F1EAAE_1|2.5MB/s|GPT"
-      network: ws
-      port: 12648
-      server: 193.123.90.82
-      servername: kuangbao.xiejiang.dpdns.org
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
+            Host: pl.alice.cloudns.pro
+        path: /gseuifghuisgfuiseuifseguif
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - alterId: 0
+      cipher: auto
+      http-opts:
         headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_5|1.5MB/s|GPT"
-      network: ws
-      port: 13800
-      server: 23.169.184.28
-      servername: vless3.datatestvless.click
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-      ws-opts:
-        headers:
-            Host: vless3.datatestvless.click
-        path: /?ed=2560
-    - client-fingerprint: random
-      name: "\U0001F1EC\U0001F1E7GB_1|2.0MB/s"
-      network: ws
-      port: 443
-      server: 57.129.137.226
-      servername: vless3.datatestvless.click
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-      ws-opts:
-        headers:
-            Host: vless3.datatestvless.click
-        path: /?ed=2560
-    - client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_2|1.4MB/s"
-      network: ws
-      port: 50000
-      server: 106.242.64.238
-      servername: vless3.datatestvless.click
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-      ws-opts:
-        headers:
-            Host: vless3.datatestvless.click
-        path: /?ed=2560
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_1|17.3MB/s|GPT⁺"
-      network: ws
-      port: 443
-      server: 8.218.189.27
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_2|10.3MB/s"
-      network: ws
-      port: 60006
-      server: 43.161.227.251
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_6|1.4MB/s"
-      network: ws
-      port: 443
-      server: 67.226.223.224
-      servername: vless3.datatestvless.click
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-      ws-opts:
-        headers:
-            Host: vless3.datatestvless.click
-        path: /?ed=2560
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_3|7.0MB/s|GPT"
-      network: ws
-      port: 9009
-      server: 43.199.231.225
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_4|15.5MB/s|GPT"
-      network: ws
-      port: 443
-      server: 95.40.61.115
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_1|1.9MB/s|GPT"
-      network: ws
-      port: 28443
-      server: 43.156.67.197
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_3|2.3MB/s|GPT"
-      network: ws
-      port: 50001
-      server: 175.210.217.204
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_4|1.2MB/s|GPT"
-      network: ws
-      port: 50001
-      server: 115.90.84.220
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_5|2.9MB/s"
-      network: ws
-      port: 50003
-      server: 211.195.83.140
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F9\U0001F1FCTW_1|6.6MB/s|GPT"
-      network: ws
-      port: 43
-      server: 220.128.110.108
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_6|2.3MB/s"
-      network: ws
-      port: 50001
-      server: 61.42.88.91
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1F0\U0001F1F7KR_7|1.8MB/s"
-      network: ws
-      port: 50001
-      server: 121.140.147.37
-      servername: s3.sni565.netlib.re
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-      ws-opts:
-        headers:
-            Host: s3.sni565.netlib.re
-        path: /proxyip=tw.sni2025.netlib.re
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0HK_5|1.5MB/s"
-      password: fe4e2e66-252f-4dcf-b90b-c110e20c5ba0
-      port: "35602"
-      server: gw.liangyuandianwan.com
-      type: ss
+            Connection:
+                - keep-alive
+            Host:
+                - tms.dingtalk.com
+            User-Agent:
+                - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+        method: POST
+        path:
+            - /
+      name: "\U0001F1E6\U0001F1F7AR_1|1.6MB/s|GPT⁺"
+      network: http
+      port: 2032
+      server: 97362074-185c-20c2-4bfd-0b56f65d67ba.faq.u-sps.su
+      type: vmess
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EE\U0001F1F3IN_1|3.3MB/s|GPT⁺"
-      password: 51cc103f-2adf-4176-85a9-3796f874ca81
-      port: "19581"
-      server: mm.huawei-api.top
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E6\U0001F1FAAU_1|1.2MB/s|GPT⁺"
-      password: fe4e2e66-252f-4dcf-b90b-c110e20c5ba0
-      port: "35608"
-      server: gw.liangyuandianwan.com
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F0\U0001F1F7KR_8|14.4MB/s|GPT⁺"
-      password: 05cecd48-2e53-4147-b137-0c445bf6baa6
-      port: 13051
-      server: 183.232.157.73
-      type: ss
-      udp: true
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1ED\U0001F1F0HK_6|3.8MB/s|GPT⁺"
+      uuid: ec0dd1fc-fc44-4818-ae41-7906627f2e7d
+    - name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s|GPT⁺"
       network: ws
-      port: 7000
-      server: 202.85.53.67
-      servername: sl1.gvbh360.dpdns.org
+      port: 443
+      server: 101.32.12.79
+      servername: www.x-aniu--sg.netlib.re
       skip-cert-verify: false
       tfo: false
       tls: true
       type: vless
-      uuid: 6921aac2-fa5d-f19b-dc78-176eae7a5953
+      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
         headers:
-            Host: sl1.gvbh360.dpdns.org
-        path: /proxyip=tw.sni2025.netlib.re
+            Host: www.x-aniu--sg.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_2|1.9MB/s"
+      network: ws
+      port: 443
+      server: 8.210.226.179
+      servername: www.x-aniu--hk.netlib.re
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.x-aniu--hk.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0HK_3|11.2MB/s"
+      network: ws
+      port: 443
+      server: 8.218.32.120
+      servername: www.x-aniu--hk.netlib.re
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.x-aniu--hk.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0HK_4|9.8MB/s|GPT⁺"
+      network: ws
+      port: 443
+      server: 8.218.32.120
+      servername: www.x-aniu--jp.netlib.re
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.x-aniu--jp.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_5|5.9MB/s|GPT⁺"
+      network: ws
+      port: 443
+      server: 8.210.226.179
+      servername: www.x-aniu--sg.netlib.re
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.x-aniu--sg.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0HK_6|13.1MB/s|GPT⁺"
+      network: ws
+      port: 443
+      server: 8.218.32.120
+      servername: www.x-aniu--sg.netlib.re
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.x-aniu--sg.netlib.re
+        path: /?ed=2560
+    - auth: 789ce6a2-adf2-4bc5-8f7a-6f26227b0b4f
+      down: 15
+      name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s|GPT⁺"
+      password: 789ce6a2-adf2-4bc5-8f7a-6f26227b0b4f
+      port: 45457
+      ports: 45000-55000
+      server: 51.81.223.166
+      skip-cert-verify: true
+      sni: tv.apple.com
+      type: hysteria2
+      udp: true
+      up: 15
+    - auth: da3f691a-62be-42e0-a69f-1bb8b8ce4ec2
+      down: 15
+      name: "\U0001F1FA\U0001F1F8US_5|1.2MB/s|GPT⁺"
+      password: da3f691a-62be-42e0-a69f-1bb8b8ce4ec2
+      port: 52376
+      ports: 45000-55000
+      server: 51.81.223.166
+      skip-cert-verify: true
+      sni: tv.apple.com
+      type: hysteria2
+      udp: true
+      up: 15
+    - auth: 04b3198d-e888-44c1-95ba-58ea1c02e676
+      down: 15
+      name: "\U0001F1FA\U0001F1F8US_6|1.2MB/s|GPT"
+      password: 04b3198d-e888-44c1-95ba-58ea1c02e676
+      port: 48150
+      ports: 45000-55000
+      server: 51.81.223.166
+      skip-cert-verify: true
+      sni: tv.apple.com
+      type: hysteria2
+      udp: true
+      up: 15
+    - auth: 04b3198d-e888-44c1-95ba-58ea1c02e676
+      down: 15
+      name: "\U0001F1FA\U0001F1F8US_7|1.2MB/s"
+      password: 04b3198d-e888-44c1-95ba-58ea1c02e676
+      port: 51089
+      ports: 45000-55000
+      server: 51.81.223.166
+      skip-cert-verify: true
+      sni: tv.apple.com
+      type: hysteria2
+      udp: true
+      up: 15
+    - auth: da3f691a-62be-42e0-a69f-1bb8b8ce4ec2
+      down: 15
+      name: "\U0001F1FA\U0001F1F8US_8|1.2MB/s"
+      password: da3f691a-62be-42e0-a69f-1bb8b8ce4ec2
+      port: 47062
+      server: 51.81.223.166
+      skip-cert-verify: true
+      sni: tv.apple.com
+      type: hysteria2
+      udp: true
+      up: 15
+    - alpn:
+        - h3
+      name: "\U0001F1F0\U0001F1F7KR_1|3.6MB/s|GPT⁺"
+      password: e715f8e2-664c-4f6e-bb71-56d967cebb96
+      ports: 16401-17000
+      server: krhysteria01.yydzx.xyz
+      skip-cert-verify: false
+      sni: krhysteria01.yydzx.xyz
+      type: hysteria2
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_7|5.1MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_9|2.4MB/s"
       network: ws
       port: 443
       server: 38.59.241.155
@@ -525,144 +315,10 @@ proxies:
         headers:
             Host: sl1.gvbh360.dpdns.org
         path: /proxyip=tw.sni2025.netlib.re
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8US_8|1.6MB/s|GPT"
-      network: ws
-      port: 113
-      server: 154.17.236.166
-      servername: sl1.gvbh360.dpdns.org
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 6921aac2-fa5d-f19b-dc78-176eae7a5953
-      ws-opts:
-        headers:
-            Host: sl1.gvbh360.dpdns.org
-        path: /proxyip=tw.sni2025.netlib.re
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FCTW_2|8.9MB/s"
-      network: ws
-      port: "12888"
-      server: gtm1.ktmwan.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 4f5fddc8-a49f-4f83-87a4-48eab504ce85
-      ws-opts:
-        headers:
-            Host: gtm1.ktmwan.net
-        path: /
-      xudp: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US_9|1.0MB/s|GPT⁺"
-      password: fe4e2e66-252f-4dcf-b90b-c110e20c5ba0
-      port: "35604"
-      server: gw.liangyuandianwan.com
+      name: "\U0001F1FA\U0001F1F8US_10|4.4MB/s|GPT"
+      password: d3a07498-7bcf-48b0-a6ed-8dbda2451c7d
+      port: "40063"
+      server: slur.izenny.com
       type: ss
       udp: true
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
-      network: ws
-      port: "12898"
-      server: gtm1.ktmwan.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 4f5fddc8-a49f-4f83-87a4-48eab504ce85
-      ws-opts:
-        headers:
-            Host: gtm1.ktmwan.net
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_10|2.8MB/s|GPT"
-      password: BxceQaOe
-      port: "2773"
-      server: 95.40.7.3
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1FCTW_3|1.5MB/s"
-      network: ws
-      port: 12888
-      server: gtm1.ktmwan.net
-      servername: baidu.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 4f5fddc8-a49f-4f83-87a4-48eab504ce85
-      ws-opts:
-        headers:
-            Host: gtm1.ktmwan.net
-        path: /
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F0\U0001F1F7KR_9|3.2MB/s"
-      network: ws
-      port: "18788"
-      server: 112.186.67.102
-      servername: mot.morisi.ggff.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 00000000-0000-4000-8000-000000000000
-      ws-opts:
-        headers:
-            Host: mot.morisi.ggff.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /@Marisa_kristi
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_2|1.6MB/s"
-      password: ba66771e-fd61-4999-b3b1-386a6b9f9143
-      port: "21113"
-      server: 2d596cc3-12db-47d3-a4a5-ae9ef12ef7b5.xuwuge.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_3|3.4MB/s"
-      password: 13bf653b-ae0d-4a29-bb80-18be192c439f
-      port: "21113"
-      server: 2d596cc3-12db-47d3-a4a5-ae9ef12ef7b5.xuwuge.xyz
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN_2|1.3MB/s|GPT⁺"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: "38388"
-      server: 103.186.155.237
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1EF\U0001F1F5JP_3|7.7MB/s|GPT⁺"
-      network: tcp
-      port: "12378"
-      reality-opts:
-        public-key: LWbiUFGdrri1ZmImDbU1BrnBTT7rjSkvr5tkwE9uFXw
-        short-id: ""
-      server: 23.249.25.53
-      servername: aws.amazon.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: abcca489-d0ad-4d77-a6ce-5b633118b9ad
-      xudp: true
