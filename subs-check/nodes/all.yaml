@@ -1,13 +1,18 @@
 proxies:
-    - alpn:
-        - h3
-      name: "\U0001F1F0\U0001F1F7KR_1|9.4MB/s|GPT⁺"
-      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-      ports: 16401-17000
-      server: krhysteria01.yydzx.xyz
+    - name: "\U0001F1ED\U0001F1F0HK_1|5.8MB/s|GPT"
+      network: ws
+      port: 7000
+      server: 202.85.53.54
+      servername: kuangbao.xiejiang.dpdns.org
       skip-cert-verify: false
-      sni: krhysteria01.yydzx.xyz
-      type: hysteria2
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
     - alterId: 0
       cipher: auto
       http-opts:
@@ -21,16 +26,156 @@ proxies:
         method: POST
         path:
             - /
-      name: "\U0001F1ED\U0001F1F0HK_1|2.3MB/s|GPT⁺"
+      name: "\U0001F1ED\U0001F1F0HK_2|1.0MB/s|GPT⁺"
       network: http
       port: 80
       server: support.3c73f388-7703-40f0-d95b-d48efd258589.singpost.su
       type: vmess
       udp: true
       uuid: ec0dd1fc-fc44-4818-ae41-7906627f2e7d
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Connection:
+                - keep-alive
+            Host:
+                - tms.dingtalk.com
+            User-Agent:
+                - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+        method: POST
+        path:
+            - /
+      name: ❓Other_1|3.1MB/s
+      network: http
+      port: 2003
+      server: 97362074-185c-20c2-4bfd-0b56f65d67ba.faq.u-sps.su
+      type: vmess
+      udp: true
+      uuid: ec0dd1fc-fc44-4818-ae41-7906627f2e7d
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Connection:
+                - keep-alive
+            Host:
+                - tms.dingtalk.com
+            User-Agent:
+                - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+        method: POST
+        path:
+            - /
+      name: ❓Other_2|2.1MB/s
+      network: http
+      port: 2016
+      server: 97362074-185c-20c2-4bfd-0b56f65d67ba.faq.u-sps.su
+      type: vmess
+      udp: true
+      uuid: ec0dd1fc-fc44-4818-ae41-7906627f2e7d
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Connection:
+                - keep-alive
+            Host:
+                - tms.dingtalk.com
+            User-Agent:
+                - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+        method: POST
+        path:
+            - /
+      name: ❓Other_3|15.1MB/s
+      network: http
+      port: 2006
+      server: 97362074-185c-20c2-4bfd-0b56f65d67ba.faq.u-sps.su
+      type: vmess
+      udp: true
+      uuid: ec0dd1fc-fc44-4818-ae41-7906627f2e7d
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Connection:
+                - keep-alive
+            Host:
+                - tms.dingtalk.com
+            User-Agent:
+                - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+        method: POST
+        path:
+            - /
+      name: ❓Other_4|3.5MB/s
+      network: http
+      port: 2007
+      server: 97362074-185c-20c2-4bfd-0b56f65d67ba.faq.u-sps.su
+      type: vmess
+      udp: true
+      uuid: ec0dd1fc-fc44-4818-ae41-7906627f2e7d
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Connection:
+                - keep-alive
+            Host:
+                - tms.dingtalk.com
+            User-Agent:
+                - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+        method: POST
+        path:
+            - /
+      name: ❓Other_5|11.8MB/s
+      network: http
+      port: 2026
+      server: 97362074-185c-20c2-4bfd-0b56f65d67ba.faq.u-sps.su
+      type: vmess
+      udp: true
+      uuid: ec0dd1fc-fc44-4818-ae41-7906627f2e7d
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Connection:
+                - keep-alive
+            Host:
+                - tms.dingtalk.com
+            User-Agent:
+                - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+        method: POST
+        path:
+            - /
+      name: ❓Other_6|5.8MB/s
+      network: http
+      port: 2012
+      server: 97362074-185c-20c2-4bfd-0b56f65d67ba.faq.u-sps.su
+      type: vmess
+      udp: true
+      uuid: ec0dd1fc-fc44-4818-ae41-7906627f2e7d
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Connection:
+                - keep-alive
+            Host:
+                - tms.dingtalk.com
+            User-Agent:
+                - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+        method: POST
+        path:
+            - /
+      name: ❓Other_7|7.7MB/s|GPT
+      network: http
+      port: 2019
+      server: 97362074-185c-20c2-4bfd-0b56f65d67ba.faq.u-sps.su
+      type: vmess
+      udp: true
+      uuid: ec0dd1fc-fc44-4818-ae41-7906627f2e7d
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_1|5.0MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_1|7.0MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 18848
@@ -55,57 +200,7 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_2|5.8MB/s|GPT⁺"
-      network: ws
-      packet-encoding: xudp
-      port: 38002
-      server: 104.194.65.82
-      servername: us.alice.cloudns.pro
-      skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_3|4.3MB/s|GPT⁺"
-      network: ws
-      packet-encoding: xudp
-      port: 15680
-      server: 104.194.68.233
-      servername: us.alice.cloudns.pro
-      skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_4|5.8MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_2|6.4MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 8080
@@ -130,7 +225,7 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_1|2.8MB/s|GPT⁺"
+      name: "\U0001F1F5\U0001F1F1PL_1|2.5MB/s|GPT"
       network: ws
       packet-encoding: xudp
       port: 56328
@@ -155,7 +250,7 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_2|1.8MB/s|GPT"
+      name: "\U0001F1F5\U0001F1F1PL_2|2.0MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 13800
@@ -180,7 +275,7 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_3|1.7MB/s|GPT"
+      name: "\U0001F1F5\U0001F1F1PL_3|3.0MB/s|GPT"
       network: ws
       packet-encoding: xudp
       port: 12888
@@ -203,252 +298,84 @@ proxies:
         path: /gseuifghuisgfuiseuifseguif
         v2ray-http-upgrade: true
         v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_4|1.2MB/s|GPT"
-      network: ws
-      packet-encoding: xudp
-      port: 18563
-      server: 37.123.192.228
-      servername: pl.alice.cloudns.pro
-      skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: pl.alice.cloudns.pro
-        path: /gseuifghuisgfuiseuifseguif
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - down: 1000
-      name: "\U0001F1ED\U0001F1F0HK_2|1.5MB/s"
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 50000
-      server: hk2.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_1|8.2MB/s|GPT
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: sg3.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_2|7.0MB/s|GPT
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: jp3.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_3|7.9MB/s|GPT
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: sg4.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_4|8.5MB/s|GPT
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: sg1.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_5|2.7MB/s
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: us7.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_6|2.5MB/s
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: us8.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_7|4.5MB/s
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: jp4.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_8|3.8MB/s
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: nl2.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_9|3.3MB/s
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: nl1.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_10|3.0MB/s
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: uk1.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
-    - down: 1000
-      name: ❓Other_11|2.5MB/s
-      password: 274691f9-e6c0-46ff-82f2-3a9062872a04
-      port: 30000
-      server: uk2.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      up: 1000
     - alpn:
         - h3
-      congestion-controller: bbr
-      name: ❓Other_12|6.1MB/s
-      password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 18360
-      server: vntuic01.yydzx.xyz
-      sni: vntuic01.yydzx.xyz
-      type: tuic
-      uuid: de5d89a9-3f16-448e-8c40-9145852c8736
-      version: 5
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      fp: chrome
-      name: "\U0001F1E9\U0001F1EADE_1|9.4MB/s|GPT⁺"
-      password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 27010
-      security: tls
-      server: deanytls01.yytls.top
-      skip-cert-verify: false
-      sni: deanytls01.yytls.top
-      type: anytls
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      fp: chrome
-      name: "\U0001F1F8\U0001F1ECSG_1|17.6MB/s|GPT⁺"
-      password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 27003
-      security: tls
-      server: sganytls01.yytls.top
-      skip-cert-verify: false
-      sni: sganytls01.yytls.top
-      type: anytls
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1F8\U0001F1ECSG_2|9.0MB/s|GPT⁺"
-      password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 13006
-      server: sgtuic01.yydzx.xyz
-      sni: sgtuic01.yydzx.xyz
-      type: tuic
-      uuid: de5d89a9-3f16-448e-8c40-9145852c8736
-      version: 5
-    - name: "\U0001F1F0\U0001F1F7KR_2|6.4MB/s|GPT⁺"
-      password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 16623
+      name: "\U0001F1F0\U0001F1F7KR_1|6.5MB/s|GPT⁺"
+      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
       ports: 16401-17000
       server: krhysteria01.yydzx.xyz
       skip-cert-verify: false
       sni: krhysteria01.yydzx.xyz
-      tfo: false
       type: hysteria2
     - alpn:
+        - h3
+      name: "\U0001F1E8\U0001F1E6CA_1|2.2MB/s|GPT"
+      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+      ports: 16201-16400
+      server: thhysteria01.yydzx.xyz
+      skip-cert-verify: false
+      sni: thhysteria01.yydzx.xyz
+      type: hysteria2
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: "\U0001F1F9\U0001F1FCTW_1|3.8MB/s|GPT⁺"
+      password: de5d89a9-3f16-448e-8c40-9145852c8736
+      port: 15939
+      server: twtuic01.yydzx.xyz
+      sni: twtuic01.yydzx.xyz
+      type: tuic
+      uuid: de5d89a9-3f16-448e-8c40-9145852c8736
+      version: 5
+    - alpn:
         - h2
         - http/1.1
       client-fingerprint: chrome
       fp: chrome
-      name: "\U0001F1F0\U0001F1F7KR_3|7.1MB/s|GPT⁺"
+      name: "\U0001F1F3\U0001F1F1NL_1|10.3MB/s|GPT⁺"
       password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 27008
+      port: 27017
       security: tls
-      server: kranytls01.yytls.top
+      server: nlanytls01.yytls.top
       skip-cert-verify: false
-      sni: kranytls01.yytls.top
+      sni: nlanytls01.yytls.top
       type: anytls
     - alpn:
         - h2
         - http/1.1
       client-fingerprint: chrome
       fp: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|10.3MB/s|GPT⁺"
+      name: "\U0001F1E8\U0001F1E6CA_2|3.4MB/s|GPT⁺"
       password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 27004
+      port: 27009
       security: tls
-      server: jpanytls01.yytls.top
+      server: caanytls01.yytls.top
       skip-cert-verify: false
-      sni: jpanytls01.yytls.top
+      sni: caanytls01.yytls.top
       type: anytls
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1EF\U0001F1F5JP_2|5.7MB/s|GPT⁺"
-      password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 14090
-      server: jptuic01.yydzx.xyz
-      sni: jptuic01.yydzx.xyz
-      type: tuic
-      uuid: de5d89a9-3f16-448e-8c40-9145852c8736
-      version: 5
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: ❓Other_13|5.2MB/s
-      password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 18042
-      server: mytuic01.yydzx.xyz
-      sni: mytuic01.yydzx.xyz
-      type: tuic
-      uuid: de5d89a9-3f16-448e-8c40-9145852c8736
-      version: 5
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: ❓Other_14|6.6MB/s|GPT⁺
-      password: de5d89a9-3f16-448e-8c40-9145852c8736
-      port: 18412
-      server: idtuic01.yydzx.xyz
-      sni: idtuic01.yydzx.xyz
-      type: tuic
-      uuid: de5d89a9-3f16-448e-8c40-9145852c8736
-      version: 5
+    - client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7KR_2|1.3MB/s"
+      network: ws
+      port: 50001
+      server: 59.2.75.64
+      servername: s2.sni565.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6923b959-c65f-764c-b072-94711382d716
+      ws-opts:
+        headers:
+            Host: s2.sni565.netlib.re
+        path: /proxyip=tw.sni2025.netlib.re
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_3|4.0MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: a5a81a34-f257-11ef-ba82-f23c913c8d2b
+      port: "443"
+      server: 4e96e80f-t6g1s0-t7wiup-1teuc.hk2.hyhuawei.com
+      skip-cert-verify: false
+      sni: 4e96e80f-t6g1s0-t7wiup-1teuc.hk2.hyhuawei.com
+      type: hysteria2
+      up: ""
