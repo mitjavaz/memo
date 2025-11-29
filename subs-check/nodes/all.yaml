@@ -1,82 +1,217 @@
 proxies:
     - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_1|4.7MB/s|GPT⁺"
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
       network: ws
-      packet-encoding: xudp
-      port: 18848
-      server: 104.194.66.146
-      servername: us.alice.cloudns.pro
-      skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
+      port: 443
+      server: www.visa.cn
+      servername: ayanaminrei.11160321.xyz
+      tls: true
+      type: vless
+      uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+      ws-opts:
+        headers:
+            Host: ayanamirei.11160321.xyz
+        path: /ed=2560
+    - encryption: none
+      name: "\U0001F1FA\U0001F1F8US_1|3.0MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.24
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_1|1.5MB/s|GPT"
+      network: ws
+      port: "443"
+      server: 139.185.34.131
+      servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
       udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
       ws-opts:
         headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_2|5.2MB/s|GPT⁺"
-      network: ws
-      packet-encoding: xudp
-      port: 8080
-      server: 104.194.71.68
-      servername: us.alice.cloudns.pro
+            Host: kuangbao.xiejiang.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
+      password: 7243745919d6de49a5db
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45578
+      server: hk077.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - down: 200
+      name: "\U0001F1EF\U0001F1F5JP_2|5.7MB/s|GPT⁺"
+      password: Valm2HzeRa0TycjT4J3u8EOmA+O4evkF7QGyUr9AJdc=
+      port: 443
+      server: toyko.feisakura.xyz
       skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
+      sni: toyko.feisakura.xyz
+      type: hysteria2
+      up: 100
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_2|16.9MB/s"
+      password: 777bc05be0dd624959fb
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45905
+      server: hk021.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5JP_3|3.6MB/s|GPT"
+      network: ws
+      port: 443
+      server: 54.249.169.40
+      servername: kuangbao.xiejiang.dpdns.org
+      skip-cert-verify: false
+      tfo: false
       tls: true
       type: vless
-      udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
       ws-opts:
         headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_3|5.8MB/s|GPT⁺"
-      network: ws
-      packet-encoding: xudp
-      port: 30690
-      server: 154.9.234.118
-      servername: us.alice.cloudns.pro
-      skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
-      tls: true
-      type: vless
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - cipher: aes-128-gcm
+      name: "\U0001F1EF\U0001F1F5JP_4|1.4MB/s|GPT⁺"
+      password: 97b53b570db0917935e0
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45939
+      server: jp050.jd.kunlunpx.com
+      type: ss
       udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_3|12.8MB/s"
+      password: 0a74c9e4565e935cf1ac
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45902
+      server: hk018.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F8\U0001F1ECSG_2|7.8MB/s|GPT⁺"
+      password: 4092a0d31011e2046687
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45937
+      server: sg057.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F8\U0001F1ECSG_3|2.2MB/s|GPT⁺"
+      password: f4cd0a554e9d0558c581
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45917
+      server: sg032.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F8\U0001F1ECSG_4|17.3MB/s|GPT⁺"
+      password: 0722bd4137ff579e6917
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45579
+      server: sg078.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F9\U0001F1FCTW_1|3.2MB/s|GPT"
+      password: b270fd77db2ecb7acbc8
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45914
+      server: tw030.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F0\U0001F1F7KR_1|2.2MB/s|GPT⁺"
+      password: d7577ca6729babe0790f
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45921
+      server: kr037.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT⁺"
+      password: 2b7df6aadc759756b0cd
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45923
+      server: us039.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8US_3|2.4MB/s|GPT⁺"
+      password: 0a0fb8dbfb8cc2f25f02
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45924
+      server: us040.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EE\U0001F1F9IT_1|3.3MB/s|GPT"
+      password: 6180d9dc7075e7fe509b
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45587
+      server: it091.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1FEMY_1|3.1MB/s|GPT⁺"
+      password: ec1a4ba66999975262e2
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45577
+      server: my076.jd.kunlunpx.com
+      type: ss
+      udp: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_4|4.6MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_4|4.8MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 38002
@@ -101,7 +236,57 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1FA\U0001F1F8US_5|4.1MB/s|GPT⁺"
+      name: "\U0001F1FA\U0001F1F8US_5|3.8MB/s|GPT⁺"
+      network: ws
+      packet-encoding: xudp
+      port: 30690
+      server: 154.9.234.118
+      servername: us.alice.cloudns.pro
+      skip-cert-verify: false
+      smux:
+        enabled: true
+        max-streams: 10
+        padding: true
+        protocol: h2mux
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      ws-opts:
+        headers:
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - client-fingerprint: chrome
+      mptcp: true
+      name: "\U0001F1FA\U0001F1F8US_6|7.7MB/s|GPT⁺"
+      network: ws
+      packet-encoding: xudp
+      port: 18848
+      server: 104.194.66.146
+      servername: us.alice.cloudns.pro
+      skip-cert-verify: false
+      smux:
+        enabled: true
+        max-streams: 10
+        padding: true
+        protocol: h2mux
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      ws-opts:
+        headers:
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - client-fingerprint: chrome
+      mptcp: true
+      name: "\U0001F1FA\U0001F1F8US_7|5.0MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 15680
@@ -124,28 +309,742 @@ proxies:
         path: /siehdfioshfiosdfskkk
         v2ray-http-upgrade: true
         v2ray-http-upgrade-fast-open: true
-    - down: 200
-      name: "\U0001F1EF\U0001F1F5JP_1|5.1MB/s|GPT⁺"
-      password: Valm2HzeRa0TycjT4J3u8EOmA+O4evkF7QGyUr9AJdc=
+    - cipher: aes-128-gcm
+      name: "\U0001F1E6\U0001F1FAAU_1|1.1MB/s|GPT⁺"
+      password: ec39dd066cc142fbb81c
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: 45934
+      server: au071.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      mptcp: true
+      name: "\U0001F1FA\U0001F1F8US_8|1.6MB/s|GPT⁺"
+      network: ws
+      packet-encoding: xudp
       port: 443
-      server: toyko.feisakura.xyz
+      server: two.cloudflare-ddns.sakuraikaede.com
+      servername: us.alice.cloudns.pro
       skip-cert-verify: false
-      sni: toyko.feisakura.xyz
-      type: hysteria2
-      up: 100
+      smux:
+        enabled: true
+        max-streams: 10
+        padding: true
+        protocol: h2mux
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      ws-opts:
+        headers:
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - client-fingerprint: chrome
+      mptcp: true
+      name: "\U0001F1FA\U0001F1F8US_9|1.8MB/s|GPT⁺"
+      network: ws
+      packet-encoding: xudp
+      port: 443
+      server: three.cloudflare-ddns.sakuraikaede.com
+      servername: us.alice.cloudns.pro
+      skip-cert-verify: false
+      smux:
+        enabled: true
+        max-streams: 10
+        padding: true
+        protocol: h2mux
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      ws-opts:
+        headers:
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - client-fingerprint: chrome
+      mptcp: true
+      name: "\U0001F1FA\U0001F1F8US_10|2.6MB/s|GPT⁺"
+      network: ws
+      packet-encoding: xudp
+      port: 443
+      server: one.cloudflare-ddns.sakuraikaede.com
+      servername: us.alice.cloudns.pro
+      skip-cert-verify: false
+      smux:
+        enabled: true
+        max-streams: 10
+        padding: true
+        protocol: h2mux
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      ws-opts:
+        headers:
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F0\U0001F1F7KR_1|2.9MB/s|GPT"
+      name: "\U0001F1EF\U0001F1F5JP_5|8.2MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 21922
+      server: hy.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5JP_6|1.1MB/s|GPT"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 21922
+      server: gy3.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1ECSG_5|1.4MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32122
+      server: gy2.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5JP_7|4.8MB/s|GPT"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 21922
+      server: gy2.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_4|1.3MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32103
+      server: gy3.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_5|1.8MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32105
+      server: gy3.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_6|5.8MB/s"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32131
+      server: gy3.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5JP_8|1.3MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32115
+      server: gy3.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_11|2.1MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32117
+      server: hy.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_7|1.2MB/s|GPT"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32120
+      server: gy3.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_12|1.2MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32117
+      server: gy3.brnt.fun
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F0\U0001F1F7KR_2|1.7MB/s|GPT"
       password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
       port: 21924
       server: gy2.brnt.fun
       type: ss
       udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F0\U0001F1F7KR_3|6.3MB/s"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 21924
+      server: hy.brnt.fun
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1F8\U0001F1ECSG_6|10.9MB/s|GPT⁺"
+      network: ws
+      port: 2096
+      server: 83.142.30.4
+      servername: kuangbao.xiejiang.dpdns.org
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5JP_9|2.5MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32147
+      server: gy3.brnt.fun
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1EF\U0001F1F5JP_10|6.0MB/s|GPT⁺"
+      network: ws
+      port: 443
+      server: 57.180.14.97
+      servername: kuangbao.xiejiang.dpdns.org
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0HK_8|1.4MB/s|GPT⁺"
+      network: ws
+      port: 2096
+      server: freeyx.cloudflare88.eu.org
+      servername: kuangbao.xiejiang.dpdns.org
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EF\U0001F1F5JP_11|4.4MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 32144
+      server: gy2.brnt.fun
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_13|1.3MB/s|GPT"
+      network: ws
+      port: 443
+      server: 98.70.151.163
+      servername: kuangbao.xiejiang.dpdns.org
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8US_14|1.4MB/s|GPT⁺"
+      network: ws
+      port: 443
+      server: 104.21.71.83
+      servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
+      ws-opts:
+        headers:
+            Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+        path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_9|7.3MB/s"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41058
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - down: 80
+      name: "\U0001F1ED\U0001F1F0HK_10|4.9MB/s"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41111
+      ports: 21000-50000
+      server: hyhk50.fe-9.top
+      skip-cert-verify: true
+      sni: hyhk50.fe-9.top
+      type: hysteria2
+      up: 80
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_11|6.4MB/s"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41053
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_12|3.6MB/s"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41079
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1ED\U0001F1F0HK_13|3.3MB/s"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 216.250.97.82
+      type: ss
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_14|1.8MB/s|GPT⁺"
+      password: MjMxZjQwMzNiNjQ5NTQ4ZQ==:MmZkMmE3YmMtMGI5ZC00Yw==
+      port: 41051
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E9\U0001F1EADE_1|4.1MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41039
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0HK_15|3.2MB/s"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41049
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: 2022-blake3-aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_16|7.6MB/s|GPT⁺"
+      password: MjMxZjQwMzNiNjQ5NTQ4ZQ==:MmZkMmE3YmMtMGI5ZC00Yw==
+      port: 41250
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_15|1.8MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41065
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - down: 80
+      name: "\U0001F1FA\U0001F1F8US_16|4.4MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 34278
+      ports: 30000-50000
+      server: buylas.fe-9.top
+      skip-cert-verify: true
+      sni: buylas.fe-9.top
+      type: hysteria2
+      up: 80
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_17|8.6MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41474
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_18|1.1MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41061
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_19|2.6MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41063
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F0\U0001F1F7KR_4|11.2MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41349
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - down: 80
+      name: "\U0001F1EF\U0001F1F5JP_12|4.0MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 31022
+      server: 4vpsjp.fe-9.top
+      skip-cert-verify: true
+      sni: 4vpsjp.fe-9.top
+      type: hysteria2
+      up: 80
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EB\U0001F1F7FR_1|4.9MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 40468
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FCTW_2|1.6MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41173
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FCTW_3|1.6MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41869
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FCTW_4|3.2MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41069
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FCTW_5|1.2MB/s|GPT"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41870
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EE\U0001F1F3IN_1|1.3MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41041
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1EDCH_1|2.2MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41344
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E6\U0001F1FAAU_2|6.9MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41379
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1E6CA_1|5.0MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41475
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1FEMY_2|1.0MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41268
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F2\U0001F1FDMX_1|6.7MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41042
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EE\U0001F1F1IL_1|2.5MB/s|GPT⁺"
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: 41073
+      server: f1.idsduf.com
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_13|17.4MB/s|GPT⁺"
+      password: b97eec87-3eb1-4f36-90b9-91ac711e62e7
+      port: "18209"
+      server: freevipe5.freecatnodles.com
+      skip-cert-verify: true
+      sni: g.alicdn.com
+      type: trojan
+      udp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_5|2.6MB/s|GPT⁺"
+      network: ws
+      port: "443"
+      server: chuncheon01.zgjok.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 78bed7e1-a22c-4579-9704-4e2c69ff1f1c
+      ws-opts:
+        headers:
+            Host: chuncheon01.zgjok.com
+        path: /
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_6|1.2MB/s|GPT⁺"
+      network: ws
+      port: "443"
+      server: chuncheon03.zgjok.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 81d5cac4-d039-4874-9a20-c391f580012d
+      ws-opts:
+        headers:
+            Host: chuncheon03.zgjok.com
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_7|8.1MB/s|GPT⁺"
+      password: b97eec87-3eb1-4f36-90b9-91ac711e62e7
+      port: "49442"
+      server: freevipa1.freecatnodles.com
+      skip-cert-verify: true
+      sni: g.alicdn.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_8|2.1MB/s|GPT⁺"
+      password: b97eec87-3eb1-4f36-90b9-91ac711e62e7
+      port: "49442"
+      server: freevipc3.freecatnodles.com
+      skip-cert-verify: true
+      sni: g.alicdn.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_9|3.9MB/s|GPT"
+      password: b97eec87-3eb1-4f36-90b9-91ac711e62e7
+      port: "49442"
+      server: freevipe5.freecatnodles.com
+      skip-cert-verify: true
+      sni: g.alicdn.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_20|10.0MB/s|GPT⁺"
+      password: b97eec87-3eb1-4f36-90b9-91ac711e62e7
+      port: "20252"
+      server: freevipc3.freecatnodles.com
+      skip-cert-verify: true
+      sni: g.alicdn.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_21|1.8MB/s|GPT⁺"
+      password: b97eec87-3eb1-4f36-90b9-91ac711e62e7
+      port: "20252"
+      server: freevipa1.freecatnodles.com
+      skip-cert-verify: true
+      sni: g.alicdn.com
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F3\U0001F1F1NL_1|6.2MB/s|GPT⁺"
+      password: Zhangwei123.
+      port: "3390"
+      server: www.yodo.cool
+      type: ss
+      udp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s|GPT⁺"
-      network: tcp
-      port: 30830
-      server: v30.hdacd.com
-      servername: v30.hdacd.com
+      name: "\U0001F1F0\U0001F1F7KR_7|1.1MB/s|GPT⁺"
+      network: ws
+      port: 443
+      server: chuncheon01.zgjok.com
+      servername: chuncheon01.zgjok.com
+      skip-cert-verify: true
+      tls: true
       type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      udp: true
+      uuid: 78bed7e1-a22c-4579-9704-4e2c69ff1f1c
+      ws-opts:
+        headers:
+            Host: chuncheon01.zgjok.com
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_8|5.7MB/s|GPT⁺"
+      network: ws
+      port: 443
+      server: chuncheon03.zgjok.com
+      servername: chuncheon03.zgjok.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 81d5cac4-d039-4874-9a20-c391f580012d
+      ws-opts:
+        headers:
+            Host: chuncheon03.zgjok.com
+        path: /
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1F7FR_2|1.0MB/s|GPT⁺"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: "5355"
+      server: 163.172.21.105
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_10|4.8MB/s|GPT⁺"
+      password: BxceQaOe
+      port: "1196"
+      server: 43.199.161.175
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_14|3.4MB/s|GPT⁺"
+      network: ws
+      port: "443"
+      server: tokyo02.zgjok.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 3fe113f9-e564-4111-b8c7-11f597687689
+      ws-opts:
+        headers:
+            Host: tokyo02.zgjok.com
+        path: /
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_11|4.4MB/s|GPT⁺"
+      network: ws
+      port: "443"
+      server: singapore01.zgjok.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 9469bf84-6e2a-4cc2-84e9-f334161a9e94
+      ws-opts:
+        headers:
+            Host: singapore01.zgjok.com
+        path: /
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_9|4.5MB/s|GPT⁺"
+      network: ws
+      port: 443
+      server: 152.67.197.221
+      servername: freedom1.chenlan.top
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: b227726b-d76b-40cd-92cd-3beb81b93439
+      ws-opts:
+        path: /b6d317eb90?ed=2048
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_10|2.0MB/s|GPT⁺"
+      network: ws
+      port: "443"
+      server: chuncheon02.zgjok.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: d1a1cb91-0f1f-41eb-a307-631bba00f1bb
+      ws-opts:
+        headers:
+            Host: chuncheon02.zgjok.com
+        path: /
+      xudp: true
+    - client-fingerprint: random
+      name: "\U0001F1F0\U0001F1F7KR_11|1.3MB/s"
+      network: ws
+      port: 10041
+      server: 222.116.6.212
+      servername: vless3.datatestvless.click
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
+      ws-opts:
+        headers:
+            Host: vless3.datatestvless.click
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_12|1.3MB/s"
+      password: 13bf653b-ae0d-4a29-bb80-18be192c439f
+      port: "21113"
+      server: 2d596cc3-12db-47d3-a4a5-ae9ef12ef7b5.xuwuge.xyz
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_17|7.7MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 2fd2a7bc-0b9d-4c06-a163-52e6c24ef974
+      port: "29325"
+      server: hyhk50.fe-9.top
+      skip-cert-verify: true
+      sni: hyhk50.fe-9.top
+      type: hysteria2
+      up: ""
+    - cipher: aes-128-gcm
+      name: "\U0001F1ED\U0001F1F0HK_18|1.8MB/s"
+      password: a643f6f3733c9962851d
+      plugin: obfs
+      plugin-opts:
+        host: 215996dd9f1c3db1e54b.microsoft.com
+        mode: http
+      port: "45936"
+      server: hk077.jd.kunlunpx.com
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7FR_3|1.2MB/s|GPT⁺"
+      port: 15010
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
