@@ -31,11 +31,6 @@ log-level: silent
 ipv6: true
 
 proxy-providers:
-  all:
-    type: http
-    url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all.yaml
-    interval: 3600
-    path: ./proxy_provider/all.yaml
   all1:
     type: http
     url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all1.yaml
@@ -46,6 +41,11 @@ proxy-providers:
     url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all2.yaml
     interval: 3600
     path: ./proxy_provider/all2.yaml
+  all3:
+    type: http
+    url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all3.yaml
+    interval: 3600
+    path: ./proxy_provider/all3.yaml
 
 proxy-groups:
   - name: "🔰 代理模式"
@@ -62,23 +62,23 @@ proxy-groups:
   - name: "✋ 手选模式一"
     type: select
     use:
-      - all
+      - all1
       
   - name: "✋ 手选模式二"
     type: select
     use:
-      - all1
+      - all2
   - name: "✋ 手选模式三"
     type: select
     use:
-      - all2
+      - all3
 
   - name: "♻️ 测速代理"
     type: url-test
     use:
-      - all
       - all1
       - all2
+      - all3
     url: 'https://www.youtube.com/generate_204'
     interval: 600
     lazy: true
@@ -89,14 +89,14 @@ rule-providers:
   noVPN:
     type: http
     path: ./noVPN.yaml
-    url: "https://raw.githubusercontent.com/mitjavaz/memo/master/noVPN.list"
+    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/noVPN.list"
     interval: 3600
     behavior: classical
     format: text
   stopVPN:
     type: http
     path: ./stopVPN.yaml
-    url: "https://raw.githubusercontent.com/mitjavaz/memo/master/stopVPN.list"
+    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/stopVPN.list"
     interval: 3600
     behavior: classical
     format: text
