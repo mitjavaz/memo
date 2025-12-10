@@ -1,77 +1,46 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5JP_1|1.0MB/s|GPT⁺"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 21922
-      server: gy.brnt.fun
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5JP_2|1.3MB/s|GPT"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 32124
-      server: hy.brnt.fun
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5JP_3|1.7MB/s|GPT⁺"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 32124
-      server: gy3.brnt.fun
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0HK_1|2.2MB/s|GPT"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 32134
-      server: gy3.brnt.fun
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5JP_4|1.8MB/s"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 32115
-      server: gy2.brnt.fun
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0HK_2|1.4MB/s"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 32130
-      server: gy3.brnt.fun
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1ECSG_1|1.3MB/s|GPT"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 32122
-      server: gy2.brnt.fun
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F0\U0001F1F7KR_1|2.0MB/s|GPT"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 21924
-      server: gy3.brnt.fun
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F0\U0001F1F7KR_2|1.2MB/s"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 21924
-      server: gy2.brnt.fun
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5JP_5|3.8MB/s|GPT"
-      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
-      port: 32144
-      server: gy2.brnt.fun
-      type: ss
-      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: "80"
+      fastopen: "1"
+      name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s|GPT"
+      port: 50011
+      ports: "50011"
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "50"
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_1|2.2MB/s|GPT"
+      name: "\U0001F1FA\U0001F1F8US_1|6.9MB/s|GPT⁺"
+      network: ws
+      packet-encoding: xudp
+      port: 18848
+      server: 104.194.66.146
+      servername: us.alice.cloudns.pro
+      skip-cert-verify: false
+      smux:
+        enabled: true
+        max-streams: 10
+        padding: true
+        protocol: h2mux
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      ws-opts:
+        headers:
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - client-fingerprint: chrome
+      mptcp: true
+      name: "\U0001F1F5\U0001F1F1PL_1|2.6MB/s|GPT⁺"
       network: ws
       packet-encoding: xudp
       port: 56328
@@ -96,7 +65,7 @@ proxies:
         v2ray-http-upgrade-fast-open: true
     - client-fingerprint: chrome
       mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_2|2.5MB/s|GPT"
+      name: "\U0001F1F5\U0001F1F1PL_2|2.8MB/s|GPT"
       network: ws
       packet-encoding: xudp
       port: 13800
@@ -119,53 +88,479 @@ proxies:
         path: /gseuifghuisgfuiseuifseguif
         v2ray-http-upgrade: true
         v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_3|3.0MB/s|GPT⁺"
-      network: ws
-      packet-encoding: xudp
-      port: 12888
-      server: 166.0.188.91
-      servername: pl.alice.cloudns.pro
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_1|28.3MB/s"
+      network: tcp
+      port: "10001"
+      server: 118.184.136.184
       skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
-      tls: true
-      type: vless
+      tls: false
+      type: vmess
       udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: pl.alice.cloudns.pro
-        path: /gseuifghuisgfuiseuifseguif
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      mptcp: true
-      name: "\U0001F1F5\U0001F1F1PL_4|1.9MB/s|GPT"
-      network: ws
-      packet-encoding: xudp
-      port: 30127
-      server: 154.7.179.22
-      servername: pl.alice.cloudns.pro
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_2|1.2MB/s"
+      network: tcp
+      port: "10019"
+      server: 118.184.136.184
       skip-cert-verify: false
-      smux:
-        enabled: true
-        max-streams: 10
-        padding: true
-        protocol: h2mux
-      tfo: true
-      tls: true
-      type: vless
+      tls: false
+      type: vmess
       udp: true
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: pl.alice.cloudns.pro
-        path: /gseuifghuisgfuiseuifseguif
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_3|20.0MB/s"
+      network: tcp
+      port: "10032"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_4|24.7MB/s"
+      network: tcp
+      port: "10035"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK_5|20.0MB/s"
+      network: tcp
+      port: "10108"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_1|17.2MB/s|GPT⁺"
+      network: tcp
+      port: "10003"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_2|17.9MB/s|GPT⁺"
+      network: tcp
+      port: "10017"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_3|9.5MB/s|GPT⁺"
+      network: tcp
+      port: "10007"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG_4|14.1MB/s|GPT⁺"
+      network: tcp
+      port: "10037"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_1|16.8MB/s|GPT⁺"
+      network: tcp
+      port: "10002"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_2|14.7MB/s|GPT⁺"
+      network: tcp
+      port: "10018"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_3|13.6MB/s|GPT⁺"
+      network: tcp
+      port: "10014"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_4|21.9MB/s|GPT⁺"
+      network: tcp
+      port: "10036"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_5|13.4MB/s|GPT⁺"
+      network: tcp
+      port: "10022"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_6|7.3MB/s|GPT⁺"
+      network: tcp
+      port: "10021"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FCTW_1|12.0MB/s|GPT⁺"
+      network: tcp
+      port: "10110"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FCTW_2|19.9MB/s|GPT⁺"
+      network: tcp
+      port: "10026"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_1|1.9MB/s|GPT⁺"
+      network: tcp
+      port: "10005"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP_7|1.2MB/s"
+      network: tcp
+      port: "20022"
+      server: 46.3.24.202
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_2|10.2MB/s|GPT⁺"
+      network: tcp
+      port: "10033"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_2|5.6MB/s|GPT⁺"
+      network: tcp
+      port: "10020"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_3|3.9MB/s|GPT⁺"
+      network: tcp
+      port: "10028"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_4|3.5MB/s|GPT⁺"
+      network: tcp
+      port: "10011"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_5|4.1MB/s|GPT⁺"
+      network: tcp
+      port: "10112"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_6|7.9MB/s"
+      network: tcp
+      port: "20010"
+      server: 46.3.47.250
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7KR_3|11.8MB/s"
+      network: tcp
+      port: "20033"
+      server: 46.3.24.138
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F1\U0001F1FALU_1|1.5MB/s|GPT⁺"
+      network: tcp
+      port: "10114"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EB\U0001F1F7FR_2|8.3MB/s|GPT⁺"
+      network: tcp
+      port: "10103"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US_7|4.4MB/s|GPT⁺"
+      network: tcp
+      port: "10009"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|GPT⁺"
+      network: tcp
+      port: "10101"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EADE_2|2.7MB/s"
+      network: tcp
+      port: "20101"
+      server: 46.3.24.12
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7GB_1|1.8MB/s|GPT⁺"
+      network: tcp
+      port: "10104"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1F5\U0001F1F1PL_3|5.5MB/s"
+      network: tcp
+      port: "20106"
+      server: 46.3.24.12
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7GB_2|1.5MB/s|GPT"
+      network: tcp
+      port: "10109"
+      server: 118.184.136.184
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7GB_3|5.5MB/s|GPT"
+      network: tcp
+      port: "20104"
+      server: 46.3.24.138
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e5ce425e-0b84-435c-aee5-9f9ecbe2cb16
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8US_8|3.5MB/s|GPT⁺"
+      password: 49ee2d0c-3ca6-4507-8de0-09f2c9bf6957
+      port: 21922
+      server: gy.brnt.fun
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7FR_3|1.4MB/s|GPT⁺"
+      obfs: ""
+      port: "15010"
+      protocol: udp
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: "55"
+      name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s|GPT"
+      obfs: ""
+      port: "49003"
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "11"
+    - name: "\U0001F1FA\U0001F1F8US_9|2.3MB/s|GPT"
+      obfs: salamander
+      obfs-password: KevinZakarian
+      password: '@KevinZakarian'
+      port: 22002
+      server: kevin.vpny.online
+      skip-cert-verify: true
+      tls: false
+      type: hysteria2
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1FA\U0001F1F8US_10|2.5MB/s|GPT⁺"
+      port: 38845
+      protocol: udp
+      server: 208.87.243.151
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria
+      udp: true
+      up: 11 Mbps
