@@ -33,17 +33,17 @@ ipv6: true
 proxy-providers:
   all1:
     type: http
-    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all1.yaml
+    url:  https://ghfile.geekertao.top/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all1.yaml
     interval: 3600
     path: ./proxy_provider/all1.yaml
   all2:
     type: http
-    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all2.yaml
+    url:  https://ghfile.geekertao.top/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all2.yaml
     interval: 3600
     path: ./proxy_provider/all2.yaml
   all3:
     type: http
-    url:  https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all3.yaml
+    url:  https://ghfile.geekertao.top/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all3.yaml
     interval: 3600
     path: ./proxy_provider/all3.yaml
 
@@ -89,14 +89,14 @@ rule-providers:
   noVPN:
     type: http
     path: ./noVPN.yaml
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/noVPN.list"
+    url: "https://ghfile.geekertao.top/https://raw.githubusercontent.com/mitjavaz/memo/master/noVPN.list"
     interval: 3600
     behavior: classical
     format: text
   stopVPN:
     type: http
     path: ./stopVPN.yaml
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/mitjavaz/memo/master/stopVPN.list"
+    url: "https://ghfile.geekertao.top/https://raw.githubusercontent.com/mitjavaz/memo/master/stopVPN.list"
     interval: 3600
     behavior: classical
     format: text
