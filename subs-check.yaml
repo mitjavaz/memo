@@ -55,6 +55,7 @@ proxy-groups:
       - ✋ 手选模式二
       - ✋ 手选模式三
       - ♻️ 测速代理
+      - ♻️ 回滚代理
     url: 'https://www.youtube.com/generate_204'
     timeout: 3000
     max-failed-times: 5
@@ -74,6 +75,18 @@ proxy-groups:
       - all3
 
   - name: "♻️ 测速代理"
+    type: url-test
+    use:
+      - all1
+      - all2
+      - all3
+    url: 'https://www.youtube.com/generate_204'
+    interval: 600
+    lazy: true
+    timeout: 5000
+    max-failed-times: 5
+
+  - name: "♻️ 回滚代理"
     type: url-test
     use:
       - all1
