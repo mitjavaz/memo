@@ -2,7 +2,7 @@
 print-progress: true
 
 # 并发线程数
-concurrent: 20
+concurrent: 30
 # 检查间隔(分钟)
 # 必须大于0，小于等于0会设置间隔1分钟
 check-interval: 3600
@@ -56,10 +56,14 @@ node-type:
   # - vmess
   # - vless
 
+filter:
+  - "HK|SG|TW|CA|CN|DE|FR|GB|IN|JP|KR|MO|RU|US|VN"
+
 # 是否开启流媒体检测，其中IP欺诈依赖重命名
 media-check: true
+media-check-timeout: 5
 platforms:
-  - iprisk
+  #- iprisk
   #- tiktok
   #- youtube
   #- netflix
@@ -169,7 +173,7 @@ s3-bucket-lookup: "auto"
 sub-urls-retry: 5
 # Github Proxy，获取订阅使用，结尾要带的 /
 # github-proxy: ""
-github-proxy: ""
+github-proxy: "https://wget.la/"
 # 此参数更通用，适用于拉取代理、消息推送、文件上传等等
 # 写法跟环境变量一样。修改需重启生效
 # proxy: "http://username:password@192.168.1.1:7890"
