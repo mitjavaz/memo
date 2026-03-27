@@ -1,196 +1,37 @@
 proxies:
-    - name: "\U0001F1EF\U0001F1F5JP_1|8.1MB/s|GPT⁺|橘子分享02"
-      network: ws
-      port: 443
-      server: 172.64.52.81
-      servername: r.icy.de5.net
-      sub_tag: 橘子分享02
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            Host: r.icy.de5.net
-        path: /?ed=2560
-    - cipher: none
-      name: "\U0001F1F8\U0001F1ECSG_1|8.7MB/s|GPT|橘子分享02"
-      password: 3e96ef7d-8637-42c2-ac73-75182196e755
-      plugin: v2ray-plugin
-      plugin-opts:
-        host: mfvpn.fuchen.indevs.in
-        mode: websocket
-        mux: false
-        path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-        tls: true
-      port: 443
-      server: sub.danfeng.eu.org
-      sub_tag: 橘子分享02
-      type: ss
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_1|4.6MB/s|GPT⁺|蛋黄酱节点分享-0214"
-      obfs: ""
-      obfs-password: ""
-      password: aYIRTa8rLh9qRDIrcUakSfzpWUhPcCKD
-      port: "12152"
-      server: www.lightenq.buzz
-      skip-cert-verify: true
-      sni: bing.com
-      sub_tag: 蛋黄酱节点分享-0214
-      type: hysteria2
-      up: ""
-    - cipher: none
-      name: "\U0001F1F8\U0001F1ECSG_2|2.6MB/s|GPT⁺|橘子分享02"
-      password: 3e96ef7d-8637-42c2-ac73-75182196e755
-      plugin: v2ray-plugin
-      plugin-opts:
-        host: mfvpn.fuchen.indevs.in
-        mode: websocket
-        mux: false
-        path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-        tls: true
-      port: 443
-      server: cf.zhetengsha.eu.org
-      sub_tag: 橘子分享02
-      type: ss
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_1|1.8MB/s|GPT⁺|蛋黄酱节点分享-0214"
-      obfs: ""
-      obfs-password: ""
-      password: w8P7v2K4v6Y1e
-      port: "8443"
-      server: 155.94.154.163
-      skip-cert-verify: true
-      sni: 155.94.154.163
-      sub_tag: 蛋黄酱节点分享-0214
-      type: hysteria2
-      up: ""
-    - UUID: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      client-fingerprint: firefox
-      ech-opts:
+    - ech-opts:
         enable: true
         query-server-name: cloudflare-ech.com
-      name: "\U0001F1EF\U0001F1F5JP_2|10.1MB/s|GPT⁺|GitHub-mitjavaz3"
+      name: "\U0001F1EF\U0001F1F5JP_1|12.5MB/s|GitHub-mitjavaz1"
       network: ws
+      password: 6202b230-417c-4d8e-b624-0f71afa9c75d
       port: 443
       server: jp.111000.cc.cd
-      servername: sni.111000.dynv6.net
-      sub_tag: GitHub-mitjavaz3
-      tls: true
-      type: vless
+      sni: sni.111000.dynv6.net
+      sub_tag: GitHub-mitjavaz1
+      type: trojan
       ws-opts:
         headers:
             Host: sni.111000.dynv6.net
         path: /?ed=2560&proxyip=ip.111000.de5.net:443
-    - name: "\U0001F1EF\U0001F1F5JP_3|1.6MB/s|GPT⁺|GitHub-mitjavaz3"
+    - ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1EF\U0001F1F5JP_2|10.7MB/s|GPT⁺|GitHub-mitjavaz1"
       network: ws
+      password: 6202b230-417c-4d8e-b624-0f71afa9c75d
       port: 443
-      server: 162.159.44.142
-      servername: r.icy.de5.net
-      skip-cert-verify: true
-      sub_tag: GitHub-mitjavaz3
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+      server: saas.sin.fan
+      sni: sni.111000.dynv6.net
+      sub_tag: GitHub-mitjavaz1
+      type: trojan
       ws-opts:
         headers:
-            host: r.icy.de5.net
-        path: /?ed=2560
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560&proxyip=ip.111000.de5.net:443
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_2|3.0MB/s|GPT⁺|GitHub-mitjavaz3"
-      obfs: ""
-      obfs-password: ""
-      password: 9913dc87-2226-4c61-bf13-c02cd332bae9
-      port: "51000"
-      server: 129.146.215.233
-      skip-cert-verify: true
-      sni: cn.cremedelamer.com
-      sub_tag: GitHub-mitjavaz3
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_3|3.4MB/s|GPT⁺|GitHub-mitjavaz3"
-      obfs: ""
-      obfs-password: ""
-      password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
-      port: "52260"
-      server: 209.141.42.49
-      skip-cert-verify: true
-      sni: www.bing.com
-      sub_tag: GitHub-mitjavaz3
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_2|2.6MB/s|GPT⁺|GitHub-mitjavaz3"
-      obfs: ""
-      obfs-password: ""
-      password: S9VB96r2xegZUGfaMeBmRdLHAcxbH1QC
-      port: "3549"
-      server: www.fireflya.buzz
-      skip-cert-verify: true
-      sni: bing.com
-      sub_tag: GitHub-mitjavaz3
-      type: hysteria2
-      up: ""
-    - auth: 2be2aa2e
-      name: "\U0001F1FA\U0001F1F8US_4|3.4MB/s|GPT⁺|GitHub-mitjavaz3"
-      password: 2be2aa2e
-      port: 18896
-      server: 104.168.11.28
-      skip-cert-verify: true
-      sni: www.bing.com
-      sub_tag: GitHub-mitjavaz3
-      type: hysteria2
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1E9\U0001F1EADE_3|2.6MB/s|GPT⁺|GitHub-mitjavaz3"
-      obfs: ""
-      obfs-password: ""
-      password: nCArs2ceBYSbGK9BwjRW7fT6aaZTyXcu
-      port: "6761"
-      server: www.frtgf.shop
-      skip-cert-verify: true
-      sni: bing.com
-      sub_tag: GitHub-mitjavaz3
-      type: hysteria2
-      up: ""
-    - alpn:
-        - h3
-      auth: QMpJVYJVps
-      name: "\U0001F1FA\U0001F1F8US_5|4.9MB/s|GPT⁺|GitHub-mitjavaz3"
-      password: QMpJVYJVps
-      port: 52341
-      server: cloudcone.20240211.xyz
-      skip-cert-verify: true
-      sni: cloudcone.20240211.xyz
-      sub_tag: GitHub-mitjavaz3
-      type: hysteria2
-      udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EC\U0001F1E7GB_1|3.2MB/s|GPT⁺|GitHub-mitjavaz3"
-      obfs: ""
-      obfs-password: ""
-      password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
-      port: "50053"
-      server: 5.180.30.16
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      sub_tag: GitHub-mitjavaz3
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_6|3.1MB/s|GPT⁺|GitHub-mitjavaz3"
+      name: "\U0001F1FA\U0001F1F8US_1|3.9MB/s|GPT⁺|GitHub-mitjavaz1"
       obfs: ""
       obfs-password: ""
       password: 13d29042-ab82-4195-9cd4-2bafc518e201
@@ -198,115 +39,73 @@ proxies:
       server: 205.185.125.20
       skip-cert-verify: true
       sni: apps.apple.com
-      sub_tag: GitHub-mitjavaz3
+      sub_tag: GitHub-mitjavaz1
       type: hysteria2
       up: ""
-    - ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1EF\U0001F1F5JP_4|8.3MB/s|GPT⁺|GitHub-mitjavaz3"
-      network: ws
-      password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      port: 443
-      server: jp.111000.cc.cd
-      sni: sni.111000.dynv6.net
-      sub_tag: GitHub-mitjavaz3
-      type: trojan
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560&proxyip=ip.111000.de5.net:443
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_7|2.4MB/s|GPT⁺|GitHub-mitjavaz3"
+      name: "\U0001F1FA\U0001F1F8US_2|3.1MB/s|GPT⁺|GitHub-mitjavaz1"
       obfs: ""
       obfs-password: ""
-      password: 940f51d6-e0a4-4add-b96b-328e4a84b642
-      port: "51000"
-      server: 129.159.97.206
+      password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+      port: "52260"
+      server: 209.141.42.49
       skip-cert-verify: true
-      sni: cn.cremedelamer.com
-      sub_tag: GitHub-mitjavaz3
+      sni: www.bing.com
+      sub_tag: GitHub-mitjavaz1
       type: hysteria2
       up: ""
-    - ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1EF\U0001F1F5JP_5|1.4MB/s|GPT⁺|GitHub-mitjavaz3"
-      network: ws
-      password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      port: 443
-      server: saas.sin.fan
-      sni: sni.111000.dynv6.net
-      sub_tag: GitHub-mitjavaz3
-      type: trojan
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560&proxyip=ip.111000.de5.net:443
-    - UUID: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      client-fingerprint: firefox
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1EF\U0001F1F5JP_6|2.9MB/s|GPT⁺|GitHub-mitjavaz3"
-      network: ws
-      port: 443
-      server: freeyx.cloudflare88.eu.org
-      servername: sni.111000.dynv6.net
-      sub_tag: GitHub-mitjavaz3
-      tls: true
-      type: vless
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560&proxyip=ip.111000.de5.net:443
-    - UUID: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      client-fingerprint: firefox
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1EF\U0001F1F5JP_7|3.8MB/s|GPT|GitHub-mitjavaz3"
-      network: ws
-      port: 443
-      server: saas.sin.fan
-      servername: sni.111000.dynv6.net
-      sub_tag: GitHub-mitjavaz3
-      tls: true
-      type: vless
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560&proxyip=ip.111000.de5.net:443
-    - name: "\U0001F1F8\U0001F1ECSG_3|1.5MB/s|GPT⁺|GitHub-mitjavaz3"
-      network: ws
-      port: 443
-      server: 104.18.41.43
-      servername: r.icy.de5.net
-      sub_tag: GitHub-mitjavaz3
-      tls: true
-      type: vless
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            Host: r.icy.de5.net
-        path: /?ed=2560
-    - name: "\U0001F1EF\U0001F1F5JP_8|10.6MB/s|GPT⁺|GitHub-mitjavaz1"
-      network: ws
-      port: 443
-      server: 172.64.52.210
-      servername: r.icy.de5.net
-      sub_tag: GitHub-mitjavaz1
-      tls: true
-      type: vless
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            Host: r.icy.de5.net
-        path: /?ed=2560
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_8|2.4MB/s|GPT⁺|GitHub-mitjavaz3"
+      name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s|GPT⁺|GitHub-mitjavaz1"
+      obfs: ""
+      obfs-password: ""
+      password: 9913dc87-2226-4c61-bf13-c02cd332bae9
+      port: "51000"
+      server: 129.146.215.233
+      skip-cert-verify: true
+      sni: cn.cremedelamer.com
+      sub_tag: GitHub-mitjavaz1
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1EC\U0001F1E7GB_1|1.4MB/s|GPT⁺|GitHub-mitjavaz1"
+      obfs: ""
+      obfs-password: ""
+      password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+      port: "50053"
+      server: 5.180.30.16
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      sub_tag: GitHub-mitjavaz1
+      type: hysteria2
+      up: ""
+    - auth: 2be2aa2e
+      name: "\U0001F1FA\U0001F1F8US_4|3.3MB/s|GPT⁺|GitHub-mitjavaz1"
+      password: 2be2aa2e
+      port: 18896
+      server: 104.168.11.28
+      skip-cert-verify: true
+      sni: www.bing.com
+      sub_tag: GitHub-mitjavaz1
+      type: hysteria2
+      udp: true
+    - alpn:
+        - h3
+      auth: QMpJVYJVps
+      name: "\U0001F1FA\U0001F1F8US_5|2.7MB/s|GPT⁺|GitHub-mitjavaz1"
+      password: QMpJVYJVps
+      port: 52341
+      server: cloudcone.20240211.xyz
+      skip-cert-verify: true
+      sni: cloudcone.20240211.xyz
+      sub_tag: GitHub-mitjavaz1
+      type: hysteria2
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_6|3.0MB/s|GPT⁺|GitHub-mitjavaz1"
       obfs: ""
       obfs-password: ""
       password: 13d29042-ab82-4195-9cd4-2bafc518e201
@@ -314,84 +113,25 @@ proxies:
       server: 209.141.42.49
       skip-cert-verify: true
       sni: www.bing.com
-      sub_tag: GitHub-mitjavaz3
+      sub_tag: GitHub-mitjavaz1
       type: hysteria2
       up: ""
-    - client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5JP_9|5.3MB/s|GPT⁺|GitHub-mitjavaz3"
-      network: ws
-      port: 443
-      server: saas.sin.fan
-      servername: sni.snip.de5.net
-      skip-cert-verify: false
-      sub_tag: GitHub-mitjavaz3
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
-      ws-opts:
-        headers:
-            Host: sni.snip.de5.net
-        path: /proxyip=sjc.o00o.ooo
-    - name: "\U0001F1EF\U0001F1F5JP_10|7.2MB/s|GPT⁺|GitHub-mitjavaz1"
-      network: ws
-      port: 443
-      server: 162.159.38.78
-      servername: r.icy.de5.net
-      sub_tag: GitHub-mitjavaz1
-      tls: true
-      type: vless
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            Host: r.icy.de5.net
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_11|7.0MB/s|GPT⁺|GitHub-mitjavaz1"
-      network: ws
-      port: 443
-      server: vip1.kaixincloud.top
-      servername: r.icy.de5.net
-      sub_tag: GitHub-mitjavaz1
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            Host: r.icy.de5.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - name: "\U0001F1EF\U0001F1F5JP_12|3.4MB/s|GPT⁺|GitHub-mitjavaz1"
-      network: ws
-      port: 443
-      server: 162.159.45.232
-      servername: r.icy.de5.net
-      sub_tag: GitHub-mitjavaz1
-      tls: true
-      type: vless
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            Host: r.icy.de5.net
-        path: /?ed=2560
     - down: ""
       fingerprint: ""
-      name: "\U0001F1F7\U0001F1FARU_1|1.8MB/s|GitHub-mitjavaz3"
+      name: "\U0001F1FA\U0001F1F8US_7|1.9MB/s|GPT⁺|GitHub-mitjavaz1"
       obfs: ""
       obfs-password: ""
-      password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
-      port: "51981"
-      server: 46.17.40.117
+      password: 940f51d6-e0a4-4add-b96b-328e4a84b642
+      port: "51000"
+      server: 129.159.97.206
       skip-cert-verify: true
-      sni: music.apple.com
-      sub_tag: GitHub-mitjavaz3
+      sni: cn.cremedelamer.com
+      sub_tag: GitHub-mitjavaz1
       type: hysteria2
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_9|2.7MB/s|GPT⁺|GitHub-mitjavaz1"
+      name: "\U0001F1FA\U0001F1F8US_8|2.0MB/s|GPT⁺|GitHub-mitjavaz1"
       obfs: ""
       obfs-password: ""
       password: 9913dc87-2226-4c61-bf13-c02cd332bae9
@@ -402,418 +142,8 @@ proxies:
       sub_tag: GitHub-mitjavaz1
       type: hysteria2
       up: ""
-    - name: "\U0001F1F8\U0001F1ECSG_4|3.6MB/s|GPT⁺|v2rayse04"
-      network: ws
-      port: 443
-      server: 104.18.40.56
-      servername: r.icy.de5.net
-      sub_tag: v2rayse04
-      tls: true
-      type: vless
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            Host: r.icy.de5.net
-        path: /?ed=2560
-    - name: "\U0001F1F8\U0001F1ECSG_5|3.4MB/s|GPT⁺|v2rayse04"
-      network: ws
-      port: 443
-      server: 162.159.48.142
-      servername: r.icy.de5.net
-      sub_tag: v2rayse04
-      tls: true
-      type: vless
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            Host: r.icy.de5.net
-        path: /?ed=2560
-    - name: "\U0001F1F8\U0001F1ECSG_6|6.8MB/s|GPT⁺|GitHub-mitjavaz2"
-      network: ws
-      port: 443
-      server: 108.162.195.58
-      servername: r.icy.de5.net
-      sub_tag: GitHub-mitjavaz2
-      tls: true
-      type: vless
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            Host: r.icy.de5.net
-        path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F0\U0001F1F7KR_1|2.7MB/s|GPT⁺|橘子分享07"
-      port: 5431
-      server: a.cdn-bilibili.cn
-      skip-cert-verify: true
-      sub_tag: 橘子分享07
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 9ffb463b-3227-40cf-b476-2ef333b5cdd9
-    - name: "\U0001F1EF\U0001F1F5JP_13|6.2MB/s|GPT⁺|轩辕节点03"
-      network: ws
-      port: 443
-      server: alist.sm.uy
-      servername: r.icy.de5.net
-      skip-cert-verify: true
-      sub_tag: 轩辕节点03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-      ws-opts:
-        headers:
-            host: r.icy.de5.net
-        path: /?ed=2560
     - cipher: none
-      name: "\U0001F1EF\U0001F1F5JP_14|1.1MB/s|GPT|零散节点05"
-      password: 79960b0b-7d31-4263-8915-6511b0e137a8
-      plugin: v2ray-plugin
-      plugin-opts:
-        host: woshinidie-et3.pages.dev
-        mode: websocket
-        mux: false
-        path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-        skip-cert-verify: true
-        sni: woshinidie-et3.pages.dev
-        tls: true
-      port: 443
-      server: cf.008500.xyz
-      sub_tag: 零散节点05
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_15|10.0MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 162.159.38.154
-      servername: snip.qqq.hidns.vip
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.qqq.hidns.vip
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_16|1.4MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 172.64.53.155
-      servername: snip.wrr.pp.ua
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.wrr.pp.ua
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_17|3.5MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 108.162.198.170
-      servername: snip.qrr.pp.ua
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.qrr.pp.ua
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_18|3.0MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 172.64.52.57
-      servername: snip.ddly.dpdns.org
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.ddly.dpdns.org
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_19|3.7MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 172.64.53.191
-      servername: snip.zrf.bbroot.com
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.zrf.bbroot.com
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_20|4.8MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 162.159.38.81
-      servername: snip.wes.pp.ua
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.wes.pp.ua
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_21|1.3MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 162.159.45.66
-      servername: snip.drd.pp.ua
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.drd.pp.ua
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_22|1.6MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 172.64.52.86
-      servername: snip.gm.ug.cx
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.gm.ug.cx
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_23|4.8MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 162.159.39.94
-      servername: snip.zrf.loc.cc
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.zrf.loc.cc
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_24|2.9MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: blog.811520.xyz
-      servername: snip.zrfs.pp.ua
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.zrfs.pp.ua
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_25|4.1MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 162.159.45.220
-      servername: snip.cfn.indevs.in
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.cfn.indevs.in
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_26|2.6MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 162.159.44.99
-      servername: snip.zrfme.cc.cd
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.zrfme.cc.cd
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_27|2.7MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 162.159.39.239
-      servername: snip1.zrfme.site
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip1.zrfme.site
-        path: /zrf?ed=2560
-    - cipher: none
-      name: "\U0001F1F8\U0001F1ECSG_7|1.7MB/s|GPT⁺|零散节点05"
-      password: 79960b0b-7d31-4263-8915-6511b0e137a8
-      plugin: v2ray-plugin
-      plugin-opts:
-        host: woshinidie-et3.pages.dev
-        mode: websocket
-        mux: false
-        path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-        skip-cert-verify: true
-        sni: woshinidie-et3.pages.dev
-        tls: true
-      port: 443
-      server: sub.danfeng.eu.org
-      sub_tag: 零散节点05
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1EF\U0001F1F5JP_28|2.8MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 108.162.198.121
-      servername: snip.eea.pp.ua
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.eea.pp.ua
-        path: /zrf?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP_29|1.3MB/s|GPT⁺|零散节点05"
-      port: 5454
-      server: a.cdn-bilibili.cn
-      skip-cert-verify: true
-      sub_tag: 零散节点05
-      tfo: false
-      tls: false
-      type: vmess
-      uuid: 9ffb463b-3227-40cf-b476-2ef333b5cdd9
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1F8\U0001F1ECSG_8|5.6MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 172.64.35.2
-      servername: snip.cfnb.de5.net
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.cfnb.de5.net
-        path: /zrf?ed=2560
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      down: 55 Mbps
-      name: "\U0001F1FA\U0001F1F8US_10|1.2MB/s|GPT⁺|零散节点05"
-      port: 38845
-      protocol: udp
-      server: 208.87.243.151
-      skip-cert-verify: true
-      sni: www.bing.com
-      sub_tag: 零散节点05
-      type: hysteria
-      udp: true
-      up: 11 Mbps
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1F8\U0001F1ECSG_9|6.2MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 172.64.151.78
-      servername: snip.zrfme.ndjp.net
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.zrfme.ndjp.net
-        path: /zrf?ed=2560
-    - cipher: none
-      name: "\U0001F1F8\U0001F1ECSG_10|6.5MB/s|GPT|零散节点05"
-      password: 79960b0b-7d31-4263-8915-6511b0e137a8
-      plugin: v2ray-plugin
-      plugin-opts:
-        host: woshinidie-et3.pages.dev
-        mode: websocket
-        mux: false
-        path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-        skip-cert-verify: true
-        sni: woshinidie-et3.pages.dev
-        tls: true
-      port: 443
-      server: cdns.doon.eu.org
-      sub_tag: 零散节点05
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1F8\U0001F1ECSG_11|7.2MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: store.ubi.com
-      servername: snip.zrfsub.pp.ua
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.zrfsub.pp.ua
-        path: /zrf?ed=2560
-    - cipher: none
-      name: "\U0001F1F8\U0001F1ECSG_12|2.5MB/s|GPT⁺|零散节点05"
+      name: "\U0001F1F8\U0001F1ECSG_1|5.0MB/s|GitHub-mitjavaz1"
       password: 79960b0b-7d31-4263-8915-6511b0e137a8
       plugin: v2ray-plugin
       plugin-opts:
@@ -826,1112 +156,103 @@ proxies:
         tls: true
       port: 443
       server: store.ubi.com
-      sub_tag: 零散节点05
+      sub_tag: GitHub-mitjavaz1
       type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG_13|6.0MB/s|零散节点05"
-      port: 55567
-      server: a.cdn-bilibili.cn
-      skip-cert-verify: true
-      sub_tag: 零散节点05
-      tfo: false
-      tls: false
-      type: vmess
-      uuid: 9ffb463b-3227-40cf-b476-2ef333b5cdd9
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1F8\U0001F1ECSG_14|4.6MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 198.41.223.179
-      servername: snip.zrfme.site
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.zrfme.site
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1F8\U0001F1ECSG_15|2.9MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 162.159.49.27
-      servername: zrfs.sylu.net
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: zrfs.sylu.net
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1F8\U0001F1ECSG_16|4.0MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 172.64.156.39
-      servername: snip.cfsub.pp.ua
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.cfsub.pp.ua
-        path: /zrf?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1F8\U0001F1ECSG_17|2.7MB/s|零散节点05"
-      network: ws
-      port: 443
-      server: staticdelivery.nexusmods.com
-      servername: snip.cfnb.indevs.in
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.cfnb.indevs.in
-        path: /zrf?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR_1|1.9MB/s|GPT⁺|零散节点05"
-      password: hysteria2_fastlane_6cwf33ryx:ZCn3NQxyGEv6qhRHnGsB7LH3m1L5Ew5q
-      port: 1935
-      server: 193.23.219.121
-      sni: de8.h.fastlanehosting.ru
-      sub_tag: 零散节点05
-      type: hysteria2
-    - client-fingerprint: chrome
-      encryption: none
-      flow: ""
-      name: "\U0001F1FA\U0001F1F8US_11|4.0MB/s|GPT⁺|零散节点05"
-      network: ws
-      port: 443
-      server: 198.41.208.169
-      servername: snip.zrf.my.uy
-      sub_tag: 零散节点05
-      tls: true
-      type: vless
-      uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-      ws-opts:
-        headers:
-            Host: snip.zrf.my.uy
-        path: /zrf?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_12|3.5MB/s|GPT⁺|零散节点05"
-      port: 60776
-      server: a.cdn-bilibili.cn
-      skip-cert-verify: true
-      sub_tag: 零散节点05
-      tfo: false
-      tls: false
-      type: vmess
-      uuid: 9ffb463b-3227-40cf-b476-2ef333b5cdd9
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8US_13|6.2MB/s|GPT⁺|零散节点05"
-      port: 58712
-      server: a.cdn-bilibili.cn
-      skip-cert-verify: true
-      sub_tag: 零散节点05
-      tfo: false
-      tls: false
-      type: vmess
-      uuid: 9ffb463b-3227-40cf-b476-2ef333b5cdd9
-    - name: "\U0001F1E9\U0001F1EADE_4|5.7MB/s|GPT⁺|零散节点05"
-      password: c750f4ae-935d-11ed-a8bf-f23c91cfbbc9
-      port: 443
-      server: 32723749-tcb5s0-tcoaq4-1kqxk.de.oshuawei.com
-      skip-cert-verify: true
-      sub_tag: 零散节点05
-      tfo: false
-      tls: true
-      type: http
-      username: c750f4ae-935d-11ed-a8bf-f23c91cfbbc9
-    - name: "\U0001F1E9\U0001F1EADE_5|3.6MB/s|GPT⁺|零散节点05"
-      password: 7fcb586c-9157-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 5995edf2-tcb5s0-tcad90-fymc.de.oshuawei.com
-      skip-cert-verify: true
-      sub_tag: 零散节点05
-      tfo: false
-      tls: true
-      type: http
-      username: 7fcb586c-9157-11ec-a8bf-f23c91cfbbc9
-    - name: "\U0001F1E9\U0001F1EADE_6|1.9MB/s|GPT⁺|零散节点05"
+    - name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|GPT⁺|GitHub-mitjavaz1"
       password: c931310e-a5e7-11f0-bf66-f23c9164ca5d
       port: 443
       server: f755b173-tcb5s0-tcjoyq-2cg3.de.oshuawei.com
       skip-cert-verify: true
-      sub_tag: 零散节点05
+      sub_tag: GitHub-mitjavaz1
       tfo: false
       tls: true
       type: http
       username: c931310e-a5e7-11f0-bf66-f23c9164ca5d
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EF\U0001F1F5JP_30|11.8MB/s|GPT⁺|GitHub-Ruk1ng001"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
+    - cipher: none
+      name: "\U0001F1F8\U0001F1ECSG_2|9.3MB/s|GitHub-mitjavaz2"
+      password: 3e96ef7d-8637-42c2-ac73-75182196e755
+      plugin: v2ray-plugin
       plugin-opts:
-        host: 817aa69.default.nintendo.com:112719
-        mode: tls
-      port: 2377
-      server: 52.196.30.101
-      sub_tag: GitHub-Ruk1ng001
+        host: mfvpn.fuchen.indevs.in
+        mode: websocket
+        mux: false
+        path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+        tls: true
+      port: 443
+      server: store.ubi.com
+      sub_tag: GitHub-mitjavaz2
+      type: ss
+      udp: true
+    - down: null
+      name: "\U0001F1EF\U0001F1F5JP_3|1.2MB/s|GPT⁺|GitHub-mitjavaz2"
+      obfs: salamander
+      obfs-password: CF7WJGiw6r1c8imX
+      password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+      port: 5443
+      server: jp-hy2.onetaplink.app
+      skip-cert-verify: false
+      sni: hy2-jp.onetaplink.app
+      sub_tag: GitHub-mitjavaz2
+      type: hysteria2
+      up: null
+    - down: null
+      name: "\U0001F1EF\U0001F1F5JP_4|1.5MB/s|GPT⁺|GitHub-mitjavaz2"
+      obfs: salamander
+      obfs-password: CF7WJGiw6r1c8imX
+      password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+      port: 443
+      server: jp-hy2.onetaplink.app
+      skip-cert-verify: false
+      sni: hy2-jp.onetaplink.app
+      sub_tag: GitHub-mitjavaz2
+      type: hysteria2
+      up: null
+    - down: null
+      name: "\U0001F1FA\U0001F1F8US_9|3.1MB/s|GPT⁺|GitHub-mitjavaz2"
+      obfs: salamander
+      obfs-password: OrT7yQQIMqcvKdet
+      password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+      port: 443
+      server: usa-hy2.onetaplink.app
+      skip-cert-verify: false
+      sni: hy2-usa.onetaplink.app
+      sub_tag: GitHub-mitjavaz2
+      type: hysteria2
+      up: null
+    - cipher: none
+      name: "\U0001F1EF\U0001F1F5JP_5|7.8MB/s|零散节点05"
+      password: 3e96ef7d-8637-42c2-ac73-75182196e755
+      plugin: v2ray-plugin
+      plugin-opts:
+        host: mfvpn.fuchen.indevs.in
+        mode: websocket
+        mux: false
+        path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+        tls: true
+      port: 443
+      server: cf.877774.xyz
+      sub_tag: 零散节点05
       type: ss
       udp: true
     - alpn:
         - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_31|6.4MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.45.232
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_18|6.3MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 108.162.195.58
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_14|2.0MB/s|GPT⁺|GitHub-anaer"
+      congestion-controller: bbr
+      name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s|GPT⁺|零散节点05"
       password: dongtaiwang.com
-      port: 33990
-      server: 157.254.223.48
-      sub_tag: GitHub-anaer
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_19|6.2MB/s|GPT⁺|橘子分享03"
-      network: ws
+      port: 10088
+      server: ip1.758733.xyz
+      skip-cert-verify: true
+      sni: apple.com
+      sub_tag: 零散节点05
+      type: tuic
+      udp-relay-mode: native
+      uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
+    - name: "\U0001F1ED\U0001F1F0HK_1|7.9MB/s|GitHub-Ruk1ng001"
+      password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
       port: 443
-      server: staticdelivery.nexusmods.com
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_32|5.2MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 162.159.45.24
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_33|1.5MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 162.159.39.247
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_34|1.7MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 2087
-      server: 172.64.52.221
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_35|1.3MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 172.64.52.136
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_36|1.5MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 108.162.198.215
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_37|2.0MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.45.41
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_38|6.2MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.44.198
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_39|5.6MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 162.159.38.2
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_40|5.2MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 162.159.45.48
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_41|8.0MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 2053
-      server: 108.162.198.240
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_42|3.5MB/s|GPT|橘子分享03"
-      network: ws
-      port: 8443
-      server: 162.159.44.113
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_43|4.3MB/s|GPT|橘子分享03"
-      network: ws
-      port: 8443
-      server: 162.159.44.58
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_44|8.6MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 2053
-      server: 162.159.39.44
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_15|4.7MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 172.64.53.96
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_45|3.2MB/s|GPT|橘子分享03"
-      network: ws
-      port: 8443
-      server: 172.64.53.172
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_46|3.4MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 2053
-      server: 172.64.53.8
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_47|5.1MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 172.64.52.97
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_20|1.8MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 104.18.42.68
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_21|4.8MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 162.159.11.220
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_22|2.4MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.2.40
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_23|6.3MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 108.162.195.196
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_24|4.2MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 162.159.34.128
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_25|5.3MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.24.144
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_26|2.0MB/s|GPT|橘子分享03"
-      network: ws
-      port: 8443
-      server: 108.162.195.244
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_27|3.2MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 2087
-      server: 104.18.38.78
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_28|3.0MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 2087
-      server: 172.64.146.59
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_29|5.8MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 108.162.193.0
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_30|1.7MB/s|GPT|橘子分享03"
-      network: ws
-      port: 2087
-      server: 104.18.36.192
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_31|1.6MB/s|橘子分享03"
-      network: ws
-      port: 8443
-      server: 104.18.33.134
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_32|6.8MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.17.128
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_33|4.9MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 162.159.58.177
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_34|1.1MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 104.18.38.250
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_35|6.2MB/s|GPT|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.0.46
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_36|1.0MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 108.162.194.96
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_37|1.2MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 108.162.196.42
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_38|1.3MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 2087
-      server: 162.159.18.228
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_39|1.0MB/s|GPT|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.18.241
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_40|1.6MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 172.64.159.76
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_41|6.2MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.7.2
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_42|3.9MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.6.235
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_43|4.9MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 8443
-      server: 172.64.153.57
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_44|2.4MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 172.64.156.0
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_45|8.2MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: cf.090227.xyz
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_46|4.1MB/s|GPT|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.7.178
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_48|6.0MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: cf.130519.xyz
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_47|5.2MB/s|GPT|橘子分享03"
-      network: ws
-      port: 2087
-      server: 162.159.36.117
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_49|6.1MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_50|10.1MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: cf.tencentapp.cn
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_48|7.5MB/s|GPT⁺|橘子分享03"
-      network: ws
-      port: 443
-      server: 162.159.24.111
-      servername: t2.999894.xyz
-      skip-cert-verify: false
-      sub_tag: 橘子分享03
-      tfo: false
-      tls: true
-      type: vless
-      uuid: a283467d-4787-4db8-834c-1bee3fe2bed6
-      ws-opts:
-        headers:
-            Host: t2.999894.xyz
-        path: /proxyip=sjc.o00o.ooo
+      server: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
+      skip-cert-verify: true
+      sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
+      sub_tag: GitHub-Ruk1ng001
+      tls: false
+      type: hysteria2
