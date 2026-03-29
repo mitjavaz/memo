@@ -1,8 +1,14 @@
 # 是否显示进度
 print-progress: true
 
-# 并发线程数
-concurrent: 30
+# 并发线程数（测活阶段使用此值）
+concurrent: 20
+# 测速并发数（默认等于concurrent）
+# 建议设置较低值，避免并发抢带宽导致测速不准
+speed-concurrent: 5
+# 流媒体检测并发数（默认等于concurrent）
+media-concurrent: 20
+
 # 检查间隔(分钟)
 # 必须大于0，小于等于0会设置间隔1分钟
 check-interval: 3600
@@ -21,6 +27,7 @@ success-limit: 0
 
 # 超时时间(毫秒)(节点的最大延迟)
 timeout: 3000
+
 # 延迟测试URL
 # 一些高级用法需要自己摸索，比如想要拒绝某些CF类节点，可将url替换为https://www.cloudflare.com
 alive-test-url: http://www.youtube.com/generate_204
@@ -62,6 +69,7 @@ filter:
 
 # 是否开启流媒体检测，其中IP欺诈依赖重命名
 media-check: true
+# 流媒体检测超时时间(秒)，未设置则默认为10秒
 media-check-timeout: 5
 platforms:
   #- iprisk
@@ -74,7 +82,7 @@ platforms:
 
 # 保留之前测试成功的节点
 # 如果为true，则保留之前测试成功的节点，这样就不会因为上游链接更新，导致可用的节点被清除掉
-keep-success-proxies: true
+keep-success-proxies: false
 
 # 输出目录
 # 如果为空，则为程序所在目录的config目录
@@ -203,11 +211,11 @@ sub-urls:
   - #零散节点01
   - #零散节点02
   - https://app.sublink.works/c/1l3Lu0v#零散节点03
-  - https://shz.al/ezyX#零散节点04
+  - #零散节点04
   - https://shz.al/64Ra#零散节点05
   - https://app.sublink.works/c/tfLxJtF#零散节点06
   - https://shz.al/GmKZ#零散节点07
-  - #零散节点08
+  - https://vip.putata.eu.org/faq#零散节点08
   - https://shz.al/PkZR#零散节点09
   - https://shz.al/Rbh6#零散节点10
   - https://app.sublink.works/c/kbdAoCq#零散节点11
@@ -225,10 +233,10 @@ sub-urls:
   - https://vess.zhuk.dpdns.org/2026/erw/c.yaml#橘子分享02
   - https://x.v50.lat/view.php?id=4b5410bf90491354#橘子分享03
   - https://vess.zhuk.dpdns.org/2026/qe/c.yaml#橘子分享04
-  - #橘子分享05
-  - #橘子分享06
+  - https://vess.zhuk.dpdns.org/2026/ershijiu/c.yaml#橘子分享05
+  - https://x.v50.lat/view.php?id=0fd0e8b063c08aff#橘子分享06
   - https://vess.zhuk.dpdns.org/2026/2621/c.yaml#橘子分享07
-  - https://x.v50.lat/view.php?id=325fc68194b5b4e3#橘子分享07
+  - #橘子分享07
   - https://x.v50.lat/view.php?id=bcd9ce06eebc1a2e#橘子分享08
   - #橘子分享09
   - #橘子分享10
@@ -237,10 +245,10 @@ sub-urls:
   #轩辕节点
   - https://xy.webpay.dpdns.org/c/0K8ooc1#轩辕节点01
   - https://xy.webpay.dpdns.org/c/Hh8pPzz#轩辕节点02
-  - https://xy.webpay.dpdns.org/c/VawiHhp#轩辕节点03
-  - https://xy.webpay.dpdns.org/c/BMOSF1T#轩辕节点04
-  - https://xy.webpay.dpdns.org/c/yyVnN3V#轩辕节点05
-  - https://xy.webpay.dpdns.org/c/MA8S7XB#轩辕节点06
+  - https://xy.webpay.dpdns.org/c/fLezAkm#轩辕节点03
+  - https://xy.webpay.dpdns.org/c/8O7mell#轩辕节点04
+  - #轩辕节点05
+  - #轩辕节点06
   - https://xy.webpay.dpdns.org/c/bz7tqJW#轩辕节点07
   - https://xy.webpay.dpdns.org/c/YDpK81e#轩辕节点08
   - https://xy.webpay.dpdns.org/c/f89CVTJ#轩辕节点09
@@ -259,8 +267,6 @@ sub-urls:
   - #v2rayse10
 
   #蛋黄酱节点分享：@FProxies
-  - https://sub.danhu.dpdns.org/paste/26HappyLNY-TG@FProxies/base64#蛋黄酱-0214
-  - https://sub.danhu.dpdns.org/paste/26HappyLNY-TG@FProxies/urls#蛋黄酱-0214
   - https://sub.danhu.dpdns.org/paste/TG@FProxies260328OuXf65J/base64#蛋黄酱-0328
   - https://sub.danhu.dpdns.org/paste/TG@FProxies260328OuXf65J/urls#蛋黄酱-0328
 
