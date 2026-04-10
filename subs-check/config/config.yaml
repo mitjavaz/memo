@@ -80,6 +80,13 @@ platforms:
   - openai
   #- gemini
 
+# 保留最近N天内可用的历史节点（天）
+# 开启后每次检测会保存节点快照到 output/history/ 目录
+# 下次检测时会将历史节点加入待测队列重新检测，通过的节点才会保留到输出中
+# 过期的历史文件会自动清理
+# 0 = 关闭此功能
+keep-days: 30
+
 # 保留之前测试成功的节点
 # 如果为true，则保留之前测试成功的节点，这样就不会因为上游链接更新，导致可用的节点被清除掉
 keep-success-proxies: false
@@ -211,9 +218,9 @@ sub-urls:
   - #零散节点01
   - #零散节点02
   - #零散节点03
-  - #零散节点04
+  - https://app.sublink.works/x/Oszi20j#零散节点04
   - https://shz.al/64Ra#零散节点05
-  - #零散节点06
+  - https://app.sublink.works/c/bhVt413#零散节点06
   - https://shz.al/GmKZ#零散节点07
   - https://vip.putata.eu.org/faq#零散节点08
   - https://shz.al/PkZR#零散节点09
@@ -225,14 +232,14 @@ sub-urls:
   - #零散节点15
   - #零散节点16
   - https://v1.mk/fJgpEwS#零散节点17
-  - #零散节点18
+  - https://ip.ikez.dpdns.org/sub?host=q.ikez.dpdns.org&uuid=8e34e170-13ae-4892-9d20-05962acc9f84&path=%2F&sni=q.ikez.dpdns.org&type=---&alpn=&alterid=0&security=auto#零散节点18
   - https://shz.al/wkKF#零散节点19
 
   #橘子分享
   - https://us1.zhuk.dpdns.org/YouTube/fbC06/c.yaml#橘子分享01
-  - #橘子分享02
+  - https://us1.zhuk.dpdns.org/YouTube/aB7k10/c.yaml#橘子分享02
   - https://us1.zhuk.dpdns.org/YouTube/aB7kL8/c.yaml#橘子分享03
-  - #橘子分享04
+  - https://x.v50.lat/view.php?id=584893f35ace19fe#橘子分享04
   - #橘子分享05
   - #橘子分享06
   - #橘子分享07
@@ -251,13 +258,13 @@ sub-urls:
   - #轩辕节点06
   - #轩辕节点07
   - https://xy.webpay.dpdns.org/c/TbNodbv#轩辕节点08
-  - #轩辕节点09
-  - #轩辕节点10
+  - https://xy.webpay.dpdns.org/c/OKIC28p#轩辕节点09
+  - https://xy.webpay.dpdns.org/c/UazF8vH#轩辕节点10
 
   #v2rayse
   - https://v2rayse.com/fs/public/20260309/dtppfds.yaml#v2rayse01
   - https://v2rayse.com/fs/public/20260310/zw62fls.yaml#v2rayse02
-  - #v2rayse03
+  - https://v2rayse.com/fs/public/20260410/c0pzx2v.yaml#v2rayse03
   - https://v2rayse.com/fs/public/20260318/znvmhot.yaml#v2rayse04
   - #v2rayse05
   - #v2rayse06
