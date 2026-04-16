@@ -1,8 +1,14 @@
 # 是否显示进度
 print-progress: true
 
-# 并发线程数
-concurrent: 30
+# 并发线程数（测活阶段使用此值）
+concurrent: 20
+# 测速并发数（默认等于concurrent）
+# 建议设置较低值，避免并发抢带宽导致测速不准
+speed-concurrent: 5
+# 流媒体检测并发数（默认等于concurrent）
+media-concurrent: 20
+
 # 检查间隔(分钟)
 # 必须大于0，小于等于0会设置间隔1分钟
 check-interval: 3600
@@ -21,6 +27,7 @@ success-limit: 0
 
 # 超时时间(毫秒)(节点的最大延迟)
 timeout: 3000
+
 # 延迟测试URL
 # 一些高级用法需要自己摸索，比如想要拒绝某些CF类节点，可将url替换为https://www.cloudflare.com
 alive-test-url: http://www.youtube.com/generate_204
@@ -57,23 +64,32 @@ node-type:
   # - vless
 
 filter:
-  - "HK|SG|TW|CA|CN|DE|FR|GB|IN|JP|KR|MO|RU|US|VN"
+  #- "HK|SG|TW|CA|CN|DE|FR|GB|IN|JP|KR|MO|RU|US|VN"
+  - "HK|SG|TW|CA|CN|FR|JP|KR|US"
 
 # 是否开启流媒体检测，其中IP欺诈依赖重命名
 media-check: true
+# 流媒体检测超时时间(秒)，未设置则默认为10秒
 media-check-timeout: 5
 platforms:
   #- iprisk
-  #- tiktok
+  - tiktok
   #- youtube
   #- netflix
   #- disney
   - openai
   #- gemini
 
+# 保留最近N天内可用的历史节点（天）
+# 开启后每次检测会保存节点快照到 output/history/ 目录
+# 下次检测时会将历史节点加入待测队列重新检测，通过的节点才会保留到输出中
+# 过期的历史文件会自动清理
+# 0 = 关闭此功能
+keep-days: 30
+
 # 保留之前测试成功的节点
 # 如果为true，则保留之前测试成功的节点，这样就不会因为上游链接更新，导致可用的节点被清除掉
-keep-success-proxies: true
+keep-success-proxies: false
 
 # 输出目录
 # 如果为空，则为程序所在目录的config目录
@@ -199,34 +215,34 @@ sub-urls-remote:
 # 如果用户想区分节点来源，可在订阅链接结尾加上 #备注 ，备注字段会自动加到节点命名结尾
 sub-urls:
   #零散节点
-  - https://igdux.top/GdTz#零散节点01
-  - https://app.sublink.works/x/IbXJXbj#零散节点02
-  - https://dy11.baipiaoyes.com/api/v1/client/subscribe?token=fc78ebc88cecb1f8b5fa87ed4284c441#零散节点03
-  - https://shz.al/ezyX#零散节点04
+  - #零散节点01
+  - #零散节点02
+  - #零散节点03
+  - https://app.sublink.works/x/Oszi20j#零散节点04
   - https://shz.al/64Ra#零散节点05
-  - http://43.161.254.229/7cNKWc75kz2LfGPM/4350a18ce0944e58be9c2699635e2910#零散节点06
-  - https://xn--ehqa22b.site/s/30a0c879a497cd19d3da1febae53edc2#零散节点07
-  - https://v1.mk/fxEhOJh#零散节点08
-  - #零散节点09
+  - https://app.sublink.works/c/bhVt413#零散节点06
+  - https://shz.al/GmKZ#零散节点07
+  - https://vip.putata.eu.org/faq#零散节点08
+  - https://shz.al/PkZR#零散节点09
   - #零散节点10
   - #零散节点11
-  - #零散节点12
-  - #零散节点13
-  - #零散节点14
-  - #零散节点15
-  - #零散节点16
-  - #零散节点17
-  - #零散节点18
-  - #零散节点19
+  - https://app.sublink.works/x/EnS4et8#零散节点12
+  - https://api-salkjdhajs-cdm.mcwy.xyz/api/v1/helps/js?token=KmmkrHNVI663E7s3#零散节点13
+  - https://app.sublink.works/x/6oEMntG#零散节点14
+  - https://app.sublink.works/x/PsHaGTM#零散节点15
+  - https://app.sublink.works/x/sYuC7iU#零散节点16
+  - https://v1.mk/fJgpEwS#零散节点17
+  - https://ip.ikez.dpdns.org/sub?host=q.ikez.dpdns.org&uuid=8e34e170-13ae-4892-9d20-05962acc9f84&path=%2F&sni=q.ikez.dpdns.org&type=---&alpn=&alterid=0&security=auto#零散节点18
+  - https://shz.al/wkKF#零散节点19
 
   #橘子分享
-  - #橘子分享01
-  - https://zh.momobaby.org/download/clash/64930670b97c77417172c456c0927578e28a77a1959c4db9f760dfa92b6f90bb?config_name=LiNigori369#橘子分享02
-  - https://v1.mk/fxEhOJh#橘子分享03
-  - https://vess.zhuk.dpdns.org/2026/18/c.yaml#橘子分享04
-  - https://vess.zhuk.dpdns.org/2026/109/c.yaml#橘子分享05
-  - https://x.v50.lat/view.php?id=7addf10b5fcc4ae2#橘子分享06
-  - https://vess.zhuk.dpdns.org/2026/2621/c.yaml#橘子分享07
+  - https://us1.zhuk.dpdns.org/YouTube/fbC06/c.yaml#橘子分享01
+  - https://us1.zhuk.dpdns.org/YouTube/aB7k10/c.yaml#橘子分享02
+  - https://us1.zhuk.dpdns.org/YouTube/aB7kL8/c.yaml#橘子分享03
+  - https://x.v50.lat/view.php?id=584893f35ace19fe#橘子分享04
+  - https://us1.zhuk.dpdns.org/YouTube/fbC11/v.txt#橘子分享05
+  - https://us1.zhuk.dpdns.org/YouTube/aB7k12/c.yaml#橘子分享06
+  - #橘子分享07
   - #橘子分享07
   - #橘子分享08
   - #橘子分享09
@@ -234,21 +250,21 @@ sub-urls:
   
 
   #轩辕节点
-  - https://xy.webpay.dpdns.org/c/0K8ooc1#轩辕节点01
-  - https://xy.webpay.dpdns.org/c/Gpck0BA#轩辕节点02
-  - https://xy.webpay.dpdns.org/c/VawiHhp#轩辕节点03
-  - https://xy.webpay.dpdns.org/c/BMOSF1T#轩辕节点04
-  - https://xy.webpay.dpdns.org/c/yyVnN3V#轩辕节点05
-  - https://xy.webpay.dpdns.org/c/MA8S7XB#轩辕节点06
-  - https://xy.webpay.dpdns.org/c/bz7tqJW#轩辕节点07
-  - #轩辕节点08
-  - #轩辕节点09
-  - #轩辕节点10
+  - #轩辕节点01
+  - #轩辕节点02
+  - #轩辕节点0
+  - #轩辕节点04
+  - #轩辕节点05
+  - https://xy.webpay.dpdns.org/x/jijYXpu#轩辕节点06
+  - https://xy.webpay.dpdns.org/x/ysndnFD#轩辕节点07
+  - https://xy.webpay.dpdns.org/c/TbNodbv#轩辕节点08
+  - https://xy.webpay.dpdns.org/c/OKIC28p#轩辕节点09
+  - https://xy.webpay.dpdns.org/c/UazF8vH#轩辕节点10
 
   #v2rayse
   - https://v2rayse.com/fs/public/20260309/dtppfds.yaml#v2rayse01
   - https://v2rayse.com/fs/public/20260310/zw62fls.yaml#v2rayse02
-  - https://v2rayse.com/fs/public/20260312/gmdcol6.txt#v2rayse03
+  - https://v2rayse.com/fs/public/20260410/c0pzx2v.yaml#v2rayse03
   - https://v2rayse.com/fs/public/20260318/znvmhot.yaml#v2rayse04
   - #v2rayse05
   - #v2rayse06
@@ -258,8 +274,8 @@ sub-urls:
   - #v2rayse10
 
   #蛋黄酱节点分享：@FProxies
-  - https://sub.danhu.dpdns.org/paste/26HappyLNY-TG@FProxies/base64#蛋黄酱节点分享-0214
-  - https://sub.danhu.dpdns.org/paste/26HappyLNY-TG@FProxies/urls#蛋黄酱节点分享-0214
+  - https://sub.danhu.dpdns.org/paste/TG@FProxies260328OuXf65J/base64#蛋黄酱-0328
+  - https://sub.danhu.dpdns.org/paste/TG@FProxies260328OuXf65J/urls#蛋黄酱-0328
 
   #资源分享：@txwl666
   - https://rss.zyfx6.xyz/clash/#txwl666
