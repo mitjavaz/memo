@@ -1,7 +1,19 @@
 proxies:
+    - alpn:
+        - h3
+      auth: QMpJVYJVps
+      name: "\U0001F1FA\U0001F1F8US_118|3.5MB/s|TK-US|GPT⁺-US|GitHub-mitjavaz2"
+      password: QMpJVYJVps
+      port: 52341
+      server: cloudcone.20240211.xyz
+      skip-cert-verify: true
+      sni: cloudcone.20240211.xyz
+      sub_tag: GitHub-mitjavaz2
+      type: hysteria2
+      udp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_126|2.0MB/s|TK-US|GPT⁺-US|GitHub-mitjavaz2"
+      name: "\U0001F1FA\U0001F1F8US_119|1.4MB/s|TK-US|GPT⁺-US|GitHub-mitjavaz2"
       obfs: ""
       obfs-password: ""
       password: 940f51d6-e0a4-4add-b96b-328e4a84b642
@@ -12,52 +24,25 @@ proxies:
       sub_tag: GitHub-mitjavaz2
       type: hysteria2
       up: ""
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_59|9.0MB/s|GPT⁺-JP|GitHub-mitjavaz2"
+    - UUID: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      client-fingerprint: firefox
+      ech-opts:
+        enable: true
+        query-server-name: cloudflare-ech.com
+      name: "\U0001F1EF\U0001F1F5JP_13|11.2MB/s|GPT⁺-LV|GitHub-mitjavaz1"
       network: ws
       port: 443
-      server: www.udacity.com
-      servername: snippets-jp.aniuge.qzz.io
-      skip-cert-verify: false
-      sub_tag: GitHub-mitjavaz2
+      server: freeyx.cloudflare88.eu.org
+      servername: sni.111000.dynv6.net
+      sub_tag: GitHub-mitjavaz1
       tls: true
       type: vless
-      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            Host: snippets-jp.aniuge.qzz.io
-        max-early-data: 2095
-        path: /
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_60|4.2MB/s|GPT⁺-JP|GitHub-mitjavaz2"
-      network: ws
-      port: 443
-      server: www.wto.org
-      servername: snippets-jp.aniuge.qzz.io
-      skip-cert-verify: false
-      sub_tag: GitHub-mitjavaz2
-      tls: true
-      type: vless
-      uuid: e258977b-e413-4718-a3af-02d75492c349
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: snippets-jp.aniuge.qzz.io
-        max-early-data: 2095
-        path: /
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560&proxyip=ip.111000.de5.net:443
     - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_127|3.3MB/s|GPT⁺-US|零散节点08"
+      name: "\U0001F1FA\U0001F1F8US_120|1.2MB/s|GPT⁺-US|零散节点08"
       password: dongtaiwang.com
       port: 28866
       server: 45.221.98.11
@@ -65,21 +50,18 @@ proxies:
       transport: TCP
       type: mieru
       username: dongtaiwang.com
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_128|2.0MB/s|TK-US|GPT⁺-US|GitHub-mitjavaz1"
-      obfs: ""
-      obfs-password: ""
-      password: 13d29042-ab82-4195-9cd4-2bafc518e201
-      port: "50241"
-      server: 205.185.125.20
-      skip-cert-verify: true
-      sni: apps.apple.com
-      sub_tag: GitHub-mitjavaz1
-      type: hysteria2
-      up: ""
     - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-      name: "\U0001F1FA\U0001F1F8US_129|2.5MB/s|TK-US|GPT⁺-US|零散节点08"
+      name: "\U0001F1F8\U0001F1ECSG_39|14.8MB/s|GPT⁺-SG|零散节点08"
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: 443
+      server: vpn-sg-002.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-sg-002.fastervpn.world
+      sub_tag: 零散节点08
+      type: hysteria2
+      udp: true
+    - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      name: "\U0001F1FA\U0001F1F8US_121|3.8MB/s|TK-US|GPT⁺-US|零散节点08"
       password: qQe1z5kU8kN6SlKnDt9Ru3Qp
       port: 443
       server: vpn-us-006.fastervpn.world
@@ -90,7 +72,20 @@ proxies:
       udp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_130|4.4MB/s|TK-US|GPT⁺-US|零散节点01"
+      name: "\U0001F1F8\U0001F1ECSG_40|22.9MB/s|GPT⁺-SG|零散节点01"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: "443"
+      server: vpn-sg-002.fastervpn.world
+      skip-cert-verify: true
+      sni: ""
+      sub_tag: 零散节点01
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_122|3.5MB/s|TK-US|GPT⁺-US|零散节点01"
       obfs: ""
       obfs-password: ""
       password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -102,7 +97,7 @@ proxies:
       type: hysteria2
       up: ""
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_23|8.3MB/s|GPT⁺-SG|蛋黄酱-0418"
+      name: "\U0001F1EF\U0001F1F5JP_14|6.9MB/s|GPT⁺-SG|蛋黄酱-0418"
       network: ws
       port: "2053"
       server: josni.hoyes.cloudns.ch
@@ -118,17 +113,69 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
         path: /
       xudp: true
-    - name: "\U0001F1EF\U0001F1F5JP_24|14.0MB/s|GPT⁺-JP|GitHub-Ruk1ng001"
+    - name: "\U0001F1EF\U0001F1F5JP_15|11.5MB/s|GPT⁺-JP|零散节点08"
       password: qQe1z5kU8kN6SlKnDt9Ru3Qp
       port: 443
-      server: vpn-jp-001.fastervpn.world
+      server: vpn-jp-002.fastervpn.world
       skip-cert-verify: true
-      sni: vpn-jp-001.fastervpn.world
-      sub_tag: GitHub-Ruk1ng001
+      sni: vpn-jp-002.fastervpn.world
+      sub_tag: 零散节点08
       type: hysteria2
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_131|4.1MB/s|TK-US|GPT⁺-US|GitHub-peasoft"
+      name: "\U0001F1E8\U0001F1E6CA_3|2.9MB/s|GPT⁺-CA|零散节点15"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: "443"
+      server: vpn-ca-001.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-ca-001.fastervpn.world
+      sub_tag: 零散节点15
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_123|3.2MB/s|TK-US|GPT⁺-US|GitHub-peasoft"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: "443"
+      server: vpn-us-002.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-002.fastervpn.world
+      sub_tag: GitHub-peasoft
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_124|1.5MB/s|TK-US|GPT⁺-US|GitHub-peasoft"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: "443"
+      server: vpn-us-004.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-004.fastervpn.world
+      sub_tag: GitHub-peasoft
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_125|2.7MB/s|TK-US|GPT⁺-US|GitHub-peasoft"
+      obfs: ""
+      obfs-password: ""
+      password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+      port: "443"
+      server: vpn-us-003.fastervpn.world
+      skip-cert-verify: true
+      sni: vpn-us-003.fastervpn.world
+      sub_tag: GitHub-peasoft
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_126|2.2MB/s|TK-US|GPT⁺-US|GitHub-peasoft"
       obfs: ""
       obfs-password: ""
       password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -139,24 +186,9 @@ proxies:
       sub_tag: GitHub-peasoft
       type: hysteria2
       up: ""
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: ljfxz
-      name: "\U0001F1ED\U0001F1F0HK_28|3.5MB/s|GPT⁺-SG|零散节点19"
-      network: grpc
-      port: "36788"
-      server: t1.feiyue706.com
-      servername: t1.feiyue706.com
-      sub_tag: 零散节点19
-      tls: true
-      type: vless
-      udp: true
-      uuid: 368b16ff-4b9c-3432-a02c-7c370d9da662
-      xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_132|3.9MB/s|TK-US|GPT⁺-US|零散节点19"
+      name: "\U0001F1FA\U0001F1F8US_127|3.0MB/s|TK-US|GPT⁺-US|零散节点19"
       obfs: ""
       obfs-password: ""
       password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -167,75 +199,11 @@ proxies:
       sub_tag: 零散节点19
       type: hysteria2
       up: ""
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1797
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_133|1.4MB/s|TK-US|GPT⁺-US|GitHub-go4sharing"
-      network: ws
-      port: 80
-      server: skk.moe
-      servername: accklsj.bufu.us.ci
-      skip-cert-verify: true
-      sub_tag: GitHub-go4sharing
-      type: vmess
-      uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
-      ws-opts:
-        headers:
-            HOST: accklsj.bufu.us.ci
-        path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_134|1.7MB/s|TK-US|GPT⁺-US|GitHub-anaer"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      sub_tag: GitHub-anaer
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
     - client-fingerprint: chrome
       ech-opts:
         enable: true
         query-server-name: cloudflare-ech.com
-      name: "\U0001F1F0\U0001F1F7KR_26|6.4MB/s|GPT⁺-KR|零散节点03"
-      network: ws
-      port: 443
-      server: 43.200.87.5
-      servername: gogo.onetap.qzz.io
-      skip-cert-verify: false
-      sub_tag: 零散节点03
-      tls: true
-      type: vless
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: gogo.onetap.qzz.io
-        path: /
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1F0\U0001F1F7KR_27|5.1MB/s|GPT⁺-KR|零散节点18"
-      network: ws
-      port: 443
-      server: 43.200.87.5
-      servername: gogo.qzzio.dpdns.org
-      skip-cert-verify: false
-      sub_tag: 零散节点18
-      tls: true
-      type: vless
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: gogo.qzzio.dpdns.org
-        path: /
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1FA\U0001F1F8US_135|8.2MB/s|TK-US|GPT⁺-US|零散节点18"
+      name: "\U0001F1FA\U0001F1F8US_128|8.2MB/s|TK-US|GPT⁺-US|零散节点18"
       network: ws
       port: 443
       server: 47.57.240.170
@@ -253,25 +221,7 @@ proxies:
       ech-opts:
         enable: true
         query-server-name: cloudflare-ech.com
-      name: "\U0001F1F8\U0001F1ECSG_61|3.8MB/s|GPT⁺-SG|零散节点18"
-      network: ws
-      port: 443
-      server: 140.235.9.68
-      servername: gogo.onetap.qzz.io
-      skip-cert-verify: false
-      sub_tag: 零散节点18
-      tls: true
-      type: vless
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: gogo.onetap.qzz.io
-        path: /
-    - client-fingerprint: chrome
-      ech-opts:
-        enable: true
-        query-server-name: cloudflare-ech.com
-      name: "\U0001F1FA\U0001F1F8US_136|6.0MB/s|TK-US|GPT⁺-US|零散节点18"
+      name: "\U0001F1FA\U0001F1F8US_129|6.6MB/s|TK-US|GPT⁺-US|零散节点18"
       network: ws
       port: 443
       server: 106.15.124.10
@@ -285,7 +235,7 @@ proxies:
         headers:
             Host: gogo.vks.dpdns.org
         path: /
-    - name: "\U0001F1ED\U0001F1F0HK_29|18.6MB/s|轩辕节点09"
+    - name: "\U0001F1ED\U0001F1F0HK_18|20.3MB/s|轩辕节点09"
       password: IG9Sundefinedvx6RJ
       port: 58771
       server: 47.76.94.197
@@ -293,113 +243,27 @@ proxies:
       sni: go.microsoft.com
       sub_tag: 轩辕节点09
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8US_137|1.8MB/s|TK-US|GPT⁺-US|轩辕节点09"
-      password: t5W2ixjFMq
-      port: 52995
-      server: 216.36.124.35
+    - name: "\U0001F1F9\U0001F1FCTW_2|1.6MB/s|GPT⁺-TW|轩辕节点09"
+      password: kU1RhXod34
+      port: 36785
+      server: 188.253.6.191
       skip-cert-verify: true
       sni: go.microsoft.com
       sub_tag: 轩辕节点09
       type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0HK_30|6.2MB/s|轩辕节点09"
-      password: tR1GbBlpsO
-      port: 21600
-      server: 122.10.114.228
-      skip-cert-verify: true
-      sni: 122.10.114.228
-      sub_tag: 轩辕节点09
-      type: hysteria2
-    - encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_25|1.6MB/s|GPT⁺-JP|GitHub-anaer"
+    - client-fingerprint: chrome
+      name: "\U0001F1ED\U0001F1F0HK_19|1.4MB/s|GPT⁺-SG|GitHub-zhangkaiitugithub"
       network: ws
-      port: 443
-      security: tls
-      server: 151.245.106.81
-      servername: gogo.wknm.dpdns.org
-      sub_tag: GitHub-anaer
-      tls: true
-      type: vless
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: gogo.wknm.dpdns.org
-        path: /
-    - client-fingerprint: firefox
-      ech-opts:
-        enable: true
-        query-server-name: encryptedsni.com
-      name: "\U0001F1F0\U0001F1F7KR_28|2.9MB/s|GPT⁺-SG|GitHub-anaer"
-      network: ws
-      port: 30001
-      server: 14.58.60.153
-      servername: igvdi.edge-node-sg.fgfw.indevs.in
+      port: 587
+      server: 47.239.7.163
+      servername: pagescm.freen21.cc.cd
       skip-cert-verify: false
-      sub_tag: GitHub-anaer
-      tfo: false
+      sub_tag: GitHub-zhangkaiitugithub
       tls: true
       type: vless
       udp: true
-      uuid: 26524cce-d514-4014-a426-365fb266a14d
+      uuid: ae0dd58e-e222-40bf-84ae-365a97532737
       ws-opts:
         headers:
-            Host: igvdi.edge-node-sg.fgfw.indevs.in
-        path: /danfeng?ed=2560
-    - name: "\U0001F1FA\U0001F1F8US_138|2.1MB/s|GPT⁺-US|GitHub-anaer"
-      password: dongtaiwang.com
-      port: 27921
-      server: 157.254.223.43
-      skip-cert-verify: true
-      sni: www.bing.com
-      sub_tag: GitHub-anaer
-      type: hysteria2
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_31|1.9MB/s|GPT⁺-SG|GitHub-Ruk1ng001"
-      network: ws
-      port: 443
-      server: 159.138.138.87
-      servername: gogo.wknm.qzz.io
-      sub_tag: GitHub-Ruk1ng001
-      tls: true
-      type: vless
-      udp: true
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: gogo.wknm.qzz.io
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_32|1.5MB/s|GPT⁺-SG|GitHub-Ruk1ng001"
-      network: ws
-      port: 443
-      server: 38.55.192.102
-      servername: gogo.wknm.qzz.io
-      sub_tag: GitHub-Ruk1ng001
-      tls: true
-      type: vless
-      udp: true
-      uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-      ws-opts:
-        headers:
-            Host: gogo.wknm.qzz.io
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_33|1.2MB/s|GitHub-Ruk1ng001"
-      network: ws
-      password: 8r<[9'l6hAO#8ZQi
-      port: 15124
-      server: 149.104.25.35
-      skip-cert-verify: true
-      sni: Koma-YT.PAGeS.Dev
-      sub_tag: GitHub-Ruk1ng001
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+            Host: pagescm.freen21.cc.cd
+        path: /albums/out.html
