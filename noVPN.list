@@ -24,10 +24,6 @@ DOMAIN,alt7-mtalk.google.com
 DOMAIN,alt8-mtalk.google.com
 # >> Paramount+
 DOMAIN,pubads.g.doubleclick.net
-# > Tencent
-DOMAIN,fairplay.l.qq.com
-DOMAIN,livew.l.qq.com
-DOMAIN,vd.l.qq.com
 # > Strava
 DOMAIN,analytics.strava.com
 # > Umeng
@@ -95,7 +91,6 @@ USER-AGENT,MOO*
 USER-AGENT,TencentMidasConnect*
 # > Tencent Video
 DOMAIN-SUFFIX,v.smtcdns.com
-DOMAIN-SUFFIX,vv.video.qq.com
 # > Youku
 DOMAIN-SUFFIX,youku.com
 IP-CIDR,106.11.0.0/16,no-resolve
@@ -483,24 +478,13 @@ DOMAIN-KEYWORD,Thunder
 DOMAIN-KEYWORD,XLLiveUD
 URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)
 
-DOMAIN-SUFFIX,yanetflix.com
 DOMAIN-SUFFIX,cupfox.app
-DOMAIN-SUFFIX,voflix.com
-DOMAIN-SUFFIX,meijumi.net
 DOMAIN-SUFFIX,yiso.fun
 DOMAIN-SUFFIX,alipansou.com
-DOMAIN-SUFFIX,lgyy.cc
 DOMAIN-SUFFIX,upyunso.com
-DOMAIN-SUFFIX,zxzj.vip
 DOMAIN-SUFFIX,ghxi.com
-DOMAIN-SUFFIX,gaze.run
-DOMAIN-SUFFIX,yysub.net
-DOMAIN-SUFFIX,meijutt.tv
+
 DOMAIN-SUFFIX,tampermonkey.net
-DOMAIN-SUFFIX,hysub.net
-DOMAIN-SUFFIX,36dm.club
-DOMAIN-SUFFIX,novipnoad.com
-DOMAIN-SUFFIX,zzzfun.com
 DOMAIN-SUFFIX,milimili.tv
 DOMAIN-SUFFIX,zimuku.org
 DOMAIN-SUFFIX,acgzero.com
@@ -797,22 +781,28 @@ DOMAIN-SUFFIX,yunjiasussl.com
 DOMAIN-SUFFIX,zuoyebang.cc
 DOMAIN-SUFFIX,zuoyebang.com
 DOMAIN-SUFFIX,zybang.com
-DOMAIN-SUFFIX,moe4sale.in
-DOMAIN-SUFFIX,mikanime.tv
-DOMAIN-SUFFIX,zhaifu.la
-DOMAIN-SUFFIX,fujumtv.com
-DOMAIN-SUFFIX,hanjukankan.com
-DOMAIN-SUFFIX,wintersakura.net
+
+# > 	自定义
+
+# >>	过滤进程
 PROCESS-NAME,BaiduNetdiskHost.exe
 PROCESS-NAME,BaiduNetdisk.exe
 PROCESS-NAME,BaiduNetdiskRender.exe
 PROCESS-NAME,aDrive.exe
-DOMAIN-SUFFIX,ptcafe.club
-DOMAIN-SUFFIX,lanzoug.com
-DOMAIN-SUFFIX,virustotal.com
-DOMAIN-SUFFIX,virscan.org
-DOMAIN-SUFFIX,liteapks.com
 PROCESS-NAME,nodesCatch.exe
+
+# >>	PT站
+DOMAIN-SUFFIX,wintersakura.net
+DOMAIN-SUFFIX,ptcafe.club
+
+# >>	网盘
+DOMAIN-SUFFIX,lanzoug.com
+
+# >>	文件安全监测
+DOMAIN-SUFFIX,virscan.org
+
+# >>	未分类
+DOMAIN-SUFFIX,mikanime.tv
 DOMAIN-SUFFIX,scriptcat.org
 DOMAIN-SUFFIX,mikuclub.win
 DOMAIN-SUFFIX,btnull.org
@@ -823,7 +813,7 @@ DOMAIN-SUFFIX,kkgithub.com
 DOMAIN-SUFFIX,xn--9sw509f.eu.org
 DOMAIN-SUFFIX,link3.cc
 DOMAIN-SUFFIX,hdmayi.com
-# DOMAIN-SUFFIX,carpt.net
+DOMAIN-SUFFIX,carpt.net
 DOMAIN-SUFFIX,gamer520.com
 PROCESS-NAME,酷我音乐
 PROCESS-NAME,KwWebKit.exe
