@@ -7,7 +7,7 @@ concurrent: 50
 # 建议设置较低值，避免并发抢带宽导致测速不准
 speed-concurrent: 5
 # 流媒体检测并发数（默认等于concurrent）
-media-concurrent: 10
+media-concurrent: 5
 
 # 检查间隔(分钟)
 # 必须大于0，小于等于0会设置间隔1分钟
@@ -73,11 +73,11 @@ media-check: true
 media-check-timeout: 5
 platforms:
   #- iprisk
-  - tiktok
+  #- tiktok
   #- youtube
   #- netflix
   #- disney
-  - openai
+  #- openai
   #- gemini
 
 # 保留最近N天内可用的历史节点（天）
@@ -85,7 +85,7 @@ platforms:
 # 下次检测时会将历史节点加入待测队列重新检测，通过的节点才会保留到输出中
 # 过期的历史文件会自动清理
 # 0 = 关闭此功能
-keep-days: 60
+keep-days: 30
 
 # 保留之前测试成功的节点
 # 如果为true，则保留之前测试成功的节点，这样就不会因为上游链接更新，导致可用的节点被清除掉
@@ -221,27 +221,27 @@ sub-urls:
   - https://www7th.ga-sub.hair/api/v1/client/subscribe?token=327c174bc48b232d3871c6ffb3f8a25d#零散节点04
   - https://www7th.ga-sub.hair/api/v1/client/subscribe?token=327c174bc48b232d3871c6ffb3f8a25d#零散节点05
   - https://www5.bigairport-thirteenth-sub.com/api/v1/client/subscribe?token=2f861b74d3870ff23abb77a646b60838#零散节点06
-  - #零散节点07
-  - #零散节点08
+  - https://downloads.onelighter.site/api/v1/client/subscribe?token=ff924684cf22a4ced8d89476014d3d03&flag=meta#零散节点07
+  - https://app.sublink.works/x/hloyRRi#零散节点08
   - https://dash.djjc.cfd/api/v1/client/subscribe?token=c1c0bd4752d4ea34e82064a8469ce72f#零散节点09
   - https://downloads.onelighter.site/api/v1/client/subscribe?token=a98566da3743cc8a3ab8e9d16190c39a#零散节点10
-  - #零散节点11
+  - https://liangxin.xyz/api/v1/liangxin?OwO=9e3c3982f512b8e635d073a51d301708#零散节点11
   - https://www5.bigairport-thirteenth-sub.com/api/v1/client/subscribe?token=2f861b74d3870ff23abb77a646b60838#零散节点12
-  - #零散节点13
-  - #零散节点14
-  - #零散节点15
-  - #零散节点16
-  - #零散节点17
-  - #零散节点18
+  - https://45.91.81.231:2096/22ad81680ea81c52d4e7ed9cb051c62ba2cdff19/4rwcvyut7c2i8tjp#零散节点13
+  - https://app.sublink.works/x/HrbgOCg#零散节点14
+  - https://app.sublink.works/x/qdtfBhM#零散节点15
+  - https://app.sublink.works/x/4uVmM4N#零散节点16
+  - https://ldgb.pages.dev/sub?token=5238141bc3daa773b225209767b9fb2c#零散节点17
+  - https://kalami-eew.pages.dev/sub?token=b1e112df393c9b147f4222ece3efb8c0#零散节点18
   - https://app.sublink.works/x/HE8Uy6r#零散节点19
 
   #橘子分享
   - #橘子分享01
-  - https://x.v50.lat/view.php?id=a4e51d8a74c1dafd#橘子分享02
-  - #橘子分享03
-  - #橘子分享04
-  - #橘子分享05
-  - #橘子分享06
+  - https://x.v50.lat/view.php?id=0fd01a882efed33e#橘子分享02
+  - https://x.v50.lat/view.php?id=192588262bb0b21c#橘子分享03
+  - https://x.v50.lat/view.php?id=f3afad430a8ebf76#橘子分享04
+  - https://x.v50.lat/view.php?id=59bdcadc3871c65e#橘子分享05
+  - https://x.v50.lat/view.php?id=18261ce03a3a427c#橘子分享06
   - #橘子分享07
   - #橘子分享08
   - #橘子分享09
@@ -249,16 +249,16 @@ sub-urls:
   
 
   #轩辕节点
-  - https://xy.webpay.dpdns.org/x/XEWLUp4#轩辕节点01
+  - #轩辕节点01
   - https://shz.al/Yydt#轩辕节点02
-  - https://xy.webpay.dpdns.org/x/Qh6AhDM#轩辕节点03
+  - #轩辕节点03
   - https://d0dfae62.ghelper.me/subs/clash/5c0f21f7d0dfae629e8feae956828895#轩辕节点04
-  - #轩辕节点05
+  - https://app.sublink.works/x/hloyRRi#轩辕节点05
   - #轩辕节点06
-  - https://xy.webpay.dpdns.org/x/OpTJZnf#轩辕节点07
+  - #轩辕节点07
   - #轩辕节点08
   - https://zh.momobaby.org/download/clash/9ee1cdfc693ae871cdee69c9f0111ee76fee70f590475569d42de34265aed614?config_name=%E5%85%89%E5%B8%86#轩辕节点09
-  - #轩辕节点10
+  - https://glasspanelfree.betsyangel.ndjp.net/sub#轩辕节点10
 
   #v2rayse
   - #v2rayse01
