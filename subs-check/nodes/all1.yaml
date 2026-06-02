@@ -1,19 +1,7 @@
 proxies:
-    - alpn:
-        - h3
-      auth: QMpJVYJVps
-      name: "\U0001F1FA\U0001F1F8US_39|1.5MB/s|GitHub-mitjavaz2"
-      password: QMpJVYJVps
-      port: 52341
-      server: cloudcone.20240211.xyz
-      skip-cert-verify: true
-      sni: cloudcone.20240211.xyz
-      sub_tag: GitHub-mitjavaz2
-      type: hysteria2
-      udp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_40|1.0MB/s|GitHub-mitjavaz2"
+      name: "\U0001F1FA\U0001F1F8US_42|2.0MB/s|GitHub-mitjavaz2"
       obfs: ""
       obfs-password: ""
       password: 940f51d6-e0a4-4add-b96b-328e4a84b642
@@ -26,7 +14,37 @@ proxies:
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_41|1.0MB/s|蛋黄酱-0328"
+      name: "\U0001F1FA\U0001F1F8US_43|1.7MB/s|蛋黄酱-0328"
+      obfs: ""
+      obfs-password: ""
+      password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+      port: "50053"
+      server: 5.180.30.16
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      sub_tag: 蛋黄酱-0328
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_4|6.0MB/s|蛋黄酱-0418"
+      network: ws
+      port: "2053"
+      server: josni.hoyes.cloudns.ch
+      servername: josni.hoyes.cloudns.ch
+      sub_tag: 蛋黄酱-0418
+      tls: true
+      type: vless
+      udp: true
+      uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+      ws-opts:
+        headers:
+            Host: josni.hoyes.cloudns.ch
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        path: /
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_44|1.6MB/s|蛋黄酱-0328"
       obfs: ""
       obfs-password: ""
       password: 73ffcd12-0155-432f-9fd4-c1d2bf9190d7
@@ -39,29 +57,95 @@ proxies:
       up: ""
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_42|3.5MB/s|零散节点03"
+      name: "\U0001F1FA\U0001F1F8US_45|1.7MB/s|GitHub-mitjavaz1"
       obfs: ""
       obfs-password: ""
-      password: c4748166-0de5-4253-be79-d2a8da48bdbf
-      port: "50012"
-      server: neirongbu0.fenfir.com
+      password: 13d29042-ab82-4195-9cd4-2bafc518e201
+      port: "50241"
+      server: 205.185.125.20
       skip-cert-verify: true
-      sni: neirongbu0.fenfir.com
+      sni: apps.apple.com
+      sub_tag: GitHub-mitjavaz1
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1ECSG_28|1.0MB/s|蛋黄酱-0328"
+      obfs: ""
+      obfs-password: ""
+      password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
+      port: "51372"
+      server: 5.180.78.153
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      sub_tag: 蛋黄酱-0328
+      type: hysteria2
+      up: ""
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_24|1.2MB/s|零散节点03"
+      obfs: ""
+      obfs-password: ""
+      password: e3a5bb40be52de65
+      port: "55555"
+      server: 89.251.26.111
+      skip-cert-verify: true
+      sni: apps.apple.com
       sub_tag: 零散节点03
       type: hysteria2
       up: ""
-    - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F1F8\U0001F1ECSG_3|7.4MB/s|零散节点10"
-      password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
-      plugin: gost-plugin
-      plugin-opts:
-        host: sg.337777777.xyz
-        mode: websocket
-        mux: true
-        path: /api/v1/stream
-        tls: false
-      port: 80
-      server: www.shopify.com
-      sub_tag: 零散节点10
-      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_46|2.2MB/s|零散节点03"
+      network: tcp
+      password: MNEWOm0AUhVO6KHtnelYTiqNSEvaCrcyLfrXASngffx5eLUP
+      port: "443"
+      server: proxy.955657.xyz
+      sni: proxy.955657.xyz
+      sub_tag: 零散节点03
+      type: trojan
       udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_29|2.7MB/s|轩辕节点05"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 5p8tibxrTb4POwYRsXt4DkX60HzjjWWvVeTYuogcYB8
+        short-id: a6054358ff8345ce
+      server: sg.kolan.one
+      servername: www.amd.com
+      sub_tag: 轩辕节点05
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8c087342-f873-49f9-b434-c710be9de9a6
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_30|3.4MB/s|轩辕节点05"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 5p8tibxrTb4POwYRsXt4DkX60HzjjWWvVeTYuogcYB8
+        short-id: a6054358ff8345ce
+      server: sg.kolan.one
+      servername: www.amd.com
+      sub_tag: 轩辕节点05
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9de91548-13ae-47bb-ab6d-2876f778a317
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_31|1.0MB/s|轩辕节点05"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 5p8tibxrTb4POwYRsXt4DkX60HzjjWWvVeTYuogcYB8
+        short-id: a6054358ff8345ce
+      server: sg.kolan.one
+      servername: www.amd.com
+      sub_tag: 轩辕节点05
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3fb5f967-0910-489d-8411-04f6184febc1
