@@ -1,7 +1,7 @@
 proxies:
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_43|4.2MB/s|GitHub-mitjavaz2"
+      name: "\U0001F1FA\U0001F1F8US_62|2.3MB/s|GitHub-mitjavaz2"
       obfs: ""
       obfs-password: ""
       password: 940f51d6-e0a4-4add-b96b-328e4a84b642
@@ -12,21 +12,8 @@ proxies:
       sub_tag: GitHub-mitjavaz2
       type: hysteria2
       up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_44|4.8MB/s|蛋黄酱-0328"
-      obfs: ""
-      obfs-password: ""
-      password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
-      port: "50053"
-      server: 5.180.30.16
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      sub_tag: 蛋黄酱-0328
-      type: hysteria2
-      up: ""
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_15|6.6MB/s|蛋黄酱-0418"
+      name: "\U0001F1EF\U0001F1F5JP_82|6.9MB/s|蛋黄酱-0418"
       network: ws
       port: "2053"
       server: josni.hoyes.cloudns.ch
@@ -42,22 +29,47 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
         path: /
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F8\U0001F1ECSG_12|1.0MB/s|蛋黄酱-0328"
-      obfs: ""
-      obfs-password: ""
-      password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
-      port: "51372"
-      server: 5.180.78.153
+    - multiplexing: MULTIPLEXING_LOW
+      name: "\U0001F1FA\U0001F1F8US_63|2.6MB/s|GitHub-anaer"
+      password: dongtaiwang.com
+      port: 34567
+      server: 157.254.223.44
+      sub_tag: GitHub-anaer
+      transport: TCP
+      type: mieru
+      username: dongtaiwang.com
+    - alpn:
+        - h3
+      auth: QMpJVYJVps
+      name: "\U0001F1FA\U0001F1F8US_64|4.3MB/s|GitHub-mitjavaz2"
+      password: QMpJVYJVps
+      port: 52341
+      server: cloudcone.20240211.xyz
       skip-cert-verify: true
-      sni: api.push.apple.com
-      sub_tag: 蛋黄酱-0328
+      sni: cloudcone.20240211.xyz
+      sub_tag: GitHub-mitjavaz2
       type: hysteria2
-      up: ""
+      udp: true
+    - client-fingerprint: random
+      name: "\U0001F1EF\U0001F1F5JP_83|12.0MB/s|蛋黄酱-0418"
+      network: ws
+      port: "443"
+      server: 172.64.53.198
+      servername: x.clayton.dpdns.org
+      sub_tag: 蛋黄酱-0418
+      tls: true
+      type: vless
+      udp: true
+      uuid: e4f949dd-4b1d-48e9-8e30-f90029e105b7
+      ws-opts:
+        headers:
+            Host: x.clayton.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: /
+      xudp: true
     - down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_45|3.3MB/s|零散节点03"
+      name: "\U0001F1FA\U0001F1F8US_65|2.7MB/s|零散节点03"
       obfs: ""
       obfs-password: ""
       password: c4748166-0de5-4253-be79-d2a8da48bdbf
@@ -68,79 +80,24 @@ proxies:
       sub_tag: 零散节点03
       type: hysteria2
       up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1ED\U0001F1F0HK_81|1.9MB/s|零散节点03"
-      obfs: ""
-      obfs-password: ""
-      password: e3a5bb40be52de65
-      port: "55555"
-      server: 89.251.26.111
-      skip-cert-verify: true
-      sni: apps.apple.com
-      sub_tag: 零散节点03
-      type: hysteria2
-      up: ""
     - cipher: 2022-blake3-aes-128-gcm
-      name: "\U0001F1EF\U0001F1F5JP_16|2.0MB/s|零散节点10"
+      name: "\U0001F1F8\U0001F1ECSG_20|2.4MB/s|零散节点10"
       password: YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==
       plugin: gost-plugin
       plugin-opts:
-        host: leajp1.337777777.xyz
+        host: sg.337777777.xyz
         mode: websocket
         mux: true
-        path: /api/v1/stream1
+        path: /api/v1/stream
         tls: false
       port: 80
-      server: openai.com
+      server: www.shopify.com
       sub_tag: 零散节点10
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1ECSG_13|7.9MB/s|零散节点07"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: "(Telegram\U0001F1E8\U0001F1F3 @)7836d8f7:130689"
-        mode: tls
-      port: 2377
-      server: 3.1.195.22
-      sub_tag: 零散节点07
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1ECSG_14|13.3MB/s|零散节点07"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: "(Telegram\U0001F1E8\U0001F1F3 @)7836d8f7:130689"
-        mode: tls
-      port: 2377
-      server: 13.212.189.76
-      sub_tag: 零散节点07
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F8\U0001F1ECSG_15|17.1MB/s|零散节点07"
-      network: grpc
-      port: 10036
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: sg1-r.link-t7.com
-      servername: s0.awsstatic.com
-      skip-cert-verify: true
-      sni: s0.awsstatic.com
-      sub_tag: 零散节点07
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1AE6EC0A-8900-490D-9C62-8A3ADF6DA6A5
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_46|5.1MB/s|零散节点07"
+      name: "\U0001F1FA\U0001F1F8US_66|4.5MB/s|零散节点07"
       network: tcp
       port: 24629
       reality-opts:
@@ -155,11 +112,45 @@ proxies:
       type: vless
       udp: true
       uuid: d5d914aa-553d-4d87-ad67-de139f13dafd
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_67|5.0MB/s|零散节点07"
+      network: tcp
+      port: 32329
+      reality-opts:
+        public-key: KZsDH5Qb-9XcGRiEPvdYOMdITVMguhCm3WF7Gh1PV1s
+        short-id: 973af3
+      server: core-hk.gdsxrk.com
+      servername: cdn-dynmedia-1.microsoft.com
+      skip-cert-verify: true
+      sni: cdn-dynmedia-1.microsoft.com
+      sub_tag: 零散节点07
+      tls: true
+      type: vless
+      udp: true
+      uuid: 991c4f2d-688b-4b60-b5e7-aed90984fd20
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US_68|5.4MB/s|零散节点07"
+      network: tcp
+      port: 32330
+      reality-opts:
+        public-key: Wkp11IYK3sG7AqowGvjl579WqbSBYGDNjrJy00YUxVM
+        short-id: 2acf
+      server: core-hk.gdsxrk.com
+      servername: cdn-dynmedia-1.microsoft.com
+      skip-cert-verify: true
+      sni: cdn-dynmedia-1.microsoft.com
+      sub_tag: 零散节点07
+      tls: true
+      type: vless
+      udp: true
+      uuid: 991c4f2d-688b-4b60-b5e7-aed90984fd20
     - alpn:
         - h3
       down: "200"
       insecure: true
-      name: "\U0001F1FA\U0001F1F8US_47|5.2MB/s|零散节点07"
+      name: "\U0001F1FA\U0001F1F8US_69|6.4MB/s|零散节点07"
       password: 6ZmhkvC8ai9fF1BO2HL5Fw9VRPcQCcfZ
       port: 443
       server: hy2.xingyao8206.xyz
@@ -174,7 +165,7 @@ proxies:
         - h3
       down: "200"
       insecure: true
-      name: "\U0001F1FA\U0001F1F8US_48|3.2MB/s|零散节点07"
+      name: "\U0001F1FA\U0001F1F8US_70|4.1MB/s|零散节点07"
       password: f4281a5fdfb44e0744d6f683
       port: 443
       server: devoracle.clarkpf.top
@@ -185,17 +176,147 @@ proxies:
       type: hysteria2
       udp: true
       up: "100"
-    - client-fingerprint: chrome
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: chrome
+      encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_49|1.8MB/s|零散节点07"
+      name: "\U0001F1F8\U0001F1ECSG_21|1.0MB/s|轩辕节点07"
       network: tcp
-      port: 22231
-      server: 85.234.114.53
-      servername: r1.mizulina.top
-      skip-cert-verify: true
-      sni: r1.mizulina.top
-      sub_tag: 零散节点07
+      port: 443
+      reality-opts:
+        public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
+        short-id: 37c94ae25b69a93a
+      server: sg1.miyazono-kaori.com
+      servername: sg-hyp-api.hoyoverse.com
+      skip-cert-verify: false
+      sub_tag: 轩辕节点07
       tls: true
       type: vless
       udp: true
-      uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+      uuid: cbd4bcd5-dfba-4369-9f06-6546529c90d7
+    - name: "\U0001F1F0\U0001F1F7KR_21|2.5MB/s|轩辕节点09"
+      password: fxQmAEauty
+      port: 27428
+      server: 50.114.114.40
+      skip-cert-verify: true
+      sni: 50.114.114.40
+      sub_tag: 轩辕节点09
+      type: hysteria2
+    - fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_71|5.1MB/s|小火箭11"
+      password: 28cb4944-9d85-4cb5-ac22-dcf118a92c2b
+      port: "64052"
+      server: bcd.94583.uk
+      skip-cert-verify: true
+      sni: 9527app.site
+      sub_tag: 小火箭11
+      type: anytls
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG_22|5.0MB/s|GHub-anaer"
+      network: ws
+      port: 2096
+      server: 172.64.146.222
+      servername: artin-7ra.pages.dev
+      sub_tag: GHub-anaer
+      tls: true
+      type: vless
+      udp: true
+      uuid: c2bad7c0-eb2c-42f6-807e-56570e8094c9
+      ws-opts:
+        headers:
+            Host: artin-7ra.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+        path: /pay/class/favourites
+      xudp: true
+    - name: "\U0001F1EF\U0001F1F5JP_84|3.4MB/s|GHub-anaer"
+      password: C6TpRY6HyT
+      port: 37749
+      server: vps-orange-jpn.maze-maker.com
+      skip-cert-verify: false
+      sni: vps-orange-jpn.maze-maker.com
+      sub_tag: GHub-anaer
+      tfo: false
+      type: hysteria2
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_72|3.9MB/s|GHub-anaer"
+      network: xhttp
+      port: 443
+      server: 104.18.152.233
+      servername: www.middle.cc.cd
+      sub_tag: GHub-anaer
+      tls: true
+      type: vless
+      udp: true
+      uuid: bdd885ff-1b3b-40fd-93d5-ac2b29b90f8b
+      xhttp-opts:
+        host: www.middle.cc.cd
+        mode: stream-one
+        path: /settings----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
+      xudp: true
+    - name: "\U0001F1F8\U0001F1ECSG_23|12.4MB/s|GHub-anaer"
+      port: 443
+      server: 13.212.52.14
+      skip-cert-verify: true
+      sub_tag: GHub-anaer
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_73|3.7MB/s|GHub-anaer"
+      port: 8443
+      server: 199.180.113.8
+      skip-cert-verify: true
+      sub_tag: GHub-anaer
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_74|2.1MB/s|GHub-anaer"
+      port: 8443
+      server: 199.168.136.105
+      skip-cert-verify: true
+      sub_tag: GHub-anaer
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_75|1.9MB/s|GHub-anaer"
+      port: 8443
+      server: 89.208.248.61
+      skip-cert-verify: true
+      sub_tag: GHub-anaer
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_76|3.7MB/s|GHub-anaer"
+      port: 8443
+      server: 45.145.73.241
+      skip-cert-verify: true
+      sub_tag: GHub-anaer
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8US_77|6.0MB/s|GHub-anaer"
+      port: 8443
+      server: 45.145.73.240
+      skip-cert-verify: true
+      sub_tag: GHub-anaer
+      tls: true
+      type: http
+    - name: "\U0001F1ED\U0001F1F0HK_111|1.8MB/s|GHub-Ruk1ng001"
+      password: <password>
+      port: 8443
+      server: 9ea0b168-t9zts0-tfjz9x-1t5n1.hkt.cdnhuawei.com
+      sni: 9ea0b168-t9zts0-tfjz9x-1t5n1.hkt.cdnhuawei.com
+      sub_tag: GHub-Ruk1ng001
+      tls: true
+      type: http
+      username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+    - name: "\U0001F1ED\U0001F1F0HK_112|1.5MB/s|GHub-Ruk1ng001"
+      password: <password>
+      port: 8443
+      server: 84a3802e-ta1og0-truoje-1uni.hkt.cdnhuawei.com
+      sni: 84a3802e-ta1og0-truoje-1uni.hkt.cdnhuawei.com
+      sub_tag: GHub-Ruk1ng001
+      tls: true
+      type: http
+      username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
