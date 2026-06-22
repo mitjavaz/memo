@@ -189,7 +189,7 @@ s3-bucket-lookup: "auto"
 sub-urls-retry: 2
 # Github Proxy，获取订阅使用，结尾要带的 /
 # github-proxy: ""
-github-proxy: "https://wget.la/"
+github-proxy: "https://ghproxy.net/"
 # 此参数更通用，适用于拉取代理、消息推送、文件上传等等
 # 写法跟环境变量一样。修改需重启生效
 # proxy: "http://username:password@192.168.1.1:7890"
@@ -206,7 +206,9 @@ sub-urls-remote:
   # - https://example.com/sub-list.txt
   # - https://example.com/sub-list.yaml
   # - https://wget.la/https://raw.githubusercontent.com/beck-8/sub-urls/main/%E5%B0%8F%E8%80%8C%E7%BE%8E.txt
-  - https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/github-nodes.yaml
+  #- https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/github-nodes.yaml
+  - http://127.0.0.1:8199/sub/github-nodes.yaml
+  - http://127.0.0.1:8199/sub/other-nodes.yaml
 
 
 # 订阅地址 支持 clash/mihomo/v2ray/base64 格式的订阅链接
@@ -214,93 +216,4 @@ sub-urls-remote:
 # github 链接可自己添加ghproxy使用；订阅链接支持 HTTP_PROXY HTTPS_PROXY 环境变量加速拉取
 # 如果用户想区分节点来源，可在订阅链接结尾加上 #备注 ，备注字段会自动加到节点命名结尾
 sub-urls:
-  #零散节点
-  - https://ldgb.pages.dev/sub?token=5238141bc3daa773b225209767b9fb2c#零散节点01
-  - https://study.small1999.sbs/study/xuexi/v999/hneko?token=9c7e839c96c2b24a1a458222bface3da#零散节点02
-  - https://k6k7.xyz/api.php?key=4686ee94acddab566bac2a9582a8943a109af35ac49c5d7b#零散节点03
-  - https://app.sublink.works/x/kbffyVY#零散节点04
-  - https://vip.putata.eu.org/zy888#零散节点05
-  - https://sub.proxygo.org/v2ray.php?key=d1a4734d32908590ccfa79fb65d9a4fa#零散节点06
-  - https://fa.zmxoo.xyz/subapi?v=20260604#零散节点07
-  - https://app.sublink.works/x/hloyRRi#零散节点08
-  - https://app.sublink.works/x/Eh4nyqN#零散节点09
-  - https://downloads.onelighter.site/api/v1/client/subscribe?token=a98566da3743cc8a3ab8e9d16190c39a#零散节点10
-  - https://app.sublink.works/x/A6VtBez#零散节点11
-  - https://hhsub.taitan.ccwu.cc/sub?uuid=890cb407-0d00-4337-9e5d-b4df06a1635c&host=auv.vavava.kdns.fr#零散节点12
-  - https://anotherdy.020118119.best/another/5ee81427e90b9c01a2e01a20daf3148e#零散节点13
-  - #零散节点14
-  - #零散节点15
-  - https://anotherdy.020118119.best/another/7f785c6097041f7a0b0364304155f3d7#零散节点16
-  - https://www.xrayvip.com/free.txt#零散节点17
-  - https://vip.putata.eu.org/zy888#零散节点18
-  - #零散节点19
-
-  #橘子分享
-  - #橘子分享01
-  - #橘子分享02
-  - #橘子分享03
-  - #橘子分享04
-  - #橘子分享05
-  - #橘子分享06
-  - #橘子分享07
-  - #橘子分享08
-  - #橘子分享09
-  - #橘子分享10
-
-  #webpay
-  - https://vip.webpay.dpdns.org/fq13#webpay01
-  - #webpay02
-  - #webpay03
-  - #webpay04
-  - #webpay05
-  - #webpay06
-  - #webpay07
-  - #webpay08
-  - #webpay09
-
-  #sublink
-  - https://app.sublink.works/x/CovT025#sublink01
-  - https://app.sublink.works/x/WVhK4Am#sublink02
-  - https://app.sublink.works/x/imSuCGn#sublink03
-  - https://app.sublink.works/x/SMJWiRU#sublink04
-  - https://app.sublink.works/x/sPiBkGp#sublink05
-  - https://app.sublink.works/x/UlRELGG#sublink06
-  - https://app.sublink.works/x/Voh9tn4#sublink07
-  - https://app.sublink.works/x/zFOdtqF#sublink08
-  - https://app.sublink.works/x/yfQA6TE#sublink09
-  - https://app.sublink.works/x/y1eBgwf#sublink10
-  - https://app.sublink.works/x/ht5qv8K#sublink11
-  - https://app.sublink.works/x/mTIs4Ym#sublink12
-  - https://app.sublink.works/x/CZW234l#sublink13
-  - https://app.sublink.works/x/PeXvTFL#sublink14
-  - https://app.sublink.works/x/rMOUR36#sublink15
-  - https://app.sublink.works/x/4AbwthL#sublink16
-  - https://app.sublink.works/x/Z8hTGKJ#sublink17
-  - https://app.sublink.works/x/rYsFoci#sublink18
-  - #sublink19
-
-  #ProxyGo
-  - #ProxyGo01
-  - https://sub.proxygo.org/v2ray.php?key=a50e71bcc9df34ec74691f5eb15342f4#ProxyGo02
-  - https://sub.proxygo.org/v2ray.php?key=fe8ae60cce744c594623a14909c14a09#ProxyGo03
-  - #ProxyGo04
-  - #ProxyGo05
-  - #ProxyGo06
-  - #ProxyGo07
-  - #ProxyGo08
-  - #ProxyGo09
-  - #ProxyGo10
-
-  #蛋黄酱节点分享：@FProxies
-
-
-  #资源分享：@txwl666
-  - https://rss.zyfx6.xyz/clash/#txwl666
-  - https://rss.zyfx6.xyz/v2rayNG/#txwl666
-
-  #SCP：@ShareCentrePro
-  - https://sub.scpnb.top/base64#SCP
-
-  #免费节点：@xrayfree
-  - https://www.xrayvip.com/free.txt
-  - https://vip.putata.eu.org/cc
+  #- 
