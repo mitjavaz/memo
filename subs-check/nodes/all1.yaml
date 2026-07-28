@@ -1,22 +1,17 @@
 proxies:
-    - multiplexing: MULTIPLEXING_LOW
-      name: "\U0001F1FA\U0001F1F8US_33|1.0MB/s|GHub-peasoft-list.meta"
-      password: dongtaiwang.com
-      port: 34567
-      server: 157.254.223.44
-      sub_tag: GHub-peasoft-list.meta
-      transport: TCP
-      type: mieru
-      username: dongtaiwang.com
-    - name: "\U0001F1ED\U0001F1F0HK_8|1.4MB/s"
-      password: c750f4ae-935d-11ed-a8bf-f23c91cfbbc9
-      port: "443"
-      server: edd14557-tcb5s0-tcoaq4-1kqxk.hkt2.cdnhuawei.com
+    - alpn:
+        - h3
+      auth: QMpJVYJVps
+      name: "\U0001F1FA\U0001F1F8US_39|3.5MB/s|GHub-mitjavaz1"
+      password: QMpJVYJVps
+      port: 52341
+      server: cloudcone.20240211.xyz
       skip-cert-verify: true
-      tls: true
-      type: http
-      username: c750f4ae-935d-11ed-a8bf-f23c91cfbbc9
-    - name: "\U0001F1FA\U0001F1F8US_34|5.1MB/s"
+      sni: cloudcone.20240211.xyz
+      sub_tag: GHub-mitjavaz1
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_40|1.1MB/s"
       password: ""
       port: "8443"
       server: 45.145.73.240
@@ -24,244 +19,106 @@ proxies:
       tls: true
       type: http
       username: ""
-    - name: "\U0001F1FA\U0001F1F8US_35|3.7MB/s|GHub-mitjavaz3"
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      port: 443
-      server: vpn-us-004.fastervpn.world
-      skip-cert-verify: true
-      sni: vpn-us-004.fastervpn.world
-      sub_tag: GHub-mitjavaz3
+    - alpn:
+        - h3
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_41|1.7MB/s|零散节点16"
+      obfs: salamander
+      obfs-password: jbxsmkwkibymsi5f
+      password: 1ecqm05bcdfcckq5
+      port: "36908"
+      server: apid.dnso.ccwu.cc
+      skip-cert-verify: false
+      sni: apid.dnso.ccwu.cc
+      sub_tag: 零散节点16
       type: hysteria2
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_6|4.3MB/s|GHub-zhuhaiuk"
-      network: grpc
-      port: "10046"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: kr1-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_7|1.4MB/s|GHub-zhuhaiuk"
-      network: grpc
-      port: "10047"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: kr2-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_8|4.3MB/s|GHub-zhuhaiuk"
-      network: grpc
-      port: "10048"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: kr3-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1ED\U0001F1F0HK_9|1.6MB/s|GHub-zhuhaiuk"
-      network: grpc
-      port: "10127"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: hk2-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: movie
-      name: "\U0001F1ED\U0001F1F0HK_10|3.9MB/s|GHub-zhuhaiuk"
-      network: grpc
-      port: "10130"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: hk5-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: movie
-      name: "\U0001F1ED\U0001F1F0HK_11|2.5MB/s|GHub-zhuhaiuk"
-      network: grpc
-      port: "10136"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: hk6-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1EF\U0001F1F5JP_8|1.1MB/s|GHub-zhuhaiuk"
-      network: grpc
+      up: ""
+    - alpn:
+        - h3
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_42|2.0MB/s|零散节点16"
+      obfs: salamander
+      obfs-password: 28um5z4724riobgy
+      password: 1ecqm05bcdfcckq5
+      port: "14281"
+      server: apid.dnso.ccwu.cc
+      skip-cert-verify: false
+      sni: apid.dnso.ccwu.cc
+      sub_tag: 零散节点16
+      type: hysteria2
+      up: ""
+    - alpn:
+        - h3
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_43|3.5MB/s|零散节点16"
+      obfs: salamander
+      obfs-password: u2frj8pd2sze7le7
+      password: 1ecqm05bcdfcckq5
       port: "10033"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: jp3-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_36|5.0MB/s|GHub-peasoft"
-      obfs: ""
-      obfs-password: ""
-      password: 3f3da036-ab8f-405e-a5fd-e7223cb39866
-      port: "443"
-      server: 72.56.22.209
+      server: apie.dnso.ccwu.cc
       skip-cert-verify: false
-      sni: h1.fogplay-mts.ru
-      sub_tag: GHub-peasoft
+      sni: apie.dnso.ccwu.cc
+      sub_tag: 零散节点16
       type: hysteria2
       up: ""
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F8\U0001F1ECSG_7|2.4MB/s|GHub-zhuhaiuk"
-      network: grpc
-      port: "10037"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: sg2-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F8\U0001F1ECSG_8|1.2MB/s|GHub-zhuhaiuk"
-      network: grpc
-      port: "10036"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: sg1-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1ED\U0001F1F0HK_12|1.3MB/s|GHub-zhuhaiuk"
-      network: grpc
-      port: "10126"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: hk1-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: GHub-zhuhaiuk
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-      xudp: true
-    - down: ""
+    - alpn:
+        - h3
+      down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_37|3.5MB/s|GHub-Ruk1ng001"
-      obfs: ""
-      obfs-password: ""
-      password: 042a1881-44e4-4781-bd40-bf75164faf4f
-      port: 443
-      server: usp.noesissite.ru
+      name: "\U0001F1FA\U0001F1F8US_44|2.8MB/s|零散节点16"
+      obfs: salamander
+      obfs-password: j3g9zw4yhgm0bz47
+      password: 1ecqm05bcdfcckq5
+      port: "47898"
+      server: apie.dnso.ccwu.cc
       skip-cert-verify: false
-      sni: usp.noesissite.ru
-      sub_tag: GHub-Ruk1ng001
+      sni: apie.dnso.ccwu.cc
+      sub_tag: 零散节点16
       type: hysteria2
       up: ""
-    - name: "\U0001F1FA\U0001F1F8US_38|3.2MB/s"
-      password: ""
-      port: "9002"
-      server: 138.199.35.197
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: ""
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E8\U0001F1F3CN_2|3.8MB/s|sublink07"
-      network: xhttp
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_45|2.5MB/s|GHub-zhuhaiuk"
+      obfs: ""
+      obfs-password: ""
+      password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
       port: "443"
-      reality-opts:
-        public-key: wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk
-        short-id: ""
-      server: 157.22.19.5
-      servername: download.nvidia.com
-      sub_tag: sublink07
-      tls: true
-      type: vless
-      udp: true
-      uuid: c97b2158-64c9-1f55-8167-72970d347288
-      xhttp-opts:
-        mode: auto
-        path: /
-      xudp: true
+      server: wopa9.api3-max.ru
+      skip-cert-verify: false
+      sni: wopa9.api3-max.ru
+      sub_tag: GHub-zhuhaiuk
+      type: hysteria2
+      up: ""
+    - alpn:
+        - h3
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_46|3.1MB/s|零散节点13"
+      obfs: salamander
+      obfs-password: ttwpfyyhthgy41gx
+      password: 1ecqm05bcdfcckq5
+      port: "27992"
+      server: apie.dnso.ccwu.cc
+      skip-cert-verify: false
+      sni: apie.dnso.ccwu.cc
+      sub_tag: 零散节点13
+      type: hysteria2
+      up: ""
+    - alpn:
+        - h3
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8US_47|1.1MB/s|零散节点13"
+      obfs: salamander
+      obfs-password: h037s9k8tyvv17ze
+      password: 1ecqm05bcdfcckq5
+      port: "32872"
+      server: apic.dnso.ccwu.cc
+      skip-cert-verify: false
+      sni: apic.dnso.ccwu.cc
+      sub_tag: 零散节点13
+      type: hysteria2
+      up: ""
