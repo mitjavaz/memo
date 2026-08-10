@@ -1,199 +1,262 @@
 proxies:
-    - alpn:
-        - h3
-      auth: QMpJVYJVps
-      name: "\U0001F1FA\U0001F1F8US_123|3.4MB/s|GHub-mitjavaz1"
-      password: QMpJVYJVps
-      port: 52341
-      server: cloudcone.20240211.xyz
+    - name: "\U0001F1FA\U0001F1F8US_112|1.6MB/s"
+      password: ""
+      port: "8443"
+      server: 45.145.73.240
       skip-cert-verify: true
-      sni: cloudcone.20240211.xyz
-      sub_tag: GHub-mitjavaz1
-      type: hysteria2
+      tls: true
+      type: http
+      username: ""
+    - name: "\U0001F1EF\U0001F1F5JP_45|13.2MB/s|零散节点27"
+      network: ws
+      password: cd5637fd-f992-423a-8be0-5b80360f26fc
+      port: 443
+      server: cdn2.bpcdn.cc
+      skip-cert-verify: false
+      sni: jpefoaweho04.jptimecsgo.xyz
+      sub_tag: 零散节点27
+      type: trojan
       udp: true
-    - alpn:
-        - h3
-      fast-open: true
-      name: "\U0001F1FA\U0001F1F8US_124|2.0MB/s|零散节点21"
-      password: 7be7750d-8914-4545-ad08-000121cec042
-      port: 50957
-      ports: null
-      server: 159.223.118.0
+      ws-opts:
+        headers:
+            Host: jpefoaweho04.jptimecsgo.xyz
+        path: /images
+    - client-fingerprint: safari
+      name: "\U0001F1F8\U0001F1ECSG_36|7.8MB/s|零散节点27"
+      network: ws
+      password: cd5637fd-f992-423a-8be0-5b80360f26fc
+      port: 443
+      server: cdn2.bpcdn.cc
       skip-cert-verify: true
-      sni: www.bing.com
-      sub_tag: 零散节点21
-      type: hysteria2
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: true
-      name: "\U0001F1FA\U0001F1F8US_125|1.2MB/s|零散节点21"
-      password: 7be7750d-8914-4545-ad08-000121cec042
-      port: 40917
-      reduce-rtt: true
-      server: 159.223.118.0
-      skip-cert-verify: true
-      sni: www.bing.com
-      sub_tag: 零散节点21
-      type: tuic
-      udp-relay-mode: native
-      uuid: 7be7750d-8914-4545-ad08-000121cec042
-    - client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_24|9.3MB/s|GHub-Ruk1ng001"
+      sni: light.bpsg2026.top
+      sub_tag: 零散节点27
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: light.bpsg2026.top
+        path: /images
+    - client-fingerprint: safari
+      name: "\U0001F1F9\U0001F1FCTW_12|2.3MB/s|零散节点27"
+      network: ws
+      password: cd5637fd-f992-423a-8be0-5b80360f26fc
+      port: 443
+      server: cdn2.bpcdn.cc
+      skip-cert-verify: false
+      sni: kfb9frqf0v.bpis2026.top
+      sub_tag: 零散节点27
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: kfb9frqf0v.bpis2026.top
+        path: /images
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1FCTW_13|8.6MB/s|GHub-zhuhaiuk"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: IqsN_cPeCP6oEXtYQMMWBiUim-r9lxq7YGj_mE3992g
+        short-id: e6d59aff03e5b0
+      server: tw4.miyazono-kaori.com
+      servername: dlcdnets.asus.com
+      sub_tag: GHub-zhuhaiuk
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1597ab39-816a-4e65-863b-9c423646df3a
+      xudp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_46|1.1MB/s|零散节点13"
       network: ws
       port: 443
-      server: freev2.cloudflare.182682.xyz
-      servername: ap-south.862400.xyz
-      sub_tag: GHub-Ruk1ng001
+      server: cfyes.ziyoufly.xyz
+      servername: cf-or-jp01.ziyoufly.xyz
+      skip-cert-verify: false
+      sub_tag: 零散节点13
       tls: true
       type: vless
-      uuid: 7f2935fa-3845-466c-9320-c17aed65f454
+      udp: true
+      uuid: 78e2612a-a429-438f-9919-9dae9aab3fd1
       ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            Host: ap-south.862400.xyz
-        max-early-data: 2048
-        path: /announcement
-    - client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_25|1.5MB/s|零散节点07"
+            Host: cf-or-jp01.ziyoufly.xyz
+        path: /ziyou
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_47|1.6MB/s|零散节点13"
       network: ws
-      port: 8443
-      server: 104.18.45.102
-      servername: kv.074167.xyz
-      skip-cert-verify: true
-      sub_tag: 零散节点07
-      tfo: false
+      port: 443
+      server: cfyes.ziyoufly.xyz
+      servername: cf-or-jp02.ziyoufly.xyz
+      skip-cert-verify: false
+      sub_tag: 零散节点13
       tls: true
       type: vless
-      uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+      udp: true
+      uuid: 78e2612a-a429-438f-9919-9dae9aab3fd1
       ws-opts:
         headers:
-            Host: kv.074167.xyz
-        path: /?ed=2560
-    - client-fingerprint: random
-      name: "\U0001F1F8\U0001F1ECSG_26|7.5MB/s|零散节点07"
+            Host: cf-or-jp02.ziyoufly.xyz
+        path: /ziyou
+    - client-fingerprint: safari
+      name: "\U0001F1EF\U0001F1F5JP_48|12.7MB/s|零散节点18"
       network: ws
-      port: 2053
-      server: 104.18.40.224
-      servername: kv.074167.xyz
-      skip-cert-verify: true
-      sub_tag: 零散节点07
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+      password: cd5637fd-f992-423a-8be0-5b80360f26fc
+      port: 443
+      server: cdn3.bpcdn.cc
+      skip-cert-verify: false
+      sni: baijofe6666.bpjp2027.top
+      sub_tag: 零散节点18
+      type: trojan
+      udp: true
       ws-opts:
         headers:
-            Host: kv.074167.xyz
-        path: /?ed=2560
+            Host: baijofe6666.bpjp2027.top
+        path: /images
+    - client-fingerprint: safari
+      name: "\U0001F1ED\U0001F1F0HK_29|10.8MB/s|零散节点18"
+      network: ws
+      password: cd5637fd-f992-423a-8be0-5b80360f26fc
+      port: 443
+      server: cdn2.bpcdn.cc
+      skip-cert-verify: false
+      sni: oe4up9z5j9yntita.tkgogocsgo.top
+      sub_tag: 零散节点18
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: oe4up9z5j9yntita.tkgogocsgo.top
+        path: /images
     - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_5|12.9MB/s|sublink10"
-      network: grpc
-      port: "10048"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: kr3-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: sublink10
+      name: "\U0001F1EF\U0001F1F5JP_49|6.3MB/s|零散节点20"
+      network: ws
+      port: 443
+      server: cfyes.ziyoufly.xyz
+      servername: cf-or-jp01.ziyoufly.xyz
+      skip-cert-verify: false
+      sub_tag: 零散节点20
       tls: true
       type: vless
       udp: true
-      uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-      xudp: true
+      uuid: 78873c1e-e9de-4583-8195-bd071ebb38d2
+      ws-opts:
+        headers:
+            Host: cf-or-jp01.ziyoufly.xyz
+        path: /ziyou
     - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_6|11.1MB/s|sublink10"
-      network: grpc
-      port: "10050"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: kr5-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: sublink10
+      name: "\U0001F1EF\U0001F1F5JP_50|1.1MB/s|零散节点21"
+      network: ws
+      port: 443
+      server: cfyes.ziyoufly.xyz
+      servername: cf-or-jp01.ziyoufly.xyz
+      skip-cert-verify: false
+      sub_tag: 零散节点21
       tls: true
       type: vless
       udp: true
-      uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EF\U0001F1F5JP_16|4.6MB/s|sublink10"
-      obfs: ""
-      obfs-password: ""
-      password: 174b2b56-6009-44f6-abc3-a8fd86ab795e
-      port: "3488"
-      server: c2.bestai.beauty
+      uuid: 66c92fe3-d4db-4876-9e87-773b4a44b0c7
+      ws-opts:
+        headers:
+            Host: cf-or-jp01.ziyoufly.xyz
+        path: /ziyou
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_51|1.7MB/s|零散节点24"
+      network: ws
+      port: 443
+      server: cfyes.ziyoufly.xyz
+      servername: cf-or-jp01.ziyoufly.xyz
+      skip-cert-verify: false
+      sub_tag: 零散节点24
+      tls: true
+      type: vless
+      udp: true
+      uuid: d2740529-3e77-4151-93b9-470bf9615d84
+      ws-opts:
+        headers:
+            Host: cf-or-jp01.ziyoufly.xyz
+        path: /ziyou
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_52|8.5MB/s|零散节点26"
+      network: ws
+      port: 443
+      server: cfyes.ziyoufly.xyz
+      servername: cf-or-jp01.ziyoufly.xyz
+      skip-cert-verify: false
+      sub_tag: 零散节点26
+      tls: true
+      type: vless
+      udp: true
+      uuid: c377ce9c-0c8b-479a-9838-c9ac4ebe7297
+      ws-opts:
+        headers:
+            Host: cf-or-jp01.ziyoufly.xyz
+        path: /ziyou
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP_53|7.1MB/s|零散节点27"
+      network: ws
+      port: 443
+      server: cfyes.ziyoufly.xyz
+      servername: cf-or-jp01.ziyoufly.xyz
+      skip-cert-verify: false
+      sub_tag: 零散节点27
+      tls: true
+      type: vless
+      udp: true
+      uuid: d21898de-6da1-421f-b3d0-f26cedafdb46
+      ws-opts:
+        headers:
+            Host: cf-or-jp01.ziyoufly.xyz
+        path: /ziyou
+    - name: "\U0001F1EF\U0001F1F5JP_54|8.5MB/s|零散节点28"
+      password: d4436c04-d0fc-4761-8120-ad5d399ba6b0
+      port: 51023
+      server: 03-e0.64afa9dc-5afd-4739-bc23-cbfdfba32695.abccba.top
       skip-cert-verify: true
-      sni: c2.bestai.beauty
-      sub_tag: sublink10
-      type: hysteria2
-      up: ""
+      sni: aplus.alibaba.com
+      sub_tag: 零散节点28
+      type: anytls
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8US_113|1.4MB/s|零散节点28"
+      password: d4436c04-d0fc-4761-8120-ad5d399ba6b0
+      port: 51043
+      server: 03-e0.64afa9dc-5afd-4739-bc23-cbfdfba32695.abccba.top
+      sni: dl.hu-yunpan.top
+      sub_tag: 零散节点28
+      type: anytls
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0HK_30|8.6MB/s|零散节点28"
+      password: d4436c04-d0fc-4761-8120-ad5d399ba6b0
+      port: 51004
+      server: 03-e0.64afa9dc-5afd-4739-bc23-cbfdfba32695.abccba.top
+      sni: dl.hu-yunpan.top
+      sub_tag: 零散节点28
+      type: anytls
+      udp: true
     - client-fingerprint: chrome
       encryption: none
       grpc-opts:
         grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_7|6.8MB/s|sublink10"
+      name: "\U0001F1ED\U0001F1F0HK_31|6.3MB/s|sublink18"
       network: grpc
-      port: "10046"
+      port: "10126"
       reality-opts:
         public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
         short-id: 686c0ef0
-      server: kr1-r.link-t7.com
+      server: hk1-r.link-t7.com
       servername: s0.awsstatic.com
-      sub_tag: sublink10
+      sub_tag: sublink18
       tls: true
       type: vless
       udp: true
-      uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1EF\U0001F1F5JP_17|13.5MB/s|sublink10"
-      network: grpc
-      port: "10035"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: jp5-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: sublink10
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      grpc-opts:
-        grpc-service-name: update
-      name: "\U0001F1F8\U0001F1ECSG_27|1.4MB/s|sublink10"
-      network: grpc
-      port: "10037"
-      reality-opts:
-        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-        short-id: 686c0ef0
-      server: sg2-r.link-t7.com
-      servername: s0.awsstatic.com
-      sub_tag: sublink10
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       grpc-opts:
         grpc-service-name: movie
-      name: "\U0001F1ED\U0001F1F0HK_10|5.4MB/s|sublink10"
+      name: "\U0001F1ED\U0001F1F0HK_32|11.6MB/s|sublink18"
       network: grpc
       port: "10129"
       reality-opts:
@@ -201,17 +264,123 @@ proxies:
         short-id: 686c0ef0
       server: hk4-r.link-t7.com
       servername: s0.awsstatic.com
-      sub_tag: sublink10
+      sub_tag: sublink18
       tls: true
       type: vless
       udp: true
-      uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_33|8.4MB/s|sublink18"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+        short-id: ea6b43
+      server: hk4.miyazono-kaori.com
+      servername: hk4e-launcher-static.hoyoverse.com
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1597ab39-816a-4e65-863b-9c423646df3a
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_34|9.0MB/s|sublink18"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
+        short-id: a2d13d677624197e
+      server: hk6.miyazono-kaori.com
+      servername: www.hsbc.com.hk
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1597ab39-816a-4e65-863b-9c423646df3a
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       grpc-opts:
         grpc-service-name: update
-      name: "\U0001F1F0\U0001F1F7KR_8|8.6MB/s|sublink10"
+      name: "\U0001F1EF\U0001F1F5JP_55|14.6MB/s|sublink18"
+      network: grpc
+      port: "10031"
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: jp1-r.link-t7.com
+      servername: s0.awsstatic.com
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1EF\U0001F1F5JP_56|8.6MB/s|sublink18"
+      network: grpc
+      port: "10032"
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: jp2-r.link-t7.com
+      servername: s0.awsstatic.com
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_25|11.7MB/s|sublink18"
+      network: grpc
+      port: "10047"
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr2-r.link-t7.com
+      servername: s0.awsstatic.com
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_26|12.3MB/s|sublink18"
+      network: grpc
+      port: "10048"
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: kr3-r.link-t7.com
+      servername: s0.awsstatic.com
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1F0\U0001F1F7KR_27|10.6MB/s|sublink18"
       network: grpc
       port: "10049"
       reality-opts:
@@ -219,35 +388,52 @@ proxies:
         short-id: 686c0ef0
       server: kr4-r.link-t7.com
       servername: s0.awsstatic.com
-      sub_tag: sublink10
+      sub_tag: sublink18
       tls: true
       type: vless
       udp: true
-      uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       grpc-opts:
         grpc-service-name: update
-      name: "\U0001F1F8\U0001F1ECSG_28|12.0MB/s|sublink10"
+      name: "\U0001F1F0\U0001F1F7KR_28|11.8MB/s|sublink18"
       network: grpc
-      port: "10038"
+      port: "10050"
       reality-opts:
         public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
         short-id: 686c0ef0
-      server: sg3-r.link-t7.com
-      servername: d1.awsstatic.com
-      sub_tag: sublink10
+      server: kr5-r.link-t7.com
+      servername: s0.awsstatic.com
+      sub_tag: sublink18
       tls: true
       type: vless
       udp: true
-      uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F0\U0001F1F7KR_29|8.0MB/s|sublink18"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: aVGSSemhxqqDg75lUDBxCNZZXfuBb4QrU8yZYnJD6nk
+        short-id: f554f56d31
+      server: kr1.miyazono-kaori.com
+      servername: www.coway.com
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1597ab39-816a-4e65-863b-9c423646df3a
       xudp: true
     - client-fingerprint: chrome
       encryption: none
       grpc-opts:
         grpc-service-name: update
-      name: "\U0001F1F8\U0001F1ECSG_29|13.2MB/s|sublink10"
+      name: "\U0001F1F8\U0001F1ECSG_37|14.2MB/s|sublink18"
       network: grpc
       port: "10036"
       reality-opts:
@@ -255,9 +441,162 @@ proxies:
         short-id: 686c0ef0
       server: sg1-r.link-t7.com
       servername: s0.awsstatic.com
-      sub_tag: sublink10
+      sub_tag: sublink18
       tls: true
       type: vless
       udp: true
-      uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1F8\U0001F1ECSG_38|9.0MB/s|sublink18"
+      network: grpc
+      port: "10037"
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: sg2-r.link-t7.com
+      servername: s0.awsstatic.com
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1F8\U0001F1ECSG_39|13.2MB/s|sublink18"
+      network: grpc
+      port: "10038"
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: sg3-r.link-t7.com
+      servername: d1.awsstatic.com
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: F5516AD2-22A9-413B-8DBE-60B72D30D31F
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_40|12.3MB/s|sublink18"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: Oh-r_LCdfRhSzm9zQEv-0jMO57hebZJzOmSTTGveh2c
+        short-id: 5f2ca3da385c
+      server: sg2.miyazono-kaori.com
+      servername: sg-hyp-api.hoyoverse.com
+      sub_tag: sublink18
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1597ab39-816a-4e65-863b-9c423646df3a
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      grpc-opts:
+        grpc-service-name: update
+      name: "\U0001F1F8\U0001F1ECSG_41|10.6MB/s|sublink19"
+      network: grpc
+      port: "10038"
+      reality-opts:
+        public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+        short-id: 686c0ef0
+      server: sg3-r.link-t7.com
+      servername: d1.awsstatic.com
+      sub_tag: sublink19
+      tls: true
+      type: vless
+      udp: true
+      uuid: A50A5381-3B96-42D6-927B-9F505FD859B2
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_42|8.6MB/s|sublink19"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: SChM_MUYbRz8lzGu19qFDpFaBxok7CTorYM04zxgL1o
+        short-id: fd733ad36894c4a3
+      server: 52.77.22.203
+      servername: www.cloudflare.com
+      sub_tag: sublink19
+      tls: true
+      type: vless
+      udp: true
+      uuid: 769d922d-9ca6-4ba9-81f2-a6df0a0c4531
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1ECSG_43|12.1MB/s|sublink19"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
+        short-id: 37c94ae25b69a93a
+      server: sg1.miyazono-kaori.com
+      servername: sg-hyp-api.hoyoverse.com
+      sub_tag: sublink19
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1597ab39-816a-4e65-863b-9c423646df3a
+      xudp: true
+    - client-fingerprint: random
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_44|9.8MB/s|sublink19"
+      network: ws
+      port: "443"
+      server: ct.877774.xyz
+      servername: ap-south.862400.xyz
+      sub_tag: sublink19
+      tls: true
+      type: vless
+      udp: true
+      uuid: e30df0c8-d1f1-4ede-a6e6-9ec050decd2f
+      ws-opts:
+        headers:
+            Host: ap-south.862400.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+        path: /announcement
+      xudp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1F8\U0001F1ECSG_45|1.4MB/s|sublink19"
+      obfs: ""
+      obfs-password: ""
+      password: TNHYjoVDARHH9fU3scgPChy
+      port: "63569"
+      server: sg3.tangnin.top
+      skip-cert-verify: false
+      sni: sg3.tangnin.top
+      sub_tag: sublink19
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK_35|11.1MB/s|sublink19"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
+        short-id: b81edf7fdee4
+      server: hk3.miyazono-kaori.com
+      servername: hk4e-launcher-static.hoyoverse.com
+      sub_tag: sublink19
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1597ab39-816a-4e65-863b-9c423646df3a
       xudp: true
