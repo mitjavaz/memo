@@ -9,6 +9,11 @@ speed-concurrent: 5
 # 流媒体检测并发数（默认等于concurrent）
 media-concurrent: 5
 
+# 是否打乱节点的测试顺序（仅影响测试先后，输出顺序保持订阅原序不变）
+# 开启后可避免同机场相邻节点、同节点的多个协议被扎堆在同一时间窗口测试，
+# 从而降低相邻IP一起出问题、互相干扰的概率
+shuffle-test-order: true
+
 # 检查间隔(分钟)
 # 必须大于0，小于等于0会设置间隔1分钟
 check-interval: 3600
@@ -188,6 +193,11 @@ s3-bucket-lookup: "auto"
 
 # 重试次数(获取订阅失败后重试次数)
 sub-urls-retry: 2
+# 订阅下载并发数(控制同时拉取多少个订阅链接)
+sub-urls-concurrent: 5
+# 获取订阅时使用的UA；如果设置random将会使用随机UA获取订阅
+sub-urls-get-ua: "random"
+# sub-urls-get-ua: "clash.meta (https://github.com/beck-8/subs-check)"
 # Github Proxy，获取订阅使用，结尾要带的 /
 # github-proxy: ""
 #github-proxy: "https://ghproxy.net/"
@@ -200,6 +210,10 @@ github-proxy: "https://ghfast.top/"
 proxy: ""
 # 符合条件节点数量的占比，低于此值会将订阅链接打印出来，用于排查质量差的订阅
 success-rate: 0
+
+# 是否允许 IPv6/AAAA 解析和连接
+ipv6: true
+
 # 远程订阅清单地址；用于集中维护多个订阅链接，避免频繁修改本地文件
 # 支持两种格式：
 # 1) 纯文本：按行分隔，支持 # 注释与空行
@@ -219,4 +233,4 @@ sub-urls-remote:
 # github 链接可自己添加ghproxy使用；订阅链接支持 HTTP_PROXY HTTPS_PROXY 环境变量加速拉取
 # 如果用户想区分节点来源，可在订阅链接结尾加上 #备注 ，备注字段会自动加到节点命名结尾
 sub-urls:
-  #- 
+  # - https://example.com/sub-list.txt
