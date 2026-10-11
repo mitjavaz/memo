@@ -99,23 +99,23 @@ proxy-groups:
     max-failed-times: 5
 
 rule-providers:
-  noVPN:
+  proxy:
     type: http
-    path: ./noVPN.yaml
-    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/noVPN.list"
+    path: ./proxy.yaml
+    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/ClashRules/rule/proxy.yaml"
     interval: 3600
     behavior: classical
     format: text
-  stopVPN:
+  AD:
     type: http
-    path: ./stopVPN.yaml
-    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/stopVPN.list"
+    path: ./AD.yaml
+    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/ClashRules/rule/AD.yaml"
     interval: 3600
     behavior: classical
     format: text
 
 rules:
-  - RULE-SET,noVPN,DIRECT
-  - RULE-SET,stopVPN,REJECT
+  - RULE-SET,proxy,🔰 代理模式
+  - RULE-SET,AD,REJECT
   - GEOIP,CN,DIRECT
-  - MATCH,🔰 代理模式
+  - MATCH,DIRECT
