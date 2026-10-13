@@ -1,57 +1,21 @@
 proxies:
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US_201|2.2MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: D60iOtqNjmdrTCjl7Ik_SH3Rpx8D1Pz9HDFyzJmFP3Q
-        short-id: 1bbf8c324c8be18c
-      server: 38.207.171.2
-      servername: www.apple.com
-      tls: true
-      type: vless
+    - alpn:
+        - h3
+      auth: QMpJVYJVps
+      name: "\U0001F1FA\U0001F1F8US_89|2.0MB/s|GHub-mitjavaz1"
+      password: QMpJVYJVps
+      port: 52341
+      server: cloudcone.20240211.xyz
+      skip-cert-verify: true
+      sni: cloudcone.20240211.xyz
+      sub_tag: GHub-mitjavaz1
+      type: hysteria2
       udp: true
-      uuid: f1ee47ae-8c55-4b39-a20e-0b768a4cdfaf
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_19|4.2MB/s"
-      network: ws
-      port: "443"
-      server: 43.175.131.30
-      servername: edgetunnel-7w6.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
-      ws-opts:
-        headers:
-            Host: edgetunnel-7w6.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_40|5.9MB/s"
-      network: ws
-      port: "443"
-      server: 8.35.211.85
-      servername: edgetunnel-7w6.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
-      ws-opts:
-        headers:
-            Host: edgetunnel-7w6.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /
-      xudp: true
     - alpn:
         - h3
         - h2
       client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_19|10.2MB/s|GHub-chengaopan"
+      name: "\U0001F1EF\U0001F1F5JP_18|12.7MB/s|GHub-chengaopan"
       network: ws
       port: "443"
       server: saas.sin.fan
@@ -67,85 +31,91 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
         path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chrome
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_202|1.2MB/s|GHub-chengaopan"
-      password: ""
-      port: "443"
-      server: 45.63.38.134
-      skip-cert-verify: true
-      sub_tag: GHub-chengaopan
-      tls: true
-      type: http
-      username: ""
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_20|1.6MB/s|GHub-free18"
-      port: 32590
-      reality-opts:
-        public-key: CiI5eIWAfESv03_Rv719gCxgloug9beZIHagH3TEVGM
-        short-id: ee
-      server: game-cloud-hk.xnncl.com
-      servername: osxapps.itunes.apple.com
-      skip-cert-verify: true
-      sub_tag: GHub-free18
-      tls: true
-      type: vless
-      udp: true
-      uuid: 45938515-0eb8-4aa7-8f0d-4b63a55e5228
-    - client-fingerprint: chrome
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_41|1.3MB/s"
+      name: "\U0001F1FA\U0001F1F8US_90|7.0MB/s"
       network: ws
       port: "443"
-      server: 188.164.248.108
-      servername: 255038.xyz
+      server: minimize-evenness.cdn-content.com
+      servername: minimize-evenness.cdn-content.com
       tls: true
       type: vless
       udp: true
-      uuid: 0740c4b8-2f51-42b9-859a-34d750822dbb
+      uuid: ad6a20fb-5484-4c59-b745-662afe232270
       ws-opts:
         headers:
-            Host: 255038.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
-        path: /
+            Host: minimize-evenness.cdn-content.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /ws
       xudp: true
-    - client-fingerprint: chrome
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_203|5.6MB/s"
-      network: ws
-      port: "8443"
-      server: 179.255.120.31
-      servername: edgetunnel-7w6.pages.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
-      ws-opts:
-        headers:
-            Host: edgetunnel-7w6.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F8\U0001F1ECSG_42|1.7MB/s"
+      name: "\U0001F1FA\U0001F1F8US_91|6.8MB/s"
       network: ws
       port: "443"
-      server: cf.090227.xyz
-      servername: edgetunnel-7w6.pages.dev
+      server: adheres-scruple.quick-cdn.net
+      servername: adheres-scruple.quick-cdn.net
       tls: true
       type: vless
       udp: true
-      uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
+      uuid: ad6a20fb-5484-4c59-b745-662afe232270
       ws-opts:
         headers:
-            Host: edgetunnel-7w6.pages.dev
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /
+            Host: adheres-scruple.quick-cdn.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /ws
       xudp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EF\U0001F1F5JP_20|13.8MB/s"
-      password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-      port: "22073"
+    - cipher: aes-128-gcm
+      name: "\U0001F1F8\U0001F1ECSG_12|2.8MB/s"
+      password: 9c51ca33-a332-4de5-8677-5624e940097c
+      port: "40023"
       server: ruot.ayucloudservices.nl
       type: ss
       udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EF\U0001F1F5JP_19|3.3MB/s"
+      password: 9c51ca33-a332-4de5-8677-5624e940097c
+      port: "22034"
+      server: ruot.ayucloudservices.nl
+      type: ss
+      udp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_92|7.3MB/s"
+      network: ws
+      port: "443"
+      server: piracy-android.video-streams.org
+      servername: piracy-android.video-streams.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: ad6a20fb-5484-4c59-b745-662afe232270
+      ws-opts:
+        headers:
+            Host: piracy-android.video-streams.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: random
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_13|5.8MB/s"
+      network: ws
+      port: "443"
+      server: freev2.cloudflare.182682.xyz
+      servername: ap-south.862400.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4d54856d-f842-4121-8571-6136e8e6e642
+      ws-opts:
+        headers:
+            Host: ap-south.862400.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+        path: /announcement?ed=2048
+      xudp: true
