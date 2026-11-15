@@ -30,30 +30,19 @@ log-level: silent
 # 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
 ipv6: true
 
+#请求外部节点组
 proxy-providers:
-  all1:
+  chatGPT:
     type: http
-    url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all1.yaml
+    url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/chatGPT.yaml
     interval: 3600
     path: ./proxy_provider/all1.yaml
-  all2:
-    type: http
-    url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all2.yaml
-    interval: 3600
-    path: ./proxy_provider/all2.yaml
-  all3:
-    type: http
-    url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all3.yaml
-    interval: 3600
-    path: ./proxy_provider/all3.yaml
 
+#代理分组
 proxy-groups:
   - name: "🚀 代理模式"
     type: select
     proxies:
-      - ✋ 节点一组
-      - ✋ 节点二组
-      - ✋ 节点三组
       - ♻️ 测速策略
       - ♻️ 回滚策略
     url: 'https://www.youtube.com/generate_204'
@@ -70,16 +59,6 @@ proxy-groups:
     type: select
     use:
       - all1
-      
-  - name: "✋ 节点二组"
-    type: select
-    use:
-      - all2
-
-  - name: "✋ 节点三组"
-    type: select
-    use:
-      - all3
 
   - name: "♻️ 测速策略"
     type: url-test
@@ -105,6 +84,7 @@ proxy-groups:
     timeout: 5000
     max-failed-times: 5
 
+
 rule-providers:
   PROXY:
     type: http
@@ -113,24 +93,18 @@ rule-providers:
     interval: 3600
     behavior: classical
     format: text
-  AD:
+  chatGPT:
     type: http
-    path: ./AD_rules.yaml
-    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/ClashRules/rule/AD_rules.yaml"
-    interval: 3600
-    behavior: classical
-    format: text
-  OTHER:
-    type: http
-    path: ./other_rules.yaml
-    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/ClashRules/rule/other_rules.yaml"
+    path: ./proxy_rules.yaml
+    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/ClashRules/rule/chatGPT_rules.yaml"
     interval: 3600
     behavior: classical
     format: text
 
 rules:
   - RULE-SET,PROXY,🚀 代理模式
-  - RULE-SET,OTHER,✋ 不确定组
+  - RULE-SET,OTHER,🚀 不确定组
+  - RULE-SET,OTHER,🚀 chatGPT
   - RULE-SET,AD,REJECT
   - GEOIP,CN,DIRECT
   - MATCH,DIRECT
