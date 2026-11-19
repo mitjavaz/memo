@@ -3,17 +3,17 @@ socks-port: 7891
 minxed-port: 10801
 
 # 允许局域网连接
-allow-lan: true 
+allow-lan: true
 # 设置跳过验证的 IP 段
-skip-auth-prefixes: 
+skip-auth-prefixes:
   - 127.0.0.1/8
   - ::1/128
 # 允许连接的 IP 地址段，仅作用于 allow-lan 为 true, 默认值为 0.0.0.0/0 和::/0
-lan-allowed-ips:   
+lan-allowed-ips:
   - 0.0.0.0/0
   - ::/0
 # 禁止连接的 IP 地址段，黑名单优先级高于白名单，默认值为空
-lan-disallowed-ips: 
+lan-disallowed-ips:
   - 192.168.0.3/32
 
 #  find-process-mode has 3 values:always, strict, off
@@ -25,7 +25,7 @@ find-process-mode: strict
 mode: rule
 
 # 日志等级 silent/error/warning/info/debug
-log-level: silent 
+log-level: silent
 
 # 开启 IPv6 总开关，关闭阻断所有 IPv6 链接和屏蔽 DNS 请求 AAAA 记录
 ipv6: true
@@ -34,39 +34,39 @@ ipv6: true
 proxy-providers:
   chatGPT:
     type: http
-    url:  https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/chatGPT.yaml
+    url: https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/chatGPT.yaml
     interval: 3600
-    path: ./proxy_provider/all1.yaml
+    path: ./proxy_provider/chatGPT.yaml
+  all:
+    type: http
+    url: https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/refs/heads/master/subs-check/nodes/all.yaml
+    interval: 3600
+    path: ./proxy_provider/all.yaml
 
 #代理分组
 proxy-groups:
   - name: "🚀 代理模式"
     type: select
     proxies:
+      - 🚀 节点集合
       - ♻️ 测速策略
       - ♻️ 回滚策略
-    url: 'https://www.youtube.com/generate_204'
-    timeout: 3000
-    max-failed-times: 5
 
-  - name: "✋ 不确定组"
+  - name: "🚀 节点集合"
     type: select
     use:
-      - 🚀 代理模式
-      - DIRECT
+      - all
 
-  - name: "✋ 节点一组"
+  - name: "🚀 GPT代理"
     type: select
     use:
-      - all1
+      - chatGPT
 
   - name: "♻️ 测速策略"
     type: url-test
     use:
-      - all1
-      - all2
-      - all3
-    url: 'https://www.youtube.com/generate_204'
+      - all
+    url: "https://www.youtube.com/generate_204"
     interval: 600
     lazy: true
     timeout: 5000
@@ -75,36 +75,38 @@ proxy-groups:
   - name: "♻️ 回滚策略"
     type: url-test
     use:
-      - all1
-      - all2
-      - all3
-    url: 'https://www.youtube.com/generate_204'
+      - all
+    url: "https://www.youtube.com/generate_204"
     interval: 600
     lazy: true
     timeout: 5000
     max-failed-times: 5
 
-
 rule-providers:
-  PROXY:
+  PROXY_RULES:
     type: http
     path: ./proxy_rules.yaml
     url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/ClashRules/rule/proxy_rules.yaml"
     interval: 3600
     behavior: classical
     format: text
-  chatGPT:
+  chatGPT_RULES:
     type: http
     path: ./proxy_rules.yaml
     url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/ClashRules/rule/chatGPT_rules.yaml"
     interval: 3600
     behavior: classical
     format: text
+  AD_RULES:
+    type: http
+    path: ./AD_rules.yaml
+    url: "https://wget.la/https://raw.githubusercontent.com/mitjavaz/memo/master/ClashRules/rule/AD_rules.yaml"
+    interval: 3600
+    behavior: classical
+    format: text
 
 rules:
-  - RULE-SET,PROXY,🚀 代理模式
-  - RULE-SET,OTHER,🚀 不确定组
-  - RULE-SET,OTHER,🚀 chatGPT
-  - RULE-SET,AD,REJECT
-  - GEOIP,CN,DIRECT
+  - RULE-SET,PROXY_RULES,🚀 代理模式
+  - RULE-SET,chatGPT_RULES,🚀 GPT代理
+  - RULE-SET,AD_RULES,REJECT
   - MATCH,DIRECT
