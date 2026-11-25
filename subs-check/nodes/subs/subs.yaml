@@ -60,7 +60,8 @@ proxy-groups:
   - name: "🚀 GPT代理"
     type: select
     use:
-      - chatGPT
+      - all
+    exclude-fliter: "GPT"
 
   - name: "♻️ 测速策略"
     type: url-test
@@ -69,18 +70,14 @@ proxy-groups:
     url: "https://www.youtube.com/generate_204"
     interval: 600
     lazy: true
-    timeout: 5000
-    max-failed-times: 5
 
   - name: "♻️ 回滚策略"
-    type: url-test
+    type: fallback
     use:
       - all
     url: "https://www.youtube.com/generate_204"
     interval: 600
     lazy: true
-    timeout: 5000
-    max-failed-times: 5
 
 rule-providers:
   PROXY_RULES:
