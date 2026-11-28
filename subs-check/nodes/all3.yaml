@@ -1,23 +1,8 @@
 proxies:
-    - name: "\U0001F1F9\U0001F1FCTW_11|1.3MB/s|GPT⁺-TW"
-      password: f8eca8df-a1a5-4918-a194-d34112a3673f
-      port: "12443"
-      server: tcU654714155239b.tnode.kwaicdnkuaishou.com
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    - name: "\U0001F1EF\U0001F1F5JP_24|1.1MB/s|GPT⁺-JP|GHub-ermaozi"
-      port: 40583
-      server: 120.232.204.58
-      skip-cert-verify: true
-      sub_tag: GHub-ermaozi
-      tls: true
-      type: http
     - alpn:
         - h3
       auth: QMpJVYJVps
-      name: "\U0001F1FA\U0001F1F8US_107|2.7MB/s|GPT⁺-US|GHub-mitjavaz1"
+      name: "\U0001F1FA\U0001F1F8US_189|2.1MB/s|GPT⁺-US|GHub-mitjavaz1"
       password: QMpJVYJVps
       port: 52341
       server: cloudcone.20240211.xyz
@@ -29,8 +14,24 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_190|5.9MB/s|GPT-US"
+      network: ws
+      port: 443
+      server: minimize-evenness.cdn-content.com
+      servername: minimize-evenness.cdn-content.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 67f01888-2fe6-42c0-8b61-83beda540301
+      ws-opts:
+        headers:
+            Host: minimize-evenness.cdn-content.com
+        path: /ws
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_108|7.1MB/s|GPT⁺-US"
+      name: "\U0001F1FA\U0001F1F8US_191|7.0MB/s|GPT⁺-US"
       network: ws
       port: "443"
       server: ghosts-spasm.quick-cdn.net
@@ -49,7 +50,7 @@ proxies:
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_109|7.3MB/s|GPT⁺-US"
+      name: "\U0001F1FA\U0001F1F8US_192|3.8MB/s|GPT⁺-US"
       network: ws
       port: "443"
       server: grimness-backlogs.cdn-content.com
@@ -57,18 +58,18 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: ae119389-67f1-4c3a-94d0-5f3d7c3f563f
+      uuid: 8527128d-1d6b-4a69-971b-19762c0c7fa0
       ws-opts:
         headers:
             Host: grimness-backlogs.cdn-content.com
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
         path: /ws
       xudp: true
     - alpn:
         - http/1.1
       client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US_110|7.3MB/s|GPT⁺-US"
+      name: ❓Other_117|6.0MB/s|GPT⁺-US
       network: ws
       port: "443"
       server: bounded-crammed.video-streams.org
@@ -76,350 +77,503 @@ proxies:
       tls: true
       type: vless
       udp: true
-      uuid: ae119389-67f1-4c3a-94d0-5f3d7c3f563f
+      uuid: 69a49cab-5eb7-4624-9fca-d4160b573fa0
       ws-opts:
         headers:
             Host: bounded-crammed.video-streams.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
         path: /ws
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8US_111|5.7MB/s|GPT⁺-US|GHub-chengaopan"
-      password: ""
-      port: "58764"
-      server: 118.184.140.90
-      skip-cert-verify: true
-      sub_tag: GHub-chengaopan
-      tls: true
-      type: http
-      username: ""
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_21|9.8MB/s|GPT⁺-SG"
-      password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_193|5.6MB/s|GPT"
+      network: ws
       port: "443"
-      server: atrsg1.hikigo.com
-      skip-cert-verify: false
-      sni: atrsg1.hikigo.com
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_18|6.5MB/s"
-      network: tcp
-      port: "10540"
-      reality-opts:
-        public-key: pRZJDZgN_twRpO_4NJTiVp_IiSgU4-XLI9hoXfgUzXo
-        short-id: ""
-      server: xjc02.clkhd.quest
-      servername: itunes.apple.com
+      server: barbered-mattocks.video-streams.org
+      servername: barbered-mattocks.video-streams.org
       tls: true
       type: vless
       udp: true
-      uuid: 50c5f13f-d6fd-4ba7-8bc3-7898d28941f2
+      uuid: 976bc224-0519-4b1e-859d-a487eb442508
+      ws-opts:
+        headers:
+            Host: barbered-mattocks.video-streams.org
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /ws
       xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_112|3.3MB/s|GPT⁺-US"
-      obfs: ""
-      obfs-password: ""
-      password: fanvpn.net
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_194|6.7MB/s|GPT⁺-US"
+      network: ws
       port: "443"
-      server: 104.233.178.179
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EC\U0001F1E7GB_8|1.7MB/s|GPT⁺-GB"
-      obfs: ""
-      obfs-password: ""
-      password: 1ZrL80kT0YUaGe7P
-      port: "26001"
-      server: 18.132.247.166
-      skip-cert-verify: true
-      sni: uk-ls-b-2.hogbvdxheortndkhdgws.uk
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1EC\U0001F1E7GB_9|1.5MB/s|GPT⁺-GB"
-      obfs: ""
-      obfs-password: ""
-      password: BpjJVct89R6tOVof
-      port: "46001"
-      server: 18.175.218.169
-      skip-cert-verify: true
-      sni: uk-ls-c-2.hogbvdxheortndkhdgws.uk
-      type: hysteria2
-      up: ""
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_19|7.9MB/s"
-      network: tcp
-      port: "13001"
-      reality-opts:
-        public-key: U0-VFkqU1erVqBKpJl7AUTUQVojRMI1pFGaeTStYKzU
-        short-id: ad53de2a6e2a89f2
-      server: 18.167.173.90
-      servername: www.apple.com
+      server: barbered-mattocks.video-streams.org
+      servername: barbered-mattocks.video-streams.org
       tls: true
       type: vless
       udp: true
-      uuid: 26351cd7-7d53-4f70-959f-6f1d2e234c97
+      uuid: cbd0ff6d-2dff-4ceb-a049-388d9a8079fc
+      ws-opts:
+        headers:
+            Host: barbered-mattocks.video-streams.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /ws
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_20|7.6MB/s"
-      network: tcp
-      port: "13001"
-      reality-opts:
-        public-key: pEHQmDh2wd7Fm50VamEtx4zBCHbXB8TpdIx2zx2leFI
-        short-id: 2ad8d2af03ec049c
-      server: 95.40.8.161
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1bec16dd-346d-4958-abcc-9e6828d0c732
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_21|7.8MB/s"
-      network: tcp
-      port: "13001"
-      reality-opts:
-        public-key: E11DKppvCNZV_JOC1JOof_4ngHDJUH9MR6ooRoU9F3w
-        short-id: 47bca11a54d4effd
-      server: 16.162.90.133
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: ada5384a-0d74-4884-82ed-fda442bfe17d
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK_22|7.6MB/s"
-      network: tcp
-      port: "33001"
-      reality-opts:
-        public-key: 58MZ920jtXXnrYfCz6v518LDgZ07fLXyJhsNV3pil2Q
-        short-id: 351820a3038ce313
-      server: 95.40.49.208
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1cad0e4e-a882-45ed-bd78-9eeca007deba
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_25|9.7MB/s|GPT⁺-JP"
-      network: tcp
-      port: "13001"
-      reality-opts:
-        public-key: 21eDPVz-SU8L89kfYcEwgeQgnRtNvabKBQ118Tf-rj8
-        short-id: e94edf1e882a407f
-      server: 13.193.179.200
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 28591687-7d32-4ae9-b93e-a9ae9f14e238
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_26|10.1MB/s|GPT⁺-JP"
-      network: tcp
-      port: "13001"
-      reality-opts:
-        public-key: eljLdiEpYO1lDBPHyeCtRrkLFliTcgzThYJWC6oG0kY
-        short-id: 1c3ce57cdb10ed3f
-      server: 43.207.69.62
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 28be268e-0e71-4198-9530-0fcee8257779
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_27|9.9MB/s|GPT⁺-JP"
-      network: tcp
-      port: "33001"
-      reality-opts:
-        public-key: HQH_lT_ijIWiPh5MctR0KtnvNmBaqlUWrkguhRmXoUc
-        short-id: 499d8b035907bcf1
-      server: 13.196.203.78
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7b650676-08bc-4090-894f-40a89ba422ef
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5JP_28|10.1MB/s|GPT⁺-JP"
-      network: tcp
-      port: "33001"
-      reality-opts:
-        public-key: DaaKEt7nY76mnA9i1J-kihjTVsOQuBmBb9bYkq8dcHk
-        short-id: b856a385736a82ad
-      server: 13.196.195.32
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 409c5331-416a-4cb9-97f3-fff62261bde9
-      xudp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F0\U0001F1F7KR_9|15.8MB/s|GPT⁺-KR"
-      obfs: ""
-      obfs-password: ""
-      password: 6zVRL5opc8reZEHK
-      port: "26001"
-      server: 54.116.37.12
-      skip-cert-verify: true
-      sni: kor-ls-b-1.nebulacloud.win
-      type: hysteria2
-      up: ""
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7KR_10|7.8MB/s|GPT⁺-KR"
-      network: tcp
-      port: "23001"
-      reality-opts:
-        public-key: -hC1OaJkwzYfDkbwNqUqnjk04vVoz4wmXdNHinPndj8
-        short-id: 56804668dcf81f39
-      server: 54.116.218.160
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 055202d4-2036-42c5-b714-0680bb613905
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1F7KR_11|5.7MB/s|GPT⁺-KR"
-      network: tcp
-      port: "13001"
-      reality-opts:
-        public-key: JhP7Ksu4JWaeOSFsLGrHO0iwQzcVdWSP9IggEOW51Sk
-        short-id: d042c14b439ec0e2
-      server: 43.203.156.207
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: e4520408-a99a-487b-a6ae-e1ec45b0fc91
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_22|10.1MB/s|GPT⁺-SG"
-      network: tcp
-      port: "33001"
-      reality-opts:
-        public-key: IWg2H9-Qaxow4jssHGj1vmXOTE688OtXvZkENPGTjTk
-        short-id: 96d574847855464b
-      server: 18.138.35.117
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3486d03c-d779-4055-8c58-eafe277c88a4
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_23|11.8MB/s|GPT⁺-SG"
-      network: tcp
-      port: "13001"
-      reality-opts:
-        public-key: Tnx7IJyvLGhF595CiBIa8AdbIfOdFE_qneZd0GUWIW8
-        short-id: fa1d6d58307d080e
-      server: 18.138.229.206
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5db7052a-6fb0-4f52-a1dd-b590b4115189
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_24|10.6MB/s|GPT⁺-SG"
-      network: tcp
-      port: "43001"
-      reality-opts:
-        public-key: KfqZfR4niXrS7eO9xEgeGi26Wk3k_qjZ5u3_vOGVRRA
-        short-id: 262ad980172bf90c
-      server: 47.129.177.136
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 71af3b58-4fcb-4fe3-9d33-5d5bf64de393
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG_25|15.5MB/s|GPT-SG"
-      network: tcp
-      port: "53001"
-      reality-opts:
-        public-key: vkD8SJwiHu1ukIyXQ8aSCIkI0FUbSjNGoRvLgFPpH1I
-        short-id: 48f24109c14825cd
-      server: 13.250.118.47
-      servername: www.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: d9c9e5e0-410d-48e8-a5cb-a0b0cbf77c42
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_26|1.3MB/s|GPT⁺-SG"
-      network: tcp
-      password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      name: "\U0001F1FA\U0001F1F8US_195|5.8MB/s|GPT⁺-US"
+      network: ws
       port: "443"
-      server: hkzfsg1.mateflora.com
-      skip-cert-verify: false
-      sni: hkzfsg1.mateflora.com
-      type: trojan
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
       udp: true
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1F8\U0001F1ECSG_27|18.9MB/s|GPT⁺-SG"
-      obfs: ""
-      obfs-password: ""
-      password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+      uuid: 5fad7d07-0df5-49ce-9bb4-33338246214f
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_196|6.0MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: barbered-mattocks.video-streams.org
+      servername: barbered-mattocks.video-streams.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: f0c7f371-8a23-4754-aba2-5774601c61f8
+      ws-opts:
+        headers:
+            Host: barbered-mattocks.video-streams.org
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: ❓Other_118|6.1MB/s|GPT-US
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 941f0975-5bf3-41ca-b548-c51cd6837889
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_197|5.2MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8feecf33-948d-4314-84b3-f7af0d8d0493
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_198|5.9MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1f74df28-f4c8-44ad-8a14-f10d003a05cc
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_199|6.1MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 958775c8-2447-4b1e-bbba-6f75c7872d05
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_200|4.7MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: barbered-mattocks.video-streams.org
+      servername: barbered-mattocks.video-streams.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: a30678ea-17fa-4b2c-9664-fabd67c01146
+      ws-opts:
+        headers:
+            Host: barbered-mattocks.video-streams.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_201|5.5MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: a30678ea-17fa-4b2c-9664-fabd67c01146
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_202|7.0MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: ec337945-870f-42f0-bda0-84fa67d0f0e3
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_203|5.5MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: barbered-mattocks.video-streams.org
+      servername: barbered-mattocks.video-streams.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: de0a8f24-439a-489a-844e-e1336ab1586a
+      ws-opts:
+        headers:
+            Host: barbered-mattocks.video-streams.org
+            User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_204|5.5MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: de0a8f24-439a-489a-844e-e1336ab1586a
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_205|5.7MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: ec5bf19c-9eb0-410e-a3de-17b6befd09f1
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_206|7.0MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: barbered-mattocks.video-streams.org
+      servername: barbered-mattocks.video-streams.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: ec5bf19c-9eb0-410e-a3de-17b6befd09f1
+      ws-opts:
+        headers:
+            Host: barbered-mattocks.video-streams.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_20|2.2MB/s"
+      network: ws
+      port: "443"
+      server: 85.189.40.148
+      servername: senflarelink-node-npq9cm.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-npq9cm.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1ECSG_27|1.5MB/s|GPT⁺-SG"
+      network: ws
+      port: "443"
+      server: 18.140.52.118
+      servername: senflarelink-node-l0zzug.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-l0zzug.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_207|1.5MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: 45.78.68.63
+      servername: senflarelink-node-zp5xc3.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-zp5xc3.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_208|3.6MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: 95.169.7.52
+      servername: senflarelink-node-x0ud9q.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-x0ud9q.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_209|3.7MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: 95.169.9.51
+      servername: senflarelink-node-5najhn.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-5najhn.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_210|4.6MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: 104.224.156.230
+      servername: senflarelink-node-k0dvhn.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-k0dvhn.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_211|4.7MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: 173.242.126.159
+      servername: senflarelink-node-w44zqp.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-w44zqp.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1ED\U0001F1F0HK_21|5.6MB/s"
+      network: ws
+      port: "443"
+      server: 50.114.180.119
+      servername: senflarelink-node-wvu0gh.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-wvu0gh.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_212|4.8MB/s|GPT⁺-US"
+      network: ws
       port: "8443"
-      server: ahysg1.hikigo.com
-      skip-cert-verify: false
-      sni: ahysg1.hikigo.com
-      type: hysteria2
-      up: ""
-    - down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8US_113|3.3MB/s|GPT⁺-US"
-      obfs: salamander
-      obfs-password: 6fltjteoyab7fjf1
-      password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      port: "40055"
-      server: 64.118.154.18
-      skip-cert-verify: true
-      sni: psstatic.cdn.bcebos.com
-      type: hysteria2
-      up: ""
+      server: 179.255.118.6
+      servername: senflarelink-node-i1pg99.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-i1pg99.pages.dev
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_213|1.0MB/s|GPT⁺-US"
+      network: ws
+      port: "8443"
+      server: 69.8.129.60
+      servername: senflarelink-node-lyrx02.pages.dev
+      tls: true
+      type: vless
+      udp: true
+      uuid: e9923122-5d88-43f1-8548-5771d7750ef5
+      ws-opts:
+        headers:
+            Host: senflarelink-node-lyrx02.pages.dev
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_214|7.4MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: ff3117a2-f6d6-45a5-b82a-9df9b24a1426
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_215|7.3MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: f53a3f29-72f9-40fd-8da0-32348f0cf8c4
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_216|5.7MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: barbered-mattocks.video-streams.org
+      servername: barbered-mattocks.video-streams.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: f53a3f29-72f9-40fd-8da0-32348f0cf8c4
+      ws-opts:
+        headers:
+            Host: barbered-mattocks.video-streams.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+        path: /ws
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US_217|4.3MB/s|GPT⁺-US"
+      network: ws
+      port: "443"
+      server: sparkling-gadabout.quick-cdn.net
+      servername: sparkling-gadabout.quick-cdn.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 172f27e4-ba6f-4744-a0eb-7bf15e89ae6c
+      ws-opts:
+        headers:
+            Host: sparkling-gadabout.quick-cdn.net
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /ws
+      xudp: true
